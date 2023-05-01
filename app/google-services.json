@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "601629798393",
+    "firebase_url": "https://colingo-6059a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "colingo-6059a",
+    "storage_bucket": "colingo-6059a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601629798393:android:2925f77f26cec6d309d728",
+        "android_client_info": {
+          "package_name": "com.colledk.colingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601629798393-b05flfrgd3a9pkhua3krljtqag6l9mpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAWXdXGX0NnIqWb8LMAO3xJhvmjLvMlDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601629798393-b05flfrgd3a9pkhua3krljtqag6l9mpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

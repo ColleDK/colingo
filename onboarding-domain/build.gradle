@@ -1,0 +1,50 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        dataBinding = true
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion composeCompilerVer
+    }
+}
+
+dependencies {
+    implementation androidX.activity
+    implementation androidX.composeActivity
+    implementation androidX.appCompat
+
+    // Compose
+    implementation platform(compose.bom)
+    implementation compose.ui
+    implementation compose.tooling
+    implementation compose.material3
+
+    // Firebase
+    implementation google.firebase
+
+    // Timber
+    implementation timber.core
+}
