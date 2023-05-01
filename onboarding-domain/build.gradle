@@ -1,11 +1,8 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.google.gms.google-services'
 
 android {
-    namespace 'com.colledk.colingo'
-
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
@@ -38,10 +35,15 @@ dependencies {
     implementation androidX.composeActivity
     implementation androidX.appCompat
 
+    // Compose
     implementation platform(compose.bom)
     implementation compose.ui
     implementation compose.tooling
     implementation compose.material3
 
+    // Firebase
+    implementation google.firebase
+
+    // Timber
     implementation timber.core
 }
