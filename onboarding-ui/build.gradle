@@ -30,9 +30,28 @@ android {
 }
 
 dependencies {
-    // Firebase
-    implementation google.firebase
+    // Features
+    implementation project(path: ':onboarding-domain')
+
+    implementation androidX.activity
+    implementation androidX.composeActivity
+    implementation androidX.appCompat
+    implementation androidX.livecycle
+    implementation coroutines.core
+
+    // Compose
+    implementation platform(compose.bom)
+    implementation compose.ui
+    implementation compose.tooling
+    implementation compose.foundation
+    implementation compose.material3
+    implementation compose.navigation
+    implementation compose.hiltNavigation
 
     // Timber
     implementation timber.core
+
+    // Hilt
+    implementation hilt.core
+    kapt hilt.compiler
 }

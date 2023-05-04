@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_create_user_page">onboarding_create_user_page</string>
+    <string name="onboarding_create_user_name">Sign up</string>
+</resources>
