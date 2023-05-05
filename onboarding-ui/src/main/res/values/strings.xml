@@ -2,4 +2,11 @@
 <resources>
     <string name="onboarding_create_user_page">onboarding_create_user_page</string>
     <string name="onboarding_create_user_name">Sign up</string>
+    <string name="onboarding_create_user_email_label">E-mail</string>
+    <string name="onboarding_create_user_email_icon_desc">E-mail icon</string>
+    <string name="onboarding_create_user_password_label">Password</string>
+    <string name="onboarding_create_user_repeat_password_label">Repeat password</string>
+    <string name="onboarding_create_user_password_icon_desc">Password icon</string>
+    <string name="onboarding_create_user_btn_label">Sign up</string>
+    <string name="onboarding_create_user_btn_action_label">create a user</string>
 </resources>

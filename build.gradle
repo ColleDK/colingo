@@ -62,7 +62,7 @@ ext {
     compose = [
             bom: "androidx.compose:compose-bom:$composeBomVer",
             ui: 'androidx.compose.ui:ui',
-            tooling: 'androidx.compose.ui:ui-tooling-preview',
+            tooling: 'androidx.compose.ui:ui-tooling',
             material3: 'androidx.compose.material3:material3',
             foundation: 'androidx.compose.foundation:foundation',
             navigation: "androidx.navigation:navigation-compose:$composeNavVer",

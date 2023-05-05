@@ -58,9 +58,3 @@ internal fun OnboardingScreen(
         }
     }
 }
-
-@Preview
-@Composable
-fun OnboardingScreenPreview() {
-    OnboardingScreen(navController = rememberNavController())
-}
