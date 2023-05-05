@@ -7,6 +7,7 @@ import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
 import com.colledk.onboarding.ui.compose.OnboardingScreen
+import com.colledk.onboarding.ui.compose.signup.CreateUserScreen
 
 private const val onboardingGraphRoutePattern = "onboarding_graph"
 const val onboardingRoute = "onboarding_route"
@@ -31,6 +32,10 @@ fun NavGraphBuilder.onboardingGraph(
             OnboardingScreen(
                 navController = navHostController
             )
+        }
+
+        composable(route = signUpRoute) {
+            CreateUserScreen()
         }
     }
 }

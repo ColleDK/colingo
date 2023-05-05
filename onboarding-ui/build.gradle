@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'
 
 android {
     compileSdkVersion versions.compileSdk
@@ -52,6 +53,6 @@ dependencies {
     implementation timber.core
 
     // Hilt
-    implementation hilt.core
-    kapt hilt.compiler
+    implementation daggerHilt.core
+    kapt daggerHilt.compiler
 }

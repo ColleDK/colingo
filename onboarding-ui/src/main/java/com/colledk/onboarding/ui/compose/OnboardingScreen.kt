@@ -11,6 +11,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -22,6 +23,7 @@ import androidx.navigation.compose.rememberNavController
 import com.colledk.onboarding.ui.OnboardingViewModel
 import com.colledk.onboarding.ui.R
 import com.colledk.onboarding.ui.navigation.navigateToSignUp
+import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
@@ -31,6 +33,10 @@ internal fun OnboardingScreen(
 ) {
     val tabs by viewModel.tabs.collectAsState()
     val pagerState = rememberPagerState()
+
+    LaunchedEffect(key1 = tabs) {
+        Timber.d("Got new tabs $tabs")
+    }
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
@@ -50,9 +56,12 @@ internal fun OnboardingScreen(
                 .fillMaxSize()
                 .padding(paddingValues = padding)
         ) { page ->
-            when (page) {
-                R.string.onboarding_create_user_page -> {
-                    navController.navigateToSignUp()
+
+            LaunchedEffect(key1 = tabs.getOrNull(page)?.id) {
+                when(tabs.getOrNull(page)?.id) {
+                    R.string.onboarding_create_user_page -> {
+                        navController.navigateToSignUp()
+                    }
                 }
             }
         }

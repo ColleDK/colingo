@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">colingo</string>
+    <string name="destination_home_icon">Homepage</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_search_icon">Search</string>
+    <string name="destination_search_label">Search</string>
+    <string name="destination_profile_icon">Profile</string>
+    <string name="destination_profile_label">Profile</string>
 </resources>
