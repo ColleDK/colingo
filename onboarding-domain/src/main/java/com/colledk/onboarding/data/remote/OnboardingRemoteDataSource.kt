@@ -11,9 +11,10 @@ import kotlinx.coroutines.tasks.await
 import java.io.IOException
 
 class OnboardingRemoteDataSource(
-    private val db: FirebaseFirestore = Firebase.firestore,
-    private val auth: FirebaseAuth = Firebase.auth
+
 ) {
+    private val db: FirebaseFirestore = Firebase.firestore
+    private val auth: FirebaseAuth = Firebase.auth
 
     suspend fun getCountries(): Result<List<CountryRemote>> {
         return try {

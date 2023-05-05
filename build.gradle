@@ -71,7 +71,7 @@ ext {
             hiltNavigation: "androidx.hilt:hilt-navigation-compose:$hiltNavVer"
     ]
 
-    hilt = [
+    daggerHilt = [
             core: "com.google.dagger:hilt-android:$hiltVer",
             compiler: "com.google.dagger:hilt-compiler:$hiltVer",
     ]

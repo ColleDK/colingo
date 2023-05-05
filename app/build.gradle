@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'dagger.hilt.android.plugin'
 
 android {
     namespace 'com.colledk.colingo'
@@ -34,6 +35,10 @@ android {
 }
 
 dependencies {
+    // Features
+    implementation project(path: ':onboarding-ui')
+    implementation project(path: ':onboarding-domain')
+
     implementation androidX.activity
     implementation androidX.composeActivity
     implementation androidX.appCompat
@@ -42,6 +47,12 @@ dependencies {
     implementation compose.ui
     implementation compose.tooling
     implementation compose.material3
+    implementation compose.navigation
 
+    // Timber
     implementation timber.core
+
+    // Hilt
+    implementation daggerHilt.core
+    kapt daggerHilt.compiler
 }
