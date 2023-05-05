@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion composeCompilerVer
+    }
+}
+
+dependencies {
+    // Features
+    implementation project(path: ':onboarding-domain')
+
+    implementation androidX.activity
+    implementation androidX.composeActivity
+    implementation androidX.appCompat
+    implementation androidX.livecycle
+    implementation coroutines.core
+
+    // Compose
+    implementation platform(compose.bom)
+    implementation compose.ui
+    implementation compose.tooling
+    implementation compose.foundation
+    implementation compose.material3
+    implementation compose.navigation
+    implementation compose.hiltNavigation
+
+    // Timber
+    implementation timber.core
+
+    // Hilt
+    implementation hilt.core
+    kapt hilt.compiler
+}

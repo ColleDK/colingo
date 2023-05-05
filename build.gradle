@@ -1,8 +1,9 @@
 buildscript {
-    ext.composeCompilerVer = "1.3.0"
+    ext.composeCompilerVer = "1.4.0"
     ext.gradle_version = "7.3.0"
-    ext.kotlin_version = "1.7.10"
+    ext.kotlin_version = "1.8.0"
     ext.gms_version = "4.3.15"
+    ext.hiltVer = "2.44"
 
     repositories {
         google()
@@ -14,6 +15,7 @@ buildscript {
         classpath "com.android.tools.build:gradle:$gradle_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.google.gms:google-services:$gms_version"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVer"
     }
 }
 
@@ -31,10 +33,17 @@ ext {
 
     activityVer = "1.6.1"
     appCompatVer = "1.6.0"
+    lifecycleVer = "2.4.0"
     androidX = [
             activity          : "androidx.activity:activity-ktx:$activityVer",
             composeActivity   : "androidx.activity:activity-compose:$activityVer",
-            appCompat         : "androidx.appcompat:appcompat:$appCompatVer"
+            appCompat         : "androidx.appcompat:appcompat:$appCompatVer",
+            livecycle         : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer"
+    ]
+
+    coroutinesVer = "1.4.2"
+    coroutines = [
+            core: "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVer"
     ]
 
     firebaseVersion = "24.4.1"
@@ -47,12 +56,22 @@ ext {
             core: "com.jakewharton.timber:timber:$timberVer"
     ]
 
-    composeBomVer = "2022.10.00"
+    composeBomVer = "2023.04.01"
+    composeNavVer = "2.5.3"
+    hiltNavVer = "1.0.0"
     compose = [
             bom: "androidx.compose:compose-bom:$composeBomVer",
             ui: 'androidx.compose.ui:ui',
-            tooling: 'androidx.compose.ui:ui-tooling-preview',
+            tooling: 'androidx.compose.ui:ui-tooling',
             material3: 'androidx.compose.material3:material3',
+            foundation: 'androidx.compose.foundation:foundation',
+            navigation: "androidx.navigation:navigation-compose:$composeNavVer",
+            hiltNavigation: "androidx.hilt:hilt-navigation-compose:$hiltNavVer"
+    ]
+
+    hilt = [
+            core: "com.google.dagger:hilt-android:$hiltVer",
+            compiler: "com.google.dagger:hilt-compiler:$hiltVer",
     ]
 
     timberVer = "5.0.1"

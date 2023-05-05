@@ -19,28 +19,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
-
-    buildFeatures {
-        dataBinding = true
-        compose = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion composeCompilerVer
-    }
 }
 
 dependencies {
-    implementation androidX.activity
-    implementation androidX.composeActivity
-    implementation androidX.appCompat
-
-    // Compose
-    implementation platform(compose.bom)
-    implementation compose.ui
-    implementation compose.tooling
-    implementation compose.material3
-
     // Firebase
     implementation google.firebase
 
