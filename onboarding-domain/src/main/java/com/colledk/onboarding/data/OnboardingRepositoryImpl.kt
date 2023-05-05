@@ -21,4 +21,11 @@ class OnboardingRepositoryImpl(
 
         return@withContext Result.success(countries.map { it.mapToDomain() })
     }
+
+    override suspend fun createUser(email: String, password: String): Result<Unit> = withContext(dispatcher) {
+        remoteDataSource.createUser(
+            email = email,
+            password = password
+        )
+    }
 }

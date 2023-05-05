@@ -4,4 +4,6 @@ import com.colledk.onboarding.domain.model.Country
 
 interface OnboardingRepository {
     suspend fun getCountries(): Result<List<Country>>
+
+    suspend fun createUser(email: String, password: String): Result<Unit>
 }
