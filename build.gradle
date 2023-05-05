@@ -46,9 +46,11 @@ ext {
             core: "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVer"
     ]
 
-    firebaseVersion = "24.4.1"
+    firebaseVersion = "32.0.0"
     google = [
-            firebase: "com.google.firebase:firebase-firestore-ktx:$firebaseVersion"
+            bom: "com.google.firebase:firebase-bom:$firebaseVersion",
+            firestore: 'com.google.firebase:firebase-firestore-ktx',
+            auth: 'com.google.firebase:firebase-auth-ktx'
     ]
 
     timberVer = "5.0.1"

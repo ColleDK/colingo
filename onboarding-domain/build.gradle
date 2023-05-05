@@ -23,7 +23,9 @@ android {
 
 dependencies {
     // Firebase
-    implementation google.firebase
+    implementation platform(google.bom)
+    implementation google.firestore
+    implementation google.auth
 
     // Timber
     implementation timber.core

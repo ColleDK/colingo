@@ -2,13 +2,17 @@ package com.colledk.onboarding.data.remote
 
 import com.colledk.onboarding.data.mapper.toCountryRemote
 import com.colledk.onboarding.data.remote.model.CountryRemote
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.coroutines.tasks.await
+import java.io.IOException
 
 class OnboardingRemoteDataSource(
-    private val db: FirebaseFirestore = Firebase.firestore
+    private val db: FirebaseFirestore = Firebase.firestore,
+    private val auth: FirebaseAuth = Firebase.auth
 ) {
 
     suspend fun getCountries(): Result<List<CountryRemote>> {
@@ -21,6 +25,23 @@ class OnboardingRemoteDataSource(
                     it.data?.toCountryRemote()
                 }
             Result.success(countries)
+        } catch (e: Exception) {
+            Result.failure(exception = e)
+        }
+    }
+
+    suspend fun createUser(
+        email: String,
+        password: String
+    ): Result<Unit> {
+        return try {
+            auth.createUserWithEmailAndPassword(
+                email, password
+            ).await().user?.let {
+                Result.success(Unit)
+            } ?: run {
+                Result.failure(IOException())
+            }
         } catch (e: Exception) {
             Result.failure(exception = e)
         }
