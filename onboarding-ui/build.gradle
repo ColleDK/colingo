@@ -33,6 +33,7 @@ android {
 dependencies {
     // Features
     implementation project(path: ':onboarding-domain')
+    implementation project(path: ':country-lib')
 
     implementation androidX.activity
     implementation androidX.composeActivity

@@ -1,7 +1,6 @@
 package com.colledk.onboarding.data.remote
 
-import com.colledk.onboarding.data.mapper.toCountryRemote
-import com.colledk.onboarding.data.remote.model.CountryRemote
+import com.colledk.country.data.remote.model.CountryRemote
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -23,8 +22,9 @@ class OnboardingRemoteDataSource(
                 .await()
                 .documents
                 .mapNotNull {
-                    it.data?.toCountryRemote()
+                    it.toObject(CountryRemote::class.java)
                 }
+
             Result.success(countries)
         } catch (e: Exception) {
             Result.failure(exception = e)

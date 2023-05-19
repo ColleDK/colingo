@@ -1,9 +1,9 @@
 package com.colledk.onboarding.data
 
-import com.colledk.onboarding.data.mapper.mapToDomain
+import com.colledk.country.data.mapper.mapToDomain
+import com.colledk.country.data.remote.model.CountryRemote
+import com.colledk.country.domain.model.Country
 import com.colledk.onboarding.data.remote.OnboardingRemoteDataSource
-import com.colledk.onboarding.data.remote.model.CountryRemote
-import com.colledk.onboarding.domain.model.Country
 import com.colledk.onboarding.domain.repository.OnboardingRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers

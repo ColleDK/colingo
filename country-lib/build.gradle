@@ -22,13 +22,6 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':country-lib')
-
-    // Firebase
-    implementation platform(google.bom)
-    implementation google.firestore
-    implementation google.auth
-
     // Timber
     implementation timber.core
 }

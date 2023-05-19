@@ -1,6 +1,6 @@
 package com.colledk.onboarding.domain.usecase
 
-import com.colledk.onboarding.domain.model.Country
+import com.colledk.country.domain.model.Country
 import com.colledk.onboarding.domain.repository.OnboardingRepository
 
 class GetCountriesUseCase(
