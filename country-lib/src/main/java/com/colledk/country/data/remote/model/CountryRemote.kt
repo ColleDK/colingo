@@ -1,4 +1,4 @@
-package com.colledk.onboarding.data.remote.model
+package com.colledk.country.data.remote.model
 
 data class CountryRemote(
     val name: String,

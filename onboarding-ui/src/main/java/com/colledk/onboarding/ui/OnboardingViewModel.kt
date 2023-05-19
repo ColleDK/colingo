@@ -2,7 +2,7 @@ package com.colledk.onboarding.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.colledk.onboarding.domain.model.Country
+import com.colledk.country.domain.model.Country
 import com.colledk.onboarding.domain.usecase.GetCountriesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
@@ -54,7 +54,7 @@ class OnboardingViewModel @Inject constructor(
     }
 
     private fun updateUiState(
-        countries: List<Country>? = null
+        countries: List<com.colledk.country.domain.model.Country>? = null
     ) {
         val currentState = _uiState.value
         _uiState.value = currentState.copy(
