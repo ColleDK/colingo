@@ -13,6 +13,9 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "colingo"
-include ':app'
-include ':onboarding-domain'
-include ':onboarding-ui'
+
+include ':app',
+        ':onboarding-domain',
+        ':onboarding-ui',
+        ':profile-domain',
+        ':country-lib'

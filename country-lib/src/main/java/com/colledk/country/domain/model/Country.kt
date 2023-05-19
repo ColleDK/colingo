@@ -1,4 +1,4 @@
-package com.colledk.onboarding.domain.model
+package com.colledk.country.domain.model
 
 data class Country(
     val name: String,
