@@ -17,17 +17,17 @@ enum class TopLevelDestination(
     @StringRes val iconTextId: Int,
     @StringRes val titleTextId: Int
 ) {
-    HOME(
-        selectedIcon = Icons.Filled.Home,
-        unselectedIcon = Icons.Outlined.Home,
-        iconTextId = R.string.destination_home_icon,
-        titleTextId = R.string.destination_home_label
-    ),
     SEARCH(
         selectedIcon = Icons.Filled.Search,
         unselectedIcon = Icons.Outlined.Search,
         iconTextId = R.string.destination_search_icon,
         titleTextId = R.string.destination_search_label
+    ),
+    HOME(
+        selectedIcon = Icons.Filled.Home,
+        unselectedIcon = Icons.Outlined.Home,
+        iconTextId = R.string.destination_home_icon,
+        titleTextId = R.string.destination_home_label
     ),
     PROFILE(
         selectedIcon = Icons.Filled.Person,

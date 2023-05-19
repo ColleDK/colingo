@@ -10,6 +10,8 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
 import com.colledk.colingo.navigation.TopLevelDestination
+import com.colledk.colingo.navigation.homeScreenRoute
+import com.colledk.colingo.navigation.navigateToHomeScreen
 
 @Composable
 fun rememberColingoAppState(
@@ -34,6 +36,7 @@ class ColingoAppState(
 
     val currentTopLevelDestination: TopLevelDestination?
         @Composable get() = when(currentDestination?.route) {
+            homeScreenRoute -> TopLevelDestination.HOME
             else -> null
         }
 
@@ -51,7 +54,7 @@ class ColingoAppState(
         }
 
         when(topLevelDestination) {
-            TopLevelDestination.HOME -> {}
+            TopLevelDestination.HOME -> { navController.navigateToHomeScreen(navOptions = topLevelNavOptions) }
             TopLevelDestination.SEARCH -> {}
             TopLevelDestination.PROFILE -> {}
         }
