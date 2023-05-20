@@ -18,4 +18,5 @@ include ':app',
         ':onboarding-domain',
         ':onboarding-ui',
         ':profile-domain',
-        ':country-lib'
+        ':country-lib',
+        ':accessibility-test-lib'

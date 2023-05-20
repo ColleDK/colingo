@@ -44,6 +44,24 @@ internal fun CreateUserScreen(
     viewModel: CreateUserViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
+
+    CreateUserScreen(
+        uiState = uiState,
+        updateEmail = viewModel::updateEmail,
+        updatePassword = viewModel::updatePassword,
+        updateRepeatPassword = viewModel::updateRepeatPassword,
+        onCreateUser = viewModel::createUser
+    )
+}
+
+@Composable
+internal fun CreateUserScreen(
+    uiState: CreateUserUiState,
+    updateEmail: (String) -> Unit,
+    updatePassword: (String) -> Unit,
+    updateRepeatPassword: (String) -> Unit,
+    onCreateUser: (email: String, password: String, repeatPassword: String) -> Unit
+) {
     val localFocusManager = LocalFocusManager.current
 
     Column(
@@ -61,7 +79,7 @@ internal fun CreateUserScreen(
 
         CreateUserInputField(
             value = uiState.email,
-            onValueChange = viewModel::updateEmail,
+            onValueChange = updateEmail,
             labelName = R.string.onboarding_create_user_email_label,
             icon = Icons.Filled.Email,
             iconDescription = R.string.onboarding_create_user_email_icon_desc,
@@ -79,7 +97,7 @@ internal fun CreateUserScreen(
         CreateUserInputField(
             value = uiState.password,
             labelName = R.string.onboarding_create_user_password_label,
-            onValueChange = viewModel::updatePassword,
+            onValueChange = updatePassword,
             icon = Icons.Filled.Lock,
             iconDescription = R.string.onboarding_create_user_password_icon_desc,
             keyboardOptions = KeyboardOptions(
@@ -96,7 +114,7 @@ internal fun CreateUserScreen(
         CreateUserInputField(
             value = uiState.repeatPassword,
             labelName = R.string.onboarding_create_user_repeat_password_label,
-            onValueChange = viewModel::updateRepeatPassword,
+            onValueChange = updateRepeatPassword,
             icon = Icons.Filled.Lock,
             iconDescription = R.string.onboarding_create_user_password_icon_desc,
             keyboardOptions = KeyboardOptions(
@@ -106,10 +124,10 @@ internal fun CreateUserScreen(
             keyboardActions = KeyboardActions(
                 onDone = {
                     localFocusManager.clearFocus()
-                    viewModel.createUser(
-                        email = uiState.email,
-                        password = uiState.password,
-                        repeatPassword = uiState.repeatPassword
+                    onCreateUser(
+                        uiState.email,
+                        uiState.password,
+                        uiState.repeatPassword
                     )
                 }
             ),
@@ -118,10 +136,10 @@ internal fun CreateUserScreen(
 
         CreateUserSignUpButton(
             onClick = {
-                viewModel.createUser(
-                    email = uiState.email,
-                    password = uiState.password,
-                    repeatPassword = uiState.repeatPassword
+                onCreateUser(
+                    uiState.email,
+                    uiState.password,
+                    uiState.repeatPassword
                 )
             },
             enabled = uiState.isButtonEnabled
@@ -206,10 +224,14 @@ private fun CreateUserSignUpButton(
     fontScale = 1f
 )
 @Composable
-fun CreateUserScreenPreview(
-
-) {
+fun CreateUserScreenPreview() {
     Surface(modifier = Modifier.background(MaterialTheme.colorScheme.background)) {
-        CreateUserScreen()
+        CreateUserScreen(
+            uiState = CreateUserUiState(),
+            updateEmail = {},
+            updatePassword = {},
+            updateRepeatPassword = {},
+            onCreateUser = {_, _, _ -> }
+        )
     }
 }

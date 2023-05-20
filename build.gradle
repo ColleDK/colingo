@@ -36,11 +36,15 @@ ext {
     activityVer = "1.6.1"
     appCompatVer = "1.6.0"
     lifecycleVer = "2.4.0"
+    coreVer = "1.9.0"
+    testJunitVer = "1.1.5"
     androidX = [
+            core              : "androidx.core:core-ktx:$coreVer",
             activity          : "androidx.activity:activity-ktx:$activityVer",
             composeActivity   : "androidx.activity:activity-compose:$activityVer",
             appCompat         : "androidx.appcompat:appcompat:$appCompatVer",
-            livecycle         : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer"
+            livecycle         : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer",
+            testJunit         : "androidx.test.ext:junit:$testJunitVer"
     ]
 
     coroutinesVer = "1.4.2"
@@ -70,7 +74,9 @@ ext {
             material3: 'androidx.compose.material3:material3',
             foundation: 'androidx.compose.foundation:foundation',
             navigation: "androidx.navigation:navigation-compose:$composeNavVer",
-            hiltNavigation: "androidx.hilt:hilt-navigation-compose:$hiltNavVer"
+            hiltNavigation: "androidx.hilt:hilt-navigation-compose:$hiltNavVer",
+            uiTest: 'androidx.compose.ui:ui-test-junit4',
+            uiTestManifest: 'androidx.compose.ui:ui-test-manifest'
     ]
 
     daggerHilt = [
@@ -81,5 +87,10 @@ ext {
     timberVer = "5.0.1"
     timber = [
             core: "com.jakewharton.timber:timber:$timberVer"
+    ]
+
+    junitVer = "4.13.2"
+    junit = [
+            core: "junit:junit:$junitVer"
     ]
 }
