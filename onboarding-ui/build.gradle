@@ -56,4 +56,13 @@ dependencies {
     // Hilt
     implementation daggerHilt.core
     kapt daggerHilt.compiler
+
+    // Testing
+    testImplementation project(":accessibility-test-lib")
+    androidTestImplementation project(":accessibility-test-lib")
+
+    androidTestImplementation androidX.testJunit
+    androidTestImplementation junit.core
+    androidTestImplementation compose.uiTest
+    androidTestImplementation compose.uiTestManifest
 }
