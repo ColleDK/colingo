@@ -6,6 +6,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.colledk.chat.ui.navigation.chatGraph
 import com.colledk.colingo.ColingoAppState
 import com.colledk.colingo.compose.ColingoApp
 import com.colledk.colingo.compose.HomeScreen
@@ -38,5 +39,7 @@ fun ColingoNavHost(
         homeScreen()
 
         onboardingGraph(navHostController = navController)
+
+        chatGraph(navHostController = navController)
     }
 }

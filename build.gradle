@@ -28,9 +28,9 @@ plugins {
 ext {
 
     versions = [
-            'compileSdk' : 33,
+            'compileSdk': 33,
             'targetSdk' : 31,
-            'minSdk' : 26
+            'minSdk'    : 26
     ]
 
     activityVer = "1.6.1"
@@ -39,12 +39,12 @@ ext {
     coreVer = "1.9.0"
     testJunitVer = "1.1.5"
     androidX = [
-            core              : "androidx.core:core-ktx:$coreVer",
-            activity          : "androidx.activity:activity-ktx:$activityVer",
-            composeActivity   : "androidx.activity:activity-compose:$activityVer",
-            appCompat         : "androidx.appcompat:appcompat:$appCompatVer",
-            livecycle         : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer",
-            testJunit         : "androidx.test.ext:junit:$testJunitVer"
+            core           : "androidx.core:core-ktx:$coreVer",
+            activity       : "androidx.activity:activity-ktx:$activityVer",
+            composeActivity: "androidx.activity:activity-compose:$activityVer",
+            appCompat      : "androidx.appcompat:appcompat:$appCompatVer",
+            livecycle      : "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVer",
+            testJunit      : "androidx.test.ext:junit:$testJunitVer"
     ]
 
     coroutinesVer = "1.4.2"
@@ -54,9 +54,9 @@ ext {
 
     firebaseVersion = "32.0.0"
     google = [
-            bom: "com.google.firebase:firebase-bom:$firebaseVersion",
+            bom      : "com.google.firebase:firebase-bom:$firebaseVersion",
             firestore: 'com.google.firebase:firebase-firestore-ktx',
-            auth: 'com.google.firebase:firebase-auth-ktx'
+            auth     : 'com.google.firebase:firebase-auth-ktx'
     ]
 
     timberVer = "5.0.1"
@@ -68,19 +68,20 @@ ext {
     composeNavVer = "2.5.3"
     hiltNavVer = "1.0.0"
     compose = [
-            bom: "androidx.compose:compose-bom:$composeBomVer",
-            ui: 'androidx.compose.ui:ui',
-            tooling: 'androidx.compose.ui:ui-tooling',
-            material3: 'androidx.compose.material3:material3',
-            foundation: 'androidx.compose.foundation:foundation',
-            navigation: "androidx.navigation:navigation-compose:$composeNavVer",
+            bom           : "androidx.compose:compose-bom:$composeBomVer",
+            ui            : 'androidx.compose.ui:ui',
+            tooling       : 'androidx.compose.ui:ui-tooling',
+            material3     : 'androidx.compose.material3:material3',
+            foundation    : 'androidx.compose.foundation:foundation',
+            navigation    : "androidx.navigation:navigation-compose:$composeNavVer",
             hiltNavigation: "androidx.hilt:hilt-navigation-compose:$hiltNavVer",
-            uiTest: 'androidx.compose.ui:ui-test-junit4',
-            uiTestManifest: 'androidx.compose.ui:ui-test-manifest'
+            uiTest        : 'androidx.compose.ui:ui-test-junit4',
+            uiTestManifest: 'androidx.compose.ui:ui-test-manifest',
+            extendedIcons : 'androidx.compose.material:material-icons-extended'
     ]
 
     daggerHilt = [
-            core: "com.google.dagger:hilt-android:$hiltVer",
+            core    : "com.google.dagger:hilt-android:$hiltVer",
             compiler: "com.google.dagger:hilt-compiler:$hiltVer",
     ]
 
@@ -92,5 +93,10 @@ ext {
     junitVer = "4.13.2"
     junit = [
             core: "junit:junit:$junitVer"
+    ]
+
+    coilVer = "2.3.0"
+    coil = [
+            compose: "io.coil-kt:coil-compose:$coilVer"
     ]
 }

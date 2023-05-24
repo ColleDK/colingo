@@ -1,12 +1,9 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.google.gms.google-services'
 apply plugin: 'dagger.hilt.android.plugin'
 
 android {
-    namespace 'com.colledk.colingo'
-
     compileSdkVersion versions.compileSdk
 
     defaultConfig {
@@ -25,7 +22,6 @@ android {
     }
 
     buildFeatures {
-        dataBinding = true
         compose = true
     }
 
@@ -36,20 +32,23 @@ android {
 
 dependencies {
     // Features
-    implementation project(path: ':onboarding-ui')
-    implementation project(path: ':chat-ui')
-    implementation project(path: ':onboarding-domain')
+    implementation project(path: ':profile-domain')
 
     implementation androidX.activity
     implementation androidX.composeActivity
     implementation androidX.appCompat
+    implementation androidX.livecycle
+    implementation coroutines.core
 
+    // Compose
     implementation platform(compose.bom)
     implementation compose.ui
     implementation compose.tooling
+    implementation compose.foundation
     implementation compose.material3
     implementation compose.navigation
-    implementation compose.extendedIcons
+    implementation compose.hiltNavigation
+    implementation coil.compose
 
     // Timber
     implementation timber.core
@@ -57,4 +56,13 @@ dependencies {
     // Hilt
     implementation daggerHilt.core
     kapt daggerHilt.compiler
+
+    // Testing
+    testImplementation project(":accessibility-test-lib")
+    androidTestImplementation project(":accessibility-test-lib")
+
+    androidTestImplementation androidX.testJunit
+    androidTestImplementation junit.core
+    androidTestImplementation compose.uiTest
+    androidTestImplementation compose.uiTestManifest
 }
