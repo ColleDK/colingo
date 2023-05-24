@@ -9,6 +9,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
+import com.colledk.chat.ui.navigation.chatRoute
+import com.colledk.chat.ui.navigation.navigateToChatGraph
 import com.colledk.colingo.navigation.TopLevelDestination
 import com.colledk.colingo.navigation.homeScreenRoute
 import com.colledk.colingo.navigation.navigateToHomeScreen
@@ -35,8 +37,9 @@ class ColingoAppState(
         @Composable get() = navController.currentBackStackEntryAsState().value?.destination
 
     val currentTopLevelDestination: TopLevelDestination?
-        @Composable get() = when(currentDestination?.route) {
+        @Composable get() = when (currentDestination?.route) {
             homeScreenRoute -> TopLevelDestination.HOME
+            chatRoute -> TopLevelDestination.CHAT
             else -> null
         }
 
@@ -53,10 +56,16 @@ class ColingoAppState(
             restoreState = true
         }
 
-        when(topLevelDestination) {
-            TopLevelDestination.HOME -> { navController.navigateToHomeScreen(navOptions = topLevelNavOptions) }
+        when (topLevelDestination) {
+            TopLevelDestination.HOME -> {
+                navController.navigateToHomeScreen(navOptions = topLevelNavOptions)
+            }
+
             TopLevelDestination.SEARCH -> {}
             TopLevelDestination.PROFILE -> {}
+            TopLevelDestination.CHAT -> {
+                navController.navigateToChatGraph(navOptions = topLevelNavOptions)
+            }
         }
     }
 }

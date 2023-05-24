@@ -6,4 +6,6 @@
     <string name="destination_search_label">Search</string>
     <string name="destination_profile_icon">Profile</string>
     <string name="destination_profile_label">Profile</string>
+    <string name="destination_chat_icon">Messages</string>
+    <string name="destination_chat_label">Messages</string>
 </resources>
