@@ -65,6 +65,8 @@ dependencies {
 
     // Hilt
     implementation(libs.hilt.android)
+    implementation(libs.androidx.junit.ktx)
+    implementation(libs.androidx.monitor)
     kapt(libs.hilt.compiler)
 
     // Timber
