@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.hilt.android)
     implementation(libs.androidx.junit.ktx)
     implementation(libs.androidx.monitor)
+    implementation(libs.androidx.material3.adaptive.navigation.suite.android)
     kapt(libs.hilt.compiler)
 
     // Timber
