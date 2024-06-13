@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "colingo"
 include(":app")
+include(":onboarding")
