@@ -28,6 +28,8 @@ google-services = "4.4.1"
 firebase-db = "20.3.1"
 firebase-firestore = "24.11.0"
 coil = "2.6.0"
+junitKtx = "1.1.5"
+monitor = "1.6.1"
 
 [libraries]
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -71,6 +73,8 @@ espresso-core = { group = "androidx.test.espresso", name = "espresso-core", vers
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
 
 [bundles]
 compose = ["compose-bom", "compose-ui", "compose-material", "compose-material3", "compose-foundation", "compose-livedata", "compose-ui-tooling", "compose-extended-icons", "compose-ui-util"]
