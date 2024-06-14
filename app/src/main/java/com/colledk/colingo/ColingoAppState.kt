@@ -10,11 +10,16 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
 import com.colledk.colingo.navigation.TopLevelDestination
+import com.colledk.colingo.navigation.chatPaneRoute
+import com.colledk.colingo.navigation.explorePaneRoute
+import com.colledk.colingo.navigation.homePaneRoute
 import com.colledk.colingo.navigation.navigateToChatPane
 import com.colledk.colingo.navigation.navigateToExplorePane
 import com.colledk.colingo.navigation.navigateToHomePane
 import com.colledk.colingo.navigation.navigateToProfilePane
 import com.colledk.colingo.navigation.navigateToSettingsPane
+import com.colledk.colingo.navigation.profilePaneRoute
+import com.colledk.colingo.navigation.settingsPaneRoute
 
 @Composable
 fun rememberColingoAppState(
@@ -34,6 +39,11 @@ data class ColingoAppState(
 
     val currentTopLevelDestination: TopLevelDestination?
         @Composable get() = when (currentDestination?.route) {
+            homePaneRoute -> TopLevelDestination.HOME
+            explorePaneRoute -> TopLevelDestination.EXPLORE
+            chatPaneRoute -> TopLevelDestination.CHAT
+            profilePaneRoute -> TopLevelDestination.PROFILE
+            settingsPaneRoute -> TopLevelDestination.SETTINGS
             else -> null
         }
 

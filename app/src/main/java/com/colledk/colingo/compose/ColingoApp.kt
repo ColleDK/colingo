@@ -4,7 +4,9 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.Icon
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.movableContentOf
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.util.fastForEach
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -17,31 +19,34 @@ import com.colledk.colingo.rememberColingoAppState
 internal fun ColingoApp(
     appState: ColingoAppState = rememberColingoAppState()
 ) {
-    val currentDestination = appState.currentDestination
+    val currentDestination = appState.currentTopLevelDestination
 
-    NavigationSuiteScaffold(
-        navigationSuiteItems = {
-            appState.topLevelDestinations.fastForEach { destination ->
-                val isSelected = currentDestination.isTopLevelDestinationInHierarchy(destination)
-                item(
-                    icon = {
-                        Icon(
-                            imageVector = destination.icon,
-                            contentDescription = destination.iconDescription
-                        )
-                    },
-                    label = { Text(text = stringResource(id = destination.titleText)) },
-                    selected = isSelected,
-                    onClick = { appState.navigateToTopLevelDestination(destination) }
-                )
-            }
-        }
-    ) {
+    val app = movableContentOf {
         ColingoNavHost(appState = appState)
     }
-}
 
-private fun NavDestination?.isTopLevelDestinationInHierarchy(destination: TopLevelDestination) =
-    this?.hierarchy?.any {
-        it.route?.contains(destination.name, true) ?: false
-    } ?: false
+    if (currentDestination != null) {
+        NavigationSuiteScaffold(
+            navigationSuiteItems = {
+                appState.topLevelDestinations.fastForEach { destination ->
+                    val isSelected = destination == currentDestination
+                    item(
+                        icon = {
+                            Icon(
+                                imageVector = destination.icon,
+                                contentDescription = destination.iconDescription
+                            )
+                        },
+                        label = { Text(text = stringResource(id = destination.titleText), fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal) },
+                        selected = isSelected,
+                        onClick = { appState.navigateToTopLevelDestination(destination) }
+                    )
+                }
+            }
+        ) {
+            app()
+        }
+    } else {
+        app()
+    }
+}

@@ -17,6 +17,7 @@ android {
         targetSdk = libs.versions.targetSdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
 
     kotlin {
@@ -58,6 +59,9 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.splashscreen)
     implementation(libs.androidx.core.ktx)
+
+    // Internal modules
+    implementation(project(":onboarding"))
 
     // Compose
     implementation(platform(libs.compose.bom))
