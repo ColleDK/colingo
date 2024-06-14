@@ -82,9 +82,23 @@ fun OnboardingPane(modifier: Modifier = Modifier, onFinishOnboarding: () -> Unit
             AnimatedPane {
                 navigator.currentDestination?.content?.let {
                     if (it == OnboardingDestination.LOG_IN) {
-                        LoginPane({}, { _, _ -> }, {})
+                        LoginPane(
+                            onForgotPassword = {},
+                            onLogin = { _, _ -> },
+                            onGoToSignup = {
+                                navigator.navigateTo(
+                                    ListDetailPaneScaffoldRole.Detail,
+                                    OnboardingDestination.SIGN_UP
+                                )
+                            }
+                        )
                     } else {
-                        // TODO
+                        SignupPane(onRegister = { _, _, _ -> }, goToLogin = {
+                            navigator.navigateTo(
+                                ListDetailPaneScaffoldRole.Detail,
+                                OnboardingDestination.LOG_IN
+                            )
+                        })
                     }
                 }
             }
