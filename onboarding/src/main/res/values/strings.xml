@@ -1,0 +1,32 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Or continue with</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continue as guest</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Log in to your account</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Don\'t have an account yet? </string>
+    <string name="login_go_to_signup_2">Sign up</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Create your account</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Confirm password</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Already have an account?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+</resources>

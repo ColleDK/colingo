@@ -1,5 +1,8 @@
 package com.colledk.colingo.navigation
 
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavController
@@ -13,6 +16,8 @@ import com.colledk.colingo.compose.ExplorePane
 import com.colledk.colingo.compose.HomePane
 import com.colledk.colingo.compose.ProfilePane
 import com.colledk.colingo.compose.SettingsPane
+import com.colledk.onboarding.navigation.onboardingPane
+import com.colledk.onboarding.navigation.onboardingPaneRoute
 
 // TODO temporary navigation, should be moved to separate modules
 const val homePaneRoute = "homepage_route"
@@ -74,13 +79,21 @@ fun NavController.navigateToSettingsPane(navOptions: NavOptions? = null) {
 @Composable
 fun ColingoNavHost(
     appState: ColingoAppState,
-    startDestination: String = homePaneRoute
+    startDestination: String = onboardingPaneRoute
 ) {
     val navController = appState.navController
     NavHost(
+        modifier = Modifier.fillMaxSize(),
         navController = navController,
-        startDestination = startDestination
+        startDestination = startDestination,
+        enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(700)) },
+        exitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(700)) },
+        popEnterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) },
+        popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) }
     ) {
+        onboardingPane {
+            navController.navigateToHomePane()
+        }
         homePane()
         explorePane()
         chatPane()
