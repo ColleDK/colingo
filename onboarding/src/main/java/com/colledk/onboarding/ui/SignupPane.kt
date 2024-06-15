@@ -1,5 +1,6 @@
 package com.colledk.onboarding.ui
 
+import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -37,11 +38,12 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
 
 @Composable
-internal fun SignupPane(
+fun SignupPane(
     onRegister: (name: String, email: String, password: String) -> Unit,
     goToLogin: () -> Unit,
     modifier: Modifier = Modifier
@@ -94,7 +96,7 @@ internal fun SignupPane(
         TextField(
             value = name,
             onValueChange = { name = it },
-            placeholder = {
+            label = {
                 Text(
                     text = stringResource(id = R.string.signup_name_hint),
                     style = MaterialTheme.typography.bodyMedium,
@@ -122,7 +124,7 @@ internal fun SignupPane(
         TextField(
             value = email,
             onValueChange = { email = it },
-            placeholder = {
+            label = {
                 Text(
                     text = stringResource(id = R.string.signup_email_hint),
                     style = MaterialTheme.typography.bodyMedium,
@@ -151,7 +153,7 @@ internal fun SignupPane(
         TextField(
             value = password,
             onValueChange = { password = it },
-            placeholder = {
+            label = {
                 Text(
                     text = stringResource(id = R.string.signup_password_hint),
                     style = MaterialTheme.typography.bodyMedium,
@@ -172,9 +174,11 @@ internal fun SignupPane(
                         painter = painterResource(id = if (showPassword) R.drawable.password_shown else R.drawable.password_hidden),
                         contentDescription = null, // TODO
                         tint = MaterialTheme.colorScheme.onSecondaryContainer,
-                        modifier = Modifier.size(24.dp).clickable {
-                            showPassword = !showPassword
-                        }
+                        modifier = Modifier
+                            .size(24.dp)
+                            .clickable {
+                                showPassword = !showPassword
+                            }
                     )
                 }
             },
@@ -193,9 +197,9 @@ internal fun SignupPane(
         TextField(
             value = confirmPassword,
             onValueChange = { confirmPassword = it },
-            placeholder = {
+            label = {
                 Text(
-                    text = stringResource(id = R.string.signup_password_hint),
+                    text = stringResource(id = R.string.signup_confirm_password_hint),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSecondaryContainer
                 )
@@ -214,9 +218,11 @@ internal fun SignupPane(
                         painter = painterResource(id = if (showPassword) R.drawable.password_shown else R.drawable.password_hidden),
                         contentDescription = null, // TODO
                         tint = MaterialTheme.colorScheme.onSecondaryContainer,
-                        modifier = Modifier.size(24.dp).clickable {
-                            showPassword = !showPassword
-                        }
+                        modifier = Modifier
+                            .size(24.dp)
+                            .clickable {
+                                showPassword = !showPassword
+                            }
                     )
                 }
             },

@@ -1,4 +1,4 @@
-package com.colledk.colingo.ui.theme
+package com.colledk.theme
 
 import androidx.compose.ui.graphics.Color
 
