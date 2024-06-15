@@ -90,7 +90,7 @@ internal fun LoginPane(
         TextField(
             value = email,
             onValueChange = { email = it },
-            placeholder = {
+            label = {
                 Text(
                     text = stringResource(id = R.string.login_email_hint),
                     style = MaterialTheme.typography.bodyMedium,
@@ -119,7 +119,7 @@ internal fun LoginPane(
         TextField(
             value = password,
             onValueChange = { password = it },
-            placeholder = {
+            label = {
                 Text(
                     text = stringResource(id = R.string.login_password_hint),
                     style = MaterialTheme.typography.bodyMedium,

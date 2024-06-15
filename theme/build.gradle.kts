@@ -3,12 +3,10 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     id(libs.plugins.kotlin.kapt.get().pluginId)
-    id(libs.plugins.hilt.android.get().pluginId)
-    id(libs.plugins.kotlin.parcelize.get().pluginId)
 }
 
 android {
-    namespace = "com.colledk.onboarding"
+    namespace = "com.colledk.theme"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -53,16 +51,6 @@ dependencies {
     implementation(platform(libs.compose.bom))
     implementation(libs.bundles.compose)
     implementation(libs.androidx.navigation.compose)
-
-    // Internal modules
-    implementation(project(":theme"))
-
-    // Hilt
-    implementation(libs.hilt.android)
-    kapt(libs.hilt.compiler)
-
-    // Firebase
-    implementation(libs.firebase.firestore)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

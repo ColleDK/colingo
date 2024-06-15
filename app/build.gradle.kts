@@ -62,6 +62,7 @@ dependencies {
 
     // Internal modules
     implementation(project(":onboarding"))
+    implementation(project(":theme"))
 
     // Compose
     implementation(platform(libs.compose.bom))
