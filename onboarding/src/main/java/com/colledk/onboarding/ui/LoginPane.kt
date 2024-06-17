@@ -1,9 +1,12 @@
 package com.colledk.onboarding.ui
 
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -40,6 +43,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
 
@@ -58,10 +62,6 @@ internal fun LoginPane(
         mutableStateOf("")
     }
 
-    var showPassword by remember {
-        mutableStateOf(false)
-    }
-
     Column(
         modifier = modifier
             .fillMaxSize()
@@ -69,7 +69,7 @@ internal fun LoginPane(
             .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Spacer(modifier = Modifier.weight(1f))
+        FillOrMinHeight(minHeight = 24.dp)
         Image(
             painter = painterResource(id = R.drawable.world),
             contentDescription = null // Not needed for talkback
@@ -87,76 +87,25 @@ internal fun LoginPane(
             color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         Spacer(modifier = Modifier.height(24.dp))
-        TextField(
+        LoginInputField(
             value = email,
-            onValueChange = { email = it },
-            label = {
-                Text(
-                    text = stringResource(id = R.string.login_email_hint),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            },
-            leadingIcon = {
-                Icon(
-                    painter = painterResource(id = R.drawable.email),
-                    contentDescription = null,
-                    modifier = Modifier.size(24.dp),
-                    tint = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
-            colors = TextFieldDefaults.colors(
-                focusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
-                unfocusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
-                focusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                unfocusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer
-            ),
-            modifier = Modifier.fillMaxWidth(.8f),
-            singleLine = true
-        )
+            labelTextId = R.string.login_email_hint,
+            iconId = R.drawable.email,
+            isPassword = false,
+            modifier = Modifier.fillMaxWidth(.8f)
+        ) {
+            email = it
+        }
         Spacer(modifier = Modifier.height(12.dp))
-        TextField(
+        LoginInputField(
             value = password,
-            onValueChange = { password = it },
-            label = {
-                Text(
-                    text = stringResource(id = R.string.login_password_hint),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            },
-            leadingIcon = {
-                Icon(
-                    painter = painterResource(id = R.drawable.password),
-                    contentDescription = null,
-                    modifier = Modifier.size(24.dp),
-                    tint = MaterialTheme.colorScheme.onSecondaryContainer
-                )
-            },
-            trailingIcon = {
-                if (password.isNotEmpty()) {
-                    Icon(
-                        painter = painterResource(id = if (showPassword) R.drawable.password_shown else R.drawable.password_hidden),
-                        contentDescription = null, // TODO
-                        tint = MaterialTheme.colorScheme.onSecondaryContainer,
-                        modifier = Modifier.size(24.dp).clickable {
-                            showPassword = !showPassword
-                        }
-                    )
-                }
-            },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-            visualTransformation = if (showPassword) VisualTransformation.None else PasswordVisualTransformation(),
-            colors = TextFieldDefaults.colors(
-                focusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
-                unfocusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
-                focusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                unfocusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer
-            ),
-            modifier = Modifier.fillMaxWidth(.8f),
-            singleLine = true
-        )
+            labelTextId = R.string.login_password_hint,
+            iconId = R.drawable.password,
+            isPassword = true,
+            modifier = Modifier.fillMaxWidth(.8f)
+        ) {
+            password = it
+        }
         Spacer(modifier = Modifier.height(4.dp))
         Text(
             text = stringResource(id = R.string.login_forgot_password),
@@ -170,24 +119,15 @@ internal fun LoginPane(
             color = MaterialTheme.colorScheme.onPrimaryContainer
         )
         Spacer(modifier = Modifier.height(20.dp))
-        Button(
-            onClick = { onLogin(email, password) },
-            enabled = password.isNotBlank() && email.isNotBlank(),
+        LoginButton(
+            isEnabled = password.isNotBlank() && email.isNotBlank(),
             modifier = Modifier
                 .fillMaxWidth(.5f)
-                .heightIn(min = 48.dp),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.primary
-            )
+                .heightIn(min = 48.dp)
         ) {
-            Text(
-                text = stringResource(id = R.string.login_login_btn),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onPrimary
-            )
+            onLogin(email, password)
         }
-        Spacer(modifier = Modifier.weight(1f))
-        Spacer(modifier = Modifier.height(24.dp))
+        FillOrMinHeight(minHeight = 24.dp)
         Row(
             modifier = Modifier.clickable {
                 onGoToSignup()
@@ -207,5 +147,95 @@ internal fun LoginPane(
                 color = MaterialTheme.colorScheme.primary
             )
         }
+    }
+}
+
+/**
+ * Workaround to fill entire space on larger screens,
+ * but having minimum height on smaller screens or when keyboard is active.
+ */
+@Composable
+private fun ColumnScope.FillOrMinHeight(minHeight: Dp) {
+    Spacer(modifier = Modifier.weight(1f))
+    Spacer(modifier = Modifier.height(minHeight))
+}
+
+@Composable
+private fun LoginInputField(
+    value: String,
+    @StringRes labelTextId: Int,
+    @DrawableRes iconId: Int,
+    isPassword: Boolean,
+    modifier: Modifier = Modifier,
+    onValueChanged: (String) -> Unit
+) {
+    var showPassword by remember {
+        mutableStateOf(false)
+    }
+
+    TextField(
+        value = value,
+        onValueChange = onValueChanged,
+        label = {
+            Text(
+                text = stringResource(id = labelTextId),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSecondaryContainer
+            )
+        },
+        leadingIcon = {
+            Icon(
+                painter = painterResource(id = iconId),
+                contentDescription = null,
+                modifier = Modifier.size(24.dp),
+                tint = MaterialTheme.colorScheme.onSecondaryContainer
+            )
+        },
+        trailingIcon = {
+            if (isPassword && value.isNotEmpty()) {
+                Icon(
+                    painter = painterResource(id = if (showPassword) R.drawable.password_shown else R.drawable.password_hidden),
+                    contentDescription = null, // TODO
+                    tint = MaterialTheme.colorScheme.onSecondaryContainer,
+                    modifier = Modifier
+                        .size(24.dp)
+                        .clickable {
+                            showPassword = !showPassword
+                        }
+                )
+            }
+        },
+        keyboardOptions = KeyboardOptions(keyboardType = if (isPassword) KeyboardType.Password else KeyboardType.Email),
+        visualTransformation = if (isPassword && !showPassword) PasswordVisualTransformation() else VisualTransformation.None,
+        colors = TextFieldDefaults.colors(
+            focusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
+            unfocusedContainerColor = MaterialTheme.colorScheme.secondaryContainer,
+            focusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer,
+            unfocusedTextColor = MaterialTheme.colorScheme.onSecondaryContainer
+        ),
+        modifier = modifier,
+        singleLine = true
+    )
+}
+
+@Composable
+private fun LoginButton(
+    isEnabled: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    Button(
+        onClick = onClick,
+        enabled = isEnabled,
+        modifier = modifier,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = MaterialTheme.colorScheme.primary
+        )
+    ) {
+        Text(
+            text = stringResource(id = R.string.login_login_btn),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onPrimary
+        )
     }
 }
