@@ -7,6 +7,7 @@
     <string name="onboarding_google_btn">Google</string>
     <string name="onboarding_facebook_btn">Facebook</string>
     <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">Go back</string>
 
     <!-- Log in -->
     <string name="login_title">Welcome back!</string>
@@ -28,5 +29,13 @@
     <string name="signup_signup_btn">Register</string>
     <string name="signup_go_to_login_1">Already have an account?</string>
     <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="add_picture_title">Setup profile</string>
+    <string name="add_picture_subtitle">Add profile picture</string>
+    <string name="add_picture_next_btn">Next</string>
+    <string name="add_languages_title">Setup profile</string>
+    <string name="add_languages_subtitle">Select languages</string>
+    <string name="add_languages_next_btn">Next</string>
 
 </resources>

@@ -16,8 +16,8 @@ import com.colledk.colingo.compose.ExplorePane
 import com.colledk.colingo.compose.HomePane
 import com.colledk.colingo.compose.ProfilePane
 import com.colledk.colingo.compose.SettingsPane
-import com.colledk.onboarding.navigation.onboardingPane
-import com.colledk.onboarding.navigation.onboardingPaneRoute
+import com.colledk.onboarding.navigation.onboardingGraph
+import com.colledk.onboarding.navigation.onboardingGraphRoute
 
 // TODO temporary navigation, should be moved to separate modules
 const val homePaneRoute = "homepage_route"
@@ -79,7 +79,7 @@ fun NavController.navigateToSettingsPane(navOptions: NavOptions? = null) {
 @Composable
 fun ColingoNavHost(
     appState: ColingoAppState,
-    startDestination: String = onboardingPaneRoute
+    startDestination: String = onboardingGraphRoute
 ) {
     val navController = appState.navController
     NavHost(
@@ -91,9 +91,7 @@ fun ColingoNavHost(
         popEnterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) },
         popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) }
     ) {
-        onboardingPane {
-            navController.navigateToHomePane()
-        }
+        onboardingGraph(navHostController = navController)
         homePane()
         explorePane()
         chatPane()

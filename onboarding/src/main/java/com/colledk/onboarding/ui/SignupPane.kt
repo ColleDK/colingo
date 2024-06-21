@@ -1,6 +1,5 @@
 package com.colledk.onboarding.ui
 
-import android.content.res.Configuration
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
@@ -39,15 +38,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
 
 @Composable
-fun SignupPane(
+internal fun SignupPane(
     onRegister: (name: String, email: String, password: String) -> Unit,
     goToLogin: () -> Unit,
     modifier: Modifier = Modifier

@@ -48,11 +48,16 @@ dependencies {
     implementation(libs.material)
     implementation(libs.joda.time)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.activity)
 
     // Compose
     implementation(platform(libs.compose.bom))
     implementation(libs.bundles.compose)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.coil)
+
+    // Timber
+    implementation(libs.timber)
 
     // Internal modules
     implementation(project(":theme"))

@@ -1,6 +1,5 @@
 package com.colledk.onboarding.ui
 
-import android.content.res.Configuration
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -11,18 +10,19 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.requiredHeightIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Divider
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
@@ -33,16 +33,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
 import com.colledk.theme.ColingoTheme
 import com.colledk.theme.PreviewAnnotations
 
-@OptIn(ExperimentalMaterial3AdaptiveApi::class)
+@OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun OnboardingPane(modifier: Modifier = Modifier, onFinishOnboarding: () -> Unit) {
     val navigator = rememberListDetailPaneScaffoldNavigator<OnboardingDestination>()
@@ -86,24 +85,49 @@ fun OnboardingPane(modifier: Modifier = Modifier, onFinishOnboarding: () -> Unit
         detailPane = {
             AnimatedPane {
                 navigator.currentDestination?.content?.let {
-                    if (it == OnboardingDestination.LOG_IN) {
-                        LoginPane(
-                            onForgotPassword = {},
-                            onLogin = { _, _ -> },
-                            onGoToSignup = {
-                                navigator.navigateTo(
-                                    ListDetailPaneScaffoldRole.Detail,
-                                    OnboardingDestination.SIGN_UP
+                    Scaffold(
+                        topBar = {
+                            if (navigator.canNavigateBack()) {
+                                TopAppBar(
+                                    title = {},
+                                    navigationIcon = {
+                                        IconButton(onClick = { navigator.navigateBack() }) {
+                                            Icon(
+                                                painter = painterResource(id = R.drawable.back_arrow),
+                                                contentDescription = stringResource(id = R.string.onboarding_go_back)
+                                            )
+                                        }
+                                    },
+                                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
                                 )
                             }
-                        )
-                    } else {
-                        SignupPane(onRegister = { _, _, _ -> }, goToLogin = {
-                            navigator.navigateTo(
-                                ListDetailPaneScaffoldRole.Detail,
-                                OnboardingDestination.LOG_IN
+                        },
+                        containerColor = Color.Transparent
+                    ) { padding -> 
+                        if (it == OnboardingDestination.LOG_IN) {
+                            LoginPane(
+                                onForgotPassword = {},
+                                onLogin = { _, _ -> },
+                                onGoToSignup = {
+                                    navigator.navigateTo(
+                                        ListDetailPaneScaffoldRole.Detail,
+                                        OnboardingDestination.SIGN_UP
+                                    )
+                                },
+                                modifier = Modifier.padding(padding)
                             )
-                        })
+                        } else {
+                            SignupPane(
+                                onRegister = { _, _, _ -> onFinishOnboarding() },
+                                goToLogin = {
+                                    navigator.navigateTo(
+                                        ListDetailPaneScaffoldRole.Detail,
+                                        OnboardingDestination.LOG_IN
+                                    )
+                                },
+                                modifier = Modifier.padding(padding)
+                            )
+                        }
                     }
                 }
             }
