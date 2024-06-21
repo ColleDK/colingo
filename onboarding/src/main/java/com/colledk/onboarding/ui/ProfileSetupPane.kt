@@ -44,6 +44,7 @@ import com.colledk.onboarding.ui.ProfileSetupDestination.entries
 import com.colledk.onboarding.ui.profilesetup.SelectGender
 import com.colledk.onboarding.ui.profilesetup.SelectLanguagesPane
 import com.colledk.onboarding.ui.profilesetup.SelectPicturePane
+import com.colledk.onboarding.ui.profilesetup.SelectTopicsPane
 import kotlinx.coroutines.launch
 
 @Composable
@@ -173,7 +174,7 @@ private fun ProfileSetupPage(
         ADD_PICTURE -> SelectPicturePane(modifier = modifier)
         ADD_DESCRIPTION -> Text(text = "Add description")
         SELECT_LANGUAGES -> SelectLanguagesPane(modifier = modifier)
-        SELECT_TOPICS -> Text(text = "Select topics")
+        SELECT_TOPICS -> SelectTopicsPane(modifier = modifier)
         SELECT_GENDER -> SelectGender(modifier = modifier)
     }
 }
