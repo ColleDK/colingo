@@ -7,13 +7,11 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -21,8 +19,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.AlertDialog
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
@@ -30,7 +26,6 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.ListItemDefaults
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.MenuDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -44,7 +39,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.capitalize
@@ -54,7 +48,6 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
-import androidx.compose.ui.window.Dialog
 import com.colledk.onboarding.R
 import com.colledk.onboarding.domain.Language
 import com.colledk.onboarding.domain.LanguageProficiency
@@ -62,7 +55,7 @@ import com.colledk.onboarding.domain.UserLanguage
 import timber.log.Timber
 
 @Composable
-internal fun SelectLanguagesPane(modifier: Modifier = Modifier, onNextClicked: () -> Unit) {
+internal fun SelectLanguagesPane(modifier: Modifier = Modifier) {
     val userLanguages = remember {
         mutableStateListOf<UserLanguage>()
     }
@@ -71,28 +64,11 @@ internal fun SelectLanguagesPane(modifier: Modifier = Modifier, onNextClicked: (
         mutableStateOf(false)
     }
 
-    Column(
-        modifier = modifier.verticalScroll(rememberScrollState()),
-        horizontalAlignment = Alignment.CenterHorizontally
+    ProfileSetup(
+        titleId = R.string.add_languages_title,
+        subtitleId = R.string.add_languages_subtitle,
+        modifier = modifier
     ) {
-        FillOrMinHeight(minHeight = 24.dp)
-        Image(
-            painter = painterResource(id = R.drawable.world),
-            contentDescription = null // Not needed for talkback
-        )
-        Spacer(modifier = Modifier.height(24.dp))
-        Text(
-            text = stringResource(id = R.string.add_languages_title),
-            style = MaterialTheme.typography.displaySmall,
-            color = MaterialTheme.colorScheme.onPrimaryContainer
-        )
-        Spacer(modifier = Modifier.height(12.dp))
-        Text(
-            text = stringResource(id = R.string.add_languages_subtitle),
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onPrimaryContainer
-        )
-        Spacer(modifier = Modifier.height(48.dp))
         Column(
             verticalArrangement = Arrangement.spacedBy(12.dp),
             modifier = Modifier.fillMaxWidth(.8f)
@@ -106,7 +82,6 @@ internal fun SelectLanguagesPane(modifier: Modifier = Modifier, onNextClicked: (
                 showDialog = true
             }
         }
-        FillOrMinHeight(minHeight = 24.dp)
     }
 
     if (showDialog) {
@@ -296,80 +271,49 @@ private fun UserLanguageItem(
     modifier: Modifier = Modifier,
     onRemoveClicked: () -> Unit
 ) {
-    Box {
-        ListItem(
-            headlineContent = {
-                Text(
-                    text = userLanguage.language.name,
-                    style = MaterialTheme.typography.bodyLarge,
-                    fontWeight = FontWeight.Bold
-                )
-            },
-            leadingContent = {
-                Text(
-                    text = userLanguage.language.code.uppercase(),
-                    color = MaterialTheme.colorScheme.secondaryContainer,
-                    style = MaterialTheme.typography.labelLarge,
+    ListItem(
+        headlineContent = {
+            Text(
+                text = userLanguage.language.name,
+                style = MaterialTheme.typography.bodyLarge,
+                fontWeight = FontWeight.Bold
+            )
+        },
+        leadingContent = {
+            Text(
+                text = userLanguage.language.code.uppercase(),
+                color = MaterialTheme.colorScheme.secondaryContainer,
+                style = MaterialTheme.typography.labelLarge,
+                modifier = Modifier
+                    .clip(RoundedCornerShape(4.dp))
+                    .background(MaterialTheme.colorScheme.onSecondaryContainer)
+                    .padding(4.dp)
+            )
+        },
+        supportingContent = {
+            Text(
+                text = userLanguage.proficiency.name.lowercase().capitalize(Locale.current),
+                style = MaterialTheme.typography.bodyMedium
+            )
+        },
+        trailingContent = {
+            IconButton(
+                onClick = onRemoveClicked,
+            ) {
+                Icon(
+                    imageVector = Icons.Filled.Close,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.secondaryContainer,
                     modifier = Modifier
-                        .clip(RoundedCornerShape(4.dp))
+                        .clip(CircleShape)
                         .background(MaterialTheme.colorScheme.onSecondaryContainer)
                         .padding(4.dp)
                 )
-            },
-            supportingContent = {
-                Text(
-                    text = userLanguage.proficiency.name.lowercase().capitalize(Locale.current),
-                    style = MaterialTheme.typography.bodyMedium
-                )
-            },
-            trailingContent = {
-                IconButton(
-                    onClick = onRemoveClicked,
-                    modifier = Modifier
-                        .align(Alignment.TopEnd)
-                ) {
-                    Icon(
-                        imageVector = Icons.Filled.Close,
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.secondaryContainer,
-                        modifier = Modifier
-                            .clip(CircleShape)
-                            .background(MaterialTheme.colorScheme.onSecondaryContainer)
-                            .padding(4.dp)
-                    )
-                }
-            },
-            modifier = modifier.clip(RoundedCornerShape(4.dp)),
-            colors = ListItemDefaults.colors(
-                containerColor = MaterialTheme.colorScheme.secondaryContainer
-            )
+            }
+        },
+        modifier = modifier.clip(RoundedCornerShape(4.dp)),
+        colors = ListItemDefaults.colors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer
         )
-    }
-}
-
-/**
- * Workaround to fill entire space on larger screens,
- * but having minimum height on smaller screens or when keyboard is active.
- */
-@Composable
-private fun ColumnScope.FillOrMinHeight(minHeight: Dp) {
-    Spacer(modifier = Modifier.weight(1f))
-    Spacer(modifier = Modifier.height(minHeight))
-}
-
-@Composable
-private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
-    Button(
-        onClick = onClick,
-        modifier = modifier,
-        colors = ButtonDefaults.buttonColors(
-            containerColor = MaterialTheme.colorScheme.primary
-        )
-    ) {
-        Text(
-            text = stringResource(id = R.string.add_languages_next_btn),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onPrimary
-        )
-    }
+    )
 }

@@ -41,6 +41,7 @@ import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_GENDER
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_LANGUAGES
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_TOPICS
 import com.colledk.onboarding.ui.ProfileSetupDestination.entries
+import com.colledk.onboarding.ui.profilesetup.SelectGender
 import com.colledk.onboarding.ui.profilesetup.SelectLanguagesPane
 import com.colledk.onboarding.ui.profilesetup.SelectPicturePane
 import kotlinx.coroutines.launch
@@ -83,11 +84,7 @@ internal fun ProfileSetupPane(
             },
             contentPadding = PaddingValues(bottom = 92.dp, top = 48.dp)
         ) { page ->
-            ProfileSetupPage(page = pages[page], modifier = Modifier.fillMaxSize()) {
-                scope.launch {
-                    pagerState.animateScrollToPage(page + 1)
-                }
-            }
+            ProfileSetupPage(page = pages[page], modifier = Modifier.fillMaxSize())
         }
 
         if ((pagerState.currentPage == pagerState.pageCount - 1 || (pagesPerScreen > 1 && pagerState.currentPage + 1 == pagerState.pageCount - 1)).not()) {
@@ -101,7 +98,7 @@ internal fun ProfileSetupPane(
                 colors = ButtonDefaults.buttonColors(containerColor = Color.Transparent)
             ) {
                 Text(
-                    text = "Skip",
+                    text = stringResource(id = R.string.setup_profile_skip),
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onPrimaryContainer
@@ -160,7 +157,7 @@ private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
         elevation = ButtonDefaults.buttonElevation(2.dp)
     ) {
         Text(
-            text = stringResource(id = R.string.add_languages_next_btn),
+            text = stringResource(id = R.string.setup_profile_next),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onPrimary
         )
@@ -170,14 +167,13 @@ private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
 @Composable
 private fun ProfileSetupPage(
     page: ProfileSetupDestination,
-    modifier: Modifier = Modifier,
-    onNextClicked: () -> Unit
+    modifier: Modifier = Modifier
 ) {
     when (page) {
-        ADD_PICTURE -> SelectPicturePane(modifier = modifier, onNextClicked = onNextClicked)
+        ADD_PICTURE -> SelectPicturePane(modifier = modifier)
         ADD_DESCRIPTION -> Text(text = "Add description")
-        SELECT_LANGUAGES -> SelectLanguagesPane(modifier = modifier, onNextClicked = onNextClicked)
+        SELECT_LANGUAGES -> SelectLanguagesPane(modifier = modifier)
         SELECT_TOPICS -> Text(text = "Select topics")
-        SELECT_GENDER -> Text(text = "Select gender")
+        SELECT_GENDER -> SelectGender(modifier = modifier)
     }
 }

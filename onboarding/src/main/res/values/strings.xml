@@ -31,11 +31,13 @@
     <string name="signup_go_to_login_2">Log in</string>
 
     <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_skip">Skip</string>
     <string name="add_picture_title">Setup profile</string>
     <string name="add_picture_subtitle">Add profile picture</string>
-    <string name="add_picture_next_btn">Next</string>
     <string name="add_languages_title">Setup profile</string>
     <string name="add_languages_subtitle">Select languages</string>
-    <string name="add_languages_next_btn">Next</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Select gender</string>
 
 </resources>
