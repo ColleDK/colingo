@@ -41,6 +41,7 @@ import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_GENDER
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_LANGUAGES
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_TOPICS
 import com.colledk.onboarding.ui.ProfileSetupDestination.entries
+import com.colledk.onboarding.ui.profilesetup.AddDescriptionPane
 import com.colledk.onboarding.ui.profilesetup.SelectGender
 import com.colledk.onboarding.ui.profilesetup.SelectLanguagesPane
 import com.colledk.onboarding.ui.profilesetup.SelectPicturePane
@@ -172,7 +173,7 @@ private fun ProfileSetupPage(
 ) {
     when (page) {
         ADD_PICTURE -> SelectPicturePane(modifier = modifier)
-        ADD_DESCRIPTION -> Text(text = "Add description")
+        ADD_DESCRIPTION -> AddDescriptionPane(modifier = modifier)
         SELECT_LANGUAGES -> SelectLanguagesPane(modifier = modifier)
         SELECT_TOPICS -> SelectTopicsPane(modifier = modifier)
         SELECT_GENDER -> SelectGender(modifier = modifier)

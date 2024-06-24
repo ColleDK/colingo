@@ -55,6 +55,7 @@ dependencies {
     implementation(libs.bundles.compose)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.coil)
+    implementation (libs.accompanist.permissions)
 
     // Timber
     implementation(libs.timber)

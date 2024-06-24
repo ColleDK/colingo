@@ -103,7 +103,7 @@ private fun AddUserLanguage(modifier: Modifier = Modifier, onAddClick: () -> Uni
     ListItem(
         headlineContent = {
             Text(
-                text = "Add language",
+                text = stringResource(id = R.string.add_languages_add_language),
                 style = MaterialTheme.typography.bodyLarge,
                 fontStyle = FontStyle.Italic
             )
@@ -132,10 +132,6 @@ private fun SelectNewLanguage(
     onSelect: (UserLanguage) -> Unit,
     onDismiss: () -> Unit
 ) {
-    LaunchedEffect(key1 = countries) {
-        Timber.d("Countries are $countries")
-    }
-
     val languages by remember {
         derivedStateOf {
             countries.filter { !selectedCountries.contains(it.displayLanguage) }
@@ -164,7 +160,7 @@ private fun SelectNewLanguage(
         title = {
             Box {
                 Text(
-                    text = selectedLanguage?.name ?: "Select language",
+                    text = selectedLanguage?.name ?: stringResource(id = R.string.add_languages_select_language),
                     modifier = Modifier.clickable {
                         showLanguageMenu = true
                     }
@@ -206,7 +202,7 @@ private fun SelectNewLanguage(
             Box {
                 Text(
                     text = selectedProficiency?.name?.lowercase()?.capitalize(Locale.current)
-                        ?: "Select proficiency",
+                        ?: stringResource(id = R.string.add_languages_select_proficiency),
                     modifier = Modifier.clickable {
                         showProficiencyMenu = true
                     }
@@ -244,7 +240,7 @@ private fun SelectNewLanguage(
         },
         dismissButton = {
             TextButton(onClick = onDismiss) {
-                Text(text = "Cancel")
+                Text(text = stringResource(id = R.string.add_language_cancel))
             }
         },
         confirmButton = {
@@ -259,7 +255,7 @@ private fun SelectNewLanguage(
                 },
                 enabled = selectedLanguage != null && selectedProficiency != null
             ) {
-                Text(text = "Select")
+                Text(text = stringResource(id = R.string.add_language_select))
             }
         }
     )
