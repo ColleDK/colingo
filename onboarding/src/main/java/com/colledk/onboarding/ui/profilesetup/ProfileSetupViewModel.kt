@@ -1,10 +1,12 @@
 package com.colledk.onboarding.ui.profilesetup
 
+import android.annotation.SuppressLint
 import android.location.Address
 import android.location.Geocoder
 import android.location.Geocoder.GeocodeListener
 import android.location.Location
 import android.net.Uri
+import android.os.Build
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.colledk.onboarding.domain.Gender
@@ -60,6 +62,8 @@ class ProfileSetupViewModel @Inject constructor(
         _descriptionState.value = _descriptionState.value.copy(birthday = dateTime.toLocalDate())
     }
 
+    // This is only called when permissions are enabled
+    @SuppressLint("MissingPermission")
     fun getLocation() {
         viewModelScope.launch {
             val location = locationProviderClient.getCurrentLocation(
@@ -67,12 +71,22 @@ class ProfileSetupViewModel @Inject constructor(
                 CancellationTokenSource().token
             ).await()
 
-            geocoder.getFromLocation(
-                location.latitude,
-                location.longitude,
-                1
-            ) {
-                it.firstOrNull()?.let { address ->
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                geocoder.getFromLocation(
+                    location.latitude,
+                    location.longitude,
+                    1
+                ) {
+                    it.firstOrNull()?.let { address ->
+                        _descriptionState.value = _descriptionState.value.copy(location = "${address.countryName}, ${address.locality}")
+                    }
+                }
+            } else {
+                geocoder.getFromLocation(
+                    location.latitude,
+                    location.longitude,
+                    1
+                )?.firstOrNull()?.let { address ->
                     _descriptionState.value = _descriptionState.value.copy(location = "${address.countryName}, ${address.locality}")
                 }
             }
