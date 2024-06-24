@@ -7,6 +7,7 @@
     <string name="onboarding_google_btn">Google</string>
     <string name="onboarding_facebook_btn">Facebook</string>
     <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">Go back</string>
 
     <!-- Log in -->
     <string name="login_title">Welcome back!</string>
@@ -29,4 +30,47 @@
     <string name="signup_go_to_login_1">Already have an account?</string>
     <string name="signup_go_to_login_2">Log in</string>
 
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Setup profile</string>
+    <string name="add_picture_subtitle">Add profile picture</string>
+    <string name="add_languages_title">Setup profile</string>
+    <string name="add_languages_subtitle">Select languages</string>
+    <string name="add_languages_select_proficiency">Select proficiency</string>
+    <string name="add_languages_select_language">Select proficiency</string>
+    <string name="add_languages_add_language">Add proficiency</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Select gender</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Setup profile</string>
+    <string name="add_description_subtitle">Add some information about yourself</string>
+    <string name="add_description_birthday_hint">Birthday</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Cancel</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Description</string>
+
+    <!-- Topics -->
+    <string name="topic_animals">Animals</string>
+    <string name="topic_cooking">Cooking</string>
+    <string name="topic_theater">Theater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Movies</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">Painting</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Reading</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Swimming</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">Video games</string>
 </resources>

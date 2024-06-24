@@ -179,7 +179,6 @@ private fun LoginInputField(
         label = {
             Text(
                 text = stringResource(id = labelTextId),
-                style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSecondaryContainer
             )
         },
