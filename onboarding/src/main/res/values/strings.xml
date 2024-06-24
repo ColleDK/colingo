@@ -38,8 +38,8 @@
     <string name="add_languages_title">Setup profile</string>
     <string name="add_languages_subtitle">Select languages</string>
     <string name="add_languages_select_proficiency">Select proficiency</string>
-    <string name="add_languages_select_language">Select proficiency</string>
-    <string name="add_languages_add_language">Add proficiency</string>
+    <string name="add_languages_select_language">Select language</string>
+    <string name="add_languages_add_language">Add language</string>
     <string name="add_language_select">Select</string>
     <string name="add_language_cancel">Cancel</string>
     <string name="select_gender_title">Setup profile</string>

@@ -39,7 +39,15 @@ import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import java.time.LocalDate
 
 @Composable
-internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
+internal fun AddDescriptionPane(
+    birthday: LocalDate?,
+    location: String?,
+    description: String,
+    updateBirthday: (time: Long) -> Unit,
+    getLocation: () -> Unit,
+    updateDescription: (description: String) -> Unit,
+    modifier: Modifier = Modifier
+) {
     ProfileSetup(
         titleId = R.string.add_description_title,
         subtitleId = R.string.add_description_subtitle,
@@ -53,18 +61,6 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
             mutableStateOf(false)
         }
 
-        var selectedDate by remember {
-            mutableStateOf<LocalDate?>(null)
-        }
-
-        var selectedLocation by remember {
-            mutableStateOf<String?>(null)
-        }
-
-        var description by remember {
-            mutableStateOf("")
-        }
-
         Column(
             verticalArrangement = Arrangement.spacedBy(12.dp),
             modifier = Modifier.fillMaxWidth(.8f),
@@ -73,7 +69,7 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
             ListItem(
                 headlineContent = {
                     Text(
-                        text = "${selectedDate ?: stringResource(id = R.string.add_description_birthday_hint)}",
+                        text = "${birthday ?: stringResource(id = R.string.add_description_birthday_hint)}",
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },
@@ -96,7 +92,7 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
             if (showDatePicker) {
                 BirthdaySelector(
                     onSelect = {
-                        selectedDate = it
+                        updateBirthday(it)
                         showDatePicker = false
                     },
                     onDismiss = { showDatePicker = false })
@@ -105,7 +101,7 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
             ListItem(
                 headlineContent = {
                     Text(
-                        text = selectedLocation ?: stringResource(id = R.string.add_description_location_hint),
+                        text = location ?: stringResource(id = R.string.add_description_location_hint),
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },
@@ -127,7 +123,7 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
 
             if (showLocationSelector) {
                 PermissionRequester(
-                    onPermissionGranted = { /*TODO*/ },
+                    onPermissionGranted = getLocation,
                     onPermissionDenied = { /*TODO*/ },
                     onPermissionRevoked = { /*TODO*/ },
                     permissions = listOf(
@@ -143,7 +139,7 @@ internal fun AddDescriptionPane(modifier: Modifier = Modifier) {
                 iconId = R.drawable.description,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                description = it
+                updateDescription(it)
             }
         }
     }
@@ -184,7 +180,7 @@ private fun PermissionRequester(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun BirthdaySelector(
-    onSelect: (date: LocalDate) -> Unit,
+    onSelect: (time: Long) -> Unit,
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -197,7 +193,7 @@ private fun BirthdaySelector(
             TextButton(
                 onClick = {
                     state.selectedDateMillis?.let {
-                        onSelect(it.toLocalDate())
+                        onSelect(it)
                     }
                 }
             ) {

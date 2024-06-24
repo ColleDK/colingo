@@ -30,6 +30,8 @@ import com.colledk.onboarding.domain.Gender
 
 @Composable
 internal fun SelectGender(
+    selectedGender: Gender?,
+    onGenderSelected: (gender: Gender) -> Unit,
     modifier: Modifier = Modifier
 ) {
     ProfileSetup(
@@ -37,17 +39,13 @@ internal fun SelectGender(
         subtitleId = R.string.select_gender_subtitle,
         modifier = modifier
     ) {
-        var selectedGender by remember {
-            mutableStateOf<Gender?>(null)
-        }
-
         Column(
             verticalArrangement = Arrangement.spacedBy(12.dp),
             modifier = Modifier.fillMaxWidth(.8f)
         ) {
             Gender.entries.fastForEach {
                 GenderItem(gender = it, isSelected = selectedGender == it) {
-                    selectedGender = it
+                    onGenderSelected(it)
                 }
             }
         }
