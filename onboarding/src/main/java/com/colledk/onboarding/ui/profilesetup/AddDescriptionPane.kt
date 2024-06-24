@@ -36,6 +36,7 @@ import com.colledk.onboarding.R
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
+import timber.log.Timber
 import java.time.LocalDate
 
 @Composable
@@ -156,8 +157,7 @@ private fun PermissionRequester(
     val permissionState = rememberMultiplePermissionsState(permissions = permissions)
 
     LaunchedEffect(key1 = permissionState) {
-        val allPermissionRevoked =
-            permissionState.permissions.size == permissionState.revokedPermissions.size
+        val allPermissionRevoked = permissionState.permissions.size == permissionState.revokedPermissions.size
 
         val permissionToRequest = permissionState.permissions.filterNot {
             it.status.isGranted
@@ -173,6 +173,12 @@ private fun PermissionRequester(
             } else {
                 onPermissionDenied()
             }
+        }
+    }
+
+    LaunchedEffect(key1 = permissionState.allPermissionsGranted) {
+        if (permissionState.allPermissionsGranted) {
+            onPermissionGranted()
         }
     }
 }
