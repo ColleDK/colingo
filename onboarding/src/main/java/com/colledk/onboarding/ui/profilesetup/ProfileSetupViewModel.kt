@@ -1,7 +1,12 @@
 package com.colledk.onboarding.ui.profilesetup
 
+import android.location.Address
+import android.location.Geocoder
+import android.location.Geocoder.GeocodeListener
+import android.location.Location
 import android.net.Uri
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.colledk.onboarding.domain.Gender
 import com.colledk.onboarding.domain.Topic
 import com.colledk.onboarding.domain.UserLanguage
@@ -10,22 +15,31 @@ import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.location.Priority
+import com.google.android.gms.tasks.CancellationTokenSource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
 
 @HiltViewModel
 class ProfileSetupViewModel @Inject constructor(
-
+    private val locationProviderClient: FusedLocationProviderClient,
+    private val geocoder: Geocoder
 ) : ViewModel() {
-    private val _profilePictureState: MutableStateFlow<ProfilePictureUiState> = MutableStateFlow(ProfilePictureUiState())
+    private val _profilePictureState: MutableStateFlow<ProfilePictureUiState> =
+        MutableStateFlow(ProfilePictureUiState())
     val profilePictureState: StateFlow<ProfilePictureUiState> = _profilePictureState
 
-    private val _descriptionState: MutableStateFlow<DescriptionUiState> = MutableStateFlow(DescriptionUiState())
+    private val _descriptionState: MutableStateFlow<DescriptionUiState> =
+        MutableStateFlow(DescriptionUiState())
     val descriptionState: StateFlow<DescriptionUiState> = _descriptionState
 
-    private val _languagesState: MutableStateFlow<LanguagesUiState> = MutableStateFlow(LanguagesUiState())
+    private val _languagesState: MutableStateFlow<LanguagesUiState> =
+        MutableStateFlow(LanguagesUiState())
     val languagesState: StateFlow<LanguagesUiState> = _languagesState
 
     private val _topicState: MutableStateFlow<TopicsUiState> = MutableStateFlow(TopicsUiState())
@@ -47,7 +61,22 @@ class ProfileSetupViewModel @Inject constructor(
     }
 
     fun getLocation() {
-        // TODO
+        viewModelScope.launch {
+            val location = locationProviderClient.getCurrentLocation(
+                Priority.PRIORITY_BALANCED_POWER_ACCURACY,
+                CancellationTokenSource().token
+            ).await()
+
+            geocoder.getFromLocation(
+                location.latitude,
+                location.longitude,
+                1
+            ) {
+                it.firstOrNull()?.let { address ->
+                    _descriptionState.value = _descriptionState.value.copy(location = "${address.countryName}, ${address.locality}")
+                }
+            }
+        }
     }
 
     fun updateDescription(description: String) {
