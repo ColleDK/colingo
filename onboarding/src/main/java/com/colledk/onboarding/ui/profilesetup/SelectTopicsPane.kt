@@ -6,20 +6,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.sizeIn
-import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -27,7 +22,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.min
 import androidx.compose.ui.util.fastForEach
 import com.colledk.onboarding.R
 import com.colledk.onboarding.domain.Topic
@@ -35,6 +29,9 @@ import com.colledk.onboarding.domain.Topic
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 internal fun SelectTopicsPane(
+    selectedTopics: List<Topic>,
+    addTopic: (topic: Topic) -> Unit,
+    removeTopic: (topic: Topic) -> Unit,
     modifier: Modifier = Modifier
 ) {
     ProfileSetup(
@@ -42,10 +39,6 @@ internal fun SelectTopicsPane(
         subtitleId = R.string.select_topics_subtitle,
         modifier = modifier
     ) {
-
-        val selectedTopics = remember {
-            mutableStateListOf<Topic>()
-        }
         FlowRow(
             horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterHorizontally),
             verticalArrangement = Arrangement.spacedBy(8.dp),
@@ -64,9 +57,9 @@ internal fun SelectTopicsPane(
                             value = isSelected,
                             onValueChange = {
                                 if (isSelected) {
-                                    selectedTopics.remove(topic)
+                                    removeTopic(topic)
                                 } else {
-                                    selectedTopics.add(topic)
+                                    addTopic(topic)
                                 }
                             }
                         ),
