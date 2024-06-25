@@ -1,4 +1,4 @@
-package com.colledk.colingo.compose
+package com.colledk.colingo.ui.compose
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-fun SettingsPane(modifier: Modifier = Modifier) {
+fun HomePane(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
-        Text(text = "This is the settings pane")
+        Text(text = "This is the home pane")
     }
 }

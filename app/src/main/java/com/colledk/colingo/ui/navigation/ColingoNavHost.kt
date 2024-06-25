@@ -1,4 +1,4 @@
-package com.colledk.colingo.navigation
+package com.colledk.colingo.ui.navigation
 
 import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.tween
@@ -10,12 +10,12 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.colledk.colingo.ColingoAppState
-import com.colledk.colingo.compose.ChatPane
-import com.colledk.colingo.compose.ExplorePane
-import com.colledk.colingo.compose.HomePane
-import com.colledk.colingo.compose.ProfilePane
-import com.colledk.colingo.compose.SettingsPane
+import com.colledk.colingo.ui.ColingoAppState
+import com.colledk.colingo.ui.compose.ChatPane
+import com.colledk.colingo.ui.compose.ExplorePane
+import com.colledk.colingo.ui.compose.HomePane
+import com.colledk.colingo.ui.compose.ProfilePane
+import com.colledk.colingo.ui.compose.SettingsPane
 import com.colledk.onboarding.navigation.onboardingGraph
 import com.colledk.onboarding.navigation.onboardingGraphRoute
 
