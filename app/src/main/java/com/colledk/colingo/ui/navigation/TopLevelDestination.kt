@@ -1,4 +1,4 @@
-package com.colledk.colingo.navigation
+package com.colledk.colingo.ui.navigation
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons

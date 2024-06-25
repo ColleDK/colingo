@@ -1,4 +1,4 @@
-package com.colledk.colingo.compose
+package com.colledk.colingo.ui.compose
 
 import androidx.compose.material3.Text
 import androidx.compose.material3.Icon
@@ -8,12 +8,9 @@ import androidx.compose.runtime.movableContentOf
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.util.fastForEach
-import androidx.navigation.NavDestination
-import androidx.navigation.NavDestination.Companion.hierarchy
-import com.colledk.colingo.ColingoAppState
-import com.colledk.colingo.navigation.ColingoNavHost
-import com.colledk.colingo.navigation.TopLevelDestination
-import com.colledk.colingo.rememberColingoAppState
+import com.colledk.colingo.ui.ColingoAppState
+import com.colledk.colingo.ui.navigation.ColingoNavHost
+import com.colledk.colingo.ui.rememberColingoAppState
 
 @Composable
 internal fun ColingoApp(

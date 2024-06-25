@@ -1,4 +1,4 @@
-package com.colledk.colingo.compose
+package com.colledk.colingo.ui.compose
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
