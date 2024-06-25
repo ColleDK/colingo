@@ -1,5 +1,6 @@
 package com.colledk.onboarding.ui
 
+import android.net.Uri
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -24,7 +25,9 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.currentWindowAdaptiveInfo
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -38,25 +41,76 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.window.core.layout.WindowWidthSizeClass
 import com.colledk.onboarding.R
+import com.colledk.onboarding.domain.Gender
+import com.colledk.onboarding.domain.Topic
+import com.colledk.onboarding.domain.UserLanguage
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_DESCRIPTION
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_PICTURE
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_GENDER
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_LANGUAGES
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_TOPICS
-import com.colledk.onboarding.ui.ProfileSetupDestination.entries
 import com.colledk.onboarding.ui.profilesetup.AddDescriptionPane
 import com.colledk.onboarding.ui.profilesetup.ProfileSetupViewModel
 import com.colledk.onboarding.ui.profilesetup.SelectGender
 import com.colledk.onboarding.ui.profilesetup.SelectLanguagesPane
 import com.colledk.onboarding.ui.profilesetup.SelectPicturePane
 import com.colledk.onboarding.ui.profilesetup.SelectTopicsPane
+import com.colledk.onboarding.ui.profilesetup.uistates.DescriptionUiState
+import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
+import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
+import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
+import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
 import kotlinx.coroutines.launch
 
 @Composable
 internal fun ProfileSetupPane(
     modifier: Modifier = Modifier,
-    pages: List<ProfileSetupDestination> = entries,
     viewModel: ProfileSetupViewModel = hiltViewModel()
+) {
+    val pictureUiState by viewModel.profilePictureState.collectAsState()
+    val descriptionUiState by viewModel.descriptionState.collectAsState()
+    val languageUiState by viewModel.languagesState.collectAsState()
+    val topicsUiState by viewModel.topicState.collectAsState()
+    val genderUiState by viewModel.genderState.collectAsState()
+
+ProfileSetupPane(
+    pictureUiState = pictureUiState,
+    descriptionUiState = descriptionUiState,
+    languagesUiState = languageUiState,
+    topicsUiState = topicsUiState,
+    genderUiState = genderUiState,
+    modifier = modifier,
+    onPictureSelected = viewModel::updateProfilePicture,
+    onPictureRemoved = viewModel::removeProfilePicture,
+    updateBirthday = viewModel::updateBirthday,
+    getLocation = viewModel::getLocation,
+    updateDescription = viewModel::updateDescription,
+    onAddLanguage = viewModel::addLanguage,
+    onRemoveLanguage = viewModel::removeLanguage,
+    addTopic = viewModel::selectTopic,
+    removeTopic = viewModel::removeTopic,
+    onGenderSelected = viewModel::selectGender
+)
+}
+
+@Composable
+private fun ProfileSetupPane(
+    pictureUiState: ProfilePictureUiState,
+    descriptionUiState: DescriptionUiState,
+    languagesUiState: LanguagesUiState,
+    topicsUiState: TopicsUiState,
+    genderUiState: GenderUiState,
+    onPictureSelected: (uri: Uri?) -> Unit,
+    onPictureRemoved: () ->  Unit,
+    updateBirthday: (time: Long) -> Unit,
+    getLocation: () -> Unit,
+    updateDescription: (description: String) -> Unit,
+    onAddLanguage: (language: UserLanguage) -> Unit,
+    onRemoveLanguage: (language: UserLanguage) -> Unit,
+    addTopic: (topic: Topic) -> Unit,
+    removeTopic: (topic: Topic) -> Unit,
+    onGenderSelected: (gender: Gender) -> Unit,
+    modifier: Modifier = Modifier
 ) {
     Box(
         modifier = modifier.then(
@@ -71,33 +125,54 @@ internal fun ProfileSetupPane(
         )
     ) {
         val windowSizeClass = currentWindowAdaptiveInfo().windowSizeClass
-        val pagesPerScreen =
-            if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
+        val pagesPerScreen = if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
 
         val scope = rememberCoroutineScope()
 
-        val pagerState = rememberPagerState { pages.size }
-        HorizontalPager(
-            modifier = Modifier.fillMaxSize(),
-            state = pagerState,
-            pageSize = object : PageSize {
+        val pagerState = rememberPagerState { ProfileSetupDestination.entries.size }
+        val pageSize = remember {
+            object : PageSize {
                 override fun Density.calculateMainAxisPageSize(
                     availableSpace: Int,
                     pageSpacing: Int
                 ): Int {
                     return ((availableSpace - (pagesPerScreen - 1) * pageSpacing) / pagesPerScreen)
                 }
-            },
+            }
+        }
+        HorizontalPager(
+            modifier = Modifier.fillMaxSize(),
+            state = pagerState,
+            pageSize = pageSize,
             contentPadding = PaddingValues(bottom = 92.dp, top = 48.dp)
         ) { page ->
             ProfileSetupPage(
-                page = pages[page],
-                modifier = Modifier.fillMaxSize(),
-                viewModel = viewModel
+                page = ProfileSetupDestination.entries[page],
+                pictureUiState = pictureUiState,
+                descriptionUiState = descriptionUiState,
+                languagesUiState = languagesUiState,
+                topicsUiState = topicsUiState,
+                genderUiState = genderUiState,
+                onPictureSelected = onPictureSelected,
+                onPictureRemoved = onPictureRemoved,
+                updateBirthday = updateBirthday,
+                getLocation = getLocation,
+                updateDescription = updateDescription,
+                onAddLanguage = onAddLanguage,
+                onRemoveLanguage = onRemoveLanguage,
+                addTopic = addTopic,
+                removeTopic = removeTopic,
+                onGenderSelected = onGenderSelected,
+                modifier = Modifier.fillMaxSize()
             )
         }
 
-        if ((pagerState.currentPage == pagerState.pageCount - 1 || (pagesPerScreen > 1 && pagerState.currentPage + 1 == pagerState.pageCount - 1)).not()) {
+        val shouldShowNextButton by remember {
+            derivedStateOf {
+                (pagerState.currentPage == pagerState.pageCount - 1 || (pagesPerScreen > 1 && pagerState.currentPage + 1 == pagerState.pageCount - 1)).not()
+            }
+        }
+        if (shouldShowNextButton) {
             Button(
                 onClick = {
                     scope.launch {
@@ -176,63 +251,68 @@ private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
 
 @Composable
 private fun ProfileSetupPage(
-    viewModel: ProfileSetupViewModel,
     page: ProfileSetupDestination,
+    pictureUiState: ProfilePictureUiState,
+    descriptionUiState: DescriptionUiState,
+    languagesUiState: LanguagesUiState,
+    topicsUiState: TopicsUiState,
+    genderUiState: GenderUiState,
+    onPictureSelected: (uri: Uri?) -> Unit,
+    onPictureRemoved: () ->  Unit,
+    updateBirthday: (time: Long) -> Unit,
+    getLocation: () -> Unit,
+    updateDescription: (description: String) -> Unit,
+    onAddLanguage: (language: UserLanguage) -> Unit,
+    onRemoveLanguage: (language: UserLanguage) -> Unit,
+    addTopic: (topic: Topic) -> Unit,
+    removeTopic: (topic: Topic) -> Unit,
+    onGenderSelected: (gender: Gender) -> Unit,
     modifier: Modifier = Modifier
 ) {
     when (page) {
         ADD_PICTURE -> {
-            val profilePictureState by viewModel.profilePictureState.collectAsState()
             SelectPicturePane(
                 modifier = modifier,
-                profilePicture = profilePictureState.profilePicture,
-                onPictureSelected = viewModel::updateProfilePicture,
-                onPictureRemoved = viewModel::removeProfilePicture
+                profilePicture = pictureUiState.profilePicture,
+                onPictureSelected = onPictureSelected,
+                onPictureRemoved = onPictureRemoved
             )
         }
 
         ADD_DESCRIPTION -> {
-            val descriptionState by viewModel.descriptionState.collectAsState()
-
             AddDescriptionPane(
-                birthday = descriptionState.birthday,
-                location = descriptionState.location,
-                description = descriptionState.description,
-                updateBirthday = viewModel::updateBirthday,
-                getLocation = viewModel::getLocation,
-                updateDescription = viewModel::updateDescription,
+                birthday = descriptionUiState.birthday,
+                location = descriptionUiState.location,
+                description = descriptionUiState.description,
+                updateBirthday = updateBirthday,
+                getLocation = getLocation,
+                updateDescription = updateDescription,
                 modifier = modifier
             )
         }
 
         SELECT_LANGUAGES -> {
-            val languageState by viewModel.languagesState.collectAsState()
-
             SelectLanguagesPane(
-                selectedLanguages = languageState.languages,
-                onAddLanguage = viewModel::addLanguage,
-                onRemoveLanguage = viewModel::removeLanguage,
+                selectedLanguages = languagesUiState.languages,
+                onAddLanguage = onAddLanguage,
+                onRemoveLanguage = onRemoveLanguage,
                 modifier = modifier
             )
         }
 
         SELECT_TOPICS -> {
-            val topicState by viewModel.topicState.collectAsState()
-
             SelectTopicsPane(
-                selectedTopics = topicState.selectedTopics,
-                addTopic = viewModel::selectTopic,
-                removeTopic = viewModel::removeTopic,
+                selectedTopics = topicsUiState.selectedTopics,
+                addTopic = addTopic,
+                removeTopic = removeTopic,
                 modifier = modifier
             )
         }
 
         SELECT_GENDER -> {
-            val genderState by viewModel.genderState.collectAsState()
-
             SelectGender(
-                selectedGender = genderState.selectedGender,
-                onGenderSelected = viewModel::selectGender,
+                selectedGender = genderUiState.selectedGender,
+                onGenderSelected = onGenderSelected,
                 modifier = modifier
             )
         }

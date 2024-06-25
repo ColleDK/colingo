@@ -22,6 +22,7 @@ import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.material3.rememberDatePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -156,6 +157,20 @@ private fun PermissionRequester(
 ) {
     val permissionState = rememberMultiplePermissionsState(permissions = permissions)
 
+    val grantedPermissions by remember {
+        derivedStateOf {
+            permissionState.permissions.filter {
+                it.status.isGranted
+            }
+        }
+    }
+
+    LaunchedEffect(key1 = grantedPermissions) {
+        if (grantedPermissions.isNotEmpty()) {
+            onPermissionGranted()
+        }
+    }
+
     LaunchedEffect(key1 = permissionState) {
         val allPermissionRevoked = permissionState.permissions.size == permissionState.revokedPermissions.size
 
@@ -173,12 +188,6 @@ private fun PermissionRequester(
             } else {
                 onPermissionDenied()
             }
-        }
-    }
-
-    LaunchedEffect(key1 = permissionState.allPermissionsGranted) {
-        if (permissionState.allPermissionsGranted) {
-            onPermissionGranted()
         }
     }
 }

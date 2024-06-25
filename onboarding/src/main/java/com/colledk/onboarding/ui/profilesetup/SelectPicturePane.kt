@@ -21,6 +21,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
@@ -52,7 +53,8 @@ internal fun SelectPicturePane(
                         .data(it)
                         .build(),
                     contentDescription = null,
-                    modifier = Modifier.clip(RoundedCornerShape(24.dp))
+                    modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(24.dp)),
+                    contentScale = ContentScale.FillWidth
                 )
                 IconButton(
                     onClick = onPictureRemoved,

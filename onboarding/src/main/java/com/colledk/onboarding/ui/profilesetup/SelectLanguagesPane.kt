@@ -155,6 +155,8 @@ private fun SelectNewLanguage(
                         showLanguageMenu = true
                     }
                 )
+
+                // TODO rewrite to not being dropdown
                 DropdownMenu(
                     expanded = showLanguageMenu,
                     onDismissRequest = { showLanguageMenu = false }
