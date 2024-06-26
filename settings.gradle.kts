@@ -17,3 +17,4 @@ rootProject.name = "colingo"
 include(":app")
 include(":onboarding")
 include(":theme")
+include(":chat")

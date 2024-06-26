@@ -65,7 +65,8 @@ import kotlinx.coroutines.launch
 @Composable
 internal fun ProfileSetupPane(
     modifier: Modifier = Modifier,
-    viewModel: ProfileSetupViewModel = hiltViewModel()
+    viewModel: ProfileSetupViewModel = hiltViewModel(),
+    onFinishSetup: () -> Unit
 ) {
     val pictureUiState by viewModel.profilePictureState.collectAsState()
     val descriptionUiState by viewModel.descriptionState.collectAsState()
@@ -73,24 +74,25 @@ internal fun ProfileSetupPane(
     val topicsUiState by viewModel.topicState.collectAsState()
     val genderUiState by viewModel.genderState.collectAsState()
 
-ProfileSetupPane(
-    pictureUiState = pictureUiState,
-    descriptionUiState = descriptionUiState,
-    languagesUiState = languageUiState,
-    topicsUiState = topicsUiState,
-    genderUiState = genderUiState,
-    modifier = modifier,
-    onPictureSelected = viewModel::updateProfilePicture,
-    onPictureRemoved = viewModel::removeProfilePicture,
-    updateBirthday = viewModel::updateBirthday,
-    getLocation = viewModel::getLocation,
-    updateDescription = viewModel::updateDescription,
-    onAddLanguage = viewModel::addLanguage,
-    onRemoveLanguage = viewModel::removeLanguage,
-    addTopic = viewModel::selectTopic,
-    removeTopic = viewModel::removeTopic,
-    onGenderSelected = viewModel::selectGender
-)
+    ProfileSetupPane(
+        pictureUiState = pictureUiState,
+        descriptionUiState = descriptionUiState,
+        languagesUiState = languageUiState,
+        topicsUiState = topicsUiState,
+        genderUiState = genderUiState,
+        modifier = modifier,
+        onPictureSelected = viewModel::updateProfilePicture,
+        onPictureRemoved = viewModel::removeProfilePicture,
+        updateBirthday = viewModel::updateBirthday,
+        getLocation = viewModel::getLocation,
+        updateDescription = viewModel::updateDescription,
+        onAddLanguage = viewModel::addLanguage,
+        onRemoveLanguage = viewModel::removeLanguage,
+        addTopic = viewModel::selectTopic,
+        removeTopic = viewModel::removeTopic,
+        onGenderSelected = viewModel::selectGender,
+        onFinishSetup = onFinishSetup
+    )
 }
 
 @Composable
@@ -101,7 +103,7 @@ private fun ProfileSetupPane(
     topicsUiState: TopicsUiState,
     genderUiState: GenderUiState,
     onPictureSelected: (uri: Uri?) -> Unit,
-    onPictureRemoved: () ->  Unit,
+    onPictureRemoved: () -> Unit,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
     updateDescription: (description: String) -> Unit,
@@ -110,7 +112,8 @@ private fun ProfileSetupPane(
     addTopic: (topic: Topic) -> Unit,
     removeTopic: (topic: Topic) -> Unit,
     onGenderSelected: (gender: Gender) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onFinishSetup: () -> Unit
 ) {
     Box(
         modifier = modifier.then(
@@ -125,7 +128,8 @@ private fun ProfileSetupPane(
         )
     ) {
         val windowSizeClass = currentWindowAdaptiveInfo().windowSizeClass
-        val pagesPerScreen = if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
+        val pagesPerScreen =
+            if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
 
         val scope = rememberCoroutineScope()
 
@@ -167,12 +171,12 @@ private fun ProfileSetupPane(
             )
         }
 
-        val shouldShowNextButton by remember {
+        val shouldShowSkipButton by remember {
             derivedStateOf {
                 (pagerState.currentPage == pagerState.pageCount - 1 || (pagesPerScreen > 1 && pagerState.currentPage + 1 == pagerState.pageCount - 1)).not()
             }
         }
-        if (shouldShowNextButton) {
+        if (shouldShowSkipButton) {
             Button(
                 onClick = {
                     scope.launch {
@@ -205,9 +209,7 @@ private fun ProfileSetupPane(
                     .fillMaxWidth(.5f)
                     .heightIn(min = 48.dp)
             ) {
-                scope.launch {
-                    pagerState.animateScrollToPage(pagerState.currentPage + 1)
-                }
+                onFinishSetup()
             }
             Row {
                 repeat(pagerState.pageCount) { index ->
@@ -258,7 +260,7 @@ private fun ProfileSetupPage(
     topicsUiState: TopicsUiState,
     genderUiState: GenderUiState,
     onPictureSelected: (uri: Uri?) -> Unit,
-    onPictureRemoved: () ->  Unit,
+    onPictureRemoved: () -> Unit,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
     updateDescription: (description: String) -> Unit,

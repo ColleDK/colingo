@@ -21,7 +21,8 @@ fun NavController.navigateToProfileSetup(navOptions: NavOptions? = null) {
 }
 
 fun NavGraphBuilder.onboardingGraph(
-    navHostController: NavHostController
+    navHostController: NavHostController,
+    onFinishOnboarding: () -> Unit
 ) {
     navigation(
         startDestination = profileSetupPaneRoute,
@@ -33,7 +34,9 @@ fun NavGraphBuilder.onboardingGraph(
             }
         }
         composable(profileSetupPaneRoute) {
-            ProfileSetupPane()
+            ProfileSetupPane {
+                onFinishOnboarding()
+            }
         }
     }
 }

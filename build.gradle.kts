@@ -19,5 +19,6 @@ plugins {
     alias(libs.plugins.ben.manes)
     alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.kotlin.serializable) apply false
 }
 true // Needed to make the Suppress annotation work for the plugins block
