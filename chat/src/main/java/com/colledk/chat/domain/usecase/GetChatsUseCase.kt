@@ -10,7 +10,7 @@ class GetChatsUseCase(private val repository: ChatRepository) {
     suspend operator fun invoke(ids: List<String>): Flow<List<Chat>> {
         return combine(
             ids.map {
-                repository.observeChat(it)
+                repository.getChat(it)
             }
         ) {
             it.toList()
