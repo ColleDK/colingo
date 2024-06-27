@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.colledk.onboarding"
+    namespace = "com.colledk.user"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -62,7 +62,6 @@ dependencies {
 
     // Internal modules
     implementation(project(":theme"))
-    implementation(project(":user"))
 
     // Hilt
     implementation(libs.hilt.android)

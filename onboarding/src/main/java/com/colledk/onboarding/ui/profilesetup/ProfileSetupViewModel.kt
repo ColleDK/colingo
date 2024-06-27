@@ -1,22 +1,17 @@
 package com.colledk.onboarding.ui.profilesetup
 
 import android.annotation.SuppressLint
-import android.location.Address
 import android.location.Geocoder
-import android.location.Geocoder.GeocodeListener
-import android.location.Location
 import android.net.Uri
 import android.os.Build
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.colledk.onboarding.domain.Gender
-import com.colledk.onboarding.domain.Topic
-import com.colledk.onboarding.domain.UserLanguage
 import com.colledk.onboarding.ui.profilesetup.uistates.DescriptionUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.colledk.user.domain.model.UserLanguage
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
@@ -111,21 +106,21 @@ class ProfileSetupViewModel @Inject constructor(
         )
     }
 
-    fun selectTopic(topic: Topic) {
+    fun selectTopic(topic: com.colledk.user.domain.model.Topic) {
         val currentState = _topicState.value
         _topicState.value = currentState.copy(
             selectedTopics = currentState.selectedTopics.plus(topic)
         )
     }
 
-    fun removeTopic(topic: Topic) {
+    fun removeTopic(topic: com.colledk.user.domain.model.Topic) {
         val currentState = _topicState.value
         _topicState.value = currentState.copy(
             selectedTopics = currentState.selectedTopics.minus(topic)
         )
     }
 
-    fun selectGender(gender: Gender) {
+    fun selectGender(gender: com.colledk.user.domain.model.Gender) {
         _genderState.value = _genderState.value.copy(selectedGender = gender)
     }
 }

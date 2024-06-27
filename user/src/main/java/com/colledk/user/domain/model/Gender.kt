@@ -1,4 +1,4 @@
-package com.colledk.onboarding.domain
+package com.colledk.user.domain.model
 
 enum class Gender {
     MALE,

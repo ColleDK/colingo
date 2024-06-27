@@ -8,6 +8,7 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.colledk.chat.ui.uistates.ChatUiState
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -25,7 +26,7 @@ internal fun ChatScreen(
         value = navigator.scaffoldValue,
         listPane = {
             AnimatedPane {
-                ChatPane {
+                ChatPane(state = ChatUiState(emptyList())) {
                     navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, "123")
                 }
             }

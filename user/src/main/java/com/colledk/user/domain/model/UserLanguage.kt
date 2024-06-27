@@ -1,6 +1,5 @@
-package com.colledk.onboarding.domain
+package com.colledk.user.domain.model
 
-// TODO move to correct module
 data class UserLanguage(
     val language: Language,
     val proficiency: LanguageProficiency

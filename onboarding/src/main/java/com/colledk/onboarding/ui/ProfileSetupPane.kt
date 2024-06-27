@@ -41,9 +41,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.window.core.layout.WindowWidthSizeClass
 import com.colledk.onboarding.R
-import com.colledk.onboarding.domain.Gender
-import com.colledk.onboarding.domain.Topic
-import com.colledk.onboarding.domain.UserLanguage
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_DESCRIPTION
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_PICTURE
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_GENDER
@@ -60,6 +57,9 @@ import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.colledk.user.domain.model.Gender
+import com.colledk.user.domain.model.Topic
+import com.colledk.user.domain.model.UserLanguage
 import kotlinx.coroutines.launch
 
 @Composable

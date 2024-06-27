@@ -31,8 +31,7 @@ material = "1.12.0"
 junit = "4.13.2"
 joda = "2.12.7"
 google-services = "4.4.2"
-firebase-db = "21.0.0"
-firebase-firestore = "25.0.0"
+firebase-bom = "32.0.0"
 coil = "2.6.0"
 junitKtx = "1.1.5"
 monitor = "1.6.1"
@@ -75,8 +74,10 @@ coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
 
 joda-time = { group = "joda-time", name = "joda-time", version.ref = "joda" }
 
-firebase-db = { module = "com.google.firebase:firebase-database", version.ref = "firebase-db"}
-firebase-firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebase-firestore"}
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+firebase-db = { module = "com.google.firebase:firebase-database" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
 
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
@@ -99,6 +100,7 @@ play-services-location = { group = "com.google.android.gms", name = "play-servic
 compose = ["compose-bom", "compose-ui", "compose-material3", "compose-foundation", "compose-livedata", "compose-ui-tooling", "compose-extended-icons", "compose-ui-util", "adaptive", "adaptive-layout", "androidx-adaptive-navigation"]
 compose-hilt = ["hilt-navigation-compose", "hilt-android"]
 testing-unit = ["junit5-core", "kotlin-test"]
+firebase = ["firebase-auth", "firebase-db", "firebase-firestore"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "gradle" }
