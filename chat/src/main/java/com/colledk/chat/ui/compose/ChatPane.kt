@@ -1,11 +1,10 @@
-package com.colledk.chat.ui
+package com.colledk.chat.ui.compose
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.colledk.chat.domain.model.Chat
@@ -15,7 +14,7 @@ import com.colledk.chat.ui.uistates.ChatUiState
 internal fun ChatPane(
     state: ChatUiState,
     modifier: Modifier = Modifier,
-    onNavigate: () -> Unit
+    onChatSelected: (chat: Chat) -> Unit
 ) {
     LazyColumn(
         modifier = modifier,

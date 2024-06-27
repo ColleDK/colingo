@@ -1,4 +1,4 @@
-package com.colledk.chat.ui
+package com.colledk.chat.ui.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

@@ -10,5 +10,6 @@ data class User(
     val location: Location,
     val languages: List<UserLanguage>,
     val gender: Gender,
-    val friends: List<User>
+    val friends: List<User>,
+    val chats: List<String>
 )

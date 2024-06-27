@@ -10,5 +10,6 @@ data class UserRemote(
     val location: LocationRemote,
     val languages: List<UserLanguageRemote>,
     val gender: GenderRemote,
-    val friends: List<UserRemote>
+    val friends: List<UserRemote>,
+    val chats: List<String>
 )

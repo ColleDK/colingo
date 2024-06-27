@@ -4,6 +4,6 @@ import androidx.compose.runtime.Stable
 import com.colledk.chat.domain.model.Chat
 
 @Stable
-data class ChatUiState(
-    val chats: List<Chat> = emptyList()
+data class ChatDetailUiState(
+    val chat: Chat? = null
 )

@@ -6,7 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
-import com.colledk.chat.ui.ChatScreen
+import com.colledk.chat.ui.compose.ChatScreen
 
 const val chatGraphRoute = "chat_graph"
 private const val chatPaneRoute = "chat_route"

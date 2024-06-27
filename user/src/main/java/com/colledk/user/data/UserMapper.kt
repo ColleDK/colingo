@@ -22,7 +22,8 @@ fun User.mapToRemote(): UserRemote {
         location = location.mapToRemote(),
         languages = languages.map { it.mapToRemote() },
         friends = friends.map { it.mapToRemote() },
-        gender = gender.mapToRemote()
+        gender = gender.mapToRemote(),
+        chats = chats
     )
 }
 
@@ -65,7 +66,8 @@ fun UserRemote.mapToDomain(): User {
         location = location.mapToDomain(),
         languages = languages.map { it.mapToDomain() },
         friends = friends.map { it.mapToDomain() },
-        gender = gender.mapToDomain()
+        gender = gender.mapToDomain(),
+        chats = chats
     )
 }
 

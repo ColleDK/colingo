@@ -64,6 +64,7 @@ dependencies {
 
     // Internal modules
     implementation(project(":theme"))
+    implementation(project(":chat"))
 
     // Hilt
     implementation(libs.hilt.android)
