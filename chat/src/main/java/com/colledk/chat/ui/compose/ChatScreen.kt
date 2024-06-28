@@ -7,10 +7,12 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.colledk.chat.ui.ChatDetailViewModel
 import com.colledk.chat.ui.ChatViewModel
 import com.colledk.chat.ui.uistates.ChatUiState
 
@@ -18,7 +20,8 @@ import com.colledk.chat.ui.uistates.ChatUiState
 @Composable
 internal fun ChatScreen(
     modifier: Modifier = Modifier,
-    viewModel: ChatViewModel = hiltViewModel()
+    viewModel: ChatViewModel = hiltViewModel(),
+    detailViewModel: ChatDetailViewModel = hiltViewModel()
 ) {
     val navigator = rememberListDetailPaneScaffoldNavigator<String>()
 
@@ -32,6 +35,11 @@ internal fun ChatScreen(
         listPane = {
             AnimatedPane {
                 val state by viewModel.uiState.collectAsState()
+
+                LaunchedEffect(key1 = Unit) {
+                    viewModel.getChats()
+                }
+
                 ChatPane(state = state) { chat ->
                     navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, chat.id)
                 }
@@ -40,7 +48,13 @@ internal fun ChatScreen(
         detailPane = {
             AnimatedPane {
                 navigator.currentDestination?.content?.let { chatId ->
-                    ChatDetailPane(chatId = chatId)
+                    val state by detailViewModel.uiState.collectAsState()
+
+                    LaunchedEffect(key1 = chatId) {
+                        detailViewModel.getChat(id = chatId)
+                    }
+
+                    ChatDetailPane(state = state)
                 }
             }
         },

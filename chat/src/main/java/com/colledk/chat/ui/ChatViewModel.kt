@@ -11,7 +11,6 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.collectLatest
-import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -30,8 +29,11 @@ class ChatViewModel @Inject constructor(
     fun getChats() {
         viewModelScope.launch {
             getCurrentUserUseCase().onSuccess { user ->
-                getChatsUseCase(user.chats).collectLatest { 
-                    _uiState.value = ChatUiState(chats = it)
+                getChatsUseCase(user.chats).collectLatest {
+                    _uiState.value = ChatUiState(
+                        chats = it,
+                        currentUser = user
+                    )
                 }
             }.onFailure {
                 _error.trySend(it)

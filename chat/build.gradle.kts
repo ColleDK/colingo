@@ -64,7 +64,7 @@ dependencies {
 
     // Internal modules
     implementation(project(":theme"))
-    implementation(project(":chat"))
+    implementation(project(":user"))
 
     // Hilt
     implementation(libs.hilt.android)
@@ -75,6 +75,9 @@ dependencies {
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.bundles.firebase)
+
+    // Joda
+    implementation(libs.joda.time.core)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

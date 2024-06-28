@@ -1,8 +1,11 @@
 package com.colledk.chat.domain.model
 
+import com.colledk.user.domain.model.User
+
 data class Message(
     val id: String,
-    val senderId: String,
+    val sender: User,
     val content: String,
+    val time: String,
     val timestamp: Long
 )

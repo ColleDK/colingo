@@ -15,6 +15,7 @@ import com.colledk.user.domain.model.UserLanguage
 
 fun User.mapToRemote(): UserRemote {
     return UserRemote(
+        id = id,
         name = name,
         birthday = birthday,
         profilePictures = profilePictures,
@@ -59,6 +60,7 @@ internal fun Gender.mapToRemote(): GenderRemote {
 
 fun UserRemote.mapToDomain(): User {
     return User(
+        id = id,
         name = name,
         birthday = birthday,
         profilePictures = profilePictures,

@@ -38,6 +38,7 @@ monitor = "1.6.1"
 material3AdaptiveNavigationSuiteAndroid = "1.3.0-beta03"
 playServicesLocation = "21.3.0"
 kotlin-serialization = "1.6.3"
+joda-time = "2.12.7"
 
 [libraries]
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
@@ -50,6 +51,7 @@ android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref 
 hilt-gradlePlugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
 google-services-gradlePlugin = { module = "com.google.gms:google-services", version.ref = "google-services" }
 kotlin-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlin-serialization"}
+joda-time-core = { module = "joda-time:joda-time", version.ref = "joda-time" }
 
 androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core-ktx" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
