@@ -82,6 +82,10 @@ dependencies {
     // Coil
     implementation(libs.coil)
 
+    // Firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.bundles.firebase)
+
     // Test
     testImplementation(libs.bundles.testing.unit)
 }

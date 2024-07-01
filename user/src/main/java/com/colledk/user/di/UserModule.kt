@@ -6,6 +6,7 @@ import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import dagger.Module
 import dagger.Provides
@@ -19,7 +20,7 @@ class UserModule {
     @Provides
     fun providesUserRemoteDataSource(): UserRemoteDataSource {
         return UserRemoteDataSource(
-            db = FirebaseFirestore.getInstance(),
+            db = Firebase.firestore,
             auth = Firebase.auth
         )
     }

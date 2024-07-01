@@ -1,5 +1,6 @@
 package com.colledk.chat.ui.compose
 
+import android.net.Uri
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -7,6 +8,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,19 +17,28 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.ui.uistates.ChatUiState
+import com.colledk.theme.ColingoTheme
+import com.colledk.theme.PreviewAnnotations
+import com.colledk.theme.debugPlaceholder
+import com.colledk.user.domain.model.Gender
+import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -46,7 +57,8 @@ internal fun ChatPane(
             Text(
                 text = "My messages",
                 style = MaterialTheme.typography.headlineLarge,
-                color = MaterialTheme.colorScheme.onSurface
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.background(MaterialTheme.colorScheme.surface)
             )
         }
         items(state.chats) { chat ->
@@ -68,7 +80,7 @@ private fun ChatItem(
 ) {
     Card(
         onClick = onChatSelected,
-        modifier = modifier,
+        modifier = modifier.height(140.dp),
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.secondaryContainer,
             contentColor = MaterialTheme.colorScheme.onSecondaryContainer
@@ -93,7 +105,10 @@ private fun ChatItem(
             }
         }
 
-        Row {
+        Row(
+            modifier = Modifier.padding(12.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
             Box(
                 modifier = Modifier
                     .size(48.dp)
@@ -104,27 +119,152 @@ private fun ChatItem(
                     AsyncImage(
                         model = it,
                         contentDescription = null,
-                        contentScale = ContentScale.Crop
+                        contentScale = ContentScale.Crop,
+                        placeholder = debugPlaceholder()
                     )
                 }
             }
             Column(
-                modifier = Modifier.weight(1f)
+                modifier = Modifier.weight(1f),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
                     text = otherUser.name,
                     style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
+                    color = MaterialTheme.colorScheme.onSecondaryContainer,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = otherUser.name,
+                    text = latestMessage?.content.orEmpty(),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSecondaryContainer
+                    color = MaterialTheme.colorScheme.onSecondaryContainer,
+                    overflow = TextOverflow.Ellipsis
                 )
             }
             Column {
                 Text(text = latestMessage?.time.orEmpty())
                 // TODO add unread notification
+            }
+        }
+    }
+}
+
+@PreviewAnnotations
+@Composable
+private fun ChatPanePreview() {
+    val uiState by remember {
+        mutableStateOf(
+            ChatUiState(
+                chats = listOf(
+                    Chat(
+                        id = "123",
+                        users = listOf(
+                            User(
+                                id = "12",
+                                name = "Johnny",
+                                birthday = 0L,
+                                profilePictures = emptyList(),
+                                description = "",
+                                location = Location("", ""),
+                                languages = emptyList(),
+                                gender = Gender.MALE,
+                                friends = emptyList(),
+                                chats = listOf("123")
+                            ),
+                            User(
+                                id = "13",
+                                name = "Benny",
+                                birthday = 0L,
+                                profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
+                                description = "",
+                                location = Location("", ""),
+                                languages = emptyList(),
+                                gender = Gender.MALE,
+                                friends = emptyList(),
+                                chats = listOf("123")
+                            )
+                        ),
+                        messages = listOf(
+                            Message(
+                                id = "123",
+                                sender = User(
+                                    id = "13",
+                                    name = "Benny",
+                                    birthday = 0L,
+                                    profilePictures = emptyList(),
+                                    description = "",
+                                    location = Location("", ""),
+                                    languages = emptyList(),
+                                    gender = Gender.MALE,
+                                    friends = emptyList(),
+                                    chats = listOf("123")
+                                ),
+                                content = "Hi Johnny, I really love you big time my man",
+                                time = "12:53",
+                                timestamp = 0L
+                            )
+                        )
+                    ),
+                    Chat(
+                        id = "123",
+                        users = listOf(
+                            User(
+                                id = "12",
+                                name = "Johnny",
+                                birthday = 0L,
+                                profilePictures = emptyList(),
+                                description = "",
+                                location = Location("", ""),
+                                languages = emptyList(),
+                                gender = Gender.MALE,
+                                friends = emptyList(),
+                                chats = listOf("123")
+                            ),
+                            User(
+                                id = "13",
+                                name = "Benny",
+                                birthday = 0L,
+                                profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
+                                description = "",
+                                location = Location("", ""),
+                                languages = emptyList(),
+                                gender = Gender.MALE,
+                                friends = emptyList(),
+                                chats = listOf("123")
+                            )
+                        ),
+                        messages = listOf(
+                            Message(
+                                id = "123",
+                                sender = User(
+                                    id = "13",
+                                    name = "Benny",
+                                    birthday = 0L,
+                                    profilePictures = emptyList(),
+                                    description = "",
+                                    location = Location("", ""),
+                                    languages = emptyList(),
+                                    gender = Gender.MALE,
+                                    friends = emptyList(),
+                                    chats = listOf("123")
+                                ),
+                                content = "Hi Johnny, I really love you big time my man",
+                                time = "12:53",
+                                timestamp = 0L
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    }
+
+    ColingoTheme {
+        Surface(color = MaterialTheme.colorScheme.surface) {
+            ChatPane(state = uiState) {
+
             }
         }
     }

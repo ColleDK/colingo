@@ -5,6 +5,11 @@ import com.colledk.chat.data.remote.repository.ChatRepositoryImpl
 import com.colledk.chat.domain.repository.ChatRepository
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.user.domain.repository.UserRepository
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -17,15 +22,22 @@ class ChatModule {
 
     @Provides
     fun providesChatRemoteDataSource(): ChatRemoteDataSource {
-        return ChatRemoteDataSource()
+        return ChatRemoteDataSource(
+            db = Firebase.firestore,
+            auth = Firebase.auth
+        )
     }
 
     @Provides
     @Singleton
     fun providesChatRepository(
-        remoteDataSource: ChatRemoteDataSource
+        remoteDataSource: ChatRemoteDataSource,
+        userRepository: UserRepository
     ): ChatRepository {
-        return ChatRepositoryImpl(remoteDataSource = remoteDataSource)
+        return ChatRepositoryImpl(
+            remoteDataSource = remoteDataSource,
+            userRepository = userRepository
+        )
     }
 
     @Provides

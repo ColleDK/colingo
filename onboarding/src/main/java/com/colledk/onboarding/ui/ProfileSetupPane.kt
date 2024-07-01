@@ -205,11 +205,18 @@ private fun ProfileSetupPane(
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             NextButton(
+                btnText = if (shouldShowSkipButton) stringResource(id = R.string.setup_profile_next) else stringResource(id = R.string.setup_profile_finish),
                 modifier = Modifier
                     .fillMaxWidth(.5f)
                     .heightIn(min = 48.dp)
             ) {
-                onFinishSetup()
+                if (shouldShowSkipButton) {
+                    scope.launch {
+                        pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                    }
+                } else {
+                    onFinishSetup()
+                }
             }
             Row {
                 repeat(pagerState.pageCount) { index ->
@@ -234,7 +241,11 @@ private fun ProfileSetupPane(
 }
 
 @Composable
-private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
+private fun NextButton(
+    btnText: String,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
     Button(
         onClick = onClick,
         modifier = modifier,
@@ -244,7 +255,7 @@ private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
         elevation = ButtonDefaults.buttonElevation(2.dp)
     ) {
         Text(
-            text = stringResource(id = R.string.setup_profile_next),
+            text = btnText,
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onPrimary
         )

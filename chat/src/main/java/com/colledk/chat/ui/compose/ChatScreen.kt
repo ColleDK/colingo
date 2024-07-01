@@ -30,6 +30,7 @@ internal fun ChatScreen(
     }
 
     ListDetailPaneScaffold(
+        modifier = modifier,
         directive = navigator.scaffoldDirective,
         value = navigator.scaffoldValue,
         listPane = {
@@ -57,7 +58,6 @@ internal fun ChatScreen(
                     ChatDetailPane(state = state)
                 }
             }
-        },
-        modifier = modifier
+        }
     )
 }
