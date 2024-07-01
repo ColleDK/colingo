@@ -17,14 +17,14 @@ class ChatDetailViewModel @Inject constructor(
     private val getChatUseCase: GetChatUseCase
 ) : ViewModel() {
     
-    private val _uiState: MutableStateFlow<ChatDetailUiState> = MutableStateFlow(ChatDetailUiState())
-    val uiState: StateFlow<ChatDetailUiState> = _uiState
-
-    fun getChat(id: String) {
-        viewModelScope.launch {
-            getChatUseCase(chatId = id).collectLatest {
-                _uiState.value = ChatDetailUiState(chat = it)
-            }
-        }
-    }
+//    private val _uiState: MutableStateFlow<ChatDetailUiState> = MutableStateFlow(ChatDetailUiState.Loading)
+//    val uiState: StateFlow<ChatDetailUiState> = _uiState
+//
+//    fun getChat(id: String) {
+//        viewModelScope.launch {
+//            getChatUseCase(chatId = id).collectLatest {
+//                _uiState.value = ChatDetailUiState.Data(chat = it)
+//            }
+//        }
+//    }
 }

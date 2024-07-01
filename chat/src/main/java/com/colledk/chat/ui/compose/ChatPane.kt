@@ -94,12 +94,13 @@ internal fun ChatPane(
             state = listState
         ) {
             stickyHeader {
-                Text(
-                    text = "My messages",
-                    style = MaterialTheme.typography.headlineLarge,
-                    color = MaterialTheme.colorScheme.onSurface,
-                    modifier = Modifier.fillParentMaxWidth().background(MaterialTheme.colorScheme.surface)
-                )
+                Surface(modifier = Modifier.fillParentMaxWidth()) {
+                    Text(
+                        text = "My messages",
+                        style = MaterialTheme.typography.headlineLarge,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
             }
             items(state.chats) { chat ->
                 ChatItem(
@@ -268,7 +269,8 @@ private fun ChatPanePreview() {
                                 ),
                                 content = "Hi Johnny, I really love you big time my man",
                                 time = "12:53",
-                                timestamp = 0L
+                                timestamp = 0L,
+                                date = ""
                             )
                         )
                     ),
@@ -317,7 +319,8 @@ private fun ChatPanePreview() {
                                 ),
                                 content = "Hi Johnny, I really love you big time my man",
                                 time = "12:53",
-                                timestamp = 0L
+                                timestamp = 0L,
+                                date = ""
                             )
                         )
                     )

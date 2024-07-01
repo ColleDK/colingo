@@ -7,5 +7,6 @@ data class Message(
     val sender: User,
     val content: String,
     val time: String,
+    val date: String,
     val timestamp: Long
 )

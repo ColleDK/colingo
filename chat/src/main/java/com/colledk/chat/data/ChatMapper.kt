@@ -34,9 +34,39 @@ private fun MessageRemote.mapToDomain(user: User): Message {
         id = id,
         sender = user,
         content = content,
-        time = timestamp.toDateString(),
-        timestamp = timestamp
+        time = timestamp.toTimeString(),
+        timestamp = timestamp,
+        date = timestamp.toDateString()
     )
+}
+
+/**
+ * Convert a timestamp into a string text.
+ *
+ * If the timestamp is within the same day, it will print Today.
+ *
+ * If the timestamp is from yesterday, it will print Yesterday.
+ *
+ * If the timestamp is within the same week, it will print the day, i.e. Monday.
+ *
+ * Else the timestamp will print the long date, i.e. November 3, 2016.
+ */
+private fun Long.toDateString(): String {
+    val date = DateTime(this)
+    return when {
+        date.isToday() ->  {
+            "Today"
+        }
+        date.isYesterday() -> {
+            "Yesterday"
+        }
+        date.isCurrentWeek() -> {
+            date.dayOfWeek().asText
+        }
+        else -> {
+            date.toString(DateTimeFormat.longDate())
+        }
+    }
 }
 
 
@@ -49,7 +79,7 @@ private fun MessageRemote.mapToDomain(user: User): Message {
  *
  * Else the timestamp will print the shorted date, i.e. 12/12/13.
  */
-private fun Long.toDateString(): String {
+private fun Long.toTimeString(): String {
     val date = DateTime(this)
     return when {
         date.isToday() -> {
@@ -71,6 +101,15 @@ private fun DateTime.isToday(): Boolean {
     val startOfToday = today.withTimeAtStartOfDay()
     val startOfTomorrow = tomorrow.withTimeAtStartOfDay()
     return startOfToday <= this && this < startOfTomorrow
+}
+
+private fun DateTime.isYesterday(): Boolean {
+    val today = DateTime.now()
+    val yesterday = today.minusDays(1)
+
+    val startOfToday = today.withTimeAtStartOfDay()
+    val startOfYesterday = yesterday.withTimeAtStartOfDay()
+    return startOfYesterday <= this && this < startOfToday
 }
 
 private fun DateTime.isCurrentWeek(): Boolean {

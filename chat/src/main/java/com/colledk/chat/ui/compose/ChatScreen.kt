@@ -9,19 +9,19 @@ import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaf
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.colledk.chat.ui.ChatDetailViewModel
 import com.colledk.chat.ui.ChatViewModel
-import com.colledk.chat.ui.uistates.ChatUiState
+import com.colledk.chat.ui.uistates.ChatDetailUiState
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 internal fun ChatScreen(
     modifier: Modifier = Modifier,
-    viewModel: ChatViewModel = hiltViewModel(),
-    detailViewModel: ChatDetailViewModel = hiltViewModel()
+    viewModel: ChatViewModel = hiltViewModel()
 ) {
     val navigator = rememberListDetailPaneScaffoldNavigator<String>()
 
@@ -49,13 +49,23 @@ internal fun ChatScreen(
         detailPane = {
             AnimatedPane {
                 navigator.currentDestination?.content?.let { chatId ->
-                    val state by detailViewModel.uiState.collectAsState()
+                    val state by viewModel.uiState.collectAsState()
 
-                    LaunchedEffect(key1 = chatId) {
-                        detailViewModel.getChat(id = chatId)
+                    val uiState: ChatDetailUiState? by remember(state) {
+                        derivedStateOf {
+                            val currentChat = state.chats.firstOrNull { it.id == chatId }
+                            val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
+                            currentChat?.let {
+                                otherUser?.let {
+                                    ChatDetailUiState(currentChat, otherUser)
+                                }
+                            }
+                        }
                     }
 
-                    ChatDetailPane(state = state)
+                    uiState?.let {
+                        ChatDetailPane(it)
+                    }
                 }
             }
         }
