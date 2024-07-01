@@ -8,29 +8,40 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExtendedFloatingActionButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import com.colledk.chat.R
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.ui.uistates.ChatUiState
@@ -45,30 +56,84 @@ import com.colledk.user.domain.model.User
 @Composable
 internal fun ChatPane(
     state: ChatUiState,
+    onCreateNewChat: () -> Unit,
     modifier: Modifier = Modifier,
     onChatSelected: (chat: Chat) -> Unit
 ) {
-    LazyColumn(
-        modifier = modifier,
-        contentPadding = PaddingValues(24.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
-    ) {
-        stickyHeader {
-            Text(
-                text = "My messages",
-                style = MaterialTheme.typography.headlineLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.background(MaterialTheme.colorScheme.surface)
+    val listState = rememberLazyListState()
+
+    Scaffold(
+        floatingActionButton = {
+            ExtendedFloatingActionButton(
+                text = {
+                    Text(
+                        text = stringResource(id = R.string.chat_create_new),
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer
+                    )
+                },
+                icon = {
+                    Icon(
+                        painter = painterResource(id = R.drawable.pen),
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onPrimaryContainer,
+                        modifier = Modifier.size(24.dp)
+                    )
+                },
+                onClick = onCreateNewChat,
+                expanded = listState.isScrollingUp()
             )
         }
-        items(state.chats) { chat ->
-            ChatItem(
-                chat = chat,
-                onChatSelected = { onChatSelected(chat) },
-                currentUser = state.currentUser
-            )
+    ) {
+        LazyColumn(
+            modifier = modifier
+                .fillMaxSize()
+                .padding(it),
+            contentPadding = PaddingValues(24.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            state = listState
+        ) {
+            stickyHeader {
+                Text(
+                    text = "My messages",
+                    style = MaterialTheme.typography.headlineLarge,
+                    color = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.fillParentMaxWidth().background(MaterialTheme.colorScheme.surface)
+                )
+            }
+            items(state.chats) { chat ->
+                ChatItem(
+                    chat = chat,
+                    onChatSelected = { onChatSelected(chat) },
+                    currentUser = state.currentUser
+                )
+            }
         }
     }
+}
+
+@Composable
+private fun LazyListState.isScrollingUp(): Boolean {
+    var previousIndex by remember(this) {
+        mutableIntStateOf(firstVisibleItemIndex)
+    }
+
+    var previousScrollOffset by remember(this) {
+        mutableIntStateOf(firstVisibleItemScrollOffset)
+    }
+
+    return remember(this) {
+        derivedStateOf {
+            if (previousIndex != firstVisibleItemIndex) {
+                previousIndex > firstVisibleItemIndex
+            } else {
+                previousScrollOffset >= firstVisibleItemScrollOffset
+            }.also {
+                previousIndex = firstVisibleItemIndex
+                previousScrollOffset = firstVisibleItemScrollOffset
+            }
+        }
+    }.value
 }
 
 @Composable
@@ -263,7 +328,7 @@ private fun ChatPanePreview() {
 
     ColingoTheme {
         Surface(color = MaterialTheme.colorScheme.surface) {
-            ChatPane(state = uiState) {
+            ChatPane(state = uiState, onCreateNewChat = {}) {
 
             }
         }

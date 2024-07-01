@@ -41,7 +41,7 @@ internal fun ChatScreen(
                     viewModel.getChats()
                 }
 
-                ChatPane(state = state) { chat ->
+                ChatPane(state = state, onCreateNewChat = { TODO() }) { chat ->
                     navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, chat.id)
                 }
             }
