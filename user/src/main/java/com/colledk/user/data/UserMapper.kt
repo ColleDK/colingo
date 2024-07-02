@@ -1,5 +1,6 @@
 package com.colledk.user.data
 
+import android.net.Uri
 import com.colledk.user.data.remote.model.GenderRemote
 import com.colledk.user.data.remote.model.LanguageProficiencyRemote
 import com.colledk.user.data.remote.model.LanguageRemote
@@ -18,7 +19,7 @@ fun User.mapToRemote(): UserRemote {
         id = id,
         name = name,
         birthday = birthday,
-        profilePictures = profilePictures,
+        profilePictures = profilePictures.map { it.toString() },
         description = description,
         location = location.mapToRemote(),
         languages = languages.map { it.mapToRemote() },
@@ -63,7 +64,7 @@ fun UserRemote.mapToDomain(): User {
         id = id,
         name = name,
         birthday = birthday,
-        profilePictures = profilePictures,
+        profilePictures = profilePictures.map { Uri.parse(it) },
         description = description,
         location = location.mapToDomain(),
         languages = languages.map { it.mapToDomain() },

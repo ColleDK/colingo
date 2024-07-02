@@ -22,8 +22,12 @@ class UserRepositoryImpl(
         remoteDataSource.getUser(userId).map { it.mapToDomain() }
     }
 
-    override suspend fun createUser(user: User): Result<User> = withContext(dispatcher) {
-        remoteDataSource.createUser(user.mapToRemote()).map { it.mapToDomain() }
+    override suspend fun createUser(email: String, password: String, user: User): Result<User> = withContext(dispatcher) {
+        remoteDataSource.createUser(
+            email = email,
+            password = password,
+            user = user.mapToRemote()
+        ).map { it.mapToDomain() }
     }
 
     override suspend fun updateUser(user: User): Result<User> = withContext(dispatcher) {

@@ -29,9 +29,12 @@ fun NavGraphBuilder.onboardingGraph(
         route = onboardingGraphRoute
     ) {
         composable(onboardingPaneRoute) {
-            OnboardingPane {
-                navHostController.navigateToProfileSetup()
-            }
+            OnboardingPane(
+                onGoToSetup = {
+                    navHostController.navigateToProfileSetup()
+                },
+                onGoToFrontpage = onFinishOnboarding
+            )
         }
         composable(profileSetupPaneRoute) {
             ProfileSetupPane {

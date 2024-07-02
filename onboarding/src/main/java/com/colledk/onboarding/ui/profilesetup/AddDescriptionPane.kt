@@ -34,16 +34,18 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
+import com.colledk.user.domain.model.Location
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
+import org.joda.time.DateTime
 import timber.log.Timber
 import java.time.LocalDate
 
 @Composable
 internal fun AddDescriptionPane(
-    birthday: LocalDate?,
-    location: String?,
+    birthday: DateTime?,
+    location: Location?,
     description: String,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
@@ -103,7 +105,7 @@ internal fun AddDescriptionPane(
             ListItem(
                 headlineContent = {
                     Text(
-                        text = location ?: stringResource(id = R.string.add_description_location_hint),
+                        text = location?.toString() ?: stringResource(id = R.string.add_description_location_hint),
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },

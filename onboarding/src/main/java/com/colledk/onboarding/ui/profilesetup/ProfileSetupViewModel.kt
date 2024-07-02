@@ -11,21 +11,33 @@ import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.colledk.user.domain.model.Gender
+import com.colledk.user.domain.model.Location
+import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
+import com.colledk.user.domain.usecase.GetCurrentUserUseCase
+import com.colledk.user.domain.usecase.GetUserUseCase
+import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
+import org.joda.time.DateTime
 import javax.inject.Inject
 
 @HiltViewModel
 class ProfileSetupViewModel @Inject constructor(
     private val locationProviderClient: FusedLocationProviderClient,
-    private val geocoder: Geocoder
+    private val geocoder: Geocoder,
+    private val getCurrentUserUseCase: GetCurrentUserUseCase,
+    private val updateUserUseCase: UpdateUserUseCase
 ) : ViewModel() {
     private val _profilePictureState: MutableStateFlow<ProfilePictureUiState> =
         MutableStateFlow(ProfilePictureUiState())
@@ -45,6 +57,32 @@ class ProfileSetupViewModel @Inject constructor(
     private val _genderState: MutableStateFlow<GenderUiState> = MutableStateFlow(GenderUiState())
     val genderState: StateFlow<GenderUiState> = _genderState
 
+    private val _goToFrontpage: Channel<Unit> = Channel(Channel.BUFFERED)
+    val goToFrontpage: Flow<Unit> = _goToFrontpage.receiveAsFlow()
+
+    fun finishSetup() {
+        viewModelScope.launch {
+            getCurrentUserUseCase().onSuccess {
+                val description = _descriptionState.value
+                val picture = _profilePictureState.value
+                val languages = _languagesState.value
+                val gender = _genderState.value
+
+                val newUser = it.copy(
+                    birthday = description.birthday?.millis ?: 0L,
+                    profilePictures = listOfNotNull(picture.profilePicture),
+                    description = description.description,
+                    location = description.location ?: Location(),
+                    languages = languages.languages,
+                    gender = gender.selectedGender ?: Gender.OTHER
+                )
+                updateUserUseCase(user = newUser).onSuccess {
+                    _goToFrontpage.trySend(Unit)
+                }
+            }
+        }
+    }
+
     fun updateProfilePicture(uri: Uri?) {
         _profilePictureState.value = _profilePictureState.value.copy(profilePicture = uri)
     }
@@ -54,7 +92,7 @@ class ProfileSetupViewModel @Inject constructor(
     }
 
     fun updateBirthday(dateTime: Long) {
-        _descriptionState.value = _descriptionState.value.copy(birthday = dateTime.toLocalDate())
+        _descriptionState.value = _descriptionState.value.copy(birthday = DateTime(dateTime))
     }
 
     // This is only called when permissions are enabled
@@ -73,7 +111,12 @@ class ProfileSetupViewModel @Inject constructor(
                     1
                 ) {
                     it.firstOrNull()?.let { address ->
-                        _descriptionState.value = _descriptionState.value.copy(location = "${address.countryName}, ${address.locality}")
+                        _descriptionState.value = _descriptionState.value.copy(
+                            location = Location(
+                                country = address.countryName,
+                                city = address.locality
+                            )
+                        )
                     }
                 }
             } else {
@@ -82,7 +125,13 @@ class ProfileSetupViewModel @Inject constructor(
                     location.longitude,
                     1
                 )?.firstOrNull()?.let { address ->
-                    _descriptionState.value = _descriptionState.value.copy(location = "${address.countryName}, ${address.locality}")
+                    _descriptionState.value =
+                        _descriptionState.value.copy(
+                            location = Location(
+                                country = address.countryName,
+                                city = address.locality
+                            )
+                        )
                 }
             }
         }
@@ -106,21 +155,21 @@ class ProfileSetupViewModel @Inject constructor(
         )
     }
 
-    fun selectTopic(topic: com.colledk.user.domain.model.Topic) {
+    fun selectTopic(topic: Topic) {
         val currentState = _topicState.value
         _topicState.value = currentState.copy(
             selectedTopics = currentState.selectedTopics.plus(topic)
         )
     }
 
-    fun removeTopic(topic: com.colledk.user.domain.model.Topic) {
+    fun removeTopic(topic: Topic) {
         val currentState = _topicState.value
         _topicState.value = currentState.copy(
             selectedTopics = currentState.selectedTopics.minus(topic)
         )
     }
 
-    fun selectGender(gender: com.colledk.user.domain.model.Gender) {
+    fun selectGender(gender: Gender) {
         _genderState.value = _genderState.value.copy(selectedGender = gender)
     }
 }
