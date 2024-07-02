@@ -25,7 +25,7 @@ fun NavGraphBuilder.onboardingGraph(
     onFinishOnboarding: () -> Unit
 ) {
     navigation(
-        startDestination = profileSetupPaneRoute,
+        startDestination = onboardingPaneRoute,
         route = onboardingGraphRoute
     ) {
         composable(onboardingPaneRoute) {

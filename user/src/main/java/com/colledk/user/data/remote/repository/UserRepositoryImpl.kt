@@ -14,6 +14,10 @@ class UserRepositoryImpl(
     private val remoteDataSource: UserRemoteDataSource,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ): UserRepository {
+    override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
+        remoteDataSource.loginUser(email, password).map { it.mapToDomain() }
+    }
+
     override suspend fun getUser(userId: String): Result<User> = withContext(dispatcher) {
         remoteDataSource.getUser(userId).map { it.mapToDomain() }
     }

@@ -5,6 +5,7 @@ import com.colledk.chat.data.remote.repository.ChatRepositoryImpl
 import com.colledk.chat.domain.repository.ChatRepository
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.user.domain.repository.UserRepository
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -38,6 +39,13 @@ class ChatModule {
             remoteDataSource = remoteDataSource,
             userRepository = userRepository
         )
+    }
+
+    @Provides
+    fun providesUpdateChatUseCase(
+        repository: ChatRepository
+    ): UpdateChatUseCase {
+        return UpdateChatUseCase(repository = repository)
     }
 
     @Provides

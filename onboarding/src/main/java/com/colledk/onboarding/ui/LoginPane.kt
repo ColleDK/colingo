@@ -52,6 +52,7 @@ internal fun LoginPane(
     onForgotPassword: () -> Unit,
     onLogin: (email: String, password: String) -> Unit,
     onGoToSignup: () -> Unit,
+    isEmailValid: (email: String) -> Boolean,
     modifier: Modifier = Modifier
 ) {
     var email by remember {
@@ -120,7 +121,7 @@ internal fun LoginPane(
         )
         Spacer(modifier = Modifier.height(20.dp))
         LoginButton(
-            isEnabled = password.isNotBlank() && email.isNotBlank(),
+            isEnabled = password.isNotBlank() && email.isNotBlank() && isEmailValid(email),
             modifier = Modifier
                 .fillMaxWidth(.5f)
                 .heightIn(min = 48.dp)

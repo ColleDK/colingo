@@ -24,6 +24,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.currentWindowAdaptiveInfo
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -34,6 +35,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Density
@@ -144,6 +146,13 @@ private fun ProfileSetupPane(
                 }
             }
         }
+
+        val focusManager = LocalFocusManager.current
+        LaunchedEffect(key1 = pagerState.currentPage) {
+            // Remove focus from input field when switching page
+            focusManager.clearFocus()
+        }
+
         HorizontalPager(
             modifier = Modifier.fillMaxSize(),
             state = pagerState,

@@ -64,7 +64,13 @@ internal fun ChatScreen(
                     }
 
                     uiState?.let {
-                        ChatDetailPane(it)
+                        ChatDetailPane(it) { message ->
+                            viewModel.sendMessage(
+                                chatId = chatId,
+                                message = message,
+                                user = state.currentUser
+                            )
+                        }
                     }
                 }
             }

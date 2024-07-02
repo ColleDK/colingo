@@ -10,6 +10,19 @@ class UserRemoteDataSource(
     private val db: FirebaseFirestore,
     private val auth: FirebaseAuth
 ) {
+    suspend fun loginUser(email: String, password: String): Result<UserRemote> {
+        try {
+            val userId = auth.signInWithEmailAndPassword(email, password).await().user?.uid
+            return if (userId == null) {
+                Result.failure(IOException())
+            } else {
+                getUser(userId = userId)
+            }
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
     suspend fun getUser(userId: String): Result<UserRemote> {
         try {
             val user = db

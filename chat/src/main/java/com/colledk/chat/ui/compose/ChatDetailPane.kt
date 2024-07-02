@@ -12,9 +12,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -24,12 +26,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -49,40 +53,29 @@ import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 internal fun ChatDetailPane(
     uiState: ChatDetailUiState,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onSendMessage: (message: String) -> Unit
 ) {
     Scaffold(
         modifier = modifier,
         topBar = {
-            TopAppBar(
-                title = {
-                    Text(
-                        text = uiState.otherUser.name,
-                        style = MaterialTheme.typography.titleLarge,
-                        textAlign = TextAlign.Center,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                },
-                actions = {
-                    IconButton(onClick = { /*TODO*/ }) {
-                        Icon(
-                            painter = painterResource(id = R.drawable.menu_dots),
-                            contentDescription = null,
-                            tint = MaterialTheme.colorScheme.onSurface,
-                            modifier = Modifier.size(24.dp)
-                        )
-                    }
-                }
-            )
+            ChatTopBar(title = uiState.otherUser.name)
+        },
+        bottomBar = {
+            ChatBottomBar {
+                onSendMessage(it)
+            }
         }
     ) {
         val days by remember(uiState.chat.messages) {
             derivedStateOf {
-                uiState.chat.messages.sortedBy { it.timestamp }.groupBy { message -> message.date }
+                uiState.chat.messages
+                    .sortedBy { message -> message.timestamp }
+                    .groupBy { message -> message.date }
             }
         }
 
@@ -111,6 +104,65 @@ internal fun ChatDetailPane(
             }
         }
     }
+}
+
+@Composable
+private fun ChatBottomBar(
+    modifier: Modifier = Modifier,
+    onSendMessage: (message: String) -> Unit
+) {
+    BottomAppBar(
+        modifier = modifier,
+        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 8.dp)
+    ) {
+        var messageText by remember {
+            mutableStateOf("")
+        }
+
+        TextField(
+            value = messageText,
+            onValueChange = { messageText = it },
+            modifier = Modifier.weight(1f)
+        )
+        Spacer(modifier = Modifier.width(12.dp))
+        IconButton(onClick = { onSendMessage(messageText).also { messageText = "" } }) {
+            Icon(
+                painter = painterResource(id = R.drawable.send),
+                contentDescription = null,
+                modifier = Modifier.size(24.dp),
+                tint = MaterialTheme.colorScheme.onSurface
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ChatTopBar(
+    title: String,
+    modifier: Modifier = Modifier
+) {
+    TopAppBar(
+        modifier = modifier,
+        title = {
+            Text(
+                text = title,
+                style = MaterialTheme.typography.titleMedium,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth()
+            )
+        },
+        actions = {
+            IconButton(onClick = { /*TODO*/ }) {
+                Icon(
+                    painter = painterResource(id = R.drawable.menu_dots),
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.size(24.dp)
+                )
+            }
+        }
+    )
 }
 
 @Composable
@@ -254,7 +306,9 @@ private fun ChatDetailPanePreview() {
 
     ColingoTheme {
         Surface(color = MaterialTheme.colorScheme.surface) {
-            ChatDetailPane(uiState = uiState)
+            ChatDetailPane(uiState = uiState) {
+
+            }
         }
     }
 }
