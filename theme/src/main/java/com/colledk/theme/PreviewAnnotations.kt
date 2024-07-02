@@ -25,7 +25,21 @@ import androidx.compose.ui.tooling.preview.Preview
 annotation class PreviewFonts()
 
 @Preview(
-    name = "Dark mode",
+    name = "Extra large font dark",
+    group = "Font group",
+    fontScale = 2.5f,
+    showBackground = true,
+    uiMode = Configuration.UI_MODE_NIGHT_YES
+)
+@Preview(
+    name = "Large font dark",
+    group = "Font group",
+    fontScale = 1.5f,
+    showBackground = true,
+    uiMode = Configuration.UI_MODE_NIGHT_YES
+)
+@Preview(
+    name = "Normal font dark",
     group = "Font group",
     fontScale = 1f,
     showBackground = true,

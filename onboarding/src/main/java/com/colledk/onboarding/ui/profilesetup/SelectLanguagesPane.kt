@@ -39,9 +39,9 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import com.colledk.onboarding.R
-import com.colledk.onboarding.domain.Language
-import com.colledk.onboarding.domain.LanguageProficiency
-import com.colledk.onboarding.domain.UserLanguage
+import com.colledk.user.domain.model.Language
+import com.colledk.user.domain.model.LanguageProficiency
+import com.colledk.user.domain.model.UserLanguage
 
 @Composable
 internal fun SelectLanguagesPane(

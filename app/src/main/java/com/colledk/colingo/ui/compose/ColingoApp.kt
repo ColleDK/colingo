@@ -4,13 +4,16 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.Icon
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.movableContentOf
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.util.fastForEach
+import androidx.navigation.NavGraph.Companion.findStartDestination
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.navigation.ColingoNavHost
 import com.colledk.colingo.ui.rememberColingoAppState
+import timber.log.Timber
 
 @Composable
 internal fun ColingoApp(

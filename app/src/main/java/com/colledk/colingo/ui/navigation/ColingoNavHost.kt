@@ -10,6 +10,8 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navOptions
+import com.colledk.chat.navigation.chatGraph
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.compose.ChatPane
 import com.colledk.colingo.ui.compose.ExplorePane
@@ -22,7 +24,6 @@ import com.colledk.onboarding.navigation.onboardingGraphRoute
 // TODO temporary navigation, should be moved to separate modules
 const val homePaneRoute = "homepage_route"
 const val explorePaneRoute = "explorepage_route"
-const val chatPaneRoute = "chatpage_route"
 const val profilePaneRoute = "profilepage_route"
 const val settingsPaneRoute = "settingspage_route"
 
@@ -44,16 +45,6 @@ fun NavGraphBuilder.explorePane() {
 
 fun NavController.navigateToExplorePane(navOptions: NavOptions? = null) {
     this.navigate(route = explorePaneRoute, navOptions = navOptions)
-}
-
-fun NavGraphBuilder.chatPane() {
-    composable(route = chatPaneRoute) {
-        ChatPane()
-    }
-}
-
-fun NavController.navigateToChatPane(navOptions: NavOptions? = null) {
-    this.navigate(route = chatPaneRoute, navOptions = navOptions)
 }
 
 fun NavGraphBuilder.profilePane() {
@@ -91,10 +82,12 @@ fun ColingoNavHost(
         popEnterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) },
         popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) }
     ) {
-        onboardingGraph(navHostController = navController)
+        onboardingGraph(navHostController = navController) {
+            appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
+        }
         homePane()
         explorePane()
-        chatPane()
+        chatGraph(navHostController = navController)
         profilePane()
         settingsPane()
     }

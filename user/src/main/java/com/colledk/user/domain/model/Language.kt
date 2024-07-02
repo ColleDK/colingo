@@ -1,6 +1,5 @@
-package com.colledk.onboarding.domain
+package com.colledk.user.domain.model
 
-// TODO move to correct module
 data class Language(
     val code: String,
     val name: String,

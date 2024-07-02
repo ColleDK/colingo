@@ -20,6 +20,8 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
@@ -29,6 +31,11 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
@@ -37,102 +44,132 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.onboarding.R
 import com.colledk.theme.ColingoTheme
 import com.colledk.theme.PreviewAnnotations
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
-fun OnboardingPane(modifier: Modifier = Modifier, onFinishOnboarding: () -> Unit) {
+fun OnboardingPane(
+    modifier: Modifier = Modifier,
+    viewModel: OnboardingViewModel = hiltViewModel(),
+    onFinishOnboarding: () -> Unit
+) {
+    val login by viewModel.login.collectAsState(null)
+    val error by viewModel.error.collectAsState(null)
+    val snackbarHostState = remember { SnackbarHostState() }
+
+    LaunchedEffect(key1 = login) {
+        if (login != null) {
+            onFinishOnboarding()
+        }
+    }
+
+    LaunchedEffect(key1 = error) {
+        if (error != null) {
+            snackbarHostState.showSnackbar(error?.localizedMessage ?: "Something went wrong. Please try again")
+        }
+    }
+
     val navigator = rememberListDetailPaneScaffoldNavigator<OnboardingDestination>()
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
     }
 
-    ListDetailPaneScaffold(
-        modifier = modifier.then(
-            Modifier.background(
-                brush = Brush.verticalGradient(
-                    colors = listOf(
-                        MaterialTheme.colorScheme.surfaceTint,
-                        MaterialTheme.colorScheme.secondaryContainer
+    Scaffold(
+        snackbarHost = {
+            SnackbarHost(hostState = snackbarHostState)
+        }
+    ) {
+        ListDetailPaneScaffold(
+            modifier = modifier
+                .padding(it)
+                .then(
+                    Modifier.background(
+                        brush = Brush.verticalGradient(
+                            colors = listOf(
+                                MaterialTheme.colorScheme.surfaceTint,
+                                MaterialTheme.colorScheme.secondaryContainer
+                            )
+                        )
                     )
-                )
-            )
-        ),
-        directive = navigator.scaffoldDirective,
-        value = navigator.scaffoldValue,
-        listPane = {
-            AnimatedPane {
-                OnboardingContent(
-                    onGoToLogin = {
-                        navigator.navigateTo(
-                            ListDetailPaneScaffoldRole.Detail,
-                            OnboardingDestination.LOG_IN
-                        )
-                    },
-                    onGoToSignup = {
-                        navigator.navigateTo(
-                            ListDetailPaneScaffoldRole.Detail,
-                            OnboardingDestination.SIGN_UP
-                        )
-                    },
-                    onGoToGoogle = { /*TODO*/ },
-                    onGoToFacebook = { /*TODO*/ })
-            }
-        },
-        detailPane = {
-            AnimatedPane {
-                navigator.currentDestination?.content?.let {
-                    Scaffold(
-                        topBar = {
-                            if (navigator.canNavigateBack()) {
-                                TopAppBar(
-                                    title = {},
-                                    navigationIcon = {
-                                        IconButton(onClick = { navigator.navigateBack() }) {
-                                            Icon(
-                                                painter = painterResource(id = R.drawable.back_arrow),
-                                                contentDescription = stringResource(id = R.string.onboarding_go_back)
-                                            )
-                                        }
+                ),
+            directive = navigator.scaffoldDirective,
+            value = navigator.scaffoldValue,
+            listPane = {
+                AnimatedPane {
+                    OnboardingContent(
+                        onGoToLogin = {
+                            navigator.navigateTo(
+                                ListDetailPaneScaffoldRole.Detail,
+                                OnboardingDestination.LOG_IN
+                            )
+                        },
+                        onGoToSignup = {
+                            navigator.navigateTo(
+                                ListDetailPaneScaffoldRole.Detail,
+                                OnboardingDestination.SIGN_UP
+                            )
+                        },
+                        onGoToGoogle = { /*TODO*/ },
+                        onGoToFacebook = { /*TODO*/ })
+                }
+            },
+            detailPane = {
+                AnimatedPane {
+                    navigator.currentDestination?.content?.let {
+                        Scaffold(
+                            topBar = {
+                                if (navigator.canNavigateBack()) {
+                                    TopAppBar(
+                                        title = {},
+                                        navigationIcon = {
+                                            IconButton(onClick = { navigator.navigateBack() }) {
+                                                Icon(
+                                                    painter = painterResource(id = R.drawable.back_arrow),
+                                                    contentDescription = stringResource(id = R.string.onboarding_go_back)
+                                                )
+                                            }
+                                        },
+                                        colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
+                                    )
+                                }
+                            },
+                            containerColor = Color.Transparent
+                        ) { padding ->
+                            if (it == OnboardingDestination.LOG_IN) {
+                                LoginPane(
+                                    onForgotPassword = {},
+                                    onLogin = viewModel::login,
+                                    onGoToSignup = {
+                                        navigator.navigateTo(
+                                            ListDetailPaneScaffoldRole.Detail,
+                                            OnboardingDestination.SIGN_UP
+                                        )
                                     },
-                                    colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent)
+                                    modifier = Modifier.padding(padding),
+                                    isEmailValid = viewModel::isEmailValid
+                                )
+                            } else {
+                                SignupPane(
+                                    onRegister = { _, _, _ -> onFinishOnboarding() },
+                                    goToLogin = {
+                                        navigator.navigateTo(
+                                            ListDetailPaneScaffoldRole.Detail,
+                                            OnboardingDestination.LOG_IN
+                                        )
+                                    },
+                                    modifier = Modifier.padding(padding)
                                 )
                             }
-                        },
-                        containerColor = Color.Transparent
-                    ) { padding -> 
-                        if (it == OnboardingDestination.LOG_IN) {
-                            LoginPane(
-                                onForgotPassword = {},
-                                onLogin = { _, _ -> },
-                                onGoToSignup = {
-                                    navigator.navigateTo(
-                                        ListDetailPaneScaffoldRole.Detail,
-                                        OnboardingDestination.SIGN_UP
-                                    )
-                                },
-                                modifier = Modifier.padding(padding)
-                            )
-                        } else {
-                            SignupPane(
-                                onRegister = { _, _, _ -> onFinishOnboarding() },
-                                goToLogin = {
-                                    navigator.navigateTo(
-                                        ListDetailPaneScaffoldRole.Detail,
-                                        OnboardingDestination.LOG_IN
-                                    )
-                                },
-                                modifier = Modifier.padding(padding)
-                            )
                         }
                     }
                 }
             }
-        }
-    )
+        )
+    }
 }
 
 @Composable

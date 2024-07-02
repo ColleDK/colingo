@@ -24,7 +24,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import com.colledk.onboarding.R
-import com.colledk.onboarding.domain.Topic
+import com.colledk.user.domain.model.Topic
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable

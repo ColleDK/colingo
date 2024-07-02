@@ -24,6 +24,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.currentWindowAdaptiveInfo
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -34,6 +35,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Density
@@ -41,9 +43,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.window.core.layout.WindowWidthSizeClass
 import com.colledk.onboarding.R
-import com.colledk.onboarding.domain.Gender
-import com.colledk.onboarding.domain.Topic
-import com.colledk.onboarding.domain.UserLanguage
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_DESCRIPTION
 import com.colledk.onboarding.ui.ProfileSetupDestination.ADD_PICTURE
 import com.colledk.onboarding.ui.ProfileSetupDestination.SELECT_GENDER
@@ -60,12 +59,16 @@ import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.colledk.user.domain.model.Gender
+import com.colledk.user.domain.model.Topic
+import com.colledk.user.domain.model.UserLanguage
 import kotlinx.coroutines.launch
 
 @Composable
 internal fun ProfileSetupPane(
     modifier: Modifier = Modifier,
-    viewModel: ProfileSetupViewModel = hiltViewModel()
+    viewModel: ProfileSetupViewModel = hiltViewModel(),
+    onFinishSetup: () -> Unit
 ) {
     val pictureUiState by viewModel.profilePictureState.collectAsState()
     val descriptionUiState by viewModel.descriptionState.collectAsState()
@@ -73,24 +76,25 @@ internal fun ProfileSetupPane(
     val topicsUiState by viewModel.topicState.collectAsState()
     val genderUiState by viewModel.genderState.collectAsState()
 
-ProfileSetupPane(
-    pictureUiState = pictureUiState,
-    descriptionUiState = descriptionUiState,
-    languagesUiState = languageUiState,
-    topicsUiState = topicsUiState,
-    genderUiState = genderUiState,
-    modifier = modifier,
-    onPictureSelected = viewModel::updateProfilePicture,
-    onPictureRemoved = viewModel::removeProfilePicture,
-    updateBirthday = viewModel::updateBirthday,
-    getLocation = viewModel::getLocation,
-    updateDescription = viewModel::updateDescription,
-    onAddLanguage = viewModel::addLanguage,
-    onRemoveLanguage = viewModel::removeLanguage,
-    addTopic = viewModel::selectTopic,
-    removeTopic = viewModel::removeTopic,
-    onGenderSelected = viewModel::selectGender
-)
+    ProfileSetupPane(
+        pictureUiState = pictureUiState,
+        descriptionUiState = descriptionUiState,
+        languagesUiState = languageUiState,
+        topicsUiState = topicsUiState,
+        genderUiState = genderUiState,
+        modifier = modifier,
+        onPictureSelected = viewModel::updateProfilePicture,
+        onPictureRemoved = viewModel::removeProfilePicture,
+        updateBirthday = viewModel::updateBirthday,
+        getLocation = viewModel::getLocation,
+        updateDescription = viewModel::updateDescription,
+        onAddLanguage = viewModel::addLanguage,
+        onRemoveLanguage = viewModel::removeLanguage,
+        addTopic = viewModel::selectTopic,
+        removeTopic = viewModel::removeTopic,
+        onGenderSelected = viewModel::selectGender,
+        onFinishSetup = onFinishSetup
+    )
 }
 
 @Composable
@@ -101,7 +105,7 @@ private fun ProfileSetupPane(
     topicsUiState: TopicsUiState,
     genderUiState: GenderUiState,
     onPictureSelected: (uri: Uri?) -> Unit,
-    onPictureRemoved: () ->  Unit,
+    onPictureRemoved: () -> Unit,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
     updateDescription: (description: String) -> Unit,
@@ -110,7 +114,8 @@ private fun ProfileSetupPane(
     addTopic: (topic: Topic) -> Unit,
     removeTopic: (topic: Topic) -> Unit,
     onGenderSelected: (gender: Gender) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onFinishSetup: () -> Unit
 ) {
     Box(
         modifier = modifier.then(
@@ -125,7 +130,8 @@ private fun ProfileSetupPane(
         )
     ) {
         val windowSizeClass = currentWindowAdaptiveInfo().windowSizeClass
-        val pagesPerScreen = if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
+        val pagesPerScreen =
+            if (windowSizeClass.windowWidthSizeClass != WindowWidthSizeClass.COMPACT) 2 else 1
 
         val scope = rememberCoroutineScope()
 
@@ -140,6 +146,13 @@ private fun ProfileSetupPane(
                 }
             }
         }
+
+        val focusManager = LocalFocusManager.current
+        LaunchedEffect(key1 = pagerState.currentPage) {
+            // Remove focus from input field when switching page
+            focusManager.clearFocus()
+        }
+
         HorizontalPager(
             modifier = Modifier.fillMaxSize(),
             state = pagerState,
@@ -167,12 +180,12 @@ private fun ProfileSetupPane(
             )
         }
 
-        val shouldShowNextButton by remember {
+        val shouldShowSkipButton by remember {
             derivedStateOf {
                 (pagerState.currentPage == pagerState.pageCount - 1 || (pagesPerScreen > 1 && pagerState.currentPage + 1 == pagerState.pageCount - 1)).not()
             }
         }
-        if (shouldShowNextButton) {
+        if (shouldShowSkipButton) {
             Button(
                 onClick = {
                     scope.launch {
@@ -201,12 +214,17 @@ private fun ProfileSetupPane(
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             NextButton(
+                btnText = if (shouldShowSkipButton) stringResource(id = R.string.setup_profile_next) else stringResource(id = R.string.setup_profile_finish),
                 modifier = Modifier
                     .fillMaxWidth(.5f)
                     .heightIn(min = 48.dp)
             ) {
-                scope.launch {
-                    pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                if (shouldShowSkipButton) {
+                    scope.launch {
+                        pagerState.animateScrollToPage(pagerState.currentPage + 1)
+                    }
+                } else {
+                    onFinishSetup()
                 }
             }
             Row {
@@ -232,7 +250,11 @@ private fun ProfileSetupPane(
 }
 
 @Composable
-private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
+private fun NextButton(
+    btnText: String,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
     Button(
         onClick = onClick,
         modifier = modifier,
@@ -242,7 +264,7 @@ private fun NextButton(modifier: Modifier = Modifier, onClick: () -> Unit) {
         elevation = ButtonDefaults.buttonElevation(2.dp)
     ) {
         Text(
-            text = stringResource(id = R.string.setup_profile_next),
+            text = btnText,
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onPrimary
         )
@@ -258,7 +280,7 @@ private fun ProfileSetupPage(
     topicsUiState: TopicsUiState,
     genderUiState: GenderUiState,
     onPictureSelected: (uri: Uri?) -> Unit,
-    onPictureRemoved: () ->  Unit,
+    onPictureRemoved: () -> Unit,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
     updateDescription: (description: String) -> Unit,

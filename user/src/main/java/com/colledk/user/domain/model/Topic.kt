@@ -1,8 +1,8 @@
-package com.colledk.onboarding.domain
+package com.colledk.user.domain.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import com.colledk.onboarding.R
+import com.colledk.user.R
 
 enum class Topic(
     @StringRes val topicName: Int,

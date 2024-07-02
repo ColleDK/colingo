@@ -32,6 +32,7 @@
 
     <!-- Setup profile -->
     <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Finish</string>
     <string name="setup_profile_skip">Skip</string>
     <string name="add_picture_title">Setup profile</string>
     <string name="add_picture_subtitle">Add profile picture</string>
@@ -53,24 +54,4 @@
     <string name="add_description_birthday_cancel">Cancel</string>
     <string name="add_description_location_hint">Location</string>
     <string name="add_description_description_hint">Description</string>
-
-    <!-- Topics -->
-    <string name="topic_animals">Animals</string>
-    <string name="topic_cooking">Cooking</string>
-    <string name="topic_theater">Theater</string>
-    <string name="topic_partying">Partying</string>
-    <string name="topic_biking">Biking</string>
-    <string name="topic_camping">Camping</string>
-    <string name="topic_fitness">Fitness</string>
-    <string name="topic_meditation">Meditation</string>
-    <string name="topic_movie">Movies</string>
-    <string name="topic_music">Music</string>
-    <string name="topic_painting">Painting</string>
-    <string name="topic_physics">Physics</string>
-    <string name="topic_reading">Reading</string>
-    <string name="topic_science">Science</string>
-    <string name="topic_sports">Sports</string>
-    <string name="topic_swimming">Swimming</string>
-    <string name="topic_technology">Technology</string>
-    <string name="topic_videogame">Video games</string>
 </resources>

@@ -2,6 +2,7 @@ package com.colledk.colingo.ui.compose
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -15,6 +16,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
@@ -75,12 +77,13 @@ private fun SettingsContent(
         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 24.dp)
     ) {
         stickyHeader {
-            Text(
-                text = "Change settings",
-                style = MaterialTheme.typography.headlineLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.padding(horizontal = 16.dp)
-            )
+            Surface(modifier = Modifier.fillParentMaxWidth().padding(horizontal = 16.dp)) {
+                Text(
+                    text = "Change settings",
+                    style = MaterialTheme.typography.headlineLarge,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+            }
         }
         items(SettingsOption.entries) { setting ->
             ListItem(

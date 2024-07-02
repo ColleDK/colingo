@@ -9,11 +9,11 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
+import com.colledk.chat.navigation.chatGraphRoute
+import com.colledk.chat.navigation.navigateToChat
 import com.colledk.colingo.ui.navigation.TopLevelDestination
-import com.colledk.colingo.ui.navigation.chatPaneRoute
 import com.colledk.colingo.ui.navigation.explorePaneRoute
 import com.colledk.colingo.ui.navigation.homePaneRoute
-import com.colledk.colingo.ui.navigation.navigateToChatPane
 import com.colledk.colingo.ui.navigation.navigateToExplorePane
 import com.colledk.colingo.ui.navigation.navigateToHomePane
 import com.colledk.colingo.ui.navigation.navigateToProfilePane
@@ -37,18 +37,24 @@ data class ColingoAppState(
     val currentDestination: NavDestination?
         @Composable get() = navController.currentBackStackEntryAsState().value?.destination
 
+    /**
+     * This does not work with nested graphs or safe-nav and should be rewritten
+     */
     val currentTopLevelDestination: TopLevelDestination?
         @Composable get() = when (currentDestination?.route) {
             homePaneRoute -> TopLevelDestination.HOME
             explorePaneRoute -> TopLevelDestination.EXPLORE
-            chatPaneRoute -> TopLevelDestination.CHAT
+            chatGraphRoute -> TopLevelDestination.CHAT
             profilePaneRoute -> TopLevelDestination.PROFILE
             settingsPaneRoute -> TopLevelDestination.SETTINGS
             else -> null
         }
 
-    val topLevelDestinations: List<TopLevelDestination> = TopLevelDestination.values().asList()
+    val topLevelDestinations: List<TopLevelDestination> = TopLevelDestination.entries
 
+    /**
+     * This does not work with nested graphs and should be rewritten
+     */
     fun navigateToTopLevelDestination(topLevelDestination: TopLevelDestination) {
         val topLevelNavOptions = navOptions {
             popUpTo(navController.graph.findStartDestination().id) {
@@ -63,7 +69,7 @@ data class ColingoAppState(
         when (topLevelDestination) {
             TopLevelDestination.HOME -> navController.navigateToHomePane(navOptions = topLevelNavOptions)
             TopLevelDestination.EXPLORE -> navController.navigateToExplorePane(navOptions = topLevelNavOptions)
-            TopLevelDestination.CHAT -> navController.navigateToChatPane(navOptions = topLevelNavOptions)
+            TopLevelDestination.CHAT -> navController.navigateToChat(navOptions = topLevelNavOptions)
             TopLevelDestination.PROFILE -> navController.navigateToProfilePane(navOptions = topLevelNavOptions)
             TopLevelDestination.SETTINGS -> navController.navigateToSettingsPane(navOptions = topLevelNavOptions)
         }

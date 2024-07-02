@@ -62,6 +62,7 @@ dependencies {
 
     // Internal modules
     implementation(project(":theme"))
+    implementation(project(":user"))
 
     // Hilt
     implementation(libs.hilt.android)
@@ -70,7 +71,8 @@ dependencies {
     implementation(libs.hilt.navigation.compose)
 
     // Firebase
-    implementation(libs.firebase.firestore)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.bundles.firebase)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
