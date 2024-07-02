@@ -35,7 +35,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
@@ -46,23 +45,31 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.onboarding.R
-import com.colledk.theme.ColingoTheme
-import com.colledk.theme.PreviewAnnotations
+import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 fun OnboardingPane(
+    onGoToSetup: () -> Unit,
+    onGoToFrontpage: () -> Unit,
     modifier: Modifier = Modifier,
-    viewModel: OnboardingViewModel = hiltViewModel(),
-    onFinishOnboarding: () -> Unit
+    viewModel: OnboardingViewModel = hiltViewModel()
 ) {
     val login by viewModel.login.collectAsState(null)
     val error by viewModel.error.collectAsState(null)
+    val goToSetup by viewModel.goToProfileSetup.collectAsState(null)
+
     val snackbarHostState = remember { SnackbarHostState() }
 
     LaunchedEffect(key1 = login) {
         if (login != null) {
-            onFinishOnboarding()
+            onGoToFrontpage()
+        }
+    }
+
+    LaunchedEffect(key1 = goToSetup) {
+        if (goToSetup != null) {
+            onGoToSetup()
         }
     }
 
@@ -154,14 +161,15 @@ fun OnboardingPane(
                                 )
                             } else {
                                 SignupPane(
-                                    onRegister = { _, _, _ -> onFinishOnboarding() },
+                                    onRegister = viewModel::createUser,
                                     goToLogin = {
                                         navigator.navigateTo(
                                             ListDetailPaneScaffoldRole.Detail,
                                             OnboardingDestination.LOG_IN
                                         )
                                     },
-                                    modifier = Modifier.padding(padding)
+                                    modifier = Modifier.padding(padding),
+                                    isEmailValid = viewModel::isEmailValid
                                 )
                             }
                         }
@@ -272,15 +280,5 @@ private fun OnboardingButton(
             text = btnText,
             style = MaterialTheme.typography.bodyMedium
         )
-    }
-}
-
-@PreviewAnnotations
-@Composable
-fun OnboardingPanePreview() {
-    ColingoTheme {
-        OnboardingPane {
-
-        }
     }
 }

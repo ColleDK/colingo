@@ -5,14 +5,21 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.movableContentOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.util.fastForEach
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.navigation.ColingoNavHost
+import com.colledk.colingo.ui.navigation.homePaneRoute
 import com.colledk.colingo.ui.rememberColingoAppState
+import com.colledk.onboarding.navigation.onboardingGraphRoute
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import timber.log.Timber
 
 @Composable
@@ -21,8 +28,17 @@ internal fun ColingoApp(
 ) {
     val currentDestination = appState.currentTopLevelDestination
 
+    val startDestination by remember {
+        derivedStateOf {
+            if (Firebase.auth.currentUser?.uid == null) onboardingGraphRoute else homePaneRoute
+        }
+    }
+
     val app = movableContentOf {
-        ColingoNavHost(appState = appState)
+        ColingoNavHost(
+            appState = appState,
+            startDestination = startDestination
+        )
     }
 
     if (currentDestination != null) {

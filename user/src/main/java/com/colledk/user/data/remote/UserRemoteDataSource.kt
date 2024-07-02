@@ -43,9 +43,11 @@ class UserRemoteDataSource(
         }
     }
 
-    suspend fun createUser(user: UserRemote): Result<UserRemote> {
+    suspend fun createUser(email: String, password: String, user: UserRemote): Result<UserRemote> {
         try {
-            val userId = db.collection(USERS_PATH).add(user).await().id
+            val userId = auth.createUserWithEmailAndPassword(email, password).await().user?.uid ?: return Result.failure(IOException())
+            val newUser = user.copy(id = userId)
+            db.collection(USERS_PATH).document(userId).set(newUser).await()
             return getUser(userId = userId)
         } catch (e: Exception) {
             return Result.failure(e)

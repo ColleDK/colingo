@@ -22,6 +22,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -42,11 +43,14 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
+import com.colledk.theme.ColingoTheme
+import com.colledk.theme.PreviewAnnotations
 
 @Composable
 internal fun SignupPane(
     onRegister: (name: String, email: String, password: String) -> Unit,
     goToLogin: () -> Unit,
+    isEmailValid: (email: String) -> Boolean,
     modifier: Modifier = Modifier
 ) {
     var name by remember {
@@ -135,7 +139,7 @@ internal fun SignupPane(
         }
         Spacer(modifier = Modifier.height(20.dp))
         SignupButton(
-            isEnabled = password.isNotBlank() && email.isNotBlank() && name.isNotBlank() && confirmPassword.isNotBlank() && password == confirmPassword,
+            isEnabled = password.isNotBlank() && email.isNotBlank() && name.isNotBlank() && confirmPassword.isNotBlank() && password == confirmPassword && isEmailValid(email),
             modifier = Modifier
                 .fillMaxWidth(.5f)
                 .heightIn(min = 48.dp)
@@ -253,4 +257,14 @@ private fun SignupInputField(
         modifier = modifier,
         singleLine = true
     )
+}
+
+@PreviewAnnotations
+@Composable
+private fun SignupPanePreview() {
+    ColingoTheme {
+        Surface {
+            SignupPane(onRegister = {_ ,_ ,_ -> }, goToLogin = {  }, isEmailValid = { true })
+        }
+    }
 }

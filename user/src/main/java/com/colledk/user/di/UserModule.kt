@@ -6,6 +6,7 @@ import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
+import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
@@ -50,5 +51,12 @@ class UserModule {
         repository: UserRepository
     ): GetCurrentUserUseCase {
         return GetCurrentUserUseCase(repository = repository, auth = Firebase.auth)
+    }
+
+    @Provides
+    fun providesUpdateUserUseCase(
+        repository: UserRepository
+    ) : UpdateUserUseCase {
+        return UpdateUserUseCase(repository = repository)
     }
 }

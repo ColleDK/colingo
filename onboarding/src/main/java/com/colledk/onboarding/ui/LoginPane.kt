@@ -24,6 +24,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -46,6 +47,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
+import com.colledk.theme.ColingoTheme
+import com.colledk.theme.PreviewAnnotations
 
 @Composable
 internal fun LoginPane(
@@ -237,5 +240,20 @@ private fun LoginButton(
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onPrimary
         )
+    }
+}
+
+@PreviewAnnotations
+@Composable
+private fun LoginPanePreview() {
+    ColingoTheme {
+        Surface {
+            LoginPane(
+                onForgotPassword = {  },
+                onLogin = {_ ,_ -> },
+                onGoToSignup = {  },
+                isEmailValid = { true }
+            )
+        }
     }
 }

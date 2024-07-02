@@ -76,6 +76,14 @@ internal fun ProfileSetupPane(
     val topicsUiState by viewModel.topicState.collectAsState()
     val genderUiState by viewModel.genderState.collectAsState()
 
+    val goToFrontpage by viewModel.goToFrontpage.collectAsState(null)
+    LaunchedEffect(key1 = goToFrontpage) {
+        if (goToFrontpage != null) {
+            onFinishSetup()
+        }
+    }
+
+
     ProfileSetupPane(
         pictureUiState = pictureUiState,
         descriptionUiState = descriptionUiState,
@@ -93,7 +101,7 @@ internal fun ProfileSetupPane(
         addTopic = viewModel::selectTopic,
         removeTopic = viewModel::removeTopic,
         onGenderSelected = viewModel::selectGender,
-        onFinishSetup = onFinishSetup
+        onFinishSetup = viewModel::finishSetup
     )
 }
 

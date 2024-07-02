@@ -4,7 +4,7 @@ import com.colledk.user.domain.model.User
 import com.colledk.user.domain.repository.UserRepository
 
 class CreateUserUseCase(private val repository: UserRepository) {
-    suspend operator fun invoke(user: User): Result<User> {
-        return repository.createUser(user = user)
+    suspend operator fun invoke(email: String, password: String, user: User): Result<User> {
+        return repository.createUser(email = email, password = password, user = user)
     }
 }
