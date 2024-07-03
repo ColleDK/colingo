@@ -18,13 +18,16 @@ import com.colledk.colingo.ui.compose.ExplorePane
 import com.colledk.colingo.ui.compose.HomePane
 import com.colledk.colingo.ui.compose.ProfilePane
 import com.colledk.colingo.ui.compose.SettingsPane
+import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
 import com.colledk.onboarding.navigation.onboardingGraphRoute
+import com.colledk.profile.navigation.profilePane
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 // TODO temporary navigation, should be moved to separate modules
 const val homePaneRoute = "homepage_route"
 const val explorePaneRoute = "explorepage_route"
-const val profilePaneRoute = "profilepage_route"
 const val settingsPaneRoute = "settingspage_route"
 
 fun NavGraphBuilder.homePane() {
@@ -47,19 +50,9 @@ fun NavController.navigateToExplorePane(navOptions: NavOptions? = null) {
     this.navigate(route = explorePaneRoute, navOptions = navOptions)
 }
 
-fun NavGraphBuilder.profilePane() {
-    composable(route = profilePaneRoute) {
-        ProfilePane()
-    }
-}
-
-fun NavController.navigateToProfilePane(navOptions: NavOptions? = null) {
-    this.navigate(route = profilePaneRoute, navOptions = navOptions)
-}
-
-fun NavGraphBuilder.settingsPane() {
+fun NavGraphBuilder.settingsPane(onLogOut: () -> Unit) {
     composable(route = settingsPaneRoute) {
-        SettingsPane()
+        SettingsPane(onLogOut = onLogOut)
     }
 }
 
@@ -89,6 +82,10 @@ fun ColingoNavHost(
         explorePane()
         chatGraph(navHostController = navController)
         profilePane()
-        settingsPane()
+        settingsPane {
+            navController.navigateToOnboarding(/* TODO Pop backstack */).also {
+                Firebase.auth.signOut()
+            }
+        }
     }
 }

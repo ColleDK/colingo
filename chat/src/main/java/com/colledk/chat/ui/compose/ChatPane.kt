@@ -51,6 +51,7 @@ import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
+import org.joda.time.DateTime
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -230,25 +231,23 @@ private fun ChatPanePreview() {
                             User(
                                 id = "12",
                                 name = "Johnny",
-                                birthday = 0L,
+                                birthday = DateTime.now(),
                                 profilePictures = emptyList(),
                                 description = "",
                                 location = Location("", ""),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
-                                friends = emptyList(),
                                 chats = listOf("123")
                             ),
                             User(
                                 id = "13",
                                 name = "Benny",
-                                birthday = 0L,
+                                birthday = DateTime.now(),
                                 profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
                                 description = "",
                                 location = Location("", ""),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
-                                friends = emptyList(),
                                 chats = listOf("123")
                             )
                         ),
@@ -258,13 +257,12 @@ private fun ChatPanePreview() {
                                 sender = User(
                                     id = "13",
                                     name = "Benny",
-                                    birthday = 0L,
+                                    birthday = DateTime.now(),
                                     profilePictures = emptyList(),
                                     description = "",
                                     location = Location("", ""),
                                     languages = emptyList(),
                                     gender = Gender.MALE,
-                                    friends = emptyList(),
                                     chats = listOf("123")
                                 ),
                                 content = "Hi Johnny, I really love you big time my man",
@@ -280,25 +278,23 @@ private fun ChatPanePreview() {
                             User(
                                 id = "12",
                                 name = "Johnny",
-                                birthday = 0L,
+                                birthday = DateTime.now(),
                                 profilePictures = emptyList(),
                                 description = "",
                                 location = Location("", ""),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
-                                friends = emptyList(),
                                 chats = listOf("123")
                             ),
                             User(
                                 id = "13",
                                 name = "Benny",
-                                birthday = 0L,
+                                birthday = DateTime.now(),
                                 profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
                                 description = "",
                                 location = Location("", ""),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
-                                friends = emptyList(),
                                 chats = listOf("123")
                             )
                         ),
@@ -308,13 +304,12 @@ private fun ChatPanePreview() {
                                 sender = User(
                                     id = "13",
                                     name = "Benny",
-                                    birthday = 0L,
+                                    birthday = DateTime.now(),
                                     profilePictures = emptyList(),
                                     description = "",
                                     location = Location("", ""),
                                     languages = emptyList(),
                                     gender = Gender.MALE,
-                                    friends = emptyList(),
                                     chats = listOf("123")
                                 ),
                                 content = "Hi Johnny, I really love you big time my man",

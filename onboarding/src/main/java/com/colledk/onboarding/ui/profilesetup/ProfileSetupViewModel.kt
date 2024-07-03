@@ -18,6 +18,7 @@ import com.colledk.user.domain.model.UserLanguage
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.GetUserUseCase
 import com.colledk.user.domain.usecase.UpdateUserUseCase
+import com.colledk.user.domain.usecase.UploadProfilePicUseCase
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource
@@ -37,7 +38,8 @@ class ProfileSetupViewModel @Inject constructor(
     private val locationProviderClient: FusedLocationProviderClient,
     private val geocoder: Geocoder,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
-    private val updateUserUseCase: UpdateUserUseCase
+    private val updateUserUseCase: UpdateUserUseCase,
+    private val uploadProfilePicUseCase: UploadProfilePicUseCase
 ) : ViewModel() {
     private val _profilePictureState: MutableStateFlow<ProfilePictureUiState> =
         MutableStateFlow(ProfilePictureUiState())
@@ -62,15 +64,19 @@ class ProfileSetupViewModel @Inject constructor(
 
     fun finishSetup() {
         viewModelScope.launch {
-            getCurrentUserUseCase().onSuccess {
+            getCurrentUserUseCase().onSuccess { user ->
                 val description = _descriptionState.value
                 val picture = _profilePictureState.value
                 val languages = _languagesState.value
                 val gender = _genderState.value
 
-                val newUser = it.copy(
-                    birthday = description.birthday?.millis ?: 0L,
-                    profilePictures = listOfNotNull(picture.profilePicture),
+                val profilePicture = picture.profilePicture?.let {
+                    uploadProfilePicUseCase(uri = picture.profilePicture, userId = user.id).getOrNull()
+                }
+
+                val newUser = user.copy(
+                    birthday = description.birthday ?: DateTime.now(),
+                    profilePictures = listOfNotNull(profilePicture),
                     description = description.description,
                     location = description.location ?: Location(),
                     languages = languages.languages,

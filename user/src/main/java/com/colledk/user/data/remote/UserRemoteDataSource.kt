@@ -1,14 +1,18 @@
 package com.colledk.user.data.remote
 
+import android.net.Uri
 import com.colledk.user.data.remote.model.UserRemote
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
 import kotlinx.coroutines.tasks.await
 import okio.IOException
+import java.util.UUID
 
 class UserRemoteDataSource(
     private val db: FirebaseFirestore,
-    private val auth: FirebaseAuth
+    private val auth: FirebaseAuth,
+    private val storage: FirebaseStorage
 ) {
     suspend fun loginUser(email: String, password: String): Result<UserRemote> {
         try {
@@ -96,7 +100,29 @@ class UserRemoteDataSource(
         }
     }
 
+//    suspend fun uploadFiles(images: List<String>, userId: String): Result<List<String>> {
+//        try {
+//            return images.map {
+//                uploadFile(file = it, userId = userId)
+//            }
+//        } catch (e: Exception) {
+//            return Result.failure(e)
+//        }
+//    }
+
+    suspend fun uploadFile(file: String, userId: String): Result<String> {
+        try {
+            val ref = storage.reference.child(IMAGE_PATH + userId + "/" + UUID.randomUUID())
+            ref.putFile(Uri.parse(file)).await()
+            val url = ref.downloadUrl.await().toString()
+            return Result.success(url)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
     companion object {
         const val USERS_PATH = "users"
+        const val IMAGE_PATH = "images/"
     }
 }

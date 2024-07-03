@@ -1,5 +1,6 @@
 package com.colledk.user.data.remote.repository
 
+import android.net.Uri
 import com.colledk.user.data.mapToDomain
 import com.colledk.user.data.mapToRemote
 import com.colledk.user.data.remote.UserRemoteDataSource
@@ -14,6 +15,10 @@ class UserRepositoryImpl(
     private val remoteDataSource: UserRemoteDataSource,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ): UserRepository {
+    override suspend fun uploadProfilePicture(uri: Uri, userId: String): Result<Uri> = withContext(dispatcher) {
+        remoteDataSource.uploadFile(file = uri.toString(), userId = userId).map { Uri.parse(it) }
+    }
+
     override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
         remoteDataSource.loginUser(email, password).map { it.mapToDomain() }
     }

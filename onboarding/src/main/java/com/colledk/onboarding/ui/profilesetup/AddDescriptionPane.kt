@@ -39,6 +39,8 @@ import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import org.joda.time.DateTime
+import org.joda.time.format.DateTimeFormat
+import org.joda.time.format.DateTimeFormatter
 import timber.log.Timber
 import java.time.LocalDate
 
@@ -73,7 +75,7 @@ internal fun AddDescriptionPane(
             ListItem(
                 headlineContent = {
                     Text(
-                        text = "${birthday ?: stringResource(id = R.string.add_description_birthday_hint)}",
+                        text = birthday?.let { birthday.toString(DateTimeFormat.mediumDate()) } ?: stringResource(id = R.string.add_description_birthday_hint),
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },
@@ -99,7 +101,9 @@ internal fun AddDescriptionPane(
                         updateBirthday(it)
                         showDatePicker = false
                     },
-                    onDismiss = { showDatePicker = false })
+                    onDismiss = { showDatePicker = false },
+                    currentSelected = birthday?.millis
+                )
             }
             // Location item
             ListItem(
@@ -197,11 +201,12 @@ private fun PermissionRequester(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun BirthdaySelector(
+    currentSelected: Long?,
     onSelect: (time: Long) -> Unit,
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val state = rememberDatePickerState()
+    val state = rememberDatePickerState(initialSelectedDateMillis = currentSelected)
 
     DatePickerDialog(
         modifier = modifier,
