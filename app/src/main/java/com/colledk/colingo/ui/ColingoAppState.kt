@@ -16,10 +16,10 @@ import com.colledk.colingo.ui.navigation.explorePaneRoute
 import com.colledk.colingo.ui.navigation.homePaneRoute
 import com.colledk.colingo.ui.navigation.navigateToExplorePane
 import com.colledk.colingo.ui.navigation.navigateToHomePane
-import com.colledk.colingo.ui.navigation.navigateToProfilePane
 import com.colledk.colingo.ui.navigation.navigateToSettingsPane
-import com.colledk.colingo.ui.navigation.profilePaneRoute
 import com.colledk.colingo.ui.navigation.settingsPaneRoute
+import com.colledk.profile.navigation.navigateToProfilePane
+import com.colledk.profile.navigation.profilePaneRoute
 
 @Composable
 fun rememberColingoAppState(

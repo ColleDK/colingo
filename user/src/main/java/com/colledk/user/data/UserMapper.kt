@@ -13,17 +13,17 @@ import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
+import org.joda.time.DateTime
 
 fun User.mapToRemote(): UserRemote {
     return UserRemote(
         id = id,
         name = name,
-        birthday = birthday,
+        birthday = birthday.millis,
         profilePictures = profilePictures.map { it.toString() },
         description = description,
         location = location.mapToRemote(),
         languages = languages.map { it.mapToRemote() },
-        friends = friends.map { it.mapToRemote() },
         gender = gender.mapToRemote(),
         chats = chats
     )
@@ -63,12 +63,11 @@ fun UserRemote.mapToDomain(): User {
     return User(
         id = id,
         name = name,
-        birthday = birthday,
+        birthday = DateTime(birthday),
         profilePictures = profilePictures.map { Uri.parse(it) },
         description = description,
         location = location.mapToDomain(),
         languages = languages.map { it.mapToDomain() },
-        friends = friends.map { it.mapToDomain() },
         gender = gender.mapToDomain(),
         chats = chats
     )

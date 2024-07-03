@@ -64,6 +64,7 @@ dependencies {
     implementation(project(":onboarding"))
     implementation(project(":theme"))
     implementation(project(":chat"))
+    implementation(project(":profile"))
 
     // Compose
     implementation(platform(libs.compose.bom))

@@ -80,6 +80,7 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-db = { module = "com.google.firebase:firebase-database-ktx" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
+firebase-storage = { module = "com.google.firebase:firebase-storage-ktx"}
 
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
@@ -102,7 +103,7 @@ play-services-location = { group = "com.google.android.gms", name = "play-servic
 compose = ["compose-bom", "compose-ui", "compose-material3", "compose-foundation", "compose-livedata", "compose-ui-tooling", "compose-extended-icons", "compose-ui-util", "adaptive", "adaptive-layout", "androidx-adaptive-navigation"]
 compose-hilt = ["hilt-navigation-compose", "hilt-android"]
 testing-unit = ["junit5-core", "kotlin-test"]
-firebase = ["firebase-auth", "firebase-db", "firebase-firestore"]
+firebase = ["firebase-auth", "firebase-db", "firebase-firestore", "firebase-storage"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "gradle" }

@@ -24,6 +24,7 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -34,7 +35,10 @@ import com.colledk.onboarding.ui.OnboardingDestination
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
-fun SettingsPane(modifier: Modifier = Modifier) {
+fun SettingsPane(
+    modifier: Modifier = Modifier,
+    onLogOut: () -> Unit
+) {
     val navigator = rememberListDetailPaneScaffoldNavigator<SettingsOption>()
 
     BackHandler(navigator.canNavigateBack()) {
@@ -57,8 +61,22 @@ fun SettingsPane(modifier: Modifier = Modifier) {
         },
         detailPane = {
             AnimatedPane {
-                navigator.currentDestination?.content?.let {
+                navigator.currentDestination?.content?.let { setting ->
                     // TODO figure out what settings to have
+                    when(setting) {
+                        SettingsOption.BETA -> TODO()
+                        SettingsOption.NOTIFICATIONS -> TODO()
+                        SettingsOption.PERMISSIONS -> TODO()
+                        SettingsOption.ACCESSIBILITY -> TODO()
+                        SettingsOption.ABOUT -> TODO()
+                        SettingsOption.RATE_THE_APP -> TODO()
+                        SettingsOption.REPORT_BUG -> TODO()
+                        SettingsOption.LOG_OUT -> {
+                            LaunchedEffect(key1 = Unit) {
+                                onLogOut()
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -77,7 +95,9 @@ private fun SettingsContent(
         contentPadding = PaddingValues(horizontal = 8.dp, vertical = 24.dp)
     ) {
         stickyHeader {
-            Surface(modifier = Modifier.fillParentMaxWidth().padding(horizontal = 16.dp)) {
+            Surface(modifier = Modifier
+                .fillParentMaxWidth()
+                .padding(horizontal = 16.dp)) {
                 Text(
                     text = "Change settings",
                     style = MaterialTheme.typography.headlineLarge,
@@ -94,12 +114,14 @@ private fun SettingsContent(
                     )
                 },
                 trailingContent = {
-                    Icon(
-                        painter = painterResource(id = R.drawable.arrow_right),
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.onSurface,
-                        modifier = Modifier.size(24.dp)
-                    )
+                    if (setting != SettingsOption.LOG_OUT) {
+                        Icon(
+                            painter = painterResource(id = R.drawable.arrow_right),
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.onSurface,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    }
                 },
                 leadingContent = {
                     Icon(
@@ -109,9 +131,11 @@ private fun SettingsContent(
                         modifier = Modifier.size(24.dp)
                     )
                 },
-                modifier = Modifier.fillMaxWidth().clickable {
-                    onSettingClick(setting)
-                }
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable {
+                        onSettingClick(setting)
+                    }
             )
         }
     }
