@@ -197,10 +197,10 @@ private fun ProfilePictures(
                         model = it,
                         contentDescription = null,
                         contentScale = ContentScale.Crop,
-                        modifier = Modifier.fillMaxSize()
+                        modifier = Modifier.fillMaxSize(),
                     )
                 } ?: run {
-                    Image(
+                    Icon(
                         painter = painterResource(id = R.drawable.add_picture),
                         contentDescription = null,
                         modifier = Modifier
@@ -208,7 +208,8 @@ private fun ProfilePictures(
                             .padding(vertical = 24.dp)
                             .clickable {
                                 launcher.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
-                            }
+                            },
+                        tint = MaterialTheme.colorScheme.onSecondaryContainer
                     )
                 }
             }

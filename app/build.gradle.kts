@@ -59,12 +59,14 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.splashscreen)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.datastore)
 
     // Internal modules
     implementation(project(":onboarding"))
     implementation(project(":theme"))
     implementation(project(":chat"))
     implementation(project(":profile"))
+    implementation(project(":community"))
 
     // Compose
     implementation(platform(libs.compose.bom))
@@ -86,6 +88,9 @@ dependencies {
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.bundles.firebase)
+
+    // Reflection
+    implementation(libs.reflection)
 
     // Test
     testImplementation(libs.bundles.testing.unit)

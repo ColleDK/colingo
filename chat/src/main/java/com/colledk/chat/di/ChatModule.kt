@@ -7,6 +7,7 @@ import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
 import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.user.domain.repository.UserRepository
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
@@ -22,10 +23,13 @@ import javax.inject.Singleton
 class ChatModule {
 
     @Provides
-    fun providesChatRemoteDataSource(): ChatRemoteDataSource {
+    fun providesChatRemoteDataSource(
+        db: FirebaseFirestore,
+        auth: FirebaseAuth
+    ): ChatRemoteDataSource {
         return ChatRemoteDataSource(
-            db = Firebase.firestore,
-            auth = Firebase.auth
+            db = db,
+            auth = auth
         )
     }
 

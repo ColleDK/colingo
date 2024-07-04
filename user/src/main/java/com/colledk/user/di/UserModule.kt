@@ -2,16 +2,19 @@ package com.colledk.user.di
 
 import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.data.remote.repository.UserRepositoryImpl
+import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
 import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.colledk.user.domain.usecase.UploadProfilePicUseCase
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.ktx.storage
 import dagger.Module
 import dagger.Provides
@@ -23,11 +26,15 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 class UserModule {
     @Provides
-    fun providesUserRemoteDataSource(): UserRemoteDataSource {
+    fun providesUserRemoteDataSource(
+        db: FirebaseFirestore,
+        auth: FirebaseAuth,
+        storage: FirebaseStorage
+    ): UserRemoteDataSource {
         return UserRemoteDataSource(
-            db = Firebase.firestore,
-            auth = Firebase.auth,
-            storage = Firebase.storage
+            db = db,
+            auth = auth,
+            storage = storage
         )
     }
 
@@ -37,6 +44,11 @@ class UserModule {
         remoteDataSource: UserRemoteDataSource
     ): UserRepository {
         return UserRepositoryImpl(remoteDataSource = remoteDataSource)
+    }
+
+    @Provides
+    fun providesUserPagingSource(): UserPagingSource {
+        return UserPagingSource(db = Firebase.firestore, auth = Firebase.auth)
     }
 
     @Provides

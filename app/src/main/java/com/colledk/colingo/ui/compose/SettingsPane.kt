@@ -2,10 +2,8 @@ package com.colledk.colingo.ui.compose
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -30,8 +28,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.colingo.R
-import com.colledk.colingo.domain.SettingsOption
-import com.colledk.onboarding.ui.OnboardingDestination
+import com.colledk.colingo.domain.model.SettingsOption
+import com.colledk.colingo.ui.compose.settings.BetaSettings
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -64,7 +62,7 @@ fun SettingsPane(
                 navigator.currentDestination?.content?.let { setting ->
                     // TODO figure out what settings to have
                     when(setting) {
-                        SettingsOption.BETA -> TODO()
+                        SettingsOption.BETA -> BetaSettings()
                         SettingsOption.NOTIFICATIONS -> TODO()
                         SettingsOption.PERMISSIONS -> TODO()
                         SettingsOption.ACCESSIBILITY -> TODO()

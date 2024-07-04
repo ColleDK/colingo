@@ -1,4 +1,4 @@
-package com.colledk.colingo.domain
+package com.colledk.colingo.domain.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
