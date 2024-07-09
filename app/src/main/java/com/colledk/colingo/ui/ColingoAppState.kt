@@ -12,12 +12,12 @@ import androidx.navigation.navOptions
 import com.colledk.chat.navigation.chatGraphRoute
 import com.colledk.chat.navigation.navigateToChat
 import com.colledk.colingo.ui.navigation.TopLevelDestination
-import com.colledk.colingo.ui.navigation.homePaneRoute
-import com.colledk.colingo.ui.navigation.navigateToHomePane
 import com.colledk.colingo.ui.navigation.navigateToSettingsPane
 import com.colledk.colingo.ui.navigation.settingsPaneRoute
 import com.colledk.community.navigation.explorePaneRoute
 import com.colledk.community.navigation.navigateToExplorePane
+import com.colledk.home.navigation.homePaneRoute
+import com.colledk.home.navigation.navigateToHomePane
 import com.colledk.profile.navigation.navigateToProfilePane
 import com.colledk.profile.navigation.profilePaneRoute
 

@@ -12,9 +12,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.colledk.chat.navigation.chatGraph
 import com.colledk.colingo.ui.ColingoAppState
-import com.colledk.colingo.ui.compose.HomePane
 import com.colledk.colingo.ui.compose.SettingsPane
 import com.colledk.community.navigation.explorePane
+import com.colledk.home.navigation.homePane
 import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
 import com.colledk.onboarding.navigation.onboardingGraphRoute
@@ -22,19 +22,7 @@ import com.colledk.profile.navigation.profilePane
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-// TODO temporary navigation, should be moved to separate modules
-const val homePaneRoute = "homepage_route"
 const val settingsPaneRoute = "settingspage_route"
-
-fun NavGraphBuilder.homePane() {
-    composable(route = homePaneRoute) {
-        HomePane()
-    }
-}
-
-fun NavController.navigateToHomePane(navOptions: NavOptions? = null) {
-    this.navigate(route = homePaneRoute, navOptions = navOptions)
-}
 
 fun NavGraphBuilder.settingsPane(onLogOut: () -> Unit) {
     composable(route = settingsPaneRoute) {
