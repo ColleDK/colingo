@@ -1,11 +1,16 @@
 package com.colledk.user.domain.model
 
-data class UserLanguage(
-    val language: Language,
-    val proficiency: LanguageProficiency
-)
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
-enum class LanguageProficiency {
+@Parcelize
+data class UserLanguage(
+    val language: Language = Language(),
+    val proficiency: LanguageProficiency = LanguageProficiency.BEGINNER
+) : Parcelable
+
+@Parcelize
+enum class LanguageProficiency : Parcelable {
     BEGINNER,
     INTERMEDIATE,
     FLUENT

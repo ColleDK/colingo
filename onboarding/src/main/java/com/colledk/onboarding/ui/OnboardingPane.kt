@@ -61,6 +61,7 @@ fun OnboardingPane(
 
     val snackbarHostState = remember { SnackbarHostState() }
 
+    // TODO fix from using unit to something that can be launched multiple times
     LaunchedEffect(key1 = login) {
         if (login != null) {
             onGoToFrontpage()
@@ -75,7 +76,9 @@ fun OnboardingPane(
 
     LaunchedEffect(key1 = error) {
         if (error != null) {
-            snackbarHostState.showSnackbar(error?.localizedMessage ?: "Something went wrong. Please try again")
+            snackbarHostState.showSnackbar(
+                error?.localizedMessage ?: "Something went wrong. Please try again"
+            )
         }
     }
 
@@ -121,7 +124,8 @@ fun OnboardingPane(
                             )
                         },
                         onGoToGoogle = { /*TODO*/ },
-                        onGoToFacebook = { /*TODO*/ })
+                        onGoToFacebook = { /*TODO*/ }
+                    )
                 }
             },
             detailPane = {

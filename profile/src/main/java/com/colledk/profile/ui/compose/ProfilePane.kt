@@ -22,9 +22,11 @@ import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.PagerState
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
@@ -44,6 +46,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -61,6 +64,7 @@ import coil.compose.AsyncImage
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.ProfileUiState
 import com.colledk.user.domain.model.UserLanguage
+import kotlinx.coroutines.launch
 import org.joda.time.DateTime
 import org.joda.time.Period
 import org.joda.time.PeriodType
@@ -69,7 +73,8 @@ import kotlin.math.absoluteValue
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-internal fun ProfilePane(
+fun ProfilePane(
+    isEditable: Boolean,
     uiState: ProfileUiState,
     onEditProfile: () -> Unit,
     onPictureAdded: (uri: Uri?) -> Unit,
@@ -100,13 +105,15 @@ internal fun ProfilePane(
                         }
                     },
                     actions = {
-                        IconButton(onClick = onEditProfile) {
-                            Icon(
-                                painter = painterResource(id = R.drawable.edit),
-                                contentDescription = null,
-                                tint = MaterialTheme.colorScheme.onSurface,
-                                modifier = Modifier.size(24.dp)
-                            )
+                        if (isEditable) {
+                            IconButton(onClick = onEditProfile) {
+                                Icon(
+                                    painter = painterResource(id = R.drawable.edit),
+                                    contentDescription = null,
+                                    tint = MaterialTheme.colorScheme.onSurface,
+                                    modifier = Modifier.size(24.dp)
+                                )
+                            }
                         }
                     },
                     modifier = Modifier.padding(horizontal = 16.dp)
@@ -116,6 +123,12 @@ internal fun ProfilePane(
     ) { padding ->
         when (uiState) {
             is ProfileUiState.Data -> {
+                val listState = rememberLazyListState()
+
+                LaunchedEffect(key1 = uiState.currentUser) {
+                    listState.scrollToItem(0)
+                }
+
                 LazyColumn(
                     modifier = Modifier.padding(padding),
                     verticalArrangement = Arrangement.spacedBy(16.dp),
@@ -123,6 +136,7 @@ internal fun ProfilePane(
                 ) {
                     item {
                         ProfilePictures(
+                            isEditable = isEditable,
                             pictures = uiState.currentUser.profilePictures,
                             onPictureSelected = onPictureAdded
                         )
@@ -157,28 +171,21 @@ internal fun ProfilePane(
 
 @Composable
 private fun ProfilePictures(
+    isEditable: Boolean,
     pictures: List<Uri>,
     onPictureSelected: (uri: Uri?) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val pagerState = rememberPagerState { 5 }
+    val pagerState = rememberPagerState { if (isEditable) 5 else pictures.size }
+    val scope = rememberCoroutineScope()
     val launcher =
         rememberLauncherForActivityResult(contract = ActivityResultContracts.PickVisualMedia()) {
-            onPictureSelected(it)
+            onPictureSelected(it).also {
+                scope.launch {
+                    pagerState.animateScrollToPage(pictures.size)
+                }
+            }
         }
-
-    var isInitial by rememberSaveable {
-        mutableStateOf(true)
-    }
-    LaunchedEffect(key1 = pictures.size) {
-        if (!isInitial) {
-            pagerState.animateScrollToPage(pictures.size - 1)
-        }
-    }
-
-    LaunchedEffect(key1 = isInitial) {
-        isInitial = false
-    }
 
 
     Box(
@@ -197,10 +204,10 @@ private fun ProfilePictures(
                         model = it,
                         contentDescription = null,
                         contentScale = ContentScale.Crop,
-                        modifier = Modifier.fillMaxSize()
+                        modifier = Modifier.fillMaxSize(),
                     )
                 } ?: run {
-                    Image(
+                    Icon(
                         painter = painterResource(id = R.drawable.add_picture),
                         contentDescription = null,
                         modifier = Modifier
@@ -208,7 +215,8 @@ private fun ProfilePictures(
                             .padding(vertical = 24.dp)
                             .clickable {
                                 launcher.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
-                            }
+                            },
+                        tint = MaterialTheme.colorScheme.onSecondaryContainer
                     )
                 }
             }

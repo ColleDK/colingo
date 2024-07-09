@@ -10,14 +10,11 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import androidx.navigation.navOptions
 import com.colledk.chat.navigation.chatGraph
 import com.colledk.colingo.ui.ColingoAppState
-import com.colledk.colingo.ui.compose.ChatPane
-import com.colledk.colingo.ui.compose.ExplorePane
 import com.colledk.colingo.ui.compose.HomePane
-import com.colledk.colingo.ui.compose.ProfilePane
 import com.colledk.colingo.ui.compose.SettingsPane
+import com.colledk.community.navigation.explorePane
 import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
 import com.colledk.onboarding.navigation.onboardingGraphRoute
@@ -27,7 +24,6 @@ import com.google.firebase.ktx.Firebase
 
 // TODO temporary navigation, should be moved to separate modules
 const val homePaneRoute = "homepage_route"
-const val explorePaneRoute = "explorepage_route"
 const val settingsPaneRoute = "settingspage_route"
 
 fun NavGraphBuilder.homePane() {
@@ -38,16 +34,6 @@ fun NavGraphBuilder.homePane() {
 
 fun NavController.navigateToHomePane(navOptions: NavOptions? = null) {
     this.navigate(route = homePaneRoute, navOptions = navOptions)
-}
-
-fun NavGraphBuilder.explorePane() {
-    composable(route = explorePaneRoute) {
-        ExplorePane()
-    }
-}
-
-fun NavController.navigateToExplorePane(navOptions: NavOptions? = null) {
-    this.navigate(route = explorePaneRoute, navOptions = navOptions)
 }
 
 fun NavGraphBuilder.settingsPane(onLogOut: () -> Unit) {

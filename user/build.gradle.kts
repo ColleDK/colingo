@@ -69,6 +69,9 @@ dependencies {
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 
+    // Pagination
+    implementation(libs.bundles.pagination)
+
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.bundles.firebase)

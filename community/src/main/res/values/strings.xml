@@ -1,0 +1,7 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Members</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Speaks</string>
+    <string name="community_user_learns">Learning</string>
+</resources>
