@@ -18,7 +18,12 @@ fun NavGraphBuilder.profilePane() {
         val uiState by viewModel.uiState.collectAsState().also {
             viewModel.getUser()
         }
-        ProfilePane(uiState = uiState, onEditProfile = {}, onPictureAdded = viewModel::addProfilePicture)
+        ProfilePane(
+            isEditable = true,
+            uiState = uiState,
+            onEditProfile = {},
+            onPictureAdded = viewModel::addProfilePicture
+        )
     }
 }
 

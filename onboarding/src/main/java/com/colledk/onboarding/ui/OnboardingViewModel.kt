@@ -48,7 +48,7 @@ class OnboardingViewModel @Inject constructor(
             createUserUseCase(
                 email = email,
                 password = password,
-                user = User.UNKNOWN.copy(name = name)
+                user = User(name = name)
             ).onSuccess {
                 _goToProfileSetup.trySend(Unit)
             }.onFailure {

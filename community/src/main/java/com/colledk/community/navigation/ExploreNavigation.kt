@@ -8,15 +8,14 @@ import androidx.navigation.compose.composable
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.colledk.community.ui.ExploreViewModel
 import com.colledk.community.ui.compose.ExplorePane
-import com.colledk.user.domain.model.User
 
 const val explorePaneRoute = "explorepage_route"
 
-fun NavGraphBuilder.explorePane(onUserClicked: (user: User) -> Unit) {
+fun NavGraphBuilder.explorePane() {
     composable(route = explorePaneRoute) {
         val viewModel: ExploreViewModel = hiltViewModel()
         val users = viewModel.users.collectAsLazyPagingItems()
-        ExplorePane(users = users, onUserClicked = onUserClicked)
+        ExplorePane(users = users)
     }
 }
 

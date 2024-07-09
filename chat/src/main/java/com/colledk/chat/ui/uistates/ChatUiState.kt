@@ -7,5 +7,5 @@ import com.colledk.user.domain.model.User
 @Stable
 data class ChatUiState(
     val chats: List<Chat> = emptyList(),
-    val currentUser: User = User.UNKNOWN
+    val currentUser: User = User()
 )

@@ -65,7 +65,7 @@ fun ColingoNavHost(
             appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
         }
         homePane()
-        explorePane { TODO() }
+        explorePane()
         chatGraph(navHostController = navController)
         profilePane()
         settingsPane {
