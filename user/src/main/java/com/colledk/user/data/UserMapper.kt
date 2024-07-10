@@ -5,12 +5,14 @@ import com.colledk.user.data.remote.model.GenderRemote
 import com.colledk.user.data.remote.model.LanguageProficiencyRemote
 import com.colledk.user.data.remote.model.LanguageRemote
 import com.colledk.user.data.remote.model.LocationRemote
+import com.colledk.user.data.remote.model.TopicRemote
 import com.colledk.user.data.remote.model.UserLanguageRemote
 import com.colledk.user.data.remote.model.UserRemote
 import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Language
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.Location
+import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
 import org.joda.time.DateTime
@@ -25,8 +27,13 @@ fun User.mapToRemote(): UserRemote {
         location = location.mapToRemote(),
         languages = languages.map { it.mapToRemote() },
         gender = gender.mapToRemote(),
-        chats = chats
+        chats = chats,
+        topics = topics.map { it.mapToRemote() }
     )
+}
+
+fun Topic.mapToRemote(): TopicRemote {
+    return TopicRemote(this.name)
 }
 
 internal fun Location.mapToRemote(): LocationRemote {
@@ -69,8 +76,13 @@ fun UserRemote.mapToDomain(): User {
         location = location.mapToDomain(),
         languages = languages.map { it.mapToDomain() },
         gender = gender.mapToDomain(),
-        chats = chats
+        chats = chats,
+        topics = topics.map { it.mapToDomain() }
     )
+}
+
+fun TopicRemote.mapToDomain(): Topic {
+    return Topic.valueOf(this.name)
 }
 
 internal fun LocationRemote.mapToDomain(): Location {

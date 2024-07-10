@@ -11,5 +11,6 @@ data class UserRemote(
     val gender: GenderRemote = GenderRemote.OTHER,
     val friends: List<String> = emptyList(),
     val chats: List<String> = emptyList(),
-    val friendRequests: List<String> = emptyList()
+    val friendRequests: List<String> = emptyList(),
+    val topics: List<TopicRemote> = emptyList()
 )

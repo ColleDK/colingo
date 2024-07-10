@@ -6,6 +6,7 @@ import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
+import com.colledk.user.domain.usecase.GetUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
 import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.colledk.user.domain.usecase.UploadProfilePicUseCase
@@ -80,5 +81,12 @@ class UserModule {
         repository: UserRepository
     ) : UploadProfilePicUseCase {
         return UploadProfilePicUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesGetUserUseCase(
+        repository: UserRepository
+    ): GetUserUseCase {
+        return GetUserUseCase(repository = repository)
     }
 }

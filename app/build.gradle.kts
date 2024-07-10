@@ -6,6 +6,7 @@ plugins {
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.google.services.get().pluginId)
     id(libs.plugins.android.library.get().pluginId) apply false
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -37,10 +38,6 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
-    }
-
     testOptions {
         unitTests.all {
             it.useJUnitPlatform()
@@ -67,6 +64,7 @@ dependencies {
     implementation(project(":chat"))
     implementation(project(":profile"))
     implementation(project(":community"))
+    implementation(project(":home"))
 
     // Compose
     implementation(platform(libs.compose.bom))

@@ -1,0 +1,8 @@
+<resources>
+    <string name="homepage_title">My feed</string>
+    <string name="post_create_new">Create a new post</string>
+    <string name="create_post_dismiss">Cancel</string>
+    <string name="create_post_create">Create</string>
+    <string name="post_show_more">Show more</string>
+    <string name="post_show_less">Show less</string>
+</resources>
