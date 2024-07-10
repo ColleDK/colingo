@@ -6,6 +6,7 @@ plugins {
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.google.services.get().pluginId)
     id(libs.plugins.android.library.get().pluginId) apply false
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
@@ -35,10 +36,6 @@ android {
     }
     buildFeatures {
         compose = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
     }
 
     testOptions {

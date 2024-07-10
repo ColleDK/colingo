@@ -16,7 +16,11 @@ fun NavGraphBuilder.homePane() {
         val viewModel: HomeViewModel = hiltViewModel()
         val posts = viewModel.posts.collectAsLazyPagingItems()
 
-        HomePane(posts = posts)
+        HomePane(
+            posts = posts,
+            onRefresh = posts::refresh,
+            onCreatePost = viewModel::createPost
+        )
     }
 }
 

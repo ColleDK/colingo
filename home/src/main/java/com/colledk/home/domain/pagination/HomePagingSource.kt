@@ -3,10 +3,10 @@ package com.colledk.home.domain.pagination
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.colledk.home.data.mapToDomain
+import com.colledk.home.data.remote.HomeRemoteDataSource.Companion.POST_PATH
 import com.colledk.home.data.remote.model.PostRemote
 import com.colledk.home.data.remote.model.ReplyRemote
 import com.colledk.home.domain.model.Post
-import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.domain.usecase.GetUserUseCase
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.QuerySnapshot
@@ -17,7 +17,7 @@ class HomePagingSource @Inject constructor(
     private val db: FirebaseFirestore,
     private val getUserUseCase: GetUserUseCase
 ) : PagingSource<QuerySnapshot, Post>() {
-    private val query = db.collection(UserRemoteDataSource.USERS_PATH)
+    private val query = db.collection(POST_PATH)
         .limit(PAGE_SIZE.toLong())
 
     override fun getRefreshKey(state: PagingState<QuerySnapshot, Post>): QuerySnapshot? {
