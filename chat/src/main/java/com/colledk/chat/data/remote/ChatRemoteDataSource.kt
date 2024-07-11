@@ -1,5 +1,6 @@
 package com.colledk.chat.data.remote
 
+import com.colledk.chat.data.remote.model.AiChatRemote
 import com.colledk.chat.data.remote.model.ChatRemote
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -13,6 +14,56 @@ class ChatRemoteDataSource(
     private val db: FirebaseFirestore,
     private val auth: FirebaseAuth
 ) {
+    suspend fun getAiChat(chatId: String): Result<AiChatRemote> {
+        try {
+            val chat = db
+                .collection(AI_CHAT_PATH)
+                .document(chatId)
+                .get()
+                .await()
+                .toObject(AiChatRemote::class.java)
+
+            return if (chat == null) {
+                Result.failure(IOException())
+            } else {
+                Result.success(value = chat)
+            }
+
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
+    suspend fun createAiChat(aiChat: AiChatRemote): Result<AiChatRemote> {
+        try {
+            // Create a chat
+            val chatId = db.collection(AI_CHAT_PATH).add(aiChat).await().id
+            // Update the id in the data
+            db.collection(AI_CHAT_PATH).document(chatId).set(aiChat.copy(id = chatId))
+            return getAiChat(chatId = chatId)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
+    suspend fun updateAiChat(aiChat: AiChatRemote): Result<AiChatRemote> {
+        return try {
+            when(val userId = auth.currentUser?.uid) {
+                null -> Result.failure(IOException())
+                else -> {
+                    if (getAiChat(aiChat.id).getOrNull()?.userId == userId) {
+                        db.collection(AI_CHAT_PATH).document(aiChat.id).set(aiChat).await()
+                        getAiChat(aiChat.id)
+                    } else {
+                        Result.failure(IOException())
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     suspend fun observeChat(chatId: String): Flow<ChatRemote> = callbackFlow {
         val document = db.collection(CHAT_PATH).document(chatId)
 
@@ -83,5 +134,6 @@ class ChatRemoteDataSource(
 
     companion object {
         const val CHAT_PATH = "chats"
+        const val AI_CHAT_PATH = "ai_chats"
     }
 }

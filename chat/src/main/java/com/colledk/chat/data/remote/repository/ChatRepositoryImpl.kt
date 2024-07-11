@@ -1,9 +1,13 @@
 package com.colledk.chat.data.remote.repository
 
+import com.aallam.openai.api.chat.ChatMessage
+import com.colledk.chat.data.mapToAiMessage
 import com.colledk.chat.data.mapToDomain
 import com.colledk.chat.data.mapToRemote
 import com.colledk.chat.data.remote.ChatRemoteDataSource
+import com.colledk.chat.data.remote.model.AiChatRemote
 import com.colledk.chat.data.remote.model.ChatRemote
+import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.domain.repository.ChatRepository
@@ -15,12 +19,50 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import okio.IOException
+import timber.log.Timber
 
 class ChatRepositoryImpl(
     private val remoteDataSource: ChatRemoteDataSource,
     private val userRepository: UserRepository,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ChatRepository {
+    override suspend fun getAiChats(ids: List<String>): Result<List<AiChat>> {
+        return ids.map { getAiChat(it) }.asSingleResult()
+    }
+
+    private fun <T> List<Result<T>>.asSingleResult(): Result<List<T>> = runCatching {
+        map { it.getOrThrow() }
+    }
+
+    override suspend fun getAiChat(id: String): Result<AiChat> = withContext(dispatcher) {
+        remoteDataSource.getAiChat(chatId = id).map { it.mapToDomain() }
+    }
+
+    override suspend fun createAiChat(
+        userId: String,
+        aiName: String,
+        messages: List<ChatMessage>
+    ): Result<AiChat> = withContext(dispatcher) {
+        remoteDataSource.createAiChat(
+            AiChatRemote(
+                id = "",
+                aiName = aiName,
+                userId = userId,
+                messages = messages.map { it.mapToAiMessage() }
+            )
+        ).map {
+            it.mapToDomain()
+        }
+    }
+
+    override suspend fun updateAiChat(id: String, message: ChatMessage): Result<AiChat> {
+        TODO("Not yet implemented")
+    }
+
+    override suspend fun deleteAiChat(id: String): Result<Unit> {
+        TODO("Not yet implemented")
+    }
+
     override suspend fun getChats(ids: List<String>): Flow<List<Chat>> = withContext(dispatcher) {
         combine(
             ids.map { getChat(it) }
@@ -54,14 +96,16 @@ class ChatRepositoryImpl(
         }
     }
 
-    override suspend fun updateChat(id: String, message: Message): Result<Chat> = withContext(dispatcher) {
-        val chat = remoteDataSource.getChat(id).getOrThrow()
-        val updatedChat = chat.copy(messages = listOf(*chat.messages.toTypedArray(), message.mapToRemote()))
-        remoteDataSource.updateChat(updatedChat).map {
-            val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
-            it.mapToDomain(users = users)
+    override suspend fun updateChat(id: String, message: Message): Result<Chat> =
+        withContext(dispatcher) {
+            val chat = remoteDataSource.getChat(id).getOrThrow()
+            val updatedChat =
+                chat.copy(messages = listOf(*chat.messages.toTypedArray(), message.mapToRemote()))
+            remoteDataSource.updateChat(updatedChat).map {
+                val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
+                it.mapToDomain(users = users)
+            }
         }
-    }
 
     override suspend fun deleteChat(id: String): Result<Unit> {
         TODO("Not yet implemented")

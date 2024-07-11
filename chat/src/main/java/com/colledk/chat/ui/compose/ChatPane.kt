@@ -110,6 +110,9 @@ internal fun ChatPane(
                     currentUser = state.currentUser
                 )
             }
+            items(state.aiChats) { aiChat ->
+                Text(text = "Ai chat ${aiChat.aiName}")
+            }
         }
     }
 }

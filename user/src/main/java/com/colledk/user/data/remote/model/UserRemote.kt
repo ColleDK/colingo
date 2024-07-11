@@ -12,5 +12,6 @@ data class UserRemote(
     val friends: List<String> = emptyList(),
     val chats: List<String> = emptyList(),
     val friendRequests: List<String> = emptyList(),
-    val topics: List<TopicRemote> = emptyList()
+    val topics: List<TopicRemote> = emptyList(),
+    val aiChats: List<String> = emptyList()
 )

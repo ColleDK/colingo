@@ -3,6 +3,8 @@ package com.colledk.chat.di
 import com.colledk.chat.data.remote.ChatRemoteDataSource
 import com.colledk.chat.data.remote.repository.ChatRepositoryImpl
 import com.colledk.chat.domain.repository.ChatRepository
+import com.colledk.chat.domain.usecase.CreateAiChatUseCase
+import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
 import com.colledk.chat.domain.usecase.UpdateChatUseCase
@@ -64,5 +66,19 @@ class ChatModule {
         repository: ChatRepository
     ): GetChatsUseCase {
         return GetChatsUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesCreateAiChatUseCase(
+        repository: ChatRepository
+    ): CreateAiChatUseCase {
+        return CreateAiChatUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesGetAiChatsUseCase(
+        repository: ChatRepository
+    ): GetAiChatsUseCase {
+        return GetAiChatsUseCase(repository = repository)
     }
 }

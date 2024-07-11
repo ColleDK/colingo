@@ -10,6 +10,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.IOException
+import timber.log.Timber
 
 class UserRepositoryImpl(
     private val remoteDataSource: UserRemoteDataSource,
@@ -37,6 +38,16 @@ class UserRepositoryImpl(
 
     override suspend fun updateUser(user: User): Result<User> = withContext(dispatcher) {
         remoteDataSource.updateUser(user.mapToRemote()).map { it.mapToDomain() }
+    }
+
+    override suspend fun addAiChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
+        val user = getUser(userId = userId).getOrNull()
+        Timber.d("User is $user")
+        if (user == null) {
+            Result.failure(IOException())
+        } else {
+            updateUser(user.copy(aiChats = listOf(chatId)))
+        }
     }
 
     override suspend fun deleteUser(): Result<Unit> = withContext(dispatcher) {

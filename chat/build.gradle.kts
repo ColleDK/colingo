@@ -76,6 +76,11 @@ dependencies {
     // Joda
     implementation(libs.joda.time.core)
 
+    // Open AI
+    implementation(platform(libs.openai.bom))
+    implementation(libs.openai.client)
+    runtimeOnly(libs.openai.okhttp)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)

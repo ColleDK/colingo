@@ -9,5 +9,6 @@ interface UserRepository {
     suspend fun getUser(userId: String): Result<User>
     suspend fun createUser(email: String, password: String, user: User): Result<User>
     suspend fun updateUser(user: User): Result<User>
+    suspend fun addAiChat(userId: String, chatId: String): Result<User>
     suspend fun deleteUser(): Result<Unit>
 }

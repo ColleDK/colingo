@@ -15,7 +15,7 @@ fun NavGraphBuilder.explorePane() {
     composable(route = explorePaneRoute) {
         val viewModel: ExploreViewModel = hiltViewModel()
         val users = viewModel.users.collectAsLazyPagingItems()
-        ExplorePane(users = users)
+        ExplorePane(users = users, onCreateAiChat = viewModel::createAiChat)
     }
 }
 

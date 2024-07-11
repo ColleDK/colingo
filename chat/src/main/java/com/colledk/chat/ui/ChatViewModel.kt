@@ -2,7 +2,10 @@ package com.colledk.chat.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.colledk.chat.domain.model.AiChat
+import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
+import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
 import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.chat.ui.uistates.ChatUiState
@@ -25,7 +28,8 @@ import javax.inject.Inject
 class ChatViewModel @Inject constructor(
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val getChatsUseCase: GetChatsUseCase,
-    private val updateChatUseCase: UpdateChatUseCase
+    private val updateChatUseCase: UpdateChatUseCase,
+    private val getAiChatsUseCase: GetAiChatsUseCase
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState())
     val uiState: StateFlow<ChatUiState> = _uiState
@@ -37,8 +41,23 @@ class ChatViewModel @Inject constructor(
         viewModelScope.launch {
             getCurrentUserUseCase().onSuccess { user ->
                 getChatsUseCase(user.chats).collectLatest {
-                    _uiState.value = ChatUiState(
+                    emitUiState(
                         chats = it,
+                        currentUser = user
+                    )
+                }
+            }.onFailure {
+                _error.trySend(it)
+            }
+        }
+    }
+
+    fun getAiChats() {
+        viewModelScope.launch {
+            getCurrentUserUseCase().onSuccess { user ->
+                getAiChatsUseCase(user.aiChats).onSuccess {
+                    emitUiState(
+                        aiChats = it,
                         currentUser = user
                     )
                 }
@@ -62,5 +81,19 @@ class ChatViewModel @Inject constructor(
                 )
             )
         }
+    }
+
+    private fun emitUiState(
+        chats: List<Chat>? = null,
+        currentUser: User? = null,
+        aiChats: List<AiChat>? = null
+    ) {
+        val currentState = _uiState.value
+
+        _uiState.value = ChatUiState(
+            chats = chats ?: currentState.chats,
+            currentUser = currentUser ?: currentState.currentUser,
+            aiChats = aiChats ?: currentState.aiChats
+        )
     }
 }

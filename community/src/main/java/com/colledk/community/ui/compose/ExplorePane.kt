@@ -76,6 +76,7 @@ import kotlinx.coroutines.launch
 @Composable
 internal fun ExplorePane(
     users: LazyPagingItems<User>,
+    onCreateAiChat: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     val navigator = rememberListDetailPaneScaffoldNavigator<User>()
@@ -145,7 +146,7 @@ internal fun ExplorePane(
                                     )
                                 }
                                 1 -> {
-                                    Box(modifier = Modifier.fillMaxSize())
+                                    ChatBotsPane(onCreateAiChat = onCreateAiChat, modifier = Modifier.fillMaxSize())
                                 }
                             }
                         }

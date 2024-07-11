@@ -39,6 +39,7 @@ internal fun ChatScreen(
 
                 LaunchedEffect(key1 = Unit) {
                     viewModel.getChats()
+                    viewModel.getAiChats()
                 }
 
                 ChatPane(state = state, onCreateNewChat = { TODO() }) { chat ->
