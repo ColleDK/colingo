@@ -7,6 +7,7 @@ import com.colledk.chat.data.remote.model.AiMessageRemote
 import com.colledk.chat.data.remote.model.ChatRemote
 import com.colledk.chat.data.remote.model.MessageRemote
 import com.colledk.chat.domain.model.AiChat
+import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.user.domain.model.User
@@ -20,7 +21,7 @@ fun AiChatRemote.mapToDomain(): AiChat {
     return AiChat(
         id = id,
         messages = messages.map { it.mapToChatMessage() },
-        aiName = aiName
+        ai = AiItem.valueOf(aiName)
     )
 }
 
@@ -36,7 +37,7 @@ fun AiChat.mapToRemote(userId: String): AiChatRemote {
         id = id,
         messages = messages.map { it.mapToAiMessage() },
         userId = userId,
-        aiName = aiName
+        aiName = ai.name
     )
 }
 

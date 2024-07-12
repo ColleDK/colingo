@@ -9,6 +9,9 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.datastore.preferences.preferencesDataStoreFile
+import com.aallam.openai.api.http.Timeout
+import com.aallam.openai.client.OpenAI
+import com.colledk.colingo.BuildConfig
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -44,6 +47,13 @@ class CommonModule {
     @Provides
     fun providesFirebaseAuth(): FirebaseAuth {
         return Firebase.auth
+    }
+
+    @Provides
+    fun providesOpenAiClient(): OpenAI {
+        return OpenAI(
+            token = BuildConfig.OPENAI_API_KEY
+        )
     }
 
     @Provides

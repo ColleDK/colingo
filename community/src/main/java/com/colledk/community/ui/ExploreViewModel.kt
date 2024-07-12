@@ -7,6 +7,7 @@ import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.chat.ChatRole
+import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
@@ -30,7 +31,7 @@ class ExploreViewModel @Inject constructor(
         userPagingSource
     }.flow.cachedIn(viewModelScope)
 
-    fun createAiChat() {
+    fun createAiChat(ai: AiItem) {
         viewModelScope.launch {
             auth.uid?.let { userId ->
                 createAiChatUseCase(
@@ -39,18 +40,16 @@ class ExploreViewModel @Inject constructor(
                     messages = listOf(
                         ChatMessage(
                             role = ChatRole.System,
-                            content = "You are a spanish teacher, named Louise, trying to teach spanish to a student. You may only answer in spanish." +
-                                    "You will correct any mistakes by the student, but give examples about how to correct it for the next time!"
+                            content = ai.systemMsg
                         )
                     )
                 ).onSuccess {
-                    Timber.d("Created ai chat $it")
                     addAiChatUseCase(
                         userId = userId,
                         chatId = it.id
                     )
                 }.onFailure {
-                    Timber.d("Failed to create ai chat $it")
+                    // TODO handle error
                 }
             }
         }

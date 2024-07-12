@@ -55,8 +55,12 @@ class ChatRepositoryImpl(
         }
     }
 
-    override suspend fun updateAiChat(id: String, message: ChatMessage): Result<AiChat> {
-        TODO("Not yet implemented")
+    override suspend fun updateAiChat(id: String, message: ChatMessage): Result<AiChat> = withContext(dispatcher) {
+        val chat = remoteDataSource.getAiChat(id).getOrThrow()
+        val updatedChat = chat.copy(messages = listOf(*chat.messages.toTypedArray(), message.mapToAiMessage()))
+        remoteDataSource.updateAiChat(updatedChat).map {
+            it.mapToDomain()
+        }
     }
 
     override suspend fun deleteAiChat(id: String): Result<Unit> {

@@ -7,6 +7,7 @@ import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
 import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.user.domain.repository.UserRepository
 import com.google.firebase.auth.FirebaseAuth
@@ -80,5 +81,12 @@ class ChatModule {
         repository: ChatRepository
     ): GetAiChatsUseCase {
         return GetAiChatsUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesUpdateAiChatUseCase(
+        repository: ChatRepository
+    ): UpdateAiChatUseCase {
+        return UpdateAiChatUseCase(repository = repository)
     }
 }

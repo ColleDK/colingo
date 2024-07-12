@@ -16,15 +16,19 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -53,7 +57,6 @@ import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
 import org.joda.time.DateTime
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 internal fun ChatPane(
     state: ChatUiState,
@@ -64,6 +67,7 @@ internal fun ChatPane(
     val listState = rememberLazyListState()
 
     Scaffold(
+        modifier = modifier,
         floatingActionButton = {
             ExtendedFloatingActionButton(
                 text = {
@@ -84,37 +88,59 @@ internal fun ChatPane(
                 onClick = onCreateNewChat,
                 expanded = listState.isScrollingUp()
             )
+        },
+        topBar = {
+            ChatTopBar()
         }
     ) {
-        LazyColumn(
-            modifier = modifier
+        val pagerState = rememberPagerState { 2 }
+
+        HorizontalPager(
+            state = pagerState,
+            modifier = Modifier
                 .fillMaxSize()
-                .padding(it),
-            contentPadding = PaddingValues(24.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            state = listState
-        ) {
-            stickyHeader {
-                Surface(modifier = Modifier.fillParentMaxWidth()) {
-                    Text(
-                        text = "My messages",
-                        style = MaterialTheme.typography.headlineLarge,
-                        color = MaterialTheme.colorScheme.onSurface
-                    )
+                .padding(it)
+        ) { index ->
+            when (index) {
+                0 -> {
+                    LazyColumn(
+                        modifier = Modifier.fillMaxSize(),
+                        contentPadding = PaddingValues(24.dp),
+                        verticalArrangement = Arrangement.spacedBy(16.dp),
+                        state = listState
+                    ) {
+                        items(state.chats) { chat ->
+                            ChatItem(
+                                chat = chat,
+                                onChatSelected = { onChatSelected(chat) },
+                                currentUser = state.currentUser
+                            )
+                        }
+                    }
+                }
+
+                1 -> {
+                    AiChatPane(modifier = Modifier.fillMaxSize(), aiChats = state.aiChats)
                 }
             }
-            items(state.chats) { chat ->
-                ChatItem(
-                    chat = chat,
-                    onChatSelected = { onChatSelected(chat) },
-                    currentUser = state.currentUser
-                )
-            }
-            items(state.aiChats) { aiChat ->
-                Text(text = "Ai chat ${aiChat.aiName}")
-            }
+
         }
     }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ChatTopBar(modifier: Modifier = Modifier) {
+    TopAppBar(
+        modifier = modifier,
+        title = {
+            Text(
+                text = "My messages",
+                style = MaterialTheme.typography.headlineLarge,
+                color = MaterialTheme.colorScheme.onSurface
+            )
+        }
+    )
 }
 
 @Composable

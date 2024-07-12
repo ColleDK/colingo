@@ -2,11 +2,13 @@ package com.colledk.chat.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.aallam.openai.api.chat.ChatMessage
 import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
 import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.chat.ui.uistates.ChatUiState
 import com.colledk.user.domain.model.User
@@ -29,7 +31,8 @@ class ChatViewModel @Inject constructor(
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val getChatsUseCase: GetChatsUseCase,
     private val updateChatUseCase: UpdateChatUseCase,
-    private val getAiChatsUseCase: GetAiChatsUseCase
+    private val getAiChatsUseCase: GetAiChatsUseCase,
+    private val updateAiChatUseCase: UpdateAiChatUseCase
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState())
     val uiState: StateFlow<ChatUiState> = _uiState
@@ -79,6 +82,17 @@ class ChatViewModel @Inject constructor(
                     date = "",
                     time = ""
                 )
+            ).onFailure {
+                _error.trySend(it)
+            }
+        }
+    }
+
+    fun sendAiMessage(chatId: String, message: String) {
+        viewModelScope.launch {
+            updateAiChatUseCase(
+                id = chatId,
+                message = ChatMessage.Companion.User(content = message)
             )
         }
     }

@@ -1,4 +1,7 @@
 <resources>
     <string name="chat_create_new">Create a new chat</string>
     <string name="date_today">Today</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise is a Spanish teacher that can help you with improving your vocabulary!</string>
 </resources>
