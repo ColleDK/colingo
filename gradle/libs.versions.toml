@@ -41,6 +41,7 @@ playServicesLocation = "21.3.0"
 kotlin-serialization = "1.6.3"
 joda-time = "2.12.7"
 datastore = "1.1.1"
+openai = "3.8.1"
 
 [libraries]
 accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistPermissions" }
@@ -104,6 +105,10 @@ androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.
 androidx-monitor = { group = "androidx.test", name = "monitor", version.ref = "monitor" }
 androidx-material3-adaptive-navigation-suite-android = { group = "androidx.compose.material3", name = "material3-adaptive-navigation-suite-android", version.ref = "material3AdaptiveNavigationSuiteAndroid" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+openai-bom = { module = "com.aallam.openai:openai-client-bom", version.ref = "openai" }
+openai-client = { module = "com.aallam.openai:openai-client" }
+openai-okhttp = { module = "io.ktor:ktor-client-okhttp" }
 
 [bundles]
 compose = ["compose-bom", "compose-ui", "compose-material3", "compose-foundation", "compose-livedata", "compose-ui-tooling", "compose-extended-icons", "compose-ui-util", "adaptive", "adaptive-layout", "androidx-adaptive-navigation"]

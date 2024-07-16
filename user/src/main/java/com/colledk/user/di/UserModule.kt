@@ -4,6 +4,7 @@ import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.data.remote.repository.UserRepositoryImpl
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.repository.UserRepository
+import com.colledk.user.domain.usecase.AddAiChatUseCase
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.GetUserUseCase
@@ -16,7 +17,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.ktx.storage
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -88,5 +88,12 @@ class UserModule {
         repository: UserRepository
     ): GetUserUseCase {
         return GetUserUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesAddAiChatUseCase(
+        repository: UserRepository
+    ) : AddAiChatUseCase {
+        return AddAiChatUseCase(repository = repository)
     }
 }

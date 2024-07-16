@@ -1,12 +1,52 @@
 package com.colledk.chat.data
 
+import com.aallam.openai.api.chat.ChatMessage
+import com.aallam.openai.api.chat.ChatRole
+import com.colledk.chat.data.remote.model.AiChatRemote
+import com.colledk.chat.data.remote.model.AiMessageRemote
 import com.colledk.chat.data.remote.model.ChatRemote
 import com.colledk.chat.data.remote.model.MessageRemote
+import com.colledk.chat.domain.model.AiChat
+import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.user.domain.model.User
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
+
+fun AiChatRemote.mapToDomain(): AiChat {
+    return AiChat(
+        id = id,
+        messages = messages.map { it.mapToChatMessage() },
+        ai = AiItem.valueOf(aiName.uppercase())
+    )
+}
+
+fun AiMessageRemote.mapToChatMessage(): ChatMessage {
+    return ChatMessage(
+        role = ChatRole(role),
+        content = content
+    )
+}
+
+fun AiChat.mapToRemote(userId: String): AiChatRemote {
+    return AiChatRemote(
+        id = id,
+        messages = messages.map { it.mapToAiMessage() },
+        userId = userId,
+        aiName = ai.name
+    )
+}
+
+fun ChatMessage.mapToAiMessage(): AiMessageRemote {
+    return AiMessageRemote(
+        role = role.role,
+        content = content.orEmpty()
+    )
+}
 
 fun Message.mapToRemote(): MessageRemote {
     return MessageRemote(

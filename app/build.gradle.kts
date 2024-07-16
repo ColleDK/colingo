@@ -19,6 +19,12 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+
+        buildConfigField(
+            "String",
+            "OPENAI_API_KEY",
+            "\"${project.findProperty("OPENAI_API_KEY")}\""
+        )
     }
 
     kotlin {
@@ -36,6 +42,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     testOptions {
@@ -89,6 +96,11 @@ dependencies {
 
     // Reflection
     implementation(libs.reflection)
+
+    // Open AI
+    implementation(platform(libs.openai.bom))
+    implementation(libs.openai.client)
+    runtimeOnly(libs.openai.okhttp)
 
     // Test
     testImplementation(libs.bundles.testing.unit)

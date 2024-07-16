@@ -61,6 +61,7 @@ import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.collectAsLazyPagingItems
 import coil.compose.AsyncImage
+import com.colledk.chat.domain.model.AiItem
 import com.colledk.community.R
 import com.colledk.community.ui.ExploreViewModel
 import com.colledk.profile.ui.compose.ProfilePane
@@ -76,6 +77,7 @@ import kotlinx.coroutines.launch
 @Composable
 internal fun ExplorePane(
     users: LazyPagingItems<User>,
+    onCreateAiChat: (ai: AiItem) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val navigator = rememberListDetailPaneScaffoldNavigator<User>()
@@ -145,7 +147,7 @@ internal fun ExplorePane(
                                     )
                                 }
                                 1 -> {
-                                    Box(modifier = Modifier.fillMaxSize())
+                                    ChatBotsPane(onCreateAiChat = onCreateAiChat, modifier = Modifier.fillMaxSize())
                                 }
                             }
                         }

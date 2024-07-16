@@ -1,37 +1,49 @@
 package com.colledk.chat.ui.compose
 
 import android.net.Uri
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
+import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
@@ -42,6 +54,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.colledk.chat.R
+import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.ui.uistates.ChatUiState
@@ -51,19 +64,21 @@ import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
+import kotlinx.coroutines.launch
 import org.joda.time.DateTime
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 internal fun ChatPane(
     state: ChatUiState,
     onCreateNewChat: () -> Unit,
-    modifier: Modifier = Modifier,
-    onChatSelected: (chat: Chat) -> Unit
+    onChatSelected: (chat: Chat) -> Unit,
+    onAiChatSelected: (chat: AiChat) -> Unit,
+    modifier: Modifier = Modifier
 ) {
     val listState = rememberLazyListState()
 
     Scaffold(
+        modifier = modifier,
         floatingActionButton = {
             ExtendedFloatingActionButton(
                 text = {
@@ -84,34 +99,138 @@ internal fun ChatPane(
                 onClick = onCreateNewChat,
                 expanded = listState.isScrollingUp()
             )
+        },
+        topBar = {
+            ChatTopBar()
         }
     ) {
-        LazyColumn(
-            modifier = modifier
+        val pagerState = rememberPagerState { 2 }
+        val scope = rememberCoroutineScope()
+
+        Column(
+            modifier = Modifier
                 .fillMaxSize()
-                .padding(it),
-            contentPadding = PaddingValues(24.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
-            state = listState
+                .padding(it)
         ) {
-            stickyHeader {
-                Surface(modifier = Modifier.fillParentMaxWidth()) {
-                    Text(
-                        text = "My messages",
-                        style = MaterialTheme.typography.headlineLarge,
-                        color = MaterialTheme.colorScheme.onSurface
-                    )
+            ChatPagerIndicators(
+                onItemClicked = {
+                    scope.launch {
+                        pagerState.animateScrollToPage(it)
+                    }
+                },
+                selectedIndex = pagerState.currentPage
+            )
+            HorizontalPager(
+                state = pagerState,
+                modifier = Modifier.fillMaxSize()
+            ) { index ->
+                when (index) {
+                    0 -> {
+                        LazyColumn(
+                            modifier = Modifier.fillMaxSize(),
+                            contentPadding = PaddingValues(24.dp),
+                            verticalArrangement = Arrangement.spacedBy(16.dp),
+                            state = listState
+                        ) {
+                            items(state.chats) { chat ->
+                                ChatItem(
+                                    chat = chat,
+                                    onChatSelected = { onChatSelected(chat) },
+                                    currentUser = state.currentUser
+                                )
+                            }
+                        }
+                    }
+
+                    1 -> {
+                        AiChatPane(
+                            modifier = Modifier.fillMaxSize(),
+                            aiChats = state.aiChats,
+                            onChatClicked = onAiChatSelected
+                        )
+                    }
                 }
-            }
-            items(state.chats) { chat ->
-                ChatItem(
-                    chat = chat,
-                    onChatSelected = { onChatSelected(chat) },
-                    currentUser = state.currentUser
-                )
+
             }
         }
     }
+}
+
+@Composable
+private fun ChatPagerIndicators(
+    onItemClicked: (index: Int) -> Unit,
+    selectedIndex: Int,
+    modifier: Modifier = Modifier
+) {
+    Row(modifier = modifier) {
+        PagerIndicatorItem(
+            iconId = R.drawable.community,
+            titleId = R.string.members_page_title,
+            isSelected = selectedIndex == 0,
+            modifier = Modifier
+                .width(IntrinsicSize.Max)
+                .weight(1f)
+        ) {
+            onItemClicked(0)
+        }
+        PagerIndicatorItem(
+            iconId = R.drawable.robot,
+            titleId = R.string.bots_page_title,
+            isSelected = selectedIndex == 1,
+            modifier = Modifier
+                .width(IntrinsicSize.Max)
+                .weight(1f)
+        ) {
+            onItemClicked(1)
+        }
+    }
+}
+
+@Composable
+private fun PagerIndicatorItem(
+    @DrawableRes iconId: Int,
+    @StringRes titleId: Int,
+    isSelected: Boolean,
+    modifier: Modifier = Modifier,
+    onIndicatorClicked: () -> Unit
+) {
+    Column(
+        modifier = modifier.clickable { onIndicatorClicked() },
+        verticalArrangement = Arrangement.spacedBy(2.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        val color =
+            if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
+        Icon(
+            painter = painterResource(id = iconId),
+            contentDescription = null,
+            modifier = Modifier.size(24.dp),
+            tint = color
+        )
+        Text(
+            text = stringResource(id = titleId),
+            color = color,
+            style = MaterialTheme.typography.labelMedium
+        )
+        if (isSelected) {
+            HorizontalDivider(color = color, thickness = 3.dp)
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ChatTopBar(modifier: Modifier = Modifier) {
+    TopAppBar(
+        modifier = modifier,
+        title = {
+            Text(
+                text = "My messages",
+                style = MaterialTheme.typography.headlineLarge,
+                color = MaterialTheme.colorScheme.onSurface
+            )
+        }
+    )
 }
 
 @Composable
@@ -326,9 +445,7 @@ private fun ChatPanePreview() {
 
     ColingoTheme {
         Surface(color = MaterialTheme.colorScheme.surface) {
-            ChatPane(state = uiState, onCreateNewChat = {}) {
-
-            }
+            ChatPane(state = uiState, onCreateNewChat = {}, onChatSelected = {}, onAiChatSelected = {})
         }
     }
 }

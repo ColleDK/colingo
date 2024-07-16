@@ -61,6 +61,7 @@ dependencies {
     implementation(project(":theme"))
     implementation(project(":user"))
     implementation(project(":profile"))
+    implementation(project(":chat"))
 
     // Hilt
     implementation(libs.hilt.android)
@@ -74,6 +75,11 @@ dependencies {
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.bundles.firebase)
+
+    // Open AI
+    implementation(platform(libs.openai.bom))
+    implementation(libs.openai.client)
+    runtimeOnly(libs.openai.okhttp)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

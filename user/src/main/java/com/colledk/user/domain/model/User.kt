@@ -17,5 +17,6 @@ data class User(
     val languages: List<UserLanguage> = emptyList(),
     val gender: Gender = Gender.OTHER,
     val chats: List<String> = emptyList(),
+    val aiChats: List<String> = emptyList(),
     val topics: List<Topic> = emptyList()
 ) : Parcelable
