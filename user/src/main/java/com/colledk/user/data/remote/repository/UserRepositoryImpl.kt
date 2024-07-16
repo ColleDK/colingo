@@ -46,7 +46,7 @@ class UserRepositoryImpl(
         if (user == null) {
             Result.failure(IOException())
         } else {
-            updateUser(user.copy(aiChats = listOf(chatId)))
+            updateUser(user.copy(aiChats = listOf(*user.aiChats.toTypedArray(), chatId)))
         }
     }
 

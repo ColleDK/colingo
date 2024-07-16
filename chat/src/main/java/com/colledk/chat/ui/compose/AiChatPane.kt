@@ -49,6 +49,7 @@ import com.colledk.user.domain.model.User
 @Composable
 internal fun AiChatPane(
     aiChats: List<AiChat>,
+    onChatClicked: (AiChat) -> Unit,
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
@@ -57,7 +58,11 @@ internal fun AiChatPane(
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         items(aiChats) { chat ->
-            AiChatItem(chat = chat, onChatSelected = {}, modifier = Modifier.fillParentMaxWidth())
+            AiChatItem(
+                chat = chat,
+                onChatSelected = { onChatClicked(chat) },
+                modifier = Modifier.fillParentMaxWidth()
+            )
         }
     }
 }
@@ -70,7 +75,7 @@ private fun AiChatItem(
 ) {
     val lastMessage by remember(chat.messages) {
         derivedStateOf {
-            chat.messages.lastOrNull { it.role != Role.System}
+            chat.messages.lastOrNull { it.role != Role.System }
         }
     }
 

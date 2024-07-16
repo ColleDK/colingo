@@ -12,6 +12,7 @@ import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.domain.repository.ChatRepository
 import com.colledk.user.domain.repository.UserRepository
+import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
@@ -24,6 +25,7 @@ import timber.log.Timber
 class ChatRepositoryImpl(
     private val remoteDataSource: ChatRemoteDataSource,
     private val userRepository: UserRepository,
+    private val auth: FirebaseAuth,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ChatRepository {
     override suspend fun getAiChats(ids: List<String>): Result<List<AiChat>> {
@@ -55,10 +57,8 @@ class ChatRepositoryImpl(
         }
     }
 
-    override suspend fun updateAiChat(id: String, message: ChatMessage): Result<AiChat> = withContext(dispatcher) {
-        val chat = remoteDataSource.getAiChat(id).getOrThrow()
-        val updatedChat = chat.copy(messages = listOf(*chat.messages.toTypedArray(), message.mapToAiMessage()))
-        remoteDataSource.updateAiChat(updatedChat).map {
+    override suspend fun updateAiChat(id: String, chat: AiChat): Result<AiChat> = withContext(dispatcher) {
+        remoteDataSource.updateAiChat(chat.mapToRemote(auth.uid.orEmpty())).map {
             it.mapToDomain()
         }
     }

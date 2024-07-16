@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.chat.ui.ChatViewModel
 import com.colledk.chat.ui.uistates.ChatDetailUiState
+import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -23,7 +24,7 @@ internal fun ChatScreen(
     modifier: Modifier = Modifier,
     viewModel: ChatViewModel = hiltViewModel()
 ) {
-    val navigator = rememberListDetailPaneScaffoldNavigator<String>()
+    val navigator = rememberListDetailPaneScaffoldNavigator<ChatDetailDestination>()
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
@@ -42,34 +43,67 @@ internal fun ChatScreen(
                     viewModel.getAiChats()
                 }
 
-                ChatPane(state = state, onCreateNewChat = { TODO() }) { chat ->
-                    navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, chat.id)
-                }
+                ChatPane(
+                    state = state,
+                    onCreateNewChat = { TODO() },
+                    onChatSelected = { chat ->
+                        navigator.navigateTo(
+                            ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.MemberChatDestination(id = chat.id)
+                        )
+                    },
+                    onAiChatSelected = { chat ->
+                        navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.AiChatDestination(id = chat.id))
+                    }
+                )
             }
         },
         detailPane = {
             AnimatedPane {
-                navigator.currentDestination?.content?.let { chatId ->
-                    val state by viewModel.uiState.collectAsState()
+                navigator.currentDestination?.content?.let { chat ->
+                    when(chat) {
+                        is ChatDetailDestination.MemberChatDestination -> {
+                            val chatId = chat.id
+                            val state by viewModel.uiState.collectAsState()
 
-                    val uiState: ChatDetailUiState? by remember(state) {
-                        derivedStateOf {
-                            val currentChat = state.chats.firstOrNull { it.id == chatId }
-                            val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
-                            currentChat?.let {
-                                otherUser?.let {
-                                    ChatDetailUiState(currentChat, otherUser)
+                            val uiState: ChatDetailUiState? by remember(state) {
+                                derivedStateOf {
+                                    val currentChat = state.chats.firstOrNull { it.id == chatId }
+                                    val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
+                                    currentChat?.let {
+                                        otherUser?.let {
+                                            ChatDetailUiState(currentChat, otherUser)
+                                        }
+                                    }
+                                }
+                            }
+
+                            uiState?.let {
+                                ChatDetailPane(it) { message ->
+                                    viewModel.sendMessage(
+                                        chatId = chatId,
+                                        message = message,
+                                        user = state.currentUser
+                                    )
                                 }
                             }
                         }
-                    }
+                        is ChatDetailDestination.AiChatDestination -> {
+                            val state by viewModel.uiState.collectAsState()
 
-                    uiState?.let {
-                        ChatDetailPane(it) { message ->
-                            viewModel.sendMessage(
-                                chatId = chatId,
-                                message = message,
-                                user = state.currentUser
+                            val currentChat by remember(state.aiChats) {
+                                derivedStateOf {
+                                    state.aiChats.first { it.id == chat.id }
+                                }
+                            }
+
+                            AiChatDetailPane(
+                                chat = currentChat,
+                                onSendMessage = {
+                                    viewModel.sendAiMessage(
+                                        chat = currentChat,
+                                        message = it
+                                    )
+                                }
                             )
                         }
                     }

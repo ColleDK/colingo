@@ -36,7 +36,7 @@ class ExploreViewModel @Inject constructor(
             auth.uid?.let { userId ->
                 createAiChatUseCase(
                     userId = userId,
-                    aiName = "Louise",
+                    aiName = ai.name,
                     messages = listOf(
                         ChatMessage(
                             role = ChatRole.System,

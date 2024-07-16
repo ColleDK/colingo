@@ -4,6 +4,7 @@ import com.colledk.chat.data.remote.ChatRemoteDataSource
 import com.colledk.chat.data.remote.repository.ChatRepositoryImpl
 import com.colledk.chat.domain.repository.ChatRepository
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
+import com.colledk.chat.domain.usecase.GetAiChatUseCase
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
@@ -40,11 +41,13 @@ class ChatModule {
     @Singleton
     fun providesChatRepository(
         remoteDataSource: ChatRemoteDataSource,
-        userRepository: UserRepository
+        userRepository: UserRepository,
+        auth: FirebaseAuth
     ): ChatRepository {
         return ChatRepositoryImpl(
             remoteDataSource = remoteDataSource,
-            userRepository = userRepository
+            userRepository = userRepository,
+            auth = auth
         )
     }
 
@@ -81,6 +84,13 @@ class ChatModule {
         repository: ChatRepository
     ): GetAiChatsUseCase {
         return GetAiChatsUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesGetAiChatUseCase(
+        repository: ChatRepository
+    ): GetAiChatUseCase {
+        return GetAiChatUseCase(repository = repository)
     }
 
     @Provides

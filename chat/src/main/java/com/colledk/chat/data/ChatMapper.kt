@@ -21,7 +21,7 @@ fun AiChatRemote.mapToDomain(): AiChat {
     return AiChat(
         id = id,
         messages = messages.map { it.mapToChatMessage() },
-        ai = AiItem.valueOf(aiName)
+        ai = AiItem.valueOf(aiName.uppercase())
     )
 }
 

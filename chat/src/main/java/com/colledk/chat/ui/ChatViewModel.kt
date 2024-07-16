@@ -2,7 +2,11 @@ package com.colledk.chat.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.aallam.openai.api.chat.ChatCompletionRequest
 import com.aallam.openai.api.chat.ChatMessage
+import com.aallam.openai.api.chat.ChatRole
+import com.aallam.openai.api.model.ModelId
+import com.aallam.openai.client.OpenAI
 import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
@@ -32,7 +36,8 @@ class ChatViewModel @Inject constructor(
     private val getChatsUseCase: GetChatsUseCase,
     private val updateChatUseCase: UpdateChatUseCase,
     private val getAiChatsUseCase: GetAiChatsUseCase,
-    private val updateAiChatUseCase: UpdateAiChatUseCase
+    private val updateAiChatUseCase: UpdateAiChatUseCase,
+    private val openAI: OpenAI
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState())
     val uiState: StateFlow<ChatUiState> = _uiState
@@ -88,12 +93,33 @@ class ChatViewModel @Inject constructor(
         }
     }
 
-    fun sendAiMessage(chatId: String, message: String) {
+    fun sendAiMessage(chat: AiChat, message: String) {
         viewModelScope.launch {
-            updateAiChatUseCase(
-                id = chatId,
-                message = ChatMessage.Companion.User(content = message)
+            val chatCompletionRequest = ChatCompletionRequest(
+                model = ModelId("gpt-3.5-turbo"),
+                messages = listOf(
+                    *chat.messages.toTypedArray(),
+                    ChatMessage.Companion.User(content = message)
+                )
             )
+
+            val response = openAI.chatCompletion(chatCompletionRequest)
+            val newChat = chat.copy(
+                messages = listOfNotNull(
+                    *chat.messages.toTypedArray(),
+                    ChatMessage.Companion.User(content = message),
+                    response.choices.firstOrNull()?.message
+                )
+            )
+
+            updateAiChatUseCase(
+                id = chat.id,
+                chat = newChat
+            ).onFailure {
+                _error.trySend(it)
+            }.onSuccess {
+                getAiChats()
+            }
         }
     }
 

@@ -11,7 +11,7 @@ interface ChatRepository {
     suspend fun getAiChats(ids: List<String>): Result<List<AiChat>>
     suspend fun getAiChat(id: String): Result<AiChat>
     suspend fun createAiChat(userId: String, aiName: String, messages: List<ChatMessage>): Result<AiChat>
-    suspend fun updateAiChat(id: String, message: ChatMessage): Result<AiChat>
+    suspend fun updateAiChat(id: String, chat: AiChat): Result<AiChat>
     suspend fun deleteAiChat(id: String): Result<Unit>
 
     // Normal chats
