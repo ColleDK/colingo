@@ -9,6 +9,7 @@ import com.colledk.home.data.remote.model.ReplyRemote
 import com.colledk.home.domain.model.Post
 import com.colledk.user.domain.usecase.GetUserUseCase
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Query.Direction
 import com.google.firebase.firestore.QuerySnapshot
 import kotlinx.coroutines.tasks.await
 import javax.inject.Inject
@@ -17,8 +18,10 @@ class HomePagingSource @Inject constructor(
     private val db: FirebaseFirestore,
     private val getUserUseCase: GetUserUseCase
 ) : PagingSource<QuerySnapshot, Post>() {
-    private val query = db.collection(POST_PATH)
+    private val _query = db.collection(POST_PATH)
         .limit(PAGE_SIZE.toLong())
+
+    private var query = _query
 
     override fun getRefreshKey(state: PagingState<QuerySnapshot, Post>): QuerySnapshot? {
         return null
@@ -51,6 +54,10 @@ class HomePagingSource @Inject constructor(
 
     private fun getReplyUser(reply: ReplyRemote): List<String> {
         return listOf(reply.userId) + reply.replies.map { getReplyUser(it) }.flatten()
+    }
+
+    fun updateSorting(direction: Direction) {
+        query = _query.orderBy("timestamp", direction)
     }
 
     companion object {

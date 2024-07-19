@@ -3,6 +3,7 @@ package com.colledk.user.data.remote
 import android.net.Uri
 import com.colledk.user.data.remote.model.UserRemote
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.coroutines.tasks.await
@@ -79,6 +80,48 @@ class UserRemoteDataSource(
         }
     }
 
+    suspend fun addProfilePicture(profilePic: String): Result<UserRemote> {
+        return when(val id = auth.currentUser?.uid) {
+            null -> {
+                Result.failure(IOException())
+            }
+            else -> {
+                try {
+                    if (db.collection(USERS_PATH).document(id).get().await().exists()) {
+                        db.collection(USERS_PATH).document(id).update(PROFILE_PICTURE_PATH, FieldValue.arrayUnion(profilePic))
+
+                        getUser(userId = id)
+                    } else {
+                        Result.failure(IOException())
+                    }
+                } catch (e: Exception) {
+                    Result.failure(IOException())
+                }
+            }
+        }
+    }
+
+    suspend fun addAiChat(chatId: String): Result<UserRemote> {
+        return when(val id = auth.currentUser?.uid) {
+            null -> {
+                Result.failure(IOException())
+            }
+            else -> {
+                try {
+                    if (db.collection(USERS_PATH).document(id).get().await().exists()) {
+                        db.collection(USERS_PATH).document(id).update(AI_CHAT_PATH, FieldValue.arrayUnion(chatId))
+
+                        getUser(userId = id)
+                    } else {
+                        Result.failure(IOException())
+                    }
+                } catch (e: Exception) {
+                    Result.failure(IOException())
+                }
+            }
+        }
+    }
+
     suspend fun deleteUser(): Result<Unit> {
         return when(val id = auth.currentUser?.uid) {
             null -> {
@@ -124,5 +167,8 @@ class UserRemoteDataSource(
     companion object {
         const val USERS_PATH = "users"
         const val IMAGE_PATH = "images/"
+        const val AI_CHAT_PATH = "aiChats"
+        const val CHATS_PATH = "chats"
+        const val PROFILE_PICTURE_PATH = "profilePictures"
     }
 }

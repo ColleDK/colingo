@@ -20,6 +20,10 @@ class UserRepositoryImpl(
         remoteDataSource.uploadFile(file = uri.toString(), userId = userId).map { Uri.parse(it) }
     }
 
+    override suspend fun addProfilePicture(picture: Uri): Result<User> = withContext(dispatcher) {
+        remoteDataSource.addProfilePicture(picture.toString()).map { it.mapToDomain() }
+    }
+
     override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
         remoteDataSource.loginUser(email, password).map { it.mapToDomain() }
     }
@@ -46,7 +50,7 @@ class UserRepositoryImpl(
         if (user == null) {
             Result.failure(IOException())
         } else {
-            updateUser(user.copy(aiChats = listOf(*user.aiChats.toTypedArray(), chatId)))
+            remoteDataSource.addAiChat(chatId = chatId).map { it.mapToDomain() }
         }
     }
 

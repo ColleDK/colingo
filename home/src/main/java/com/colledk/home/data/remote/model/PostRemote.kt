@@ -7,7 +7,7 @@ data class PostRemote(
     val userId: String = "",
     val content: String = "",
     val replies: List<ReplyRemote> = emptyList(),
-    val likes: Int = 0,
+    val likes: List<String> = emptyList(),
     val timestamp: Long = 0L,
     val topics: List<TopicRemote> = emptyList()
 )

@@ -4,4 +4,7 @@ import com.colledk.home.domain.model.Post
 
 interface HomeRepository {
     suspend fun createPost(post: Post): Result<Post>
+    suspend fun updatePost(post: Post): Result<Unit>
+    suspend fun likePost(postId: String, userId: String): Result<Unit>
+    suspend fun removePostLike(postId: String, userId: String): Result<Unit>
 }

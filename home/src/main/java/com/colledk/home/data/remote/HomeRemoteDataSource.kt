@@ -1,6 +1,7 @@
 package com.colledk.home.data.remote
 
 import com.colledk.home.data.remote.model.PostRemote
+import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 import okio.IOException
@@ -32,8 +33,35 @@ class HomeRemoteDataSource(
             // Create a chat
             val postId = db.collection(POST_PATH).add(post).await().id
             // Update the id in the data
-            db.collection(POST_PATH).document(postId).set(post.copy(id = postId))
+            db.collection(POST_PATH).document(postId).set(post.copy(id = postId)).await()
             return getPost(postId = postId)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
+    suspend fun updatePost(post: PostRemote): Result<Unit> {
+        try {
+            db.collection(POST_PATH).document(post.id).set(post).await()
+            return Result.success(Unit)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
+    suspend fun likePost(postId: String, userId: String): Result<Unit> {
+        try {
+            db.collection(POST_PATH).document(postId).update(LIKE_PATH, FieldValue.arrayUnion(userId)).await()
+            return Result.success(Unit)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
+    suspend fun removePostLike(postId: String, userId: String): Result<Unit> {
+        try {
+            db.collection(POST_PATH).document(postId).update(LIKE_PATH, FieldValue.arrayRemove(userId)).await()
+            return Result.success(Unit)
         } catch (e: Exception) {
             return Result.failure(e)
         }
@@ -41,5 +69,6 @@ class HomeRemoteDataSource(
 
     companion object {
         const val POST_PATH = "posts"
+        const val LIKE_PATH = "likes"
     }
 }

@@ -1,6 +1,15 @@
 package com.colledk.chat.ui.compose
 
 import androidx.annotation.DrawableRes
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.VectorConverter
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.animateIntAsState
+import androidx.compose.animation.core.animateValue
+import androidx.compose.animation.core.animateValueAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -10,6 +19,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.ime
@@ -48,12 +58,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.capitalize
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -61,6 +73,7 @@ import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.core.Role
 import com.colledk.chat.R
 import com.colledk.chat.domain.model.AiChat
+import com.colledk.chat.domain.model.AiItem
 import kotlinx.coroutines.launch
 import timber.log.Timber
 
@@ -97,7 +110,13 @@ internal fun AiChatDetailPane(
 
         LaunchedEffect(key1 = allMessages.size) {
             scope.launch {
-                listState.animateScrollToItem(allMessages.indices.last)
+                listState.animateScrollToItem(allMessages.indices.last.coerceAtLeast(0))
+            }
+        }
+
+        val showBubble by remember(allMessages.size) {
+            derivedStateOf {
+                allMessages.lastOrNull()?.role == Role.User
             }
         }
 
@@ -114,7 +133,11 @@ internal fun AiChatDetailPane(
                     isCurrentUser = message.role == Role.User
                 )
             }
-            item { Spacer(modifier = Modifier.height(12.dp)) }
+            if (showBubble) {
+                item {
+                    AiChatBubble(ai = chat.ai)
+                }
+            }
         }
     }
 }
@@ -219,6 +242,74 @@ private fun ChatMessageItem(
                     color = if (isCurrentUser) MaterialTheme.colorScheme.onSecondaryContainer else MaterialTheme.colorScheme.onTertiaryContainer,
                     modifier = Modifier.padding(16.dp)
                 )
+            }
+        }
+    }
+}
+
+@Composable
+private fun AiChatBubble(
+    ai: AiItem,
+    modifier: Modifier = Modifier
+) {
+    Box(modifier = modifier.fillMaxWidth()) {
+        Row(
+            modifier = Modifier
+                .align(Alignment.CenterStart),
+            horizontalArrangement = Arrangement.spacedBy(4.dp),
+            verticalAlignment = Alignment.Bottom
+        ) {
+            Box(
+                modifier = Modifier
+                    .size(24.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colorScheme.onSurface)
+            ) {
+                Image(
+                    painter = painterResource(id = ai.image),
+                    contentDescription = null,
+                    contentScale = ContentScale.Crop
+                )
+            }
+            Card(
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer),
+                modifier = Modifier.height(24.dp)
+            ) {
+                val transition = rememberInfiniteTransition(label = "")
+
+                val temp by transition.animateValue(
+                    typeConverter = Int.VectorConverter,
+                    initialValue = -1,
+                    targetValue = 4,
+                    animationSpec = infiniteRepeatable(
+                        animation = tween(
+                            durationMillis = 700,
+                            easing = LinearEasing,
+                            delayMillis = 100
+                        )
+                    ), label = ""
+                )
+
+                Row(
+                    modifier = Modifier.padding(8.dp).fillMaxHeight(),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(4.dp)
+                ) {
+                    repeat(3) { index ->
+                        val scale = if (index == temp) 1.5 else 1.0
+
+                        Box(
+                            modifier = Modifier
+                                .size((6 * scale).dp)
+                                .clip(CircleShape)
+                                .background(
+                                    MaterialTheme.colorScheme.onTertiaryContainer.copy(
+                                        alpha = (scale - 0.5).toFloat()
+                                    )
+                                )
+                        )
+                    }
+                }
             }
         }
     }

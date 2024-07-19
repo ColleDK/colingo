@@ -5,6 +5,7 @@ import com.colledk.user.data.remote.repository.UserRepositoryImpl
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.AddAiChatUseCase
+import com.colledk.user.domain.usecase.AddProfilePictureUseCase
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.GetUserUseCase
@@ -95,5 +96,12 @@ class UserModule {
         repository: UserRepository
     ) : AddAiChatUseCase {
         return AddAiChatUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesAddProfilePictureUseCase(
+        repository: UserRepository
+    ) : AddProfilePictureUseCase {
+        return AddProfilePictureUseCase(repository = repository)
     }
 }

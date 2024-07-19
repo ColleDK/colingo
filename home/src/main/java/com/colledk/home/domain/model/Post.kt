@@ -9,7 +9,7 @@ data class Post(
     val user: User,
     val content: String,
     val replies: List<Reply>,
-    val likes: Int,
+    val likes: List<String>,
     val timestamp: DateTime,
     val topics: List<Topic>
 )
