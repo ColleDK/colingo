@@ -29,6 +29,7 @@ import androidx.compose.material3.pulltorefresh.PullToRefreshBox
 import androidx.compose.material3.pulltorefresh.PullToRefreshState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -53,12 +54,15 @@ import com.colledk.user.domain.model.User
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 internal fun HomeFeed(
+    userId: String,
     posts: LazyPagingItems<Post>,
     listState: LazyListState,
     onReportPost: (post: Post) -> Unit,
     onRefresh: () -> Unit,
     refreshState: PullToRefreshState,
     isRefreshing: Boolean,
+    onLikePost: (post: Post) -> Unit,
+    onRemoveLike: (post: Post) -> Unit,
     modifier: Modifier = Modifier
 ) {
     PullToRefreshBox(
@@ -80,7 +84,10 @@ internal fun HomeFeed(
                             post = it,
                             onReportClicked = {
                                 onReportPost(it)
-                            }
+                            },
+                            userId = userId,
+                            onLike = { onLikePost(it) },
+                            onRemoveLike = { onRemoveLike(it) }
                         )
                     }
                 }
@@ -92,6 +99,9 @@ internal fun HomeFeed(
 @Composable
 private fun PostItem(
     post: Post,
+    userId: String,
+    onLike: () -> Unit,
+    onRemoveLike: () -> Unit,
     onReportClicked: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -130,8 +140,12 @@ private fun PostItem(
             if (hasOverflow) {
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = if (isExpanded) stringResource(id = R.string.post_show_less) else stringResource(id = R.string.post_show_more),
-                    modifier = Modifier.fillMaxWidth().clickable { isExpanded = !isExpanded },
+                    text = if (isExpanded) stringResource(id = R.string.post_show_less) else stringResource(
+                        id = R.string.post_show_more
+                    ),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable { isExpanded = !isExpanded },
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSecondaryContainer.copy(alpha = 0.7f)
                 )
@@ -143,9 +157,12 @@ private fun PostItem(
             )
             PostItemInformation(
                 post = post,
-                onLikeClicked = { /*TODO*/ },
+                onLike = onLike,
+                onRemoveLike = onRemoveLike,
                 onCommentsClicked = { /*TODO*/ },
-                onShareClicked = { /*TODO*/ })
+                onShareClicked = { /*TODO*/ },
+                userId = userId
+            )
         }
     }
 }
@@ -214,29 +231,49 @@ private fun PostItemHeader(
 @Composable
 private fun PostItemInformation(
     post: Post,
-    onLikeClicked: () -> Unit,
+    userId: String,
+    onLike: () -> Unit,
+    onRemoveLike: () -> Unit,
     onCommentsClicked: () -> Unit,
     onShareClicked: () -> Unit,
     modifier: Modifier = Modifier
 ) {
+    val usersLiked = remember(post.likes) {
+        mutableStateListOf(*post.likes.toTypedArray())
+    }
+
+    val isLiked by remember(usersLiked.size) {
+        mutableStateOf(usersLiked.contains(element = userId))
+    }
+
     Row(
         horizontalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier,
         verticalAlignment = Alignment.CenterVertically
     ) {
         Row(
-            modifier = Modifier.clickable { onLikeClicked() },
+            modifier = Modifier.clickable {
+                if (isLiked) {
+                    onRemoveLike().also {
+                        usersLiked.remove(userId)
+                    }
+                } else {
+                    onLike().also {
+                        usersLiked.add(userId)
+                    }
+                }
+            },
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(2.dp)
         ) {
             Icon(
-                painter = painterResource(id = R.drawable.like),
+                painter = painterResource(id = if (isLiked) R.drawable.liked else R.drawable.like),
                 contentDescription = null,
                 modifier = Modifier.size(24.dp),
                 tint = MaterialTheme.colorScheme.onSecondaryContainer
             )
             Text(
-                text = "${post.likes}",
+                text = "${usersLiked.size}",
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.secondary
             )

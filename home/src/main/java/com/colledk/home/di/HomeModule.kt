@@ -4,6 +4,9 @@ import com.colledk.home.data.remote.HomeRemoteDataSource
 import com.colledk.home.data.remote.repository.HomeRepositoryImpl
 import com.colledk.home.domain.repository.HomeRepository
 import com.colledk.home.domain.usecase.CreatePostUseCase
+import com.colledk.home.domain.usecase.LikePostUseCase
+import com.colledk.home.domain.usecase.RemovePostLikeUseCase
+import com.colledk.home.domain.usecase.UpdatePostUseCase
 import com.google.firebase.firestore.FirebaseFirestore
 import dagger.Module
 import dagger.Provides
@@ -36,4 +39,18 @@ class HomeModule {
         return CreatePostUseCase(repository = repository)
     }
 
+    @Provides
+    fun providesLikePostUseCase(repository: HomeRepository): LikePostUseCase {
+        return LikePostUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesUpdatePostUseCase(repository: HomeRepository) : UpdatePostUseCase {
+        return UpdatePostUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesRemovePostLikeUseCase(repository: HomeRepository): RemovePostLikeUseCase {
+        return RemovePostLikeUseCase(repository = repository)
+    }
 }

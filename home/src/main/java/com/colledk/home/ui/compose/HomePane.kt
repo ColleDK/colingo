@@ -3,6 +3,7 @@ package com.colledk.home.ui.compose
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.Row
@@ -16,6 +17,8 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
@@ -46,21 +49,30 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.window.Dialog
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import com.colledk.home.R
 import com.colledk.home.domain.model.Post
+import com.colledk.home.ui.uistates.HomeUiState
+import com.colledk.user.domain.model.Language
 import com.colledk.user.domain.model.Topic
+import com.google.firebase.firestore.Query.Direction
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 internal fun HomePane(
-    posts: LazyPagingItems<Post>,
+    uiState: HomeUiState,
+    onLikePost: (post: Post) -> Unit,
+    onRemoveLike: (post: Post) -> Unit,
     onRefresh: () -> Unit,
     onCreatePost: (text: String, topics: List<Topic>) -> Unit,
+    onSort: (sorting: Direction) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val listState = rememberLazyListState()
@@ -69,8 +81,8 @@ internal fun HomePane(
         mutableStateOf(true)
     }
 
-    LaunchedEffect(key1 = posts.loadState.refresh) {
-        if (posts.loadState.refresh != LoadState.Loading) {
+    LaunchedEffect(key1 = uiState.posts.loadState.refresh) {
+        if (uiState.posts.loadState.refresh != LoadState.Loading) {
             initialLoad = false
         }
     }
@@ -99,8 +111,12 @@ internal fun HomePane(
                 Scaffold(
                     modifier = Modifier.fillMaxSize(),
                     topBar = {
-                        HomeTopBar {
-                            // TODO
+                        HomeTopBar(
+                            currentSorting = uiState.currentSort
+                        ) {
+                            onSort(it).also {
+                                onRefresh()
+                            }
                         }
                     },
                     floatingActionButton = {
@@ -126,13 +142,16 @@ internal fun HomePane(
                     }
                 ) { padding ->
                     HomeFeed(
-                        posts = posts,
+                        posts = uiState.posts,
                         listState = listState,
                         onReportPost = { /* TODOD */ },
                         refreshState = refreshState,
-                        isRefreshing = posts.loadState.refresh == LoadState.Loading && !initialLoad,
+                        isRefreshing = uiState.posts.loadState.refresh == LoadState.Loading && !initialLoad,
                         onRefresh = onRefresh,
-                        modifier = Modifier.padding(padding)
+                        modifier = Modifier.padding(padding),
+                        onLikePost = onLikePost,
+                        onRemoveLike = onRemoveLike,
+                        userId = uiState.currentUser.id
                     )
                 }
                 if (showCreatePost) {
@@ -182,9 +201,14 @@ private fun LazyListState.isScrollingUp(): Boolean {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun HomeTopBar(
+    currentSorting: Direction,
     modifier: Modifier = Modifier,
-    onSortClicked: () -> Unit
+    onSort: (sorting: Direction) -> Unit
 ) {
+    var isDropdownShown by remember {
+        mutableStateOf(false)
+    }
+
     TopAppBar(
         modifier = modifier,
         title = {
@@ -195,12 +219,24 @@ private fun HomeTopBar(
             )
         },
         actions = {
-            IconButton(onClick = onSortClicked) {
-                Icon(
-                    painter = painterResource(id = R.drawable.sorting),
-                    contentDescription = null,
-                    modifier = Modifier.size(24.dp),
-                    tint = MaterialTheme.colorScheme.onSurface
+            Box {
+                IconButton(onClick = { isDropdownShown = !isDropdownShown }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.sorting),
+                        contentDescription = null,
+                        modifier = Modifier.size(24.dp),
+                        tint = MaterialTheme.colorScheme.onSurface
+                    )
+                }
+                HomeFeedSorting(
+                    isOpen = isDropdownShown,
+                    onDismiss = { isDropdownShown = false },
+                    onSelect = {
+                        onSort(it).also {
+                            isDropdownShown = false
+                        }
+                    },
+                    currentSorting = currentSorting
                 )
             }
         }
@@ -315,5 +351,46 @@ private fun TopicItem(
             style = MaterialTheme.typography.bodySmall,
             fontWeight = FontWeight.Bold
         )
+    }
+}
+
+@Composable
+private fun HomeFeedSorting(
+    currentSorting: Direction,
+    isOpen: Boolean,
+    onDismiss: () -> Unit,
+    onSelect: (direction: Direction) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    DropdownMenu(
+        expanded = isOpen,
+        onDismissRequest = onDismiss,
+        modifier = modifier
+    ) {
+        repeat(Direction.entries.size) {
+            val entry = Direction.entries[it]
+            DropdownMenuItem(
+                text = {
+                    val text = when(entry) {
+                        Direction.ASCENDING -> "Oldest"
+                        Direction.DESCENDING -> "Newest"
+                    }
+                    Text(text = text)
+                },
+                trailingIcon = {
+                    if (entry == currentSorting) {
+                        Icon(
+                            painter = painterResource(id = R.drawable.checkmark),
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.onSecondaryContainer,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    }
+                },
+                onClick = {
+                    onSelect(entry)
+                }
+            )
+        }
     }
 }

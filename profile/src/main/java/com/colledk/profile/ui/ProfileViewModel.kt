@@ -4,6 +4,7 @@ import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.colledk.profile.ui.uistates.ProfileUiState
+import com.colledk.user.domain.usecase.AddProfilePictureUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.colledk.user.domain.usecase.UploadProfilePicUseCase
@@ -17,7 +18,7 @@ import javax.inject.Inject
 class ProfileViewModel @Inject constructor(
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val uploadProfilePicUseCase: UploadProfilePicUseCase,
-    private val updateUserUseCase: UpdateUserUseCase
+    private val addProfilePictureUseCase: AddProfilePictureUseCase
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ProfileUiState> = MutableStateFlow(ProfileUiState.Loading)
     val uiState: StateFlow<ProfileUiState> = _uiState
@@ -35,8 +36,8 @@ class ProfileViewModel @Inject constructor(
             uri?.let {
                 getCurrentUserUseCase().onSuccess { user ->
                     uploadProfilePicUseCase(uri = uri, userId = user.id).onSuccess { imageUrl ->
-                        updateUserUseCase(user = user.copy(profilePictures = user.profilePictures.plus(imageUrl))).onSuccess {
-                            getUser()
+                        addProfilePictureUseCase(uri = imageUrl).onSuccess {
+                            _uiState.value = ProfileUiState.Data(currentUser = it)
                         }
                     }
                 }

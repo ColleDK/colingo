@@ -11,11 +11,9 @@ import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
-import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
-import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
