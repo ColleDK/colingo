@@ -4,7 +4,6 @@ import android.net.Uri
 import androidx.activity.compose.BackHandler
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -13,7 +12,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -56,22 +54,18 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
-import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
-import androidx.paging.compose.collectAsLazyPagingItems
 import coil.compose.AsyncImage
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.community.R
-import com.colledk.community.ui.ExploreViewModel
 import com.colledk.profile.ui.compose.ProfilePane
 import com.colledk.profile.ui.uistates.ProfileUiState
 import com.colledk.theme.debugPlaceholder
-import com.colledk.user.domain.model.Language
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.User
-import com.colledk.user.domain.model.UserLanguage
 import kotlinx.coroutines.launch
+import java.util.Locale
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -362,7 +356,7 @@ private fun ProfilePicture(
 @Composable
 private fun LanguagesItem(
     @StringRes textId: Int,
-    languages: List<Language>,
+    languages: List<Locale>,
     modifier: Modifier = Modifier
 ) {
     val showPlus by remember {
@@ -383,7 +377,7 @@ private fun LanguagesItem(
         )
         languages.take(if (showPlus) 2 else 3).fastForEach {
             Text(
-                text = it.code.uppercase(),
+                text = it.language.uppercase(),
                 color = MaterialTheme.colorScheme.secondaryContainer,
                 style = MaterialTheme.typography.labelSmall,
                 modifier = Modifier

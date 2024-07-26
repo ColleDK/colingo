@@ -60,6 +60,7 @@ dependencies {
     // Internal modules
     implementation(project(":theme"))
     implementation(project(":user"))
+    implementation(project(":profile"))
 
     // Hilt
     implementation(libs.hilt.android)

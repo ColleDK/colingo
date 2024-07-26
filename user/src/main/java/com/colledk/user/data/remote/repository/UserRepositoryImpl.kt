@@ -46,7 +46,6 @@ class UserRepositoryImpl(
 
     override suspend fun addAiChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
         val user = getUser(userId = userId).getOrNull()
-        Timber.d("User is $user")
         if (user == null) {
             Result.failure(IOException())
         } else {

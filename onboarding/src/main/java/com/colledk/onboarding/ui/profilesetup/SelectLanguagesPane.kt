@@ -39,7 +39,6 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import com.colledk.onboarding.R
-import com.colledk.user.domain.model.Language
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.UserLanguage
 
@@ -76,7 +75,7 @@ internal fun SelectLanguagesPane(
 
     if (showDialog) {
         SelectNewLanguage(
-            selectedCountries = selectedLanguages.map { it.language.name },
+            selectedCountries = selectedLanguages.map { it.language.displayName },
             onSelect = {
                 onAddLanguage(it)
                 showDialog = false
@@ -130,7 +129,7 @@ private fun SelectNewLanguage(
     }
 
     var selectedLanguage by remember {
-        mutableStateOf<Language?>(null)
+        mutableStateOf<java.util.Locale?>(null)
     }
     var selectedProficiency by remember {
         mutableStateOf<LanguageProficiency?>(null)
@@ -150,7 +149,7 @@ private fun SelectNewLanguage(
         title = {
             Box {
                 Text(
-                    text = selectedLanguage?.name ?: stringResource(id = R.string.add_languages_select_language),
+                    text = selectedLanguage?.displayName ?: stringResource(id = R.string.add_languages_select_language),
                     modifier = Modifier.clickable {
                         showLanguageMenu = true
                     }
@@ -177,11 +176,7 @@ private fun SelectNewLanguage(
                                 )
                             },
                             onClick = {
-                                selectedLanguage = Language(
-                                    code = locale.language,
-                                    name = locale.displayLanguage,
-                                    image = ""
-                                ).also {
+                                selectedLanguage = locale.also {
                                     showLanguageMenu = false
                                 }
                             }
@@ -262,14 +257,14 @@ private fun UserLanguageItem(
     ListItem(
         headlineContent = {
             Text(
-                text = userLanguage.language.name,
+                text = userLanguage.language.displayName,
                 style = MaterialTheme.typography.bodyLarge,
                 fontWeight = FontWeight.Bold
             )
         },
         leadingContent = {
             Text(
-                text = userLanguage.language.code.uppercase(),
+                text = userLanguage.language.language.uppercase(),
                 color = MaterialTheme.colorScheme.secondaryContainer,
                 style = MaterialTheme.typography.labelLarge,
                 modifier = Modifier
