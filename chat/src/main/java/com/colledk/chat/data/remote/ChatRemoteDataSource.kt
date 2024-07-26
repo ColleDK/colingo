@@ -38,8 +38,6 @@ class ChatRemoteDataSource(
         try {
             // Create a chat
             val chatId = db.collection(AI_CHAT_PATH).add(aiChat).await().id
-            // Update the id in the data
-            db.collection(AI_CHAT_PATH).document(chatId).set(aiChat.copy(id = chatId))
             return getAiChat(chatId = chatId)
         } catch (e: Exception) {
             return Result.failure(e)

@@ -1,5 +1,7 @@
 package com.colledk.home.ui.compose
 
+import android.icu.number.NumberFormatter
+import android.icu.text.CompactDecimalFormat
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -42,6 +44,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextLayoutResult
+import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.paging.compose.LazyPagingItems
@@ -50,6 +53,8 @@ import com.colledk.home.R
 import com.colledk.home.domain.model.Post
 import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.User
+import java.text.DecimalFormat
+import java.text.NumberFormat
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -63,6 +68,9 @@ internal fun HomeFeed(
     isRefreshing: Boolean,
     onLikePost: (post: Post) -> Unit,
     onRemoveLike: (post: Post) -> Unit,
+    onPostClicked: (post: Post) -> Unit,
+    onProfileClicked: (user: User) -> Unit,
+    formatNumber: (num: Number) -> String,
     modifier: Modifier = Modifier
 ) {
     PullToRefreshBox(
@@ -87,7 +95,14 @@ internal fun HomeFeed(
                             },
                             userId = userId,
                             onLike = { onLikePost(it) },
-                            onRemoveLike = { onRemoveLike(it) }
+                            onRemoveLike = { onRemoveLike(it) },
+                            onPostClicked = {
+                                onPostClicked(it)
+                            },
+                            onProfileClicked = {
+                                onProfileClicked(it.user)
+                            },
+                            formatNumber = formatNumber
                         )
                     }
                 }
@@ -103,6 +118,9 @@ private fun PostItem(
     onLike: () -> Unit,
     onRemoveLike: () -> Unit,
     onReportClicked: () -> Unit,
+    onProfileClicked: () -> Unit,
+    onPostClicked: () -> Unit,
+    formatNumber: (num: Number) -> String,
     modifier: Modifier = Modifier
 ) {
     var isExpanded by rememberSaveable(post) {
@@ -119,12 +137,17 @@ private fun PostItem(
             .animateContentSize(),
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.secondaryContainer
-        )
+        ),
+        onClick = onPostClicked
     ) {
         Column(
             modifier = Modifier.padding(12.dp)
         ) {
-            PostItemHeader(user = post.user, onReportClicked = onReportClicked)
+            PostItemHeader(
+                user = post.user,
+                onReportClicked = onReportClicked,
+                modifier = Modifier.clickable { onProfileClicked() }
+            )
             Text(
                 text = post.content,
                 style = MaterialTheme.typography.bodyMedium,
@@ -159,9 +182,10 @@ private fun PostItem(
                 post = post,
                 onLike = onLike,
                 onRemoveLike = onRemoveLike,
-                onCommentsClicked = { /*TODO*/ },
+                onCommentsClicked = onPostClicked,
                 onShareClicked = { /*TODO*/ },
-                userId = userId
+                userId = userId,
+                formatNumber = formatNumber
             )
         }
     }
@@ -236,6 +260,7 @@ private fun PostItemInformation(
     onRemoveLike: () -> Unit,
     onCommentsClicked: () -> Unit,
     onShareClicked: () -> Unit,
+    formatNumber: (num: Number) -> String,
     modifier: Modifier = Modifier
 ) {
     val usersLiked = remember(post.likes) {
@@ -273,7 +298,7 @@ private fun PostItemInformation(
                 tint = MaterialTheme.colorScheme.onSecondaryContainer
             )
             Text(
-                text = "${usersLiked.size}",
+                text = formatNumber(usersLiked.size),
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.secondary
             )
@@ -290,7 +315,7 @@ private fun PostItemInformation(
                 tint = MaterialTheme.colorScheme.onSecondaryContainer
             )
             Text(
-                text = "${post.replies.size}",
+                text = formatNumber(post.replies.size),
                 style = MaterialTheme.typography.labelMedium,
                 color = MaterialTheme.colorScheme.secondary
             )

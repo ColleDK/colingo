@@ -2,20 +2,28 @@ package com.colledk.colingo.ui.compose
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.BottomAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
@@ -24,20 +32,25 @@ import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaf
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
 import com.colledk.colingo.R
 import com.colledk.colingo.domain.model.SettingsOption
+import com.colledk.colingo.domain.model.TopSetting
 import com.colledk.colingo.ui.compose.settings.BetaSettings
+import com.colledk.colingo.ui.compose.settings.SwitchLanguagePane
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 fun SettingsPane(
+    onSwitchLanguage: (locale: java.util.Locale) -> Unit,
     modifier: Modifier = Modifier,
     onLogOut: () -> Unit
 ) {
-    val navigator = rememberListDetailPaneScaffoldNavigator<SettingsOption>()
+    val navigator = rememberListDetailPaneScaffoldNavigator<TopSetting>()
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
@@ -49,10 +62,18 @@ fun SettingsPane(
         value = navigator.scaffoldValue,
         listPane = {
             AnimatedPane {
-                SettingsContent(Modifier.fillMaxSize()) {
+                SettingsContent(
+                    onSwitchLanguage = {
+                        navigator.navigateTo(
+                            pane = ListDetailPaneScaffoldRole.Detail,
+                            content = TopSetting.SWITCH_LANGUAGE
+                        )
+                    },
+                    modifier = Modifier.fillMaxSize()
+                ) {
                     navigator.navigateTo(
                         pane = ListDetailPaneScaffoldRole.Detail,
-                        content = it
+                        content = TopSetting.valueOf(it.name)
                     )
                 }
             }
@@ -60,16 +81,16 @@ fun SettingsPane(
         detailPane = {
             AnimatedPane {
                 navigator.currentDestination?.content?.let { setting ->
-                    // TODO figure out what settings to have
-                    when(setting) {
-                        SettingsOption.BETA -> BetaSettings()
-                        SettingsOption.NOTIFICATIONS -> TODO()
-                        SettingsOption.PERMISSIONS -> TODO()
-                        SettingsOption.ACCESSIBILITY -> TODO()
-                        SettingsOption.ABOUT -> TODO()
-                        SettingsOption.RATE_THE_APP -> TODO()
-                        SettingsOption.REPORT_BUG -> TODO()
-                        SettingsOption.LOG_OUT -> {
+                    when (setting) {
+                        TopSetting.SWITCH_LANGUAGE -> SwitchLanguagePane(onSwitchLanguage = onSwitchLanguage)
+                        TopSetting.BETA -> BetaSettings()
+                        TopSetting.NOTIFICATIONS -> TODO()
+                        TopSetting.PERMISSIONS -> TODO()
+                        TopSetting.ACCESSIBILITY -> TODO()
+                        TopSetting.ABOUT -> TODO()
+                        TopSetting.RATE_THE_APP -> TODO()
+                        TopSetting.REPORT_BUG -> TODO()
+                        TopSetting.LOG_OUT -> {
                             LaunchedEffect(key1 = Unit) {
                                 onLogOut()
                             }
@@ -81,38 +102,52 @@ fun SettingsPane(
     )
 }
 
-@OptIn(ExperimentalFoundationApi::class)
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun SettingsContent(
+    onSwitchLanguage: () -> Unit,
     modifier: Modifier = Modifier,
     onSettingClick: (SettingsOption) -> Unit
 ) {
-    LazyColumn(
+    Scaffold(
         modifier = modifier,
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-        contentPadding = PaddingValues(horizontal = 8.dp, vertical = 24.dp)
-    ) {
-        stickyHeader {
-            Surface(modifier = Modifier
-                .fillParentMaxWidth()
-                .padding(horizontal = 16.dp)) {
-                Text(
-                    text = "Change settings",
-                    style = MaterialTheme.typography.headlineLarge,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-            }
-        }
-        items(SettingsOption.entries) { setting ->
-            ListItem(
-                headlineContent = {
+        topBar = {
+            TopAppBar(
+                title = {
                     Text(
-                        text = stringResource(id = setting.titleId),
-                        style = MaterialTheme.typography.bodyLarge
+                        text = "Change settings",
+                        style = MaterialTheme.typography.headlineLarge,
+                        color = MaterialTheme.colorScheme.onSurface
                     )
-                },
-                trailingContent = {
-                    if (setting != SettingsOption.LOG_OUT) {
+                }
+            )
+        }
+    ) { padding ->
+        LazyColumn(
+            modifier = Modifier.padding(padding),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+            contentPadding = PaddingValues(horizontal = 8.dp, vertical = 24.dp)
+        ) {
+            item {
+                ListItem(
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .clickable { onSwitchLanguage() },
+                    headlineContent = {
+                        Text(text = "Switch language")
+                    },
+                    leadingContent = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.language),
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.onSurface,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
+                    supportingContent = {
+                        Text(text = Locale.current.platformLocale.displayLanguage)
+                    },
+                    trailingContent = {
                         Icon(
                             painter = painterResource(id = R.drawable.arrow_right),
                             contentDescription = null,
@@ -120,21 +155,41 @@ private fun SettingsContent(
                             modifier = Modifier.size(24.dp)
                         )
                     }
-                },
-                leadingContent = {
-                    Icon(
-                        painter = painterResource(id = setting.iconId),
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.onSurface,
-                        modifier = Modifier.size(24.dp)
-                    )
-                },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clickable {
-                        onSettingClick(setting)
-                    }
-            )
+                )
+            }
+            items(SettingsOption.entries) { setting ->
+                ListItem(
+                    headlineContent = {
+                        Text(
+                            text = stringResource(id = setting.titleId),
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                    },
+                    trailingContent = {
+                        if (setting != SettingsOption.LOG_OUT) {
+                            Icon(
+                                painter = painterResource(id = R.drawable.arrow_right),
+                                contentDescription = null,
+                                tint = MaterialTheme.colorScheme.onSurface,
+                                modifier = Modifier.size(24.dp)
+                            )
+                        }
+                    },
+                    leadingContent = {
+                        Icon(
+                            painter = painterResource(id = setting.iconId),
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.onSurface,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable {
+                            onSettingClick(setting)
+                        }
+                )
+            }
         }
     }
 }

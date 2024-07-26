@@ -32,6 +32,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
+import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.runtime.Composable
@@ -49,18 +50,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.window.Dialog
 import androidx.paging.LoadState
-import androidx.paging.compose.LazyPagingItems
 import com.colledk.home.R
 import com.colledk.home.domain.model.Post
 import com.colledk.home.ui.uistates.HomeUiState
-import com.colledk.user.domain.model.Language
+import com.colledk.profile.ui.compose.ProfilePane
+import com.colledk.profile.ui.uistates.ProfileUiState
 import com.colledk.user.domain.model.Topic
 import com.google.firebase.firestore.Query.Direction
 
@@ -73,6 +71,7 @@ internal fun HomePane(
     onRefresh: () -> Unit,
     onCreatePost: (text: String, topics: List<Topic>) -> Unit,
     onSort: (sorting: Direction) -> Unit,
+    formatNumber: (num: Number) -> String,
     modifier: Modifier = Modifier
 ) {
     val listState = rememberLazyListState()
@@ -97,7 +96,7 @@ internal fun HomePane(
         mutableStateOf(false)
     }
 
-    val navigator = rememberListDetailPaneScaffoldNavigator<String>()
+    val navigator = rememberListDetailPaneScaffoldNavigator<HomeDetailDestination>()
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
@@ -151,7 +150,20 @@ internal fun HomePane(
                         modifier = Modifier.padding(padding),
                         onLikePost = onLikePost,
                         onRemoveLike = onRemoveLike,
-                        userId = uiState.currentUser.id
+                        userId = uiState.currentUser.id,
+                        onProfileClicked = {
+                            navigator.navigateTo(
+                                pane = ListDetailPaneScaffoldRole.Detail,
+                                content = HomeDetailDestination.ProfileDestination(it)
+                            )
+                        },
+                        onPostClicked = {
+                            navigator.navigateTo(
+                                pane = ListDetailPaneScaffoldRole.Detail,
+                                content = HomeDetailDestination.PostDestination(it.id)
+                            )
+                        },
+                        formatNumber = formatNumber
                     )
                 }
                 if (showCreatePost) {
@@ -168,7 +180,25 @@ internal fun HomePane(
         },
         detailPane = {
             AnimatedPane {
-                // TODO
+                navigator.currentDestination?.content?.let { destination ->
+                    when(destination) {
+                        is HomeDetailDestination.PostDestination -> {
+                            PostPane(user = uiState.currentUser, postId = destination.postId)
+                        }
+                        is HomeDetailDestination.ProfileDestination -> {
+                            val profileState by remember(destination.user) {
+                                mutableStateOf(ProfileUiState.Data(destination.user))
+                            }
+
+                            ProfilePane(
+                                isEditable = false,
+                                uiState = profileState,
+                                onEditProfile = {},
+                                onPictureAdded = {}
+                            )
+                        }
+                    }
+                }
             }
         }
     )

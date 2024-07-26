@@ -6,6 +6,7 @@ plugins {
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.google.services.get().pluginId)
     id(libs.plugins.android.library.get().pluginId) apply false
+    id(libs.plugins.kotlin.parcelize.get().pluginId)
     alias(libs.plugins.compose.compiler)
 }
 
@@ -79,9 +80,12 @@ dependencies {
 
     // Hilt
     implementation(libs.hilt.android)
+    implementation(libs.hilt.navigation.compose)
+
     implementation(libs.androidx.junit.ktx)
     implementation(libs.androidx.monitor)
     implementation(libs.androidx.material3.adaptive.navigation.suite.android)
+    implementation(libs.appcompat)
     kapt(libs.hilt.compiler)
 
     // Timber

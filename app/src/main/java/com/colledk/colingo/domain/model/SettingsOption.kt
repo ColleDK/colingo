@@ -1,9 +1,24 @@
 package com.colledk.colingo.domain.model
 
+import android.os.Parcelable
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Stable
 import com.colledk.colingo.R
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+enum class TopSetting : Parcelable {
+    SWITCH_LANGUAGE,
+    BETA,
+    NOTIFICATIONS,
+    PERMISSIONS,
+    ACCESSIBILITY,
+    ABOUT,
+    RATE_THE_APP,
+    REPORT_BUG,
+    LOG_OUT
+}
 
 @Stable
 enum class SettingsOption(

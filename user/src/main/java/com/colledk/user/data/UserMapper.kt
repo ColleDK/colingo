@@ -3,19 +3,18 @@ package com.colledk.user.data
 import android.net.Uri
 import com.colledk.user.data.remote.model.GenderRemote
 import com.colledk.user.data.remote.model.LanguageProficiencyRemote
-import com.colledk.user.data.remote.model.LanguageRemote
 import com.colledk.user.data.remote.model.LocationRemote
 import com.colledk.user.data.remote.model.TopicRemote
 import com.colledk.user.data.remote.model.UserLanguageRemote
 import com.colledk.user.data.remote.model.UserRemote
 import com.colledk.user.domain.model.Gender
-import com.colledk.user.domain.model.Language
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
 import org.joda.time.DateTime
+import java.util.Locale
 
 fun User.mapToRemote(): UserRemote {
     return UserRemote(
@@ -46,21 +45,13 @@ internal fun Location.mapToRemote(): LocationRemote {
 
 internal fun UserLanguage.mapToRemote(): UserLanguageRemote {
     return UserLanguageRemote(
-        language = language.mapToRemote(),
+        code = language.country,
         proficiency = proficiency.mapToRemote()
     )
 }
 
 internal fun LanguageProficiency.mapToRemote(): LanguageProficiencyRemote {
     return LanguageProficiencyRemote.valueOf(this.name)
-}
-
-internal fun Language.mapToRemote(): LanguageRemote {
-    return LanguageRemote(
-        code = code,
-        name = name,
-        image = image
-    )
 }
 
 internal fun Gender.mapToRemote(): GenderRemote {
@@ -96,16 +87,8 @@ internal fun LocationRemote.mapToDomain(): Location {
 
 internal fun UserLanguageRemote.mapToDomain(): UserLanguage {
     return UserLanguage(
-        language = language.mapToDomain(),
+        language = Locale.forLanguageTag(this.code),
         proficiency = proficiency.mapToDomain()
-    )
-}
-
-internal fun LanguageRemote.mapToDomain(): Language {
-    return Language(
-        code = code,
-        name = name,
-        image = image
     )
 }
 
