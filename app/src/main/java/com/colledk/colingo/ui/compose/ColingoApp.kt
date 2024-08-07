@@ -52,7 +52,9 @@ internal fun ColingoApp(
                         },
                         label = { Text(text = stringResource(id = destination.titleText), fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal) },
                         selected = isSelected,
-                        onClick = { appState.navigateToTopLevelDestination(destination) }
+                        onClick = {
+                            appState.navigateToTopLevelDestination(destination)
+                        }
                     )
                 }
             }

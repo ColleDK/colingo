@@ -69,6 +69,7 @@ class ProfileSetupViewModel @Inject constructor(
                 val picture = _profilePictureState.value
                 val languages = _languagesState.value
                 val gender = _genderState.value
+                val topics = _topicState.value
 
                 val profilePicture = picture.profilePicture?.let {
                     uploadProfilePicUseCase(uri = picture.profilePicture, userId = user.id).getOrNull()
@@ -80,7 +81,8 @@ class ProfileSetupViewModel @Inject constructor(
                     description = description.description,
                     location = description.location ?: Location(),
                     languages = languages.languages,
-                    gender = gender.selectedGender ?: Gender.OTHER
+                    gender = gender.selectedGender ?: Gender.OTHER,
+                    topics = topics.selectedTopics
                 )
                 updateUserUseCase(user = newUser).onSuccess {
                     _goToFrontpage.trySend(Unit)

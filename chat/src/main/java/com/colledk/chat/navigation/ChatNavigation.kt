@@ -9,11 +9,17 @@ import androidx.navigation.compose.navigation
 import com.colledk.chat.ui.compose.ChatScreen
 
 const val chatGraphRoute = "chat_graph"
-private const val chatPaneRoute = "chat_route"
+const val chatPaneRoute = "chat_route"
 private const val chatDetailPaneRoute = "chat_detail_route"
 
 fun NavController.navigateToChat(navOptions: NavOptions? = null) {
     this.navigate(route = chatPaneRoute, navOptions = navOptions)
+}
+
+fun NavGraphBuilder.chatPane() {
+    composable(chatPaneRoute) {
+        ChatScreen()
+    }
 }
 
 fun NavGraphBuilder.chatGraph(
