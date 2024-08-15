@@ -24,6 +24,10 @@ class UserRepositoryImpl(
         remoteDataSource.addProfilePicture(picture.toString()).map { it.mapToDomain() }
     }
 
+    override suspend fun deleteProfilePicture(picture: Uri): Result<Unit> = withContext(dispatcher) {
+        remoteDataSource.removeFile(path = picture.toString())
+    }
+
     override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
         remoteDataSource.loginUser(email, password).map { it.mapToDomain() }
     }

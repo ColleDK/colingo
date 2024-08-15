@@ -44,6 +44,7 @@ internal fun ProfilePictures(
     isInEditMode: Boolean,
     pictures: List<Uri>,
     modifier: Modifier = Modifier,
+    onRemovePicture: (uri: Uri) -> Unit = {},
     onPictureSelected: (uri: Uri) -> Unit = {}
 ) {
     val pagerState = rememberPagerState { if (isInEditMode) 5 else pictures.size }
@@ -69,6 +70,7 @@ internal fun ProfilePictures(
                 onAddPictureClicked = {
                     launcher.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
                 },
+                onRemovePicture = onRemovePicture,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(250.dp)
@@ -93,6 +95,7 @@ private fun Picture(
     isInEditMode: Boolean,
     picture: Uri?,
     onAddPictureClicked: () -> Unit,
+    onRemovePicture: (uri: Uri) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Box(
@@ -108,7 +111,7 @@ private fun Picture(
 
             if (isInEditMode) {
                 IconButton(
-                    onClick = {},
+                    onClick = { onRemovePicture(it) },
                     modifier = Modifier
                         .align(Alignment.TopEnd)
                         .padding(4.dp)

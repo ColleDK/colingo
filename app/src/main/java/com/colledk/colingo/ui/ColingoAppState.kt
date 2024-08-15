@@ -38,7 +38,7 @@ data class ColingoAppState(
     val navController: NavHostController
 ) {
     val currentUserId: String?
-        get() = Firebase.auth.uid
+        get() = Firebase.auth.currentUser?.uid
 
     val currentDestination: NavDestination?
         @Composable get() = navController.currentBackStackEntryAsState().value?.destination

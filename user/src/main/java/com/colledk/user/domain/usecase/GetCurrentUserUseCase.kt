@@ -10,7 +10,7 @@ class GetCurrentUserUseCase(
     private val auth: FirebaseAuth
 ) {
     suspend operator fun invoke(): Result<User> {
-        return auth.uid?.let {
+        return auth.currentUser?.uid?.let {
             repository.getUser(it)
         } ?: run {
             Result.failure(IOException())

@@ -164,6 +164,15 @@ class UserRemoteDataSource(
         }
     }
 
+    suspend fun removeFile(path: String): Result<Unit> {
+        try {
+            storage.getReferenceFromUrl(path).delete().await()
+            return Result.success(Unit)
+        } catch (e: Exception) {
+            return Result.failure(e)
+        }
+    }
+
     companion object {
         const val USERS_PATH = "users"
         const val IMAGE_PATH = "images/"

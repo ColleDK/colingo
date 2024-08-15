@@ -14,6 +14,7 @@ import com.colledk.user.domain.usecase.AddAiChatUseCase
 import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
@@ -31,7 +32,7 @@ class ExploreViewModel @Inject constructor(
 
     fun createAiChat(ai: AiItem) {
         viewModelScope.launch {
-            auth.uid?.let { userId ->
+            auth.currentUser?.uid?.let { userId ->
                 createAiChatUseCase(
                     userId = userId,
                     aiName = ai.name,
@@ -47,7 +48,7 @@ class ExploreViewModel @Inject constructor(
                         chatId = it.id
                     )
                 }.onFailure {
-                    // TODO handle error
+                    Timber.d(it)
                 }
             }
         }

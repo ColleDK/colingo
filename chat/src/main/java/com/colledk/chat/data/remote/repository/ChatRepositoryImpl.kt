@@ -58,7 +58,7 @@ class ChatRepositoryImpl(
     }
 
     override suspend fun updateAiChat(id: String, chat: AiChat): Result<AiChat> = withContext(dispatcher) {
-        remoteDataSource.updateAiChat(chat.mapToRemote(auth.uid.orEmpty())).map {
+        remoteDataSource.updateAiChat(chat.mapToRemote(auth.currentUser?.uid.orEmpty())).map {
             it.mapToDomain()
         }
     }

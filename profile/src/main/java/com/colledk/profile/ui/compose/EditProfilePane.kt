@@ -1,5 +1,6 @@
 package com.colledk.profile.ui.compose
 
+import android.net.Uri
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -31,6 +32,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.EditProfileUiState
+import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
 import org.joda.time.DateTime
 import org.joda.time.Period
@@ -42,15 +44,15 @@ import org.joda.time.format.DateTimeFormat
 internal fun EditProfilePane(
     uiState: EditProfileUiState,
     onSave: () -> Unit,
-    onAddPicture: () -> Unit,
-    onRemovePicture: () -> Unit,
+    onAddPicture: (uri: Uri) -> Unit,
+    onRemovePicture: (uri: Uri) -> Unit,
     onEditDescription: (description: String) -> Unit,
-    onSwitchBirthday: () -> Unit,
+    onSwitchBirthday: (time: Long) -> Unit,
     onUpdateLocation: () -> Unit,
     onAddLanguage: (language: UserLanguage) -> Unit,
     onRemoveLanguage: (language: UserLanguage) -> Unit,
-    onAddTopic: () -> Unit,
-    onRemoveTopic: () -> Unit,
+    onAddTopic: (topic: Topic) -> Unit,
+    onRemoveTopic: (topic: Topic) -> Unit,
     onChangeName: (name: String) -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -81,17 +83,23 @@ internal fun EditProfilePane(
                 .fillMaxSize()
                 .padding(padding),
             verticalArrangement = Arrangement.spacedBy(16.dp),
-            contentPadding = PaddingValues(start = 24.dp, end = 24.dp, bottom = 24.dp, )
+            contentPadding = PaddingValues(bottom = 24.dp)
         ) {
             item {
                 ProfilePictures(
                     isInEditMode = true,
                     pictures = uiState.user.profilePictures,
-                    onPictureSelected = {}
+                    onPictureSelected = onAddPicture,
+                    onRemovePicture = onRemovePicture
                 )
             }
             item {
-                Column {
+                Column(
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(horizontal = 24.dp),
+                    verticalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
                     Text(
                         text = stringResource(id = R.string.edit_name_title),
                         style = MaterialTheme.typography.headlineMedium,
@@ -101,7 +109,7 @@ internal fun EditProfilePane(
                     TextField(
                         value = uiState.user.name,
                         onValueChange = onChangeName,
-                        modifier = Modifier.fillParentMaxWidth(),
+                        modifier = Modifier.fillMaxWidth(),
                         singleLine = true
                     )
                 }
@@ -112,15 +120,31 @@ internal fun EditProfilePane(
                     birthday = uiState.user.birthday.toString(DateTimeFormat.longDate()),
                     location = uiState.user.location.toString(),
                     onChangeDescription = onEditDescription,
-                    onChangeBirthday = onSwitchBirthday,
-                    onChangeLocation = onUpdateLocation
+                    onChangeBirthday = { showDatePicker = true },
+                    onChangeLocation = onUpdateLocation,
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(horizontal = 24.dp)
                 )
             }
             item {
                 EditProfileLanguages(
                     languages = uiState.user.languages,
                     onRemoveLanguage = onRemoveLanguage,
-                    onAddLanguage = onAddLanguage
+                    onAddLanguage = onAddLanguage,
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(horizontal = 24.dp)
+                )
+            }
+            item {
+                EditTopics(
+                    selectedTopics = uiState.user.topics,
+                    addTopic = onAddTopic,
+                    removeTopic = onRemoveTopic,
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(horizontal = 24.dp)
                 )
             }
         }
@@ -128,6 +152,7 @@ internal fun EditProfilePane(
         if (showDatePicker) {
             BirthdaySelector(
                 onSelect = {
+                    onSwitchBirthday(it)
                     showDatePicker = false
                 },
                 onDismiss = { showDatePicker = false },
@@ -169,10 +194,4 @@ private fun BirthdaySelector(
     ) {
         DatePicker(state = state)
     }
-}
-
-private fun DateTime.getAge(): String {
-    val now = DateTime.now()
-    val period = Period(this, now, PeriodType.yearMonthDay())
-    return period.years.toString()
 }
