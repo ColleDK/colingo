@@ -38,7 +38,7 @@ fun NavGraphBuilder.homePane() {
             if (posts.loadState.refresh is LoadState.Error) {
                 snackbarHostState.showSnackbar(
                     ((posts.loadState.refresh as? LoadState.Error)?.error?.message ?:
-                    "Something went wrong. Please try again") + Firebase.auth.uid
+                    "Something went wrong. Please try again") + Firebase.auth.currentUser?.uid
                 )
             }
         }

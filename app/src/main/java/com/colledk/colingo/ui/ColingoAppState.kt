@@ -9,7 +9,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
-import com.colledk.chat.navigation.chatGraphRoute
+import com.colledk.chat.navigation.chatPaneRoute
 import com.colledk.chat.navigation.navigateToChat
 import com.colledk.colingo.ui.navigation.TopLevelDestination
 import com.colledk.colingo.ui.navigation.navigateToSettingsPane
@@ -18,8 +18,11 @@ import com.colledk.community.navigation.explorePaneRoute
 import com.colledk.community.navigation.navigateToExplorePane
 import com.colledk.home.navigation.homePaneRoute
 import com.colledk.home.navigation.navigateToHomePane
-import com.colledk.profile.navigation.navigateToProfilePane
+import com.colledk.profile.navigation.navigateToProfileScreen
 import com.colledk.profile.navigation.profilePaneRoute
+import com.colledk.profile.navigation.profileScreenRoute
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 @Composable
 fun rememberColingoAppState(
@@ -34,6 +37,9 @@ fun rememberColingoAppState(
 data class ColingoAppState(
     val navController: NavHostController
 ) {
+    val currentUserId: String?
+        get() = Firebase.auth.currentUser?.uid
+
     val currentDestination: NavDestination?
         @Composable get() = navController.currentBackStackEntryAsState().value?.destination
 
@@ -44,8 +50,8 @@ data class ColingoAppState(
         @Composable get() = when (currentDestination?.route) {
             homePaneRoute -> TopLevelDestination.HOME
             explorePaneRoute -> TopLevelDestination.EXPLORE
-            chatGraphRoute -> TopLevelDestination.CHAT
-            profilePaneRoute -> TopLevelDestination.PROFILE
+            chatPaneRoute -> TopLevelDestination.CHAT
+            profilePaneRoute, profileScreenRoute -> TopLevelDestination.PROFILE
             settingsPaneRoute -> TopLevelDestination.SETTINGS
             else -> null
         }
@@ -70,7 +76,7 @@ data class ColingoAppState(
             TopLevelDestination.HOME -> navController.navigateToHomePane(navOptions = topLevelNavOptions)
             TopLevelDestination.EXPLORE -> navController.navigateToExplorePane(navOptions = topLevelNavOptions)
             TopLevelDestination.CHAT -> navController.navigateToChat(navOptions = topLevelNavOptions)
-            TopLevelDestination.PROFILE -> navController.navigateToProfilePane(navOptions = topLevelNavOptions)
+            TopLevelDestination.PROFILE -> navController.navigateToProfileScreen(userId = currentUserId.orEmpty(), navOptions = topLevelNavOptions)
             TopLevelDestination.SETTINGS -> navController.navigateToSettingsPane(navOptions = topLevelNavOptions)
         }
     }

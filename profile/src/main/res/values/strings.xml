@@ -1,0 +1,5 @@
+<resources>
+    <string name="select_new_birthday">Select</string>
+    <string name="cancel_birthday_selection">Cancel</string>
+    <string name="edit_name_title">Name</string>
+</resources>

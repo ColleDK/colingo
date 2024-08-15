@@ -194,7 +194,7 @@ internal fun HomePane(
                                 isEditable = false,
                                 uiState = profileState,
                                 onEditProfile = {},
-                                onPictureAdded = {}
+                                onCreateChat = {}
                             )
                         }
                     }

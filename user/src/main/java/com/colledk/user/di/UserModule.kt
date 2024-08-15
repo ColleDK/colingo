@@ -7,6 +7,7 @@ import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.AddAiChatUseCase
 import com.colledk.user.domain.usecase.AddProfilePictureUseCase
 import com.colledk.user.domain.usecase.CreateUserUseCase
+import com.colledk.user.domain.usecase.DeleteProfilePictureUseCase
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.GetUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
@@ -82,6 +83,13 @@ class UserModule {
         repository: UserRepository
     ) : UploadProfilePicUseCase {
         return UploadProfilePicUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesDeleteProfilePictureUseCase(
+        repository: UserRepository
+    ): DeleteProfilePictureUseCase {
+        return DeleteProfilePictureUseCase(repository = repository)
     }
 
     @Provides

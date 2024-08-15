@@ -6,13 +6,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.colledk.chat.navigation.chatGraph
+import com.colledk.chat.navigation.chatPane
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.SettingsViewModel
 import com.colledk.colingo.ui.compose.SettingsPane
@@ -22,6 +21,7 @@ import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
 import com.colledk.onboarding.navigation.onboardingGraphRoute
 import com.colledk.profile.navigation.profilePane
+import com.colledk.profile.navigation.profileScreen
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -58,8 +58,9 @@ fun ColingoNavHost(
         }
         homePane()
         explorePane()
-        chatGraph(navHostController = navController)
+        chatPane()
         profilePane()
+        profileScreen()
         settingsPane {
             navController.navigateToOnboarding(/* TODO Pop backstack */).also {
                 Firebase.auth.signOut()

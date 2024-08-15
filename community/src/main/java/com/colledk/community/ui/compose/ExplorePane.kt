@@ -158,7 +158,7 @@ internal fun ExplorePane(
                         isEditable = false,
                         uiState = uiState,
                         onEditProfile = {},
-                        onPictureAdded = {},
+                        onCreateChat = {},
                         modifier = Modifier.fillMaxSize()
                     )
                 }

@@ -45,7 +45,7 @@ internal fun Location.mapToRemote(): LocationRemote {
 
 internal fun UserLanguage.mapToRemote(): UserLanguageRemote {
     return UserLanguageRemote(
-        code = language.country,
+        code = language.language,
         proficiency = proficiency.mapToRemote()
     )
 }
