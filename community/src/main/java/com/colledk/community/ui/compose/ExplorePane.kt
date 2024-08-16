@@ -27,6 +27,8 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Badge
+import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
@@ -88,6 +90,7 @@ import java.util.Locale
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 internal fun ExplorePane(
+    userLanguages: List<String>,
     currentFilters: List<String>,
     users: LazyPagingItems<User>,
     onCreateAiChat: (ai: AiItem) -> Unit,
@@ -113,7 +116,10 @@ internal fun ExplorePane(
         listPane = {
             Scaffold(
                 topBar = {
-                    ExploreTopBar(onSettingsClicked = { showBottomSheet = !showBottomSheet })
+                    ExploreTopBar(
+                        onSettingsClicked = { showBottomSheet = !showBottomSheet },
+                        filterCount = currentFilters.size
+                    )
                 }
             ) { padding ->
                 AnimatedPane {
@@ -170,6 +176,7 @@ internal fun ExplorePane(
                                 1 -> {
                                     ChatBotsPane(
                                         onCreateAiChat = onCreateAiChat,
+                                        currentFilters = currentFilters,
                                         modifier = Modifier.fillMaxSize()
                                     )
                                 }
@@ -195,6 +202,7 @@ internal fun ExplorePane(
                         if (filters.contains(it)) filters.remove(it) else filters.add(it)
                     },
                     clearFilters = filters::clear,
+                    userLanguages = userLanguages,
                     modifier = Modifier.fillMaxWidth()
                 )
             }
@@ -450,6 +458,7 @@ private fun LanguagesItem(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun ExploreTopBar(
+    filterCount: Int,
     onSettingsClicked: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -462,13 +471,26 @@ private fun ExploreTopBar(
             )
         },
         actions = {
-            IconButton(onClick = onSettingsClicked) {
-                Icon(
-                    painter = painterResource(id = R.drawable.options),
-                    contentDescription = null,
-                    modifier = Modifier.size(24.dp),
-                    tint = MaterialTheme.colorScheme.onSurface
-                )
+            BadgedBox(
+                badge = {
+                    if (filterCount > 0) {
+                        Badge(
+                            containerColor = MaterialTheme.colorScheme.onSurface,
+                            contentColor = MaterialTheme.colorScheme.surface
+                        ) {
+                            Text(text = "$filterCount")
+                        }
+                    }
+                }
+            ) {
+                IconButton(onClick = onSettingsClicked) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.options),
+                        contentDescription = null,
+                        modifier = Modifier.size(24.dp),
+                        tint = MaterialTheme.colorScheme.onSurface
+                    )
+                }
             }
         },
         modifier = modifier
@@ -478,6 +500,7 @@ private fun ExploreTopBar(
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
 @Composable
 private fun SelectFiltersBottomSheet(
+    userLanguages: List<String>,
     currentFilters: List<String>,
     sheetState: SheetState,
     onDismiss: () -> Unit,
@@ -496,6 +519,17 @@ private fun SelectFiltersBottomSheet(
                 Locale.getAvailableLocales()
                     .filter { it.displayLanguage.isNotBlank() }
                     .distinctBy { it.displayLanguage }.sortedBy { it.displayLanguage }
+            }
+        }
+
+        val userFilters by remember {
+            derivedStateOf {
+                allLanguages.filter { userLanguages.contains(it.language) }
+            }
+        }
+        val remainingFilters by remember {
+            derivedStateOf {
+                allLanguages.filterNot { userLanguages.contains(it.language) }
                     .groupBy { it.displayLanguage.first() }
             }
         }
@@ -506,8 +540,14 @@ private fun SelectFiltersBottomSheet(
             Text(text = "Choose up to $limit languages you want to see fluent speakers from!")
             if (currentFilters.isNotEmpty()) {
                 Spacer(modifier = Modifier.height(4.dp))
-                Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text(text = "${currentFilters.size}/$limit selected", fontWeight = FontWeight.Bold)
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = "${currentFilters.size}/$limit selected",
+                        fontWeight = FontWeight.Bold
+                    )
                     TextButton(onClick = clearFilters) {
                         Text(text = "Clear filters")
                     }
@@ -519,8 +559,40 @@ private fun SelectFiltersBottomSheet(
                     .fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
-                // TODO Add user languages to the top
-                allLanguages.forEach { (startLetter, locales) ->
+                stickyHeader {
+                    Surface(
+                        modifier = Modifier.fillParentMaxWidth(),
+                        color = MaterialTheme.colorScheme.surfaceContainerLow
+                    ) {
+                        Text(text = "Your current languages", fontWeight = FontWeight.Bold)
+                    }
+                }
+                items(userFilters) { locale ->
+                    val isSelected by remember {
+                        derivedStateOf { currentFilters.contains(locale.language) }
+                    }
+
+                    ListItem(
+                        headlineContent = {
+                            Text(text = locale.displayLanguage)
+                        },
+                        leadingContent = {
+                            Checkbox(
+                                checked = isSelected,
+                                onCheckedChange = null
+                            )
+                        },
+                        modifier = Modifier
+                            .alpha(if (currentFilters.size < limit || isSelected) 1f else 0.38f)
+                            .selectable(
+                                selected = isSelected,
+                                enabled = currentFilters.size < limit || isSelected
+                            ) {
+                                onSelectFilter(locale.language)
+                            }
+                    )
+                }
+                remainingFilters.forEach { (startLetter, locales) ->
                     stickyHeader {
                         Surface(
                             modifier = Modifier.fillParentMaxWidth(),
