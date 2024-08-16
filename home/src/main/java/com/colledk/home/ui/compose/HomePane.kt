@@ -72,6 +72,7 @@ internal fun HomePane(
     onCreatePost: (text: String, topics: List<Topic>) -> Unit,
     onSort: (sorting: Direction) -> Unit,
     formatNumber: (num: Number) -> String,
+    onCreateChat: (userId: String) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val listState = rememberLazyListState()
@@ -194,7 +195,7 @@ internal fun HomePane(
                                 isEditable = false,
                                 uiState = profileState,
                                 onEditProfile = {},
-                                onCreateChat = {}
+                                onCreateChat = onCreateChat
                             )
                         }
                     }

@@ -122,6 +122,20 @@ class UserRemoteDataSource(
         }
     }
 
+    suspend fun addChat(userId: String, chatId: String): Result<UserRemote> {
+        return try {
+            if (db.collection(USERS_PATH).document(userId).get().await().exists()) {
+                db.collection(USERS_PATH).document(userId).update(CHATS_PATH, FieldValue.arrayUnion(chatId))
+
+                getUser(userId = userId)
+            } else {
+                Result.failure(IOException())
+            }
+        } catch (e: Exception) {
+            Result.failure(IOException())
+        }
+    }
+
     suspend fun deleteUser(): Result<Unit> {
         return when(val id = auth.currentUser?.uid) {
             null -> {

@@ -74,7 +74,7 @@ fun ProfilePane(
     isEditable: Boolean,
     uiState: ProfileUiState,
     onEditProfile: () -> Unit,
-    onCreateChat: () -> Unit,
+    onCreateChat: (userId: String) -> Unit,
     modifier: Modifier = Modifier,
 ) {
     Scaffold(
@@ -112,7 +112,7 @@ fun ProfilePane(
                                 )
                             }
                         } else {
-                            IconButton(onClick = onCreateChat) {
+                            IconButton(onClick = { onCreateChat(uiState.currentUser.id) }) {
                                 Icon(
                                     painter = painterResource(id = R.drawable.add_to_chat),
                                     contentDescription = null,

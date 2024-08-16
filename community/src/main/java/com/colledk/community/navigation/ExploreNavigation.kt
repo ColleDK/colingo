@@ -11,7 +11,6 @@ import androidx.navigation.compose.composable
 import androidx.paging.compose.collectAsLazyPagingItems
 import com.colledk.community.ui.ExploreViewModel
 import com.colledk.community.ui.compose.ExplorePane
-import timber.log.Timber
 
 const val explorePaneRoute = "explorepage_route"
 
@@ -31,7 +30,8 @@ fun NavGraphBuilder.explorePane() {
             onCreateAiChat = viewModel::createAiChat,
             selectFilters = viewModel::updateFilters,
             currentFilters = filters,
-            userLanguages = currentUser?.languages?.map { it.language.language }.orEmpty()
+            userLanguages = currentUser?.languages?.map { it.language.language }.orEmpty(),
+            onCreateChat = viewModel::createChat
         )
     }
 }

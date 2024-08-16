@@ -90,26 +90,24 @@ class ChatRepositoryImpl(
         } else {
             remoteDataSource.createChat(
                 ChatRemote(
-                    id = "", // Empty id, will be updated after creating the chat
                     userIds = userIds,
                     messages = emptyList()
                 )
-            ).map {
-                it.mapToDomain(users)
+            ).map { chat ->
+                users.forEach {
+                    userRepository.addChat(userId = it.id, chatId = chat.id)
+                }
+                chat.mapToDomain(users)
             }
         }
     }
 
-    override suspend fun updateChat(id: String, message: Message): Result<Chat> =
-        withContext(dispatcher) {
-            val chat = remoteDataSource.getChat(id).getOrThrow()
-            val updatedChat =
-                chat.copy(messages = listOf(*chat.messages.toTypedArray(), message.mapToRemote()))
-            remoteDataSource.updateChat(updatedChat).map {
-                val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
-                it.mapToDomain(users = users)
-            }
+    override suspend fun addMessage(id: String, message: Message): Result<Chat> = withContext(dispatcher) {
+        remoteDataSource.addMessage(id = id, message.mapToRemote()).map {
+            val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
+            it.mapToDomain(users = users)
         }
+    }
 
     override suspend fun deleteChat(id: String): Result<Unit> {
         TODO("Not yet implemented")

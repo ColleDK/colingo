@@ -37,7 +37,6 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.ListItem
-import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
@@ -53,7 +52,6 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
@@ -65,7 +63,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.DefaultAlpha
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -84,7 +81,6 @@ import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.User
 import kotlinx.coroutines.launch
-import timber.log.Timber
 import java.util.Locale
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
@@ -94,6 +90,7 @@ internal fun ExplorePane(
     currentFilters: List<String>,
     users: LazyPagingItems<User>,
     onCreateAiChat: (ai: AiItem) -> Unit,
+    onCreateChat: (userId: String) -> Unit,
     selectFilters: (codes: List<String>) -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -216,7 +213,7 @@ internal fun ExplorePane(
                         isEditable = false,
                         uiState = uiState,
                         onEditProfile = {},
-                        onCreateChat = {},
+                        onCreateChat = onCreateChat,
                         modifier = Modifier.fillMaxSize()
                     )
                 }

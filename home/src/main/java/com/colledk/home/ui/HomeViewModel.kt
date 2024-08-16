@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
+import com.colledk.chat.domain.usecase.CreateChatUseCase
 import com.colledk.home.domain.model.Post
 import com.colledk.home.domain.pagination.HomePagingSource
 import com.colledk.home.domain.usecase.CreatePostUseCase
@@ -15,6 +16,7 @@ import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.colledk.user.domain.usecase.GetUserUseCase
+import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query.Direction
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -25,17 +27,20 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import org.joda.time.DateTime
+import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
 class HomeViewModel @Inject constructor(
     private val db: FirebaseFirestore,
+    private val auth: FirebaseAuth,
     private val getUserUseCase: GetUserUseCase,
     private val createPostUseCase: CreatePostUseCase,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val likePostUseCase: LikePostUseCase,
     private val removePostLikeUseCase: RemovePostLikeUseCase,
-    private val formatNumberUseCase: FormatNumberUseCase
+    private val formatNumberUseCase: FormatNumberUseCase,
+    private val createChatUseCase: CreateChatUseCase
 ) : ViewModel() {
     val posts = Pager(
         PagingConfig(pageSize = HomePagingSource.PAGE_SIZE)
@@ -104,6 +109,16 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch {
             removePostLikeUseCase(postId = post.id, userId = userId).onFailure {
                 _error.trySend(it)
+            }
+        }
+    }
+
+    fun createChat(user: String) {
+        viewModelScope.launch {
+            createChatUseCase(userIds = listOfNotNull(user, auth.currentUser?.uid)).onSuccess {
+                Timber.d("Created chat ${it.id}")
+            }.onFailure {
+                Timber.e("Failed to create chat $it")
             }
         }
     }
