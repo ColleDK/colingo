@@ -301,7 +301,7 @@ private fun ChatItem(
                     .clip(CircleShape)
                     .background(MaterialTheme.colorScheme.onSecondaryContainer)
             ) {
-                latestSender?.profilePictures?.firstOrNull().let {
+                otherUser.profilePictures.firstOrNull().let {
                     AsyncImage(
                         model = it,
                         contentDescription = null,

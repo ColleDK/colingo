@@ -71,6 +71,7 @@ fun NavGraphBuilder.homePane() {
                     onCreatePost = viewModel::createPost,
                     onSort = viewModel::updateSorting,
                     formatNumber = viewModel::formatNumber,
+                    onCreateChat = viewModel::createChat,
                     modifier = Modifier.padding(padding)
                 )
             }

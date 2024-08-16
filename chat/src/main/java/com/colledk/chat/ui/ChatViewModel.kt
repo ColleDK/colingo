@@ -12,8 +12,8 @@ import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.chat.domain.usecase.SendMessageUseCase
 import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
-import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.chat.ui.uistates.ChatUiState
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
@@ -34,7 +34,7 @@ import javax.inject.Inject
 class ChatViewModel @Inject constructor(
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val getChatsUseCase: GetChatsUseCase,
-    private val updateChatUseCase: UpdateChatUseCase,
+    private val sendMessageUseCase: SendMessageUseCase,
     private val getAiChatsUseCase: GetAiChatsUseCase,
     private val updateAiChatUseCase: UpdateAiChatUseCase,
     private val openAI: OpenAI
@@ -77,9 +77,9 @@ class ChatViewModel @Inject constructor(
 
     fun sendMessage(chatId: String, message: String, user: User) {
         viewModelScope.launch {
-            updateChatUseCase(
+            sendMessageUseCase(
                 id = chatId,
-                newMessage = Message(
+                message = Message(
                     id = UUID.randomUUID().toString(),
                     sender = user,
                     content = message,

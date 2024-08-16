@@ -9,6 +9,7 @@ import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.chat.ChatRole
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
+import com.colledk.chat.domain.usecase.CreateChatUseCase
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
@@ -29,7 +30,8 @@ class ExploreViewModel @Inject constructor(
     private val auth: FirebaseAuth,
     private val createAiChatUseCase: CreateAiChatUseCase,
     private val addAiChatUseCase: AddAiChatUseCase,
-    private val getCurrentUserUseCase: GetCurrentUserUseCase
+    private val getCurrentUserUseCase: GetCurrentUserUseCase,
+    private val createChatUseCase: CreateChatUseCase
 ) : ViewModel() {
     private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
     val filters: StateFlow<List<String>> = _filters
@@ -82,6 +84,16 @@ class ExploreViewModel @Inject constructor(
                 }.onFailure {
                     Timber.d(it)
                 }
+            }
+        }
+    }
+
+    fun createChat(user: String) {
+        viewModelScope.launch {
+            createChatUseCase(userIds = listOfNotNull(user, auth.currentUser?.uid)).onSuccess {
+                Timber.d("Created chat ${it.id}")
+            }.onFailure {
+                Timber.e("Failed to create chat $it")
             }
         }
     }

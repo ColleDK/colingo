@@ -2,7 +2,12 @@ package com.colledk.chat.data.remote
 
 import com.colledk.chat.data.remote.model.AiChatRemote
 import com.colledk.chat.data.remote.model.ChatRemote
+import com.colledk.chat.data.remote.model.MessageRemote
+import com.colledk.chat.domain.model.Message
+import com.colledk.user.data.remote.UserRemoteDataSource.Companion.CHATS_PATH
+import com.colledk.user.data.remote.UserRemoteDataSource.Companion.USERS_PATH
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
@@ -104,8 +109,6 @@ class ChatRemoteDataSource(
         try {
             // Create a chat
             val chatId = db.collection(CHAT_PATH).add(chat).await().id
-            // Update the id in the data
-            db.collection(CHAT_PATH).document(chatId).set(chat.copy(id = chatId))
             return getChat(chatId = chatId)
         } catch (e: Exception) {
             return Result.failure(e)
@@ -130,8 +133,18 @@ class ChatRemoteDataSource(
         }
     }
 
+    suspend fun addMessage(id: String, message: MessageRemote): Result<ChatRemote> {
+        return try {
+            db.collection(CHAT_PATH).document(id).update(MESSAGES_PATH, FieldValue.arrayUnion(message))
+            getChat(chatId = id)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     companion object {
         const val CHAT_PATH = "chats"
         const val AI_CHAT_PATH = "ai_chats"
+        const val MESSAGES_PATH = "messages"
     }
 }

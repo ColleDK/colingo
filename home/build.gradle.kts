@@ -65,6 +65,7 @@ dependencies {
     // Hilt
     implementation(libs.hilt.android)
     implementation(libs.play.services.location)
+    implementation(project(":chat"))
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 

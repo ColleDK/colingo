@@ -4,12 +4,13 @@ import com.colledk.chat.data.remote.ChatRemoteDataSource
 import com.colledk.chat.data.remote.repository.ChatRepositoryImpl
 import com.colledk.chat.domain.repository.ChatRepository
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
+import com.colledk.chat.domain.usecase.CreateChatUseCase
 import com.colledk.chat.domain.usecase.GetAiChatUseCase
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
+import com.colledk.chat.domain.usecase.SendMessageUseCase
 import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
-import com.colledk.chat.domain.usecase.UpdateChatUseCase
 import com.colledk.user.domain.repository.UserRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -52,10 +53,10 @@ class ChatModule {
     }
 
     @Provides
-    fun providesUpdateChatUseCase(
+    fun providesSendMessageUseCase(
         repository: ChatRepository
-    ): UpdateChatUseCase {
-        return UpdateChatUseCase(repository = repository)
+    ): SendMessageUseCase {
+        return SendMessageUseCase(repository = repository)
     }
 
     @Provides
@@ -98,5 +99,12 @@ class ChatModule {
         repository: ChatRepository
     ): UpdateAiChatUseCase {
         return UpdateAiChatUseCase(repository = repository)
+    }
+
+    @Provides
+    fun providesCreateChatUseCase(
+        repository: ChatRepository
+    ): CreateChatUseCase {
+        return CreateChatUseCase(repository = repository)
     }
 }

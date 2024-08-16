@@ -57,6 +57,10 @@ class UserRepositoryImpl(
         }
     }
 
+    override suspend fun addChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
+        remoteDataSource.addChat(userId, chatId).map { it.mapToDomain() }
+    }
+
     override suspend fun deleteUser(): Result<Unit> = withContext(dispatcher) {
         remoteDataSource.deleteUser()
     }
