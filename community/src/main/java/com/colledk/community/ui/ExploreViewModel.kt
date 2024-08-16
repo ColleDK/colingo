@@ -12,22 +12,36 @@ import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Query.Direction
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
 class ExploreViewModel @Inject constructor(
-    private val userPagingSource: UserPagingSource,
+    private val db: FirebaseFirestore,
+    private val auth: FirebaseAuth,
     private val createAiChatUseCase: CreateAiChatUseCase,
-    private val addAiChatUseCase: AddAiChatUseCase,
-    private val auth: FirebaseAuth
+    private val addAiChatUseCase: AddAiChatUseCase
 ) : ViewModel() {
+    private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
+    val filters: StateFlow<List<String>> = _filters
+
     val users = Pager(
         PagingConfig(pageSize = UserPagingSource.PAGE_SIZE)
     ) {
-        userPagingSource
+        UserPagingSource(
+            db = db,
+            auth = auth
+        ).also {
+            if (_filters.value.isNotEmpty()) {
+                it.updateFilter(codes = _filters.value)
+            }
+        }
     }.flow.cachedIn(viewModelScope)
 
     fun createAiChat(ai: AiItem) {
@@ -52,5 +66,9 @@ class ExploreViewModel @Inject constructor(
                 }
             }
         }
+    }
+
+    fun updateFilters(codes: List<String>) {
+        _filters.value = codes
     }
 }
