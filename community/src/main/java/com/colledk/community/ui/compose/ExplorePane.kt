@@ -4,6 +4,7 @@ import android.net.Uri
 import androidx.activity.compose.BackHandler
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -19,34 +21,49 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.ListItem
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SheetState
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.DefaultAlpha
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -65,13 +82,16 @@ import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.LanguageProficiency
 import com.colledk.user.domain.model.User
 import kotlinx.coroutines.launch
+import timber.log.Timber
 import java.util.Locale
 
-@OptIn(ExperimentalMaterial3AdaptiveApi::class)
+@OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 internal fun ExplorePane(
+    currentFilters: List<String>,
     users: LazyPagingItems<User>,
     onCreateAiChat: (ai: AiItem) -> Unit,
+    selectFilters: (codes: List<String>) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val navigator = rememberListDetailPaneScaffoldNavigator<User>()
@@ -80,6 +100,12 @@ internal fun ExplorePane(
         navigator.navigateBack()
     }
 
+    var showBottomSheet by remember {
+        mutableStateOf(false)
+    }
+
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+
     ListDetailPaneScaffold(
         modifier = modifier,
         directive = navigator.scaffoldDirective,
@@ -87,7 +113,7 @@ internal fun ExplorePane(
         listPane = {
             Scaffold(
                 topBar = {
-                    ExploreTopBar(onSettingsClicked = {  })
+                    ExploreTopBar(onSettingsClicked = { showBottomSheet = !showBottomSheet })
                 }
             ) { padding ->
                 AnimatedPane {
@@ -140,13 +166,37 @@ internal fun ExplorePane(
                                         }
                                     )
                                 }
+
                                 1 -> {
-                                    ChatBotsPane(onCreateAiChat = onCreateAiChat, modifier = Modifier.fillMaxSize())
+                                    ChatBotsPane(
+                                        onCreateAiChat = onCreateAiChat,
+                                        modifier = Modifier.fillMaxSize()
+                                    )
                                 }
                             }
                         }
                     }
                 }
+            }
+
+            if (showBottomSheet) {
+                val filters = remember(currentFilters) {
+                    mutableStateListOf(*currentFilters.toTypedArray())
+                }
+
+                SelectFiltersBottomSheet(
+                    currentFilters = filters,
+                    sheetState = sheetState,
+                    onDismiss = {
+                        showBottomSheet = false
+                        selectFilters(filters)
+                    },
+                    onSelectFilter = {
+                        if (filters.contains(it)) filters.remove(it) else filters.add(it)
+                    },
+                    clearFilters = filters::clear,
+                    modifier = Modifier.fillMaxWidth()
+                )
             }
         },
         detailPane = {
@@ -217,16 +267,13 @@ private fun ExplorePaneContent(
             contentPadding = PaddingValues(24.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            items(users.itemCount) {
-                val user by remember {
-                    mutableStateOf(users[it])
-                }
-                user?.let {
+            items(users.itemCount, key = { users[it]?.id.orEmpty() }) {
+                users[it]?.let { user ->
                     UserItem(
-                        user = it,
+                        user = user,
                         modifier = Modifier.fillParentMaxWidth()
                     ) {
-                        onUserClicked(it)
+                        onUserClicked(user)
                     }
                 }
             }
@@ -426,4 +473,89 @@ private fun ExploreTopBar(
         },
         modifier = modifier
     )
+}
+
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalFoundationApi::class)
+@Composable
+private fun SelectFiltersBottomSheet(
+    currentFilters: List<String>,
+    sheetState: SheetState,
+    onDismiss: () -> Unit,
+    onSelectFilter: (code: String) -> Unit,
+    clearFilters: () -> Unit,
+    modifier: Modifier = Modifier,
+    limit: Int = 20
+) {
+    ModalBottomSheet(
+        sheetState = sheetState,
+        modifier = modifier,
+        onDismissRequest = onDismiss
+    ) {
+        val allLanguages by remember {
+            derivedStateOf {
+                Locale.getAvailableLocales()
+                    .filter { it.displayLanguage.isNotBlank() }
+                    .distinctBy { it.displayLanguage }.sortedBy { it.displayLanguage }
+                    .groupBy { it.displayLanguage.first() }
+            }
+        }
+
+        Column(
+            Modifier.padding(horizontal = 24.dp)
+        ) {
+            Text(text = "Choose up to $limit languages you want to see fluent speakers from!")
+            if (currentFilters.isNotEmpty()) {
+                Spacer(modifier = Modifier.height(4.dp))
+                Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                    Text(text = "${currentFilters.size}/$limit selected", fontWeight = FontWeight.Bold)
+                    TextButton(onClick = clearFilters) {
+                        Text(text = "Clear filters")
+                    }
+                }
+                Spacer(modifier = Modifier.height(4.dp))
+            }
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                // TODO Add user languages to the top
+                allLanguages.forEach { (startLetter, locales) ->
+                    stickyHeader {
+                        Surface(
+                            modifier = Modifier.fillParentMaxWidth(),
+                            color = MaterialTheme.colorScheme.surfaceContainerLow
+                        ) {
+                            Text(text = "$startLetter", fontWeight = FontWeight.Bold)
+                        }
+                    }
+                    items(locales) { locale ->
+                        val isSelected by remember {
+                            derivedStateOf { currentFilters.contains(locale.language) }
+                        }
+
+                        ListItem(
+                            headlineContent = {
+                                Text(text = locale.displayLanguage)
+                            },
+                            leadingContent = {
+                                Checkbox(
+                                    checked = isSelected,
+                                    onCheckedChange = null
+                                )
+                            },
+                            modifier = Modifier
+                                .alpha(if (currentFilters.size < limit || isSelected) 1f else 0.38f)
+                                .selectable(
+                                    selected = isSelected,
+                                    enabled = currentFilters.size < limit || isSelected
+                                ) {
+                                    onSelectFilter(locale.language)
+                                }
+                        )
+                    }
+                }
+            }
+        }
+    }
 }
