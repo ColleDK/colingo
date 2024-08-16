@@ -20,6 +20,7 @@ fun NavGraphBuilder.explorePane() {
         val viewModel: ExploreViewModel = hiltViewModel()
         val users = viewModel.users.collectAsLazyPagingItems()
         val filters by viewModel.filters.collectAsState()
+        val currentUser by viewModel.currentUser.collectAsState()
 
         LaunchedEffect(key1 = filters) {
             users.refresh()
@@ -29,7 +30,8 @@ fun NavGraphBuilder.explorePane() {
             users = users,
             onCreateAiChat = viewModel::createAiChat,
             selectFilters = viewModel::updateFilters,
-            currentFilters = filters
+            currentFilters = filters,
+            userLanguages = currentUser?.languages?.map { it.language.language }.orEmpty()
         )
     }
 }

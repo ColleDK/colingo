@@ -9,8 +9,10 @@ import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.chat.ChatRole
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
+import com.colledk.user.domain.model.User
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
+import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query.Direction
@@ -26,10 +28,14 @@ class ExploreViewModel @Inject constructor(
     private val db: FirebaseFirestore,
     private val auth: FirebaseAuth,
     private val createAiChatUseCase: CreateAiChatUseCase,
-    private val addAiChatUseCase: AddAiChatUseCase
+    private val addAiChatUseCase: AddAiChatUseCase,
+    private val getCurrentUserUseCase: GetCurrentUserUseCase
 ) : ViewModel() {
     private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
     val filters: StateFlow<List<String>> = _filters
+
+    private val _currentUser: MutableStateFlow<User?> = MutableStateFlow(null)
+    val currentUser: StateFlow<User?> = _currentUser
 
     val users = Pager(
         PagingConfig(pageSize = UserPagingSource.PAGE_SIZE)
@@ -43,6 +49,18 @@ class ExploreViewModel @Inject constructor(
             }
         }
     }.flow.cachedIn(viewModelScope)
+
+    init {
+        getUser()
+    }
+
+    private fun getUser() {
+        viewModelScope.launch {
+            getCurrentUserUseCase().onSuccess {
+                _currentUser.value = it
+            }
+        }
+    }
 
     fun createAiChat(ai: AiItem) {
         viewModelScope.launch {
