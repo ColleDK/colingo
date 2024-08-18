@@ -40,10 +40,6 @@ internal fun ColingoApp(
         )
     }
 
-    LaunchedEffect(key1 = currentDestination) {
-        Timber.d("Switching current destination $currentDestination")
-    }
-
     if (currentDestination != null) {
         NavigationSuiteScaffold(
             navigationSuiteItems = {

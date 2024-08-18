@@ -74,7 +74,6 @@ data class ColingoAppState(
                 lastDestination
             }
             else -> {
-                Timber.d("Current destination is $currentDestination")
                 null
             }
         }
