@@ -12,10 +12,8 @@ import androidx.paging.compose.collectAsLazyPagingItems
 import com.colledk.community.ui.ExploreViewModel
 import com.colledk.community.ui.compose.ExplorePane
 
-const val explorePaneRoute = "explorepage_route"
-
 fun NavGraphBuilder.explorePane() {
-    composable(route = explorePaneRoute) {
+    composable<Community> {
         val viewModel: ExploreViewModel = hiltViewModel()
         val users = viewModel.users.collectAsLazyPagingItems()
         val filters by viewModel.filters.collectAsState()
@@ -37,5 +35,5 @@ fun NavGraphBuilder.explorePane() {
 }
 
 fun NavController.navigateToExplorePane(navOptions: NavOptions? = null) {
-    this.navigate(route = explorePaneRoute, navOptions = navOptions)
+    this.navigate(route = Community, navOptions = navOptions)
 }

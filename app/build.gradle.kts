@@ -8,6 +8,7 @@ plugins {
     id(libs.plugins.android.library.get().pluginId) apply false
     id(libs.plugins.kotlin.parcelize.get().pluginId)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlin.serializable)
 }
 
 android {
@@ -65,6 +66,7 @@ dependencies {
     implementation(libs.androidx.splashscreen)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.datastore)
+    implementation(libs.kotlin.serialization.core)
 
     // Internal modules
     implementation(project(":onboarding"))

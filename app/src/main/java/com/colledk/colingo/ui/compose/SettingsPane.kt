@@ -91,9 +91,7 @@ fun SettingsPane(
                         TopSetting.RATE_THE_APP -> TODO()
                         TopSetting.REPORT_BUG -> TODO()
                         TopSetting.LOG_OUT -> {
-                            LaunchedEffect(key1 = Unit) {
-                                onLogOut()
-                            }
+                            onLogOut()
                         }
                     }
                 }

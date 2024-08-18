@@ -11,47 +11,66 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navOptions
 import com.colledk.chat.navigation.chatPane
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.SettingsViewModel
 import com.colledk.colingo.ui.compose.SettingsPane
 import com.colledk.community.navigation.explorePane
 import com.colledk.home.navigation.homePane
+import com.colledk.onboarding.navigation.Onboarding
 import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
-import com.colledk.onboarding.navigation.onboardingGraphRoute
 import com.colledk.profile.navigation.profilePane
 import com.colledk.profile.navigation.profileScreen
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-const val settingsPaneRoute = "settingspage_route"
-
 fun NavGraphBuilder.settingsPane(onLogOut: () -> Unit) {
-    composable(route = settingsPaneRoute) {
+    composable<Settings> {
         val viewModel: SettingsViewModel = hiltViewModel()
         SettingsPane(onLogOut = onLogOut, onSwitchLanguage = viewModel::switchLanguages)
     }
 }
 
 fun NavController.navigateToSettingsPane(navOptions: NavOptions? = null) {
-    this.navigate(route = settingsPaneRoute, navOptions = navOptions)
+    this.navigate(route = Settings, navOptions = navOptions)
 }
 
 @Composable
 fun ColingoNavHost(
     appState: ColingoAppState,
-    startDestination: String = onboardingGraphRoute
+    startDestination: Any = Onboarding
 ) {
     val navController = appState.navController
     NavHost(
         modifier = Modifier.fillMaxSize(),
         navController = navController,
         startDestination = startDestination,
-        enterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(700)) },
-        exitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(700)) },
-        popEnterTransition = { slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) },
-        popExitTransition = { slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(700)) }
+        enterTransition = {
+            slideIntoContainer(
+                AnimatedContentTransitionScope.SlideDirection.Start,
+                tween(700)
+            )
+        },
+        exitTransition = {
+            slideOutOfContainer(
+                AnimatedContentTransitionScope.SlideDirection.Start,
+                tween(700)
+            )
+        },
+        popEnterTransition = {
+            slideIntoContainer(
+                AnimatedContentTransitionScope.SlideDirection.End,
+                tween(700)
+            )
+        },
+        popExitTransition = {
+            slideOutOfContainer(
+                AnimatedContentTransitionScope.SlideDirection.End,
+                tween(700)
+            )
+        }
     ) {
         onboardingGraph(navHostController = navController) {
             appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
@@ -62,7 +81,13 @@ fun ColingoNavHost(
         profilePane()
         profileScreen()
         settingsPane {
-            navController.navigateToOnboarding(/* TODO Pop backstack */).also {
+            navController.navigateToOnboarding(
+                navOptions = navOptions {
+                    popUpTo(navController.graph.id) {
+                        inclusive = true
+                    }
+                }
+            ).also {
                 Firebase.auth.signOut()
             }
         }

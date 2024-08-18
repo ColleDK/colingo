@@ -4,25 +4,28 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.remember
 import androidx.navigation.NavDestination
+import androidx.navigation.NavDestination.Companion.hasRoute
+import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navOptions
-import com.colledk.chat.navigation.chatPaneRoute
+import com.colledk.chat.navigation.Chat
 import com.colledk.chat.navigation.navigateToChat
+import com.colledk.colingo.ui.navigation.Settings
 import com.colledk.colingo.ui.navigation.TopLevelDestination
 import com.colledk.colingo.ui.navigation.navigateToSettingsPane
-import com.colledk.colingo.ui.navigation.settingsPaneRoute
-import com.colledk.community.navigation.explorePaneRoute
+import com.colledk.community.navigation.Community
 import com.colledk.community.navigation.navigateToExplorePane
-import com.colledk.home.navigation.homePaneRoute
+import com.colledk.home.navigation.Home
 import com.colledk.home.navigation.navigateToHomePane
+import com.colledk.profile.navigation.Profile
+import com.colledk.profile.navigation.UserProfile
 import com.colledk.profile.navigation.navigateToProfileScreen
-import com.colledk.profile.navigation.profilePaneRoute
-import com.colledk.profile.navigation.profileScreenRoute
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import timber.log.Timber
 
 @Composable
 fun rememberColingoAppState(
@@ -43,27 +46,43 @@ data class ColingoAppState(
     val currentDestination: NavDestination?
         @Composable get() = navController.currentBackStackEntryAsState().value?.destination
 
-    /**
-     * This does not work with nested graphs or safe-nav and should be rewritten
-     */
+    private var lastDestination: TopLevelDestination? = null
+
     val currentTopLevelDestination: TopLevelDestination?
-        @Composable get() = when (currentDestination?.route) {
-            homePaneRoute -> TopLevelDestination.HOME
-            explorePaneRoute -> TopLevelDestination.EXPLORE
-            chatPaneRoute -> TopLevelDestination.CHAT
-            profilePaneRoute, profileScreenRoute -> TopLevelDestination.PROFILE
-            settingsPaneRoute -> TopLevelDestination.SETTINGS
-            else -> null
+        @Composable get() = when {
+            currentDestination?.hierarchy?.any { it.hasRoute(Profile::class) || it.hasRoute(UserProfile::class) } == true -> {
+                lastDestination = TopLevelDestination.PROFILE
+                lastDestination
+            }
+            currentDestination?.hierarchy?.any { it.hasRoute(Home::class) } == true -> {
+                lastDestination = TopLevelDestination.HOME
+                lastDestination
+            }
+            currentDestination?.hierarchy?.any { it.hasRoute(Community::class) } == true -> {
+                lastDestination = TopLevelDestination.EXPLORE
+                lastDestination
+            }
+            currentDestination?.hierarchy?.any { it.hasRoute(Chat::class) } == true -> {
+                lastDestination = TopLevelDestination.CHAT
+                lastDestination
+            }
+            currentDestination?.hierarchy?.any { it.hasRoute(Settings::class) } == true -> {
+                lastDestination = TopLevelDestination.SETTINGS
+                lastDestination
+            }
+            currentDestination == null -> {
+                lastDestination
+            }
+            else -> {
+                null
+            }
         }
 
     val topLevelDestinations: List<TopLevelDestination> = TopLevelDestination.entries
 
-    /**
-     * This does not work with nested graphs and should be rewritten
-     */
     fun navigateToTopLevelDestination(topLevelDestination: TopLevelDestination) {
         val topLevelNavOptions = navOptions {
-            popUpTo(navController.graph.findStartDestination().id) {
+            popUpTo(navController.graph.id) {
                 saveState = true
             }
 
