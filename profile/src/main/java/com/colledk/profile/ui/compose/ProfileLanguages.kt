@@ -53,7 +53,7 @@ internal fun ProfileLanguages(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text(
-            text = "Languages",
+            text = stringResource(id = R.string.languages_title),
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier.fillMaxWidth()
@@ -64,6 +64,9 @@ internal fun ProfileLanguages(
                 canRemove = false,
                 modifier = Modifier.fillMaxWidth()
             )
+        }
+        if (languages.isEmpty()) {
+            Text(text = stringResource(id = R.string.languages_empty_title))
         }
     }
 }
@@ -87,7 +90,7 @@ internal fun EditProfileLanguages(
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             Text(
-                text = "Languages",
+                text = stringResource(id = R.string.languages_title),
                 style = MaterialTheme.typography.headlineMedium,
                 color = MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.fillMaxWidth()
@@ -179,7 +182,7 @@ private fun AddUserLanguage(modifier: Modifier = Modifier, onAddClick: () -> Uni
     ListItem(
         headlineContent = {
             Text(
-                text = "Add language",
+                text = stringResource(id = R.string.profile_add_language),
                 style = MaterialTheme.typography.bodyLarge,
                 fontStyle = FontStyle.Italic
             )
@@ -236,7 +239,7 @@ private fun SelectNewLanguage(
         title = {
             Box {
                 Text(
-                    text = selectedLanguage?.displayName ?: "select language",
+                    text = selectedLanguage?.displayName ?: stringResource(id = R.string.profile_select_language),
                     modifier = Modifier.clickable {
                         showLanguageMenu = true
                     }
@@ -276,7 +279,7 @@ private fun SelectNewLanguage(
             Box {
                 Text(
                     text = selectedProficiency?.name?.lowercase()?.capitalize(Locale.current)
-                        ?: "select proficiency",
+                        ?: stringResource(id = R.string.profile_select_proficiency),
                     modifier = Modifier.clickable {
                         showProficiencyMenu = true
                     }
@@ -314,7 +317,7 @@ private fun SelectNewLanguage(
         },
         dismissButton = {
             TextButton(onClick = onDismiss) {
-                Text(text = "Cancel")
+                Text(text = stringResource(id = R.string.add_language_cancel))
             }
         },
         confirmButton = {
@@ -329,7 +332,7 @@ private fun SelectNewLanguage(
                 },
                 enabled = selectedLanguage != null && selectedProficiency != null
             ) {
-                Text(text = "Select")
+                Text(text = stringResource(id = R.string.add_language_select))
             }
         }
     )

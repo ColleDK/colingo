@@ -146,10 +146,11 @@ fun ProfilePane(
                         )
                     }
                     item {
+                        val location = uiState.currentUser.location
                         ProfileDescription(
                             description = uiState.currentUser.description,
                             birthday = uiState.currentUser.birthday.toString(DateTimeFormat.longDate()),
-                            location = uiState.currentUser.location.toString(),
+                            location = if (location.isUnknown()) stringResource(id = R.string.location_empty_title) else location.toString(),
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .padding(horizontal = 24.dp)

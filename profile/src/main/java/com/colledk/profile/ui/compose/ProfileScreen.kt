@@ -15,13 +15,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.colledk.profile.R
 import com.colledk.profile.ui.EditProfileViewModel
 import com.colledk.profile.ui.ProfileViewModel
-import com.colledk.profile.ui.uistates.EditProfileUiState
 import com.colledk.profile.ui.uistates.ProfileUiState
 import com.colledk.user.domain.model.User
 
@@ -45,6 +45,7 @@ fun ProfileScreen(
         navigator.navigateBack()
     }
 
+    val successMessage = stringResource(id = R.string.profile_updated_success)
     LaunchedEffect(key1 = refreshPage) {
         if (refreshPage != null) {
             viewModel.getUser(userId = userId).also {
@@ -53,14 +54,14 @@ fun ProfileScreen(
                 } else {
                     navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, null)
                 }
-                snackbarHostState.showSnackbar("User updated!")
+                snackbarHostState.showSnackbar(successMessage)
             }
         }
     }
 
     LaunchedEffect(key1 = errors) {
         if (errors != null) {
-            snackbarHostState.showSnackbar(errors?.message ?: "")
+            snackbarHostState.showSnackbar(errors?.message.orEmpty())
         }
     }
 

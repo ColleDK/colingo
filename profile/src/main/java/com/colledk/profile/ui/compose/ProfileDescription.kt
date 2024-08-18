@@ -24,6 +24,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.profile.R
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
@@ -42,7 +43,7 @@ internal fun ProfileDescription(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text(
-            text = "Description",
+            text = stringResource(id = R.string.description_title),
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier.fillMaxWidth()
@@ -116,7 +117,7 @@ internal fun EditProfileDescription(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text(
-            text = "Description",
+            text = stringResource(id = R.string.description_title),
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier.fillMaxWidth()

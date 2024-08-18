@@ -47,7 +47,7 @@ internal fun ProfilePictures(
     onRemovePicture: (uri: Uri) -> Unit = {},
     onPictureSelected: (uri: Uri) -> Unit = {}
 ) {
-    val pagerState = rememberPagerState { if (isInEditMode) 5 else pictures.size }
+    val pagerState = rememberPagerState { if (isInEditMode) 5 else pictures.size.coerceAtLeast(1) }
     val scope = rememberCoroutineScope()
     val launcher =
         rememberLauncherForActivityResult(contract = ActivityResultContracts.PickVisualMedia()) { result ->
@@ -127,14 +127,20 @@ private fun Picture(
             }
         } ?: run {
             Icon(
-                painter = painterResource(id = R.drawable.add_picture),
+                painter = painterResource(id = if (isInEditMode) R.drawable.add_picture else R.drawable.question_mark),
                 contentDescription = null,
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(vertical = 24.dp)
-                    .clickable {
-                        onAddPictureClicked()
-                    },
+                    .then(
+                        if (isInEditMode) {
+                            Modifier.clickable {
+                                onAddPictureClicked()
+                            }
+                        } else {
+                            Modifier
+                        }
+                    ),
                 tint = MaterialTheme.colorScheme.onSecondaryContainer
             )
         }

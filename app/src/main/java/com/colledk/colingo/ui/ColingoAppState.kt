@@ -82,7 +82,7 @@ data class ColingoAppState(
 
     fun navigateToTopLevelDestination(topLevelDestination: TopLevelDestination) {
         val topLevelNavOptions = navOptions {
-            popUpTo(navController.graph.id) {
+            popUpTo(Home) {
                 saveState = true
             }
 

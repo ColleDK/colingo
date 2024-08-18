@@ -115,10 +115,11 @@ internal fun EditProfilePane(
                 }
             }
             item {
+                val location = uiState.user.location
                 EditProfileDescription(
                     description = uiState.user.description,
                     birthday = uiState.user.birthday.toString(DateTimeFormat.longDate()),
-                    location = uiState.user.location.toString(),
+                    location = if (location.isUnknown()) stringResource(id = R.string.location_empty_title) else location.toString(),
                     onChangeDescription = onEditDescription,
                     onChangeBirthday = { showDatePicker = true },
                     onChangeLocation = onUpdateLocation,
