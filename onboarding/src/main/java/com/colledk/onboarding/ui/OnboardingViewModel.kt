@@ -6,25 +6,32 @@ import androidx.lifecycle.viewModelScope
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
+import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
+import org.joda.time.DateTime
 import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
 class OnboardingViewModel @Inject constructor(
+    private val auth: FirebaseAuth,
     private val createUserUseCase: CreateUserUseCase,
     private val loginUseCase: LoginUseCase
 ) : ViewModel() {
 
-    private val _login: Channel<Unit> = Channel(Channel.BUFFERED)
-    val login: Flow<Unit> = _login.receiveAsFlow()
+    private val _login: Channel<Long> = Channel(Channel.BUFFERED)
+    val login: Flow<Long> = _login.receiveAsFlow()
 
-    private val _goToProfileSetup: Channel<Unit> = Channel(Channel.BUFFERED)
-    val goToProfileSetup: Flow<Unit> = _goToProfileSetup.receiveAsFlow()
+    private val _goToProfileSetup: Channel<Long> = Channel(Channel.BUFFERED)
+    val goToProfileSetup: Flow<Long> = _goToProfileSetup.receiveAsFlow()
+
+    private val _resetPasswordSuccess: Channel<Long> = Channel(Channel.BUFFERED)
+    val resetPasswordSuccess: Flow<Long> = _resetPasswordSuccess.receiveAsFlow()
 
     private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
     val error: Flow<Throwable> = _error.receiveAsFlow()
@@ -36,9 +43,20 @@ class OnboardingViewModel @Inject constructor(
     fun login(email: String, password: String) {
         viewModelScope.launch {
             loginUseCase(email, password).onSuccess {
-                _login.trySend(Unit)
+                _login.trySend(DateTime.now().millis)
             }.onFailure {
                 _error.trySend(it)
+            }
+        }
+    }
+
+    fun forgotPassword(email: String) {
+        viewModelScope.launch {
+            try {
+                auth.sendPasswordResetEmail(email).await()
+                _resetPasswordSuccess.trySend(DateTime.now().millis)
+            } catch (e: Exception) {
+
             }
         }
     }
@@ -50,7 +68,7 @@ class OnboardingViewModel @Inject constructor(
                 password = password,
                 user = User(name = name)
             ).onSuccess {
-                _goToProfileSetup.trySend(Unit)
+                _goToProfileSetup.trySend(DateTime.now().millis)
             }.onFailure {
                 _error.trySend(it)
             }

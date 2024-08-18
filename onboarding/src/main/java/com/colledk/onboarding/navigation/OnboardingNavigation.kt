@@ -6,6 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
+import androidx.navigation.navOptions
 import com.colledk.onboarding.ui.OnboardingPane
 import com.colledk.onboarding.ui.ProfileSetupPane
 
@@ -27,7 +28,13 @@ fun NavGraphBuilder.onboardingGraph(
         composable<Login> {
             OnboardingPane(
                 onGoToSetup = {
-                    navHostController.navigateToProfileSetup()
+                    navHostController.navigateToProfileSetup(
+                        navOptions = navOptions {
+                            popUpTo(navHostController.graph.id) {
+                                inclusive = true
+                            }
+                        }
+                    )
                 },
                 onGoToFrontpage = onFinishOnboarding
             )
