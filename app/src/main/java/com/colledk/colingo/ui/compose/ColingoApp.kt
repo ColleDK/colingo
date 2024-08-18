@@ -1,5 +1,6 @@
 package com.colledk.colingo.ui.compose
 
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
@@ -9,8 +10,11 @@ import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.movableContentOf
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.navigation.ColingoNavHost
@@ -48,8 +52,9 @@ internal fun ColingoApp(
                     item(
                         icon = {
                             Icon(
-                                imageVector = destination.icon,
-                                contentDescription = destination.iconDescription
+                                painter = painterResource(id = if (isSelected) destination.selectedIcon else destination.icon),
+                                contentDescription = destination.iconDescription,
+                                modifier = Modifier.size(24.dp)
                             )
                         },
                         label = { Text(text = stringResource(id = destination.titleText), fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal) },

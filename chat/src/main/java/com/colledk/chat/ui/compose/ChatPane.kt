@@ -164,7 +164,7 @@ private fun ChatPagerIndicators(
 ) {
     Row(modifier = modifier) {
         PagerIndicatorItem(
-            iconId = R.drawable.community,
+            iconId = R.drawable.community_users,
             titleId = R.string.members_page_title,
             isSelected = selectedIndex == 0,
             modifier = Modifier
@@ -210,7 +210,8 @@ private fun PagerIndicatorItem(
         Text(
             text = stringResource(id = titleId),
             color = color,
-            style = MaterialTheme.typography.labelMedium
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
         )
         if (isSelected) {
             HorizontalDivider(color = color, thickness = 3.dp)

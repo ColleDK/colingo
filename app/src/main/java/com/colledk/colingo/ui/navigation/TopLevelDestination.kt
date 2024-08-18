@@ -1,5 +1,6 @@
 package com.colledk.colingo.ui.navigation
 
+import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Chat
@@ -12,32 +13,38 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.colledk.colingo.R
 
 enum class TopLevelDestination(
-    val icon: ImageVector,
+    @DrawableRes val icon: Int,
+    @DrawableRes val selectedIcon: Int,
     val iconDescription: String,
     @StringRes val titleText: Int
 ) {
     HOME(
-        icon = Icons.Filled.Home,
+        icon = R.drawable.home,
+        selectedIcon = R.drawable.home_filled,
         iconDescription = "Homepage",
         titleText = R.string.destination_home_label
     ),
     EXPLORE(
-        icon = Icons.Filled.Search,
+        icon = R.drawable.community,
+        selectedIcon = R.drawable.community_filled,
         iconDescription = "Exploration",
         titleText = R.string.destination_explore_label
     ),
     CHAT(
-        icon = Icons.AutoMirrored.Filled.Chat,
+        icon = R.drawable.chat,
+        selectedIcon = R.drawable.chat_filled,
         iconDescription = "Chat",
         titleText = R.string.destination_chat_label
     ),
     PROFILE(
-        icon = Icons.Filled.Person,
+        icon = R.drawable.profile,
+        selectedIcon = R.drawable.profile_filled,
         iconDescription = "Profile",
         titleText = R.string.destination_profile_label
     ),
     SETTINGS(
-        icon = Icons.Filled.Settings,
+        icon = R.drawable.settings,
+        selectedIcon = R.drawable.settings_filled,
         iconDescription = "Settings",
         titleText = R.string.destination_settings_label
     )

@@ -25,6 +25,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
+import com.colledk.profile.R
 import com.colledk.user.domain.model.Topic
 
 @Composable
@@ -35,6 +36,9 @@ internal fun ProfileTopics(
     Topics(modifier = modifier) {
         topics.fastForEach { topic ->
             TopicItem(topic = topic, modifier = Modifier.fillMaxWidth())
+        }
+        if (topics.isEmpty()) {
+            Text(text = stringResource(id = R.string.topics_empty_title))
         }
     }
 }
@@ -104,7 +108,7 @@ private fun Topics(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         Text(
-            text = "Interests",
+            text = stringResource(id = R.string.topics_title),
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier.fillMaxWidth()
