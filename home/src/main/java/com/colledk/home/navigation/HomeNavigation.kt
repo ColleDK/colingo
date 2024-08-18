@@ -23,10 +23,8 @@ import com.colledk.home.ui.uistates.HomeUiState
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-const val homePaneRoute = "homepage_route"
-
 fun NavGraphBuilder.homePane() {
-    composable(route = homePaneRoute) {
+    composable<Home> {
         val viewModel: HomeViewModel = hiltViewModel()
         val posts = viewModel.posts.collectAsLazyPagingItems()
         val user by viewModel.currentUser.collectAsState()
@@ -80,5 +78,5 @@ fun NavGraphBuilder.homePane() {
 }
 
 fun NavController.navigateToHomePane(navOptions: NavOptions? = null) {
-    this.navigate(route = homePaneRoute, navOptions = navOptions)
+    this.navigate(route = Home, navOptions = navOptions)
 }

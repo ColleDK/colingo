@@ -6,6 +6,7 @@ plugins {
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.kotlin.parcelize.get().pluginId)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlin.serializable)
 }
 
 android {
@@ -46,6 +47,7 @@ dependencies {
     implementation(libs.joda.time)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.activity)
+    implementation(libs.kotlin.serialization.core)
 
     // Compose
     implementation(platform(libs.compose.bom))
@@ -61,11 +63,11 @@ dependencies {
     implementation(project(":theme"))
     implementation(project(":user"))
     implementation(project(":profile"))
+    implementation(project(":chat"))
 
     // Hilt
     implementation(libs.hilt.android)
     implementation(libs.play.services.location)
-    implementation(project(":chat"))
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
 

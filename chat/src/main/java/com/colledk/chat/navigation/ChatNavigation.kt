@@ -8,30 +8,12 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import com.colledk.chat.ui.compose.ChatScreen
 
-const val chatGraphRoute = "chat_graph"
-const val chatPaneRoute = "chat_route"
-private const val chatDetailPaneRoute = "chat_detail_route"
-
 fun NavController.navigateToChat(navOptions: NavOptions? = null) {
-    this.navigate(route = chatPaneRoute, navOptions = navOptions)
+    this.navigate(route = Chat, navOptions = navOptions)
 }
 
 fun NavGraphBuilder.chatPane() {
-    composable(chatPaneRoute) {
+    composable<Chat> {
         ChatScreen()
-    }
-}
-
-fun NavGraphBuilder.chatGraph(
-    navHostController: NavHostController
-) {
-    navigation(
-        startDestination = chatPaneRoute,
-        route = chatGraphRoute
-    ) {
-        composable(chatPaneRoute) {
-            ChatScreen()
-        }
-
     }
 }
