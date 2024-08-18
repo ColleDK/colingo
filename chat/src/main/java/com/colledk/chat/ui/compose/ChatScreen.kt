@@ -1,6 +1,11 @@
 package com.colledk.chat.ui.compose
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
@@ -16,6 +21,8 @@ import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.chat.ui.ChatViewModel
 import com.colledk.chat.ui.uistates.ChatDetailUiState
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
@@ -30,85 +37,100 @@ internal fun ChatScreen(
         navigator.navigateBack()
     }
 
-    ListDetailPaneScaffold(
+    val snackbarHostState = remember { SnackbarHostState() }
+    val error by viewModel.error.collectAsState(null)
+    LaunchedEffect(key1 = error) {
+        if (error != null) {
+            Timber.e(error)
+        }
+    }
+
+    Scaffold(
         modifier = modifier,
-        directive = navigator.scaffoldDirective,
-        value = navigator.scaffoldValue,
-        listPane = {
-            AnimatedPane {
-                val state by viewModel.uiState.collectAsState()
+        snackbarHost = {
+            SnackbarHost(hostState = snackbarHostState)
+        }
+    ) {
+        ListDetailPaneScaffold(
+            modifier = Modifier.fillMaxSize().padding(it),
+            directive = navigator.scaffoldDirective,
+            value = navigator.scaffoldValue,
+            listPane = {
+                AnimatedPane {
+                    val state by viewModel.uiState.collectAsState()
 
-                LaunchedEffect(key1 = Unit) {
-                    viewModel.getChats()
-                    viewModel.getAiChats()
-                }
-
-                ChatPane(
-                    state = state,
-                    onCreateNewChat = { TODO() },
-                    onChatSelected = { chat ->
-                        navigator.navigateTo(
-                            ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.MemberChatDestination(id = chat.id)
-                        )
-                    },
-                    onAiChatSelected = { chat ->
-                        navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.AiChatDestination(id = chat.id))
+                    LaunchedEffect(key1 = Unit) {
+                        viewModel.getChats()
+                        viewModel.getAiChats()
                     }
-                )
-            }
-        },
-        detailPane = {
-            AnimatedPane {
-                navigator.currentDestination?.content?.let { chat ->
-                    when(chat) {
-                        is ChatDetailDestination.MemberChatDestination -> {
-                            val chatId = chat.id
-                            val state by viewModel.uiState.collectAsState()
 
-                            val uiState: ChatDetailUiState? by remember(state) {
-                                derivedStateOf {
-                                    val currentChat = state.chats.firstOrNull { it.id == chatId }
-                                    val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
-                                    currentChat?.let {
-                                        otherUser?.let {
-                                            ChatDetailUiState(currentChat, otherUser)
+                    ChatPane(
+                        state = state,
+                        onCreateNewChat = { TODO() },
+                        onChatSelected = { chat ->
+                            navigator.navigateTo(
+                                ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.MemberChatDestination(id = chat.id)
+                            )
+                        },
+                        onAiChatSelected = { chat ->
+                            navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.AiChatDestination(id = chat.id))
+                        }
+                    )
+                }
+            },
+            detailPane = {
+                AnimatedPane {
+                    navigator.currentDestination?.content?.let { chat ->
+                        when(chat) {
+                            is ChatDetailDestination.MemberChatDestination -> {
+                                val chatId = chat.id
+                                val state by viewModel.uiState.collectAsState()
+
+                                val uiState: ChatDetailUiState? by remember(state) {
+                                    derivedStateOf {
+                                        val currentChat = state.chats.firstOrNull { it.id == chatId }
+                                        val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
+                                        currentChat?.let {
+                                            otherUser?.let {
+                                                ChatDetailUiState(currentChat, otherUser)
+                                            }
                                         }
                                     }
                                 }
-                            }
 
-                            uiState?.let {
-                                ChatDetailPane(it) { message ->
-                                    viewModel.sendMessage(
-                                        chatId = chatId,
-                                        message = message,
-                                        user = state.currentUser
-                                    )
+                                uiState?.let {
+                                    ChatDetailPane(it) { message ->
+                                        viewModel.sendMessage(
+                                            chatId = chatId,
+                                            message = message,
+                                            user = state.currentUser
+                                        )
+                                    }
                                 }
                             }
-                        }
-                        is ChatDetailDestination.AiChatDestination -> {
-                            val state by viewModel.uiState.collectAsState()
+                            is ChatDetailDestination.AiChatDestination -> {
+                                val state by viewModel.uiState.collectAsState()
 
-                            val currentChat by remember(state.aiChats) {
-                                derivedStateOf {
-                                    state.aiChats.first { it.id == chat.id }
+                                val currentChat by remember(state.aiChats) {
+                                    derivedStateOf {
+                                        state.aiChats.first { it.id == chat.id }
+                                    }
                                 }
+
+                                AiChatDetailPane(
+                                    chat = currentChat,
+                                    onSendMessage = {
+                                        viewModel.sendAiMessage(
+                                            chat = currentChat,
+                                            message = it
+                                        )
+                                    }
+                                )
                             }
-
-                            AiChatDetailPane(
-                                chat = currentChat,
-                                onSendMessage = {
-                                    viewModel.sendAiMessage(
-                                        chat = currentChat,
-                                        message = it
-                                    )
-                                }
-                            )
                         }
                     }
                 }
             }
-        }
-    )
+        )
+    }
 }

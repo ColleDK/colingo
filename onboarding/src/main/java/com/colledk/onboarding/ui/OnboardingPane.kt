@@ -3,9 +3,7 @@ package com.colledk.onboarding.ui
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -37,7 +35,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
@@ -45,7 +42,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.onboarding.R
-import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
@@ -58,10 +54,10 @@ fun OnboardingPane(
     val login by viewModel.login.collectAsState(null)
     val error by viewModel.error.collectAsState(null)
     val goToSetup by viewModel.goToProfileSetup.collectAsState(null)
+    val resetPassword by viewModel.resetPasswordSuccess.collectAsState(null)
 
     val snackbarHostState = remember { SnackbarHostState() }
 
-    // TODO fix from using unit to something that can be launched multiple times
     LaunchedEffect(key1 = login) {
         if (login != null) {
             onGoToFrontpage()
@@ -80,6 +76,13 @@ fun OnboardingPane(
                 error?.localizedMessage ?: "Something went wrong. Please try again"
             )
         }
+    }
+
+    LaunchedEffect(key1 = resetPassword) {
+        if (resetPassword != null) {
+            snackbarHostState.showSnackbar("An email has been sent to you with instructions on how to reset your password. Please check your spam-box if you cannot find it!")
+        }
+
     }
 
     val navigator = rememberListDetailPaneScaffoldNavigator<OnboardingDestination>()
@@ -122,9 +125,7 @@ fun OnboardingPane(
                                 ListDetailPaneScaffoldRole.Detail,
                                 OnboardingDestination.SIGN_UP
                             )
-                        },
-                        onGoToGoogle = { /*TODO*/ },
-                        onGoToFacebook = { /*TODO*/ }
+                        }
                     )
                 }
             },
@@ -152,7 +153,7 @@ fun OnboardingPane(
                         ) { padding ->
                             if (it == OnboardingDestination.LOG_IN) {
                                 LoginPane(
-                                    onForgotPassword = {},
+                                    onForgotPassword = viewModel::forgotPassword,
                                     onLogin = viewModel::login,
                                     onGoToSignup = {
                                         navigator.navigateTo(
@@ -188,8 +189,6 @@ fun OnboardingPane(
 private fun OnboardingContent(
     onGoToLogin: () -> Unit,
     onGoToSignup: () -> Unit,
-    onGoToGoogle: () -> Unit,
-    onGoToFacebook: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Column(
@@ -222,50 +221,16 @@ private fun OnboardingContent(
             modifier = Modifier.fillMaxWidth(.8f),
             onClick = onGoToSignup
         )
-        Spacer(modifier = Modifier.height(12.dp))
-        Row(
-            modifier = Modifier.fillMaxWidth(.8f),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            Spacer(
-                modifier = Modifier
-                    .height(1.dp)
-                    .weight(1f)
-                    .background(MaterialTheme.colorScheme.onPrimaryContainer)
-            )
-            Text(
-                text = stringResource(id = R.string.onboarding_other_title),
-                color = MaterialTheme.colorScheme.onPrimaryContainer,
-                style = MaterialTheme.typography.labelMedium
-            )
-            Spacer(
-                modifier = Modifier
-                    .height(1.dp)
-                    .weight(1f)
-                    .background(MaterialTheme.colorScheme.onPrimaryContainer)
-            )
-        }
-        Spacer(modifier = Modifier.height(12.dp))
-        OnboardingButton(
-            btnText = stringResource(id = R.string.onboarding_google_btn),
-            modifier = Modifier.fillMaxWidth(.8f),
-            onClick = onGoToGoogle
-        )
-        Spacer(modifier = Modifier.height(12.dp))
-        OnboardingButton(
-            btnText = stringResource(id = R.string.onboarding_facebook_btn),
-            modifier = Modifier.fillMaxWidth(.8f),
-            onClick = onGoToFacebook
-        )
         Spacer(modifier = Modifier.weight(1f))
         Spacer(modifier = Modifier.height(24.dp))
-        Text(
-            text = stringResource(id = R.string.onboarding_guest_btn),
-            style = MaterialTheme.typography.labelSmall,
-            color = MaterialTheme.colorScheme.onPrimaryContainer,
-            modifier = Modifier.alpha(.7f)
-        )
+//        TextButton(onClick = onAnonLogin) {
+//            Text(
+//                text = stringResource(id = R.string.onboarding_guest_btn),
+//                style = MaterialTheme.typography.labelSmall,
+//                color = MaterialTheme.colorScheme.onPrimaryContainer,
+//                modifier = Modifier.alpha(.7f)
+//            )
+//        }
     }
 }
 
