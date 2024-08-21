@@ -1,6 +1,7 @@
 package com.colledk.user.domain
 
 import android.content.Context
+import android.location.Address
 import android.location.Geocoder
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.util.Locale
@@ -12,4 +13,12 @@ class LocationHelper @Inject constructor(
     fun getGeocoder(): Geocoder {
         return Geocoder(context, Locale.getDefault())
     }
+}
+
+fun Address.isUnknown(): Boolean {
+    return countryName.isNullOrBlank() && locality.isNullOrBlank()
+}
+
+fun Address.toText(): String {
+    return "$countryName, $locality"
 }

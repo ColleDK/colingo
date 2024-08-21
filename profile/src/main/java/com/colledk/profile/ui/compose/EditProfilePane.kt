@@ -32,10 +32,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.EditProfileUiState
+import com.colledk.user.domain.isUnknown
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
-import com.colledk.user.domain.model.isUnknown
-import com.colledk.user.domain.model.toText
+import com.colledk.user.domain.toText
 import org.joda.time.format.DateTimeFormat
 
 @OptIn(ExperimentalMaterial3Api::class)

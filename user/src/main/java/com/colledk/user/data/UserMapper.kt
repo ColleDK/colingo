@@ -12,7 +12,6 @@ import com.colledk.user.data.remote.model.UserLanguageRemote
 import com.colledk.user.data.remote.model.UserRemote
 import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.LanguageProficiency
-import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
