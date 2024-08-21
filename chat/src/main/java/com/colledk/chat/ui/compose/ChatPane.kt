@@ -1,9 +1,9 @@
 package com.colledk.chat.ui.compose
 
+import android.location.Address
 import android.net.Uri
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -50,6 +50,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
@@ -62,7 +63,6 @@ import com.colledk.theme.ColingoTheme
 import com.colledk.theme.PreviewAnnotations
 import com.colledk.theme.debugPlaceholder
 import com.colledk.user.domain.model.Gender
-import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.User
 import kotlinx.coroutines.launch
 import org.joda.time.DateTime
@@ -354,7 +354,7 @@ private fun ChatPanePreview() {
                                 birthday = DateTime.now(),
                                 profilePictures = emptyList(),
                                 description = "",
-                                location = Location("", ""),
+                                address = Address(Locale.current.platformLocale),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
                                 chats = listOf("123")
@@ -365,7 +365,7 @@ private fun ChatPanePreview() {
                                 birthday = DateTime.now(),
                                 profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
                                 description = "",
-                                location = Location("", ""),
+                                address = Address(Locale.current.platformLocale),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
                                 chats = listOf("123")
@@ -380,7 +380,7 @@ private fun ChatPanePreview() {
                                     birthday = DateTime.now(),
                                     profilePictures = emptyList(),
                                     description = "",
-                                    location = Location("", ""),
+                                    address = Address(Locale.current.platformLocale),
                                     languages = emptyList(),
                                     gender = Gender.MALE,
                                     chats = listOf("123")
@@ -401,7 +401,7 @@ private fun ChatPanePreview() {
                                 birthday = DateTime.now(),
                                 profilePictures = emptyList(),
                                 description = "",
-                                location = Location("", ""),
+                                address = Address(Locale.current.platformLocale),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
                                 chats = listOf("123")
@@ -412,7 +412,7 @@ private fun ChatPanePreview() {
                                 birthday = DateTime.now(),
                                 profilePictures = listOf(Uri.parse("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg")),
                                 description = "",
-                                location = Location("", ""),
+                                address = Address(Locale.current.platformLocale),
                                 languages = emptyList(),
                                 gender = Gender.MALE,
                                 chats = listOf("123")
@@ -427,7 +427,7 @@ private fun ChatPanePreview() {
                                     birthday = DateTime.now(),
                                     profilePictures = emptyList(),
                                     description = "",
-                                    location = Location("", ""),
+                                    address = Address(Locale.current.platformLocale),
                                     languages = emptyList(),
                                     gender = Gender.MALE,
                                     chats = listOf("123")

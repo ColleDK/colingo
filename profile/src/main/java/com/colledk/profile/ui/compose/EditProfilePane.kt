@@ -32,11 +32,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.EditProfileUiState
+import com.colledk.user.domain.isUnknown
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
-import org.joda.time.DateTime
-import org.joda.time.Period
-import org.joda.time.PeriodType
+import com.colledk.user.domain.toText
 import org.joda.time.format.DateTimeFormat
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -115,11 +114,11 @@ internal fun EditProfilePane(
                 }
             }
             item {
-                val location = uiState.user.location
+                val address = uiState.user.address
                 EditProfileDescription(
                     description = uiState.user.description,
                     birthday = uiState.user.birthday.toString(DateTimeFormat.longDate()),
-                    location = if (location.isUnknown()) stringResource(id = R.string.location_empty_title) else location.toString(),
+                    location = if (address.isUnknown()) stringResource(id = R.string.location_empty_title) else address.toText(),
                     onChangeDescription = onEditDescription,
                     onChangeBirthday = { showDatePicker = true },
                     onChangeLocation = onUpdateLocation,

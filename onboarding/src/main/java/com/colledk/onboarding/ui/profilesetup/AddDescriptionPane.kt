@@ -1,5 +1,6 @@
 package com.colledk.onboarding.ui.profilesetup
 
+import android.location.Address
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.clickable
@@ -34,20 +35,16 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
-import com.colledk.user.domain.model.Location
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
-import org.joda.time.format.DateTimeFormatter
-import timber.log.Timber
-import java.time.LocalDate
 
 @Composable
 internal fun AddDescriptionPane(
     birthday: DateTime?,
-    location: Location?,
+    address: Address?,
     description: String,
     updateBirthday: (time: Long) -> Unit,
     getLocation: () -> Unit,
@@ -109,7 +106,7 @@ internal fun AddDescriptionPane(
             ListItem(
                 headlineContent = {
                     Text(
-                        text = location?.toString() ?: stringResource(id = R.string.add_description_location_hint),
+                        text = address?.toString() ?: stringResource(id = R.string.add_description_location_hint),
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },

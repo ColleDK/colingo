@@ -1,5 +1,6 @@
 package com.colledk.user.domain.pagination
 
+import android.location.Geocoder
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.colledk.user.data.mapToDomain
@@ -7,6 +8,7 @@ import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.data.remote.model.LanguageProficiencyRemote
 import com.colledk.user.data.remote.model.UserLanguageRemote
 import com.colledk.user.data.remote.model.UserRemote
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
 import com.google.firebase.auth.FirebaseAuth
@@ -19,7 +21,8 @@ import javax.inject.Inject
 
 class UserPagingSource @Inject constructor(
     private val db: FirebaseFirestore,
-    private val auth: FirebaseAuth
+    private val auth: FirebaseAuth,
+    private val locationHelper: LocationHelper
 ) : PagingSource<QuerySnapshot, User>() {
 
     private val _query = db.collection(UserRemoteDataSource.USERS_PATH)
@@ -39,7 +42,7 @@ class UserPagingSource @Inject constructor(
             val nextPage = query.startAfter(lastVisibleUser).get().await()
 
             LoadResult.Page(
-                data = currentPage.toObjects(UserRemote::class.java).filterNot { it.id == auth.currentUser?.uid}.map { it.mapToDomain() },
+                data = currentPage.toObjects(UserRemote::class.java).filterNot { it.id == auth.currentUser?.uid}.map { it.mapToDomain(locationHelper.getGeocoder()) },
                 prevKey = null,
                 nextKey = nextPage
             )
