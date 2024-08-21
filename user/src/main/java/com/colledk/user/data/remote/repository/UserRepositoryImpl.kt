@@ -1,19 +1,21 @@
 package com.colledk.user.data.remote.repository
 
+import android.location.Geocoder
 import android.net.Uri
 import com.colledk.user.data.mapToDomain
 import com.colledk.user.data.mapToRemote
 import com.colledk.user.data.remote.UserRemoteDataSource
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.repository.UserRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import okio.IOException
-import timber.log.Timber
 
 class UserRepositoryImpl(
     private val remoteDataSource: UserRemoteDataSource,
+    private val locationHelper: LocationHelper,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ): UserRepository {
     override suspend fun uploadProfilePicture(uri: Uri, userId: String): Result<Uri> = withContext(dispatcher) {
@@ -21,7 +23,7 @@ class UserRepositoryImpl(
     }
 
     override suspend fun addProfilePicture(picture: Uri): Result<User> = withContext(dispatcher) {
-        remoteDataSource.addProfilePicture(picture.toString()).map { it.mapToDomain() }
+        remoteDataSource.addProfilePicture(picture.toString()).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun deleteProfilePicture(picture: Uri): Result<Unit> = withContext(dispatcher) {
@@ -29,11 +31,11 @@ class UserRepositoryImpl(
     }
 
     override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
-        remoteDataSource.loginUser(email, password).map { it.mapToDomain() }
+        remoteDataSource.loginUser(email, password).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun getUser(userId: String): Result<User> = withContext(dispatcher) {
-        remoteDataSource.getUser(userId).map { it.mapToDomain() }
+        remoteDataSource.getUser(userId).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun createUser(email: String, password: String, user: User): Result<User> = withContext(dispatcher) {
@@ -41,11 +43,11 @@ class UserRepositoryImpl(
             email = email,
             password = password,
             user = user.mapToRemote()
-        ).map { it.mapToDomain() }
+        ).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun updateUser(user: User): Result<User> = withContext(dispatcher) {
-        remoteDataSource.updateUser(user.mapToRemote()).map { it.mapToDomain() }
+        remoteDataSource.updateUser(user.mapToRemote()).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun addAiChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
@@ -53,12 +55,12 @@ class UserRepositoryImpl(
         if (user == null) {
             Result.failure(IOException())
         } else {
-            remoteDataSource.addAiChat(chatId = chatId).map { it.mapToDomain() }
+            remoteDataSource.addAiChat(chatId = chatId).map { it.mapToDomain(locationHelper.getGeocoder()) }
         }
     }
 
     override suspend fun addChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
-        remoteDataSource.addChat(userId, chatId).map { it.mapToDomain() }
+        remoteDataSource.addChat(userId, chatId).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun deleteUser(): Result<Unit> = withContext(dispatcher) {

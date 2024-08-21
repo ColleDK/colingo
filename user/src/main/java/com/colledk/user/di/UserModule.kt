@@ -1,7 +1,10 @@
 package com.colledk.user.di
 
+import android.content.Context
+import android.location.Geocoder
 import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.data.remote.repository.UserRepositoryImpl
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.repository.UserRepository
 import com.colledk.user.domain.usecase.AddAiChatUseCase
@@ -22,6 +25,7 @@ import com.google.firebase.storage.FirebaseStorage
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
+import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
@@ -44,14 +48,27 @@ class UserModule {
     @Provides
     @Singleton
     fun providesUserRepository(
-        remoteDataSource: UserRemoteDataSource
+        remoteDataSource: UserRemoteDataSource,
+        locationHelper: LocationHelper
     ): UserRepository {
-        return UserRepositoryImpl(remoteDataSource = remoteDataSource)
+        return UserRepositoryImpl(remoteDataSource = remoteDataSource, locationHelper = locationHelper)
     }
 
     @Provides
-    fun providesUserPagingSource(): UserPagingSource {
-        return UserPagingSource(db = Firebase.firestore, auth = Firebase.auth)
+    fun providesUserPagingSource(
+        locationHelper: LocationHelper,
+        db: FirebaseFirestore,
+        auth: FirebaseAuth,
+    ): UserPagingSource {
+        return UserPagingSource(db = db, auth = auth, locationHelper = locationHelper)
+    }
+
+    @Provides
+    @Singleton
+    fun providesLocationHelper(
+        @ApplicationContext context: Context
+    ): LocationHelper {
+        return LocationHelper(context = context)
     }
 
     @Provides

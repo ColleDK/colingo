@@ -312,7 +312,7 @@ private fun ProfileSetupPage(
         ADD_DESCRIPTION -> {
             AddDescriptionPane(
                 birthday = descriptionUiState.birthday,
-                location = descriptionUiState.location,
+                address = descriptionUiState.address,
                 description = descriptionUiState.description,
                 updateBirthday = updateBirthday,
                 getLocation = getLocation,

@@ -1,5 +1,6 @@
 package com.colledk.community.ui
 
+import android.location.Geocoder
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
@@ -10,6 +11,7 @@ import com.aallam.openai.api.chat.ChatRole
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.chat.domain.usecase.CreateChatUseCase
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.pagination.UserPagingSource
 import com.colledk.user.domain.usecase.AddAiChatUseCase
@@ -31,7 +33,8 @@ class ExploreViewModel @Inject constructor(
     private val createAiChatUseCase: CreateAiChatUseCase,
     private val addAiChatUseCase: AddAiChatUseCase,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
-    private val createChatUseCase: CreateChatUseCase
+    private val createChatUseCase: CreateChatUseCase,
+    private val locationHelper: LocationHelper
 ) : ViewModel() {
     private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
     val filters: StateFlow<List<String>> = _filters
@@ -44,7 +47,8 @@ class ExploreViewModel @Inject constructor(
     ) {
         UserPagingSource(
             db = db,
-            auth = auth
+            auth = auth,
+            locationHelper = locationHelper
         ).also {
             if (_filters.value.isNotEmpty()) {
                 it.updateFilter(codes = _filters.value)

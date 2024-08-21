@@ -1,13 +1,14 @@
 package com.colledk.profile.ui
 
 import android.annotation.SuppressLint
+import android.location.Address
 import android.location.Geocoder
 import android.net.Uri
 import android.os.Build
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.colledk.profile.ui.uistates.EditProfileUiState
-import com.colledk.user.domain.model.Location
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
@@ -36,7 +37,7 @@ import javax.inject.Inject
 @HiltViewModel
 class EditProfileViewModel @Inject constructor(
     private val locationProviderClient: FusedLocationProviderClient,
-    private val geocoder: Geocoder,
+    private val locationHelper: LocationHelper,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val uploadProfilePicUseCase: UploadProfilePicUseCase,
     private val deleteProfilePictureUseCase: DeleteProfilePictureUseCase,
@@ -89,32 +90,22 @@ class EditProfileViewModel @Inject constructor(
             ).await()
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                geocoder.getFromLocation(
+                locationHelper.getGeocoder().getFromLocation(
                     location.latitude,
                     location.longitude,
                     1
                 ) {
                     it.firstOrNull()?.let { address ->
-                        updateUser(
-                            location = Location(
-                                country = address.countryName,
-                                city = address.locality
-                            )
-                        )
+                        updateUser(address = address)
                     }
                 }
             } else {
-                geocoder.getFromLocation(
+                locationHelper.getGeocoder().getFromLocation(
                     location.latitude,
                     location.longitude,
                     1
                 )?.firstOrNull()?.let { address ->
-                    updateUser(
-                        location = Location(
-                            country = address.countryName,
-                            city = address.locality
-                        )
-                    )
+                    updateUser(address = address)
                 }
             }
         }
@@ -150,7 +141,7 @@ class EditProfileViewModel @Inject constructor(
     private fun updateUser(
         name: String? = null,
         birthday: DateTime? = null,
-        location: Location? = null,
+        address: Address? = null,
         topics: List<Topic>? = null,
         languages: List<UserLanguage>? = null,
         description: String? = null,
@@ -161,7 +152,7 @@ class EditProfileViewModel @Inject constructor(
             currentUser.copy(
                 name = name ?: currentUser.name,
                 birthday = birthday ?: currentUser.birthday,
-                location = location ?: currentUser.location,
+                address = address ?: currentUser.address,
                 topics = topics ?: currentUser.topics,
                 languages = languages ?: currentUser.languages,
                 description = description ?: currentUser.description,

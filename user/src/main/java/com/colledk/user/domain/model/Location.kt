@@ -1,5 +1,6 @@
 package com.colledk.user.domain.model
 
+import android.location.Address
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
@@ -15,4 +16,12 @@ data class Location(
     override fun toString(): String {
         return "$country, $city"
     }
+}
+
+fun Address.isUnknown(): Boolean {
+    return countryName.isNullOrBlank() && locality.isNullOrBlank()
+}
+
+fun Address.toText(): String {
+    return "$countryName, $locality"
 }

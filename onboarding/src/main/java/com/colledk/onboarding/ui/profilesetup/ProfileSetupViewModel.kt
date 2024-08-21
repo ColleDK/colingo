@@ -1,6 +1,7 @@
 package com.colledk.onboarding.ui.profilesetup
 
 import android.annotation.SuppressLint
+import android.location.Address
 import android.location.Geocoder
 import android.net.Uri
 import android.os.Build
@@ -11,12 +12,11 @@ import com.colledk.onboarding.ui.profilesetup.uistates.GenderUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.LanguagesUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.ProfilePictureUiState
 import com.colledk.onboarding.ui.profilesetup.uistates.TopicsUiState
+import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.Gender
-import com.colledk.user.domain.model.Location
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
-import com.colledk.user.domain.usecase.GetUserUseCase
 import com.colledk.user.domain.usecase.UpdateUserUseCase
 import com.colledk.user.domain.usecase.UploadProfilePicUseCase
 import com.google.android.gms.location.FusedLocationProviderClient
@@ -31,12 +31,13 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import org.joda.time.DateTime
+import java.util.Locale
 import javax.inject.Inject
 
 @HiltViewModel
 class ProfileSetupViewModel @Inject constructor(
     private val locationProviderClient: FusedLocationProviderClient,
-    private val geocoder: Geocoder,
+    private val locationHelper: LocationHelper,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val updateUserUseCase: UpdateUserUseCase,
     private val uploadProfilePicUseCase: UploadProfilePicUseCase
@@ -79,7 +80,7 @@ class ProfileSetupViewModel @Inject constructor(
                     birthday = description.birthday ?: DateTime.now(),
                     profilePictures = listOfNotNull(profilePicture),
                     description = description.description,
-                    location = description.location ?: Location(),
+                    address = description.address ?: Address(Locale.getDefault()),
                     languages = languages.languages,
                     gender = gender.selectedGender ?: Gender.OTHER,
                     topics = topics.selectedTopics
@@ -113,33 +114,23 @@ class ProfileSetupViewModel @Inject constructor(
             ).await()
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                geocoder.getFromLocation(
+                locationHelper.getGeocoder().getFromLocation(
                     location.latitude,
                     location.longitude,
                     1
                 ) {
                     it.firstOrNull()?.let { address ->
-                        _descriptionState.value = _descriptionState.value.copy(
-                            location = Location(
-                                country = address.countryName,
-                                city = address.locality
-                            )
-                        )
+                        _descriptionState.value = _descriptionState.value.copy(address = address)
                     }
                 }
             } else {
-                geocoder.getFromLocation(
+                locationHelper.getGeocoder().getFromLocation(
                     location.latitude,
                     location.longitude,
                     1
                 )?.firstOrNull()?.let { address ->
                     _descriptionState.value =
-                        _descriptionState.value.copy(
-                            location = Location(
-                                country = address.countryName,
-                                city = address.locality
-                            )
-                        )
+                        _descriptionState.value.copy(address = address)
                 }
             }
         }

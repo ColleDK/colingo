@@ -1,9 +1,12 @@
 package com.colledk.user.data
 
+import android.location.Address
+import android.location.Geocoder
 import android.net.Uri
+import android.os.Build
 import com.colledk.user.data.remote.model.GenderRemote
 import com.colledk.user.data.remote.model.LanguageProficiencyRemote
-import com.colledk.user.data.remote.model.LocationRemote
+import com.colledk.user.data.remote.model.AddressRemote
 import com.colledk.user.data.remote.model.TopicRemote
 import com.colledk.user.data.remote.model.UserLanguageRemote
 import com.colledk.user.data.remote.model.UserRemote
@@ -23,7 +26,7 @@ fun User.mapToRemote(): UserRemote {
         birthday = birthday.millis,
         profilePictures = profilePictures.map { it.toString() },
         description = description,
-        location = location.mapToRemote(),
+        location = address.mapToRemote(),
         languages = languages.map { it.mapToRemote() },
         gender = gender.mapToRemote(),
         chats = chats,
@@ -36,10 +39,10 @@ fun Topic.mapToRemote(): TopicRemote {
     return TopicRemote(this.name)
 }
 
-internal fun Location.mapToRemote(): LocationRemote {
-    return LocationRemote(
-        country = country,
-        city = city
+internal fun Address.mapToRemote(): AddressRemote {
+    return AddressRemote(
+        longitude = longitude,
+        latitude = latitude
     )
 }
 
@@ -58,14 +61,14 @@ internal fun Gender.mapToRemote(): GenderRemote {
     return GenderRemote.valueOf(this.name)
 }
 
-fun UserRemote.mapToDomain(): User {
+fun UserRemote.mapToDomain(geocoder: Geocoder): User {
     return User(
         id = id,
         name = name,
         birthday = DateTime(birthday),
         profilePictures = profilePictures.map { Uri.parse(it) },
         description = description,
-        location = location.mapToDomain(),
+        address = location.mapToDomain(geocoder = geocoder),
         languages = languages.map { it.mapToDomain() },
         gender = gender.mapToDomain(),
         chats = chats,
@@ -78,11 +81,12 @@ fun TopicRemote.mapToDomain(): Topic {
     return Topic.valueOf(this.name)
 }
 
-internal fun LocationRemote.mapToDomain(): Location {
-    return Location(
-        city = city,
-        country = country
-    )
+internal fun AddressRemote.mapToDomain(geocoder: Geocoder): Address {
+    return geocoder.getFromLocation(
+        latitude,
+        longitude,
+        1
+    )?.firstOrNull() ?: Address(Locale.getDefault())
 }
 
 internal fun UserLanguageRemote.mapToDomain(): UserLanguage {

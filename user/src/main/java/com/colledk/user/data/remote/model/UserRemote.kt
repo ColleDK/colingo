@@ -6,7 +6,7 @@ data class UserRemote(
     val birthday: Long = 0L,
     val profilePictures: List<String> = emptyList(),
     val description: String = "",
-    val location: LocationRemote = LocationRemote(),
+    val location: AddressRemote = AddressRemote(),
     val languages: List<UserLanguageRemote> = emptyList(),
     val gender: GenderRemote = GenderRemote.OTHER,
     val friends: List<String> = emptyList(),
