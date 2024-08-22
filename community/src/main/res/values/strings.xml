@@ -4,4 +4,6 @@
     <string name="chatbot_page_title">Chatbots</string>
     <string name="community_user_speaks">Speaks</string>
     <string name="community_user_learns">Learning</string>
+
+    <string name="chat_created_msg">Chat created</string>
 </resources>

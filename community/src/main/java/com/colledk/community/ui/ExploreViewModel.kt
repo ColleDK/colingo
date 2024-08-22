@@ -11,6 +11,8 @@ import com.aallam.openai.api.chat.ChatRole
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.usecase.CreateAiChatUseCase
 import com.colledk.chat.domain.usecase.CreateChatUseCase
+import com.colledk.common.MessageHandler
+import com.colledk.community.R
 import com.colledk.user.domain.LocationHelper
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.pagination.UserPagingSource
@@ -20,8 +22,11 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.Query.Direction
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import timber.log.Timber
 import javax.inject.Inject
@@ -34,7 +39,8 @@ class ExploreViewModel @Inject constructor(
     private val addAiChatUseCase: AddAiChatUseCase,
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val createChatUseCase: CreateChatUseCase,
-    private val locationHelper: LocationHelper
+    private val locationHelper: LocationHelper,
+    private val messageHandler: MessageHandler
 ) : ViewModel() {
     private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
     val filters: StateFlow<List<String>> = _filters
@@ -95,9 +101,9 @@ class ExploreViewModel @Inject constructor(
     fun createChat(user: String) {
         viewModelScope.launch {
             createChatUseCase(userIds = listOfNotNull(user, auth.currentUser?.uid)).onSuccess {
-                Timber.d("Created chat ${it.id}")
+                messageHandler.displayMessage(R.string.chat_created_msg)
             }.onFailure {
-                Timber.e("Failed to create chat $it")
+                messageHandler.displayError(it)
             }
         }
     }

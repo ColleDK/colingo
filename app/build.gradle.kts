@@ -75,6 +75,7 @@ dependencies {
     implementation(project(":profile"))
     implementation(project(":community"))
     implementation(project(":home"))
+    implementation(project(":common"))
 
     // Compose
     implementation(platform(libs.compose.bom))
