@@ -1,11 +1,17 @@
 package com.colledk.colingo.ui.compose
 
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.movableContentOf
@@ -16,6 +22,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.colledk.colingo.ui.AppViewModel
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.navigation.ColingoNavHost
 import com.colledk.colingo.ui.rememberColingoAppState
@@ -27,7 +35,8 @@ import timber.log.Timber
 
 @Composable
 internal fun ColingoApp(
-    appState: ColingoAppState = rememberColingoAppState()
+    appState: ColingoAppState = rememberColingoAppState(),
+    appViewModel: AppViewModel = hiltViewModel()
 ) {
     val currentDestination = appState.currentTopLevelDestination
 
@@ -37,11 +46,30 @@ internal fun ColingoApp(
         }
     }
 
+    val message by appViewModel.messages.collectAsState(initial = null)
+
+    val snackbarHostState = remember { SnackbarHostState() }
+
+    LaunchedEffect(key1 = message) {
+        if (message != null) {
+            snackbarHostState.showSnackbar(message!!)
+        }
+    }
+
     val app = movableContentOf {
-        ColingoNavHost(
-            appState = appState,
-            startDestination = startDestination
-        )
+        Scaffold(
+            snackbarHost = {
+                SnackbarHost(hostState = snackbarHostState)
+            }
+        ) {
+            ColingoNavHost(
+                appState = appState,
+                startDestination = startDestination,
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(it)
+            )
+        }
     }
 
     if (currentDestination != null) {

@@ -41,11 +41,12 @@ fun NavController.navigateToSettingsPane(navOptions: NavOptions? = null) {
 @Composable
 fun ColingoNavHost(
     appState: ColingoAppState,
+    modifier: Modifier = Modifier,
     startDestination: Any = Onboarding
 ) {
     val navController = appState.navController
     NavHost(
-        modifier = Modifier.fillMaxSize(),
+        modifier = modifier,
         navController = navController,
         startDestination = startDestination,
         enterTransition = {

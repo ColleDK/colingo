@@ -2,15 +2,15 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.serializable)
     id(libs.plugins.kotlin.kapt.get().pluginId)
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.kotlin.parcelize.get().pluginId)
     alias(libs.plugins.compose.compiler)
-    alias(libs.plugins.kotlin.serializable)
 }
 
 android {
-    namespace = "com.colledk.community"
+    namespace = "com.colledk.common"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
@@ -59,30 +59,11 @@ dependencies {
     // Timber
     implementation(libs.timber)
 
-    // Internal modules
-    implementation(project(":theme"))
-    implementation(project(":user"))
-    implementation(project(":profile"))
-    implementation(project(":chat"))
-    implementation(project(":common"))
-
     // Hilt
     implementation(libs.hilt.android)
     implementation(libs.play.services.location)
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
-
-    // Pagination
-    implementation(libs.bundles.pagination)
-
-    // Firebase
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.bundles.firebase)
-
-    // Open AI
-    implementation(platform(libs.openai.bom))
-    implementation(libs.openai.client)
-    runtimeOnly(libs.openai.okhttp)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

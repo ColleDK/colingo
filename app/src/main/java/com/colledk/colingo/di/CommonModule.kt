@@ -10,8 +10,10 @@ import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.datastore.preferences.preferencesDataStoreFile
 import com.aallam.openai.api.http.Timeout
+import com.aallam.openai.client.Messages
 import com.aallam.openai.client.OpenAI
 import com.colledk.colingo.BuildConfig
+import com.colledk.common.MessageHandler
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -70,5 +72,13 @@ class CommonModule {
             scope = CoroutineScope(Dispatchers.IO + SupervisorJob()),
             produceFile = { context.preferencesDataStoreFile(SETTINGS_PREFERENCES) }
         )
+    }
+
+    @Provides
+    @Singleton
+    fun providesMessageHandler(
+        @ApplicationContext context: Context
+    ): MessageHandler {
+        return MessageHandler(context = context)
     }
 }
