@@ -14,7 +14,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
 import org.joda.time.DateTime
-import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
@@ -36,15 +35,20 @@ class OnboardingViewModel @Inject constructor(
     private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
     val error: Flow<Throwable> = _error.receiveAsFlow()
 
+    private val _isLoggingIn: Channel<Boolean> = Channel(Channel.BUFFERED)
+    val isLoggingIn: Flow<Boolean> = _isLoggingIn.receiveAsFlow()
+
     fun isEmailValid(email: String): Boolean {
         return PatternsCompat.EMAIL_ADDRESS.matcher(email).matches()
     }
 
     fun login(email: String, password: String) {
         viewModelScope.launch {
+            _isLoggingIn.trySend(true)
             loginUseCase(email, password).onSuccess {
                 _login.trySend(DateTime.now().millis)
             }.onFailure {
+                _isLoggingIn.trySend(false)
                 _error.trySend(it)
             }
         }
@@ -56,7 +60,7 @@ class OnboardingViewModel @Inject constructor(
                 auth.sendPasswordResetEmail(email).await()
                 _resetPasswordSuccess.trySend(DateTime.now().millis)
             } catch (e: Exception) {
-
+                _error.trySend(e)
             }
         }
     }

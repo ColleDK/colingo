@@ -18,6 +18,7 @@ import com.colledk.colingo.ui.SettingsViewModel
 import com.colledk.colingo.ui.compose.SettingsPane
 import com.colledk.community.navigation.explorePane
 import com.colledk.home.navigation.homePane
+import com.colledk.home.navigation.navigateToHomePane
 import com.colledk.onboarding.navigation.Onboarding
 import com.colledk.onboarding.navigation.navigateToOnboarding
 import com.colledk.onboarding.navigation.onboardingGraph
@@ -73,7 +74,13 @@ fun ColingoNavHost(
         }
     ) {
         onboardingGraph(navHostController = navController) {
-            appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
+            navController.navigateToHomePane(
+                navOptions = navOptions {
+                    popUpTo(navController.graph.id) {
+                        inclusive = true
+                    }
+                }
+            )
         }
         homePane()
         explorePane()

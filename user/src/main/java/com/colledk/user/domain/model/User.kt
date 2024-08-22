@@ -14,7 +14,7 @@ data class User(
     val birthday: DateTime = DateTime.now(),
     val profilePictures: List<Uri> = emptyList(),
     val description: String = "",
-    val address: Address = Address(Locale.getDefault()),
+    val address: Address? = null,
     val languages: List<UserLanguage> = emptyList(),
     val gender: Gender = Gender.OTHER,
     val chats: List<String> = emptyList(),

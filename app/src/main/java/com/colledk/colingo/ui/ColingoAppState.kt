@@ -6,7 +6,6 @@ import androidx.compose.runtime.remember
 import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavDestination.Companion.hierarchy
-import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
@@ -25,7 +24,6 @@ import com.colledk.profile.navigation.UserProfile
 import com.colledk.profile.navigation.navigateToProfileScreen
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import timber.log.Timber
 
 @Composable
 fun rememberColingoAppState(

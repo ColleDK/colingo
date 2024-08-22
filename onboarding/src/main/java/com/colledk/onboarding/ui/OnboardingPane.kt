@@ -55,6 +55,7 @@ fun OnboardingPane(
     val error by viewModel.error.collectAsState(null)
     val goToSetup by viewModel.goToProfileSetup.collectAsState(null)
     val resetPassword by viewModel.resetPasswordSuccess.collectAsState(null)
+    val isLoggingIn by viewModel.isLoggingIn.collectAsState(false)
 
     val snackbarHostState = remember { SnackbarHostState() }
 
@@ -162,7 +163,8 @@ fun OnboardingPane(
                                         )
                                     },
                                     modifier = Modifier.padding(padding),
-                                    isEmailValid = viewModel::isEmailValid
+                                    isEmailValid = viewModel::isEmailValid,
+                                    isLoginButtonEnabled = isLoggingIn
                                 )
                             } else {
                                 SignupPane(

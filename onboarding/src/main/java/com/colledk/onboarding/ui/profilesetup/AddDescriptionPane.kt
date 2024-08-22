@@ -35,6 +35,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.colledk.onboarding.R
+import com.colledk.user.domain.isUnknown
+import com.colledk.user.domain.toText
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
@@ -106,7 +108,7 @@ internal fun AddDescriptionPane(
             ListItem(
                 headlineContent = {
                     Text(
-                        text = address?.toString() ?: stringResource(id = R.string.add_description_location_hint),
+                        text = if (address.isUnknown()) stringResource(id = R.string.add_description_location_hint) else address.toText(),
                         style = MaterialTheme.typography.bodyLarge
                     )
                 },
