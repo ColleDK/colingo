@@ -80,7 +80,7 @@ class ProfileSetupViewModel @Inject constructor(
                     birthday = description.birthday ?: DateTime.now(),
                     profilePictures = listOfNotNull(profilePicture),
                     description = description.description,
-                    address = description.address ?: Address(Locale.getDefault()),
+                    address = description.address,
                     languages = languages.languages,
                     gender = gender.selectedGender ?: Gender.OTHER,
                     topics = topics.selectedTopics
