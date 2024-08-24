@@ -80,13 +80,9 @@ data class ColingoAppState(
 
     fun navigateToTopLevelDestination(topLevelDestination: TopLevelDestination) {
         val topLevelNavOptions = navOptions {
-            popUpTo(Home) {
-                saveState = true
-            }
+            popUpTo(Home)
 
             launchSingleTop = true
-
-            restoreState = true
         }
 
         when (topLevelDestination) {

@@ -35,12 +35,15 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.capitalize
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.intl.Locale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.aallam.openai.api.core.Role
+import com.colledk.chat.R
 import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Message
 import com.colledk.theme.debugPlaceholder
@@ -64,6 +67,25 @@ internal fun AiChatPane(
                 modifier = Modifier.fillParentMaxWidth()
             )
         }
+        item {
+            if (aiChats.isEmpty()) {
+                AiChatsEmpty(modifier = Modifier.fillParentMaxSize())
+            }
+        }
+    }
+}
+
+@Composable
+private fun AiChatsEmpty(
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = stringResource(id = R.string.chats_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        Text(text = stringResource(id = R.string.chats_empty_description), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
     }
 }
 
@@ -106,13 +128,16 @@ private fun AiChatItem(
                         text = name,
                         style = MaterialTheme.typography.titleMedium,
                         color = MaterialTheme.colorScheme.onSecondaryContainer,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = lastMessage?.content.orEmpty(),
+                        text = lastMessage?.content ?: stringResource(id = R.string.chat_empty_title),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSecondaryContainer,
-                        overflow = TextOverflow.Ellipsis
+                        overflow = TextOverflow.Ellipsis,
+                        fontStyle = if (lastMessage?.content == null) FontStyle.Italic else FontStyle.Normal
                     )
                 }
             }

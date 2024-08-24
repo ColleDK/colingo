@@ -6,9 +6,11 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -40,6 +42,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -82,7 +85,7 @@ internal fun ChatDetailPane(
         }
 
         LazyColumn(
-            modifier = Modifier.padding(it),
+            modifier = Modifier.fillMaxSize().padding(it),
             contentPadding = PaddingValues(24.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
@@ -104,7 +107,27 @@ internal fun ChatDetailPane(
                 }
                 item { Spacer(modifier = Modifier.height(12.dp)) }
             }
+
+            item {
+                if (days.isEmpty()) {
+                    ChatEmptyScreen(modifier = Modifier.fillParentMaxSize())
+                }
+            }
         }
+    }
+}
+
+@Composable
+private fun ChatEmptyScreen(
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = stringResource(id = R.string.chat_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        Text(text = stringResource(id = R.string.chat_empty_description), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
     }
 }
 
