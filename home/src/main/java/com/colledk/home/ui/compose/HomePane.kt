@@ -24,7 +24,9 @@ import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SheetState
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
@@ -35,6 +37,7 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
@@ -51,6 +54,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.paging.LoadState
@@ -96,6 +100,8 @@ internal fun HomePane(
     var showCreatePost by remember {
         mutableStateOf(false)
     }
+
+    val bottomSheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
 
     val navigator = rememberListDetailPaneScaffoldNavigator<HomeDetailDestination>()
 
@@ -168,11 +174,12 @@ internal fun HomePane(
                     )
                 }
                 if (showCreatePost) {
-                    CreateNewPost(
+                    CreatePostBottomSheet(
+                        sheetState = bottomSheetState,
                         onDismiss = { showCreatePost = false },
-                        onCreate = { text, topics ->
+                        onCreatePost = { text ->
                             showCreatePost = false
-                            onCreatePost(text, topics)
+                            onCreatePost(text, emptyList())
                         },
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -274,80 +281,6 @@ private fun HomeTopBar(
     )
 }
 
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun CreateNewPost(
-    onDismiss: () -> Unit,
-    onCreate: (text: String, topics: List<Topic>) -> Unit,
-    modifier: Modifier = Modifier
-) {
-    Dialog(onDismissRequest = onDismiss) {
-        Card(modifier = modifier) {
-            var text by remember {
-                mutableStateOf("")
-            }
-
-            val selectedTopics = remember {
-                mutableStateListOf<Topic>()
-            }
-
-            Column(
-                modifier = Modifier.padding(16.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                Text(
-                    text = stringResource(id = R.string.post_create_new),
-                    style = MaterialTheme.typography.titleLarge,
-                    modifier = Modifier.fillMaxWidth()
-                )
-                TextField(
-                    value = text,
-                    onValueChange = { text = it },
-                    modifier = Modifier.fillMaxWidth()
-                )
-                // TODO add topics?
-                /*
-                    FlowRow(
-                        horizontalArrangement = Arrangement.spacedBy(4.dp, Alignment.CenterHorizontally),
-                        verticalArrangement = Arrangement.spacedBy(4.dp)
-                    ) {
-                        Topic.entries.fastForEach { topic ->
-                            TopicItem(
-                                topic = topic,
-                                isSelected = selectedTopics.contains(topic),
-                                onSelect = {
-                                    if (selectedTopics.contains(topic)) {
-                                        selectedTopics.remove(topic)
-                                    } else {
-                                        selectedTopics.add(topic)
-                                    }
-                                }
-                            )
-                        }
-                    }
-                 */
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.Center
-                ) {
-                    TextButton(
-                        onClick = onDismiss,
-                        modifier = Modifier.padding(8.dp),
-                    ) {
-                        Text(stringResource(id = R.string.create_post_dismiss))
-                    }
-                    TextButton(
-                        onClick = { onCreate(text, selectedTopics) },
-                        modifier = Modifier.padding(8.dp),
-                    ) {
-                        Text(stringResource(id = R.string.create_post_create))
-                    }
-                }
-            }
-        }
-    }
-}
-
 @Composable
 private fun TopicItem(
     topic: Topic,
@@ -422,6 +355,57 @@ private fun HomeFeedSorting(
                     onSelect(entry)
                 }
             )
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun CreatePostBottomSheet(
+    sheetState: SheetState,
+    onDismiss: () -> Unit,
+    onCreatePost: (post: String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    ModalBottomSheet(
+        sheetState = sheetState,
+        modifier = modifier,
+        onDismissRequest = onDismiss
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = stringResource(id = R.string.post_create_new),
+                style = MaterialTheme.typography.titleLarge,
+                modifier = Modifier.fillMaxWidth()
+            )
+            Row(
+                verticalAlignment = Alignment.Bottom
+            ) {
+                var currentText by remember {
+                    mutableStateOf("")
+                }
+
+                TextField(
+                    value = currentText,
+                    onValueChange = { currentText = it },
+                    modifier = Modifier.weight(1f)
+                )
+                IconButton(
+                    onClick = { onCreatePost(currentText) },
+                    enabled = currentText.isNotBlank()
+                ) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.reply),
+                        contentDescription = null,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+            }
         }
     }
 }
