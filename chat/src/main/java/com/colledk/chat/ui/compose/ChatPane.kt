@@ -49,8 +49,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.intl.Locale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
@@ -80,25 +82,25 @@ internal fun ChatPane(
     Scaffold(
         modifier = modifier,
         floatingActionButton = {
-            ExtendedFloatingActionButton(
-                text = {
-                    Text(
-                        text = stringResource(id = R.string.chat_create_new),
-                        style = MaterialTheme.typography.labelLarge,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer
-                    )
-                },
-                icon = {
-                    Icon(
-                        painter = painterResource(id = R.drawable.pen),
-                        contentDescription = null,
-                        tint = MaterialTheme.colorScheme.onPrimaryContainer,
-                        modifier = Modifier.size(24.dp)
-                    )
-                },
-                onClick = onCreateNewChat,
-                expanded = listState.isScrollingUp()
-            )
+//            ExtendedFloatingActionButton(
+//                text = {
+//                    Text(
+//                        text = stringResource(id = R.string.chat_create_new),
+//                        style = MaterialTheme.typography.labelLarge,
+//                        color = MaterialTheme.colorScheme.onPrimaryContainer
+//                    )
+//                },
+//                icon = {
+//                    Icon(
+//                        painter = painterResource(id = R.drawable.pen),
+//                        contentDescription = null,
+//                        tint = MaterialTheme.colorScheme.onPrimaryContainer,
+//                        modifier = Modifier.size(24.dp)
+//                    )
+//                },
+//                onClick = onCreateNewChat,
+//                expanded = listState.isScrollingUp()
+//            )
         },
         topBar = {
             ChatTopBar()
@@ -139,6 +141,11 @@ internal fun ChatPane(
                                     currentUser = state.currentUser
                                 )
                             }
+                            item {
+                                if (state.chats.isEmpty()) {
+                                    ChatsEmpty(modifier = Modifier.fillParentMaxSize())
+                                }
+                            }
                         }
                     }
 
@@ -153,6 +160,20 @@ internal fun ChatPane(
 
             }
         }
+    }
+}
+
+@Composable
+private fun ChatsEmpty(
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = stringResource(id = R.string.chats_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        Text(text = stringResource(id = R.string.chats_empty_description), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
     }
 }
 
@@ -324,10 +345,11 @@ private fun ChatItem(
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = latestMessage?.content.orEmpty(),
+                    text = latestMessage?.content ?: stringResource(id = R.string.chat_empty_title),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSecondaryContainer,
-                    overflow = TextOverflow.Ellipsis
+                    overflow = TextOverflow.Ellipsis,
+                    fontStyle = if (latestMessage?.content == null) FontStyle.Italic else FontStyle.Normal
                 )
             }
             Column {

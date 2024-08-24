@@ -5,6 +5,12 @@
     <string name="members_page_title">Chats</string>
     <string name="bots_page_title">Bot chats</string>
 
+    <string name="chat_empty_title">No messages yet</string>
+    <string name="chat_empty_description">Start conversing to see your messages here.</string>
+
+    <string name="chats_empty_title">No chats yet</string>
+    <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise is a Spanish teacher that can help you with improving your vocabulary!</string>
 </resources>
