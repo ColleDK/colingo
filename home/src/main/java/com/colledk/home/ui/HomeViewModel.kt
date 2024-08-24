@@ -6,6 +6,8 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import com.colledk.chat.domain.usecase.CreateChatUseCase
+import com.colledk.common.MessageHandler
+import com.colledk.home.R
 import com.colledk.home.domain.model.Post
 import com.colledk.home.domain.pagination.HomePagingSource
 import com.colledk.home.domain.usecase.CreatePostUseCase
@@ -26,6 +28,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
+import okio.IOException
 import org.joda.time.DateTime
 import timber.log.Timber
 import javax.inject.Inject
@@ -40,7 +43,8 @@ class HomeViewModel @Inject constructor(
     private val likePostUseCase: LikePostUseCase,
     private val removePostLikeUseCase: RemovePostLikeUseCase,
     private val formatNumberUseCase: FormatNumberUseCase,
-    private val createChatUseCase: CreateChatUseCase
+    private val createChatUseCase: CreateChatUseCase,
+    private val messageHandler: MessageHandler
 ) : ViewModel() {
     val posts = Pager(
         PagingConfig(pageSize = HomePagingSource.PAGE_SIZE)
@@ -91,8 +95,12 @@ class HomeViewModel @Inject constructor(
                         id = ""
                     )
                 ).onFailure {
-                    _error.trySend(it)
+                    messageHandler.displayError(it)
+                }.onSuccess {
+                    messageHandler.displayMessage(R.string.create_post_success)
                 }
+            } ?: run {
+                messageHandler.displayError(IOException())
             }
         }
     }
@@ -116,9 +124,9 @@ class HomeViewModel @Inject constructor(
     fun createChat(user: String) {
         viewModelScope.launch {
             createChatUseCase(userIds = listOfNotNull(user, auth.currentUser?.uid)).onSuccess {
-                Timber.d("Created chat ${it.id}")
+                messageHandler.displayMessage(R.string.create_chat_success)
             }.onFailure {
-                Timber.e("Failed to create chat $it")
+                messageHandler.displayError(it)
             }
         }
     }

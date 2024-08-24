@@ -5,4 +5,7 @@
     <string name="create_post_create">Create</string>
     <string name="post_show_more">Show more</string>
     <string name="post_show_less">Show less</string>
+
+    <string name="create_post_success">Post created</string>
+    <string name="create_chat_success">Chat created</string>
 </resources>

@@ -64,6 +64,7 @@ dependencies {
     implementation(project(":user"))
     implementation(project(":profile"))
     implementation(project(":chat"))
+    implementation(project(":common"))
 
     // Hilt
     implementation(libs.hilt.android)
