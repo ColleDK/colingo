@@ -15,7 +15,10 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.MultiChoiceSegmentedButtonRow
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SegmentedButton
+import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
@@ -30,9 +33,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.util.fastForEachIndexed
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.EditProfileUiState
 import com.colledk.user.domain.isUnknown
+import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.UserLanguage
 import com.colledk.user.domain.toText
@@ -53,6 +58,7 @@ internal fun EditProfilePane(
     onAddTopic: (topic: Topic) -> Unit,
     onRemoveTopic: (topic: Topic) -> Unit,
     onChangeName: (name: String) -> Unit,
+    onChangeGender: (gender: Gender) -> Unit,
     modifier: Modifier = Modifier
 ) {
     Scaffold(
@@ -112,6 +118,16 @@ internal fun EditProfilePane(
                         singleLine = true
                     )
                 }
+            }
+            item {
+                GenderSelector(
+                    genders = Gender.entries,
+                    selectedGender = uiState.user.gender,
+                    selectGender = onChangeGender,
+                    modifier = Modifier
+                        .fillParentMaxWidth()
+                        .padding(horizontal = 24.dp)
+                )
             }
             item {
                 val address = uiState.user.address
@@ -193,5 +209,55 @@ private fun BirthdaySelector(
         }
     ) {
         DatePicker(state = state)
+    }
+}
+
+@Composable
+private fun GenderSelector(
+    genders: List<Gender>,
+    selectedGender: Gender,
+    selectGender: (gender: Gender) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Text(
+            text = stringResource(id = R.string.gender_title),
+            style = MaterialTheme.typography.headlineMedium,
+            color = MaterialTheme.colorScheme.onSurface,
+            modifier = Modifier.fillMaxWidth()
+        )
+
+        MultiChoiceSegmentedButtonRow(modifier = Modifier.fillMaxWidth()) {
+            genders.fastForEachIndexed { index, gender ->
+                SegmentedButton(
+                    checked = gender == selectedGender,
+                    onCheckedChange = { selectGender(gender) },
+                    shape = SegmentedButtonDefaults.itemShape(
+                        index = index,
+                        count = genders.size
+                    ),
+                    icon = {
+                        SegmentedButtonDefaults.Icon(active = gender == selectedGender) {
+                            val icon = when (gender) {
+                                Gender.MALE -> R.drawable.male
+                                Gender.FEMALE -> R.drawable.female
+                                Gender.OTHER -> R.drawable.nonbinary
+                            }
+                            Icon(
+                                painter = painterResource(id = icon),
+                                contentDescription = null,
+                                modifier = Modifier.size(SegmentedButtonDefaults.IconSize)
+                            )
+                        }
+                    }
+                ) {
+                    Text(text = gender.name)
+                }
+            }
+        }
+
     }
 }

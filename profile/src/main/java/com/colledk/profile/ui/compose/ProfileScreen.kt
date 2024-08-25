@@ -119,7 +119,8 @@ fun ProfileScreen(
                             onRemoveLanguage = { editProfileViewModel.updateLanguages(editState.user.languages.minus(it)) },
                             onAddTopic = { editProfileViewModel.updateTopics(editState.user.topics.plus(it)) },
                             onRemoveTopic = { editProfileViewModel.updateTopics(editState.user.topics.minus(it)) },
-                            onChangeName = editProfileViewModel::updateName
+                            onChangeName = editProfileViewModel::updateName,
+                            onChangeGender = editProfileViewModel::updateGender
                         )
                     }
                 }

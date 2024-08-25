@@ -105,7 +105,7 @@ private fun Picture(
             AsyncImage(
                 model = it,
                 contentDescription = null,
-                contentScale = ContentScale.Crop,
+                contentScale = ContentScale.Fit,
                 modifier = Modifier.fillMaxSize(),
             )
 
