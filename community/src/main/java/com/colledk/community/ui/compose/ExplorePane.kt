@@ -67,6 +67,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
@@ -260,7 +261,7 @@ private fun ExplorePaneContent(
     modifier: Modifier = Modifier,
     onUserClicked: (User) -> Unit
 ) {
-    if (users.loadState.prepend == LoadState.Loading) {
+    if (users.loadState.prepend == LoadState.Loading || users.loadState.refresh == LoadState.Loading) {
         LoadingScreen(
             modifier = Modifier
                 .fillMaxSize()
@@ -282,7 +283,24 @@ private fun ExplorePaneContent(
                     }
                 }
             }
+            item {
+                if (users.itemCount == 0) {
+                    EmptyScreen(modifier = Modifier.fillParentMaxSize())
+                }
+            }
         }
+    }
+}
+
+@Composable
+private fun EmptyScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = stringResource(id = R.string.community_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        Text(text = stringResource(id = R.string.community_empty_subtitle), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
     }
 }
 

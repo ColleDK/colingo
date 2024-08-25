@@ -36,9 +36,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.intl.Locale
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.colledk.chat.domain.model.AiItem
+import com.colledk.community.R
 
 @Composable
 internal fun ChatBotsPane(
@@ -69,6 +71,23 @@ internal fun ChatBotsPane(
                 modifier = Modifier.fillParentMaxWidth()
             )
         }
+        item {
+            if (ais.isEmpty()) {
+                EmptyScreen(modifier = Modifier.fillParentMaxSize())
+            }
+        }
+    }
+}
+
+@Composable
+private fun EmptyScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(text = stringResource(id = R.string.community_ai_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+        Text(text = stringResource(id = R.string.community_ai_empty_subtitle), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
     }
 }
 
