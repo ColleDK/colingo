@@ -9,6 +9,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -44,7 +45,7 @@ internal fun SelectPicturePane(
     ProfileSetup(
         titleId = R.string.add_picture_title,
         subtitleId = R.string.add_picture_subtitle,
-        modifier = modifier
+        modifier = modifier.height(250.dp)
     ) {
         profilePicture?.let {
             Box(modifier = Modifier.fillMaxWidth(.8f)) {
@@ -54,7 +55,7 @@ internal fun SelectPicturePane(
                         .build(),
                     contentDescription = null,
                     modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(24.dp)),
-                    contentScale = ContentScale.FillWidth
+                    contentScale = ContentScale.Fit
                 )
                 IconButton(
                     onClick = onPictureRemoved,

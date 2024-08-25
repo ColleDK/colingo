@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.colledk.profile.ui.uistates.EditProfileUiState
 import com.colledk.user.domain.LocationHelper
+import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.model.UserLanguage
@@ -80,6 +81,10 @@ class EditProfileViewModel @Inject constructor(
         updateUser(birthday = DateTime(time))
     }
 
+    fun updateGender(gender: Gender) {
+        updateUser(gender = gender)
+    }
+
     // This is only called when permissions are enabled
     @SuppressLint("MissingPermission")
     fun getLocation() {
@@ -114,7 +119,6 @@ class EditProfileViewModel @Inject constructor(
     fun saveUser(newUser: User) {
         viewModelScope.launch {
             getCurrentUserUseCase().onSuccess { originalUser ->
-                Timber.d("Current userId ${newUser.id}")
                 val removedPictures = originalUser.profilePictures.filterNot { newUser.profilePictures.contains(it) }
                 val addedPictures = newUser.profilePictures.filterNot { originalUser.profilePictures.contains(it) }
 
@@ -145,7 +149,8 @@ class EditProfileViewModel @Inject constructor(
         topics: List<Topic>? = null,
         languages: List<UserLanguage>? = null,
         description: String? = null,
-        pictures: List<Uri>? = null
+        pictures: List<Uri>? = null,
+        gender: Gender? = null
     ) {
         val currentUser = _currentState.value.user
         _currentState.value = EditProfileUiState(
@@ -156,7 +161,8 @@ class EditProfileViewModel @Inject constructor(
                 topics = topics ?: currentUser.topics,
                 languages = languages ?: currentUser.languages,
                 description = description ?: currentUser.description,
-                profilePictures = pictures ?: currentUser.profilePictures
+                profilePictures = pictures ?: currentUser.profilePictures,
+                gender = gender ?: currentUser.gender
             )
         )
     }
