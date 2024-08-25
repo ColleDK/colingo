@@ -1,7 +1,9 @@
 package com.colledk.user.di
 
+import android.app.GrammaticalInflectionManager
 import android.content.Context
 import android.location.Geocoder
+import com.colledk.common.LocaleHelper
 import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.data.remote.repository.UserRepositoryImpl
 import com.colledk.user.domain.LocationHelper
@@ -49,9 +51,14 @@ class UserModule {
     @Singleton
     fun providesUserRepository(
         remoteDataSource: UserRemoteDataSource,
-        locationHelper: LocationHelper
+        locationHelper: LocationHelper,
+        localeHelper: LocaleHelper
     ): UserRepository {
-        return UserRepositoryImpl(remoteDataSource = remoteDataSource, locationHelper = locationHelper)
+        return UserRepositoryImpl(
+            remoteDataSource = remoteDataSource,
+            locationHelper = locationHelper,
+            localeHelper = localeHelper
+        )
     }
 
     @Provides

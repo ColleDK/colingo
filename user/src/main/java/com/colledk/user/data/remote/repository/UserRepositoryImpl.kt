@@ -1,10 +1,15 @@
 package com.colledk.user.data.remote.repository
 
+import android.app.GrammaticalInflectionManager
+import android.content.res.Configuration
 import android.net.Uri
+import android.os.Build
+import com.colledk.common.LocaleHelper
 import com.colledk.user.data.mapToDomain
 import com.colledk.user.data.mapToRemote
 import com.colledk.user.data.remote.UserRemoteDataSource
 import com.colledk.user.domain.LocationHelper
+import com.colledk.user.domain.model.Gender
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.repository.UserRepository
 import kotlinx.coroutines.CoroutineDispatcher
@@ -15,6 +20,7 @@ import okio.IOException
 class UserRepositoryImpl(
     private val remoteDataSource: UserRemoteDataSource,
     private val locationHelper: LocationHelper,
+    private val localeHelper: LocaleHelper,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ): UserRepository {
     override suspend fun uploadProfilePicture(uri: Uri, userId: String): Result<Uri> = withContext(dispatcher) {
@@ -30,7 +36,19 @@ class UserRepositoryImpl(
     }
 
     override suspend fun loginUser(email: String, password: String): Result<User> = withContext(dispatcher) {
-        remoteDataSource.loginUser(email, password).map { it.mapToDomain(locationHelper.getGeocoder()) }
+        remoteDataSource.loginUser(email, password).map {
+            it.mapToDomain(locationHelper.getGeocoder()).also {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                    val gender = when(it.gender) {
+                        Gender.MALE -> Configuration.GRAMMATICAL_GENDER_MASCULINE
+                        Gender.FEMALE -> Configuration.GRAMMATICAL_GENDER_FEMININE
+                        Gender.OTHER -> Configuration.GRAMMATICAL_GENDER_NEUTRAL
+                    }
+
+                    localeHelper.updateLocaleGender(gender)
+                }
+            }
+        }
     }
 
     override suspend fun getUser(userId: String): Result<User> = withContext(dispatcher) {
@@ -46,7 +64,19 @@ class UserRepositoryImpl(
     }
 
     override suspend fun updateUser(user: User): Result<User> = withContext(dispatcher) {
-        remoteDataSource.updateUser(user.mapToRemote()).map { it.mapToDomain(locationHelper.getGeocoder()) }
+        remoteDataSource.updateUser(user.mapToRemote()).map {
+            it.mapToDomain(locationHelper.getGeocoder()).also {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                    val gender = when(it.gender) {
+                        Gender.MALE -> Configuration.GRAMMATICAL_GENDER_MASCULINE
+                        Gender.FEMALE -> Configuration.GRAMMATICAL_GENDER_FEMININE
+                        Gender.OTHER -> Configuration.GRAMMATICAL_GENDER_NEUTRAL
+                    }
+
+                    localeHelper.updateLocaleGender(gender)
+                }
+            }
+        }
     }
 
     override suspend fun addAiChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
