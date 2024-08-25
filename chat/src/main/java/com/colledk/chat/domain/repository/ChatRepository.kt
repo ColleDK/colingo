@@ -12,12 +12,12 @@ interface ChatRepository {
     suspend fun getAiChat(id: String): Result<AiChat>
     suspend fun createAiChat(userId: String, aiName: String, messages: List<ChatMessage>): Result<AiChat>
     suspend fun updateAiChat(id: String, chat: AiChat): Result<AiChat>
-    suspend fun deleteAiChat(id: String): Result<Unit>
+    suspend fun deleteAiChat(id: String, userId: String): Result<Unit>
 
     // Normal chats
     suspend fun getChats(ids: List<String>): Flow<List<Chat>>
     suspend fun getChat(id: String): Flow<Chat>
     suspend fun createChat(userIds: List<String>): Result<Chat>
     suspend fun addMessage(id: String, message: Message): Result<Chat>
-    suspend fun deleteChat(id: String): Result<Unit>
+    suspend fun deleteChat(id: String, userIds: List<String>): Result<Unit>
 }

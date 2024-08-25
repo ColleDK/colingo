@@ -63,8 +63,10 @@ class ChatRepositoryImpl(
         }
     }
 
-    override suspend fun deleteAiChat(id: String): Result<Unit> {
-        TODO("Not yet implemented")
+    override suspend fun deleteAiChat(id: String, userId: String): Result<Unit> = withContext(dispatcher) {
+        remoteDataSource.deleteAiChat(id).onSuccess {
+            userRepository.deleteAiChat(userId = userId, chatId = id)
+        }
     }
 
     override suspend fun getChats(ids: List<String>): Flow<List<Chat>> = withContext(dispatcher) {
@@ -109,7 +111,11 @@ class ChatRepositoryImpl(
         }
     }
 
-    override suspend fun deleteChat(id: String): Result<Unit> {
-        TODO("Not yet implemented")
+    override suspend fun deleteChat(id: String, userIds: List<String>): Result<Unit> = withContext(dispatcher) {
+        remoteDataSource.deleteChat(id).onSuccess {
+            userIds.forEach {
+                userRepository.deleteChat(userId = it, chatId = id)
+            }
+        }
     }
 }

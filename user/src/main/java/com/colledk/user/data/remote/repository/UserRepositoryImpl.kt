@@ -1,6 +1,5 @@
 package com.colledk.user.data.remote.repository
 
-import android.location.Geocoder
 import android.net.Uri
 import com.colledk.user.data.mapToDomain
 import com.colledk.user.data.mapToRemote
@@ -61,6 +60,14 @@ class UserRepositoryImpl(
 
     override suspend fun addChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
         remoteDataSource.addChat(userId, chatId).map { it.mapToDomain(locationHelper.getGeocoder()) }
+    }
+
+    override suspend fun deleteAiChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
+        remoteDataSource.removeAiChat(userId = userId, chatId = chatId).map { it.mapToDomain(locationHelper.getGeocoder()) }
+    }
+
+    override suspend fun deleteChat(userId: String, chatId: String): Result<User> = withContext(dispatcher) {
+        remoteDataSource.removeChat(userId = userId, chatId = chatId).map { it.mapToDomain(locationHelper.getGeocoder()) }
     }
 
     override suspend fun deleteUser(): Result<Unit> = withContext(dispatcher) {
