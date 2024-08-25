@@ -35,15 +35,19 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -83,6 +87,7 @@ import timber.log.Timber
 @Composable
 internal fun AiChatDetailPane(
     chat: AiChat,
+    onDeleteChat: () -> Unit,
     modifier: Modifier = Modifier,
     onSendMessage: (message: String) -> Unit
 ) {
@@ -99,7 +104,9 @@ internal fun AiChatDetailPane(
     Scaffold(
         modifier = modifier,
         topBar = {
-            ChatTopBar(title = chat.ai.name.lowercase().capitalize(Locale.current))
+            ChatTopBar(title = chat.ai.name.lowercase().capitalize(Locale.current)) {
+                onDeleteChat()
+            }
         },
         bottomBar = {
             ChatBottomBar {
@@ -168,8 +175,17 @@ private fun ChatEmptyScreen(
 @Composable
 private fun ChatTopBar(
     title: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onDeleteChat: () -> Unit
 ) {
+    var isMenuOpen by remember {
+        mutableStateOf(false)
+    }
+
+    var isAlertOpen by remember {
+        mutableStateOf(false)
+    }
+
     TopAppBar(
         modifier = modifier,
         title = {
@@ -181,16 +197,61 @@ private fun ChatTopBar(
             )
         },
         actions = {
-            IconButton(onClick = { /*TODO*/ }) {
-                Icon(
-                    painter = painterResource(id = R.drawable.menu_dots),
-                    contentDescription = null,
-                    tint = MaterialTheme.colorScheme.onSurface,
-                    modifier = Modifier.size(24.dp)
-                )
+            Box {
+                IconButton(onClick = { isMenuOpen = true }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.menu_dots),
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onSurface,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+
+                DropdownMenu(
+                    expanded = isMenuOpen,
+                    onDismissRequest = { isMenuOpen = false }
+                ) {
+                    DropdownMenuItem(
+                        text = {
+                            Text(
+                                text = stringResource(id = R.string.chats_delete_title),
+                                color = MaterialTheme.colorScheme.error
+                            )
+                        },
+                        onClick = {
+                            isMenuOpen = false
+                            isAlertOpen = true
+                        }
+                    )
+                }
             }
         }
     )
+
+    if (isAlertOpen) {
+        AlertDialog(
+            onDismissRequest = { isAlertOpen = false },
+            confirmButton = {
+                TextButton(
+                    onClick = { isAlertOpen = false
+                        onDeleteChat() }
+                ) {
+                    Text(text = stringResource(id = R.string.chats_delete_confirm))
+                }
+            },
+            title = {
+                Text(text = stringResource(id = R.string.chats_delete_title))
+            },
+            text = {
+                Text(text = stringResource(id = R.string.chats_delete_subtitle))
+            },
+            dismissButton = {
+                TextButton(onClick = { isAlertOpen = false }) {
+                    Text(text = stringResource(id = R.string.chats_delete_cancel))
+                }
+            }
+        )
+    }
 }
 
 @Composable

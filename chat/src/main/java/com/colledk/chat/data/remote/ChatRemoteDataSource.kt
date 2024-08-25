@@ -142,6 +142,24 @@ class ChatRemoteDataSource(
         }
     }
 
+    suspend fun deleteChat(id: String): Result<Unit> {
+        return try {
+            db.collection(CHAT_PATH).document(id).delete().await()
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    suspend fun deleteAiChat(id: String): Result<Unit> {
+        return try {
+            db.collection(AI_CHAT_PATH).document(id).delete().await()
+            Result.success(Unit)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     companion object {
         const val CHAT_PATH = "chats"
         const val AI_CHAT_PATH = "ai_chats"

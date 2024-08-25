@@ -52,7 +52,9 @@ internal fun ChatScreen(
         }
     ) {
         ListDetailPaneScaffold(
-            modifier = Modifier.fillMaxSize().padding(it),
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(it),
             directive = navigator.scaffoldDirective,
             value = navigator.scaffoldValue,
             listPane = {
@@ -66,7 +68,7 @@ internal fun ChatScreen(
 
                     ChatPane(
                         state = state,
-                        onCreateNewChat = { TODO() },
+                        onCreateNewChat = { /* TODO */ },
                         onChatSelected = { chat ->
                             navigator.navigateTo(
                                 ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.MemberChatDestination(id = chat.id)
@@ -99,7 +101,18 @@ internal fun ChatScreen(
                                 }
 
                                 uiState?.let {
-                                    ChatDetailPane(it) { message ->
+                                    ChatDetailPane(
+                                        uiState = it,
+                                        onDeleteChat = {
+                                            viewModel.deleteChat(it).also {
+                                                if (navigator.canNavigateBack()) {
+                                                    navigator.navigateBack()
+                                                } else {
+                                                    navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, null)
+                                                }
+                                            }
+                                        }
+                                    ) { message ->
                                         viewModel.sendMessage(
                                             chatId = chatId,
                                             message = message,
@@ -124,6 +137,18 @@ internal fun ChatScreen(
                                             chat = currentChat,
                                             message = it
                                         )
+                                    },
+                                    onDeleteChat = {
+                                        viewModel.deleteAiChat(
+                                            chat = currentChat,
+                                            userId = state.currentUser.id
+                                        ).also {
+                                            if (navigator.canNavigateBack()) {
+                                                navigator.navigateBack()
+                                            } else {
+                                                navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, null)
+                                            }
+                                        }
                                     }
                                 )
                             }

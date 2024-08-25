@@ -136,6 +136,34 @@ class UserRemoteDataSource(
         }
     }
 
+    suspend fun removeChat(userId: String, chatId: String): Result<UserRemote> {
+        return try {
+            if (db.collection(USERS_PATH).document(userId).get().await().exists()) {
+                db.collection(USERS_PATH).document(userId).update(CHATS_PATH, FieldValue.arrayRemove(chatId))
+
+                getUser(userId = userId)
+            } else {
+                Result.failure(IOException())
+            }
+        } catch (e: Exception) {
+            Result.failure(IOException())
+        }
+    }
+
+    suspend fun removeAiChat(userId: String, chatId: String): Result<UserRemote> {
+        return try {
+            if (db.collection(USERS_PATH).document(userId).get().await().exists()) {
+                db.collection(USERS_PATH).document(userId).update(AI_CHAT_PATH, FieldValue.arrayRemove(chatId))
+
+                getUser(userId = userId)
+            } else {
+                Result.failure(IOException())
+            }
+        } catch (e: Exception) {
+            Result.failure(IOException())
+        }
+    }
+
     suspend fun deleteUser(): Result<Unit> {
         return when(val id = auth.currentUser?.uid) {
             null -> {

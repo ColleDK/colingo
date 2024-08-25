@@ -11,6 +11,11 @@
     <string name="chats_empty_title">No chats yet</string>
     <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
 
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">This action cannot be undone!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Cancel</string>
+
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise is a Spanish teacher that can help you with improving your vocabulary!</string>
 </resources>

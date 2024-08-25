@@ -10,6 +10,8 @@ import com.aallam.openai.client.OpenAI
 import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
+import com.colledk.chat.domain.usecase.DeleteAiChatUseCase
+import com.colledk.chat.domain.usecase.DeleteChatUseCase
 import com.colledk.chat.domain.usecase.GetAiChatsUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
 import com.colledk.chat.domain.usecase.SendMessageUseCase
@@ -37,7 +39,9 @@ class ChatViewModel @Inject constructor(
     private val sendMessageUseCase: SendMessageUseCase,
     private val getAiChatsUseCase: GetAiChatsUseCase,
     private val updateAiChatUseCase: UpdateAiChatUseCase,
-    private val openAI: OpenAI
+    private val openAI: OpenAI,
+    private val deleteChatUseCase: DeleteChatUseCase,
+    private val deleteAiChatUseCase: DeleteAiChatUseCase
 ) : ViewModel() {
     private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState())
     val uiState: StateFlow<ChatUiState> = _uiState
@@ -119,6 +123,26 @@ class ChatViewModel @Inject constructor(
                 _error.trySend(it)
             }.onSuccess {
                 getAiChats()
+            }
+        }
+    }
+
+    fun deleteChat(chat: Chat) {
+        viewModelScope.launch {
+            deleteChatUseCase(chatId = chat.id, userIds = chat.users.map { it.id }).onSuccess {
+                getChats()
+            }.onFailure {
+                _error.trySend(it)
+            }
+        }
+    }
+
+    fun deleteAiChat(chat: AiChat, userId: String) {
+        viewModelScope.launch {
+            deleteAiChatUseCase(chat.id, userId).onSuccess {
+                getAiChats()
+            }.onFailure {
+                _error.trySend(it)
             }
         }
     }

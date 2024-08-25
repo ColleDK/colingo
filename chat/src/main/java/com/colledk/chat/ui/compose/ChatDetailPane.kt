@@ -19,9 +19,12 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.BottomAppBar
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -29,6 +32,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -62,13 +66,16 @@ import org.joda.time.DateTime
 @Composable
 internal fun ChatDetailPane(
     uiState: ChatDetailUiState,
+    onDeleteChat: (chat: Chat) -> Unit,
     modifier: Modifier = Modifier,
     onSendMessage: (message: String) -> Unit
 ) {
     Scaffold(
         modifier = modifier,
         topBar = {
-            ChatTopBar(title = uiState.otherUser.name)
+            ChatTopBar(title = uiState.otherUser.name) {
+                onDeleteChat(uiState.chat)
+            }
         },
         bottomBar = {
             ChatBottomBar {
@@ -85,7 +92,9 @@ internal fun ChatDetailPane(
         }
 
         LazyColumn(
-            modifier = Modifier.fillMaxSize().padding(it),
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(it),
             contentPadding = PaddingValues(24.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
@@ -126,8 +135,16 @@ private fun ChatEmptyScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text(text = stringResource(id = R.string.chat_empty_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
-        Text(text = stringResource(id = R.string.chat_empty_description), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
+        Text(
+            text = stringResource(id = R.string.chat_empty_title),
+            style = MaterialTheme.typography.titleLarge,
+            textAlign = TextAlign.Center
+        )
+        Text(
+            text = stringResource(id = R.string.chat_empty_description),
+            style = MaterialTheme.typography.bodyLarge,
+            textAlign = TextAlign.Center
+        )
     }
 }
 
@@ -165,8 +182,17 @@ private fun ChatBottomBar(
 @Composable
 private fun ChatTopBar(
     title: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    onDeleteChat: () -> Unit
 ) {
+    var isMenuOpen by remember {
+        mutableStateOf(false)
+    }
+
+    var isAlertOpen by remember {
+        mutableStateOf(false)
+    }
+
     TopAppBar(
         modifier = modifier,
         title = {
@@ -178,16 +204,61 @@ private fun ChatTopBar(
             )
         },
         actions = {
-            IconButton(onClick = { /*TODO*/ }) {
-                Icon(
-                    painter = painterResource(id = R.drawable.menu_dots),
-                    contentDescription = null,
-                    tint = MaterialTheme.colorScheme.onSurface,
-                    modifier = Modifier.size(24.dp)
-                )
+            Box {
+                IconButton(onClick = { isMenuOpen = true }) {
+                    Icon(
+                        painter = painterResource(id = R.drawable.menu_dots),
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onSurface,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+
+                DropdownMenu(
+                    expanded = isMenuOpen,
+                    onDismissRequest = { isMenuOpen = false }
+                ) {
+                    DropdownMenuItem(
+                        text = {
+                            Text(
+                                text = stringResource(id = R.string.chats_delete_title),
+                                color = MaterialTheme.colorScheme.error
+                            )
+                        },
+                        onClick = {
+                            isMenuOpen = false
+                            isAlertOpen = true
+                        }
+                    )
+                }
             }
         }
     )
+
+    if (isAlertOpen) {
+        AlertDialog(
+            onDismissRequest = { isAlertOpen = false },
+            confirmButton = {
+                TextButton(
+                    onClick = { isAlertOpen = false
+                    onDeleteChat() }
+                ) {
+                    Text(text = stringResource(id = R.string.chats_delete_confirm))
+                }
+            },
+            title = {
+                Text(text = stringResource(id = R.string.chats_delete_title))
+            },
+            text = {
+                Text(text = stringResource(id = R.string.chats_delete_subtitle))
+            },
+            dismissButton = {
+                TextButton(onClick = { isAlertOpen = false }) {
+                    Text(text = stringResource(id = R.string.chats_delete_cancel))
+                }
+            }
+        )
+    }
 }
 
 @Composable
@@ -326,7 +397,7 @@ private fun ChatDetailPanePreview() {
 
     ColingoTheme {
         Surface(color = MaterialTheme.colorScheme.surface) {
-            ChatDetailPane(uiState = uiState) {
+            ChatDetailPane(uiState = uiState, onDeleteChat = {}) {
 
             }
         }
