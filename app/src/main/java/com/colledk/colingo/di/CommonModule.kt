@@ -1,5 +1,6 @@
 package com.colledk.colingo.di
 
+import android.app.GrammaticalInflectionManager
 import android.content.Context
 import androidx.datastore.core.DataStore
 import androidx.datastore.core.handlers.ReplaceFileCorruptionHandler
@@ -13,6 +14,7 @@ import com.aallam.openai.api.http.Timeout
 import com.aallam.openai.client.Messages
 import com.aallam.openai.client.OpenAI
 import com.colledk.colingo.BuildConfig
+import com.colledk.common.LocaleHelper
 import com.colledk.common.MessageHandler
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -80,5 +82,12 @@ class CommonModule {
         @ApplicationContext context: Context
     ): MessageHandler {
         return MessageHandler(context = context)
+    }
+
+    @Provides
+    fun providesLocaleHelper(
+        @ApplicationContext context: Context
+    ) : LocaleHelper {
+        return LocaleHelper(context = context)
     }
 }
