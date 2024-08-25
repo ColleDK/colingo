@@ -18,4 +18,5 @@
     <string name="profile_select_proficiency">Select proficiency</string>
     <string name="add_language_select">Select</string>
     <string name="add_language_cancel">Cancel</string>
+    <string name="gender_title">Gender</string>
 </resources>
