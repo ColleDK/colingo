@@ -10,7 +10,7 @@ import kotlinx.parcelize.Parcelize
 @Parcelize
 enum class TopSetting : Parcelable {
     SWITCH_LANGUAGE,
-    BETA,
+    THEMING,
     NOTIFICATIONS,
     PERMISSIONS,
     ACCESSIBILITY,
@@ -25,7 +25,7 @@ enum class SettingsOption(
     @StringRes val titleId: Int,
     @DrawableRes val iconId: Int
 ) {
-    BETA(titleId = R.string.setting_beta_title, iconId = R.drawable.beta),
+    THEMING(titleId = R.string.setting_theming_title, iconId = R.drawable.painting),
     NOTIFICATIONS(titleId = R.string.setting_notifications_title, iconId = R.drawable.notifications),
     PERMISSIONS(titleId = R.string.setting_permissions_title, iconId = R.drawable.permissions),
     ACCESSIBILITY(titleId = R.string.setting_accessibility_title, iconId = R.drawable.accessibility),

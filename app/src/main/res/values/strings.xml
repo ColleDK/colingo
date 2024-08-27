@@ -7,7 +7,7 @@
     <string name="destination_settings_label">Settings</string>
 
     <!-- Settings menu -->
-    <string name="setting_beta_title">Beta</string>
+    <string name="setting_theming_title">Theming</string>
     <string name="setting_notifications_title">Notifications</string>
     <string name="setting_permissions_title">Permissions</string>
     <string name="setting_accessibility_title">Accessibility</string>
@@ -16,4 +16,8 @@
     <string name="setting_report_title">Report a bug</string>
     <string name="setting_logout_title">Log out</string>
     <string name="setting_switch_language_title">Switch languages</string>
+
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming</string>
 </resources>

@@ -14,6 +14,10 @@ import com.aallam.openai.api.http.Timeout
 import com.aallam.openai.client.Messages
 import com.aallam.openai.client.OpenAI
 import com.colledk.colingo.BuildConfig
+import com.colledk.colingo.data.SettingsRepositoryImpl
+import com.colledk.colingo.domain.repository.SettingsRepository
+import com.colledk.colingo.domain.usecase.GetSettingUseCase
+import com.colledk.colingo.domain.usecase.SetSettingUseCase
 import com.colledk.common.LocaleHelper
 import com.colledk.common.MessageHandler
 import com.google.firebase.auth.FirebaseAuth
