@@ -24,7 +24,6 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationItem
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -34,10 +33,9 @@ import com.colledk.colingo.R
 import com.colledk.colingo.data.Setting
 import com.colledk.colingo.domain.model.SettingsOption
 import com.colledk.colingo.domain.model.TopSetting
-import com.colledk.colingo.ui.compose.settings.ThemingSettings
 import com.colledk.colingo.ui.compose.settings.SettingUiState
 import com.colledk.colingo.ui.compose.settings.SwitchLanguagePane
-import timber.log.Timber
+import com.colledk.colingo.ui.compose.settings.ThemingSettings
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -72,6 +70,7 @@ fun SettingsPane(
             AnimatedPane {
                 SettingsContent(
                     onSwitchLanguage = {
+                        selectSetting(TopSetting.SWITCH_LANGUAGE)
                         navigator.navigateTo(
                             pane = ListDetailPaneScaffoldRole.Detail,
                             content = TopSetting.SWITCH_LANGUAGE

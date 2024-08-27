@@ -17,6 +17,8 @@
     <string name="setting_logout_title">Log out</string>
     <string name="setting_switch_language_title">Switch languages</string>
 
+    <string name="selected_language">Selected language</string>
+
     <!-- Beta settings -->
     <string name="setting_dynamic_theme">Dynamic theming</string>
     <string name="setting_dark_theme">Dark theming</string>

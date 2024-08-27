@@ -4,6 +4,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
@@ -18,6 +19,7 @@ fun NavGraphBuilder.explorePane() {
         val users = viewModel.users.collectAsLazyPagingItems()
         val filters by viewModel.filters.collectAsState()
         val currentUser by viewModel.currentUser.collectAsState()
+        val selectedUser by viewModel.selectedUser.collectAsStateWithLifecycle()
 
         LaunchedEffect(key1 = filters) {
             users.refresh()
@@ -29,7 +31,9 @@ fun NavGraphBuilder.explorePane() {
             selectFilters = viewModel::updateFilters,
             currentFilters = filters,
             userLanguages = currentUser?.languages?.map { it.language.language }.orEmpty(),
-            onCreateChat = viewModel::createChat
+            onCreateChat = viewModel::createChat,
+            selectUser = viewModel::selectUser,
+            selectedUser = selectedUser
         )
     }
 }

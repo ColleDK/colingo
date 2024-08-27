@@ -1,6 +1,7 @@
 package com.colledk.community.ui
 
 import android.location.Geocoder
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
@@ -40,13 +41,20 @@ class ExploreViewModel @Inject constructor(
     private val getCurrentUserUseCase: GetCurrentUserUseCase,
     private val createChatUseCase: CreateChatUseCase,
     private val locationHelper: LocationHelper,
-    private val messageHandler: MessageHandler
+    private val messageHandler: MessageHandler,
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     private val _filters: MutableStateFlow<List<String>> = MutableStateFlow(emptyList())
     val filters: StateFlow<List<String>> = _filters
 
     private val _currentUser: MutableStateFlow<User?> = MutableStateFlow(null)
     val currentUser: StateFlow<User?> = _currentUser
+
+    val selectedUser: StateFlow<User?> = savedStateHandle.getStateFlow("selected_user", savedStateHandle["selected_user"])
+
+    fun selectUser(user: User?) {
+        savedStateHandle["selected_user"] = user
+    }
 
     val users = Pager(
         PagingConfig(pageSize = UserPagingSource.PAGE_SIZE)

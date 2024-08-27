@@ -10,6 +10,7 @@ import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
+import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationItem
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -19,8 +20,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.colledk.chat.domain.model.AiChat
+import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.ui.ChatViewModel
 import com.colledk.chat.ui.uistates.ChatDetailUiState
+import com.colledk.chat.ui.uistates.ChatUiState
+import com.colledk.user.domain.model.User
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import timber.log.Timber
@@ -28,17 +33,30 @@ import timber.log.Timber
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 internal fun ChatScreen(
-    modifier: Modifier = Modifier,
-    viewModel: ChatViewModel = hiltViewModel()
+    state: ChatUiState,
+    error: Throwable?,
+    selectChat: (ChatDetailDestination) -> Unit,
+    selectedChat: ChatDetailDestination?,
+    deleteChat: (chat: Chat) -> Unit,
+    sendMessage: (id: String, message: String, user: User) -> Unit,
+    deleteAiChat: (chat: AiChat, userId: String) -> Unit,
+    sendAiMessage: (chat: AiChat, message: String) -> Unit,
+    modifier: Modifier = Modifier
 ) {
-    val navigator = rememberListDetailPaneScaffoldNavigator<ChatDetailDestination>()
+    val navigator = rememberListDetailPaneScaffoldNavigator(
+        initialDestinationHistory = listOfNotNull(
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.List),
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.Detail, selectedChat).takeIf {
+                selectedChat != null
+            }
+        )
+    )
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
     }
 
     val snackbarHostState = remember { SnackbarHostState() }
-    val error by viewModel.error.collectAsState(null)
     LaunchedEffect(key1 = error) {
         if (error != null) {
             Timber.e(error)
@@ -59,22 +77,17 @@ internal fun ChatScreen(
             value = navigator.scaffoldValue,
             listPane = {
                 AnimatedPane {
-                    val state by viewModel.uiState.collectAsState()
-
-                    LaunchedEffect(key1 = Unit) {
-                        viewModel.getChats()
-                        viewModel.getAiChats()
-                    }
-
                     ChatPane(
                         state = state,
                         onCreateNewChat = { /* TODO */ },
                         onChatSelected = { chat ->
+                            selectChat(ChatDetailDestination.MemberChatDestination(id = chat.id))
                             navigator.navigateTo(
                                 ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.MemberChatDestination(id = chat.id)
                             )
                         },
                         onAiChatSelected = { chat ->
+                            selectChat(ChatDetailDestination.AiChatDestination(id = chat.id))
                             navigator.navigateTo(ListDetailPaneScaffoldRole.Detail, ChatDetailDestination.AiChatDestination(id = chat.id))
                         }
                     )
@@ -86,7 +99,6 @@ internal fun ChatScreen(
                         when(chat) {
                             is ChatDetailDestination.MemberChatDestination -> {
                                 val chatId = chat.id
-                                val state by viewModel.uiState.collectAsState()
 
                                 val uiState: ChatDetailUiState? by remember(state) {
                                     derivedStateOf {
@@ -104,7 +116,7 @@ internal fun ChatScreen(
                                     ChatDetailPane(
                                         uiState = it,
                                         onDeleteChat = {
-                                            viewModel.deleteChat(it).also {
+                                            deleteChat(it).also {
                                                 if (navigator.canNavigateBack()) {
                                                     navigator.navigateBack()
                                                 } else {
@@ -113,17 +125,15 @@ internal fun ChatScreen(
                                             }
                                         }
                                     ) { message ->
-                                        viewModel.sendMessage(
-                                            chatId = chatId,
-                                            message = message,
-                                            user = state.currentUser
+                                        sendMessage(
+                                            chatId,
+                                            message,
+                                            state.currentUser
                                         )
                                     }
                                 }
                             }
                             is ChatDetailDestination.AiChatDestination -> {
-                                val state by viewModel.uiState.collectAsState()
-
                                 val currentChat by remember(state.aiChats) {
                                     derivedStateOf {
                                         state.aiChats.first { it.id == chat.id }
@@ -133,15 +143,15 @@ internal fun ChatScreen(
                                 AiChatDetailPane(
                                     chat = currentChat,
                                     onSendMessage = {
-                                        viewModel.sendAiMessage(
-                                            chat = currentChat,
-                                            message = it
+                                        sendAiMessage(
+                                            currentChat,
+                                            it
                                         )
                                     },
                                     onDeleteChat = {
-                                        viewModel.deleteAiChat(
-                                            chat = currentChat,
-                                            userId = state.currentUser.id
+                                        deleteAiChat(
+                                            currentChat,
+                                            state.currentUser.id
                                         ).also {
                                             if (navigator.canNavigateBack()) {
                                                 navigator.navigateBack()
