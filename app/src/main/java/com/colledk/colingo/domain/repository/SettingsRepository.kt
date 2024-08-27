@@ -1,6 +1,5 @@
 package com.colledk.colingo.domain.repository
 
-import androidx.datastore.preferences.core.Preferences
 import com.colledk.colingo.data.Setting
 import kotlinx.coroutines.flow.Flow
 

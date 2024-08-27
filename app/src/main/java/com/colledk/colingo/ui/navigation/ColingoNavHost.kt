@@ -4,8 +4,11 @@ import androidx.compose.animation.AnimatedContentTransitionScope
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
@@ -30,7 +33,18 @@ import com.google.firebase.ktx.Firebase
 fun NavGraphBuilder.settingsPane(onLogOut: () -> Unit) {
     composable<Settings> {
         val viewModel: SettingsViewModel = hiltViewModel()
-        SettingsPane(onLogOut = onLogOut, onSwitchLanguage = viewModel::switchLanguages)
+        val uiState by viewModel.uiState.collectAsState()
+        val selectedSetting by viewModel.selectedSetting.collectAsStateWithLifecycle()
+
+        SettingsPane(
+            onLogOut = onLogOut,
+            onSwitchLanguage = viewModel::switchLanguages,
+            settingsState = uiState,
+            retrieveSettings = viewModel::getSettings,
+            updateSetting = viewModel::updateSetting,
+            selectedSetting = selectedSetting,
+            selectSetting = viewModel::selectSetting
+        )
     }
 }
 

@@ -1,18 +1,16 @@
 package com.colledk.colingo
 
-import android.content.Context
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.datastore.core.DataStore
-import androidx.datastore.preferences.core.Preferences
-import androidx.datastore.preferences.preferencesDataStore
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.colingo.ui.compose.ColingoApp
 import com.colledk.theme.ColingoTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -23,13 +21,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
         setContent {
-            ColingoTheme(dynamicColor = true) {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.surface
-                ) {
-                    ColingoApp()
+            val viewModel: MainViewModel = hiltViewModel()
+            val dynamicThemingEnabled by viewModel.dynamicThemeEnabled.collectAsState()
+            val darkThemingEnabled by viewModel.darkThemeEnabled.collectAsState()
+
+            installSplashScreen().setKeepOnScreenCondition(
+                condition = { dynamicThemingEnabled == null }
+            )
+
+            dynamicThemingEnabled?.let {
+                ColingoTheme(dynamicColor = it, darkTheme = darkThemingEnabled) {
+                    Surface(
+                        modifier = Modifier.fillMaxSize(),
+                        color = MaterialTheme.colorScheme.surface
+                    ) {
+                        ColingoApp()
+                    }
                 }
             }
         }
