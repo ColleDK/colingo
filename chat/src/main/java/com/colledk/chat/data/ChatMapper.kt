@@ -2,6 +2,7 @@ package com.colledk.chat.data
 
 import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.chat.ChatRole
+import com.colledk.chat.R
 import com.colledk.chat.data.remote.model.AiChatRemote
 import com.colledk.chat.data.remote.model.AiMessageRemote
 import com.colledk.chat.data.remote.model.ChatRemote
@@ -10,6 +11,7 @@ import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.AiItem
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
+import com.colledk.common.GetStringUseCase
 import com.colledk.user.domain.model.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -57,26 +59,26 @@ fun Message.mapToRemote(): MessageRemote {
     )
 }
 
-fun ChatRemote.mapToDomain(users: List<User>): Chat {
+fun ChatRemote.mapToDomain(users: List<User>, getStringUseCase: GetStringUseCase): Chat {
     return Chat(
         id = id,
         users = users,
         messages = messages.mapNotNull { message ->
             users.find { it.id ==  message.senderId }?.let {
-                message.mapToDomain(it)
+                message.mapToDomain(user = it, getStringUseCase = getStringUseCase)
             }
         }
     )
 }
 
-private fun MessageRemote.mapToDomain(user: User): Message {
+private fun MessageRemote.mapToDomain(user: User, getStringUseCase: GetStringUseCase): Message {
     return Message(
         id = id,
         sender = user,
         content = content,
         time = timestamp.toTimeString(),
         timestamp = timestamp,
-        date = timestamp.toDateString()
+        date = timestamp.toDateString(getStringUseCase = getStringUseCase)
     )
 }
 
@@ -91,14 +93,14 @@ private fun MessageRemote.mapToDomain(user: User): Message {
  *
  * Else the timestamp will print the long date, i.e. November 3, 2016.
  */
-private fun Long.toDateString(): String {
+private fun Long.toDateString(getStringUseCase: GetStringUseCase): String {
     val date = DateTime(this)
     return when {
         date.isToday() ->  {
-            "Today"
+            getStringUseCase(R.string.date_today)
         }
         date.isYesterday() -> {
-            "Yesterday"
+            getStringUseCase(R.string.message_time_yesterday)
         }
         date.isCurrentWeek() -> {
             date.dayOfWeek().asText

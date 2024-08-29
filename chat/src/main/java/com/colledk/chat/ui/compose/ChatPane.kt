@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -36,6 +37,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -61,6 +63,7 @@ import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.ui.uistates.ChatUiState
+import com.colledk.common.shimmerEffect
 import com.colledk.theme.ColingoTheme
 import com.colledk.theme.PreviewAnnotations
 import com.colledk.theme.debugPlaceholder
@@ -72,6 +75,8 @@ import org.joda.time.DateTime
 @Composable
 internal fun ChatPane(
     state: ChatUiState,
+    selectedPage: Int?,
+    selectPage: (Int) -> Unit,
     onCreateNewChat: () -> Unit,
     onChatSelected: (chat: Chat) -> Unit,
     onAiChatSelected: (chat: AiChat) -> Unit,
@@ -106,7 +111,11 @@ internal fun ChatPane(
             ChatTopBar()
         }
     ) {
-        val pagerState = rememberPagerState { 2 }
+        val pagerState = rememberPagerState(initialPage = selectedPage ?: 0) { 2 }
+        LaunchedEffect(key1 = pagerState.currentPage) {
+            selectPage(pagerState.currentPage)
+        }
+
         val scope = rememberCoroutineScope()
 
         Column(
@@ -126,39 +135,61 @@ internal fun ChatPane(
                 state = pagerState,
                 modifier = Modifier.fillMaxSize()
             ) { index ->
-                when (index) {
-                    0 -> {
-                        LazyColumn(
-                            modifier = Modifier.fillMaxSize(),
-                            contentPadding = PaddingValues(24.dp),
-                            verticalArrangement = Arrangement.spacedBy(16.dp),
-                            state = listState
-                        ) {
-                            items(state.chats) { chat ->
-                                ChatItem(
-                                    chat = chat,
-                                    onChatSelected = { onChatSelected(chat) },
-                                    currentUser = state.currentUser
-                                )
-                            }
-                            item {
-                                if (state.chats.isEmpty()) {
-                                    ChatsEmpty(modifier = Modifier.fillParentMaxSize())
+                when(state) {
+                    is ChatUiState.Data -> {
+                        when (index) {
+                            0 -> {
+                                LazyColumn(
+                                    modifier = Modifier.fillMaxSize(),
+                                    contentPadding = PaddingValues(24.dp),
+                                    verticalArrangement = Arrangement.spacedBy(16.dp),
+                                    state = listState
+                                ) {
+                                    items(state.chats, key = { it.id }) { chat ->
+                                        ChatItem(
+                                            chat = chat,
+                                            onChatSelected = { onChatSelected(chat) },
+                                            currentUser = state.currentUser
+                                        )
+                                    }
+                                    item {
+                                        if (state.chats.isEmpty()) {
+                                            ChatsEmpty(modifier = Modifier.fillParentMaxSize())
+                                        }
+                                    }
                                 }
+                            }
+
+                            1 -> {
+                                AiChatPane(
+                                    modifier = Modifier.fillMaxSize(),
+                                    aiChats = state.aiChats,
+                                    onChatClicked = onAiChatSelected
+                                )
                             }
                         }
                     }
-
-                    1 -> {
-                        AiChatPane(
-                            modifier = Modifier.fillMaxSize(),
-                            aiChats = state.aiChats,
-                            onChatClicked = onAiChatSelected
-                        )
-                    }
+                    ChatUiState.Loading -> LoadingScreen(modifier = Modifier.padding(24.dp))
                 }
-
             }
+        }
+    }
+}
+
+@Composable
+private fun LoadingScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        repeat(10) {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(140.dp)
+                    .clip(CardDefaults.shape)
+                    .shimmerEffect(color = MaterialTheme.colorScheme.secondaryContainer)
+            )
         }
     }
 }
@@ -247,7 +278,7 @@ private fun ChatTopBar(modifier: Modifier = Modifier) {
         modifier = modifier,
         title = {
             Text(
-                text = "My messages",
+                text = stringResource(id = R.string.chat_my_messages),
                 style = MaterialTheme.typography.headlineLarge,
                 color = MaterialTheme.colorScheme.onSurface
             )
@@ -365,7 +396,7 @@ private fun ChatItem(
 private fun ChatPanePreview() {
     val uiState by remember {
         mutableStateOf(
-            ChatUiState(
+            ChatUiState.Data(
                 chats = listOf(
                     Chat(
                         id = "123",
@@ -468,7 +499,14 @@ private fun ChatPanePreview() {
 
     ColingoTheme {
         Surface(color = MaterialTheme.colorScheme.surface) {
-            ChatPane(state = uiState, onCreateNewChat = {}, onChatSelected = {}, onAiChatSelected = {})
+            ChatPane(
+                state = uiState,
+                onCreateNewChat = {},
+                onChatSelected = {},
+                onAiChatSelected = {},
+                selectedPage = null,
+                selectPage = {}
+            )
         }
     }
 }

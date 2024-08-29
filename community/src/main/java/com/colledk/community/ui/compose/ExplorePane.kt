@@ -53,6 +53,7 @@ import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationIt
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
@@ -76,6 +77,7 @@ import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import coil.compose.AsyncImage
 import com.colledk.chat.domain.model.AiItem
+import com.colledk.common.shimmerEffect
 import com.colledk.community.R
 import com.colledk.profile.ui.compose.ProfilePane
 import com.colledk.profile.ui.uistates.ProfileUiState
@@ -90,6 +92,8 @@ import java.util.Locale
 internal fun ExplorePane(
     selectedUser: User?,
     selectUser: (user: User) -> Unit,
+    selectedPage: Int?,
+    selectPage: (page: Int) -> Unit,
     userLanguages: List<String>,
     currentFilters: List<String>,
     users: LazyPagingItems<User>,
@@ -131,7 +135,11 @@ internal fun ExplorePane(
                 }
             ) { padding ->
                 AnimatedPane {
-                    val pagerState = rememberPagerState { 2 }
+                    val pagerState = rememberPagerState(initialPage = selectedPage ?: 0) { 2 }
+                    LaunchedEffect(key1 = pagerState.currentPage) {
+                        selectPage(pagerState.currentPage)
+                    }
+
                     val scope = rememberCoroutineScope()
 
                     Column(
@@ -165,7 +173,6 @@ internal fun ExplorePane(
                                 }
                             }
                         }
-                        HorizontalDivider(color = MaterialTheme.colorScheme.onSurface)
                         HorizontalPager(state = pagerState) { page ->
                             when (page) {
                                 0 -> {
@@ -563,7 +570,7 @@ private fun SelectFiltersBottomSheet(
         Column(
             Modifier.padding(horizontal = 24.dp)
         ) {
-            Text(text = "Choose up to $limit languages you want to see fluent speakers from!")
+            Text(text = stringResource(id = R.string.community_filters_limit, limit))
             if (currentFilters.isNotEmpty()) {
                 Spacer(modifier = Modifier.height(4.dp))
                 Row(
@@ -571,11 +578,11 @@ private fun SelectFiltersBottomSheet(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "${currentFilters.size}/$limit selected",
+                        text = stringResource(id = R.string.community_filters_selected, currentFilters.size, limit),
                         fontWeight = FontWeight.Bold
                     )
                     TextButton(onClick = clearFilters) {
-                        Text(text = "Clear filters")
+                        Text(text = stringResource(id = R.string.community_filters_clear))
                     }
                 }
                 Spacer(modifier = Modifier.height(4.dp))
@@ -585,38 +592,41 @@ private fun SelectFiltersBottomSheet(
                     .fillMaxWidth(),
                 verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
-                stickyHeader {
-                    Surface(
-                        modifier = Modifier.fillParentMaxWidth(),
-                        color = MaterialTheme.colorScheme.surfaceContainerLow
-                    ) {
-                        Text(text = "Your current languages", fontWeight = FontWeight.Bold)
-                    }
-                }
-                items(userFilters) { locale ->
-                    val isSelected by remember {
-                        derivedStateOf { currentFilters.contains(locale.language) }
-                    }
+                if (userFilters.isNotEmpty()) {
 
-                    ListItem(
-                        headlineContent = {
-                            Text(text = locale.displayLanguage)
-                        },
-                        leadingContent = {
-                            Checkbox(
-                                checked = isSelected,
-                                onCheckedChange = null
-                            )
-                        },
-                        modifier = Modifier
-                            .alpha(if (currentFilters.size < limit || isSelected) 1f else 0.38f)
-                            .selectable(
-                                selected = isSelected,
-                                enabled = currentFilters.size < limit || isSelected
-                            ) {
-                                onSelectFilter(locale.language)
-                            }
-                    )
+                    stickyHeader {
+                        Surface(
+                            modifier = Modifier.fillParentMaxWidth(),
+                            color = MaterialTheme.colorScheme.surfaceContainerLow
+                        ) {
+                            Text(text = stringResource(id = R.string.community_filters_your_languages), fontWeight = FontWeight.Bold)
+                        }
+                    }
+                    items(userFilters) { locale ->
+                        val isSelected by remember {
+                            derivedStateOf { currentFilters.contains(locale.language) }
+                        }
+
+                        ListItem(
+                            headlineContent = {
+                                Text(text = locale.displayLanguage)
+                            },
+                            leadingContent = {
+                                Checkbox(
+                                    checked = isSelected,
+                                    onCheckedChange = null
+                                )
+                            },
+                            modifier = Modifier
+                                .alpha(if (currentFilters.size < limit || isSelected) 1f else 0.38f)
+                                .selectable(
+                                    selected = isSelected,
+                                    enabled = currentFilters.size < limit || isSelected
+                                ) {
+                                    onSelectFilter(locale.language)
+                                }
+                        )
+                    }
                 }
                 remainingFilters.forEach { (startLetter, locales) ->
                     stickyHeader {

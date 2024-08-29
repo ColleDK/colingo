@@ -62,6 +62,7 @@ dependencies {
     // Internal modules
     implementation(project(":theme"))
     implementation(project(":user"))
+    implementation(project(":common"))
 
     // Hilt
     implementation(libs.hilt.android)

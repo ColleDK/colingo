@@ -49,6 +49,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -137,7 +138,7 @@ private fun PostPane(
                         showBottomSheet = true
                     },
             ) {
-                Text(text = "Add a comment", modifier = Modifier.padding(12.dp))
+                Text(text = stringResource(id = R.string.post_create_comment), modifier = Modifier.padding(12.dp))
             }
         }
     ) { padding ->
@@ -156,8 +157,8 @@ private fun PostPane(
             stickyHeader {
                 Surface(modifier = Modifier.fillParentMaxWidth()) {
                     PostDetailHeader(
-                        likes = formatNumber(usersLiked.size) + " likes",
-                        comments = formatNumber(post.replies.size) + " comments",
+                        likes = stringResource(id = R.string.post_likes, formatNumber(usersLiked.size)),
+                        comments = stringResource(id = R.string.post_comments, formatNumber(post.replies.size)),
                         modifier = Modifier.fillParentMaxWidth(),
                         isPostLiked = isLiked,
                         onLikeClicked = {
@@ -184,7 +185,7 @@ private fun PostPane(
                 item {
                     Column(
                         modifier = Modifier.fillParentMaxWidth(),
-                        verticalArrangement = Arrangement.Center,
+                        verticalArrangement = Arrangement.spacedBy(12.dp, Alignment.CenterVertically),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Icon(
@@ -193,11 +194,8 @@ private fun PostPane(
                             tint = MaterialTheme.colorScheme.onSurface,
                             modifier = Modifier.fillParentMaxWidth(.4f)
                         )
-                        Text(
-                            text = "No replies yet.\nBe the first to share your thoughts on this post!",
-                            style = MaterialTheme.typography.headlineSmall,
-                            textAlign = TextAlign.Center
-                        )
+                        Text(text = stringResource(id = R.string.post_no_comments_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
+                        Text(text = stringResource(id = R.string.post_no_comments_subtitle), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
                     }
                 }
             }

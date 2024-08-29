@@ -135,7 +135,7 @@ private fun BotItem(
             }
             Spacer(modifier = Modifier.weight(1f))
             Button(onClick = onCreateChat) {
-                Text(text = "Create chat with $name")
+                Text(text = stringResource(id = R.string.chatbot_create_chat, name))
             }
         }
     }

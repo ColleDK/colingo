@@ -19,6 +19,8 @@
 
     <string name="selected_language">Selected language</string>
 
+    <string name="settings_change">Change settings</string>
+    <string name="settings_switch_language">Switch language</string>
     <!-- Beta settings -->
     <string name="setting_dynamic_theme">Dynamic theming</string>
     <string name="setting_dark_theme">Dark theming</string>

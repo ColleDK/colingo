@@ -276,14 +276,14 @@ private fun ForgotPasswordDialog(
         modifier = modifier,
         onDismissRequest = onDismiss,
         title = {
-            Text(text = "Reset password")
+            Text(text = stringResource(id = R.string.login_reset_password))
         },
         text = {
             TextField(
                 value = email,
                 onValueChange = { email = it },
                 label = {
-                    Text(text = "Email")
+                    Text(text = stringResource(id = R.string.login_email_hint))
                 }
             )
         },

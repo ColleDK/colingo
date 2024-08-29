@@ -51,6 +51,11 @@ class ExploreViewModel @Inject constructor(
     val currentUser: StateFlow<User?> = _currentUser
 
     val selectedUser: StateFlow<User?> = savedStateHandle.getStateFlow("selected_user", savedStateHandle["selected_user"])
+    val selectedPane: StateFlow<Int?> = savedStateHandle.getStateFlow("selected_pane", savedStateHandle["selected_pane"])
+
+    fun selectPane(pane: Int?) {
+        savedStateHandle["selected_pane"] = pane
+    }
 
     fun selectUser(user: User?) {
         savedStateHandle["selected_user"] = user
@@ -98,7 +103,9 @@ class ExploreViewModel @Inject constructor(
                     addAiChatUseCase(
                         userId = userId,
                         chatId = it.id
-                    )
+                    ).also {
+                        messageHandler.displayMessage(R.string.chatbot_create_chat, ai.name)
+                    }
                 }.onFailure {
                     Timber.d(it)
                 }

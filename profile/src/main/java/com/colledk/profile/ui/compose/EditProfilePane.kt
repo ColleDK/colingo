@@ -19,6 +19,7 @@ import androidx.compose.material3.MultiChoiceSegmentedButtonRow
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
+import androidx.compose.material3.SelectableDates
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
@@ -34,6 +35,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEachIndexed
+import com.colledk.common.PastOrPresentSelectableDate
 import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.EditProfileUiState
 import com.colledk.user.domain.isUnknown
@@ -186,7 +188,7 @@ private fun BirthdaySelector(
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val state = rememberDatePickerState(initialSelectedDateMillis = currentSelected)
+    val state = rememberDatePickerState(initialSelectedDateMillis = currentSelected, selectableDates = PastOrPresentSelectableDate)
 
     DatePickerDialog(
         modifier = modifier,

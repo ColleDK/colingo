@@ -10,5 +10,12 @@
     <string name="community_empty_title">No users found</string>
     <string name="community_empty_subtitle">Try updating your filters to find more users</string>
 
+    <string name="community_filters_limit">Choose up to %d languages you want to see fluent speakers from</string>
+    <string name="community_filters_selected">%d/%d selected</string>
+    <string name="community_filters_clear">Clear filters</string>
+    <string name="community_filters_your_languages">Your current languages</string>
+
     <string name="chat_created_msg">Chat created</string>
+    <string name="chatbot_created_msg">Chat created with %s</string>
+    <string name="chatbot_create_chat">Create chat with %s</string>
 </resources>

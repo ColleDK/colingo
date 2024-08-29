@@ -18,6 +18,7 @@ import com.colledk.colingo.data.SettingsRepositoryImpl
 import com.colledk.colingo.domain.repository.SettingsRepository
 import com.colledk.colingo.domain.usecase.GetSettingUseCase
 import com.colledk.colingo.domain.usecase.SetSettingUseCase
+import com.colledk.common.GetStringUseCase
 import com.colledk.common.LocaleHelper
 import com.colledk.common.MessageHandler
 import com.google.firebase.auth.FirebaseAuth
@@ -93,5 +94,12 @@ class CommonModule {
         @ApplicationContext context: Context
     ) : LocaleHelper {
         return LocaleHelper(context = context)
+    }
+
+    @Provides
+    fun providesGetStringUseCase(
+        @ApplicationContext context: Context
+    ): GetStringUseCase {
+        return GetStringUseCase(context)
     }
 }

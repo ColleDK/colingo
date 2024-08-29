@@ -20,6 +20,7 @@ fun NavGraphBuilder.explorePane() {
         val filters by viewModel.filters.collectAsState()
         val currentUser by viewModel.currentUser.collectAsState()
         val selectedUser by viewModel.selectedUser.collectAsStateWithLifecycle()
+        val selectedPage by viewModel.selectedPane.collectAsStateWithLifecycle()
 
         LaunchedEffect(key1 = filters) {
             users.refresh()
@@ -33,7 +34,9 @@ fun NavGraphBuilder.explorePane() {
             userLanguages = currentUser?.languages?.map { it.language.language }.orEmpty(),
             onCreateChat = viewModel::createChat,
             selectUser = viewModel::selectUser,
-            selectedUser = selectedUser
+            selectedUser = selectedUser,
+            selectedPage = selectedPage,
+            selectPage = viewModel::selectPane
         )
     }
 }

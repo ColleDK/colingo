@@ -30,6 +30,7 @@ fun NavGraphBuilder.chatPane() {
         val error by viewModel.error.collectAsState(null)
         val uiState by viewModel.uiState.collectAsState()
         val selectedChat by viewModel.selectedChat.collectAsStateWithLifecycle()
+        val selectedPane by viewModel.selectedPane.collectAsStateWithLifecycle()
 
         ChatScreen(
             state = uiState,
@@ -39,7 +40,9 @@ fun NavGraphBuilder.chatPane() {
             sendMessage = viewModel::sendMessage,
             deleteAiChat = viewModel::deleteAiChat,
             sendAiMessage = viewModel::sendAiMessage,
-            selectChat = viewModel::selectChat
+            selectChat = viewModel::selectChat,
+            selectedPage = selectedPane,
+            selectPage = viewModel::selectPane
         )
     }
 }
