@@ -11,6 +11,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavOptions
@@ -20,8 +21,6 @@ import androidx.paging.compose.collectAsLazyPagingItems
 import com.colledk.home.ui.HomeViewModel
 import com.colledk.home.ui.compose.HomePane
 import com.colledk.home.ui.uistates.HomeUiState
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 
 fun NavGraphBuilder.homePane() {
     composable<Home> {
@@ -29,6 +28,7 @@ fun NavGraphBuilder.homePane() {
         val posts = viewModel.posts.collectAsLazyPagingItems()
         val user by viewModel.currentUser.collectAsState()
         val sorting by viewModel.sorting.collectAsState()
+        val detailsDestination by viewModel.selectedDestination.collectAsStateWithLifecycle()
 
         val snackbarHostState = remember { SnackbarHostState() }
 
@@ -70,7 +70,9 @@ fun NavGraphBuilder.homePane() {
                     onSort = viewModel::updateSorting,
                     formatNumber = viewModel::formatNumber,
                     onCreateChat = viewModel::createChat,
-                    modifier = Modifier.padding(padding)
+                    modifier = Modifier.padding(padding),
+                    selectedDestination = detailsDestination,
+                    selectDestination = viewModel::selectDetailDestination
                 )
             }
         }

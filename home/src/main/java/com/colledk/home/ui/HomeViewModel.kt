@@ -1,5 +1,6 @@
 package com.colledk.home.ui
 
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
@@ -14,6 +15,7 @@ import com.colledk.home.domain.usecase.CreatePostUseCase
 import com.colledk.home.domain.usecase.FormatNumberUseCase
 import com.colledk.home.domain.usecase.LikePostUseCase
 import com.colledk.home.domain.usecase.RemovePostLikeUseCase
+import com.colledk.home.ui.compose.HomeDetailDestination
 import com.colledk.user.domain.model.Topic
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
@@ -30,7 +32,6 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import okio.IOException
 import org.joda.time.DateTime
-import timber.log.Timber
 import javax.inject.Inject
 
 @HiltViewModel
@@ -44,7 +45,8 @@ class HomeViewModel @Inject constructor(
     private val removePostLikeUseCase: RemovePostLikeUseCase,
     private val formatNumberUseCase: FormatNumberUseCase,
     private val createChatUseCase: CreateChatUseCase,
-    private val messageHandler: MessageHandler
+    private val messageHandler: MessageHandler,
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     val posts = Pager(
         PagingConfig(pageSize = HomePagingSource.PAGE_SIZE)
@@ -66,6 +68,12 @@ class HomeViewModel @Inject constructor(
 
     private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
     val error: Flow<Throwable> = _error.receiveAsFlow()
+
+    val selectedDestination: StateFlow<HomeDetailDestination?> = savedStateHandle.getStateFlow("selected_destination", savedStateHandle["selected_destination"])
+
+    fun selectDetailDestination(destination: HomeDetailDestination) {
+        savedStateHandle["selected_destination"] = destination
+    }
 
     init {
         getUser()

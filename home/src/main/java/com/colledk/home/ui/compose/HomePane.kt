@@ -35,6 +35,7 @@ import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
+import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationItem
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.material3.rememberModalBottomSheetState
@@ -70,6 +71,8 @@ import com.google.firebase.firestore.Query.Direction
 @Composable
 internal fun HomePane(
     uiState: HomeUiState,
+    selectedDestination: HomeDetailDestination?,
+    selectDestination: (destination: HomeDetailDestination) -> Unit,
     onLikePost: (post: Post) -> Unit,
     onRemoveLike: (post: Post) -> Unit,
     onRefresh: () -> Unit,
@@ -103,7 +106,14 @@ internal fun HomePane(
 
     val bottomSheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
 
-    val navigator = rememberListDetailPaneScaffoldNavigator<HomeDetailDestination>()
+    val navigator = rememberListDetailPaneScaffoldNavigator(
+        initialDestinationHistory = listOfNotNull(
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.List),
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.Detail, selectedDestination).takeIf {
+                selectedDestination != null
+            }
+        )
+    )
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
@@ -159,12 +169,15 @@ internal fun HomePane(
                         onRemoveLike = onRemoveLike,
                         userId = uiState.currentUser.id,
                         onProfileClicked = {
+                            selectDestination(HomeDetailDestination.ProfileDestination(it))
                             navigator.navigateTo(
                                 pane = ListDetailPaneScaffoldRole.Detail,
                                 content = HomeDetailDestination.ProfileDestination(it)
                             )
                         },
                         onPostClicked = {
+                            selectDestination(HomeDetailDestination.PostDestination(it.id))
+
                             navigator.navigateTo(
                                 pane = ListDetailPaneScaffoldRole.Detail,
                                 content = HomeDetailDestination.PostDestination(it.id)

@@ -49,6 +49,7 @@ import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.AnimatedPane
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
+import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationItem
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
@@ -87,6 +88,8 @@ import java.util.Locale
 @OptIn(ExperimentalMaterial3AdaptiveApi::class, ExperimentalMaterial3Api::class)
 @Composable
 internal fun ExplorePane(
+    selectedUser: User?,
+    selectUser: (user: User) -> Unit,
     userLanguages: List<String>,
     currentFilters: List<String>,
     users: LazyPagingItems<User>,
@@ -95,7 +98,14 @@ internal fun ExplorePane(
     selectFilters: (codes: List<String>) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val navigator = rememberListDetailPaneScaffoldNavigator<User>()
+    val navigator = rememberListDetailPaneScaffoldNavigator(
+        initialDestinationHistory = listOfNotNull(
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.List),
+            ThreePaneScaffoldDestinationItem(ListDetailPaneScaffoldRole.Detail, selectedUser).takeIf {
+                selectedUser != null
+            }
+        )
+    )
 
     BackHandler(navigator.canNavigateBack()) {
         navigator.navigateBack()
@@ -163,6 +173,7 @@ internal fun ExplorePane(
                                         users = users,
                                         modifier = Modifier.fillMaxSize(),
                                         onUserClicked = {
+                                            selectUser(it)
                                             navigator.navigateTo(
                                                 pane = ListDetailPaneScaffoldRole.Detail,
                                                 content = it
