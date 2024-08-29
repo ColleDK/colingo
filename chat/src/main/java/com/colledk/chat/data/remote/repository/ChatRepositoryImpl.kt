@@ -11,6 +11,7 @@ import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
 import com.colledk.chat.domain.repository.ChatRepository
+import com.colledk.common.GetStringUseCase
 import com.colledk.user.domain.repository.UserRepository
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.CoroutineDispatcher
@@ -20,12 +21,12 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import okio.IOException
-import timber.log.Timber
 
 class ChatRepositoryImpl(
     private val remoteDataSource: ChatRemoteDataSource,
     private val userRepository: UserRepository,
     private val auth: FirebaseAuth,
+    private val getStringUseCase: GetStringUseCase,
     private val dispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : ChatRepository {
     override suspend fun getAiChats(ids: List<String>): Result<List<AiChat>> {
@@ -80,7 +81,7 @@ class ChatRepositoryImpl(
     override suspend fun getChat(id: String): Flow<Chat> = withContext(dispatcher) {
         remoteDataSource.observeChat(id).map {
             val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
-            it.mapToDomain(users = users)
+            it.mapToDomain(users = users, getStringUseCase)
         }
     }
 
@@ -99,7 +100,7 @@ class ChatRepositoryImpl(
                 users.forEach {
                     userRepository.addChat(userId = it.id, chatId = chat.id)
                 }
-                chat.mapToDomain(users)
+                chat.mapToDomain(users, getStringUseCase)
             }
         }
     }
@@ -107,7 +108,7 @@ class ChatRepositoryImpl(
     override suspend fun addMessage(id: String, message: Message): Result<Chat> = withContext(dispatcher) {
         remoteDataSource.addMessage(id = id, message.mapToRemote()).map {
             val users = it.userIds.mapNotNull { userRepository.getUser(it).getOrNull() }
-            it.mapToDomain(users = users)
+            it.mapToDomain(users = users, getStringUseCase)
         }
     }
 

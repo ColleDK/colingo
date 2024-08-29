@@ -10,6 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
@@ -18,6 +19,7 @@ import androidx.navigation.NavOptions
 import androidx.navigation.compose.composable
 import androidx.paging.LoadState
 import androidx.paging.compose.collectAsLazyPagingItems
+import com.colledk.home.R
 import com.colledk.home.ui.HomeViewModel
 import com.colledk.home.ui.compose.HomePane
 import com.colledk.home.ui.uistates.HomeUiState
@@ -32,11 +34,13 @@ fun NavGraphBuilder.homePane() {
 
         val snackbarHostState = remember { SnackbarHostState() }
 
+        val context = LocalContext.current
+
         LaunchedEffect(key1 = posts.loadState) {
             if (posts.loadState.refresh is LoadState.Error) {
                 snackbarHostState.showSnackbar(
                     (posts.loadState.refresh as? LoadState.Error)?.error?.message ?:
-                    "Something went wrong. Please try again"
+                    context.getString(R.string.error_msg_general)
                 )
             }
         }

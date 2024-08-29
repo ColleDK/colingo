@@ -1,7 +1,6 @@
-package com.colledk.community.ui.compose
+package com.colledk.common
 
 import androidx.compose.animation.core.FastOutSlowInEasing
-import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -14,7 +13,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 
-internal fun Modifier.shimmerEffect(
+fun Modifier.shimmerEffect(
     color: Color,
     duration: Int = 1000
 ): Modifier {

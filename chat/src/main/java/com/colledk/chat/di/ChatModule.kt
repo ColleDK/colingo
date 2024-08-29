@@ -13,6 +13,7 @@ import com.colledk.chat.domain.usecase.GetChatUseCase
 import com.colledk.chat.domain.usecase.GetChatsUseCase
 import com.colledk.chat.domain.usecase.SendMessageUseCase
 import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
+import com.colledk.common.GetStringUseCase
 import com.colledk.user.domain.repository.UserRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -45,12 +46,14 @@ class ChatModule {
     fun providesChatRepository(
         remoteDataSource: ChatRemoteDataSource,
         userRepository: UserRepository,
-        auth: FirebaseAuth
+        auth: FirebaseAuth,
+        getStringUseCase: GetStringUseCase
     ): ChatRepository {
         return ChatRepositoryImpl(
             remoteDataSource = remoteDataSource,
             userRepository = userRepository,
-            auth = auth
+            auth = auth,
+            getStringUseCase = getStringUseCase
         )
     }
 

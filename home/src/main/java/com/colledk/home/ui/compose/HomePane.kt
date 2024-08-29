@@ -349,8 +349,8 @@ private fun HomeFeedSorting(
             DropdownMenuItem(
                 text = {
                     val text = when(entry) {
-                        Direction.ASCENDING -> "Oldest"
-                        Direction.DESCENDING -> "Newest"
+                        Direction.ASCENDING -> stringResource(id = R.string.home_filters_oldest)
+                        Direction.DESCENDING -> stringResource(id = R.string.home_filters_newest)
                     }
                     Text(text = text)
                 },

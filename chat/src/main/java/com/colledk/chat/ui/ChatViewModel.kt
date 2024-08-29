@@ -8,6 +8,7 @@ import com.aallam.openai.api.chat.ChatMessage
 import com.aallam.openai.api.chat.ChatRole
 import com.aallam.openai.api.model.ModelId
 import com.aallam.openai.client.OpenAI
+import com.colledk.chat.R
 import com.colledk.chat.domain.model.AiChat
 import com.colledk.chat.domain.model.Chat
 import com.colledk.chat.domain.model.Message
@@ -19,6 +20,7 @@ import com.colledk.chat.domain.usecase.SendMessageUseCase
 import com.colledk.chat.domain.usecase.UpdateAiChatUseCase
 import com.colledk.chat.ui.compose.ChatDetailDestination
 import com.colledk.chat.ui.uistates.ChatUiState
+import com.colledk.common.MessageHandler
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.GetCurrentUserUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -44,18 +46,24 @@ class ChatViewModel @Inject constructor(
     private val openAI: OpenAI,
     private val deleteChatUseCase: DeleteChatUseCase,
     private val deleteAiChatUseCase: DeleteAiChatUseCase,
+    private val messageHandler: MessageHandler,
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
-    private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState())
+    private val _uiState: MutableStateFlow<ChatUiState> = MutableStateFlow(ChatUiState.Loading)
     val uiState: StateFlow<ChatUiState> = _uiState
 
     private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
     val error: Flow<Throwable> = _error.receiveAsFlow()
 
+    val selectedPane: StateFlow<Int?> = savedStateHandle.getStateFlow("selected_pane", savedStateHandle["selected_pane"])
     val selectedChat: StateFlow<ChatDetailDestination?> = savedStateHandle.getStateFlow("chat_details", savedStateHandle["chat_details"])
 
     fun selectChat(destination: ChatDetailDestination?) {
         savedStateHandle["chat_details"] = destination
+    }
+
+    fun selectPane(page: Int?) {
+        savedStateHandle["selected_pane"] = page
     }
 
     fun getChats() {
@@ -147,6 +155,7 @@ class ChatViewModel @Inject constructor(
         viewModelScope.launch {
             deleteChatUseCase(chatId = chat.id, userIds = chat.users.map { it.id }).onSuccess {
                 getChats().also {
+                    messageHandler.displayMessage(R.string.chats_delete_success)
                     selectChat(null)
                 }
             }.onFailure {
@@ -159,6 +168,7 @@ class ChatViewModel @Inject constructor(
         viewModelScope.launch {
             deleteAiChatUseCase(chat.id, userId).onSuccess {
                 getAiChats().also {
+                    messageHandler.displayMessage(R.string.chats_delete_success)
                     selectChat(null)
                 }
             }.onFailure {
@@ -172,12 +182,12 @@ class ChatViewModel @Inject constructor(
         currentUser: User? = null,
         aiChats: List<AiChat>? = null
     ) {
-        val currentState = _uiState.value
+        val currentState = _uiState.value as? ChatUiState.Data
 
-        _uiState.value = ChatUiState(
-            chats = chats ?: currentState.chats,
-            currentUser = currentUser ?: currentState.currentUser,
-            aiChats = aiChats ?: currentState.aiChats
+        _uiState.value = ChatUiState.Data(
+            chats = chats ?: currentState?.chats.orEmpty(),
+            currentUser = currentUser ?: currentState?.currentUser ?: User(),
+            aiChats = aiChats ?: currentState?.aiChats.orEmpty()
         )
     }
 }

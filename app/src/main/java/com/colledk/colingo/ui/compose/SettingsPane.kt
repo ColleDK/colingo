@@ -125,7 +125,7 @@ private fun SettingsContent(
             TopAppBar(
                 title = {
                     Text(
-                        text = "Change settings",
+                        text = stringResource(id = R.string.settings_change),
                         style = MaterialTheme.typography.headlineLarge,
                         color = MaterialTheme.colorScheme.onSurface
                     )
@@ -144,7 +144,7 @@ private fun SettingsContent(
                         .fillParentMaxWidth()
                         .clickable { onSwitchLanguage() },
                     headlineContent = {
-                        Text(text = "Switch language")
+                        Text(text = stringResource(id = R.string.settings_switch_language))
                     },
                     leadingContent = {
                         Icon(

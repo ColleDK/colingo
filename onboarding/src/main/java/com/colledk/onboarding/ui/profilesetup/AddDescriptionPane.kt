@@ -34,6 +34,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.colledk.common.PastOrPresentSelectableDate
 import com.colledk.onboarding.R
 import com.colledk.user.domain.isUnknown
 import com.colledk.user.domain.toText
@@ -205,7 +206,7 @@ private fun BirthdaySelector(
     onDismiss: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    val state = rememberDatePickerState(initialSelectedDateMillis = currentSelected)
+    val state = rememberDatePickerState(initialSelectedDateMillis = currentSelected, selectableDates = PastOrPresentSelectableDate)
 
     DatePickerDialog(
         modifier = modifier,
