@@ -115,7 +115,7 @@ internal fun ChatScreen(
                                 is ChatDetailDestination.MemberChatDestination -> {
                                     val chatId = chat.id
 
-                                    val uiState: ChatDetailUiState? by remember(state) {
+                                    val uiState: ChatDetailUiState? by remember(state, chatId) {
                                         derivedStateOf {
                                             val currentChat = state.chats.firstOrNull { it.id == chatId }
                                             val otherUser = currentChat?.users?.first { user -> user != state.currentUser }
@@ -149,9 +149,11 @@ internal fun ChatScreen(
                                     }
                                 }
                                 is ChatDetailDestination.AiChatDestination -> {
-                                    val currentChat by remember(state.aiChats) {
+                                    val chatId = chat.id
+
+                                    val currentChat by remember(state.aiChats, chatId) {
                                         derivedStateOf {
-                                            state.aiChats.first { it.id == chat.id }
+                                            state.aiChats.first { it.id == chatId }
                                         }
                                     }
 
