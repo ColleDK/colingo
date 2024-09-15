@@ -4,6 +4,7 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -11,11 +12,14 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Checkbox
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
@@ -26,11 +30,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.colledk.colingo.R
 import java.util.Locale
 
-@OptIn(ExperimentalFoundationApi::class)
+@OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)
 @Composable
 internal fun SwitchLanguagePane(
     onSwitchLanguage: (locale: Locale) -> Unit,
@@ -52,40 +57,56 @@ internal fun SwitchLanguagePane(
                 .groupBy { it.displayLanguage.first() }
         }
     }
-    LazyColumn(
-        modifier = modifier.padding(top = 24.dp),
-        contentPadding = PaddingValues(24.dp)
-    ) {
-        stickyHeader {
-            Surface(
-                modifier = Modifier.fillParentMaxWidth()
-            ) {
-                Text(text = stringResource(id = R.string.selected_language), fontWeight = FontWeight.Bold)
-            }
-        }
-        item {
-            LocaleItem(
-                locale = currentLocale,
-                isSelected = true,
-                modifier = Modifier.fillParentMaxWidth(),
-                onItemSelected = { onSwitchLanguage(currentLocale) }
+
+    Scaffold(
+        modifier = modifier,
+        topBar = {
+            TopAppBar(
+                title = {
+                    Text(
+                        text = stringResource(id = R.string.settings_switch_language_title),
+                        modifier = Modifier.fillMaxWidth(),
+                        textAlign = TextAlign.Center
+                    )
+                }
             )
         }
-        remainingLocales.forEach { (startLetter, locales) ->
+    ) {
+        LazyColumn(
+            modifier = Modifier.padding(it),
+            contentPadding = PaddingValues(24.dp)
+        ) {
             stickyHeader {
                 Surface(
                     modifier = Modifier.fillParentMaxWidth()
                 ) {
-                    Text(text = "$startLetter", fontWeight = FontWeight.Bold)
+                    Text(text = stringResource(id = R.string.selected_language), fontWeight = FontWeight.Bold)
                 }
             }
-            items(locales) { locale ->
+            item {
                 LocaleItem(
-                    locale = locale,
-                    isSelected = false,
+                    locale = currentLocale,
+                    isSelected = true,
                     modifier = Modifier.fillParentMaxWidth(),
-                    onItemSelected = { onSwitchLanguage(locale) }
+                    onItemSelected = { onSwitchLanguage(currentLocale) }
                 )
+            }
+            remainingLocales.forEach { (startLetter, locales) ->
+                stickyHeader {
+                    Surface(
+                        modifier = Modifier.fillParentMaxWidth()
+                    ) {
+                        Text(text = "$startLetter", fontWeight = FontWeight.Bold)
+                    }
+                }
+                items(locales) { locale ->
+                    LocaleItem(
+                        locale = locale,
+                        isSelected = false,
+                        modifier = Modifier.fillParentMaxWidth(),
+                        onItemSelected = { onSwitchLanguage(locale) }
+                    )
+                }
             }
         }
     }

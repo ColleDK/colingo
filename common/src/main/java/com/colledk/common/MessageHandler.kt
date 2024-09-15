@@ -6,6 +6,7 @@ import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.receiveAsFlow
+import timber.log.Timber
 import javax.inject.Inject
 
 class MessageHandler @Inject constructor(
@@ -23,6 +24,7 @@ class MessageHandler @Inject constructor(
     }
 
     fun displayError(error: Throwable, fallback: String) {
+        Timber.e(error)
         displayMessage(message = error.message ?: fallback)
     }
 

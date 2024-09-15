@@ -24,4 +24,16 @@
     <!-- Beta settings -->
     <string name="setting_dynamic_theme">Dynamic theming</string>
     <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Change language</string>
+    <string name="settings_theming_title">Theming &amp; colors</string>
+    <string name="settings_about_page_title">About the app</string>
+    <string name="settings_about_page_description">Colingo is an open-source community driven language exchange platform developed by Colle/William.\nWe strive towards being as open and upfront about everything in the app, which is why we keep it open-source.\nAll translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Report bug</string>
+    <string name="settings_report_bug_title">To ensure stability, we do automatically collect crashing reports, however if you do find any issues and would like to submit a bug directly, please fill out a form with as much information as you have at</string>
+    <string name="settings_report_bug_link">https://github.com/ColleDK/colingo/issues/new</string>
 </resources>

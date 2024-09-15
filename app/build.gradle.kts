@@ -9,6 +9,7 @@ plugins {
     id(libs.plugins.kotlin.parcelize.get().pluginId)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.kotlin.serializable)
+    id(libs.plugins.crashlytics.get().pluginId)
 }
 
 android {
@@ -108,6 +109,9 @@ dependencies {
     implementation(platform(libs.openai.bom))
     implementation(libs.openai.client)
     runtimeOnly(libs.openai.okhttp)
+
+    // Review
+    implementation(libs.review.ktx)
 
     // Test
     testImplementation(libs.bundles.testing.unit)
