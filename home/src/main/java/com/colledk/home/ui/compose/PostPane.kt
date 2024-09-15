@@ -192,7 +192,7 @@ private fun PostPane(
                             painter = painterResource(id = R.drawable.empty),
                             contentDescription = null,
                             tint = MaterialTheme.colorScheme.onSurface,
-                            modifier = Modifier.fillParentMaxWidth(.4f)
+                            modifier = Modifier.fillParentMaxWidth(.2f)
                         )
                         Text(text = stringResource(id = R.string.post_no_comments_title), style = MaterialTheme.typography.titleLarge, textAlign = TextAlign.Center)
                         Text(text = stringResource(id = R.string.post_no_comments_subtitle), style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)

@@ -11,6 +11,7 @@ buildscript {
         classpath(libs.kotlin.gradlePlugin)
         classpath(libs.hilt.gradlePlugin)
         classpath(libs.google.services.gradlePlugin)
+        classpath(libs.crashlytics.gradlePlugin)
     }
 }
 

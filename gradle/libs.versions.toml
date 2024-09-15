@@ -5,6 +5,7 @@ adaptiveLayout = "1.0.0-beta03"
 adaptiveNavigation = "1.0.0-beta03"
 appcompatV7 = "28.0.0"
 minSdk = "26"
+reviewKtx = "2.0.1"
 targetSdk = "34"
 compileSdk = "34"
 jvm = "17"
@@ -32,6 +33,7 @@ material = "1.12.0"
 junit = "4.13.2"
 joda = "2.12.7"
 google-services = "4.4.2"
+crashlytics = "3.0.2"
 firebase-bom = "32.0.0"
 coil = "2.6.0"
 junitKtx = "1.1.5"
@@ -53,6 +55,7 @@ kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", ve
 android-gradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 hilt-gradlePlugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
 google-services-gradlePlugin = { module = "com.google.gms:google-services", version.ref = "google-services" }
+crashlytics-gradlePlugin = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "crashlytics"}
 kotlin-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlin-serialization"}
 joda-time-core = { module = "joda-time:joda-time", version.ref = "joda-time" }
 
@@ -78,6 +81,7 @@ compose-livedata = { module = "androidx.compose.runtime:runtime-livedata" }
 compose-extended-icons = { module = "androidx.compose.material:material-icons-extended" }
 compose-paging = { module = "androidx.paging:paging-compose", version.ref = "paging" }
 
+review-ktx = { module = "com.google.android.play:review-ktx", version.ref = "reviewKtx" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
 coil = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
@@ -89,6 +93,7 @@ firebase-db = { module = "com.google.firebase:firebase-database-ktx" }
 firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx" }
 firebase-storage = { module = "com.google.firebase:firebase-storage-ktx"}
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx"}
 
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
 hilt-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
@@ -114,7 +119,7 @@ openai-okhttp = { module = "io.ktor:ktor-client-okhttp" }
 compose = ["compose-bom", "compose-ui", "compose-material3", "compose-foundation", "compose-livedata", "compose-ui-tooling", "compose-extended-icons", "compose-ui-util", "adaptive", "adaptive-layout", "androidx-adaptive-navigation"]
 compose-hilt = ["hilt-navigation-compose", "hilt-android"]
 testing-unit = ["junit5-core", "kotlin-test"]
-firebase = ["firebase-auth", "firebase-db", "firebase-firestore", "firebase-storage"]
+firebase = ["firebase-auth", "firebase-db", "firebase-firestore", "firebase-storage", "firebase-crashlytics"]
 pagination = ["androidx-paging", "compose-paging"]
 
 [plugins]
@@ -130,3 +135,4 @@ google-services = { id = "com.google.gms.google-services", version.ref = "google
 kotlin-parcelize = { id = "kotlin-parcelize" }
 kotlin-serializable = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin"}
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+crashlytics = { id = "com.google.firebase.crashlytics"}

@@ -40,7 +40,6 @@ class SettingsViewModel @Inject constructor(
     }
 
     fun switchLanguages(locale: Locale) {
-        Timber.d("Switching languages $locale")
         AppCompatDelegate.setApplicationLocales(LocaleListCompat.create(locale))
     }
 

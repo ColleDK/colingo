@@ -77,7 +77,7 @@ class ChatViewModel @Inject constructor(
                 } else {
                     getChatsUseCase(user.chats).collectLatest {
                         emitUiState(
-                            chats = it,
+                            chats = it.sortedByDescending { it.messages.lastOrNull()?.timestamp },
                             currentUser = user
                         )
                     }

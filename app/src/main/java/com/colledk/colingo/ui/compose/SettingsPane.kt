@@ -1,5 +1,6 @@
 package com.colledk.colingo.ui.compose
 
+import android.app.Activity
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -24,7 +25,13 @@ import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffoldRole
 import androidx.compose.material3.adaptive.layout.ThreePaneScaffoldDestinationItem
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.intl.Locale
@@ -33,9 +40,15 @@ import com.colledk.colingo.R
 import com.colledk.colingo.data.Setting
 import com.colledk.colingo.domain.model.SettingsOption
 import com.colledk.colingo.domain.model.TopSetting
+import com.colledk.colingo.ui.compose.settings.AboutPane
+import com.colledk.colingo.ui.compose.settings.ReportBugPane
 import com.colledk.colingo.ui.compose.settings.SettingUiState
 import com.colledk.colingo.ui.compose.settings.SwitchLanguagePane
-import com.colledk.colingo.ui.compose.settings.ThemingSettings
+import com.colledk.colingo.ui.compose.settings.ThemingSettingsPane
+import com.google.android.play.core.review.ReviewInfo
+import com.google.android.play.core.review.ReviewManager
+import com.google.android.play.core.review.ReviewManagerFactory
+import timber.log.Timber
 
 @OptIn(ExperimentalMaterial3AdaptiveApi::class)
 @Composable
@@ -91,17 +104,31 @@ fun SettingsPane(
                 navigator.currentDestination?.content?.let { setting ->
                     when (setting) {
                         TopSetting.SWITCH_LANGUAGE -> SwitchLanguagePane(onSwitchLanguage = onSwitchLanguage)
-                        TopSetting.THEMING -> ThemingSettings(
+                        TopSetting.THEMING -> ThemingSettingsPane(
                             settingUiState = settingsState,
                             retrieveSettings = retrieveSettings,
                             updateSetting = updateSetting
                         )
-                        TopSetting.NOTIFICATIONS -> TODO()
-                        TopSetting.PERMISSIONS -> TODO()
-                        TopSetting.ACCESSIBILITY -> TODO()
-                        TopSetting.ABOUT -> TODO()
-                        TopSetting.RATE_THE_APP -> TODO()
-                        TopSetting.REPORT_BUG -> TODO()
+                        TopSetting.NOTIFICATIONS -> {}
+                        TopSetting.PERMISSIONS -> {}
+                        TopSetting.ACCESSIBILITY -> {}
+                        TopSetting.ABOUT -> AboutPane(modifier = Modifier.fillMaxSize())
+                        TopSetting.REPORT_BUG -> ReportBugPane(modifier = Modifier.fillMaxSize())
+                        TopSetting.RATE_THE_APP -> {
+                            val localContext = LocalContext.current
+
+                            val reviewManager = remember {
+                                ReviewManagerFactory.create(localContext)
+                            }
+
+                            val reviewInfo = rememberReviewTask(reviewManager = reviewManager)
+
+                            LaunchedEffect(key1 = reviewInfo) {
+                                reviewInfo?.let {
+                                    reviewManager.launchReviewFlow(localContext as Activity, reviewInfo)
+                                }
+                            }
+                        }
                         TopSetting.LOG_OUT -> {
                             onLogOut()
                         }
@@ -202,4 +229,20 @@ private fun SettingsContent(
             }
         }
     }
+}
+
+@Composable
+private fun rememberReviewTask(reviewManager: ReviewManager): ReviewInfo? {
+    var reviewInfo: ReviewInfo? by remember {
+        mutableStateOf(null)
+    }
+    reviewManager.requestReviewFlow().addOnCompleteListener {
+        if (it.isSuccessful) {
+            reviewInfo = it.result
+        }
+    }.addOnFailureListener {
+        Timber.e(it)
+    }
+
+    return reviewInfo
 }
