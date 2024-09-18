@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_explore_label">Jirage.</string>
+    <string name="destination_chat_label">Zaɓuwa</string>
+    <string name="destination_profile_label">Bayanin jari</string>
+    <string name="destination_settings_label">Saiti.</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Bayanai</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Yi amfani.</string>
+    <string name="setting_about_title">Makullin Text: About</string>
+    <string name="setting_rate_title">Shiga aplikeshin din wannan</string>
+    <string name="setting_report_title">Rahoton bug</string>
+    <string name="setting_logout_title">Shiga daga akaunti</string>
+    <string name="setting_switch_language_title">Bidi al\'adantar yare</string>
+
+    <string name="selected_language">Haruffa da aka zaɓa</string>
+
+    <string name="settings_change">Sauke saitunan</string>
+    <string name="settings_switch_language">Bude harshe</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Shiga k\'asa</string>
+    <string name="settings_switch_language_title">Change language</string>
+    <string name="settings_theming_title"><![CDATA[Theming & launi]]></string>
+    <string name="settings_about_page_title">Game da wannan aiki</string>
+    <string name="settings_about_page_description1">Culingo shine mahalarta ayyukan yanar gizo masu kula da kwareware da aka ƙirƙire ta tattaunawa ta ƙungiyar Colle/William.</string>
+    <string name="settings_about_page_description2">Mu ke yin zama mai alaƙa da duk abin da za\'a gani a app, wanda hakan ya sa mu yi masa buɗe-buɗe ayyukan.</string>
+    <string name="settings_about_page_description3">All translations a kan katin guda a kan shiri ne game da wasiƙarwa, a cikin wannan jerin bayanai mafi kyawun za\'a sauke \'yanayi - idan kuna da wani please ku yi amfani da shi a cikin \'Sabunta kifi\'.</string>
+    <string name="settings_about_page_contact">Idan kunasan matsalolin ko bayananku game da wannan app, ku iya ziyarci mu a:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Bayyana haska</string>
+    <string name="settings_report_bug_title">Don sauke tsabtacewar tsarin, muna samun bayanan da ke so ya yi nasara, amma idan kana da matsalolin don ilimin, to ku tuntubi bug ma\'aikata ta tuntubi, don Allah baki wannan sauran bayani da kake da.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

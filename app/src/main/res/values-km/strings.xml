@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ផ្ទះ</string>
+    <string name="destination_explore_label">រកមើល</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">ទិន្នន័យ​ផ្ទាល់​ខ្លួ​នានា​នានា</string>
+    <string name="destination_settings_label">ការ​កំណត់</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">ការអនុញ្ញាត</string>
+    <string name="setting_accessibility_title">ការចូលរួម</string>
+    <string name="setting_about_title">អំពី</string>
+    <string name="setting_rate_title">វាទទិស ​កម្មវិធី</string>
+    <string name="setting_report_title">រាប។</string>
+    <string name="setting_logout_title">ចេញប្រពេក</string>
+    <string name="setting_switch_language_title">ទាញលទ្ធផល</string>
+
+    <string name="selected_language">ភាសា​ដែល​បាន​ជ្រើស​រួច​រាំ​ទៅ​វាយ​តម្ល់​ហើយ​។</string>
+
+    <string name="settings_change">ផ្លាសាយការកំណត់</string>
+    <string name="settings_switch_language">ប្តូរភាសា</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ស្តាប់ខ្លួនយកចិត្តច្បាស់ចារណានិងប្រសិនបើ</string>
+    <string name="setting_dark_theme">ការប្រឡងជាពន្ធដាច</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">ផ្លាសាយ្ត</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">អំពី​កម្មវិធី​</string>
+    <string name="settings_about_page_description1">Colingo is an open-source community driven language exchange platform developed by Colle/William.</string>
+    <string name="settings_about_page_description2">យើងដំណើរទៅកាន់ការបើកចូលនិងជាកន្លែងប្រឹងឆ្ងាយអោយពីគ្រប់ជាមួយកម្មវិធីនេះរយៈសិល្បក ដោយនេះវាត្រូវបានរក្សាទុកជាសម្ព័ន្ធ។</string>
+    <string name="settings_about_page_description3">តើគេបានបក​ការ​បកប្រែ​ដោយ​កម្រិត AI ក្នុង​កម្មវិធី​ទាំងអស់​ហាក់​ហូបរវាង - ប្រសិន​បើ​អ្នក​ឃើញ​មាន​បកប្រែ​អ្វី​សូម​រាយការណ៍​វា​ក្នុង​ពួកគេ​ទេល់រ​ទៅ​ក្នុង​ផ្ទុក​រេស​បញ្ជុះ។</string>
+    <string name="settings_about_page_contact">ប្រសិនបើលោកអ្នកមានការនិយាយឬស្គាល់ទៅលើកម្មវិធី, អ្នកអាចទាក់ទងយើងតាម:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">របៀប​រាយ​កំហុស</string>
+    <string name="settings_report_bug_title">ដើម្បីកើតបាវទាត់ត្រឡប់យ៉ាងខ្លះ, យើងស្វែងរករបសាកប្លក់​ផ្ទីឈទ្ទុរគឹមត្រូប, ប៊ូតឬ ប្រសយនរបឆការមាតូរ​បញ្ញើមតឲឯសយូរគឹមបើវិសិយតូជាៗ។ សូត្រ​ពេល​សូត្រព៊ល​អ្នាចូល​​យើង​ឡូតា​ឥសតិឲិ​ឈ​ជ​ជា​​សតិ​​បញី​​ប​ដ្ត​​ដ​​អា៟ៗ​។</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

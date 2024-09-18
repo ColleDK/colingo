@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">गृह</string>
+    <string name="destination_explore_label">अन्वेषण करें</string>
+    <string name="destination_chat_label">चैट</string>
+    <string name="destination_profile_label">प्रोफ़ाइल</string>
+    <string name="destination_settings_label">सेटिंग्स</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">थीमिंग</string>
+    <string name="setting_notifications_title">सूचनाएँ</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">पहुँचनीयता</string>
+    <string name="setting_about_title">बारे में</string>
+    <string name="setting_rate_title">ऐप को रेट करें</string>
+    <string name="setting_report_title">बग की रिपोर्ट करें</string>
+    <string name="setting_logout_title">लॉग आउट</string>
+    <string name="setting_switch_language_title">भाषा बदलें</string>
+
+    <string name="selected_language">चयनित भाषा</string>
+
+    <string name="settings_change">सेटिंग बदलें</string>
+    <string name="settings_switch_language">भाषा बदलें</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">गतिशील थीमिंग</string>
+    <string name="setting_dark_theme">डार्क थीमिंग</string>
+
+    <string name="settings_rate_app_page_title">ऐप की रेटिंग</string>
+    <string name="settings_switch_language_title">भाषा बदलें</string>
+    <string name="settings_theming_title">थीमिंग और रंग</string>
+    <string name="settings_about_page_title">एप्लिकेशन के बारे में</string>
+    <string name="settings_about_page_description1">Colingo एक ओपन-सोर्स समुदाय संचालित भाषा विनिमय प्लेटफ़ॉर्म है, जिसे Colle/William ने विकसित किया है।</string>
+    <string name="settings_about_page_description2">हम सभी कुछ ऐप में खुलें और सराहनीय बनने की कोशिश करते हैं, जिसके कारण हम इसे ओपन-सोर्स रखते हैं।</string>
+    <string name="settings_about_page_description3">ऐप्लिकेशन के भीतर सभी अनुवाद ए.आई. द्वारा किए जाते हैं और इसलिए अनुवाद में गलतियाँ हो सकती हैं - यदि आपको कोई भी गलती मिलती है तो कृपया उसे \\"रिपोर्ट ए बग\\" पैन में रिपोर्ट करें।</string>
+    <string name="settings_about_page_contact">अगर आपके पास ऐप के लिए कोई चिंता या सुझाव हैं, तो आप हमसे संपर्क कर सकते हैं:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">समस्या रिपोर्ट्</string>
+    <string name="settings_report_bug_title">स्थिरता सुनिश्चित करने के लिए, हम स्वचालित रूप से क्रैश रिपोर्ट एकत्रित करते हैं, हालांकि यदि आप किसी भी समस्याओं का सामना करते हैं और सीधे एक बग सबमिट करना चाहते हैं, तो कृपया उस फॉर्म को भरें जिसमें आपके पास जितनी भी जानकारी हो।</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

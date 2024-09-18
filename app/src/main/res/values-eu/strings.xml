@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Etxea</string>
+    <string name="destination_explore_label">Esploratu</string>
+    <string name="destination_chat_label">Txat</string>
+    <string name="destination_profile_label">Profila</string>
+    <string name="destination_settings_label">Ezarpenak</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Temaaldia</string>
+    <string name="setting_notifications_title">Notifikazioak</string>
+    <string name="setting_permissions_title">Baimenak</string>
+    <string name="setting_accessibility_title">Sarbidea</string>
+    <string name="setting_about_title">Testu hau ez da itzuliko.</string>
+    <string name="setting_rate_title">Aplikazioa baloratu</string>
+    <string name="setting_report_title">Bug-a jakinarazi.</string>
+    <string name="setting_logout_title">Saioa itxi</string>
+    <string name="setting_switch_language_title">Aldatu hizkuntzak</string>
+
+    <string name="selected_language">Hautatutako hizkuntza</string>
+
+    <string name="settings_change">Aldatu ezarpenak</string>
+    <string name="settings_switch_language">Aldatu hizkuntza</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tema dinamikoa</string>
+    <string name="setting_dark_theme">Iluna[%s]</string>
+
+    <string name="settings_rate_app_page_title">Txertatu aplikazioaren balorazioa</string>
+    <string name="settings_switch_language_title">Aldatu hizkuntza</string>
+    <string name="settings_theming_title"><![CDATA[Tema & koloreak]]></string>
+    <string name="settings_about_page_title">Aplikazioari buruz</string>
+    <string name="settings_about_page_description1">Text to translate: Colingo plataforma hizkuntza trukaketa komunitatea-abierta da, Colle/William-ek garatua.</string>
+    <string name="settings_about_page_description2">Esanahiak itzuli: Aplikazioan guztiaz zeharo ireki eta zuzenean izateko saiatzen gara, horregatik irekigai mantentzen dugu.</string>
+    <string name="settings_about_page_description3">Aplikazioan egindako itzulpen guztiak AI-ek egiten dituzte, eta, hala ere, itzulpen erroreak izan ditzake - badaukazu bat aurkitzen, mesedez, ezazu \"Bug-a jakinarazi\" irlinean.</string>
+    <string name="settings_about_page_contact">Textua itzultzea: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Hibea jakinarazi</string>
+    <string name="settings_report_bug_title">Egiaztatzeko, errebalitatea bermatzeko, automatikoki bildu egiten dugu errore-txostena, baina arazoak aurkitzen badituzu eta bugarik bidali nahi baduzu zuzenean, mesedez, bete formularioa duzun informazio gehienarekin.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

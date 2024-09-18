@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Ev</string>
+    <string name="destination_explore_label">Araşdırın</string>
+    <string name="destination_chat_label">Söhbət</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Ayarlar</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Texniki cəhədlər</string>
+    <string name="setting_notifications_title">Bildirişlər</string>
+    <string name="setting_permissions_title">İcazələr</string>
+    <string name="setting_accessibility_title">Əlçatanlıq</string>
+    <string name="setting_about_title">Haqqında</string>
+    <string name="setting_rate_title">Uygulamaya qiymət verin</string>
+    <string name="setting_report_title">Sorğu bildirin</string>
+    <string name="setting_logout_title">Çıxış et</string>
+    <string name="setting_switch_language_title">Dilləri dəyişdirmek</string>
+
+    <string name="selected_language">Seçilmiş dil</string>
+
+    <string name="settings_change">Ayarları dəyişdir</string>
+    <string name="settings_switch_language">Dil dəyişdirin</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamik tema alma</string>
+    <string name="setting_dark_theme">Təmaları qaraltma</string>
+
+    <string name="settings_rate_app_page_title">Əpps rating_denoting</string>
+    <string name="settings_switch_language_title">Dili dəyişdir</string>
+    <string name="settings_theming_title"><![CDATA[Mövzu & rənglər]]></string>
+    <string name="settings_about_page_title">Tətbiqat haqqında</string>
+    <string name="settings_about_page_description1">Colingo, Colle/William tərəfindən hazırlanmış açıq mənbəli bir cəmiyyət tərəfindən idarə olunan dil mübadilə platformasıdır.</string>
+    <string name="settings_about_page_description2">Mobil tətbiqetmə ilə bağlı hər şeyə açıq və açıq olmağa çalışırıq, bu səbəbdən onu açıq mənbə kimi saxlayırıq.</string>
+    <string name="settings_about_page_description3">Bütün tərcümələr tətbiqdə A.I.-lər tərəfindən aparılır və bu səbəbdən tərcümə səhvləri ola bilər - əgər tapırsınızsa, zəhmət olmasa onu \"Təhlükənin bir bug\'ı\" bölməsində bildirin.</string>
+    <string name="settings_about_page_contact">Problemləriniz və təklifləriniz olarsa, bizimlə əlaqə saxlaya bilərsiniz:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Xəta bildirimi</string>
+    <string name="settings_report_bug_title">Stabilitətin təmin edilməsi üçün, çöküntü raporlarını avtomatik olaraq toplayırıq, lakin əgər hər hansı bir problem taparsınızsa və bir problemi doğrudan təqdim etmək istəyirsinizsə, zəhmət olmasa, olan bütün məlumatlarla bir form doldurun.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

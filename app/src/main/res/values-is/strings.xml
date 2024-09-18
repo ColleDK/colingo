@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Heimili</string>
+    <string name="destination_explore_label">Kannaðu</string>
+    <string name="destination_chat_label">Spjall</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Stillingar</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Útlit</string>
+    <string name="setting_notifications_title">Tilkynningar</string>
+    <string name="setting_permissions_title">Leyfir</string>
+    <string name="setting_accessibility_title">Aðgengi</string>
+    <string name="setting_about_title">Um</string>
+    <string name="setting_rate_title">Einkunnin á forritið</string>
+    <string name="setting_report_title">Tilkynna um villu.</string>
+    <string name="setting_logout_title">Útskráðuð þig</string>
+    <string name="setting_switch_language_title">Skipta tungumál</string>
+
+    <string name="selected_language">Valin tungumál</string>
+
+    <string name="settings_change">Breyta stillingum</string>
+    <string name="settings_switch_language">Skiptu tungumáli</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Myrkur þema</string>
+
+    <string name="settings_rate_app_page_title">Einkunn app</string>
+    <string name="settings_switch_language_title">Breyta tungumáli</string>
+    <string name="settings_theming_title"><![CDATA[Þemu & litir]]></string>
+    <string name="settings_about_page_title">Um forritið</string>
+    <string name="settings_about_page_description1">Colingo er opinn hugbúnaðar samfélagsstýrð tungumála skiptiplatform sem var búinn til af Colle/William.</string>
+    <string name="settings_about_page_description2">Við leggjum mikið áhersla á að vera eins opnir og mögulegt er og gera allt í appinu skýrt, því við höldum því opna fyrir alla aðgang.</string>
+    <string name="settings_about_page_description3">Öll þýðingar innan í forritinu eru gerðar af gervigreind og vegna þess geta þýðingarinnihaldið villur - ef þú finnur eitthvað, vinsamlegast láttu okkur vita með því að tilkynna það í \\"Tilkynna um villu\\" dælanum.</string>
+    <string name="settings_about_page_contact">Ef þér vantar einhverjar áhyggjur eða tillögur varðandi forritið, getur þú haft samband við okkur á:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Tilkynna villa</string>
+    <string name="settings_report_bug_title">Til að tryggja stöðugleika, sækjum við sjálfkrafa niður kraftriðar, en ef þú finnur einhverjar vandræði og vilt senda inn villu beint, vinsamlegast fyllðu út eyðublað með sem mest upplýsingum sem þú átt að.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

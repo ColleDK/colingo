@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">အိမ်</string>
+    <string name="destination_explore_label">လောေသံ</string>
+    <string name="destination_chat_label">ဆက်ဖတ်ရာ</string>
+    <string name="destination_profile_label">ကိုယ်ရီကုဒ်</string>
+    <string name="destination_settings_label">ဆက်တင်များ</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">အသုံးပြုဆောင်ရွက်ခဲ့တယ်</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">ခွင့်ပြုချက်များ</string>
+    <string name="setting_accessibility_title">ရှာဖွေရန်</string>
+    <string name="setting_about_title">အကြောင်းအရာသည်ပုံမှန်အာဏာထပ်မှုအတွက်ဖြစ်ပါသည်။</string>
+    <string name="setting_rate_title">အကြောင်းအဘယ်ရှစ်နှင့်အဆင့်အတန်းစာရင်းရှစ်ရန်</string>
+    <string name="setting_report_title">အလုပ်အကိုင်သို့ အမှားတောင်းပေးရန်</string>
+    <string name="setting_logout_title">အကောင့်ထားမည်</string>
+    <string name="setting_switch_language_title">ဘာသာစကားများ အလိုခံပါ</string>
+
+    <string name="selected_language">ရွေးချယ်ထားသော ဘာသာစကား</string>
+
+    <string name="settings_change">ဆက်တင်များပြောရန်</string>
+    <string name="settings_switch_language">ဘာသာစကား ပြောင်းရန်</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">ပုံသည်တိုးတက်သောဥပမာဖြစ်သည်။</string>
+
+    <string name="settings_rate_app_page_title">အဆင်ပြေအဆင့်</string>
+    <string name="settings_switch_language_title">ဘာသာစကား ပြောင်းရန်</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">အောက်ပါအော်ပရေး အက်ပ်အကျဉ်းအခ!</string>
+    <string name="settings_about_page_description1">Colingo သည် Colle/William ကိုယ်စနစ်လုပ်ကိုင်အသုံးပြုပါသည်။</string>
+    <string name="settings_about_page_description2">ကျွန်တော်တို့သည် app မှာ အားဖြင့် လိုက်နာပါသည်။ ထို့ခြုံဥပမာ ဖွင့်ထားခဲ့ပါခင်။</string>
+    <string name="settings_about_page_description3">အောက်ပါ အက်ပလီစာဖတ်ရန် အားဖြင့် မင်္ဂလာပါမည် ယခု app တွင် AI များမှ ဘာသာပြန်ခြင်းမှာ မှားယူသော အမှန်ပုံများ  - သင်တွေ့မည်မဟုတ်ပါပါတယ် \"အကြောင်းချက် အစုံတင်ကုန်\"မှတဆင့် ထည့်ပါ။</string>
+    <string name="settings_about_page_contact">သင့်အတွက် ဆောင်းခဲ့သော သို့မဟုတ် အကြံပေးချက်များ အား သင်တို့အား ဆက်သွယ်ပါ။</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">အမှားရေးခဲ့ပါကအပေါ်အတွက်အောက်ပါရေးပါ။</string>
+    <string name="settings_report_bug_title">တံခါးပေါက်စေခဲ့ရသောကုန်သည်အဘယ်ဂဏန်းအား လိုအပ်တဲ့အမှားအနည်းမှာ အရှည်တာတွေကို ကွန်ရက်ရန် အောက်ပါအတိုင်း လက်ခံခဲ့သော်အရှည်အခြားဖြစ်ပြီး ဝင်ပါပြီ။ အစိုးရသည်းနှင့်  ရွေးချယ်စရာတစ်ခုခု မေ့ထားပေးပါသည်။</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

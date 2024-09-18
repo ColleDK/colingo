@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nyumba</string>
+    <string name="destination_explore_label">Chotsani.</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Mapulogalamu</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Malonda</string>
+    <string name="setting_permissions_title">Mapulani</string>
+    <string name="setting_accessibility_title">Kusinthika</string>
+    <string name="setting_about_title">Kukhazikitsa</string>
+    <string name="setting_rate_title">Sankhani malo pasika.</string>
+    <string name="setting_report_title">Perekani chilimbikitsidwe</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Pamene mlingo ziikaipa</string>
+
+    <string name="selected_language">Chilankhulo chosankhidwa</string>
+
+    <string name="settings_change">Sinthani malire.</string>
+    <string name="settings_switch_language">Pindulani chiyankhulo</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Mau a mphamvu ya zinthu</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Pemani app</string>
+    <string name="settings_switch_language_title">Change language</string>
+    <string name="settings_theming_title"><![CDATA[Theming & maulendo]]></string>
+    <string name="settings_about_page_title">Makina wanga.</string>
+    <string name="settings_about_page_description1">Colingo ndi mfundo yowonjezera yachiwikho ya mtundu woyenderana wa chinsinsi chomwe anachitira ma developer a Colle/William.</string>
+    <string name="settings_about_page_description2">Tisankha kusintha molingana ndi zinthu zonse mu app, ndi chifukwa cha kusintha kafukufuku.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Lembani nkhani bug.</string>
+    <string name="settings_report_bug_title">Kuti tizikumbukira ubale, tikakhala tikukulembera zitsiru zazitsika, koma mukuchita kutchula dzinthu ngati mukufuna kusintha bug ndithu, chonde limbangulani fomu ndi zambiri monga mungakhale nazo.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

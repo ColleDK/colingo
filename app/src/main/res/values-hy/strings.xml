@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Գլխավոր էջ</string>
+    <string name="destination_explore_label">կենսական կենդանի</string>
+    <string name="destination_chat_label">Հասարակոց</string>
+    <string name="destination_profile_label">Պրոֆիլ</string>
+    <string name="destination_settings_label">Նախագծի կարգավորումներ</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Թեմինգ</string>
+    <string name="setting_notifications_title">Ծանուցումներ</string>
+    <string name="setting_permissions_title">Որոշումներ</string>
+    <string name="setting_accessibility_title">Լռեցունյուն</string>
+    <string name="setting_about_title">Տեքստը: Մասին</string>
+    <string name="setting_rate_title">Գրանցել ծրագրին</string>
+    <string name="setting_report_title">Գործարքել սխալ</string>
+    <string name="setting_logout_title">Դուրվածությունը դուրված է</string>
+    <string name="setting_switch_language_title">Փոխել լեզուները</string>
+
+    <string name="selected_language">Ընտրված լեզու</string>
+
+    <string name="settings_change">Փոխել կարգավորումները</string>
+    <string name="settings_switch_language">Փոխել լեզուն</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Դինամիկ առանցյալ թեմանասարներ</string>
+    <string name="setting_dark_theme">Մութ թեմարով</string>
+
+    <string name="settings_rate_app_page_title">Գնահատել հավելացումներ</string>
+    <string name="settings_switch_language_title">լեզուն փոխել</string>
+    <string name="settings_theming_title">Դիզայնի կառավարում և գույներ</string>
+    <string name="settings_about_page_title">Ծրագիրը մասին</string>
+    <string name="settings_about_page_description1">Colingo-ն բաց կոդով սպառողների կողմից զարգացված լեզվի փողոցային բաժանումն է, որը մշակված է Colle/William կողմից:</string>
+    <string name="settings_about_page_description2">Մենք նպաստում ենք, որ մեր հավելվածը բոլոր բաների շտապ և անբրոյական մասը բացատրված լինի, որովհետև հեռացվում է այլմասեր։</string>
+    <string name="settings_about_page_description3">Բաժանորդների համար անվավեր է, որ ծրագրի ներկայացուքները ի անվերջ կատարվում են AI-ի միջոցով։ Եթե հայտնաբերեք փոփոխություններ, նույնը խորհրդատվող \\"Բողջական սխալ\\" պանեումում տեղեկացրեք։</string>
+    <string name="settings_about_page_contact">Եթե որևէ խնդիրներ կամ առաջարկներ ունեք ծրագրի համար, հնարավոր է կապ հաստատել մեզ՝</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Խնդրում եմ հաստատեք սխալը</string>
+    <string name="settings_report_bug_title">Կանխավճումից վստահելու համար, մենք ավտոմատ զեղչում ենք բեռնում ստացող հաղորդաշրջանները, սակայն, եթե հայտնվել էք որևէ խնդիրներ և ևրակի անիրարականությունը կառուցել ցանկացած սխալ, խնդրում ենք լրացնել ֆորմա այն այնքան տեղեկատվական ինֆորմացիայով, որոնք հասանելի կլինեն։</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Balay</string>
+    <string name="destination_explore_label">Susiha</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Permiso</string>
+    <string name="setting_accessibility_title">Accessibilidad</string>
+    <string name="setting_about_title">Mga Tungkol</string>
+    <string name="setting_rate_title">Rate the app</string>
+    <string name="setting_report_title">Report a bug</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Pagpalit sa mga pinulongan</string>
+
+    <string name="selected_language">Pinili nga lenguahe</string>
+
+    <string name="settings_change">Bag-ohon ang mga setting</string>
+    <string name="settings_switch_language">Sukad sa pinulongan</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Bag-oa ang wika</string>
+    <string name="settings_theming_title"><![CDATA[Theming & mga kolor]]></string>
+    <string name="settings_about_page_title">Mga bahin bahin sa app</string>
+    <string name="settings_about_page_description1">Colingo usa ka open-source komunidad gidumala nga plataporma sa panagsulti sa pinulongan nga gipatuman sa Colle/William.</string>
+    <string name="settings_about_page_description2">Nagsiguro kita nga kita mopahigayon sa pagkaabli ug sa wala\'y pagtago mahitungod sa tanan sa app, busa atong gipadayon kini nga open-source.</string>
+    <string name="settings_about_page_description3">Tanang mga paghubad sulod sa app gibuhat sa mga AIs ug tungod niini mahimong adunay mga kasaypanan sa paghubad - kon makakita ka og bisan unsa, palihug i-report kini sa \\"Report a bug\\" pane.</string>
+    <string name="settings_about_page_contact">Kon aduna kay bisan unsang mga kabalaka o saktong pahimangno alang sa app, makig-uban kanamo sa:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Report bug</string>
+    <string name="settings_report_bug_title">Para sa kausaban, atong gikolekta ang mga report sa mga ka-crash, apan kun aduna kay makita nga mga problema ug gusto magsumiter og bug direkta, palihug puna og porma ug isulat ang tanang impormasyon nga naa nimo.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

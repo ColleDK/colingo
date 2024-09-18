@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Σπίτι</string>
+    <string name="destination_explore_label">Εξερευνήστε</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Προφίλ</string>
+    <string name="destination_settings_label">Ρυθμίσεις</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Θεματοποίηση</string>
+    <string name="setting_notifications_title">Ειδοποιήσεις</string>
+    <string name="setting_permissions_title">Άδειες</string>
+    <string name="setting_accessibility_title">Προσβασιμότητα</string>
+    <string name="setting_about_title">Σχετικά</string>
+    <string name="setting_rate_title">Βαθμολογήστε την εφαρμογή</string>
+    <string name="setting_report_title">Αναφορά σφάλματος</string>
+    <string name="setting_logout_title">Αποσύνδεση</string>
+    <string name="setting_switch_language_title">Αλλαγή γλωσσών</string>
+
+    <string name="selected_language">Επιλεγμένη γλώσσα</string>
+
+    <string name="settings_change">Αλλαγή ρυθμίσεων</string>
+    <string name="settings_switch_language">Αλλαγή γλώσσας</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Δυναμική θεματοποίηση</string>
+    <string name="setting_dark_theme">Σκοτεινό θέμα</string>
+
+    <string name="settings_rate_app_page_title">Βαθμολογήστε την εφαρμογή</string>
+    <string name="settings_switch_language_title">Αλλαγή γλώσσας</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Σχετικά με την εφαρμογή</string>
+    <string name="settings_about_page_description1">Colingo είναι μια πλατφόρμα ανταλλαγής γλωσσών που υποστηρίζεται από την κοινότητα και αναπτύχθηκε από τη Colle/William.</string>
+    <string name="settings_about_page_description2">Προσπαθούμε να είμαστε όσο το δυνατόν ανοιχτοί και ειλικρινείς για τα πάντα στην εφαρμογή, γι\'αυτό τη διατηρούμε ως ανοιχτού κώδικα.</string>
+    <string name="settings_about_page_description3">Όλες οι μεταφράσεις μέσα στην εφαρμογή γίνονται από τεχνητή νοημοσύνη και επομένως μπορεί να υπάρχουν λάθη - αν βρείτε κάποιο παρακαλώ αναφέρετέ το στο παράθυρο \"Αναφορά σφαλμάτων\".</string>
+    <string name="settings_about_page_contact">Εάν έχετε οποιεσδήποτε ανησυχίες ή προτάσεις για την εφαρμογή, μπορείτε να επικοινωνήσετε μαζί μας στο:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Αναφορά σφάλματος</string>
+    <string name="settings_report_bug_title">Για να εξασφαλίσουμε σταθερότητα, συλλέγουμε αυτόματα αναφορές σφαλμάτων. Αν όμως αντιμετωπίζετε οποιαδήποτε πρόβλημα και θέλετε να υποβάλλετε ένα σφάλμα απευθείας, παρακαλούμε συμπληρώστε ένα έντυπο με όσες περισσότερες πληροφορίες έχετε.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

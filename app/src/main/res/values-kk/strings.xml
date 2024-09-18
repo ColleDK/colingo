@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Үй</string>
+    <string name="destination_explore_label">Құралдарды тексеріңіз</string>
+    <string name="destination_chat_label">Чат</string>
+    <string name="destination_profile_label">Профиль</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Темаландыру</string>
+    <string name="setting_notifications_title">Хабарландырулар</string>
+    <string name="setting_permissions_title">Рүшіліктер</string>
+    <string name="setting_accessibility_title">Қолжетімділік</string>
+    <string name="setting_about_title">Туралы</string>
+    <string name="setting_rate_title">Қолданбаны қадағалаңыз.</string>
+    <string name="setting_report_title">Қателікті хабарлау</string>
+    <string name="setting_logout_title">Шығу</string>
+    <string name="setting_switch_language_title">Тілдерді өзгерту</string>
+
+    <string name="selected_language">Таңдалған тіл</string>
+
+    <string name="settings_change">Параметрлерді өзгерту</string>
+    <string name="settings_switch_language">Тілді ауыстыру</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Динамикалық тақырыптыру</string>
+    <string name="setting_dark_theme">Қара дизайнлау</string>
+
+    <string name="settings_rate_app_page_title">қолдау көрсету</string>
+    <string name="settings_switch_language_title">Тілді өзгерту</string>
+    <string name="settings_theming_title">Тақырыптау мен жарғылар</string>
+    <string name="settings_about_page_title">Қолданулар туралы</string>
+    <string name="settings_about_page_description1">Colingo - ашық кодты - ауылдық бойынша тіл алмасу платформасы, Colle/William арқылы дамыталады.</string>
+    <string name="settings_about_page_description2">Мен қолданбада барлық неселер туралы ашық және белсенді болуға жатамыз, сондықтан оны ашық көзірек ретінде ұстаймыз.</string>
+    <string name="settings_about_page_description3">Өтініш, арнайы кеңес бойынша, барлық алгебра программасы ішіндегі барлығы АИ-лер арқылы орындалады және сондай-ақ алдында терминдау қателіктері болуы мүмкін - егер сіз оларды көрген болсаңыз, оларды \\"Қате туралы хабарлау\\" кестесінде хабарласыңыз.</string>
+    <string name="settings_about_page_contact">Текстті аудару: Егер сізде бағалар немесе ұсыныстар болса, бізге хабарласу мүмкін:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Қателерді есептеу</string>
+    <string name="settings_report_bug_title">Text to translate: Кең болу үшін, біз автоматты түрде құрғау ережелерін жинау үшін крек-толға тіркелушілерді тапкырлауымыз, бірақ егер сізде нұсқаулықтар табылған болса және бұздыңыз келсе, тогіс түрде бұг атты жіберу қажет болса, ақпаратты толтыру үшін форманы толтырыңыз.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

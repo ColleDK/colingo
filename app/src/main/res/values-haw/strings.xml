@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_explore_label">Nānānā</string>
+    <string name="destination_chat_label">Hāʻiʻōlelo</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Hoʻoponopono</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Puhi ho\'ailona</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Kulaika\'i\'ole\'aikea</string>
+    <string name="setting_about_title">Mai sobre</string>
+    <string name="setting_rate_title">Rate the app</string>
+    <string name="setting_report_title">Hoʻopuka i kekahi pilina pilikia</string>
+    <string name="setting_logout_title">Hala aku</string>
+    <string name="setting_switch_language_title">Hoʻololi ʻōlelo</string>
+
+    <string name="selected_language">ʻŌlelo i koho\'aiʻia</string>
+
+    <string name="settings_change">Hoʻoponopono i nā kūki.</string>
+    <string name="settings_switch_language">Hoʻololi ʻōlelo</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">ʻAno ʻole netana</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Change language</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Mai ka hoʻopili ʻana ma ka mea\'ai</string>
+    <string name="settings_about_page_description1">Colingo is an open-source community driven language exchange platform developed by Colle/William.</string>
+    <string name="settings_about_page_description2">ʻO kākou nei e hoʻonui i ka hopena a me ka mākaukau e hōʻike wale aku no nā mea a pau i loko o ka ʻaoʻao, a no laila mākou i mālama ai e kuʻai ʻia aku ka manaʻo kūpono.</string>
+    <string name="settings_about_page_description3">OK</string>
+    <string name="settings_about_page_contact">Ināʻoi aku ʻoe i kēia ʻanāʻana a i nā hoʻopiʻi no ka ʻaplikētio, hiki iā ʻoe ke hoʻopiʻi iā mākou ma:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Nīnau ho\'oponopono</string>
+    <string name="settings_report_bug_title">I ʻike ʻia nā hōʻike kūʻai kaʻa e hoʻoholo i ke kūlana o ka pono, akā inā ʻike ʻoe i nā pilikia a makemake e hoʻouna i ka huahana i kūpono, e kōkua i ka hoʻohana i ke kīpoki me nā palapala i kūpono e waiho i kahi meaʻai i ʻike ʻia e ʻoe.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

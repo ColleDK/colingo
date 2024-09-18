@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Inici</string>
+    <string name="destination_explore_label">Explorar</string>
+    <string name="destination_chat_label">Xat</string>
+    <string name="destination_profile_label">Perfil</string>
+    <string name="destination_settings_label">Configuració</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tema</string>
+    <string name="setting_notifications_title">Notificacions</string>
+    <string name="setting_permissions_title">Permisos</string>
+    <string name="setting_accessibility_title">Accessibilitat</string>
+    <string name="setting_about_title">Sobre</string>
+    <string name="setting_rate_title">Valora l\'aplicació</string>
+    <string name="setting_report_title">Informa d\'un error</string>
+    <string name="setting_logout_title">Tancar la sessió</string>
+    <string name="setting_switch_language_title">Canviar idiomes</string>
+
+    <string name="selected_language">Llengua seleccionada</string>
+
+    <string name="settings_change">Canviar configuració</string>
+    <string name="settings_switch_language">Canviar idioma</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tema dinàmic</string>
+    <string name="setting_dark_theme">Tema fosc</string>
+
+    <string name="settings_rate_app_page_title">Valora l\'aplicació</string>
+    <string name="settings_switch_language_title">Canviar idioma</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Sobre l\'app</string>
+    <string name="settings_about_page_description1">Colingo és una plataforma d\'intercanvi lingüístic comunitària de codi obert desenvolupada per Colle/William.</string>
+    <string name="settings_about_page_description2">Ens esforcem a ser el més oberts i transparents possible en tot el que concerneix l\'aplicació, és per això que la mantenim amb codi obert.</string>
+    <string name="settings_about_page_description3">Totes les traduccions dins de l\'app són fetes per IA i per tant poden contenir errors - si en trobes algun, reporta\'l a la finestra de \"Informar d\'un error\".</string>
+    <string name="settings_about_page_contact">Si tens qualsevol preocupació o suggeriment per a l\'aplicació, pots contactar amb nosaltres a:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Informar d\'un error</string>
+    <string name="settings_report_bug_title">Per assegurar la estabilitat, recopilem automàticament els informes d\'errors. No obstant això, si trobes qualsevol problema i desitges informar d\'un error directament, omple un formulari amb tota la informació disponible.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Ụ́lò</string>
+    <string name="destination_explore_label">Gbalịa</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profaịlị</string>
+    <string name="destination_settings_label">Nkọwa</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Ntụgharịịbi.</string>
+    <string name="setting_accessibility_title">Ịgbasawanya</string>
+    <string name="setting_about_title">N\'ime isi: N\'ime isi</string>
+    <string name="setting_rate_title">Rate the app: Dezie akaụntụꞌobi</string>
+    <string name="setting_report_title">Riportụ egyeghị inweta_bug</string>
+    <string name="setting_logout_title">Ndeeanye.</string>
+    <string name="setting_switch_language_title">Gbanwe asusu.</string>
+
+    <string name="selected_language">Nchetaasụsụdịị.</string>
+
+    <string name="settings_change">Gụnyere ntụzi</string>
+    <string name="settings_switch_language">Gbanabanye asụsụ</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">N’ilulu mmekọrịta</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Gbanwere asusu</string>
+    <string name="settings_theming_title"><![CDATA[Ụlọọrụ & akaọnụụ]]></string>
+    <string name="settings_about_page_title">N\'adịghị ahụrụ ebe ọ bụla di mma nke a.</string>
+    <string name="settings_about_page_description1">Colingo bụ njikọta ọmụmụ nwere aka n\'ime nkesa ezinaụlọ a dị njikọta dị na-enye gị aka dị ka Colle/William.</string>
+    <string name="settings_about_page_description2">Anyị na-enweghị ekwesị ịkpa n\'anya na-enweghị ego na ọhụrụ n\'ihu na mmepụtara niile na app, n\'ihi na ọ bụ anyụrọ ka ọ na-enweta ego nke a.</string>
+    <string name="settings_about_page_description3">Ọ dịghị isiokwu na ime ọrụ n\'adazị a na-enye aka ndị AIs ma ọ bụkwa ọ bụghị ebigosị - ọ bụrụ na ị chọrọ anya nke a biko chọrọ ya na ngwaahịa \\"Gbasara ịkpu mmepe\\".</string>
+    <string name="settings_about_page_contact">Ọ bụghị ike inwe ihe omume ma ederede maka app, n’ihe gbasara nke o bu:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Riportị ọgbaghara</string>
+    <string name="settings_report_bug_title">Gụnyere ọtụtụ, anyị na-akpọrọ onye okpu ndịrị anyị ọ ga-ajụghariri mgbe ọ bụla ụgwọ, mana ma ọ bụrụ nke a gaghị ebipụtara aka, biko chọrọtara agba isi n\'aka, biko chọrọ ndepụta na ị nọgharịọ n\'ọrụ dị naọn.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

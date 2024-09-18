@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ቤት</string>
+    <string name="destination_explore_label">ያስሱ</string>
+    <string name="destination_chat_label">ተወያይ</string>
+    <string name="destination_profile_label">መገለጫ</string>
+    <string name="destination_settings_label">ቅንብሮች</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ጭብጥ</string>
+    <string name="setting_notifications_title">ማሳወቂያዎች</string>
+    <string name="setting_permissions_title">ፈቃዶች</string>
+    <string name="setting_accessibility_title">ተደራሽነት</string>
+    <string name="setting_about_title">ስለ</string>
+    <string name="setting_rate_title">ለመተግበሪያው ደረጃ ይስጡት።</string>
+    <string name="setting_report_title">ሳንካ ሪፖርት አድርግ</string>
+    <string name="setting_logout_title">ውጣ</string>
+    <string name="setting_switch_language_title">ቋንቋ ቀይር</string>
+
+    <string name="selected_language">የተመረጠ ቋንቋ</string>
+
+    <string name="settings_change">ቅንብሮችን ይቀይሩ</string>
+    <string name="settings_switch_language">ቋንቋ ቀይር</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ተለዋዋጭ ጭብጥ</string>
+    <string name="setting_dark_theme">ጨለማ ጭብጥ</string>
+
+    <string name="settings_rate_app_page_title">መተግበሪያ ደረጃ ይስጡ</string>
+    <string name="settings_switch_language_title">ቋንቋ ቀይር</string>
+    <string name="settings_theming_title">ገጽታ እና ቀለሞች</string>
+    <string name="settings_about_page_title">ስለ መተግበሪያው</string>
+    <string name="settings_about_page_description1">ቁጥር ለተመሳሳይ የልዩነት ማለት ክፍያ ፈልጉ እናት የቆላ/ዊሊውም ተማሪ ተከታታይ ስራ ተቆጥቦ ለመሆኑ ታሪክ።</string>
+    <string name="settings_about_page_description2">እንዴት በሻፈላ እና መልእክቲን ስለ ሁሉ በእኩል እንጠቀምበን ነን, ስለሚያጋጠም በመታየታዎ በእኩል ሰፈር እናደርሳለን።</string>
+    <string name="settings_about_page_description3">ላይበለይ አፕ ውስጥ ያሉ ተርታሔዎች AIs እና አንድ ሁናቶቹ ትርታ ስልጠና አድርገው ማገልገያ በ \\"በማከማች ላይ\\" ካርድ ይጠቀሙ።</string>
+    <string name="settings_about_page_contact">ለመተግበሪያው ምንም አይነት ስጋቶች ወይም ጥቆማዎች ካሉዎት፡ በዚህ ሊያገኙን ይችላሉ።</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ስህተትን ሪፖርት ያድርጉ</string>
+    <string name="settings_report_bug_title">መረጋጋትን ለማረጋገጥ፣ የተበላሹ ሪፖርቶችን በራስ ሰር እንሰበስባለን፣ ነገር ግን ምንም አይነት ችግር ካጋጠመህ እና ስህተትን በቀጥታ ማስገባት የምትፈልግ ከሆነ፣ እባክህ ባለህ መጠን ብዙ መረጃ የያዘ ቅጽ ይሙሉ።</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>
