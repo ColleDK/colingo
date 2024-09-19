@@ -13,7 +13,7 @@
     <string name="setting_accessibility_title">دسترسی</string>
     <string name="setting_about_title">د په اړه</string>
     <string name="setting_rate_title">د ایپ لیکلو نظر ورکړئ</string>
-    <string name="setting_report_title">په \\'د پیغامونو کي\\' کلک وکړه</string>
+    <string name="setting_report_title">په \'د پیغامونو کي\' کلک وکړه</string>
     <string name="setting_logout_title">خارج شوید</string>
     <string name="setting_switch_language_title">د ژبې بدلولو ويشينه</string>
 

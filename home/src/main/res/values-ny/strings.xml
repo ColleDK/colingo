@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mizeu yanga</string>
+    <string name="post_create_new">Gwiritsani malonjezo achinyamata apite pasi</string>
+    <string name="create_post_dismiss">Kuletsa</string>
+    <string name="create_post_create">Lengeza</string>
+    <string name="post_show_more">Onesera zambiri</string>
+    <string name="post_show_less">Pambuyo pa zothetsetsa zambiri</string>
+
+    <string name="create_post_success">Mauka otengera</string>
+    <string name="create_chat_success">Chat yayamba</string>
+
+    <string name="home_filters_oldest">Wofanana</string>
+    <string name="home_filters_newest">Tsambalala</string>
+    <string name="post_create_comment">Ongezera komenti</string>
+    <string name="post_likes">%s amachita kupemphera</string>
+    <string name="post_comments">Mawu awiri: %s</string>
+    <string name="post_no_comments_title">Sindikupanga kuitanitsa mmaswali pang\'ono.</string>
+    <string name="post_no_comments_subtitle">Bwezani kuwongolera mtima wanu pa nthawi imeneyi pa phostiyiyi.</string>
+
+    <string name="error_msg_general">Chilichonse chachitika chiza. Chonde sungani pambuyo pano</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">پیغام‌های من</string>
+    <string name="post_create_new">ایجاد یک پست جدید</string>
+    <string name="create_post_dismiss">لغو</string>
+    <string name="create_post_create">ایجاد کنید</string>
+    <string name="post_show_more">نمایش بیشتر</string>
+    <string name="post_show_less">نمایش کمتر</string>
+
+    <string name="create_post_success">پست ایجاد شد</string>
+    <string name="create_chat_success">چت ایجاد شد</string>
+
+    <string name="home_filters_oldest">پیرترین</string>
+    <string name="home_filters_newest">جدیدترین</string>
+    <string name="post_create_comment">افزودن یک تبصره</string>
+    <string name="post_likes">%s محبوب است</string>
+    <string name="post_comments">%s تبیرات</string>
+    <string name="post_no_comments_title">هنوز پاسخی نداده‌اند</string>
+    <string name="post_no_comments_subtitle">اولین شخص باشید که فکرهای خود را در این پست به اشتراک می‌گذارد</string>
+
+    <string name="error_msg_general">چیزی اشتباه رفت. لطفا دوباره تلاش کنید.</string>
+</resources>

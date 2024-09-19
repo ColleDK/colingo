@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Bài viết của tôi</string>
+    <string name="post_create_new">Tạo bài viết mới</string>
+    <string name="create_post_dismiss">Hủy</string>
+    <string name="create_post_create">Tạo</string>
+    <string name="post_show_more">Hiển thị thêm</string>
+    <string name="post_show_less">Hiện thị ít hơn</string>
+
+    <string name="create_post_success">Bài đăng đã được tạo</string>
+    <string name="create_chat_success">Cuộc trò chuyện đã được tạo</string>
+
+    <string name="home_filters_oldest">Cổ nhất</string>
+    <string name="home_filters_newest">Mới nhất</string>
+    <string name="post_create_comment">Thêm bình luận</string>
+    <string name="post_likes">%s thích</string>
+    <string name="post_comments">Bình luận %s</string>
+    <string name="post_no_comments_title">Chưa có phản hồi</string>
+    <string name="post_no_comments_subtitle">Hãy là người đầu tiên chia sẻ ý kiến của bạn về bài viết này</string>
+
+    <string name="error_msg_general">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+</resources>

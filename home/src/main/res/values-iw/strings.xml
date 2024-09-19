@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">הפיד שלי</string>
+    <string name="post_create_new">צור פוסט חדש</string>
+    <string name="create_post_dismiss">בטל</string>
+    <string name="create_post_create">צור</string>
+    <string name="post_show_more">הצג עוד</string>
+    <string name="post_show_less">הצג פחות</string>
+
+    <string name="create_post_success">פוסט נוצר</string>
+    <string name="create_chat_success">צ\'אט נוצר</string>
+
+    <string name="home_filters_oldest">הריון</string>
+    <string name="home_filters_newest">חדיש</string>
+    <string name="post_create_comment">הוסף תגובה</string>
+    <string name="post_likes">%s אוהב</string>
+    <string name="post_comments">טקסט לתרגום: %s תגובות</string>
+    <string name="post_no_comments_title">אין תגובות עדיין</string>
+    <string name="post_no_comments_subtitle">היה הראשון לשתף את דעתך על הפוסט הזה</string>
+
+    <string name="error_msg_general">משהו השתבש. אנא נסה שוב</string>
+</resources>

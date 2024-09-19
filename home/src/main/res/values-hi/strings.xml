@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">मेरी फ़ीड</string>
+    <string name="post_create_new">नया पोस्ट बनाएं</string>
+    <string name="create_post_dismiss">रद्द</string>
+    <string name="create_post_create">बनाएं</string>
+    <string name="post_show_more">और दिखाएँ</string>
+    <string name="post_show_less">कम दिखाएं</string>
+
+    <string name="create_post_success">पोस्ट बनाई गई</string>
+    <string name="create_chat_success">चैट बनाई गई</string>
+
+    <string name="home_filters_oldest">सबसे पुराना</string>
+    <string name="home_filters_newest">नवीनतम</string>
+    <string name="post_create_comment">टिप्पणी जोड़ें</string>
+    <string name="post_likes">%s को पसंद है</string>
+    <string name="post_comments">%s टिप्पणियाँ</string>
+    <string name="post_no_comments_title">अभी तक कोई जवाब नहीं</string>
+    <string name="post_no_comments_subtitle">इस पोस्ट पर अपनी विचारों को साझा करने का पहला व्यक्ति बनें।</string>
+
+    <string name="error_msg_general">कुछ गलत हो गया। कृपया पुन: प्रयास करें।</string>
+</resources>

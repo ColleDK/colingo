@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Malisho yangu</string>
+    <string name="post_create_new">Tengeneza chapisho jipya</string>
+    <string name="create_post_dismiss">Cancel</string>
+    <string name="create_post_create">Tengeneza</string>
+    <string name="post_show_more">Onesha zaidi</string>
+    <string name="post_show_less">Onyesha kidogo</string>
+
+    <string name="create_post_success">Chapisho limeundwa</string>
+    <string name="create_chat_success">Mazungumzo yameundwa</string>
+
+    <string name="home_filters_oldest">Mzee</string>
+    <string name="home_filters_newest">Mpya</string>
+    <string name="post_create_comment">Ongeza maoni</string>
+    <string name="post_likes">%s anapenda</string>
+    <string name="post_comments">Maoni ya %s</string>
+    <string name="post_no_comments_title">Hakuna majibu bado</string>
+    <string name="post_no_comments_subtitle">Kuwa wa kwanza kushiriki mawazo yako kuhusu chapisho hili</string>
+
+    <string name="error_msg_general">Kitu kimeenda kombo. Tafadhali jaribu tena</string>
+</resources>

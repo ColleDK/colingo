@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Моја лента</string>
+    <string name="post_create_new">Креирај нов пост</string>
+    <string name="create_post_dismiss">Откажи</string>
+    <string name="create_post_create">Креирај</string>
+    <string name="post_show_more">Прикажи повеќе</string>
+    <string name="post_show_less">Прикажи помалку</string>
+
+    <string name="create_post_success">Пост креиран</string>
+    <string name="create_chat_success">Разговорот е креиран</string>
+
+    <string name="home_filters_oldest">Најстари</string>
+    <string name="home_filters_newest">Најнови.</string>
+    <string name="post_create_comment">Додадете коментар</string>
+    <string name="post_likes">%s го сака</string>
+    <string name="post_comments">%s коментари</string>
+    <string name="post_no_comments_title">Сеуште нема одговори.</string>
+    <string name="post_no_comments_subtitle">Бидете првиот кој ќе ги сподели своите мислења за овој пост.</string>
+
+    <string name="error_msg_general">Нешто пошло наопаку. Ве молиме обидете се повторно.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">My feed</string>
+    <string name="post_create_new">ᐅᖃᐅᓯᖅ ᐅᓪᓗᓈᖅ</string>
+    <string name="create_post_dismiss">Cancel</string>
+    <string name="create_post_create">Ataqqalillugu.</string>
+    <string name="post_show_more">Ilisimajuq</string>
+    <string name="post_show_less">ᐋᓐᓇᐅᓚᖅ</string>
+
+    <string name="create_post_success">ᐃᓄᒃᑎᑐᖅ</string>
+    <string name="create_chat_success">Chat ᓇᖁᓕᒋᔭᐅᔪᑦ</string>
+
+    <string name="home_filters_oldest">Angut taqqaaptaqtuq.</string>
+    <string name="home_filters_newest">Ujaralik</string>
+    <string name="post_create_comment">ᑐᓚᐅᔪᖅ</string>
+    <string name="post_likes">%s ᐅᖃᓕᒫᓕᐊᖅ</string>
+    <string name="post_comments">%s ᓂᕿᕕᐊᑦ</string>
+    <string name="post_no_comments_title">ᐊᑐᖕᓗᖅ</string>
+    <string name="post_no_comments_subtitle">Sinaqattaqtangaq una ilisai kisimi saniqqumaritsijuq.</string>
+
+    <string name="error_msg_general">Maliuqti. Pisuktujuq. Ammalu pisuksungnik.</string>
+</resources>

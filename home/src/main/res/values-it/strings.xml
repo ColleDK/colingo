@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Il mio feed</string>
+    <string name="post_create_new">Crea un nuovo post</string>
+    <string name="create_post_dismiss">Annulla</string>
+    <string name="create_post_create">Creare</string>
+    <string name="post_show_more">Mostra di più</string>
+    <string name="post_show_less">Mostra meno</string>
+
+    <string name="create_post_success">Post creato</string>
+    <string name="create_chat_success">Chat creata</string>
+
+    <string name="home_filters_oldest">Più vecchio</string>
+    <string name="home_filters_newest">Più recente</string>
+    <string name="post_create_comment">Aggiungi un commento</string>
+    <string name="post_likes">%s piace</string>
+    <string name="post_comments">%s commenti</string>
+    <string name="post_no_comments_title">Nessuna risposta ancora</string>
+    <string name="post_no_comments_subtitle">Sii il primo a condividere i tuoi pensieri su questo post</string>
+
+    <string name="error_msg_general">Qualcosa è andato storto. Si prega di riprovare.</string>
+</resources>

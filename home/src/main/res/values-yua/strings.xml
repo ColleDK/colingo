@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">My feed</string>
+    <string name="post_create_new">Bix a\'ak\' in post k\'u\'uk\' ka\'anal.</string>
+    <string name="create_post_dismiss">U máak.</string>
+    <string name="create_post_create">Kuuchbilaju’ob</string>
+    <string name="post_show_more">Más tu\'ux ku propuesta\'an.</string>
+    <string name="post_show_less">Máax u che\'entic ten.</string>
+
+    <string name="create_post_success">Yéetel tán in kúuchil ma\'alob.</string>
+    <string name="create_chat_success">Páajtal u móoch kaay asa ku yéetel u páajtal.</string>
+
+    <string name="home_filters_oldest">Oldest</string>
+    <string name="home_filters_newest">Bak\' ta p\'éel.</string>
+    <string name="post_create_comment">Yaan u ti\' u máax ku sáas ti\' le k\'iin.</string>
+    <string name="post_likes">%s k\'uchik.</string>
+    <string name="post_comments">%s comentarios</string>
+    <string name="post_no_comments_title">Ma\' u tial u túumben.</string>
+    <string name="post_no_comments_subtitle">Le aaku k’i’imak ti’ tuláakal ti’ ku tia’al.</string>
+
+    <string name="error_msg_general">Máan táan u kúuchil. Máax ku kéen t\'áan.</string>
+</resources>

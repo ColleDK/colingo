@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">මගේ වරකා</string>
+    <string name="post_create_new">නව පාඩමක් තනන්න</string>
+    <string name="create_post_dismiss">අවශ්‍යය෧න්ය</string>
+    <string name="create_post_create">සාදනවා</string>
+    <string name="post_show_more">දැක්ම පෙනවන්න</string>
+    <string name="post_show_less">කුඩාකිසියමක්</string>
+
+    <string name="create_post_success">විසින් නිර්දේශ කරන ලදි.</string>
+    <string name="create_chat_success">කතා සාද හඳුනා ඇත</string>
+
+    <string name="home_filters_oldest">පැරණි</string>
+    <string name="home_filters_newest">නවතම</string>
+    <string name="post_create_comment">අදයේ අදහස එකතු කරන්න</string>
+    <string name="post_likes">%s කියවන්නෙයි</string>
+    <string name="post_comments">%s අදහස්</string>
+    <string name="post_no_comments_title">තවත් පිළිතුරු කිසිවක් නොවේ</string>
+    <string name="post_no_comments_subtitle">මේ ප෋සට ඔබගේ අත්පොරොජු බිය දැක්කා පළලෙන් වලංගු වැඩක් පහසුවෙන්ම කරන්නේ පරිගණකයක් විසින්ම.</string>
+
+    <string name="error_msg_general">කිසිවක් වැරදියි. නැවත උත්සහා කරන්න.</string>
+</resources>

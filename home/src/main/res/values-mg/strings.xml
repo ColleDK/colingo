@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Hiditra ao amin\'ny toetr\'androko.</string>
+    <string name="post_create_new">Mamorona bilaogy vaovao.</string>
+    <string name="create_post_dismiss">Fanelanelana</string>
+    <string name="create_post_create">Hampiasa</string>
+    <string name="post_show_more">Ampafaza be vacances</string>
+    <string name="post_show_less">Fampiseho be dia be</string>
+
+    <string name="create_post_success">Post natao</string>
+    <string name="create_chat_success">Sary natao mamiratra</string>
+
+    <string name="home_filters_oldest">Lohateny: Taloha indrindra</string>
+    <string name="home_filters_newest">Vaovao indroa</string>
+    <string name="post_create_comment">Ampidirina hafatra</string>
+    <string name="post_likes">Iray ny mpankafy %s</string>
+    <string name="post_comments">Ny teny ho an\'ireo fitaovana %s.</string>
+    <string name="post_no_comments_title">Tsy mbola nisy valiny</string>
+    <string name="post_no_comments_subtitle">Miova voalohany hiaraka amin\'ny heviny momba ity bilaogy ity.</string>
+
+    <string name="error_msg_general">Nahavariana ny zavatra. Azonao atao indray iombonana.</string>
+</resources>

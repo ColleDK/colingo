@@ -1,0 +1,23 @@
+<resources>
+    <string name="homepage_title">ਮੇਰਾ ਫੀਡ</string>
+    <string name="post_create_new">ਨਵਾਂ ਪੋਸਟ ਬਣਾਓ</string>
+    <string name="create_post_dismiss">ਰੱਦ ਕਰੋ</string>
+    <string name="create_post_create">ਬਣਾਓ</string>
+    <string name="post_show_more">ਹੋਰ ਵੇਖੋ</string>
+    <string name="post_show_less">ਘੱਟ ਦਿਖਾਓ</string>
+
+    <string name="create_post_success">ਪੋਸਟ ਬਣਾਈ ਗਈ</string>
+    <string name="create_chat_success">ਚੈਟ ਬਣਾਈ ਗਈ ਹੈ।</string>
+
+    <string name="home_filters_oldest">ਸਭ ਤੋਂ ਪੁਰਾਣਾ</string>
+    <string name="home_filters_newest">ਨਵੀਨतਮ</string>
+    <string name="post_create_comment">ਟਿੱਪਣੀ ਜੋੜੋ</string>
+    <string name="post_likes">%s ਨੂੰ ਪਸੰਦ ਹੈ ਹੈਵੇਬਸਾਈਟ ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ ਜਾਂ ਸ਼ੇਅਰ ਕਰੋ: OK</string>
+    <string name="post_comments">%s comments
+
+ਟਿੱਪਣੀਆਂ ਦਾ ਭਾਗ</string>
+    <string name="post_no_comments_title">ਹੁਣ ਤੱਕ ਕੋਈ ਜਵਾਬ ਨਹੀਂ ਮਿਲਿਆ ਹੈ।</string>
+    <string name="post_no_comments_subtitle">ਇਸ ਪੋਸਟ ਉੱਤੇ ਆਪਣੇ ਵਿਚਾਰ ਸਾਂਝਾ ਕਰਨ ਵਿੱਚ ਪਹਲਾਂ ਹੋਵੇ ਜੀ।</string>
+
+    <string name="error_msg_general">ਕੁਝ ਗਲਤੀ ਹੋ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+</resources>

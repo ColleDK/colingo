@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mo thomhaltóir</string>
+    <string name="post_create_new">Cruthaigh post nua</string>
+    <string name="create_post_dismiss">Cealaigh</string>
+    <string name="create_post_create">Cruthaigh</string>
+    <string name="post_show_more">Taispeáin níos mó</string>
+    <string name="post_show_less">Seo amach is mós.</string>
+
+    <string name="create_post_success">Post cruthaithe</string>
+    <string name="create_chat_success">Comhrá cruthaithe</string>
+
+    <string name="home_filters_oldest">Is sine</string>
+    <string name="home_filters_newest">Is déanaí</string>
+    <string name="post_create_comment">Cuir comhfhreagras leis</string>
+    <string name="post_likes">%s is maith leis</string>
+    <string name="post_comments">Ráitis: %s</string>
+    <string name="post_no_comments_title">Níl aon fhreagraí fós.</string>
+    <string name="post_no_comments_subtitle">Bíonn an chead duine chun do smaointe a roinnt ar an gclár seo.</string>
+
+    <string name="error_msg_general">Tharla earráid. Déan iarracht arís.</string>
+</resources>

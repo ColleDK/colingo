@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Myn feed.</string>
+    <string name="post_create_new">Meitsje in nije post.</string>
+    <string name="create_post_dismiss">Annulearje</string>
+    <string name="create_post_create">Oanmeitsje</string>
+    <string name="post_show_more">Lit mear sjen</string>
+    <string name="post_show_less">Lit minder sjen.</string>
+
+    <string name="create_post_success">Berjocht makke</string>
+    <string name="create_chat_success">Chát makke</string>
+
+    <string name="home_filters_oldest">Aldste</string>
+    <string name="home_filters_newest">Nijste</string>
+    <string name="post_create_comment">Foech in kommentaar ta</string>
+    <string name="post_likes">%s hat it graach</string>
+    <string name="post_comments">%s kommentaren</string>
+    <string name="post_no_comments_title">Gjin antwurden noch</string>
+    <string name="post_no_comments_subtitle">Wees de earste om dyn gedachten te dielen op dit berjocht.</string>
+
+    <string name="error_msg_general">Iets is fout gien. Probeer it opnij.</string>
+</resources>

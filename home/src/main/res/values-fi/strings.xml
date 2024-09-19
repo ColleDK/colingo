@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Oma syöte</string>
+    <string name="post_create_new">Luo uusi viesti</string>
+    <string name="create_post_dismiss">Peruuta</string>
+    <string name="create_post_create">Luo</string>
+    <string name="post_show_more">Näytä lisää</string>
+    <string name="post_show_less">Näytä vähemmän</string>
+
+    <string name="create_post_success">Viesti luotu.</string>
+    <string name="create_chat_success">Chat luotu</string>
+
+    <string name="home_filters_oldest">Vanhin</string>
+    <string name="home_filters_newest">Uusin</string>
+    <string name="post_create_comment">Lisää kommentti</string>
+    <string name="post_likes">%s tykkää</string>
+    <string name="post_comments">%s kommenttia</string>
+    <string name="post_no_comments_title">Ei vielä vastauksia</string>
+    <string name="post_no_comments_subtitle">Ole ensimmäinen jakamalla ajatuksiasi tästä viestistä</string>
+
+    <string name="error_msg_general">Jotain meni pieleen. Yritä uudelleen</string>
+</resources>

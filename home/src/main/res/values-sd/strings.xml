@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">مون جو ڪيٽا</string>
+    <string name="post_create_new">نوٽيٽون شيك ڪريو</string>
+    <string name="create_post_dismiss">Cancel</string>
+    <string name="create_post_create">بنايو</string>
+    <string name="post_show_more">مزید ڏکاٻو</string>
+    <string name="post_show_less">کم وڇو</string>
+
+    <string name="create_post_success">رسالو تخليق ٿيلو آهي</string>
+    <string name="create_chat_success">چيٽ تخليق ٿيو ٿا</string>
+
+    <string name="home_filters_oldest">سنڌي: سڀنڳي</string>
+    <string name="home_filters_newest">نوتترين</string>
+    <string name="post_create_comment">تبصرا تي شاملاء</string>
+    <string name="post_likes">%s جي پسند ٿا</string>
+    <string name="post_comments">%s تبصرو</string>
+    <string name="post_no_comments_title">هنڌ کان هڪ جواب نہ آهي</string>
+    <string name="post_no_comments_subtitle">پوسٽ ۽ انتقادن ڪريٺان جي ٿڪندي ٽپڻ 울ڻ جي باءحواء كان ٻاٽ ويٺو</string>
+
+    <string name="error_msg_general">ڪجهه ٻوٽ آهي. مهرباني ٻار واري ڪريو</string>
+</resources>

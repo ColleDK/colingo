@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ແຖບຂອງຂ້ຽວສຳລັບຂ້ານຂ້ວນຂ້ອຍ</string>
+    <string name="post_create_new">ສ້າງເຟີຊ່າຍໃໝ່</string>
+    <string name="create_post_dismiss">ຍົກເລີກ</string>
+    <string name="create_post_create">ສໍາລັບຂໍ້ມູນ</string>
+    <string name="post_show_more">ສະແດງເພີ່ມຂຶ້ນ</string>
+    <string name="post_show_less">ສະແດງຫົວຂໍ້ນ້ອຍກວ່າ</string>
+
+    <string name="create_post_success">ໂພສທີ່ສ້າງປັັມ</string>
+    <string name="create_chat_success">ການຫາຍພວກເຂົ້າຖະຫນຳສ້າງ</string>
+
+    <string name="home_filters_oldest">ກາຝດິelopeວຂວຍອາງາມ</string>
+    <string name="home_filters_newest">ຫຼັກສູງອາດາ</string>
+    <string name="post_create_comment">ເພີ່ມຄຳເຫັນ</string>
+    <string name="post_likes">%s ມັກຕາມ</string>
+    <string name="post_comments">ຄວາມຄິດເຫັນ %s</string>
+    <string name="post_no_comments_title">ຍັ່ງມາບໍ່ມອບຕົວຝົນເທິງ</string>
+    <string name="post_no_comments_subtitle">ຂໍຂອບໃຈບໍ່ວ່າຘ້າຊາກັນອາດບໍ່ສະຈະມາລ໋ອດດ້ວຍສິດຂອບຮູບພາບນີ້</string>
+
+    <string name="error_msg_general">ທີ່ກວ້າເຮັດວຽກບໍ່ສົມບູລັກ ກະລຸນາລອງໄປເລີ່ມຕໍ່</string>
+</resources>

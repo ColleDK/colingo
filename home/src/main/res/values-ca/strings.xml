@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">El meu feed</string>
+    <string name="post_create_new">Crear una nova entrada.</string>
+    <string name="create_post_dismiss">Cancel·la</string>
+    <string name="create_post_create">Crear</string>
+    <string name="post_show_more">Mostra més</string>
+    <string name="post_show_less">Mostra menys</string>
+
+    <string name="create_post_success">Publicació creada</string>
+    <string name="create_chat_success">Xat creat</string>
+
+    <string name="home_filters_oldest">Més antic</string>
+    <string name="home_filters_newest">Nou.</string>
+    <string name="post_create_comment">Afegir un comentari</string>
+    <string name="post_likes">A %s li agrada.</string>
+    <string name="post_comments">%s comentaris</string>
+    <string name="post_no_comments_title">Sense respostes encara</string>
+    <string name="post_no_comments_subtitle">Sigui el primer a compartir els seus pensaments sobre aquesta publicació.</string>
+
+    <string name="error_msg_general">Alguna cosa ha anat malament. Si us plau, torni a intentar-ho.</string>
+</resources>

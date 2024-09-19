@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mäin Feed</string>
+    <string name="post_create_new">Erstellt e neien Post</string>
+    <string name="create_post_dismiss">Ofbrechen</string>
+    <string name="create_post_create">Erstellen</string>
+    <string name="post_show_more">Méi weisen</string>
+    <string name="post_show_less">Wéineger weisen</string>
+
+    <string name="create_post_success">Post gouf erstallt</string>
+    <string name="create_chat_success">Chat erstallt</string>
+
+    <string name="home_filters_oldest">Älteste</string>
+    <string name="home_filters_newest">Neist</string>
+    <string name="post_create_comment">Fügeeng Kommentär bäi</string>
+    <string name="post_likes">%s gefällt.</string>
+    <string name="post_comments">%s Kommentaren</string>
+    <string name="post_no_comments_title">Keng Äntwert nach net</string>
+    <string name="post_no_comments_subtitle">Säi deen Éischten dee säi Gedanken zu dësem Post deelt.</string>
+
+    <string name="error_msg_general">Eppes ass schifgaangen. Versich dat nach eng Kéier.</string>
+</resources>

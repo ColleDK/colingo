@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Ako\'ng feed</string>
+    <string name="post_create_new">Magbuhat og bag-ong post</string>
+    <string name="create_post_dismiss">Kanselahon</string>
+    <string name="create_post_create">Buhata</string>
+    <string name="post_show_more">Ipakita pa</string>
+    <string name="post_show_less">Ipakita og gamay</string>
+
+    <string name="create_post_success">Post nahimo</string>
+    <string name="create_chat_success">Chat na gipahimo</string>
+
+    <string name="home_filters_oldest">Pinakaulahing</string>
+    <string name="home_filters_newest">Bag-o nga hingalan</string>
+    <string name="post_create_comment">Dugang og komento</string>
+    <string name="post_likes">%s gusto</string>
+    <string name="post_comments">%s mga komento</string>
+    <string name="post_no_comments_title">Walay tubag pa.</string>
+    <string name="post_no_comments_subtitle">Mag-una sa pagpaambit sa imong mga panghuna-huna bahin niini nga post</string>
+
+    <string name="error_msg_general">May nakadungog sa wala. Palihug suwaya pag-usab.</string>
+</resources>

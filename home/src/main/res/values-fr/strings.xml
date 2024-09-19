@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mon fil d\'actualité</string>
+    <string name="post_create_new">Créer un nouveau message</string>
+    <string name="create_post_dismiss">Annuler</string>
+    <string name="create_post_create">Créer</string>
+    <string name="post_show_more">Afficher plus</string>
+    <string name="post_show_less">Afficher moins</string>
+
+    <string name="create_post_success">Publication créée</string>
+    <string name="create_chat_success">Chat créé</string>
+
+    <string name="home_filters_oldest">Le plus ancien</string>
+    <string name="home_filters_newest">Le plus récent</string>
+    <string name="post_create_comment">Ajouter un commentaire</string>
+    <string name="post_likes">%s aime</string>
+    <string name="post_comments">%s commentaires</string>
+    <string name="post_no_comments_title">Pas de réponses pour le moment</string>
+    <string name="post_no_comments_subtitle">Soyez le premier à partager vos pensées sur cet article</string>
+
+    <string name="error_msg_general">Quelque chose s\'est mal passé. Veuillez réessayer.</string>
+</resources>

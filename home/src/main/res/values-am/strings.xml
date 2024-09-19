@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ቤተሰብ እንዴት እንደሚታወቅ ነው\?</string>
+    <string name="post_create_new">ማስታወሻ አዳዲስ ልጥ</string>
+    <string name="create_post_dismiss">ሰርዝ</string>
+    <string name="create_post_create">ፅንስ ፈጻሚ እንዴት እንደሚገኝ አስፈላጊ ይቆጣል: ይህ ይምረጡ እና እዚህ ያልቻልኩ ወደ ማስታወሻ አገኘናል።</string>
+    <string name="post_show_more">ምሳሌ አሳይ</string>
+    <string name="post_show_less">ተጨማሪ አሳይ</string>
+
+    <string name="create_post_success">ሚስት ተፈጠረ ተፈጠረ ነው</string>
+    <string name="create_chat_success">ቻት የተፈጸሙ ተደምሯል</string>
+
+    <string name="home_filters_oldest">የተመከረ</string>
+    <string name="home_filters_newest">አዲስ</string>
+    <string name="post_create_comment">አንድ አስተያየት ያጨምር</string>
+    <string name="post_likes">እንዴት ለመላሹ %s</string>
+    <string name="post_comments">አጭር ንግግርዎ: %s</string>
+    <string name="post_no_comments_title">በምንም ማለፊያ የተያዙ የምንሰሙት የሚባሉ የምሳሌ የለውም</string>
+    <string name="post_no_comments_subtitle">ሊሽ ማህበረሰብዎን በሬስ በቅርብ ቁምነገር ይገልጻል</string>
+
+    <string name="error_msg_general">ምንም ልቀቅ አለበት። እባኮት በጠቅላላ ያጋሩ።</string>
+</resources>

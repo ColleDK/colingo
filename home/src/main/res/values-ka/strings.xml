@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ჩემი ლენტა</string>
+    <string name="post_create_new">შექმენე ახალი პოსტი</string>
+    <string name="create_post_dismiss">გაუქმება</string>
+    <string name="create_post_create">შექმენი</string>
+    <string name="post_show_more">მეტი ჩვენვება</string>
+    <string name="post_show_less">ნაკლები ჩვენსას</string>
+
+    <string name="create_post_success">პოსტი შეიქმნა</string>
+    <string name="create_chat_success">ჩეთი შექმნილია</string>
+
+    <string name="home_filters_oldest">უძველები</string>
+    <string name="home_filters_newest">უახლესი</string>
+    <string name="post_create_comment">კომენტარის დამატება</string>
+    <string name="post_likes">%s მოსწონს</string>
+    <string name="post_comments">%s კომენტარი</string>
+    <string name="post_no_comments_title">პასუხები ჯერ არ არის</string>
+    <string name="post_no_comments_subtitle">იყავი პირველი, რომ გაზიარო შენი ფიქრები ამ პოსტზე</string>
+
+    <string name="error_msg_general">რამისმიერი შეცდომა მოხდა. კოცნის ცდამიწერეთ თავიდან</string>
+</resources>

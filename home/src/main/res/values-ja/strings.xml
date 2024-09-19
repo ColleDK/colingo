@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">マイフィード</string>
+    <string name="post_create_new">新しい投稿を作成</string>
+    <string name="create_post_dismiss">キャンセル</string>
+    <string name="create_post_create">作成</string>
+    <string name="post_show_more">もっと表示</string>
+    <string name="post_show_less">表示を減らす</string>
+
+    <string name="create_post_success">投稿が作成されました</string>
+    <string name="create_chat_success">チャットが作成されました</string>
+
+    <string name="home_filters_oldest">最古</string>
+    <string name="home_filters_newest">最新</string>
+    <string name="post_create_comment">コメントを追加</string>
+    <string name="post_likes">%s が好き</string>
+    <string name="post_comments">コメント%s</string>
+    <string name="post_no_comments_title">未返信</string>
+    <string name="post_no_comments_subtitle">この投稿について最初にあなたの考えを共有してください</string>
+
+    <string name="error_msg_general">何か問題が発生しました。もう一度お試しください。</string>
+</resources>

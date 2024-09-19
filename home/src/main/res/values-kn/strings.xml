@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ನನ್ನ ಫಿೀಡ್</string>
+    <string name="post_create_new">ಹೊಸ ಪೋಸ್ಟ್ ರಚಿಸಿಕೊಳ್ಳಿ</string>
+    <string name="create_post_dismiss">ರद್ದು</string>
+    <string name="create_post_create">ರಚಿಸಿ</string>
+    <string name="post_show_more">ಹೆಚ್ಚು ತೋರಿಸು</string>
+    <string name="post_show_less">ಕಡಿಮೆ ತೋರಿಸು</string>
+
+    <string name="create_post_success">ಪೋಸ್ಟ್ ರಚಿತವಾಯಿತು</string>
+    <string name="create_chat_success">ಚಾಟ್ ರಚಿತವಾಗಿದೆ</string>
+
+    <string name="home_filters_oldest">ಹಳೆಯದು</string>
+    <string name="home_filters_newest">ಹೊಸತು</string>
+    <string name="post_create_comment">ಕಾಮೆಂಟ್ ಸೇರಿಸಿ</string>
+    <string name="post_likes">%s ಇಷ್ಟವಿದೆ</string>
+    <string name="post_comments">ಟೆಕ್ಸ್ಟ್‌‌ನ ಟ್ಯಾಂಪ್ಲೇಟ್‌ನಲ್ಲಿ: %s ಕಾಮೆಂಟ್‌ಗಳು</string>
+    <string name="post_no_comments_title">ಇನ್ನೂ ಉತ್ತರಗಳಿಲ್ಲ</string>
+    <string name="post_no_comments_subtitle">ಈ ಪೋಸ್ಟ್‌ಗೆ ನಿಮ್ಮ ಭಾವನೆಗಳನ್ನು ಹಂಚುವ ಮೊದಲ ವ್ಯಕ್ತಿಯಾಗಿರಿ.</string>
+
+    <string name="error_msg_general">ಏನೋ ತಪ್ಪಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ನೋಡಿ.</string>
+</resources>

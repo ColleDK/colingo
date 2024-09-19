@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Kuv nyiam</string>
+    <string name="post_create_new">Xa tshaj li q hab cov story tus.</string>
+    <string name="create_post_dismiss">Hu rau lawm</string>
+    <string name="create_post_create">Create</string>
+    <string name="post_show_more">Show more</string>
+    <string name="post_show_less">Show less</string>
+
+    <string name="create_post_success">Post created</string>
+    <string name="create_chat_success">Chat created</string>
+
+    <string name="home_filters_oldest">Ntawm ntawv.</string>
+    <string name="home_filters_newest">Tsev neeg tawg ua tsaug.</string>
+    <string name="post_create_comment">Thov ntxiv cov lus kawm.</string>
+    <string name="post_likes">%s ua ib tug neeg xav tau.</string>
+    <string name="post_comments">%s ntxiv tau es.</string>
+    <string name="post_no_comments_title">Tsawg tsav tsheb tiav tawm sawv daws.</string>
+    <string name="post_no_comments_subtitle">Qhov chung yuav poj niam thiab coj koj tus tswv yim yog hais tias: Lub caij nyoog no muaj neeg muab cov nqe lus no.</string>
+
+    <string name="error_msg_general">Something went wrong. Please try again.</string>
+</resources>

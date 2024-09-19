@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">تغذيتي</string>
+    <string name="post_create_new">إنشاء مشاركة جديدة</string>
+    <string name="create_post_dismiss">إلغاء</string>
+    <string name="create_post_create">إنشاء</string>
+    <string name="post_show_more">اعرض المزيد</string>
+    <string name="post_show_less">عرض أقل</string>
+
+    <string name="create_post_success">المنشور تم إنشاؤه</string>
+    <string name="create_chat_success">الدردشة تم إنشاؤها</string>
+
+    <string name="home_filters_oldest">أقدم</string>
+    <string name="home_filters_newest">أحدث</string>
+    <string name="post_create_comment">أضف تعليق</string>
+    <string name="post_likes">%s يُعجب</string>
+    <string name="post_comments">نص للترجمة: %s تعليقات</string>
+    <string name="post_no_comments_title">لم يتم الرد بعد</string>
+    <string name="post_no_comments_subtitle">كن أول من يشارك أفكارك حول هذا المنشور</string>
+
+    <string name="error_msg_general">حدث خطأ ما. يرجى المحاولة مرة أخرى</string>
+</resources>

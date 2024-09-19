@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mijn overzicht</string>
+    <string name="post_create_new">Maak een nieuwe post</string>
+    <string name="create_post_dismiss">Annuleren</string>
+    <string name="create_post_create">Creëren</string>
+    <string name="post_show_more">Toon meer</string>
+    <string name="post_show_less">Minder weergeven</string>
+
+    <string name="create_post_success">Bericht aangemaakt</string>
+    <string name="create_chat_success">Chat aangemaakt</string>
+
+    <string name="home_filters_oldest">Oudste</string>
+    <string name="home_filters_newest">Nieuwste</string>
+    <string name="post_create_comment">Voeg een opmerking toe</string>
+    <string name="post_likes">%s vindt leuk</string>
+    <string name="post_comments">%s reacties</string>
+    <string name="post_no_comments_title">Nog geen reacties</string>
+    <string name="post_no_comments_subtitle">Wees de eerste om je gedachten over dit bericht te delen.</string>
+
+    <string name="error_msg_general">Er is iets misgegaan. Probeer het opnieuw.</string>
+</resources>

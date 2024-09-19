@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">My feed.</string>
+    <string name="post_create_new">Create a new post.</string>
+    <string name="create_post_dismiss">אויסלעגן</string>
+    <string name="create_post_create">Create</string>
+    <string name="post_show_more">זייג מער.</string>
+    <string name="post_show_less">ווייניגער אויףzeigen weniger</string>
+
+    <string name="create_post_success">Post geshafn.</string>
+    <string name="create_chat_success">Geshpräch geshafn.</string>
+
+    <string name="home_filters_oldest">טעקסט אויף די אַלטע מיינונג.</string>
+    <string name="home_filters_newest">Neystn</string>
+    <string name="post_create_comment">Füg a bamerkung hinzu</string>
+    <string name="post_likes">%s געפֿעלט.</string>
+    <string name="post_comments">%s באַמערקונגן</string>
+    <string name="post_no_comments_title">קיין אָנטוואָרטן נאך.</string>
+    <string name="post_no_comments_subtitle">Zay der ershter tsu teyln dayne gedanken af dem post.</string>
+
+    <string name="error_msg_general">פֿארזוכן אײַדער. פּרויבן אָפַן אָנדערש.</string>
+</resources>

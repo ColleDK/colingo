@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">মোৰ ফিড।</string>
+    <string name="post_create_new">নতুন পোষ্ট তৈয়াৰ কৰক।</string>
+    <string name="create_post_dismiss">বাতিল কৰক।</string>
+    <string name="create_post_create">সৃষ্টি কৰক</string>
+    <string name="post_show_more">অধিক প্ৰদর্শন কৰক</string>
+    <string name="post_show_less">কম দেখাও দেখাও।</string>
+
+    <string name="create_post_success">পোষ্ট সৃষ্টি কৰা हৈছে।</string>
+    <string name="create_chat_success">চাট সৃষ্টি কৰা৷</string>
+
+    <string name="home_filters_oldest">প্ৰবীণ।</string>
+    <string name="home_filters_newest">নতুন</string>
+    <string name="post_create_comment">এটা এটিয়া মন্তব্য যোগ কৰক।</string>
+    <string name="post_likes">%s পছন্দ কৰে।</string>
+    <string name="post_comments">%s মন্তব্য</string>
+    <string name="post_no_comments_title">এইৰে উত্তৰ নাই।</string>
+    <string name="post_no_comments_subtitle">এই প\'ষ্টটোত আপোনালোৱা মতামত আগবঢ়াবলৈ প্ৰথম হওক।</string>
+
+    <string name="error_msg_general">কিবালই ভুল হৈছে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।</string>
+</resources>

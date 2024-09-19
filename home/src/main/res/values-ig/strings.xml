@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Ndi m feed</string>
+    <string name="post_create_new">Mepụta akụkọ ọ bụla</string>
+    <string name="create_post_dismiss">Kaaraụịrụ</string>
+    <string name="create_post_create">Mkporo</string>
+    <string name="post_show_more">Nyi ka ndi ozo</string>
+    <string name="post_show_less">Jiri nwetaọzọ</string>
+
+    <string name="create_post_success">Post ọzọilemere</string>
+    <string name="create_chat_success">Chat achọrọọnwere.</string>
+
+    <string name="home_filters_oldest">Oldest</string>
+    <string name="home_filters_newest">Ogologo-Afo</string>
+    <string name="post_create_comment">Tinye ụtọasụsụ</string>
+    <string name="post_likes">%s enweghi ike</string>
+    <string name="post_comments">%s okwuọrụ</string>
+    <string name="post_no_comments_title">Ọ bụghị aghị ebea ma oge ahụ wee gawa ya.</string>
+    <string name="post_no_comments_subtitle">Hapụ ndị na-ekwupụta ọzọ n\'ime ihe ọ bụla a.</string>
+
+    <string name="error_msg_general">Akwụkwọ isi gị. Biko nyekwa ọzọ.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">دانەی من</string>
+    <string name="post_create_new">پەرتاکی نوێ دروستبکە</string>
+    <string name="create_post_dismiss">Betal bike.</string>
+    <string name="create_post_create">Pêvekirin</string>
+    <string name="post_show_more">پیشانبده‌بن.</string>
+    <string name="post_show_less">که‌متر پیشانده‌به‌.</string>
+
+    <string name="create_post_success">تێبینی دروستکرا</string>
+    <string name="create_chat_success">چاک دروست کراێتەوە</string>
+
+    <string name="home_filters_oldest">کورترین</string>
+    <string name="home_filters_newest">\"Update\"</string>
+    <string name="post_create_comment">لێرە لەناسراو دانان بکەوە</string>
+    <string name="post_likes">دەڵێت: %s</string>
+    <string name="post_comments">لەبەر %s لێدوان</string>
+    <string name="post_no_comments_title">هنوز وەڵامێك نەدراوە</string>
+    <string name="post_no_comments_subtitle">پێشوو بەیانی خۆت بەهێزبە وەرز بدە لەسەر ئەم بابەتانە.</string>
+
+    <string name="error_msg_general">چی داشتەوەکە خراب بوو. تکایە دووبارە هەوڵ بدە</string>
+</resources>

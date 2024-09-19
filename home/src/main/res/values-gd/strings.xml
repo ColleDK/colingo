@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mo bhileag</string>
+    <string name="post_create_new">Cruthaich post ùr</string>
+    <string name="create_post_dismiss">Ceàrr</string>
+    <string name="create_post_create">Cruthaich</string>
+    <string name="post_show_more">Seall nas motha</string>
+    <string name="post_show_less">Seall nas lugha</string>
+
+    <string name="create_post_success">Post cruthaithe</string>
+    <string name="create_chat_success">Còmhraidh cruthaichte</string>
+
+    <string name="home_filters_oldest">Sean-aois</string>
+    <string name="home_filters_newest">Ùrste</string>
+    <string name="post_create_comment">Cuir aithris ris</string>
+    <string name="post_likes">Tha %s a\' toirt tlachd.</string>
+    <string name="post_comments">Beachdan %s</string>
+    <string name="post_no_comments_title">Cha robh freagairtean fhathast</string>
+    <string name="post_no_comments_subtitle">Fosgail do bheachd air an alt seo an toiseachadh</string>
+
+    <string name="error_msg_general">Tha rudeigin air dol ceàrr. Bidh sam bith a-rithist.</string>
+</resources>

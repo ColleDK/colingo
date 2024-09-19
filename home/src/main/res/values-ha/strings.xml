@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Ƙarin Diyanmu</string>
+    <string name="post_create_new">Yi rubutu sabon post</string>
+    <string name="create_post_dismiss">Tsada.</string>
+    <string name="create_post_create">Sanya</string>
+    <string name="post_show_more">Nuna kashi da sauran</string>
+    <string name="post_show_less">Nuna yawa</string>
+
+    <string name="create_post_success">Bayanin Bude</string>
+    <string name="create_chat_success">Wasu kalmar \'Chat\' da aka kafa</string>
+
+    <string name="home_filters_oldest">Mafi ƙwarewa</string>
+    <string name="home_filters_newest">Sabon.</string>
+    <string name="post_create_comment">Daɗa tambaya</string>
+    <string name="post_likes">%s yana son</string>
+    <string name="post_comments">%s bayanai</string>
+    <string name="post_no_comments_title">Babu wani yana bada ragoma.</string>
+    <string name="post_no_comments_subtitle">Za ka buga fahimtar da kai a kan wannan bayanai</string>
+
+    <string name="error_msg_general">Wani abu ya yi waɗanda suka yi. Don Allah amince da sa\'an nan.</string>
+</resources>

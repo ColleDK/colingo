@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mein Feed</string>
+    <string name="post_create_new">Einen neuen Beitrag erstellen</string>
+    <string name="create_post_dismiss">Abbrechen</string>
+    <string name="create_post_create">Erstellen</string>
+    <string name="post_show_more">Mehr anzeigen</string>
+    <string name="post_show_less">Weniger anzeigen</string>
+
+    <string name="create_post_success">Beitrag erstellt</string>
+    <string name="create_chat_success">Chat erstellt</string>
+
+    <string name="home_filters_oldest">Älteste</string>
+    <string name="home_filters_newest">Neueste</string>
+    <string name="post_create_comment">Kommentar hinzufügen</string>
+    <string name="post_likes">%s mag es</string>
+    <string name="post_comments">%s Kommentare</string>
+    <string name="post_no_comments_title">Noch keine Antworten</string>
+    <string name="post_no_comments_subtitle">Seien Sie der Erste, der seine Gedanken zu diesem Beitrag teilt.</string>
+
+    <string name="error_msg_general">Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.</string>
+</resources>

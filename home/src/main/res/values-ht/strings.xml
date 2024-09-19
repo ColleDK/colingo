@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Fil mwen</string>
+    <string name="post_create_new">Kreye yon nouvo atik</string>
+    <string name="create_post_dismiss">Kansèle</string>
+    <string name="create_post_create">Create</string>
+    <string name="post_show_more">Montre plis</string>
+    <string name="post_show_less">Montre mwens</string>
+
+    <string name="create_post_success">Mesaj kreye</string>
+    <string name="create_chat_success">Chat kreye</string>
+
+    <string name="home_filters_oldest">Pi gran</string>
+    <string name="home_filters_newest">Nouvo</string>
+    <string name="post_create_comment">Ajoute yon kòmantè</string>
+    <string name="post_likes">%s renmen</string>
+    <string name="post_comments">%s kòmantè</string>
+    <string name="post_no_comments_title">Pa gen repons toujou</string>
+    <string name="post_no_comments_subtitle">Se pran devan pou w pataje panse ou sou tèks sa</string>
+
+    <string name="error_msg_general">Yon bagay pa mache byen. Tanpri eseye ankò.</string>
+</resources>

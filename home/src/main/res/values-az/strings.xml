@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mənim mövzularım</string>
+    <string name="post_create_new">Yeni bir yazı yaradın</string>
+    <string name="create_post_dismiss">İmtina etmek</string>
+    <string name="create_post_create">Yaradın</string>
+    <string name="post_show_more">Daha çox göstərin</string>
+    <string name="post_show_less">Daha az göstər</string>
+
+    <string name="create_post_success">Post yaradıldı</string>
+    <string name="create_chat_success">Söhbət yaradıldı</string>
+
+    <string name="home_filters_oldest">Ən yaşlı</string>
+    <string name="home_filters_newest">Ən yeni</string>
+    <string name="post_create_comment">Şərh əlavə et</string>
+    <string name="post_likes">%s sevir</string>
+    <string name="post_comments">%s rəy</string>
+    <string name="post_no_comments_title">Hələlik cavab yoxdur</string>
+    <string name="post_no_comments_subtitle">Bu gönderi ilə bağlı fikirlərinizi ilk dəfə paylaşan olun.</string>
+
+    <string name="error_msg_general">Nəsə doğru getmir. Xahiş edirik yenidən cəhd edin.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Minu voog</string>
+    <string name="post_create_new">Loo uus postitus</string>
+    <string name="create_post_dismiss">Tühista</string>
+    <string name="create_post_create">Loo</string>
+    <string name="post_show_more">Näita rohkem</string>
+    <string name="post_show_less">Kuva vähem</string>
+
+    <string name="create_post_success">Postitus loodud</string>
+    <string name="create_chat_success">Vestlus loodud</string>
+
+    <string name="home_filters_oldest">Vanim</string>
+    <string name="home_filters_newest">Uusim</string>
+    <string name="post_create_comment">Lisa kommentaar</string>
+    <string name="post_likes">%s meeldib</string>
+    <string name="post_comments">Kommentaarid: %s</string>
+    <string name="post_no_comments_title">Vastuseid pole veel</string>
+    <string name="post_no_comments_subtitle">Ole esimene, kes jagab oma mõtteid selle postituse kohta</string>
+
+    <string name="error_msg_general">Midagi läks valesti. Proovi uuesti</string>
+</resources>

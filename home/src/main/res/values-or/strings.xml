@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ମୋ ଫିଡ୍‌।</string>
+    <string name="post_create_new">ନବ ପୋଷ୍ଟ ତିଆରି କରନ୍ତୁ।</string>
+    <string name="create_post_dismiss">ରঁ୍ୟ୍େସ୍ବପ୍ତ୍ନା୍ଅଘ୍ଯ୍ୟଃ</string>
+    <string name="create_post_create">ତିଆରି କରନ୍ତୁ</string>
+    <string name="post_show_more">ଅଧିକ ଦେଖାଅ କରନ୍ତୁ</string>
+    <string name="post_show_less">କମ ଦେଖାନ୍ତୁ</string>
+
+    <string name="create_post_success">Post ତିଆରି ହେଇଛି।</string>
+    <string name="create_chat_success">ଚ୍ୟାଟ୍ ତିଆରି କରାଯିବ।</string>
+
+    <string name="home_filters_oldest">ପ୍ରାଚୀନ</string>
+    <string name="home_filters_newest">ନବୀୟମାନ</string>
+    <string name="post_create_comment">ମତାଧୀନ କ୍ଷେତ୍ର ଯୋଡନ୍ତୁ।</string>
+    <string name="post_likes">%s ପସନ୍ଦ କରୁଛନ୍ତି।</string>
+    <string name="post_comments">%s ମତାମତଗୁଡ଼ିକା</string>
+    <string name="post_no_comments_title">କୌଣସି ଉତ୍ତର ହେଉନି ନଥିଲା</string>
+    <string name="post_no_comments_subtitle">ଏହି ପୋଷ୍ଟ ଉପରି ଆପଣଙ୍କ ଭବିଷ୍ୟତ ଭାବନା ଭାଗ କରିବାରେ ପ୍ରଥମ ହେନ୍ତୁ।</string>
+
+    <string name="error_msg_general">କିଛି ଭୁଲ ହୋଇଛି। ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+</resources>

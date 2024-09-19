@@ -4,6 +4,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -47,12 +48,21 @@ internal fun AboutPane(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .padding(it)
                 .padding(24.dp),
-            verticalArrangement = Arrangement.spacedBy(24.dp)
+            verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             Text(
-                text = stringResource(id = R.string.settings_about_page_description),
+                text = stringResource(id = R.string.settings_about_page_description1),
                 style = MaterialTheme.typography.bodyMedium
             )
+            Text(
+                text = stringResource(id = R.string.settings_about_page_description2),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Text(
+                text = stringResource(id = R.string.settings_about_page_description3),
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Spacer(modifier = Modifier.height(12.dp))
             SelectionContainer {
                 Text(
                     text = buildAnnotatedString {

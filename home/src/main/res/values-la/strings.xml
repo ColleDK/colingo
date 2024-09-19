@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Feed meus</string>
+    <string name="post_create_new">Creare novum nuntium</string>
+    <string name="create_post_dismiss">Cancel</string>
+    <string name="create_post_create">Creare</string>
+    <string name="post_show_more">Mostra amplius</string>
+    <string name="post_show_less">Mostra minus</string>
+
+    <string name="create_post_success">Post creatus</string>
+    <string name="create_chat_success">Chat creatus</string>
+
+    <string name="home_filters_oldest">Antiquissimus</string>
+    <string name="home_filters_newest">Novissimus</string>
+    <string name="post_create_comment">Add comment</string>
+    <string name="post_likes">%s placet</string>
+    <string name="post_comments">%s commentarii</string>
+    <string name="post_no_comments_title">Nulla adhuc responsio</string>
+    <string name="post_no_comments_subtitle">Sis primus qui sententias tuas in hoc loco communicat</string>
+
+    <string name="error_msg_general">Aliquid aberravit. Iterum conare.</string>
+</resources>

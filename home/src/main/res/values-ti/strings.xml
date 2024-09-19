@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ምድንዕብ እንትን</string>
+    <string name="post_create_new">ሓበሬታ ኣለዋ ፡ ኣብቲ ግጽ</string>
+    <string name="create_post_dismiss">ኣብቲ ውሽጢ</string>
+    <string name="create_post_create">ርምጪ ኣብ።</string>
+    <string name="post_show_more">እንዴት እዚ ጊዜ እዚአ እየኣብ ምልልሻ ሃገር ናይዚ ተለሊዩም።</string>
+    <string name="post_show_less">ኣይንብር ኣለኹ ።</string>
+
+    <string name="create_post_success">ሓበሬ መደፈኣለ።</string>
+    <string name="create_chat_success">ችት ተዘይሩ ተሓድሩ</string>
+
+    <string name="home_filters_oldest">ድሕሪ ናይ ኣድን መንግስታት ላይ ኣብዚ ዝነበረ ሓድሽ ተሓቲቑ ምእንቲኣ፡ ካሊፊን ንወገን መራብ።</string>
+    <string name="home_filters_newest">ንምንይ</string>
+    <string name="post_create_comment">ናብ ትንተሎም ኣክሲ ኣድምጺ ።</string>
+    <string name="post_likes">%s ብምዝረት ኣይኮነን ።</string>
+    <string name="post_comments">%s ክምረት</string>
+    <string name="post_no_comments_title">እዚ ሓበሬታ ተሓዲሽ ኣለኹ።</string>
+    <string name="post_no_comments_subtitle">እቲ የነቀ፣ ዕልል ብህለዝ ምዕቃ።</string>
+
+    <string name="error_msg_general">ሓበሬ ተሳኽልኩም። ኣገልግሎት ይምልኩም።</string>
+</resources>

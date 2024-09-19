@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Fakamatala\'anga \'o e to\'utangai \'oku\'u matapa</string>
+    <string name="post_create_new">Fa\'ngaue ha pa\'ati fo\'ou</string>
+    <string name="create_post_dismiss">Tevolo</string>
+    <string name="create_post_create">Hono fakatupu</string>
+    <string name="post_show_more">Fai ha ma\'uaga ki he ngaahi me\'a \'e hiki \'i \'osi</string>
+    <string name="post_show_less">Fakahaofi\'i ho\'o fiema\'u\'ai.</string>
+
+    <string name="create_post_success">Post created</string>
+    <string name="create_chat_success">Fakamatala fakatupu tokoni</string>
+
+    <string name="home_filters_oldest">Siope ma\'a e malohi vilajina.</string>
+    <string name="home_filters_newest">Fakaʻosiʻosi</string>
+    <string name="post_create_comment">Fakatokanga hoʻo ʻe hingoa</string>
+    <string name="post_likes">%s ʻoku ʻi ai palēmi \'ofe\' \'oku maʻu haʻane \'i he tohiʻaʻoe.</string>
+    <string name="post_comments">%s ngaahi kalasi</string>
+    <string name="post_no_comments_title">Tēvolo \'i he \'ofa mo e ongo pē \'i hono faifahinga ta\'etotonga ʻa e temipale.</string>
+    <string name="post_no_comments_subtitle">Fai \'e he tu\'aki \'o e ngaahi me\'a \'oku \'ikai ke lava ke totonu\'ia \'i he fakataha ko\'eni.</string>
+
+    <string name="error_msg_general">\'Osi \'a e me\'a tali \'ae koe. Fe\'unga ke tau ke lava hake mai.</string>
+</resources>

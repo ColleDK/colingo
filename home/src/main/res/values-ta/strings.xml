@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">என் பசுப்படுத்துதல்</string>
+    <string name="post_create_new">புதிய பதிவை உருவாக்கவும்.</string>
+    <string name="create_post_dismiss">ரத்து செய்</string>
+    <string name="create_post_create">உருவாக்குங்கள்</string>
+    <string name="post_show_more">மேலும் காட்டு</string>
+    <string name="post_show_less">குறைவடையுங்கள்</string>
+
+    <string name="create_post_success">பதிவு உருவாக்கப்பட்டது.</string>
+    <string name="create_chat_success">உரை உருவாக்கப்பட்டது</string>
+
+    <string name="home_filters_oldest">புதியது</string>
+    <string name="home_filters_newest">புதியது</string>
+    <string name="post_create_comment">கருத்தை சேர்</string>
+    <string name="post_likes">%s பிடிக்கிறார்</string>
+    <string name="post_comments">கருத்துகள்: %s</string>
+    <string name="post_no_comments_title">எந்த பதிலும் இல்லை</string>
+    <string name="post_no_comments_subtitle">இந்த பதிவுகள் பற்றிய உங்கள் கருத்துகளை முதல் பகிரவும்.</string>
+
+    <string name="error_msg_general">ஏதாவது தவறானது உண்மையில் நடந்துவிட்டது. மீண்டும் முயன்றுகொள்ளவும்.</string>
+</resources>

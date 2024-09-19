@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Моя лента</string>
+    <string name="post_create_new">Создать новый пост</string>
+    <string name="create_post_dismiss">Отмена</string>
+    <string name="create_post_create">Создать</string>
+    <string name="post_show_more">Показать больше</string>
+    <string name="post_show_less">Показать меньше</string>
+
+    <string name="create_post_success">Пост создан</string>
+    <string name="create_chat_success">Чат создан</string>
+
+    <string name="home_filters_oldest">Старейший</string>
+    <string name="home_filters_newest">Самое новое</string>
+    <string name="post_create_comment">Добавить комментарий</string>
+    <string name="post_likes">%s нравится</string>
+    <string name="post_comments">Текст для перевода: %s комментариев</string>
+    <string name="post_no_comments_title">Пока нет ответов</string>
+    <string name="post_no_comments_subtitle">Будьте первым, кто поделится своими мыслями по этому сообщению</string>
+
+    <string name="error_msg_general">Что-то пошло не так. Пожалуйста, попробуйте еще раз</string>
+</resources>

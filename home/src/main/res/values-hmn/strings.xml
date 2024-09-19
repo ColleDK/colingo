@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Kuv lub npav</string>
+    <string name="post_create_new">Sib txiv thiab tej yam dej mus.</string>
+    <string name="create_post_dismiss">Huab tsaug</string>
+    <string name="create_post_create">Xaiv</string>
+    <string name="post_show_more">Ntawv xwsli noreadOnly.</string>
+    <string name="post_show_less">Vov no.</string>
+
+    <string name="create_post_success">Post tsis muaj kev sib ntsib.</string>
+    <string name="create_chat_success">Cov ntaub ntawv muaj tus nrog.raws li cov nas.</string>
+
+    <string name="home_filters_oldest">Tus tswv tsev nyob rau hauv.</string>
+    <string name="home_filters_newest">Tsis txaus siab.</string>
+    <string name="post_create_comment">Cov ntaub ntawv nug: Nrho nej kev sib tw hais lus</string>
+    <string name="post_likes">%s txhob tuaj lub sijhawm.</string>
+    <string name="post_comments">%s lus nug tsis txhob xya.</string>
+    <string name="post_no_comments_title">Tsia tsis nyob tsis txhua.</string>
+    <string name="post_no_comments_subtitle">Ntawm koj muaj ceeb toom nrhiav rau cov lus nug nrhiav no.</string>
+
+    <string name="error_msg_general">Muaj kev ua kom tiag tshaj plaws, thov rov qab lawm os.</string>
+</resources>

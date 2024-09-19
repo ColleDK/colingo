@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mera feed</string>
+    <string name="post_create_new">نیا پوسٹ بنائیں</string>
+    <string name="create_post_dismiss">منسوخ کریں</string>
+    <string name="create_post_create">تخلیق کریں</string>
+    <string name="post_show_more">مزید دکھائیں</string>
+    <string name="post_show_less">کم دکھائیں</string>
+
+    <string name="create_post_success">Post تخلیق شد</string>
+    <string name="create_chat_success">چیٹ بنائی گئی</string>
+
+    <string name="home_filters_oldest">بڑی عمر کا</string>
+    <string name="home_filters_newest">تازہ ترین</string>
+    <string name="post_create_comment">تبصرہ شامل کریں</string>
+    <string name="post_likes">%s کو پسند ہے</string>
+    <string name="post_comments">%s تبصرے</string>
+    <string name="post_no_comments_title">ابھی تک کوئی جواب نہیں</string>
+    <string name="post_no_comments_subtitle">Is post par apne khayalat share karne wale pehle shakhs ban jayein</string>
+
+    <string name="error_msg_general">کچھ غلط ہوگیا ہے۔ دوبارہ کوشش کریں</string>
+</resources>

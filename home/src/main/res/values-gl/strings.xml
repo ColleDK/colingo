@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">O meu feed</string>
+    <string name="post_create_new">Crear un novo post.</string>
+    <string name="create_post_dismiss">Cancelar</string>
+    <string name="create_post_create">Crear</string>
+    <string name="post_show_more">Amosar máis</string>
+    <string name="post_show_less">Amosar menos</string>
+
+    <string name="create_post_success">Post creado</string>
+    <string name="create_chat_success">Chat creado</string>
+
+    <string name="home_filters_oldest">Máis vello</string>
+    <string name="home_filters_newest">Novo</string>
+    <string name="post_create_comment">Engadir un comentario</string>
+    <string name="post_likes">%s gusta</string>
+    <string name="post_comments">%s comentarios</string>
+    <string name="post_no_comments_title">Aínda sen respostas</string>
+    <string name="post_no_comments_subtitle">Sexa o primeiro en compartir os teus pensamentos sobre esta publicación.</string>
+
+    <string name="error_msg_general">Algo saiu mal. Por favor, tente novamente.</string>
+</resources>

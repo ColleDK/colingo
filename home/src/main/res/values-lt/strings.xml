@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mano srautas</string>
+    <string name="post_create_new">Sukurti naują įrašą</string>
+    <string name="create_post_dismiss">Atšaukti</string>
+    <string name="create_post_create">Sukurti</string>
+    <string name="post_show_more">Rodyti daugiau</string>
+    <string name="post_show_less">Rodyti mažiau</string>
+
+    <string name="create_post_success">Įrašas sukurtas</string>
+    <string name="create_chat_success">Pokalbis sukurtas</string>
+
+    <string name="home_filters_oldest">Seniausias</string>
+    <string name="home_filters_newest">Naujausias</string>
+    <string name="post_create_comment">Pridėti komentarą</string>
+    <string name="post_likes">Tekstas versti: %s patinka</string>
+    <string name="post_comments">Komentarai: %s</string>
+    <string name="post_no_comments_title">Kol kas atsakymų nėra.</string>
+    <string name="post_no_comments_subtitle">Būk pirmas/i dalintis savo mintimis apie šį įrašą</string>
+
+    <string name="error_msg_general">Kažkas nutiko negerai. Bandykite dar kartą.</string>
+</resources>

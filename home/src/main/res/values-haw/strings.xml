@@ -1,0 +1,24 @@
+<resources>
+    <string name="homepage_title">Koʻu paʻiʻai</string>
+    <string name="post_create_new">Hana i kahi leka hou</string>
+    <string name="create_post_dismiss">Hoʻopau</string>
+    <string name="create_post_create">Hana</string>
+    <string name="post_show_more">Nānā Kūpono aku</string>
+    <string name="post_show_less">Nānā \'ole</string>
+
+    <string name="create_post_success">Post hanaia</string>
+    <string name="create_chat_success">Hoopuka wahi ho\'ohui\'aina</string>
+
+    <string name="home_filters_oldest">Kupuna</string>
+    <string name="home_filters_newest">Hou loa</string>
+    <string name="post_create_comment">Hoʻohoʻā i kekahi manaʻo</string>
+    <string name="post_likes">%s ikaika</string>
+    <string name="post_comments">%s comments
+
+Optional translation: %s kānāwai ʻana</string>
+    <string name="post_no_comments_title">ʻAʻole i loaʻa ʻo ka ʻōlelo hoʻi aku.</string>
+    <string name="post_no_comments_subtitle">E kūka\'ana i kāu mana\'o mua ma kēia leka</string>
+
+    <string name="error_msg_general">Something went wrong. Please try again
+A\'ohe mea i ho\'opau \'ia. E ho\'olohe hou mai</string>
+</resources>

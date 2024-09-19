@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Noqu vakayago</string>
+    <string name="post_create_new">Vakacabora e dua na itukutuku vou</string>
+    <string name="create_post_dismiss">Sereka</string>
+    <string name="create_post_create">Vakacacani</string>
+    <string name="post_show_more">Vakaraitaka vakalailai yani</string>
+    <string name="post_show_less">Vakaraitaka vakalailai</string>
+
+    <string name="create_post_success">Vakamacala sa buli</string>
+    <string name="create_chat_success">Chat created</string>
+
+    <string name="home_filters_oldest">Neitou taucoko.</string>
+    <string name="home_filters_newest">Vakayacori: Vakayacori</string>
+    <string name="post_create_comment">Vakayacora na yadra</string>
+    <string name="post_likes">%s sa vinakata</string>
+    <string name="post_comments">Itavunitaka: %s vakamacala</string>
+    <string name="post_no_comments_title">Sa sega ni dua na vosa tale e dua mada.</string>
+    <string name="post_no_comments_subtitle">Me vaka na kenai tuimacilai ni vagacaucaudre, mo ni vakaraitaka na nomuni nanumi e na itukutuku oqo.</string>
+
+    <string name="error_msg_general">E dua na ka sa sega ni dina. Vakayacora tale mada.</string>
+</resources>

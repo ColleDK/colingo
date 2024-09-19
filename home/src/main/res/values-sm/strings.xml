@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">O le mea na ou fa\'ailoa\'ai</string>
+    <string name="post_create_new">Creed a le tusi fou</string>
+    <string name="create_post_dismiss">Fa\'afefea ona \"Cancel\"</string>
+    <string name="create_post_create">Faia</string>
+    <string name="post_show_more">Fa\'ailoa atu fa\'avae</string>
+    <string name="post_show_less">Fa\'ailoa lau ma le itiiti atu</string>
+
+    <string name="create_post_success">Tusitusia le Fa\'ailoa</string>
+    <string name="create_chat_success">Tausitusitu le faiga autufuga.</string>
+
+    <string name="home_filters_oldest">Matua tama\'i</string>
+    <string name="home_filters_newest">Le mea fou i siu\'ai.</string>
+    <string name="post_create_comment">Fa\'afouina se fa\'aaliga.</string>
+    <string name="post_likes">%s te fiafia</string>
+    <string name="post_comments">%s fa\'ailoa</string>
+    <string name="post_no_comments_title">E leai se tali atu i le taimi nei</string>
+    <string name="post_no_comments_subtitle">Sauni lea e fesoasoani mai i lou naunau i lea tusi</string>
+
+    <string name="error_msg_general">O le mea na tele, fa\'amalie atu ona toe faia.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">मेरो फिड</string>
+    <string name="post_create_new">नयाँ पोस्ट बनाउनुहोस्।</string>
+    <string name="create_post_dismiss">रद्द गर्नुहोस्।</string>
+    <string name="create_post_create">निर्माण गर्नुहोस्</string>
+    <string name="post_show_more">थप देखाउनुहोस्।</string>
+    <string name="post_show_less">कम देखाउनुहोस्।</string>
+
+    <string name="create_post_success">लेख पोस्ट गरियो</string>
+    <string name="create_chat_success">च्याट सिर्जना गरियो</string>
+
+    <string name="home_filters_oldest">सबैभन्दा पुरानो</string>
+    <string name="home_filters_newest">नयाँ</string>
+    <string name="post_create_comment">टिप्पणी थप्नुहोस्।</string>
+    <string name="post_likes">%s मन पर्छ।</string>
+    <string name="post_comments">प्रतिक्रिया: %s</string>
+    <string name="post_no_comments_title">अहिले सम्म कुनै प्रतिक्रिया नभएको छ।</string>
+    <string name="post_no_comments_subtitle">यस पोस्टमा तपाईंको विचार साझा गर्न पहिलो हुनुहोस्।</string>
+
+    <string name="error_msg_general">केही गलती भयो। कृपया फेरि प्रयास गर्नुहोस्।</string>
+</resources>

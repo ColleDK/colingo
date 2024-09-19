@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">माझी फीड</string>
+    <string name="post_create_new">नवीन पोस्ट तयार करा</string>
+    <string name="create_post_dismiss">रद्द</string>
+    <string name="create_post_create">उत्पन्नित करा</string>
+    <string name="post_show_more">अधिक दाखवा</string>
+    <string name="post_show_less">कमी दाखवा</string>
+
+    <string name="create_post_success">निवड केलं</string>
+    <string name="create_chat_success">चॅट तयार केली</string>
+
+    <string name="home_filters_oldest">जुना</string>
+    <string name="home_filters_newest">नवीनतम</string>
+    <string name="post_create_comment">टिप्पणी जोडा</string>
+    <string name="post_likes">%s आवडतात</string>
+    <string name="post_comments">%s टिप्पण्या</string>
+    <string name="post_no_comments_title">कळंप नाहीत</string>
+    <string name="post_no_comments_subtitle">पोस्टवरील तुमच्या विचारांची पहिली भागीदारी करण्यासाठी पहिले व्हा.</string>
+
+    <string name="error_msg_general">काहीतरी चूक झाली. पुन्हा प्रयत्न करा.</string>
+</resources>

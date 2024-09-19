@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mening yangi xabarlarim</string>
+    <string name="post_create_new">Yangi yozuv yarating</string>
+    <string name="create_post_dismiss">Bekor qilish</string>
+    <string name="create_post_create">Yaratish</string>
+    <string name="post_show_more">Ko\'rsatishni ko\'proq o\'zgartiring</string>
+    <string name="post_show_less">Kamroq ko\'rsat</string>
+
+    <string name="create_post_success">Yozilgan xabar</string>
+    <string name="create_chat_success">Chat yaratıldı</string>
+
+    <string name="home_filters_oldest">Eng yosh</string>
+    <string name="home_filters_newest">Eng yangi</string>
+    <string name="post_create_comment">Izoh qo\'shing</string>
+    <string name="post_likes">%s yoqtiradi</string>
+    <string name="post_comments">Matn tarjimasi: %s izohlari</string>
+    <string name="post_no_comments_title">Hali javob yo\'q.</string>
+    <string name="post_no_comments_subtitle">Bu postingiz haqida fikrlaringizni birinchi bo\'lib ulashing.</string>
+
+    <string name="error_msg_general">Nimadur noto\'g\'ri ketdi. Iltimos, qaytadan urinib ko\'ring.</string>
+</resources>
