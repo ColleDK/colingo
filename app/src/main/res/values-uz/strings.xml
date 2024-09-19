@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Uy</string>
+    <string name="destination_explore_label">Tanishib oling</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Sozlamalar</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Themanirovka</string>
+    <string name="setting_notifications_title">Bildirishnomalar</string>
+    <string name="setting_permissions_title">Ruxsatlar</string>
+    <string name="setting_accessibility_title">Qulaylik.</string>
+    <string name="setting_about_title">Haqida</string>
+    <string name="setting_rate_title">Ilovani baholang</string>
+    <string name="setting_report_title">Xatolikni xabar qiling.</string>
+    <string name="setting_logout_title">Chiqish</string>
+    <string name="setting_switch_language_title">Tilni o\'zgartirish</string>
+
+    <string name="selected_language">Tanlangan til</string>
+
+    <string name="settings_change">Sozlamalarni o\'zgartirish</string>
+    <string name="settings_switch_language">Tilni almashtirish</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamik maxsus uslublash</string>
+    <string name="setting_dark_theme">Tungi mavzulashtirish</string>
+
+    <string name="settings_rate_app_page_title">Tartibla</string>
+    <string name="settings_switch_language_title">Tilni o\'zgartirish</string>
+    <string name="settings_theming_title">Temalar va ranglar</string>
+    <string name="settings_about_page_title">Dastur haqida</string>
+    <string name="settings_about_page_description1">Colingo - bu Colle/William tomonidan ishlab chiqilgan ochiq manba hamkorlikga asoslangan til almashish platformasi.</string>
+    <string name="settings_about_page_description2">Ilovadagi hamma narsaga ochiqlik va ishonch bilan yaqinlashishga harakat qilamiz, bu sabab open-source qilamiz.</string>
+    <string name="settings_about_page_description3">Barcha tarjimalar ilova ichida IA tomonidan amalga oshiriladi va shu sababli tarjima xatolariga ehtiyoj bo\'lsa, iltimos, \\"Xatoni xabar qilish\\" bo\'limida xabar bering.</string>
+    <string name="settings_about_page_contact">Agar sizda dasturga oid bo\'lgan savollar yoki takliflar bo\'lsa, bizga quyidagi orqali murojaat qila olasiz:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Xatoni xabar qilish</string>
+    <string name="settings_report_bug_title">Stabillikni ta\'minlash uchun, biz avtomatik ravishda dasturning to\'xtagan hisobotlarini yig\'ib olishni amalga oshiramiz, balki sizga muammoga duch kelgan bo\'lsa va xatolikni to\'g\'ri to\'lashni xohlaysiz, iltimos, e\'tiborli ma\'lumotlarni o\'z ichiga olgan shaklda yuboring.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

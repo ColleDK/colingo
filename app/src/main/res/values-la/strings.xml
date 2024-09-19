@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Domus</string>
+    <string name="destination_explore_label">Explora</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notificationes</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Accessus</string>
+    <string name="setting_about_title">De hoc</string>
+    <string name="setting_rate_title">Rate the app</string>
+    <string name="setting_report_title">Report a bug</string>
+    <string name="setting_logout_title">Signa te exire.</string>
+    <string name="setting_switch_language_title">Switch languages</string>
+
+    <string name="selected_language">Lingua electa</string>
+
+    <string name="settings_change">Mutare optiones</string>
+    <string name="settings_switch_language">Switch language</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Theming dynamica</string>
+    <string name="setting_dark_theme">Tenebrae colorum</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Mutare linguam</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">De applicatione</string>
+    <string name="settings_about_page_description1">Colingo est platforma communitatis fontis apertae ad linguam permutandam ab Colle/William constructa.</string>
+    <string name="settings_about_page_description2">Stamus ad esse aperti ac sinceri de omnibus in app, idcirco servamus eam open-source.</string>
+    <string name="settings_about_page_description3">Omnes translationes intra app faciuntur ab Intelligeniis Artificialibus et proinde possunt esse errores translationum - si invenis aliquos, quaeso nuntia ea in fenestra \"Buginiectionem Nuncia\".</string>
+    <string name="settings_about_page_contact">Si te aliqua cura aut suggeres pro applicatione, nos potes contrectare ad:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Report bug</string>
+    <string name="settings_report_bug_title">Ad stabilitatem servandam, automatice nuntios de errores colligimus, tamen si quemquam errores reppereris et bug directe submittare velis, rogamus ut formularium cum plures informationes quam habes repleas.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

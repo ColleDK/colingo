@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nhà</string>
+    <string name="destination_explore_label">Khám phá</string>
+    <string name="destination_chat_label">Trò chuyện</string>
+    <string name="destination_profile_label">Hồ sơ</string>
+    <string name="destination_settings_label">Cài đặt</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theme hoá</string>
+    <string name="setting_notifications_title">Thông báo</string>
+    <string name="setting_permissions_title">Quyền</string>
+    <string name="setting_accessibility_title">Truy cập được điều chỉnh</string>
+    <string name="setting_about_title">Về</string>
+    <string name="setting_rate_title">Đánh giá ứng dụng</string>
+    <string name="setting_report_title">Báo cáo lỗi</string>
+    <string name="setting_logout_title">Đăng xuất</string>
+    <string name="setting_switch_language_title">Chuyển đổi ngôn ngữ</string>
+
+    <string name="selected_language">Ngôn ngữ được chọn</string>
+
+    <string name="settings_change">Thay đổi cài đặt</string>
+    <string name="settings_switch_language">Chuyển đổi ngôn ngữ</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Chủ đề động</string>
+    <string name="setting_dark_theme">Chủ đề tối</string>
+
+    <string name="settings_rate_app_page_title">Đánh giá ứng dụng</string>
+    <string name="settings_switch_language_title">Đổi ngôn ngữ</string>
+    <string name="settings_theming_title"><![CDATA[Hiển thị chủ đề & màu sắc]]></string>
+    <string name="settings_about_page_title">Về ứng dụng</string>
+    <string name="settings_about_page_description1">Colingo là một nền tảng trao đổi ngôn ngữ được cộng đồng mã nguồn mở phát triển bởi Colle/William.</string>
+    <string name="settings_about_page_description2">Chúng tôi cố gắng trở nên mở cửa và trung thực về mọi thứ trong ứng dụng, đó là lý do vì sao chúng tôi giữ nó mã nguồn mở.</string>
+    <string name="settings_about_page_description3">Tất cả các bản dịch trong ứng dụng đều được thực hiện bởi trí tuệ nhân tạo, nên có thể xảy ra lỗi trong bản dịch - nếu bạn phát hiện bất kỳ lỗi nào, vui lòng báo cáo bằng cách vào mục \"Báo cáo lỗi\".</string>
+    <string name="settings_about_page_contact">Nếu bạn có bất kỳ cần hỗ trợ hoặc góp ý cho ứng dụng, bạn có thể liên hệ với chúng tôi tại:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Báo cáo lỗi</string>
+    <string name="settings_report_bug_title">Để đảm bảo tính ổn định, chúng tôi sẽ tự động thu thập báo cáo về sự cố xảy ra. Tuy nhiên, nếu bạn phát hiện lỗi và muốn gửi báo cáo lỗi trực tiếp, vui lòng điền đầy đủ thông tin vào mẫu.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

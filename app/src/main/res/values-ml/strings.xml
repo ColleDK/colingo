@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">വീട്</string>
+    <string name="destination_explore_label">അന്വേഷിക്കുക</string>
+    <string name="destination_chat_label">ചാറ്റ്</string>
+    <string name="destination_profile_label">പ്രൊഫൈൽ</string>
+    <string name="destination_settings_label">സെറ്റിംഗുകൾ</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">അറിയിപ്പുകൾ</string>
+    <string name="setting_permissions_title">അനുവദനങ്ങൾ</string>
+    <string name="setting_accessibility_title">പ്രാപ്തതയുള്ളത്</string>
+    <string name="setting_about_title">കുറിച്ചു പറയുക.</string>
+    <string name="setting_rate_title">ആപ്പിനെ റേറ്റ് ചെയ്യുക</string>
+    <string name="setting_report_title">പിശക് റിപ്പോർട്ട് ചെയ്യുക.</string>
+    <string name="setting_logout_title">ലോഗ് ഔട്ട്</string>
+    <string name="setting_switch_language_title">ഭാഷ മാറ്റുക.</string>
+
+    <string name="selected_language">തിരഞ്ഞെടുത്ത ഭാഷ</string>
+
+    <string name="settings_change">അമർത്തുക ക്രമീകരണങ്ങൾ</string>
+    <string name="settings_switch_language">ഭാഷ മാറ്റുക</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">ആപ്പ് റേറ്റുചെയ്യുക</string>
+    <string name="settings_switch_language_title">ഭാഷ മാറ്റൂ</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">അപ്ലിക്കേഷനൊരുകൂട്ടായി സംബന്ധിച്ച് എന്താണ്‌ എന്ന് പറഞ്ഞു്</string>
+    <string name="settings_about_page_description1">Colingo ഒരു ഓപ്പൺ സോഴ്സ് പ്രവർത്തനം ചെയ്യുന്ന ലാങ്വേജ് എക്സ്ചേഞ്ച് പ്ലാറ്റ്ഫോം ആണ്, ടിയൂനിററും വില്യം നടത്തിയിട്ടുള്ളത്.</string>
+    <string name="settings_about_page_description2">ഞങ്ങൾക്ക് ആപ്പിൽ എല്ലാം സൗജന്യമായിത്തീർക്കാനും സ്പഷ്ടമായിരിക്കാനും ശ്രമിക്കുന്നു, അതിനാൽ അതെ ഓപ്പൺ-സോഴ്സ് ആക്കി നേർ-വെളിപ്പെടുത്താനുള്ളത് \'OK\'.</string>
+    <string name="settings_about_page_description3">ആപ്പിൽ നിന്നുള്ള എല്ലാ പരിഭാഷകളും എ.ഐ.-കളാണ് നിർവഹിച്ചിരിക്കുന്നത്, അതുവഴി പരിഭാഷാ പിശകുകൾ ഉണ്ടാകുക എന്നാൽ ലഭിച്ചാൽ \\"രിപ്പോർട്ട് ഒരു പിശക്\\" താലിലുകളിൽ അതു റിപ്പോർട്ട് ചെയ്യുക.</string>
+    <string name="settings_about_page_contact">ഉദ്യോഗസ്ഥന്‍ കാര്‍യങ്ങള്‍ പ്രതിപാദനകളോ സൂചനകളോക്കുള്ള ഏത് പ്രശ്നങ്ങളുള്ളതും, നിങ്ങള്‍ ഞങ്ങളെ സമ്പർക്കിക്കാവുന്നത്:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">പിശക് റിപ്പോർട്ട് ചെയ്യുക</string>
+    <string name="settings_report_bug_title">സ്ഥിരതയെ ഉറപ്പാക്കുന്നതിനായായി, ഞങ്ങൾ സ്വയംഭാവമായി പൊങ്കടത്തം റിപ്പോർട്ടുകൾ ശേഖരിക്കുകയും ചെയ്യുന്നു, എന്നാൽ എന്തൊക്കെ പ്രശ്നങ്ങൾ ഉണ്ടെങ്കിൽ തുടർച്ചയാക്കുകയും ചെയ്യുന്നു. നിങ്ങൾക്ക് സ്വന്തമായി ഉള്ള ബഗ് സമർപ്പിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, ദയവായി ഒരു ഫോർമിൽ നിങ്ങൾക്ക് ലഭിച്ചതു ഉള്ളവയ്‌ക്ക് പൂരിപ്പിക്കുക.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

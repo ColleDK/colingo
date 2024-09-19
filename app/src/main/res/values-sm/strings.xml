@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Lelei</string>
+    <string name="destination_explore_label">Fa\'ata\'ita\'i</string>
+    <string name="destination_chat_label">Talanoa</string>
+    <string name="destination_profile_label">Faavaeimaofile</string>
+    <string name="destination_settings_label">Oloa\'aina</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifeka.</string>
+    <string name="setting_permissions_title">Pemitaaso</string>
+    <string name="setting_accessibility_title">Faʻa-tele mai</string>
+    <string name="setting_about_title">Tusitusia: Faʻaali</string>
+    <string name="setting_rate_title">Fa\'aoti le polokalame</string>
+    <string name="setting_report_title">Faʻailoa atu le laʻauvale.</string>
+    <string name="setting_logout_title">Talitonu mai.</string>
+    <string name="setting_switch_language_title">Ala i gagana</string>
+
+    <string name="selected_language">Gagana fa\'ailoaina</string>
+
+    <string name="settings_change">\'O le suipi\' muamua\'</string>
+    <string name="settings_switch_language">Alisi gafa</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Fa\'asinomaga Fa\'alapotopotoga</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Fa\'atonu fa\'ailoa le tusiga\'app.</string>
+    <string name="settings_switch_language_title">O le lea sa faigata: Toe fa\'atauaina le gagana</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Mai le faaauau atu i le ata.</string>
+    <string name="settings_about_page_description1">Colingo o se pepa-tusifaitau fa\'atuatupe na fa\'atauaina e le atunu\'u ma fa\'amaumauga o le fa\'atonutonu le gagana i faalapotopotoga ua fa\'apea e faigaluega ai Colle/William.</string>
+    <string name="settings_about_page_description2">E faamaoni atu ai matou i le fa\'ailoaina ma le fa\'ailoata i mea uma i le polokalame, o le a fa\'amalie ai le lana avanoa.</string>
+    <string name="settings_about_page_description3">OK</string>
+    <string name="settings_about_page_contact">Pe a e te manatupefa po o ni faamatalaga mo le su\'esu\'e i le polokalama, toe fa\'ailoa mai ia matou i le:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Fa\'aulufale mai le bug</string>
+    <string name="settings_report_bug_title">Mo le faʻaogaina ma le malosiaga, e tatau ona matou seʻi aoava le ripoti o le galulolo, peitai afai e te le mafai ona faia e te leai ni mea faʻaaloalo, ma e te le toʻa le faʻatau i se uiga, faʻamalie atu le fomu ma le magaia le suʻesuʻega i mea faʻailoa uma lava sa te aiala.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

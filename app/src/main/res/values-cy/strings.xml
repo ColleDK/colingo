@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Cartref</string>
+    <string name="destination_explore_label">Archwilio</string>
+    <string name="destination_chat_label">Sgwrs</string>
+    <string name="destination_profile_label">Proffil</string>
+    <string name="destination_settings_label">Gosodiadau</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Hysbysiadau</string>
+    <string name="setting_permissions_title">Caniatâd</string>
+    <string name="setting_accessibility_title">Hygyrchedd</string>
+    <string name="setting_about_title">Amdani</string>
+    <string name="setting_rate_title">Gwerthuso\'r ap</string>
+    <string name="setting_report_title">Adroddwch am gyllyll</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Newid ieithoedd</string>
+
+    <string name="selected_language">Iaith ddethol</string>
+
+    <string name="settings_change">Newid gosodiadau</string>
+    <string name="settings_switch_language">Newid iaith</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Thema tywyll</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Newid iaith</string>
+    <string name="settings_theming_title">Themio a lliwiau</string>
+    <string name="settings_about_page_title">Amgylchiadau\'r ap</string>
+    <string name="settings_about_page_description1">Colingo yw platfform cyfnewid iaith a thyfiant cymunedol, ffynhonnell agored, a datblygwyd gan Colle/William.</string>
+    <string name="settings_about_page_description2">Rydyn ni\'n ymdrechu i fod mor agored ac agored am bopeth yn yr ap, a dyna pam ein bod yn ei chadw\'n agored-sîs.</string>
+    <string name="settings_about_page_description3">Mae\'r holl gyfieithiadau yn y ​​pp yn cael eu gwneud gan Ddulliau Integredig, gall fod camgymeriadau mewn cyfieithu - os byddwch chi\'n dod o hyd i unrhyw un, rhowch wybod amdano yn y pen ôl \"Adrodd gwall\".</string>
+    <string name="settings_about_page_contact">Os oes gennych unrhyw bryderon neu awgrymiadau am yr ap, gallwch gysylltu â ni drwy:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Adroddwch gwybod am ddiffyg</string>
+    <string name="settings_report_bug_title">I sicrhau sefydlogrwydd, rydym yn casglu adroddiadau crashio\'n awtomatig, ond os byddwch chi\'n dod o hyd i unrhyw broblemau ac hoffech chi gyflwyno bug yn uniongyrchol, llenwch ffurflen gyda cymaint o wybodaeth a sydd gennych.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

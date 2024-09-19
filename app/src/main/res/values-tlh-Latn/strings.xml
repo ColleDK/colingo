@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">\'vaQHomHom\'e\'.\'</string>
+    <string name="destination_explore_label">\'chut\'</string>
+    <string name="destination_chat_label">SuvwI\'vaD Hov trek.</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">QIchDaq</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ThemIng</string>
+    <string name="setting_notifications_title">Ghotpu\'pu\'</string>
+    <string name="setting_permissions_title">jabbI\'vaD</string>
+    <string name="setting_accessibility_title">QaDHom</string>
+    <string name="setting_about_title">RIn</string>
+    <string name="setting_rate_title">De\'Ha\' \'e\' \'e\'</string>
+    <string name="setting_report_title">HapQe\' ta\'</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Hoch \'oHvaD\'e\'!</string>
+
+    <string name="selected_language">Pong lughvaDqa\'.</string>
+
+    <string name="settings_change">Ghomvam\'a\'!</string>
+    <string name="settings_switch_language">Switch language</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">\'chIS yotlh\'e\'</string>
+
+    <string name="settings_rate_app_page_title">Baj.</string>
+    <string name="settings_switch_language_title">Hochta\' Hol</string>
+    <string name="settings_theming_title">Huqa\'mo\' je \'e\' chalchu\'.</string>
+    <string name="settings_about_page_title">RIn\'a\'pu\' baH\'a\'</string>
+    <string name="settings_about_page_description1">Colingo yInwI\'na\' \'IDIl Dil vIHevwI\'pu\'; Colle/William pIq \'ut \'oH vIlo\'laH.</string>
+    <string name="settings_about_page_description2">QaghmeylIj boqHa\'ghach \'ej javtaH \'e\' yIjeH. chaH \'e\' open-source vIghojmoH.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">QongDIch \'ej ghaHchu\' je \'oH chaw\'. mu\'chu\'chu\' leghmeyvam:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">QIn yIghel.</string>
+    <string name="settings_report_bug_title">To ensure stability, DaSov, \'e\' wIjoq reports vIlegh, \'ach \'ej, reHva\'Daq nuq \'ach \'oH lo\'laHchugh je Directly vIlo\' submit \'e\' vIHar form vIpoQ jatlh.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

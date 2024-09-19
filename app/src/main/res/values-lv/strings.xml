@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Mājas</string>
+    <string name="destination_explore_label">Izpētīt</string>
+    <string name="destination_chat_label">Čats</string>
+    <string name="destination_profile_label">Profils</string>
+    <string name="destination_settings_label">Iestatījumi</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tēmu izvēlēšanās</string>
+    <string name="setting_notifications_title">Paziņojumi</string>
+    <string name="setting_permissions_title">Atļaujas</string>
+    <string name="setting_accessibility_title">Piekļūtība</string>
+    <string name="setting_about_title">Par</string>
+    <string name="setting_rate_title">Vērtēt lietotni</string>
+    <string name="setting_report_title">Ziņot par kļūdu</string>
+    <string name="setting_logout_title">Izrakstīties</string>
+    <string name="setting_switch_language_title">Mainīt valodas</string>
+
+    <string name="selected_language">Izvēlētā valoda</string>
+
+    <string name="settings_change">Mainīt iestatījumus</string>
+    <string name="settings_switch_language">Mainīt valodu</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamiska tēma</string>
+    <string name="setting_dark_theme">Tumšs tēma.</string>
+
+    <string name="settings_rate_app_page_title">Vērtēt lietotni</string>
+    <string name="settings_switch_language_title">Mainīt valodu</string>
+    <string name="settings_theming_title">Tēma un krāsas</string>
+    <string name="settings_about_page_title">Par lietotni</string>
+    <string name="settings_about_page_description1">Colingo ir atvērtā koda kopienas veidota valodu apmaiņas platforma, ko izstrādājusi Colle/William.</string>
+    <string name="settings_about_page_description2">Mēs cenšamies būt pēc iespējas atvērtāki un godīgāki par visu lietotnē, tāpēc tas ir atvērtā pirmkoda veidā.</string>
+    <string name="settings_about_page_description3">Visas tulkojumi lietotnē ir veikti ar mākslīgo intelektu un tāpēc var rasties tulkošanas kļūdas - ja jūs atradīsit kādas, lūdzu, ziņojiet par tām sadaļā \"Ziņot par kļūmu\".</string>
+    <string name="settings_about_page_contact">Ja jums ir jautājumi vai ieteikumi par lietotni, sazinieties ar mums vietnē:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ziņot par kļūdu</string>
+    <string name="settings_report_bug_title">Lai nodrošinātu stabilitāti, mēs automātiski apkopojam sadauzīšanās ziņojumus, taču ja jums ir atrasti kādi jautājumi un vēlētos iesniegt kļūdu tieši, lūdzu, aizpildiet veidlapu ar pēc iespējas vairāk informācijas.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

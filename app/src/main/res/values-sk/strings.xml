@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Dom</string>
+    <string name="destination_explore_label">Preskúmať</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Nastavenia</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Téma</string>
+    <string name="setting_notifications_title">Notifikácie</string>
+    <string name="setting_permissions_title">Oprávnenia</string>
+    <string name="setting_accessibility_title">Prístupnosť</string>
+    <string name="setting_about_title">O aplikácii</string>
+    <string name="setting_rate_title">Ohodnoť aplikáciu</string>
+    <string name="setting_report_title">Nahlásiť chybu.</string>
+    <string name="setting_logout_title">Odhlásiť sa</string>
+    <string name="setting_switch_language_title">Prepnúť jazyky</string>
+
+    <string name="selected_language">Vybraný jazyk</string>
+
+    <string name="settings_change">Zmeniť nastavenia</string>
+    <string name="settings_switch_language">Prepnúť jazyk</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamické témy</string>
+    <string name="setting_dark_theme">Tmavé témy</string>
+
+    <string name="settings_rate_app_page_title">Ohodnoť aplikáciu</string>
+    <string name="settings_switch_language_title">Zmeniť jazyk</string>
+    <string name="settings_theming_title">Témy a farby</string>
+    <string name="settings_about_page_title">O aplikácii</string>
+    <string name="settings_about_page_description1">Colingo je open-source komunitná platforma pre výmenu jazykov vyvíjaná spoločnosťou Colle/William.</string>
+    <string name="settings_about_page_description2">Snažíme sa byť čo najotvorenejší a priamočiary voči všetkému v aplikácii, preto sme ju urobili otvorenú.</string>
+    <string name="settings_about_page_description3">Všetky preklady v aplikácii sú vykonávané pomocou umelej inteligencie a preto môžu obsahovať chyby. Ak nájdete nejakú, prosím ohláste ju v panely \\"Nahlásiť chybu\\".</string>
+    <string name="settings_about_page_contact">Ak máte akékoľvek obavy alebo návrhy ohľadom aplikácie, môžete nás kontaktovať na:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Nahlásiť chybu</string>
+    <string name="settings_report_bug_title">Pre zabezpečenie stability automaticky zbierame hlásenia o pádoch, no ak nájdete nejaké problémy a chcete nahlásiť chybu priamo, vyplňte prosím formulár s čo najviac informáciami, ktoré máte.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

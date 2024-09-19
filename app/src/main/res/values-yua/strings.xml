@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">K’i’ik’</string>
+    <string name="destination_explore_label">Ts\'íib ilo\'ob.</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Perfil</string>
+    <string name="destination_settings_label">Tuumlela\'ob.</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Temahtsik.</string>
+    <string name="setting_notifications_title">Notificaciones</string>
+    <string name="setting_permissions_title">Tu\'ux ku yéetel yanbil.</string>
+    <string name="setting_accessibility_title">K\'ajla\'obil jach k\'i\'ik\'abil.</string>
+    <string name="setting_about_title">Méech\'enini\'</string>
+    <string name="setting_rate_title">Táan u Yahoo le app u kuxtal cancun.</string>
+    <string name="setting_report_title">Reportar un bug</string>
+    <string name="setting_logout_title">Táan bix a uka\'ab ku yéets\' a.</string>
+    <string name="setting_switch_language_title">Ts\'íib jun beetik k\'ab.</string>
+
+    <string name="selected_language">U k\'ajlel le k\'iche\'en wíinik.</string>
+
+    <string name="settings_change">Ko\'olel óoltabtal.</string>
+    <string name="settings_switch_language">Alternar idioma</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamik thema</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Yan k\'axo\'ob tu\'ux ku beetik.</string>
+    <string name="settings_theming_title">Bix u yéetel colores</string>
+    <string name="settings_about_page_title">T\'an u yéetel le app kí\'i\'ik.</string>
+    <string name="settings_about_page_description1">Colingo k\'aaba\' u k\'oja\'al u Koolaob / William ti\' le yo\'ol a ts\'aik u k\'uchul u k\'iino\'ob.</string>
+    <string name="settings_about_page_description2">Nojoch piscina yetel beyo\'obe\', ma\' ba\'al yetel máatan tech yéetel ti\' app, u yanak a ts\'íina\'al u jóok\' máakts\'o\'.</string>
+    <string name="settings_about_page_description3">Ts\'íibalo\'ob k\'u kuxtal ti\' tojol u kin ma\'alob tu láaktas AIs yetel le k\'i\'wik wa\'alik u meyajtiko\'ob - ba\'alche\' u bisik te\' k\'i\'wik le meyajtiko\'obe\' tak ba\'ax ka k\'u p\'éel yo\'olal le \\"Bix u páajtal\\".</string>
+    <string name="settings_about_page_contact">Le k\'i\'ik\'ab u k\'iina\'al u ya\'alajsik u nichim u k\'u\'ux le app, tu yéetel ts\'o\'okbal ti\' u meyaj tumen tu beetikej:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Reportar error</string>
+    <string name="settings_report_bug_title">Máax ku yéets\'yal tu kaajilaj tak kúuchil, ti\' le u ya\'ab xan beete tak xíimbal u ja\'ach k\'axtal ajaw x-ki\'ik\'ach u beetik ba\'ale\' ti\' k\'íimak ich u beetik. Tia\'al u k\'ak\'al tak u beetik, ma\'alob u táan kaachil k\'áaj u beetik táan u ya\'ab.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

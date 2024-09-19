@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Fale</string>
+    <string name="destination_explore_label">Fakakaukau</string>
+    <string name="destination_chat_label">Fakataha</string>
+    <string name="destination_profile_label">Laveʻi Palofiʻila</string>
+    <string name="destination_settings_label">\'ʻUlutala\'</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Fakafonua</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Pelesiamu</string>
+    <string name="setting_accessibility_title">Feituʻu mo e malangaʻi</string>
+    <string name="setting_about_title">Faahinga</string>
+    <string name="setting_rate_title">Tu\'o \'i he \'apikē.</string>
+    <string name="setting_report_title">Lolomisipi \'e he tohi hela</string>
+    <string name="setting_logout_title">Faka\'osi hake mai</string>
+    <string name="setting_switch_language_title">Hiki ange lea</string>
+
+    <string name="selected_language">Heketia e lea</string>
+
+    <string name="settings_change">Fakatulou aipotefitoʻa</string>
+    <string name="settings_switch_language">Bolisi lea</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Faahinga fakafisi me\'eme\'e</string>
+    <string name="setting_dark_theme">Hā ki’i’i’anga hela</string>
+
+    <string name="settings_rate_app_page_title">Fakakakato ha me\'a faka\'apipa</string>
+    <string name="settings_switch_language_title">Fakatokangaʻi felauteʻi.</string>
+    <string name="settings_theming_title"><![CDATA[Theming & ngaahi ulu mo e ngaahi kulā]]></string>
+    <string name="settings_about_page_title">Faahinga faka\'apipipi mo e \'api\")));</string>
+    <string name="settings_about_page_description1">Colingo is an open-source community driven language exchange platform developed by Colle/William.</string>
+    <string name="settings_about_page_description2">Fakaikai kinaua ki he ngaahi me\'a kotoa \'i he aplikēsione kuo \'iloa \'e koē, ka \'oku \'i ai ke fakamaau fakamaau.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \\"Report a bug\\" pane.</string>
+    <string name="settings_about_page_contact">Fa\'u ke totonu oku faka\'apa\'apa pe totonu ho\'o ngaahi\'esi \'o e\'apikale moe fu\'u. Hilofi ki he \'otu:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Loka fesoasoani</string>
+    <string name="settings_report_bug_title">Ke fakamaauaki e me\'a ki\'eki\'i, \'oku \'ikai ke toki kolekute ha faile fakaha\'angá, ka. Pea \'e faka\'apa \'a e hala \'i he konga mo\'oni mo e ho\'o lelei ko e toe fakamanatu ki he lau, fakaha\'angá fakapapau\'i \'a e fomu \'i he fefeka mo e ngaahi me\'a \'oku \'ihe lotó ho kei \'i ai pe.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

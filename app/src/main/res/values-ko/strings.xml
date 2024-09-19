@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">집</string>
+    <string name="destination_explore_label">탐험</string>
+    <string name="destination_chat_label">채팅</string>
+    <string name="destination_profile_label">프로필</string>
+    <string name="destination_settings_label">설정</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">테마 설정</string>
+    <string name="setting_notifications_title">통지</string>
+    <string name="setting_permissions_title">권한</string>
+    <string name="setting_accessibility_title">접근성</string>
+    <string name="setting_about_title">에 대해</string>
+    <string name="setting_rate_title">앱 평가</string>
+    <string name="setting_report_title">버그 신고</string>
+    <string name="setting_logout_title">로그아웃</string>
+    <string name="setting_switch_language_title">언어 변경</string>
+
+    <string name="selected_language">선택된 언어</string>
+
+    <string name="settings_change">설정 변경</string>
+    <string name="settings_switch_language">언어 변경</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">다이내믹 테마 지정</string>
+    <string name="setting_dark_theme">다크 테마 설정</string>
+
+    <string name="settings_rate_app_page_title">앱 평가</string>
+    <string name="settings_switch_language_title">언어 변경</string>
+    <string name="settings_theming_title">테마 및 색상</string>
+    <string name="settings_about_page_title">앱 소개</string>
+    <string name="settings_about_page_description1">Colingo는 Colle/William이 개발한 오픈 소스 커뮤니티 주도 언어 교환 플랫폼입니다.</string>
+    <string name="settings_about_page_description2">앱 내 모든 것에 대해 가능한 오픈하고 솔직하게 하려고 노력하고 있습니다. 이것이 왜 저희가 오픈 소스를 유지하는 이유입니다.</string>
+    <string name="settings_about_page_description3">앱 내 모든 번역은 인공지능에 의해 수행되며, 그에 따라 번역 오류가 발생할 수 있습니다 - 오류를 발견하면 \\"버그 신고\\" 창에서 신고해 주세요.</string>
+    <string name="settings_about_page_contact">문제나 의견이 있으시면 아래 연락처로 문의해주세요:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">버그 보고하기</string>
+    <string name="settings_report_bug_title">안정성을 보장하기 위해 자동으로 충돌 보고서를 수집하지만 문제를 발견하고 직접 버그를 제출하고 싶으시면 가능한 많은 정보를 기재한 양식을 작성해주세요.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

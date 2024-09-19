@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Хона</string>
+    <string name="destination_explore_label">Explore</string>
+    <string name="destination_chat_label">ҳабаргуфтан</string>
+    <string name="destination_profile_label">Профил</string>
+    <string name="destination_settings_label">Танзимотхо</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Темаҳоиданиро</string>
+    <string name="setting_notifications_title">Огоҳонагӣ</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Дастовардҳои дастгириигоҳ</string>
+    <string name="setting_about_title">Дар бораи</string>
+    <string name="setting_rate_title">Ҷадвали барномаҳо онҳоҳоому ба рўйат кунед</string>
+    <string name="setting_report_title">Қате маълум кардан</string>
+    <string name="setting_logout_title">Баромадан`</string>
+    <string name="setting_switch_language_title">Интихоби забонها</string>
+
+    <string name="selected_language">Забонро интихоб кунед</string>
+
+    <string name="settings_change">Танзимотро таъриф кунед</string>
+    <string name="settings_switch_language">Интихоби забон</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Темасозии динамикӣ.</string>
+    <string name="setting_dark_theme">Ҷои зеҳнроҳи сурхобии</string>
+
+    <string name="settings_rate_app_page_title">Қадр диҳед барнома</string>
+    <string name="settings_switch_language_title">Тилро обмон кунед</string>
+    <string name="settings_theming_title">Темаҳо ва рангҳо</string>
+    <string name="settings_about_page_title">Дар бораи барнома</string>
+    <string name="settings_about_page_description1">Colingo ёфтани ягона мубодилаи сўзи фурсатии кушоии доир кардаштӣ, ки тавсия шудааст Colle/William омӯз.</string>
+    <string name="settings_about_page_description2">Мо мехоҳем ба ҳама чиз дар бораи барнома ба ҳозирӣ ёфтан, ки чунин ки онро кушода мекунем, онро кушода дорем.</string>
+    <string name="settings_about_page_description3">Тамоми тарҷумаҳо дар даремроҳи барнома тавассути ИИҳо анҷом дода шудаанд ва беон аз он, метавонанд хатоҳои тарҷума нашуда - агар шумо як хато дарёфт карда бошед, лутфан онро дар панели \\"Хатогузорӣ\\" хабар кунед.</string>
+    <string name="settings_about_page_contact">Агар дар бораи будущоҳ мавҷудгиёт ё таклифҳо барои барнома дарёед, шумо метавонед бо мо дар тамос бошед дар:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Қатилтӯҳро хабар кардан</string>
+    <string name="settings_report_bug_title">Барои тамингарии ҳолат, мо автоматӣ хабаротҳои гиротанро ҷамъ мекунем, ҳамчунин, агар шумо мушкилотҳо мерасед ва мехоҳед ки хатои бироҳоро мубориза кунед, лутфан формаи муқимро бо ҳамаи маълумотҳои мумкин пур кунед.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

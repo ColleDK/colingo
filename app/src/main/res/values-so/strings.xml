@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Guri</string>
+    <string name="destination_explore_label">Dabaqa</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profiil</string>
+    <string name="destination_settings_label">Setiyada</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theme-ka</string>
+    <string name="setting_notifications_title">Go\'aanada</string>
+    <string name="setting_permissions_title">Hakadaha</string>
+    <string name="setting_accessibility_title">Qaadashada</string>
+    <string name="setting_about_title">Macluumaad ku saabsan</string>
+    <string name="setting_rate_title">Bahi app-ka.</string>
+    <string name="setting_report_title">Faahfaah bug si toos ah.</string>
+    <string name="setting_logout_title">Ka bax</string>
+    <string name="setting_switch_language_title">Fariinta laguugu dhigayo: Qor afka.</string>
+
+    <string name="selected_language">Luqad waxaa laga dooranaya</string>
+
+    <string name="settings_change">Kaliya go\'aan</string>
+    <string name="settings_switch_language">Fur language.</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Fahamka xiriirka</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Qiime Android</string>
+    <string name="settings_switch_language_title">Bedelka luuqadda</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Qoraal ku tarjuma: Ku saabsan agabka</string>
+    <string name="settings_about_page_description1">Colingo waa platfomad isbedel ah ee dadweynaha oo loogu talagalay caruurta Colle / William.</string>
+    <string name="settings_about_page_description2">Magaaladuna waxay ku dadaalaan inay noqdaan mid wax buuxin inuu ahaa wax kasta ee ku saabsan app-ka, sidaa darteed waxaannu eey ku saxiixnaa inuu yahay mid furan.</string>
+    <string name="settings_about_page_description3">Dhammaan turuubada loogu talogalay ee isticmaalka adeegga waxaa sameeya AI-yo, sidaas daraadeed waxaa ka dhici kartaa khamaar ka soosaaridda - haddii aad hesho mid wax ka bedel ah fadlan xusuusi.</string>
+    <string name="settings_about_page_contact">Haddii aad qabto wax kasta oo ku saabsan ama soo jeedinayo go\'aanka iyo talaabooyinka app-ka, waxaad nagala soo xiriiri kartaa:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">War-bixin caymiska</string>
+    <string name="settings_report_bug_title">Si loo hubiyo dhabta, waxaan si xiriir ah u kala soo xiriiraa warbixinada dibad-baxayaasha, laakiin haddii aad ku heshid arrimo kooxan oo aad rabtid inaad soo xusho cudurka, fadlan buuxi foomka qoraalka oo ku tilmaan arimaha aad tagtid hadeer.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

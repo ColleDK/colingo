@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Acasă</string>
+    <string name="destination_explore_label">Explore</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Setari</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tematică</string>
+    <string name="setting_notifications_title">Notificări</string>
+    <string name="setting_permissions_title">Permisiuni</string>
+    <string name="setting_accessibility_title">Accesibilitate</string>
+    <string name="setting_about_title">Despre</string>
+    <string name="setting_rate_title">Evaluati aplicatia.</string>
+    <string name="setting_report_title">Raportați o eroare</string>
+    <string name="setting_logout_title">Deconectare</string>
+    <string name="setting_switch_language_title">Schimbă limba</string>
+
+    <string name="selected_language">Limbă selectată</string>
+
+    <string name="settings_change">Schimbă setările</string>
+    <string name="settings_switch_language">Schimbă limba</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tematica dinamică</string>
+    <string name="setting_dark_theme">Tematică întunecată</string>
+
+    <string name="settings_rate_app_page_title">Evaluați aplicația</string>
+    <string name="settings_switch_language_title">Schimbă limba</string>
+    <string name="settings_theming_title"><![CDATA[Theming & culori]]></string>
+    <string name="settings_about_page_title">Despre aplicație</string>
+    <string name="settings_about_page_description1">Colingo este o platformă open-source de schimb de limbi, dezvoltată de Colle/William, bazată pe comunitate.</string>
+    <string name="settings_about_page_description2">Ne străduim să fim cât mai deschiși și transparenți despre totul în aplicație, de aceea o menținem open-source.</string>
+    <string name="settings_about_page_description3">Toate traducerile din interiorul aplicației sunt realizate de IA-uri și, în consecință, ar putea exista erori de traducere - dacă găsiți vreuna, vă rugăm să o raportați în panoul „Raportaţi o problemă”.</string>
+    <string name="settings_about_page_contact">Dacă aveți orice nelămuriri sau sugestii legate de aplicație, ne puteți contacta la:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Raportați eroare</string>
+    <string name="settings_report_bug_title">Pentru a asigura stabilitatea, colectăm automat rapoarte de erori, însă dacă identificați orice probleme și doriți să trimiteți direct un bug, vă rugăm să completați un formular cu cât mai multe informații aveți disponibile.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

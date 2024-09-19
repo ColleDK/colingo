@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">کور</string>
+    <string name="destination_explore_label">لټون كول</string>
+    <string name="destination_chat_label">د خبریال</string>
+    <string name="destination_profile_label">پروفايل</string>
+    <string name="destination_settings_label">ترتيبونه</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">تیمنگ</string>
+    <string name="setting_notifications_title">خبرتياوونه</string>
+    <string name="setting_permissions_title">پېژندلیکونه</string>
+    <string name="setting_accessibility_title">دسترسی</string>
+    <string name="setting_about_title">د په اړه</string>
+    <string name="setting_rate_title">د ایپ لیکلو نظر ورکړئ</string>
+    <string name="setting_report_title">په \\'د پیغامونو کي\\' کلک وکړه</string>
+    <string name="setting_logout_title">خارج شوید</string>
+    <string name="setting_switch_language_title">د ژبې بدلولو ويشينه</string>
+
+    <string name="selected_language">ټول شوي ژبه</string>
+
+    <string name="settings_change">ترتیبات بدلونوو</string>
+    <string name="settings_switch_language">ژبه بدله کول</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic تھیمنگ</string>
+    <string name="setting_dark_theme">تیرې تیږتونه</string>
+
+    <string name="settings_rate_app_page_title">پیژندل ارزښت</string>
+    <string name="settings_switch_language_title">زبان بدلول</string>
+    <string name="settings_theming_title">لاړ ورنونه</string>
+    <string name="settings_about_page_title">د اېپ په اړه</string>
+    <string name="settings_about_page_description1">Colingo د یو د کليونو برخه جوړ شوی د کلنو/ویلیم د لساني تبادلې جامونه د ترسره وسایل.</string>
+    <string name="settings_about_page_description2">په پیژندل او په مختصر انځور کې موږ د کله په اندازه کې واضح او پرمخ او په هر ورځه کې په این جګ قرارمونه کولی او په خلاصه کې کله په این جګ خلاصه کولی.</string>
+    <string name="settings_about_page_description3">په اپلیکیشن کې د ټرانسلیشنونو په کې AI ته د کولو، او د کله چې داسې اوبو  پیژندلای شي، خو چې نوې یو پېژندل یاست کړئ اسیا خپلو تنظیماتو کې د \\"پېژندل کول\\" خاندۍ کې وگورئ.</string>
+    <string name="settings_about_page_contact">د خپلوالو په اړه مشکلاتو یا پیشنونو لپاره، تاسو موندلی سره اړیکه وکړئ:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">د خلکو راپورت وښایاست</string>
+    <string name="settings_report_bug_title">په ځانګړي لپاره، مونږ خودکار د ګرځندو اعلانونه جمع کوونکوی، هرڅوک که غواړي او د کومه نورو مسايټ واخلي، د بغ د پوره معلوماتو سره بېخ نوم لرئ له خوښوي بنسټه کړئ.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

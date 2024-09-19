@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">үй</string>
+    <string name="destination_explore_label">Тышкарыктуу</string>
+    <string name="destination_chat_label">Сүйлөшүү</string>
+    <string name="destination_profile_label">Профиль</string>
+    <string name="destination_settings_label">Жөнөтүүлөр</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Темалоо</string>
+    <string name="setting_notifications_title">Билдиртмелер</string>
+    <string name="setting_permissions_title">Күчтүүлөр</string>
+    <string name="setting_accessibility_title">КолгооурсолжаатOO</string>
+    <string name="setting_about_title">Туралы</string>
+    <string name="setting_rate_title">Программаны баалооしноо</string>
+    <string name="setting_report_title">Катаа токтотуу</string>
+    <string name="setting_logout_title">Чыгуу</string>
+    <string name="setting_switch_language_title">Тилдерди алмаштырдыру</string>
+
+    <string name="selected_language">Тандаган тил</string>
+
+    <string name="settings_change">Орнотмону жөнөтуулөрдү өзгөртүү</string>
+    <string name="settings_switch_language">Тилди өзгөртүү</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Динамалуу темалар</string>
+    <string name="setting_dark_theme">Кара тема</string>
+
+    <string name="settings_rate_app_page_title">Баа бериңиз</string>
+    <string name="settings_switch_language_title">Тилди өзгөртүү</string>
+    <string name="settings_theming_title">Темалар менен түстөр</string>
+    <string name="settings_about_page_title">Программа тууралуу</string>
+    <string name="settings_about_page_description1">Colingo - Коллега/Уильям боюнча жеткиликтүү тил алмаштыруу платформасы менен басаткан ачык коддуу өндүргүчү жамааттык өнүктөө бойдонун алдын алат.</string>
+    <string name="settings_about_page_description2">Text to translate: We strive towards being as open and upfront about everything in the app, which is why we keep it open-source.
+Translated text: Биз апп-тын бардык жаңылдоо жакындары менен ачык болууга жаңылабыз, анткени биз аны ачык компоненттер менен сактоомуз.</string>
+    <string name="settings_about_page_description3">Бардык аппликациядагы бардык аудармалар AI-лер аркылуу жасалган жана анын менен мүмкүндүктүңүз боюнча төлөсүгүңүз бар эле алып издөбүз - эгер аны ыр ичинде тапсак, анда \\"Бугтун токтотууну кароо\\" баскычынан токтотуңуз.</string>
+    <string name="settings_about_page_contact">Өтө же тапшырмаларыңыз болсо, бизге кантактүү жолун колдонууңуз үчүн:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ачыктоо аба жок</string>
+    <string name="settings_report_bug_title">Тил тиешелүүдү кармоо үчүн биз автоматтык түштүктү күтсөк, бирок сизде проблемалар келип чыкса жана бугду түшөп жатсаңуз, ар бирок эле бир проблема билдирүү жөнүндө форма толтургуч, жалпы аңдатмадан мүмкүн болса, баракча сунуштайсыз</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

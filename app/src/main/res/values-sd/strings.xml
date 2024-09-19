@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">گھر</string>
+    <string name="destination_explore_label">ٻهراجيو ويون</string>
+    <string name="destination_chat_label">چيٽ</string>
+    <string name="destination_profile_label">پروفائل</string>
+    <string name="destination_settings_label">اِنڪارُكُطاب</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">تھیمنگ</string>
+    <string name="setting_notifications_title">علائقن يا تبلوغات</string>
+    <string name="setting_permissions_title">پرمشنز</string>
+    <string name="setting_accessibility_title">رسائلبلٽيضيشن</string>
+    <string name="setting_about_title">پوڇو</string>
+    <string name="setting_rate_title">ايڪ آپ لاءِ ریٽنگ دو</string>
+    <string name="setting_report_title">رپورٽ ڪريو bug</string>
+    <string name="setting_logout_title">ريڪارڊ ٻاهر جواء</string>
+    <string name="setting_switch_language_title">زبانون تبديل ڪريو</string>
+
+    <string name="selected_language">انتخابيل ٻولي</string>
+
+    <string name="settings_change">ترتيبون بدلائيو</string>
+    <string name="settings_switch_language">زبان بدليو</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">گهمن ٽيمنگ</string>
+
+    <string name="settings_rate_app_page_title">اپلیکیشن جو اُمرڳاحيشکار پھٽو لکائيو</string>
+    <string name="settings_switch_language_title">بولي تبديل ويندو</string>
+    <string name="settings_theming_title"><![CDATA[Theming & رنگونگ]]></string>
+    <string name="settings_about_page_title">App جي بابت</string>
+    <string name="settings_about_page_description1">Colingo ايڪ اوپن-سورس ٻوليءَ جھل تبادلو تي تيار ڪيل ان يوز پليٽفارم آهي جي ڪول ۽ وليم نہريائيون ۾ سرگرم ٿيل.</string>
+    <string name="settings_about_page_description2">پنھنجي ايپ جي هر ڪانٽي معلومات کان کليڪ سان لاءڪ خلق، جيو تون اسان هن اون-سورس رکندا به ٺي، جينڪي بابت اڀتيس اٿ شاءڪ٪ ۾ شمول مان رهيو وٽون.</string>
+    <string name="settings_about_page_description3">تمام ڏڪارڻ اپن کي فعلي انٽيلي جنس ڊاءُن ڪيو ٿي ۽ اهي ڪو الهاء ٿا هڪرشن شخصين ۾ غلطيون ٿين بـ آهي- جيڪڏهن تہ اهو پڻ ملاحظو وڃڪيل ٿو اکون سان \"رپورٽ اي  بگ\" پين ۾ اعلام ڪيو.</string>
+    <string name="settings_about_page_contact">جيڪڏهن ڪاڻ ڪان ڇارو يا ساڳجي چاهيو ٿا پوڇي چُ اس (app) تي رابطو واٽسان:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ريپورٽ ڪريو</string>
+    <string name="settings_report_bug_title">ٺبي منعات يقين  لاء، اسان ڪري خودخودي طريقي تنطق ڪري ٿو واقعيت جي رپورٽن جي الهي جياءي سان. جيڪڏهن توهان کان کو مناڻو ورتي-پڇيندو آهدارا آهي تہ قطعا توهان مڪمل ھدايت کان سان آفار ڪرڻ جي اچڻ نه ملدو، تہ برا.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

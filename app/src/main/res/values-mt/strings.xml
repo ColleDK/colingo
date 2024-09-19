@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_explore_label">Esplora</string>
+    <string name="destination_chat_label">Iċ-ċattar</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifikiżżjonijiet</string>
+    <string name="setting_permissions_title">Permessi</string>
+    <string name="setting_accessibility_title">Aċċessibilità</string>
+    <string name="setting_about_title">Dwar</string>
+    <string name="setting_rate_title">Iċċertifika l-app</string>
+    <string name="setting_report_title">Irrapporta ħażin</string>
+    <string name="setting_logout_title">Żomm sessija</string>
+    <string name="setting_switch_language_title">Tibdil lingwi</string>
+
+    <string name="selected_language">Lingwa magħżula</string>
+
+    <string name="settings_change">Bidli settings</string>
+    <string name="settings_switch_language">Switch language</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tema Dinamika</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Żid rating</string>
+    <string name="settings_switch_language_title">Bidla lingwa</string>
+    <string name="settings_theming_title"><![CDATA[Theming & kuluri]]></string>
+    <string name="settings_about_page_title">Fuq l-applikazzjoni</string>
+    <string name="settings_about_page_description1">Colingo huwa piattaforma ta\' skambju ta\' lingwi magħmula minn komunità ta\' sors miftuħa li ġiet żviluppata minn Colle/William.</string>
+    <string name="settings_about_page_description2">Test li għandu jiġi tradott: Issa aħna ngħixu biex inkunu xhierga u wiesgħa dwar kollox fil-app, għalhekk inżommuha open-source.</string>
+    <string name="settings_about_page_description3">It-transazzjonijiet kollha fi l-app huma mgħammlin minn AI u għalhekk jista\' jkun hemm żbalji fil-ħerq - jekk tara xi wieħed ibgħat irrapporta fih fil-panewl ta\' \\"Irrapporta żball\\".</string>
+    <string name="settings_about_page_contact">Jekk għandek xi kwistjonijiet jew suggerimenti għall-app, tista\' tikkomunika magħna fuq:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Irrapporta l-bug</string>
+    <string name="settings_report_bug_title">Biex tieħu ħsieb kostanti, aħna jagħmlu kolezzjoni awtomatika ta\' rapporti dwar inkidenti li jikkawżaw ittraqqa fil-app, iżda jekk tagħmel xi problema u tixtieq tissottometti bug direttament, jitlob ġentilment timla formola bl-informazzjoni kollha li għandek.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Ekhaya</string>
+    <string name="destination_explore_label">Hlela</string>
+    <string name="destination_chat_label">Iphuzu elingasebenzisi: Uchwepheshe</string>
+    <string name="destination_profile_label">Inkomba</string>
+    <string name="destination_settings_label">Izingxenye</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Izaziso</string>
+    <string name="setting_permissions_title">Izimvume</string>
+    <string name="setting_accessibility_title">Ukufinyelela</string>
+    <string name="setting_about_title">Mayelana</string>
+    <string name="setting_rate_title">Bha 评定应用</string>
+    <string name="setting_report_title">Thumela ivuvukile</string>
+    <string name="setting_logout_title">Phuma ukuhamba</string>
+    <string name="setting_switch_language_title">Vula amagama</string>
+
+    <string name="selected_language">Leli thayipu elikhethiwe</string>
+
+    <string name="settings_change">Setha amasethi.</string>
+    <string name="settings_switch_language">Cela ukulungisa ulimi</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Ukuxhuma okumnyama</string>
+
+    <string name="settings_rate_app_page_title">Bheka uhlelo.</string>
+    <string name="settings_switch_language_title">Shintsha ulimi</string>
+    <string name="settings_theming_title"><![CDATA[Theming & imibala]]></string>
+    <string name="settings_about_page_title">Mayelana nok\'phikisana</string>
+    <string name="settings_about_page_description1">Colingo yilaphuqukemba evumela ukwakha umnotho wamabili ovakashela izilimi okuhlanganisayo owavela kuColle/William.</string>
+    <string name="settings_about_page_description2">Sisebenza ngokwenza kube nomthelela futhi siphambili ngemibalabala ngokuthi into yonke ekuphathweni ekhophiwe kube yesixhumanisi, ngalokho sizigcina iphulaphuli.</string>
+    <string name="settings_about_page_description3">Konke okuhambisana nokukhombisa ngaphakathi kwesayithenisi iyenzwe ngama-AIs futhi ngenxa yalokho kungaba khona iziphendeleko zokuhambisa - uma ushilo okubi sicela uthumele kule pane ye-\"Report a bug\".</string>
+    <string name="settings_about_page_contact">Uma kukhona okuzijabulisayo noma okudingayo ngendlela yebhajethi, ungafaka nathi kule nombolo:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Thumela isibuko</string>
+    <string name="settings_report_bug_title">Ukuze siqinise isebenzelezelo, sifuna ukucoca izigaba zezinkinga kanye nezinkinga kancane, kodwa uma ushise futhi unamathela izinkinga noma ufuna ukwenza ucaphuno, sicela ukufakela isicelo ngokuya namanje noma kufanele uxhumane nabantu abasebenzi base-...</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

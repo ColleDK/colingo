@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ଘର</string>
+    <string name="destination_explore_label">ଅନ୍ୟାନ୍ବେଷଣା କରନ୍ତୁ</string>
+    <string name="destination_chat_label">ଚ୍ୟାଟ୍‌‌</string>
+    <string name="destination_profile_label">ପ୍ରୋଫାଇଲ୍‌</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ଥେମିଂଙ୍କରଣ</string>
+    <string name="setting_notifications_title">ବিজ୍ଞପ୍ତିଗୁଡିକରଣ</string>
+    <string name="setting_permissions_title">ଅନୁମତିବାଦସମୂହ କୁଦିବାଦସମୂହ</string>
+    <string name="setting_accessibility_title">ପ୍ରବେଶଯୋଗ୍ୟତା</string>
+    <string name="setting_about_title">ବିଷୟରେ</string>
+    <string name="setting_rate_title">ଏପ୍ ରେଟ୍ କରନ୍ତୁ</string>
+    <string name="setting_report_title">ଦୋଷ ପରିଚିତି ଦାଖଲ କରନ୍ତୁ ।</string>
+    <string name="setting_logout_title">ଲଗ୍ ଆଉଟ୍  କରନ୍ତୁ</string>
+    <string name="setting_switch_language_title">ଭାଷା ପରିବର୍ତନ କରନ୍ତୁ</string>
+
+    <string name="selected_language">ବାଛା ଯୋଗ୍ୟ ଭାଷା</string>
+
+    <string name="settings_change">ସেଟିଂଗ୍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ।</string>
+    <string name="settings_switch_language">Switch language</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ଚାଳକ ଥିମିଂ କୌଣସିନାରାୟଣିକମାନା ।</string>
+    <string name="setting_dark_theme">କଳା ଥିମିଂ</string>
+
+    <string name="settings_rate_app_page_title">ଏପ୍ ରେଟ୍ କରନ୍ତୁ</string>
+    <string name="settings_switch_language_title">ୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟୟ</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">ଏପ୍ ବାରିଚି ଠିକ୍ କଥା</string>
+    <string name="settings_about_page_description1">Colingoଙମୂଳସ୍ଥ ସମୁଦାୟ ପ୍ରଯୁକ୍ତ ଭାଷା ବିନିମୟ ପ୍ଲାଟଫର୍ମ ଯାଞ୍ଚନେ Colle/William ଦ୍ୱାରା ତିଆରି କରାଯାଇଛି।</string>
+    <string name="settings_about_page_description2">ଆମେ ଆପ୍‌ରେ ସମସ୍ତ ବିଷୟରେ ଖୁଲା ଏବଂ ଆଗ୍ରହପ୍ରଦର ସନ୍ଧାନ କରି ଯାଉଛୁ, ଯେତେବାପରେ ଏହିକୁ ଓପେନ-ସୋର୍ସ ଭିତରେ ରଖୁଅଛୁ।</string>
+    <string name="settings_about_page_description3">ପ୍ରୋଗ୍ରାମ୍‌ରେ ଥିବା ସମସ୍ତ ଅନୁବାଦ ଏ ଏଆଇ-ଦ୍ୱାରା କରାଯାଇଛି ଓ ଏଥିରେ ଅନେକ ଭୁଲ ନିଷ୍କ୍ରିୟ ଥିବା ପାରେ - ଯଦି ଆପଣ େଉଆଣ ପାଇଁ ତାହେଣି \"ଦୋଷ ପ୍ରତିଶେଷ୍ଟି\" ପ୍ୟାନେ ପ୍ରତିୱେଦନ କରନ୍ତୁ।</string>
+    <string name="settings_about_page_contact">ଯଦି ଆପଣମାନଙ୍କ କୌଣସି ଚିନ୍ତା ବା ସୂଚନା ଥାଏ ତେବେ ଇମୁନା ଧରନ୍ତୁ:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ବଗ୍ ରିପୋର୍ଟ୍ କରନ୍ତୁ ।</string>
+    <string name="settings_report_bug_title">ସ্থিରତା ନିଶ୍ଚିତ କରିବା ପାଇଁ, ଆମେ କରିବାକୁ ବୋଧିପୁଣୀୟତା ଦେଖୁଅଛୁ, ତାହାପାଇଁ ଯଦି ଆପଣଙ୍କ କୌଣସି ସୁଧା ଚିନ୍ତା ଥାଏ ଏବଂ ଏହାକୁ ଲୋକଗୁଡିକ ଦ୍ଵାରା ପଠାଇବା ଦରକାର ହେଲା, ଦୟାକରି ଆପଣଙ୍କ ପାଡ ଭରି ସୂଚନା ସହ ଏକ ଫରମ ପୂରଣ କରନ୍ତୁ।</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

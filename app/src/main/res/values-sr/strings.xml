@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Kuća</string>
+    <string name="destination_explore_label">Istraži</string>
+    <string name="destination_chat_label">Ćaskanje</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Podešavanja</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Temovanje</string>
+    <string name="setting_notifications_title">Obaveštenja</string>
+    <string name="setting_permissions_title">Dozvole</string>
+    <string name="setting_accessibility_title">Pristupačnost</string>
+    <string name="setting_about_title">O aplikaciji</string>
+    <string name="setting_rate_title">Oceni aplikaciju</string>
+    <string name="setting_report_title">Prijavi grešku.</string>
+    <string name="setting_logout_title">Odjava</string>
+    <string name="setting_switch_language_title">Promeni jezik</string>
+
+    <string name="selected_language">Izabrani jezik</string>
+
+    <string name="settings_change">Promeni podešavanja</string>
+    <string name="settings_switch_language">Promeni jezik</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamičko tematizovanje</string>
+    <string name="setting_dark_theme">Tamni tematski prikaz</string>
+
+    <string name="settings_rate_app_page_title">Oceni aplikaciju</string>
+    <string name="settings_switch_language_title">Promeni jezik</string>
+    <string name="settings_theming_title">Temeni i boje</string>
+    <string name="settings_about_page_title">O aplikaciji</string>
+    <string name="settings_about_page_description1">Colingo je platforma za razmenu jezika koja je otvorenog koda i vođena zajednicom, razvijena od strane Colle/William tima.</string>
+    <string name="settings_about_page_description2">Trudimo se da budemo otvoreni i transparentni u vezi svega u aplikaciji, zbog čega je kod otvorenog koda.</string>
+    <string name="settings_about_page_description3">Sve prevode unutar aplikacije vrše veštačke inteligencije, tako da mogu postojati greške u prevodu - ako primetite bilo kakvu, molimo vas da je prijavite u odeljku \"Prijavi grešku\".</string>
+    <string name="settings_about_page_contact">Ako imate bilo kakve brige ili sugestije u vezi sa aplikacijom, možete nas kontaktirati na:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Prijavi grešku</string>
+    <string name="settings_report_bug_title">Da bismo osigurali stabilnost, automatski prikupljamo izveštaje o rušenju, međutim ako pronađete bilo kakve probleme i želite da prijavite grešku direktno, molimo vas da popunite formular sa što više informacija koje imate.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

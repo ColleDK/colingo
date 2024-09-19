@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Tombony ho anao</string>
+    <string name="destination_explore_label">Explore</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profila</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theme-kaova</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Mahaizina</string>
+    <string name="setting_accessibility_title">Fandrosoana.</string>
+    <string name="setting_about_title">Momba an\'ilay</string>
+    <string name="setting_rate_title">Ampidirina ny fiofanana ho an\'ny fampiasana</string>
+    <string name="setting_report_title">Mamerina hafanana misy hafatra</string>
+    <string name="setting_logout_title">Hiala avy amin\'ny kaonty</string>
+    <string name="setting_switch_language_title">Hamovana ny fiteny</string>
+
+    <string name="selected_language">Lalao voalohany</string>
+
+    <string name="settings_change">Hanova fangatahana</string>
+    <string name="settings_switch_language">Hialana ny fiteny</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Fitrandahana mitsitsy</string>
+    <string name="setting_dark_theme">Fanolorana maitso</string>
+
+    <string name="settings_rate_app_page_title">Manaraka ny fandaharana</string>
+    <string name="settings_switch_language_title">Hahita ny fiteny</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Momba ny fampiharana</string>
+    <string name="settings_about_page_description1">Colingo dia platforma fampiharana misy vokatra voalohany izay manome fampiharana fanehoana teny amin\'ny vondrona amin\'ny alalan\'ny fanderenana Colle/William.</string>
+    <string name="settings_about_page_description2">Faly izahay ny hahazoakena ny fampahalalam-baovao manokana ao amin\'ny fampiasana ny loharano, izany hoe mifanaraka amin\'ny fitiavana ny fidirana ny rafitra ao an-tserasera.</string>
+    <string name="settings_about_page_description3">Hafatra ho an\'ny mpanjifa: Ny fandikan-teny rehetra ao amin\'ny fampahalalana dia atao amin\'ny mpampiasa vaovao ary mahazatra. Mety ho misy diso ao amin\'ny fandikan-teny - raha hita misy inona ianao, ampidirina vola ao amin\'ny \\"Hisoratra bug\\".</string>
+    <string name="settings_about_page_contact">Raha manana fanontaniana na vavaka ho an\'ny fampiasana amin\'ny rindrambaiko, azonao atao ny mampifandray aminay amin\'ny alalan\'ity:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Hanarenana loha fahazoan-dàlana.</string>
+    <string name="settings_report_bug_title">Mba hanampy fifandraisana goavana, manome valiny manokana izahay amin\'ny toerana tompon\'andrarezina, na inona na inona zavatra izay mety ho tsy nisoratra, na inona na inona olana no mety ho tafiditra, azafady mandoa fampidirana eo amin\'ny rakitra miaraka amin\'ny angomanga tokoa:</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>
