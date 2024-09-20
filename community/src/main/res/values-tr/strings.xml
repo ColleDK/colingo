@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Ortaklar bulunumu</string>
+    <string name="community_page_title">Üyeler</string>
+    <string name="chatbot_page_title">Sohbet robotları</string>
+    <string name="community_user_speaks">Konuşur</string>
+    <string name="community_user_learns">Öğrenme</string>
+
+    <string name="community_ai_empty_title">Chatbot bulunamadı</string>
+    <string name="community_ai_empty_subtitle">Filtrelerinizi güncellemeyi deneyin, daha fazla sohbet botu bulun</string>
+    <string name="community_empty_title">Kullanıcı bulunamadı</string>
+    <string name="community_empty_subtitle">Filtrelerinizi güncellemeyi deneyin, daha fazla kullanıcı bulun.</string>
+
+    <string name="community_filters_limit">Görmek istediğiniz ana dili konuşan kişi sayısını seçin: %d dil seçebilirsiniz.</string>
+    <string name="community_filters_selected">Seçilen: %d/%d</string>
+    <string name="community_filters_clear">Filtreleri temizle</string>
+    <string name="community_filters_your_languages">Mevcut dilleriniz</string>
+
+    <string name="chat_created_msg">Sohbet oluşturuldu</string>
+    <string name="chatbot_created_msg">Sohbet %s ile oluşturuldu.</string>
+    <string name="chatbot_create_chat">Söyle çevrilecek metin: Sohbet oluştur %s ile</string>
+</resources>

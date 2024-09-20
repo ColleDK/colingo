@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Fumana abeshwa.</string>
+    <string name="community_page_title">Abaxhasi</string>
+    <string name="chatbot_page_title">I-chatbots</string>
+    <string name="community_user_speaks">Yayiva</string>
+    <string name="community_user_learns">Ukuhlonipha</string>
+
+    <string name="community_ai_empty_title">Ok</string>
+    <string name="community_ai_empty_subtitle">Ndithi uzame ukunceda imifiltrini yakho ukuze uthole amachatbots amaningi.</string>
+    <string name="community_empty_title">Akufumani abasebenzisi</string>
+    <string name="community_empty_subtitle">Dibana okanye uxhasa amafiltre akho ukuze uthole abakhuseli abaningi.</string>
+
+    <string name="community_filters_limit">Khetha amalungu %d okanye amalimi ofuna ukuthenga abaxhobayo kuzo</string>
+    <string name="community_filters_selected">%d/%d okhethwe.</string>
+    <string name="community_filters_clear">Cima iifiltazini</string>
+    <string name="community_filters_your_languages">Iilwimi zakho ezikuyo</string>
+
+    <string name="chat_created_msg">Ikhodi lephulaphuli sidluli.</string>
+    <string name="chatbot_created_msg">Ixesha elikhakhiwe nge %s</string>
+    <string name="chatbot_create_chat">Yakha ichat ethi %s</string>
+</resources>

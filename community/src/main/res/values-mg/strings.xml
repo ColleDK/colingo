@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Mpikambana</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Miteny</string>
+    <string name="community_user_learns">Fampianarana</string>
+
+    <string name="community_ai_empty_title">Tsy hita chatbots</string>
+    <string name="community_ai_empty_subtitle">Mijery hanavao ny fitrano misy amin\'ny fampitandremana mivantana hanakorontana chatbot hafa.</string>
+    <string name="community_empty_title">Tsy hita mpampiasa</string>
+    <string name="community_empty_subtitle">Mijery ny fanadihadiana hanaovana fanampiana hafa mba hanomboka hahita mpampiasa hafa amin\'ny aplikasiona ianao</string>
+
+    <string name="community_filters_limit">Fidio ny %d teny amin\'ny maro ianao hahita mpamory maro ho azy.</string>
+    <string name="community_filters_selected">%d/%d voafaritra.</string>
+    <string name="community_filters_clear">Fafao ny filtran\'ny very</string>
+    <string name="community_filters_your_languages">Ny fiteny ankehitriny.</string>
+
+    <string name="chat_created_msg">Chat naharitra</string>
+    <string name="chatbot_created_msg">Chat natao amin\'ny %s</string>
+    <string name="chatbot_create_chat">Mamorona chat amin\'ny %s</string>
+</resources>

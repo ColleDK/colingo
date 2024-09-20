@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Nga mema</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Korero</string>
+    <string name="community_user_learns">Whakaako</string>
+
+    <string name="community_ai_empty_title">No chatbots found</string>
+    <string name="community_ai_empty_subtitle">Whakamāramatia ō pūru paerewa kia kitea ai ngā chatbot anō</string>
+    <string name="community_empty_title">Kāore i kitea ngā kaiwhakamahi</string>
+    <string name="community_empty_subtitle">Whakamātau ki te whakahōu i ō kauwhata kia kitea ai ngā kaiwhakamahi anō</string>
+
+    <string name="community_filters_limit">Kōwhiri i te %d reo e hiahia ana koe ki te kite i ngā kaiwhakawhiti reo.</string>
+    <string name="community_filters_selected">%d/%d kua tīpakohia</string>
+    <string name="community_filters_clear">Whakakore ngā hipoki</string>
+    <string name="community_filters_your_languages">Ō whakapakeke reo</string>
+
+    <string name="chat_created_msg">Kōrero kua hangaia</string>
+    <string name="chatbot_created_msg">Whakapuāwaitia te kōrero i hangaia me %s</string>
+    <string name="chatbot_create_chat">Waihanga kōrero me %s</string>
+</resources>

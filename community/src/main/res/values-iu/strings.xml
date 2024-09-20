@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Members</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Speaks</string>
+    <string name="community_user_learns">Learning</string>
+
+    <string name="community_ai_empty_title">Chatbotsivagitunga.</string>
+    <string name="community_ai_empty_subtitle">Pijariartuarujoq filtersigut pisuarniurunnaaraliortalaurtut chatbotigut.</string>
+    <string name="community_empty_title">ᓂᑕᖅᑐᐃᒪᑦ ᓇᓗ ᐊᑐᐃᓐᓇᖅ</string>
+    <string name="community_empty_subtitle">Ok</string>
+
+    <string name="community_filters_limit">Pasangani %d tilagamiit angijuqqu!</string>
+    <string name="community_filters_selected">%d/%d ᐊᓂᑦᓯᐊᕐᓂ.</string>
+    <string name="community_filters_clear">Clear filters</string>
+    <string name="community_filters_your_languages">ᓄᓇᕗᑦ ᐅᖃᐅᓯᓕᕆᓂᖅ</string>
+
+    <string name="chat_created_msg">Ataatatsiaq tusaasimalluarunna.</string>
+    <string name="chatbot_created_msg">Chat inuitivut %s qalipalliaqtuq</string>
+    <string name="chatbot_create_chat">Create chat with %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">পাৰ্টনাৰ সন্ধান কৰক।</string>
+    <string name="community_page_title">সদস্যবৃন্দ (Members)</string>
+    <string name="chatbot_page_title">চেটবট्स</string>
+    <string name="community_user_speaks">কথা কৰে।</string>
+    <string name="community_user_learns">শিক্ষা क।</string>
+
+    <string name="community_ai_empty_title">কোনো চ্যাটবট পোৱা নাই।</string>
+    <string name="community_ai_empty_subtitle">আপোনাৰ পৰিখনালৈ আপডেট কৰিবলৈ চেষ্টা কৰক আৰু অধিক চেটবটস পোৱাৰ চেষ্টা কৰক।</string>
+    <string name="community_empty_title">কোনো ব্যৱহাৰকাৰী পোৱা নাই।</string>
+    <string name="community_empty_subtitle">Try updating your filters to find more users.</string>
+
+    <string name="community_filters_limit">%d languages পৰ্যন্ত বাচকবৃন্দ চাবলৈ যাওক্‌।</string>
+    <string name="community_filters_selected">%d/%d নিৰ্বাচন কৰা হৈছে।</string>
+    <string name="community_filters_clear">ফিল্টাৰ পচন্দৰहাইগৈ পৰিস্থিতিৰ স্বাচ্ছন্দৰোটি কৰক।</string>
+    <string name="community_filters_your_languages">আপুনিৰ বৰ্তমান ভাষাসমূহ।</string>
+
+    <string name="chat_created_msg">চেট তৈয়া হৈছে।</string>
+    <string name="chatbot_created_msg">চ\'ট যোগাযোগ %s সৈতে সৃষ্টি কৰা हৈছে।</string>
+    <string name="chatbot_create_chat">%s সৈতে চ\'ট বনাও।</string>
+</resources>

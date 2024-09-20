@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ค้นหาพันธมิตร</string>
+    <string name="community_page_title">สมาชิก</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">พูด</string>
+    <string name="community_user_learns">การเรียนรู้</string>
+
+    <string name="community_ai_empty_title">ไม่พบแชทบอท</string>
+    <string name="community_ai_empty_subtitle">ลองอัพเดทตัวกรองของคุณเพื่อค้นหาแชทบอทเพิ่มเติม</string>
+    <string name="community_empty_title">ไม่พบผู้ใช้</string>
+    <string name="community_empty_subtitle">ลองอัปเดตตัวกรองของคุณเพื่อค้นหาผู้ใช้เพิ่มเติม</string>
+
+    <string name="community_filters_limit">เลือกสูงสุด %d ภาษาที่คุณต้องการดูคนพูดได้เชี่ยวชาญ</string>
+    <string name="community_filters_selected">%d/%d เลือกแล้ว</string>
+    <string name="community_filters_clear">ล้างตัวกรอง</string>
+    <string name="community_filters_your_languages">ภาษาที่คุณใช้อยู่ตอนนี้</string>
+
+    <string name="chat_created_msg">การสนทนาถูกสร้างขึ้น</string>
+    <string name="chatbot_created_msg">แชทถูกสร้างขึ้นด้วย %s</string>
+    <string name="chatbot_create_chat">สร้างการสนทนากับ %s</string>
+</resources>

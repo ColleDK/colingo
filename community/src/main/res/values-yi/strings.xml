@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">טראָפֿן פּאַרטנערס</string>
+    <string name="community_page_title">Members.</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Redt</string>
+    <string name="community_user_learns">לערנען</string>
+
+    <string name="community_ai_empty_title">Keine chatbots gefundn.</string>
+    <string name="community_ai_empty_subtitle">Versuch deine Filter ze aktualizirn fir mehr Chatbots tsu gefinen</string>
+    <string name="community_empty_title">קיין ניצן אַפֿגעפֿונען</string>
+    <string name="community_empty_subtitle">Probiere, dei Filtrn aktzualizirn, um merer Nutzer tsu gefinen.</string>
+
+    <string name="community_filters_limit">Vālןzhl biz tsu %d Shprákhn di ir vilt tsu zen shprekhern oisgilernt fun</string>
+    <string name="community_filters_selected">%d/%d אויסגעקליבען</string>
+    <string name="community_filters_clear">קלאָר פילטערס</string>
+    <string name="community_filters_your_languages">Deine aktuale shprakhn</string>
+
+    <string name="chat_created_msg">Geshpete Chat</string>
+    <string name="chatbot_created_msg">Text to translate: חאַט געשאפן מיט %s</string>
+    <string name="chatbot_create_chat">Shafn chat mit %s</string>
+</resources>

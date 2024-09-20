@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ಭಾಗಿಗಳನ್ನು ಹುಡುಕಿ</string>
+    <string name="community_page_title">ಸದಸ್ಯರು</string>
+    <string name="chatbot_page_title">ಚಾಟ್‌ಬಾಟ್‌ಗಳು</string>
+    <string name="community_user_speaks">ಮಾತಾಡುತ್ತದೆ</string>
+    <string name="community_user_learns">ಕಲಿಯುವುದು</string>
+
+    <string name="community_ai_empty_title">ಚಾಟ್ಬಾಟ್‌ಗಳು ಸಿಗಲಿಲ್ಲ</string>
+    <string name="community_ai_empty_subtitle">ಹೆಚ್ಚೆಚ್ಚಾಗಿ ಚಾಟ್‌ಬಾಟ್‌ಗಳನ್ನು ಹುಡುಕಲು ನಿಮ್ಮ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ನವೀಕರಿಸಲು ಪ್ರಯತ್ನಪಡಿ.</string>
+    <string name="community_empty_title">ಯಾವುದೇ ಬಳಕೆದಾರರು ಸಿಗಲಿಲ್ಲ</string>
+    <string name="community_empty_subtitle">ಹೆಚ್ಚಿನ ಬಳಕೆದಾರರನ್ನು ಹುಡುಕಲು ನಿಮ್ಮ ಫಿಲ್ಟರ್‌ಗಳನ್ನು ನವೀಕರಿಸಲು ಪ್ರಯತ್ನಿಸಿ.</string>
+
+    <string name="community_filters_limit">%d ಭಾಷೆಗಳಲ್ಲಿ ಮಾತನಾಡುವವರನ್ನು ನೋಡಬಯಸುವದಕ್ಕೆ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="community_filters_selected">%d/%d ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="community_filters_clear">ಫಿಲ್ಟರ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="community_filters_your_languages">ನೀವು ಈಗಿನ ಭಾಷೆಗಳು</string>
+
+    <string name="chat_created_msg">ಚಾಟ್ ರಚಿತವಾಯಿತು</string>
+    <string name="chatbot_created_msg">ಚಾಟ್ ರಚಿತವಾಗಿದೆ: %s</string>
+    <string name="chatbot_create_chat">%s ನೊಂದಿಗೆ ಸಂಭಾಷಣೆ ರಚಿಸಿ</string>
+</resources>

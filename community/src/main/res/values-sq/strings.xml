@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Gjeni partnerë</string>
+    <string name="community_page_title">Anëtarë</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Flet</string>
+    <string name="community_user_learns">Mësimi</string>
+
+    <string name="community_ai_empty_title">Asnjë chatbot i gjetur</string>
+    <string name="community_ai_empty_subtitle">Provo të azhurnosh filtrat tënde për të gjetur më shumë chatbotë.</string>
+    <string name="community_empty_title">Nuk u gjet asnjë përdorues</string>
+    <string name="community_empty_subtitle">Provoni të përditësoni filtrat tuaj për të gjetur më shumë përdorues.</string>
+
+    <string name="community_filters_limit">Zgjidhni deri në %d gjuhë të dëshironi të shihni folës të përsosur.</string>
+    <string name="community_filters_selected">Tekst për t\'u përkthyer: %d/%d të zgjedhur</string>
+    <string name="community_filters_clear">Pastro filtron</string>
+    <string name="community_filters_your_languages">Gjuhët tuaja aktuale</string>
+
+    <string name="chat_created_msg">Biseda e krijuar</string>
+    <string name="chatbot_created_msg">Biseda e krijuar me %s</string>
+    <string name="chatbot_create_chat">Krijo bisedë me %s</string>
+</resources>

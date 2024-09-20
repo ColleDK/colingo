@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hanap og mga partner</string>
+    <string name="community_page_title">Mga Miyembro</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Mga panghitabo</string>
+    <string name="community_user_learns">Pagtuon</string>
+
+    <string name="community_ai_empty_title">Walay makit-an nga mga chatbots</string>
+    <string name="community_ai_empty_subtitle">Subokig pag-update sa imong mga filters aron makakaplag og dugang chatbots</string>
+    <string name="community_empty_title">Walay mga users nga nahibal-an</string>
+    <string name="community_empty_subtitle">Sulayan pag-update sa imong mga filter aron makakaplag ug daghan nga mga users.</string>
+
+    <string name="community_filters_limit">Pili-a ang hangtod sa %d mga lenguahe nga imong gusto makakita ug mga maayo magtoo sa maong pinulongan</string>
+    <string name="community_filters_selected">%d/%d napili</string>
+    <string name="community_filters_clear">Linis nga mga filter</string>
+    <string name="community_filters_your_languages">Ang imong kasamtangan nga mga pinulongan</string>
+
+    <string name="chat_created_msg">Chat nahimo</string>
+    <string name="chatbot_created_msg">Chat na gibuhat gamit ang %s</string>
+    <string name="chatbot_create_chat">Maghimo og chat uban ni %s</string>
+</resources>

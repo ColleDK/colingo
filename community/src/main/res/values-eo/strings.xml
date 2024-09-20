@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Trovi partnerojn</string>
+    <string name="community_page_title">Membroj</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Parolas</string>
+    <string name="community_user_learns">Lernado</string>
+
+    <string name="community_ai_empty_title">Ne trovis chatbot-ojn</string>
+    <string name="community_ai_empty_subtitle">Provu ĝisdatigi viajn filtrilojn por trovi pli da babilejoj</string>
+    <string name="community_empty_title">Neniu uzanto trovita</string>
+    <string name="community_empty_subtitle">Provu ĝisdatigi viajn filtrojn por trovi pli da uzantoj.</string>
+
+    <string name="community_filters_limit">Elektu ĝis %d lingvoj de kiuj vi volas vidi fluan parolanton.</string>
+    <string name="community_filters_selected">%d/%d elektita</string>
+    <string name="community_filters_clear">Pura filtriloj</string>
+    <string name="community_filters_your_languages">Viaj nunaj lingvoj</string>
+
+    <string name="chat_created_msg">Babela kreita</string>
+    <string name="chatbot_created_msg">Babilado kreita per %s</string>
+    <string name="chatbot_create_chat">Krei babilejon kun %s</string>
+</resources>

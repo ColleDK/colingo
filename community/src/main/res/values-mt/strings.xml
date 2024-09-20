@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Ibgħat partners</string>
+    <string name="community_page_title">Membri</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Jgħid.</string>
+    <string name="community_user_learns">Tħarrex</string>
+
+    <string name="community_ai_empty_title">Ebda chatbots maħluqa</string>
+    <string name="community_ai_empty_subtitle">Ipprova li tħalli l-filters tiegħek biex issib aktar chatbots</string>
+    <string name="community_empty_title">L-ebda utent ma nstab.</string>
+    <string name="community_empty_subtitle">Ipprova jżomm filtri tiegħek aġġornati biex tara iktar utenti</string>
+
+    <string name="community_filters_limit">Agħżel sa %d lingwi li tixtieq tara nies li jitkellmu b\'fluennza.</string>
+    <string name="community_filters_selected">Test li jridu jkunu tradotti: %d/%d magħżula</string>
+    <string name="community_filters_clear">Iħassar filtri</string>
+    <string name="community_filters_your_languages">Il-lingwi attwali tagħkom</string>
+
+    <string name="chat_created_msg">Chat creat fil-Qosor</string>
+    <string name="chatbot_created_msg">Sessjoni ta\' ħatriet mqiegħda ma\' %s</string>
+    <string name="chatbot_create_chat">Oħloq suġġeriment għall-chat ma\' %s</string>
+</resources>

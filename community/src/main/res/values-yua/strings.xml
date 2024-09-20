@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hahil tojtaj in wíinkil.</string>
+    <string name="community_page_title">Miembros</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Káax.</string>
+    <string name="community_user_learns">T\'anik.</string>
+
+    <string name="community_ai_empty_title">Ma\' u k\'akileyob chatbots ma\' tirok wa\'al u k\'ajtal.</string>
+    <string name="community_ai_empty_subtitle">Boox ujo\'oles ti\' u k\'abtano\'ob le filtros ba\'alo\'ob ti\' ku k\'aantal chatbots.</string>
+    <string name="community_empty_title">Ma\' ku jóok\' in beel uchben.</string>
+    <string name="community_empty_subtitle">Máax k\'iinikech bix u yantal filtroob tu\'ux le u k\'aaba\'al u meentiko\'ob ti\' le kaambalo\'ob.</string>
+
+    <string name="community_filters_limit">Selecciona k\'iino\' %d to\'on utsil u\'uchbenku\'ux ca\' u\'uchbenik kaajil u chen dyu Chat.</string>
+    <string name="community_filters_selected">%d/%d seleccionado</string>
+    <string name="community_filters_clear">K\'ajtal u yook\'olob jach le baaxalik.</string>
+    <string name="community_filters_your_languages">Maasik ti\' u bejo\' baaxal.</string>
+
+    <string name="chat_created_msg">Chat creado</string>
+    <string name="chatbot_created_msg">Súutlal ujel %s tsool.</string>
+    <string name="chatbot_create_chat">K\'ex chat ti\'%s</string>
+</resources>

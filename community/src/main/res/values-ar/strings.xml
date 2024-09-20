@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ابحث عن شركاء</string>
+    <string name="community_page_title">أعضاء</string>
+    <string name="chatbot_page_title">الروبوتات الدردشة</string>
+    <string name="community_user_speaks">يتحدث</string>
+    <string name="community_user_learns">Learning</string>
+
+    <string name="community_ai_empty_title">لم يتم العثور على روبوتات دردشة</string>
+    <string name="community_ai_empty_subtitle">جرب تحديث عوامل التصفية الخاصة بك للعثور على المزيد من الروبوتات الدردشة.</string>
+    <string name="community_empty_title">لم يتم العثور على مستخدمين</string>
+    <string name="community_empty_subtitle">حاول تحديث الفلاتر الخاصة بك للعثور على المزيد من المستخدمين</string>
+
+    <string name="community_filters_limit">اختر ما يصل إلى %d لغات تريد أن ترى بها الأشخاص الذين يتحدثون بطلاقة</string>
+    <string name="community_filters_selected">النص المراد ترجمته: %d/%d تم اختيارهم</string>
+    <string name="community_filters_clear">مسح الفلاتر</string>
+    <string name="community_filters_your_languages">لغاتك الحالية</string>
+
+    <string name="chat_created_msg">المحادثة تم إنشاؤها</string>
+    <string name="chatbot_created_msg">الدردشة التي تم إنشاؤها بواسطة %s</string>
+    <string name="chatbot_create_chat">إنشاء محادثة مع %s</string>
+</resources>

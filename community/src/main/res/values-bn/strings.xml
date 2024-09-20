@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">অংশীদার খুঁজুন।</string>
+    <string name="community_page_title">সদস্যরা</string>
+    <string name="chatbot_page_title">চ্যাটবট্‌স।</string>
+    <string name="community_user_speaks">কথা বলে</string>
+    <string name="community_user_learns">শেখা</string>
+
+    <string name="community_ai_empty_title">কোনও চ্যাটবট পাওয়া যায়নি।</string>
+    <string name="community_ai_empty_subtitle">আপনার ফিল্টার আপডেট করে আরো চ্যাটবট খুঁজে দেখুন।</string>
+    <string name="community_empty_title">কোন ব্যবহারকারী পাওয়া যায়নি।</string>
+    <string name="community_empty_subtitle">আরো ব্যবহারকারী খুঁজতে আপনার ফিল্টারগুলি আপডেট করা চেষ্টা করুন।</string>
+
+    <string name="community_filters_limit">%d সংখ্যক ভাষা নির্বাচন করুন যেগুলি থেকে দক্ষ কথাবার্তা করোকে দেখতে চান।</string>
+    <string name="community_filters_selected">%d/%d নির্বাচিত হয়েছে।</string>
+    <string name="community_filters_clear">ফিল্টার মুছে ফেলুন</string>
+    <string name="community_filters_your_languages">আপনার বর্তমান ভাষাগুলি</string>
+
+    <string name="chat_created_msg">চ্যাট তৈরি হয়েছে।</string>
+    <string name="chatbot_created_msg">চ্যাট %s এর সাথে তৈরি হয়েছে।</string>
+    <string name="chatbot_create_chat">চ্যাট তৈরি করুন %s</string>
+</resources>

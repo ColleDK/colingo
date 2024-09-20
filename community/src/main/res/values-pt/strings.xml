@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Encontrar parceiros</string>
+    <string name="community_page_title">Membros</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Fala</string>
+    <string name="community_user_learns">Aprendizagem</string>
+
+    <string name="community_ai_empty_title">Nenhum chatbot encontrado</string>
+    <string name="community_ai_empty_subtitle">Tente atualizar seus filtros para encontrar mais chatbots.</string>
+    <string name="community_empty_title">Nenhum usuário encontrado</string>
+    <string name="community_empty_subtitle">Tente atualizar seus filtros para encontrar mais usuários.</string>
+
+    <string name="community_filters_limit">Escolha até %d idiomas dos quais deseja ver falantes fluentes</string>
+    <string name="community_filters_selected">%d/%d selecionados</string>
+    <string name="community_filters_clear">Limpar filtros</string>
+    <string name="community_filters_your_languages">Suas línguas atuais</string>
+
+    <string name="chat_created_msg">Chat criado</string>
+    <string name="chatbot_created_msg">Chat criado com %s</string>
+    <string name="chatbot_create_chat">Criar chat com %s</string>
+</resources>

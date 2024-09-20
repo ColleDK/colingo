@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Mangga turun miturut dangan sadaya - Miturutkeun mitra</string>
+    <string name="community_page_title">Anggota</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Mangga</string>
+    <string name="community_user_learns">Pangajaran</string>
+
+    <string name="community_ai_empty_title">No chatbots found</string>
+    <string name="community_ai_empty_subtitle">Cobi pangganti filter anjeun pikeun nyarioskeun sababaraha lepat chatbot.</string>
+    <string name="community_empty_title">Pamaké teu kapendak ditemukan</string>
+    <string name="community_empty_subtitle">Coba ngaturna deui filtur pikeun nyari langkung pangguna</string>
+
+    <string name="community_filters_limit">Pilih sampean %d basa anu rék dihasigud jeung pamaké anu harhaupan.</string>
+    <string name="community_filters_selected">%d/%d dipilih</string>
+    <string name="community_filters_clear">Hapus filter</string>
+    <string name="community_filters_your_languages">Bahasa nu sajurna</string>
+
+    <string name="chat_created_msg">Obrolan diciptakeun</string>
+    <string name="chatbot_created_msg">Obrolan diciptakeun kalawan %s</string>
+    <string name="chatbot_create_chat">Mimitian obrolan jeung %s</string>
+</resources>

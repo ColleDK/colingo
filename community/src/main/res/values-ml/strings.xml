@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ഭാഗികളെ കണ്ടെത്തുക</string>
+    <string name="community_page_title">അംഗങ്ങൾ</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">സംസാരിക്കുന്നു.</string>
+    <string name="community_user_learns">അറിയുക</string>
+
+    <string name="community_ai_empty_title">ചാറ്റ് ബോട്ടുകൾ കണ്ടുകിട്ടിയില്ല</string>
+    <string name="community_ai_empty_subtitle">Try updating your filters to find more chatbots.</string>
+    <string name="community_empty_title">ഉപയോക്താക്കൾ കണ്ടെത്തിയില്ല</string>
+    <string name="community_empty_subtitle">Try updating your filters to find more users.</string>
+
+    <string name="community_filters_limit">നിങ്ങൾക്ക് കാഴ്‌ച ചെയ്യുന്ന ഭാഷകളിൽ പുരോഗതിയുള്ള സംസാരികളെ കാണാൻ %d ഭാഷകൾ തിരഞ്ഞെടുക്കുക.</string>
+    <string name="community_filters_selected">%d/%d തിരഞ്ഞെടുത്തു</string>
+    <string name="community_filters_clear">ഫിൽട്ടർകൾ മായ്ച്ചു ഇല്ലാതാക്കുക</string>
+    <string name="community_filters_your_languages">നിങ്ങളുടെ നിലവിലെ ഭാഷകൾ</string>
+
+    <string name="chat_created_msg">ചാറ്റ് സൃഷ്ടിച്ചു കഴിഞ്ഞു</string>
+    <string name="chatbot_created_msg">ഉണ്ടായ ചാറ്റ് %s ഉപയോഗിച്ച് സൃഷ്ടിച്ചു</string>
+    <string name="chatbot_create_chat">ചാറ്റ് സൃഷ്ടിക്കുക %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">شراڪتڻدارو لابهو</string>
+    <string name="community_page_title">Rukun</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">گفتگو ٿيل ٿيي وڃو</string>
+    <string name="community_user_learns">سيکيل؍</string>
+
+    <string name="community_ai_empty_title">ڪيٽ بوٽس لاڱجيو نہين وٿو</string>
+    <string name="community_ai_empty_subtitle">انڪ به ڊاهين فلٽرس ۾ اپ ڊيٽ ڪرڻ کا چشت کريو، تاهو ٻه اُن جيدون چيٽ بٽس ٿاوٰنديونــــز کان ڳالهه پٺو ٿييو وڃ٦</string>
+    <string name="community_empty_title">No users found</string>
+    <string name="community_empty_subtitle">تفتيتن جي فلٽرز ڊپڙهن لاءِ اپڊيٽ ڪريو تہ اک ورتن دل وصول ڪريو</string>
+
+    <string name="community_filters_limit">اُنڌن اُپتو زبانن چُندا آهين جنھن سان آپ گريجن بڻڙندا ته شعور جو.</string>
+    <string name="community_filters_selected">%d/%d منتخب ٿياگيو آهي</string>
+    <string name="community_filters_clear">فلٽرون صاف ڪيو ڪريو</string>
+    <string name="community_filters_your_languages">توهان جاري ٻوليون</string>
+
+    <string name="chat_created_msg">چيٽ تخليق ٿيو ٿا</string>
+    <string name="chatbot_created_msg">مٽو %s سان ٽوق ٿيل ٻوليو ٽاپايل پا ٿو</string>
+    <string name="chatbot_create_chat">%s سان چيٽ بنايو</string>
+</resources>

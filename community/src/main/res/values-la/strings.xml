@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Inveni socios.</string>
+    <string name="community_page_title">Membra</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Loquitur</string>
+    <string name="community_user_learns">Discere</string>
+
+    <string name="community_ai_empty_title">No chatbots found</string>
+    <string name="community_ai_empty_subtitle">Try updating your filters to find more chatbots.</string>
+    <string name="community_empty_title">Nulli usores inventi</string>
+    <string name="community_empty_subtitle">Try updating your filters to find more users</string>
+
+    <string name="community_filters_limit">Elige usque ad %d linguas quas fluens oratores videre desideras.</string>
+    <string name="community_filters_selected">%d/%d electi</string>
+    <string name="community_filters_clear">Purga fīltras</string>
+    <string name="community_filters_your_languages">Tuae linguae actuales</string>
+
+    <string name="chat_created_msg">Chat creatum</string>
+    <string name="chatbot_created_msg">Chat created with %s</string>
+    <string name="chatbot_create_chat">Create chat with %s</string>
+</resources>

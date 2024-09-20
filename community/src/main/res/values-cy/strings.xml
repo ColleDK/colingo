@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Dod o hyd i bartneriaid</string>
+    <string name="community_page_title">Aelodau</string>
+    <string name="chatbot_page_title">Sgyrsiwr botynnau</string>
+    <string name="community_user_speaks">Siarad</string>
+    <string name="community_user_learns">Dysgu</string>
+
+    <string name="community_ai_empty_title">Dim botiau sgwrs yn cael eu darganfod</string>
+    <string name="community_ai_empty_subtitle">Rhowch gynnig ar ddiweddaru eich hidlwyr i ddod o hyd i fwy o chatbots.</string>
+    <string name="community_empty_title">Ni chanfuwyd defnyddwyr</string>
+    <string name="community_empty_subtitle">Rhowch gynnig ar ddiweddaru eich hidlyddion i ddod o hyd i fwy o ddefnyddwyr</string>
+
+    <string name="community_filters_limit">Dewiswch hyd at %d iaith yr hoffech weld siaradwyr rhugl ohonynt</string>
+    <string name="community_filters_selected">%d/%d etholwyd</string>
+    <string name="community_filters_clear">Clirio hidlwyr</string>
+    <string name="community_filters_your_languages">Eich ieithoedd presennol</string>
+
+    <string name="chat_created_msg">Sgwrs wedi\'i greu</string>
+    <string name="chatbot_created_msg">Sgwrs a grëwyd gyda %s</string>
+    <string name="chatbot_create_chat">Creu sgwrs gyda %s</string>
+</resources>

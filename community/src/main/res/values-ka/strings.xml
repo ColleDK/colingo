@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">პარტნიორების გაფორმება</string>
+    <string name="community_page_title">წევრები</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">ლაკონი</string>
+    <string name="community_user_learns">სწავლა</string>
+
+    <string name="community_ai_empty_title">ჩეთბოტები არ მოიძებნა</string>
+    <string name="community_ai_empty_subtitle">ცდილობენ განახლათ თქვენი ფილტრები, რათა მეტი ჩეთბოტი იპოვოთ</string>
+    <string name="community_empty_title">No users found</string>
+    <string name="community_empty_subtitle">ცდილობენი განახლებით შემისასწორებლებენ ფილტრებს რათა იპოვო მეტი მომხმარებელი.</string>
+
+    <string name="community_filters_limit">აირჩიეთ მაქსიმუმ %d ენა, რომლებშიც გსურთ მსოფლიოს ლაპარაკეები ნათევარში ხელი იყვანენ.</string>
+    <string name="community_filters_selected">%d/%d არჩეულია</string>
+    <string name="community_filters_clear">ფილტრების გასუფთავება</string>
+    <string name="community_filters_your_languages">თქვენი მიმდინარე ენები</string>
+
+    <string name="chat_created_msg">ჩეთი შეიქმნა</string>
+    <string name="chatbot_created_msg">ჩეთი შექმნილია %s-ით</string>
+    <string name="chatbot_create_chat">შექმენი ჩეთი %s</string>
+</resources>

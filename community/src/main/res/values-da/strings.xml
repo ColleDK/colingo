@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partnere</string>
+    <string name="community_page_title">Medlemmer</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Taler</string>
+    <string name="community_user_learns">Læring</string>
+
+    <string name="community_ai_empty_title">Ingen chatbots fundet</string>
+    <string name="community_ai_empty_subtitle">Prøv at opdatere dine filtre for at finde flere chatbots</string>
+    <string name="community_empty_title">Ingen brugere fundet</string>
+    <string name="community_empty_subtitle">Prøv at opdatere dine filtre for at finde flere brugere.</string>
+
+    <string name="community_filters_limit">Vælg op til %d sprog, du gerne vil se flydende talere fra.</string>
+    <string name="community_filters_selected">Tekst der skal oversættes: %d/%d valgt</string>
+    <string name="community_filters_clear">Fjern filtre</string>
+    <string name="community_filters_your_languages">Dine nuværende sprog</string>
+
+    <string name="chat_created_msg">Chat oprettet</string>
+    <string name="chatbot_created_msg">Chat oprettet med %s</string>
+    <string name="chatbot_create_chat">Opret chat med %s.</string>
+</resources>

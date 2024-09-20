@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hlola balemi</string>
+    <string name="community_page_title">Badiri</string>
+    <string name="chatbot_page_title">Ditokelo tsa tlhahlobo</string>
+    <string name="community_user_speaks">Thusa</string>
+    <string name="community_user_learns">Boemo</string>
+
+    <string name="community_ai_empty_title">Ha ho bonahale maikarabello a secha</string>
+    <string name="community_ai_empty_subtitle">Kopana le tšebeletso ea hao ho ka fumana lipotšo tse kang li botlolo tsa matleho a mahala</string>
+    <string name="community_empty_title">Ha se maikutlo aakaletsoše</string>
+    <string name="community_empty_subtitle">Hlōla ho thusa maikutlo a hau ho fumana baeta ba bangata mangata</string>
+
+    <string name="community_filters_limit">Khetha go %d dithulaganyo o ka ratang ho fumana batsoali ba basetsana ba ditlhamo kapa ba hlakuetsoe mahnaheng.</string>
+    <string name="community_filters_selected">%s/%s eteletswe</string>
+    <string name="community_filters_clear">Fokotho e fokolletšwe</string>
+    <string name="community_filters_your_languages">Dintlha tsa hao tse fetileng</string>
+
+    <string name="chat_created_msg">Sebaka seswa</string>
+    <string name="chatbot_created_msg">Boemo bo fumanehileng le %s</string>
+    <string name="chatbot_create_chat">Bontsha labohlano le %s</string>
+</resources>

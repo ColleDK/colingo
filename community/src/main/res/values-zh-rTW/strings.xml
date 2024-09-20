@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">找尋合作夥伴</string>
+    <string name="community_page_title">成員</string>
+    <string name="chatbot_page_title">聊天機器人</string>
+    <string name="community_user_speaks">說話</string>
+    <string name="community_user_learns">學習</string>
+
+    <string name="community_ai_empty_title">未找到聊天機器人</string>
+    <string name="community_ai_empty_subtitle">嘗試更新您的篩選器以找到更多的聊天機器人</string>
+    <string name="community_empty_title">找不到使用者</string>
+    <string name="community_empty_subtitle">嘗試更新您的篩選條件以找到更多使用者</string>
+
+    <string name="community_filters_limit">選擇最多%d種語言，您想看到會說流利的人。</string>
+    <string name="community_filters_selected">%d/%d 已選擇</string>
+    <string name="community_filters_clear">清除篩選器</string>
+    <string name="community_filters_your_languages">您目前的語言</string>
+
+    <string name="chat_created_msg">聊天已建立</string>
+    <string name="chatbot_created_msg">與 %s 建立的聊天</string>
+    <string name="chatbot_create_chat">建立與%s的聊天</string>
+</resources>

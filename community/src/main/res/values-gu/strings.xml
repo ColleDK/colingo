@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ભાગીદારો શોધો</string>
+    <string name="community_page_title">સભ્ય</string>
+    <string name="chatbot_page_title">ચેટબોટ્સ</string>
+    <string name="community_user_speaks">બોલે છે</string>
+    <string name="community_user_learns">શીક્ષણ</string>
+
+    <string name="community_ai_empty_title">કોઈ ચેટબોટ્સ મળ્યા નથી</string>
+    <string name="community_ai_empty_subtitle">વધુ ચેટબૉટ્સ શોધવા માટે તમારા ફિલ્ટર્સ અપડેટ કરવામાં પ્રયાસ કરો.</string>
+    <string name="community_empty_title">કોઈ વપરાશકર્તા મળ્યા નથી.</string>
+    <string name="community_empty_subtitle">વધુ વપરાશકર્તાઓ શોધવા માટે તમારા ફિલ્ટર્સને અપડેટ કરો ટ્રાય કરો.</string>
+
+    <string name="community_filters_limit">સુધરવામાં જેતલી ભાષાઓ મોકલવી ઈચ્છો છો, તે ચૂકવો: %d પેટેન્ટમાં ઈચ્છો છો.</string>
+    <string name="community_filters_selected">%d/%d પસંદ કર્યું</string>
+    <string name="community_filters_clear">ફિલ્ટર્સ સાફ કરો</string>
+    <string name="community_filters_your_languages">તમારી વર્તમાન ભાષાઓ</string>
+
+    <string name="chat_created_msg">ચેટ બનાવ્યું</string>
+    <string name="chatbot_created_msg">સાથે બનાવેલ ચેટ %s સાથે</string>
+    <string name="chatbot_create_chat">સાથે ચેટ બનાવો %s</string>
+</resources>

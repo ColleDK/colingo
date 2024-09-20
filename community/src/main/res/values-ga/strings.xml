@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Aimsigh comhpháirtithe</string>
+    <string name="community_page_title">Baill</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Labhraíonn</string>
+    <string name="community_user_learns">Léamh</string>
+
+    <string name="community_ai_empty_title">Níor aimsíodh aon chatbotanna</string>
+    <string name="community_ai_empty_subtitle">Déan iarracht d\'fhiltreacha a nuashonrú chun níos mó chatbots a aimsiú</string>
+    <string name="community_empty_title">Níor aimsíodh aon úsáideoirí</string>
+    <string name="community_empty_subtitle">Déan iarracht do chuid scagairí a nuashonrú chun níos mó úsáideoirí a aimsiú.</string>
+
+    <string name="community_filters_limit">Roghnaigh suas go dtí %d teanga ar mhaith leat a fheiceáil cainteoirí líofa acu.</string>
+    <string name="community_filters_selected">%d/%d roghnaithe</string>
+    <string name="community_filters_clear">Glan na scagairí</string>
+    <string name="community_filters_your_languages">Do chuid teangacha faoi láthair</string>
+
+    <string name="chat_created_msg">Comhrá cruthaithe</string>
+    <string name="chatbot_created_msg">Comhrá cruthaithe le %s</string>
+    <string name="chatbot_create_chat">Cruthaigh caint le %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Vakasaqarai na matanitu.</string>
+    <string name="community_page_title">Nodra lewe ni Lotu</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Vosa.</string>
+    <string name="community_user_learns">Vakavinavinaka</string>
+
+    <string name="community_ai_empty_title">E sega ni kunea na chatbots</string>
+    <string name="community_ai_empty_subtitle">Try updating your filters to find more chatbots</string>
+    <string name="community_empty_title">E sega ni kunea na tagane mai.</string>
+    <string name="community_empty_subtitle">Dodonu vanuinui e rawa ni vakarairaitaki vakatabui dei mo dou lewe levu tu vei ira na kai-ni-wiliwili e dau qaravi.</string>
+
+    <string name="community_filters_limit">Digitaka me vaka na %d walega ni veivosaki ko sa digitaka me raica na kena vuku na dauveivosaki.</string>
+    <string name="community_filters_selected">%d/%d sa digitaka</string>
+    <string name="community_filters_clear">Vakarusia na filta.</string>
+    <string name="community_filters_your_languages">Yagomuni nomuni vakavinavinakataki ni veivakavuna ni uluqu e vakayagataka.</string>
+
+    <string name="chat_created_msg">Sulusulu sa vakadonui</string>
+    <string name="chatbot_created_msg">Chat sa buli vata kei %s</string>
+    <string name="chatbot_create_chat">Vakayagataka na veitarogi kei %s</string>
+</resources>

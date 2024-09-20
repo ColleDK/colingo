@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Wọ inawo</string>
+    <string name="community_page_title">Ọmọ-ọmọ</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Ma fa.</string>
+    <string name="community_user_learns">Ọrọ ti a ṣe aṣayan</string>
+
+    <string name="community_ai_empty_title">Ko si botu iwe ati botu iwe oda</string>
+    <string name="community_ai_empty_subtitle">Se fi aworan rẹ maape si opin ibeere lati wa chatbots kunọ.</string>
+    <string name="community_empty_title">Ko si olumoran ti a pe.</string>
+    <string name="community_empty_subtitle">Ṣèrọ filters rẹ lati ṣe iwọn niwọn o lele diẹ ninu awọn olumulo miiran.</string>
+
+    <string name="community_filters_limit">Firan awọn %d ede tí o fẹ irọran eniyan tuntun ti o ní iṣẹ rẹ ninu wọn</string>
+    <string name="community_filters_selected">%d/%d ti a ti yan</string>
+    <string name="community_filters_clear">Ṣee filitẹri wa ju oke</string>
+    <string name="community_filters_your_languages">Awọn ede ti o wa ninu yẹ nu ni.</string>
+
+    <string name="chat_created_msg">Ọrọ rọrun ti ṣe itumọ.</string>
+    <string name="chatbot_created_msg">Awọn imọ̣ ti ṣe pẹlu %s</string>
+    <string name="chatbot_create_chat">Kuro iranlọwọ fayọ si %s</string>
+</resources>

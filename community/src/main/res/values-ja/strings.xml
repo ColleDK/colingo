@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">パートナーを見つける</string>
+    <string name="community_page_title">メンバー</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">話します</string>
+    <string name="community_user_learns">学習</string>
+
+    <string name="community_ai_empty_title">チャットボットが見つかりません</string>
+    <string name="community_ai_empty_subtitle">フィルターを更新して、より多くのチャットボットを見つけてみてください</string>
+    <string name="community_empty_title">ユーザーが見つかりません</string>
+    <string name="community_empty_subtitle">Try updating your filters to find more users.</string>
+
+    <string name="community_filters_limit">最大%d言語まで選択して、流暢な話者を表示します</string>
+    <string name="community_filters_selected">%d/%d 選択済み</string>
+    <string name="community_filters_clear">フィルターをクリア</string>
+    <string name="community_filters_your_languages">現在の言語</string>
+
+    <string name="chat_created_msg">チャットが作成されました</string>
+    <string name="chatbot_created_msg">チャットは%sで作成されました。</string>
+    <string name="chatbot_create_chat">%s でチャットを作成します</string>
+</resources>

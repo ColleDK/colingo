@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">साथी शोधा</string>
+    <string name="community_page_title">सदस्य</string>
+    <string name="chatbot_page_title">चॅटबॉट्स</string>
+    <string name="community_user_speaks">बोलतं</string>
+    <string name="community_user_learns">शिकणे</string>
+
+    <string name="community_ai_empty_title">कोणतेही चॅटबॉट सापडले नाहीत</string>
+    <string name="community_ai_empty_subtitle">तुमच्या फिल्टर्स सुधारण्याचा प्रयत्न करा आणि अधिक चॅटबॉट्स सापडण्यात समर्थ व्हा.</string>
+    <string name="community_empty_title">वापरकर्ते सापडले नाहीत</string>
+    <string name="community_empty_subtitle">अधिक वापरकर्त्यांची शोधात, आपली फिल्टर्स अपडेट करण्याचा प्रयत्न करा.</string>
+
+    <string name="community_filters_limit">उत्तम बोलणाऱ्यांचा दृश्य करण्यासाठी %d भाषांचा निवड निवडा</string>
+    <string name="community_filters_selected">%d/%d निवडले गेले</string>
+    <string name="community_filters_clear">फिल्टर साफ करा</string>
+    <string name="community_filters_your_languages">तुमच्या वर्तमान भाषांची</string>
+
+    <string name="chat_created_msg">चॅट सिर्जनेला आहे</string>
+    <string name="chatbot_created_msg">%s सह ओळखाची चॅट तयार केली.</string>
+    <string name="chatbot_create_chat">%sसह चॅट तयार करा</string>
+</resources>

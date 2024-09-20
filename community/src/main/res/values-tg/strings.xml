@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ҳамкоронро ҷустуҷӯ кунед</string>
+    <string name="community_page_title">Аъзолар</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Гап медорад</string>
+    <string name="community_user_learns">Илм ёфтан</string>
+
+    <string name="community_ai_empty_title">Ҳеҷ четанхои чат нашуданд</string>
+    <string name="community_ai_empty_subtitle">Омӯз кунед ва филтрҳои худро навсозӣ кунед барои ёфтани четехаи иловаӣ.</string>
+    <string name="community_empty_title">Корбарон ворид накарда шуд.</string>
+    <string name="community_empty_subtitle">Онгорҳои худро нашро кунед, корбарони зиёдро нашро кунед.</string>
+
+    <string name="community_filters_limit">Интихоби ни то %d забонро ки шумо истифода барорасонро дар кор бароварда гузаронед</string>
+    <string name="community_filters_selected">%d/%d интихоб кардашуданд</string>
+    <string name="community_filters_clear">Ҷадвали рӯйхатро тоза кардан</string>
+    <string name="community_filters_your_languages">Забонҳои шумоҳо- Ok</string>
+
+    <string name="chat_created_msg">Қалеъ баҳро зоддор шуд.</string>
+    <string name="chatbot_created_msg">Қайрат интихоб шудааст бо %s</string>
+    <string name="chatbot_create_chat">Суҳба_созӣ бо %s созед</string>
+</resources>

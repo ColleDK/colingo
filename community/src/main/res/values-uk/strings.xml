@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Знайти партнерів</string>
+    <string name="community_page_title">Учасники</string>
+    <string name="chatbot_page_title">Чат-боти</string>
+    <string name="community_user_speaks">Говорить</string>
+    <string name="community_user_learns">Навчання</string>
+
+    <string name="community_ai_empty_title">Не знайдено чат-ботів</string>
+    <string name="community_ai_empty_subtitle">Спробуйте оновити свої фільтри, щоб знайти більше чат-ботів</string>
+    <string name="community_empty_title">Користувачів не знайдено</string>
+    <string name="community_empty_subtitle">Спробуйте оновити свої фільтри, щоб знайти більше користувачів.</string>
+
+    <string name="community_filters_limit">Оберіть до %d мов, з яких ви хочете бачити відмінних співрозмовників.</string>
+    <string name="community_filters_selected">Обрано: %d/%d</string>
+    <string name="community_filters_clear">Очистити фільтри</string>
+    <string name="community_filters_your_languages">Ваші поточні мови.</string>
+
+    <string name="chat_created_msg">Чат створено</string>
+    <string name="chatbot_created_msg">Чат створений з %s</string>
+    <string name="chatbot_create_chat">Створити чат з %s</string>
+</resources>

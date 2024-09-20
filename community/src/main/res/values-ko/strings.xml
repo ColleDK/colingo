@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">파트너 찾기</string>
+    <string name="community_page_title">회원</string>
+    <string name="chatbot_page_title">챗봇</string>
+    <string name="community_user_speaks">말합니다</string>
+    <string name="community_user_learns">학습</string>
+
+    <string name="community_ai_empty_title">챗봇을 찾을 수 없습니다</string>
+    <string name="community_ai_empty_subtitle">챗봇을 더 찾기 위해 필터를 업데이트해 보세요.</string>
+    <string name="community_empty_title">사용자를 찾을 수 없습니다</string>
+    <string name="community_empty_subtitle">사용자를 더 많이 찾기 위해 필터를 업데이트해 보세요.</string>
+
+    <string name="community_filters_limit">%d개 까지 원하는 언어를 선택하여 유창한 사용자를 볼 수 있습니다</string>
+    <string name="community_filters_selected">선택됨: %d/%d</string>
+    <string name="community_filters_clear">필터 지우기</string>
+    <string name="community_filters_your_languages">현재 사용 중인 언어</string>
+
+    <string name="chat_created_msg">채팅이 생성되었습니다</string>
+    <string name="chatbot_created_msg">대화가 %s로 생성되었습니다</string>
+    <string name="chatbot_create_chat">%s와 채팅 생성하기</string>
+</resources>
