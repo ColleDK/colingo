@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Toe fa\'aalogoina</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Fa\'ailoa i lelei pe fa\'amalie atu</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">O le maua atu i le mea misimisi</string>
+    <string name="onboarding_go_back">Faisua i tua</string>
+
+    <!-- Log in -->
+    <string name="login_title">Talofa lava!</string>
+    <string name="login_subtitle">Faʻamau i lou suʻesuʻega i lau aveta\'avale</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Talatalanoa le pepe i le faitau sina e te le mafai ona inisinia fa\'ailoaina.</string>
+    <string name="login_login_btn">Toe fa\'aalogoina</string>
+    <string name="login_go_to_signup_1">E leai se au i le fa\'aalilolilo i le taimi nei\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Fa\'aafoi upu su\'esu\'ega</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Faafoe</string>
+    <string name="signup_subtitle">Faʻafoe lou upu maualuga</string>
+    <string name="signup_name_hint">Igoa</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Fa\'amaumau le polo-fa\'ailoa</string>
+    <string name="signup_signup_btn">Faafoe</string>
+    <string name="signup_go_to_login_1">O le\'u e te le o se tiliaina\?</string>
+    <string name="signup_go_to_login_2">Toe fa\'aalogoina</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Fa\'ata\'ita\'i</string>
+    <string name="setup_profile_skip">Talutenelenekei.</string>
+    <string name="add_picture_title">Fa\'ailoa fa\'atauvae.</string>
+    <string name="add_picture_subtitle">Fa\'asa ona au\'ili atunuu o le laisene</string>
+    <string name="add_languages_title">Fa\'ailoa fa\'atauvae.</string>
+    <string name="add_languages_subtitle">Filifili i gagana</string>
+    <string name="add_languages_select_proficiency">Filifili se avanoa maualuga</string>
+    <string name="add_languages_select_language">Filifili le gagana</string>
+    <string name="add_languages_add_language">Fa\'afeso\'ota\'i fa\'ailoa</string>
+    <string name="add_language_select">Tili</string>
+    <string name="add_language_cancel">Fa\'afesiligia</string>
+    <string name="select_gender_title">Fa\'ailoa fa\'atauvae.</string>
+    <string name="select_gender_subtitle">Filifili le faʻasinomaga</string>
+    <string name="select_topics_title">Fa\'ailoa fa\'atauvae.</string>
+    <string name="select_topics_subtitle">Filifili atu fesoasoani</string>
+    <string name="add_description_title">Fa\'ailoa fa\'atauvae.</string>
+    <string name="add_description_subtitle">Faamalie atu, faamalie atu mo le faamaoni faamalie i lea e uiga i luga o lea.</string>
+    <string name="add_description_birthday_hint">Afioaga</string>
+    <string name="add_description_birthday_select">Tili</string>
+    <string name="add_description_birthday_cancel">Fa\'afesiligia</string>
+    <string name="add_description_location_hint">Talatalanoa</string>
+    <string name="add_description_description_hint">Fa\'aaliga</string>
+</resources>

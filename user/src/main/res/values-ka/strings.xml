@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">ცხოვრებანი</string>
+    <string name="topic_cooking">კულინარია</string>
+    <string name="topic_theater">თეატრი</string>
+    <string name="topic_partying">დასასრული</string>
+    <string name="topic_biking">ველოსიპედოზე</string>
+    <string name="topic_camping">კამპინგი</string>
+    <string name="topic_fitness">ფიტნესი</string>
+    <string name="topic_meditation">მედიტაცია</string>
+    <string name="topic_movie">ფილმები</string>
+    <string name="topic_music">მუსიკა</string>
+    <string name="topic_painting">ხატვა</string>
+    <string name="topic_physics">ფიზიკა</string>
+    <string name="topic_reading">წაკითხვა</string>
+    <string name="topic_science">მეცნიერება</string>
+    <string name="topic_sports">სპორტი</string>
+    <string name="topic_swimming">მწევება</string>
+    <string name="topic_technology">ტექნოლოგია</string>
+    <string name="topic_videogame">ვიდეო თამაშები</string>
+</resources>

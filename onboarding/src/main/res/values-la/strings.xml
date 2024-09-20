@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Aut pergere cum</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">Revertere.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Salve redux!</string>
+    <string name="login_subtitle">Accede ad tuum rationem.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Forgot password\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Haudne habeas adhuc rationem\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Reset password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registra</string>
+    <string name="signup_subtitle">Create your account.</string>
+    <string name="signup_name_hint">Nomen</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Confirma password</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Already have an account\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Sequenti</string>
+    <string name="setup_profile_finish">Finire</string>
+    <string name="setup_profile_skip">Omittere</string>
+    <string name="add_picture_title">Configuratio profili</string>
+    <string name="add_picture_subtitle">Addere imaginem profili</string>
+    <string name="add_languages_title">Configuratio profili</string>
+    <string name="add_languages_subtitle">Select languages</string>
+    <string name="add_languages_select_proficiency">Elige peritiam</string>
+    <string name="add_languages_select_language">Select language</string>
+    <string name="add_languages_add_language">Addere linguam</string>
+    <string name="add_language_select">Elige</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="select_gender_title">Configura profilum</string>
+    <string name="select_gender_subtitle">Elige genus</string>
+    <string name="select_topics_title">Configura profilum</string>
+    <string name="select_topics_subtitle">Elige temas</string>
+    <string name="add_description_title">Configura profilum</string>
+    <string name="add_description_subtitle">Addi aliquam informationem de te</string>
+    <string name="add_description_birthday_hint">Dies natalis</string>
+    <string name="add_description_birthday_select">Elige</string>
+    <string name="add_description_birthday_cancel">Cancel</string>
+    <string name="add_description_location_hint">Locatio</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

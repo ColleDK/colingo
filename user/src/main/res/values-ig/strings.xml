@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Anụụbe</string>
+    <string name="topic_cooking">Igbo Translation: Ntụzi</string>
+    <string name="topic_theater">Okọọka</string>
+    <string name="topic_partying">Ọbụghịanya</string>
+    <string name="topic_biking">Ije okpochapụ nri</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Ikwado</string>
+    <string name="topic_movie">Nollywood Aghazie</string>
+    <string name="topic_music">Egwu</string>
+    <string name="topic_painting">Ịnyefu</string>
+    <string name="topic_physics">Fiziksị</string>
+    <string name="topic_reading">Ihe ahụ: Ikike</string>
+    <string name="topic_science">Ntụta</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Nkwucha</string>
+    <string name="topic_technology">Nkọwa</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

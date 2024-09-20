@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ဝင်မည်</string>
+    <string name="onboarding_signup_btn">စာရင်းသွင်းပါ</string>
+    <string name="onboarding_other_title">သွားယူရန်သို့မဟုတ် ဆက်လက်ဆိုမှုထပ်ကျမ်းရေးနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်းနည်း</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">ဧည့်သည့်လူပိုင်း ဆက်သွယ်ရန်</string>
+    <string name="onboarding_go_back">နောက်သို့ပြန်ပါ</string>
+
+    <!-- Log in -->
+    <string name="login_title">မင်္ဂလာပါပြီ!</string>
+    <string name="login_subtitle">သင်၏အကောင့်သို့ဝင်ရောက်ပါ</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">စကားဝှက်</string>
+    <string name="login_forgot_password">စကား နံပါတ် မေ့သိခဲ့သလား\?</string>
+    <string name="login_login_btn">ဝင်မည်</string>
+    <string name="login_go_to_signup_1">အက္ပလီကို ရှာဖွေလိုပါသည်မှာမဟုတ်ပါဘူးသော်လား\?</string>
+    <string name="login_go_to_signup_2">စာရင်းသွင်းပါ</string>
+    <string name="login_reset_password">လျှို့ဝှက်ကို အထက်ပါအတိုင်းစကိုကိုယ်ပြင်မည်</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">မှတ်ပုံတင်ပါ</string>
+    <string name="signup_subtitle">သင့်အကောင့်ကို ဖွင့်ပါ</string>
+    <string name="signup_name_hint">နာမည်</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">စကားဝှက်</string>
+    <string name="signup_confirm_password_hint">စကားဝှက်အတည်ပြုရန်</string>
+    <string name="signup_signup_btn">မှတ်ပုံတင်ပါ</string>
+    <string name="signup_go_to_login_1">အကောင့်သည်ပြီးပြီရှင်လိုအပ်ပါသလား\?</string>
+    <string name="signup_go_to_login_2">ဝင်မည်</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">နောက်ထပ်</string>
+    <string name="setup_profile_finish">ပြီ</string>
+    <string name="setup_profile_skip">ချိတ်ဆက်ပါ</string>
+    <string name="add_picture_title">ပရေအတွက် ပရေအတွက်ကို ပွဲတရေးခြင်း</string>
+    <string name="add_picture_subtitle">ပရိုိးရှင် ပုံတင်ပါ</string>
+    <string name="add_languages_title">ပရေအတွက် ပရေအတွက်ကို ပွဲတရေးခြင်း</string>
+    <string name="add_languages_subtitle">ဘာသာစကားများရွေးပါ</string>
+    <string name="add_languages_select_proficiency">Select proficiency</string>
+    <string name="add_languages_select_language">ဘာသာစကားကို ရွေးပါ</string>
+    <string name="add_languages_add_language">ဘာသာစကား ထည့်ပါ</string>
+    <string name="add_language_select">ရွေးချယ်ရန်</string>
+    <string name="add_language_cancel">ဖျက်သိမ်းပါ</string>
+    <string name="select_gender_title">ပရေအတွက် ပရေအတွက်ကို ပွဲတရေးခြင်း</string>
+    <string name="select_gender_subtitle">Select gender</string>
+    <string name="select_topics_title">ပရေအတွက် ပရေအတွက်ကို ပွဲတရေးခြင်း</string>
+    <string name="select_topics_subtitle">အားလုံးအကြောင်းအရာများရွေးချယ်ပါ</string>
+    <string name="add_description_title">ပရေအတွက် ပရေအတွက်ကို ပွဲတရေးခြင်း</string>
+    <string name="add_description_subtitle">သင့်အကြောင်းအရာအကြောင်းဆိုပါရန်။</string>
+    <string name="add_description_birthday_hint">မွေးသက္ကရာေလး</string>
+    <string name="add_description_birthday_select">ရွေးချယ်ရန်</string>
+    <string name="add_description_birthday_cancel">ဖျက်သိမ်းပါ</string>
+    <string name="add_description_location_hint">တည်နေရာ</string>
+    <string name="add_description_description_hint">ဖော်ပြချက်</string>
+</resources>

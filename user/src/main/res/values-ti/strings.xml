@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">እንስሳዎች</string>
+    <string name="topic_cooking">የምግብ መግዝት</string>
+    <string name="topic_theater">ቦታ</string>
+    <string name="topic_partying">ግበር።</string>
+    <string name="topic_biking">ሰንኩሉ</string>
+    <string name="topic_camping">ክንፈላንግ</string>
+    <string name="topic_fitness">ኮምፒዎት</string>
+    <string name="topic_meditation">ምላሽ</string>
+    <string name="topic_movie">ሚኪስ</string>
+    <string name="topic_music">ሙዚቃ</string>
+    <string name="topic_painting">ምርጥ መጽሓፍ</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">ለትምህር ንኽሰምዕ</string>
+    <string name="topic_science">ስድርን ትምህርቲ ሓበሬ ነቲ ነብሲ ኢልናሽሕኹም፡ ሓዳሽ ኩኒምካOK</string>
+    <string name="topic_sports">ስፖርቶች</string>
+    <string name="topic_swimming">ክፍሊ</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">ቪድዮ ጨዝበታ</string>
+</resources>

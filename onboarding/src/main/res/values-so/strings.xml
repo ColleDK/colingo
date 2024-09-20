@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Culingo</string>
+    <string name="onboarding_login_btn">Soo gal</string>
+    <string name="onboarding_signup_btn">Iskuday</string>
+    <string name="onboarding_other_title">Sigana ama daal.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Ku sii daaya sidii tale oo ah</string>
+    <string name="onboarding_go_back">Carruur soo noqo</string>
+
+    <!-- Log in -->
+    <string name="login_title">So dhawoow Horta!</string>
+    <string name="login_subtitle">Soo gal xisaabkaada</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Furahaar.</string>
+    <string name="login_forgot_password">Waa maxaa loo fiirin karaa erayga sirta ah\?</string>
+    <string name="login_login_btn">Soo gal</string>
+    <string name="login_go_to_signup_1">Ma haysan akawntka\?</string>
+    <string name="login_go_to_signup_2">Iskuday</string>
+    <string name="login_reset_password">Codsiga dheeriga</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Abuur akaawntkaaga</string>
+    <string name="signup_name_hint">Magac</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Furahaar.</string>
+    <string name="signup_confirm_password_hint">Xaqiiji erayga sirta ah</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Hadda ma helid akoonka\?</string>
+    <string name="signup_go_to_login_2">Soo gal</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Koortii soo socda</string>
+    <string name="setup_profile_finish">Dhammaad</string>
+    <string name="setup_profile_skip">Ka bax</string>
+    <string name="add_picture_title">Suurtogelabe Profilka</string>
+    <string name="add_picture_subtitle">Ku dar sawirga profaylka</string>
+    <string name="add_languages_title">Suurtogelabe Profilka</string>
+    <string name="add_languages_subtitle">Xulo afafka</string>
+    <string name="add_languages_select_proficiency">Xulo hawlahaaga ummadaqaanka</string>
+    <string name="add_languages_select_language">Xulo luqadda</string>
+    <string name="add_languages_add_language">Ku dar afka</string>
+    <string name="add_language_select">Xulo</string>
+    <string name="add_language_cancel">Fariista</string>
+    <string name="select_gender_title">Suurtogelabe Profilka</string>
+    <string name="select_gender_subtitle">Xulo jinsiga</string>
+    <string name="select_topics_title">Suurtogelabe Profilka</string>
+    <string name="select_topics_subtitle">Xulo mawduucyada</string>
+    <string name="add_description_title">Suurtogelabe Profilka</string>
+    <string name="add_description_subtitle">Ku dar macluumaad ku saabsan awoodaaggaaga</string>
+    <string name="add_description_birthday_hint">Dhalasho</string>
+    <string name="add_description_birthday_select">Xulo</string>
+    <string name="add_description_birthday_cancel">Fariista</string>
+    <string name="add_description_location_hint">Goobta</string>
+    <string name="add_description_description_hint">Qoraalka</string>
+</resources>

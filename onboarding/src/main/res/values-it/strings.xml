@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Accedi</string>
+    <string name="onboarding_signup_btn">Iscriviti</string>
+    <string name="onboarding_other_title">Oppure continua con</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continua come ospite</string>
+    <string name="onboarding_go_back">Torna indietro</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ben tornato!</string>
+    <string name="login_subtitle">Accedi al tuo account</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Password dimenticata\?</string>
+    <string name="login_login_btn">Accedi</string>
+    <string name="login_go_to_signup_1">Non hai ancora un account\?</string>
+    <string name="login_go_to_signup_2">Iscriviti</string>
+    <string name="login_reset_password">Reimposta password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrati</string>
+    <string name="signup_subtitle">Crea il tuo account</string>
+    <string name="signup_name_hint">Nome</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Conferma password</string>
+    <string name="signup_signup_btn">Registrati</string>
+    <string name="signup_go_to_login_1">Hai già un account\?</string>
+    <string name="signup_go_to_login_2">Accedi</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Fine</string>
+    <string name="setup_profile_skip">Salta</string>
+    <string name="add_picture_title">Impostazioni profilo</string>
+    <string name="add_picture_subtitle">Aggiungi foto del profilo</string>
+    <string name="add_languages_title">Impostazioni profilo</string>
+    <string name="add_languages_subtitle">Seleziona lingue</string>
+    <string name="add_languages_select_proficiency">Seleziona la competenza</string>
+    <string name="add_languages_select_language">Seleziona lingua</string>
+    <string name="add_languages_add_language">Aggiungi lingua</string>
+    <string name="add_language_select">Seleziona</string>
+    <string name="add_language_cancel">Annulla</string>
+    <string name="select_gender_title">Impostare profilo</string>
+    <string name="select_gender_subtitle">Seleziona genere</string>
+    <string name="select_topics_title">Impostare profilo</string>
+    <string name="select_topics_subtitle">Seleziona argomenti</string>
+    <string name="add_description_title">Impostazioni del profilo</string>
+    <string name="add_description_subtitle">Aggiungi alcune informazioni su di te.</string>
+    <string name="add_description_birthday_hint">Compleanno</string>
+    <string name="add_description_birthday_select">Seleziona</string>
+    <string name="add_description_birthday_cancel">Cancella</string>
+    <string name="add_description_location_hint">Posizione</string>
+    <string name="add_description_description_hint">Descrizione</string>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Cilingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Seqa kitaka e cake vata mai</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Ravi yani me vula ni vulagi</string>
+    <string name="onboarding_go_back">Lako talemai</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ni sa moce mada!</string>
+    <string name="login_subtitle">Curriculum Vitae ki na nomu aakaunti</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Taukena mo ni vosoti...</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">E sega ni dua e dua na akauni e na gauna edaidai\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Vakaduria na cakacaka ni vakayagataki.</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Daunimataka</string>
+    <string name="signup_subtitle">Sereki na nomu akauni</string>
+    <string name="signup_name_hint">Emeni</string>
+    <string name="signup_email_hint">Emeli</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Vakadinata na kuita (“Confirm password”)</string>
+    <string name="signup_signup_btn">Dauregister</string>
+    <string name="signup_go_to_login_1">Text to translate: Already have an account\?
+Sai koya mada e dua na akauni\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Sa yaco mai me vaka talega na 🟢.</string>
+    <string name="setup_profile_finish">Vakaoti</string>
+    <string name="setup_profile_skip">Sere</string>
+    <string name="add_picture_title">Thaga na vakayagataka ni soli ni bula</string>
+    <string name="add_picture_subtitle">Vakayagataka na iTukutuku ni Aakau ni Vola ni yavu ni Vale ni yau ni Mbete ni dromo ni ituvatu ni nona iVakamere ni vola ni Gadreva ni vakararavi ni cookware iMenu ni nodratou manumanu ni yavu ni Vale ni Mbete.</string>
+    <string name="add_languages_title">Thaga na vakayagataka ni soli ni bula</string>
+    <string name="add_languages_subtitle">Sili e na dabe ni vosa.</string>
+    <string name="add_languages_select_proficiency">Drauni mai na vakayakinakina</string>
+    <string name="add_languages_select_language">Vakaraitaka na vosa</string>
+    <string name="add_languages_add_language">Vakaraitaka na vosa</string>
+    <string name="add_language_select">Sili tiko.</string>
+    <string name="add_language_cancel">Sosovu</string>
+    <string name="select_gender_title">Veiyacavi ni vakarautaki profaili</string>
+    <string name="select_gender_subtitle">Sila mai na waitui</string>
+    <string name="select_topics_title">Veiyacavi ni vakarautaki profaili</string>
+    <string name="select_topics_subtitle">Sila na topics</string>
+    <string name="add_description_title">Setting: Suka tukutuku</string>
+    <string name="add_description_subtitle">Add some information about yourself</string>
+    <string name="add_description_birthday_hint">Siga ni sucu ni nomu siga tabu</string>
+    <string name="add_description_birthday_select">Sila</string>
+    <string name="add_description_birthday_cancel">Sogota</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Vasamacala</string>
+</resources>

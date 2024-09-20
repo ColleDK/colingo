@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Mga hayop</string>
+    <string name="topic_cooking">Pagluto</string>
+    <string name="topic_theater">Teatro.</string>
+    <string name="topic_partying">Paghandom</string>
+    <string name="topic_biking">Pagsakay og bisikleta</string>
+    <string name="topic_camping">Campohan</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Pamalandong</string>
+    <string name="topic_movie">Mga pelikula</string>
+    <string name="topic_music">Musika</string>
+    <string name="topic_painting">Paghimog lubnganan</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Pagbasa</string>
+    <string name="topic_science">Siensya</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Paglangoy</string>
+    <string name="topic_technology">Teknolohiya</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

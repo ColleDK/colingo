@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">K\'u\'uchul ka\'anal.</string>
+    <string name="onboarding_signup_btn">Regístrese</string>
+    <string name="onboarding_other_title">Continuar ti\' u puksi\'ik.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Kabah ti\' kaxtah mehen.</string>
+    <string name="onboarding_go_back">Regrese.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Kíimak k\'áata\'al!</string>
+    <string name="login_subtitle">In kaajal ti\' le k\'iino\' ti\'.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Conëm naj.</string>
+    <string name="login_forgot_password">Tu\'ux ku meyajkabo\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Ma\' u túumben ka\'ansaj ti\' le jats\'uts le\?</string>
+    <string name="login_go_to_signup_2">Bix uchbenal.</string>
+    <string name="login_reset_password">Resetea contraseña</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registra.</string>
+    <string name="signup_subtitle">Ku utia\'al ka\'anal ti\'ikbal.</string>
+    <string name="signup_name_hint">U yéetel</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Yéetel contraseña</string>
+    <string name="signup_confirm_password_hint">K\'aaba\' wíinkil utsil táan in kúuchil.</string>
+    <string name="signup_signup_btn">Registreyle\'</string>
+    <string name="signup_go_to_login_1">Ja\'abil tu beetike\'\?</string>
+    <string name="signup_go_to_login_2">Ingresar</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Tu\'ux ka\'anal.</string>
+    <string name="setup_profile_finish">Báaxal ku taan.</string>
+    <string name="setup_profile_skip">Kaayupaten.</string>
+    <string name="add_picture_title">Kaambalo\'ob le perfil</string>
+    <string name="add_picture_subtitle">Kaxtik u ka\'at le luk\'umil perfil</string>
+    <string name="add_languages_title">Kaambalo\'ob le perfil</string>
+    <string name="add_languages_subtitle">K\'atúul u tial.;</string>
+    <string name="add_languages_select_proficiency">U suumaj u yéetel úuchben.</string>
+    <string name="add_languages_select_language">Ku selekshon tuukul.</string>
+    <string name="add_languages_add_language">Sáasik le k\'áatunba\'</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">U k\'uchul.</string>
+    <string name="select_gender_title">Bix utsil perfil</string>
+    <string name="select_gender_subtitle">Elija le ma\' bech.</string>
+    <string name="select_topics_title">Bix utsil perfil</string>
+    <string name="select_topics_subtitle">U suumak kaajal u k\'aaba\'ob.</string>
+    <string name="add_description_title">Configurar perfil</string>
+    <string name="add_description_subtitle">Ku tsikbal ti\' u yéetel ba\'ax Je\'el.</string>
+    <string name="add_description_birthday_hint">K\'íinil u kreación u chúumuk.</string>
+    <string name="add_description_birthday_select">Seleccione</string>
+    <string name="add_description_birthday_cancel">Baax meyah.</string>
+    <string name="add_description_location_hint">Ubicación</string>
+    <string name="add_description_description_hint">Descripción</string>
+</resources>

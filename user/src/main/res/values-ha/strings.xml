@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Zuwa Horo da Maluwar Ma\'aigida.</string>
+    <string name="topic_cooking">Ƙara wuya</string>
+    <string name="topic_theater">Theater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Karin Tsurara</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Finafin Ƙayyade</string>
+    <string name="topic_music">Mawakin baya</string>
+    <string name="topic_painting">Ranar tsari</string>
+    <string name="topic_physics">Fisiks</string>
+    <string name="topic_reading">Karatu</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Wasanni</string>
+    <string name="topic_swimming">Kyauta</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

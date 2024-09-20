@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">သက်တမီးများ</string>
+    <string name="topic_cooking">ထုတ်ဝေခြင်း</string>
+    <string name="topic_theater">ဇာတ္သာရီ</string>
+    <string name="topic_partying">စစ်လှုပ်စစ်</string>
+    <string name="topic_biking">ယှဉ်ယှဉ်လျှောက်ထွက်လှပ်ပါရှင်လူတစ်ယောက်တည်းယှဉ်ယှဉ်လျှောက်ထွက်နောက်သိန်းလှပ်လို့ရပါလိမ့်မယ်။</string>
+    <string name="topic_camping">ညာေရာင္ဆိုင္</string>
+    <string name="topic_fitness">အဆေဖ</string>
+    <string name="topic_meditation">ဧည့််ဃိည်မာစီမဴိတ္</string>
+    <string name="topic_movie">ရုပ်ရှင်များ</string>
+    <string name="topic_music">ဂီတ</string>
+    <string name="topic_painting">ပန်းချီ</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">ဖတ်</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">အားလုံး</string>
+    <string name="topic_swimming">ညာနှင့်ရေး</string>
+    <string name="topic_technology">နာကျင့်သင်ခန့်</string>
+    <string name="topic_videogame">ဗိုဒ်ဝိုင်းကိုရອုဟ်ကွေ့</string>
+</resources>

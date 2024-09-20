@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Ditshika</string>
+    <string name="topic_cooking">Kgwebo</string>
+    <string name="topic_theater">Sebaka.</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Kampe.</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Theto.</string>
+    <string name="topic_movie">Movies</string>
+    <string name="topic_music">Letlalo</string>
+    <string name="topic_painting">Sebopo</string>
+    <string name="topic_physics">Fisike</string>
+    <string name="topic_reading">Go bua</string>
+    <string name="topic_science">Sechaba</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Ho bina</string>
+    <string name="topic_technology">Tegnoloji</string>
+    <string name="topic_videogame">Dikhamphani tsa bokamoso</string>
+</resources>

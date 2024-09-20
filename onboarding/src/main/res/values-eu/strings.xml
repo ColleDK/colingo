@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Saioa hasi</string>
+    <string name="onboarding_signup_btn">Izena eman</string>
+    <string name="onboarding_other_title">Jarraitu edo jarraitu.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Jarraitu gisa bisitaria</string>
+    <string name="onboarding_go_back">Itzuli</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ongi etorri berriro!</string>
+    <string name="login_subtitle">Saioa hasi zure kontuan</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Pasahitza</string>
+    <string name="login_forgot_password">Pasahitza ahaztu duzu\?</string>
+    <string name="login_login_btn">Saioa hasi</string>
+    <string name="login_go_to_signup_1">Ezarri kontu oraindik\?</string>
+    <string name="login_go_to_signup_2">Izena eman</string>
+    <string name="login_reset_password">Pasahitza berrezarri</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Erregistratu</string>
+    <string name="signup_subtitle">Sortu zure kontua</string>
+    <string name="signup_name_hint">Izena</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Pasahitza</string>
+    <string name="signup_confirm_password_hint">Konfirmatu pasahitza</string>
+    <string name="signup_signup_btn">Erregistratu</string>
+    <string name="signup_go_to_login_1">Zuen kontua jada badago\?</string>
+    <string name="signup_go_to_login_2">Saioa hasi</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Hurrengo</string>
+    <string name="setup_profile_finish">Amaitu</string>
+    <string name="setup_profile_skip">Ezbaianjarri</string>
+    <string name="add_picture_title">Profila ezarri</string>
+    <string name="add_picture_subtitle">Gehitu profila argazkia</string>
+    <string name="add_languages_title">Profila ezarri</string>
+    <string name="add_languages_subtitle">Aukeratu hizkuntzak</string>
+    <string name="add_languages_select_proficiency">Hautatu aditua</string>
+    <string name="add_languages_select_language">Hautatu hizkuntza</string>
+    <string name="add_languages_add_language">Hizkuntza gehitu</string>
+    <string name="add_language_select">Hautatu</string>
+    <string name="add_language_cancel">Ezeztatu</string>
+    <string name="select_gender_title">Profila ezarri</string>
+    <string name="select_gender_subtitle">Aukeratu generoa</string>
+    <string name="select_topics_title">Profila ezarri</string>
+    <string name="select_topics_subtitle">Aukeratu gaiak</string>
+    <string name="add_description_title">Profila ezarri</string>
+    <string name="add_description_subtitle">Gehitu zerbait zure buruaz esateko</string>
+    <string name="add_description_birthday_hint">Zorionak</string>
+    <string name="add_description_birthday_select">Hautatu</string>
+    <string name="add_description_birthday_cancel">Ezeztatu</string>
+    <string name="add_description_location_hint">Kokapena</string>
+    <string name="add_description_description_hint">Deskribapena</string>
+</resources>

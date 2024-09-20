@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Mamorona akaiky</string>
+    <string name="onboarding_signup_btn">Miditra ho momban\' ny fampiasana iombonana.</string>
+    <string name="onboarding_other_title">Mialohan\'ny nivadika ianao na mandeha any amina fanadihadiana hafa.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Mijery amin\'ny mpikarakara ve ianao</string>
+    <string name="onboarding_go_back">Miverina indray</string>
+
+    <!-- Log in -->
+    <string name="login_title">Tonga soa indray!</string>
+    <string name="login_subtitle">Midira ao amin\'ny kaontinareo</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Teny hoavin\'ny fialan-tsasatra</string>
+    <string name="login_forgot_password">Nanandrana teny ny teny atolotra\?</string>
+    <string name="login_login_btn">Hisoratra anarana</string>
+    <string name="login_go_to_signup_1">Tsy misy kaonty ianao eto ambany\?</string>
+    <string name="login_go_to_signup_2">Mamorona kaonty</string>
+    <string name="login_reset_password">Famerenana tenimiafina</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Mifehy ny antontan-taratasy.</string>
+    <string name="signup_subtitle">Ovaina ny kaontinareo</string>
+    <string name="signup_name_hint">Anarana</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Teny miafina</string>
+    <string name="signup_confirm_password_hint">Hampitomboana teny miafina</string>
+    <string name="signup_signup_btn">Fidirana</string>
+    <string name="signup_go_to_login_1">Etsy misy kaonty efa misy ve ianao\?</string>
+    <string name="signup_go_to_login_2">Tsindrio mivantana</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Amirado</string>
+    <string name="setup_profile_finish">Finish</string>
+    <string name="setup_profile_skip">Ampidiro</string>
+    <string name="add_picture_title">Mametraka Profil</string>
+    <string name="add_picture_subtitle">Amboarina fototra porofo misy anao</string>
+    <string name="add_languages_title">Mametraka Profil</string>
+    <string name="add_languages_subtitle">Fifandraisana ny fiteny</string>
+    <string name="add_languages_select_proficiency">Mifidy fahalalana</string>
+    <string name="add_languages_select_language">Selectionnez la langue</string>
+    <string name="add_languages_add_language">Anarana ny fiteny.</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Feno.</string>
+    <string name="select_gender_title">Mametraka hafatra</string>
+    <string name="select_gender_subtitle">Feno lehilahy na vehivavy</string>
+    <string name="select_topics_title">Mametraka hafatra</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Mametraka profilika.</string>
+    <string name="add_description_subtitle">Amboarina vaovao momba anao</string>
+    <string name="add_description_birthday_hint">Fetin\'ny fomban-tsoavalo</string>
+    <string name="add_description_birthday_select">Feno</string>
+    <string name="add_description_birthday_cancel">Fanelanelana</string>
+    <string name="add_description_location_hint">Lokalizasiona</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

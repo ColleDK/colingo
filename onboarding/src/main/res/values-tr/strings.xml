@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Giriş yap</string>
+    <string name="onboarding_signup_btn">Üye Ol</string>
+    <string name="onboarding_other_title">Devam et ya da devam et</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Misafir olarak devam et</string>
+    <string name="onboarding_go_back">Geri git</string>
+
+    <!-- Log in -->
+    <string name="login_title">Hoş geldiniz!</string>
+    <string name="login_subtitle">Hesabınıza giriş yapın</string>
+    <string name="login_email_hint">E-posta</string>
+    <string name="login_password_hint">Şifre</string>
+    <string name="login_forgot_password">Şifreyi unuttunuz mu\?</string>
+    <string name="login_login_btn">Giriş yap</string>
+    <string name="login_go_to_signup_1">Henüz bir hesabınız yok mu\?</string>
+    <string name="login_go_to_signup_2">Kayıt ol</string>
+    <string name="login_reset_password">Şifreyi sıfırla</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Kayıt ol</string>
+    <string name="signup_subtitle">Hesap oluştur</string>
+    <string name="signup_name_hint">Ad</string>
+    <string name="signup_email_hint">E-posta</string>
+    <string name="signup_password_hint">Şifre</string>
+    <string name="signup_confirm_password_hint">Şifreyi onayla</string>
+    <string name="signup_signup_btn">Kayıt ol</string>
+    <string name="signup_go_to_login_1">Zaten bir hesabınız var mı\?</string>
+    <string name="signup_go_to_login_2">Giriş yap</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Sonraki</string>
+    <string name="setup_profile_finish">Tamam</string>
+    <string name="setup_profile_skip">Atla</string>
+    <string name="add_picture_title">Profil ayarla</string>
+    <string name="add_picture_subtitle">Profil resmi ekle</string>
+    <string name="add_languages_title">Profil ayarla</string>
+    <string name="add_languages_subtitle">Dilleri seç</string>
+    <string name="add_languages_select_proficiency">Uzmanlık seçin</string>
+    <string name="add_languages_select_language">Dil seçiniz</string>
+    <string name="add_languages_add_language">Dil ekle</string>
+    <string name="add_language_select">Seçiniz</string>
+    <string name="add_language_cancel">İptal et</string>
+    <string name="select_gender_title">Profil Ayarla</string>
+    <string name="select_gender_subtitle">Cinsiyeti seçin</string>
+    <string name="select_topics_title">Profil Ayarla</string>
+    <string name="select_topics_subtitle">Konuları seç</string>
+    <string name="add_description_title">Profil ayarla</string>
+    <string name="add_description_subtitle">Kendiniz hakkında bazı bilgiler ekleyin</string>
+    <string name="add_description_birthday_hint">Doğum günü</string>
+    <string name="add_description_birthday_select">Seçiniz</string>
+    <string name="add_description_birthday_cancel">İptal et</string>
+    <string name="add_description_location_hint">Konum</string>
+    <string name="add_description_description_hint">Açıklama</string>
+</resources>

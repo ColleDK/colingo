@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Животни</string>
+    <string name="topic_cooking">Готвене</string>
+    <string name="topic_theater">Театър</string>
+    <string name="topic_partying">Партита</string>
+    <string name="topic_biking">Колоездене</string>
+    <string name="topic_camping">Къмпинг</string>
+    <string name="topic_fitness">Фитнес</string>
+    <string name="topic_meditation">Медитация</string>
+    <string name="topic_movie">Филми</string>
+    <string name="topic_music">Музика</string>
+    <string name="topic_painting">Живопис</string>
+    <string name="topic_physics">Физика</string>
+    <string name="topic_reading">Четене</string>
+    <string name="topic_science">Наука</string>
+    <string name="topic_sports">Спорт</string>
+    <string name="topic_swimming">Плуване</string>
+    <string name="topic_technology">Технология</string>
+    <string name="topic_videogame">Видеоигри</string>
+</resources>

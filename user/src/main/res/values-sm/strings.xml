@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animals</string>
+    <string name="topic_cooking">A\'oga</string>
+    <string name="topic_theater">Teatā</string>
+    <string name="topic_partying">Faalavelave</string>
+    <string name="topic_biking">Sii pe\'a.</string>
+    <string name="topic_camping">Ipu fale\'imoa</string>
+    <string name="topic_fitness">Faamuamua</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Tulafono(reordered)</string>
+    <string name="topic_music">Fesilafai</string>
+    <string name="topic_painting">Fa\'ailoga</string>
+    <string name="topic_physics">Si\'iga i le Tautalaga</string>
+    <string name="topic_reading">Fa\'asalalau</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Tulouna</string>
+    <string name="topic_technology">Tulaga o upu: Fa\'ailoga</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

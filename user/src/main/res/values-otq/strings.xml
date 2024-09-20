@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Ndembi\'a\'a.</string>
+    <string name="topic_cooking">Ts\'anreheki</string>
+    <string name="topic_theater">Tiiño\'i</string>
+    <string name="topic_partying">Jgä\'ä mgi.</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Rí querenda.</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditación</string>
+    <string name="topic_movie">Películas</string>
+    <string name="topic_music">Música</string>
+    <string name="topic_painting">Pintura</string>
+    <string name="topic_physics">Física</string>
+    <string name="topic_reading">OK</string>
+    <string name="topic_science">Nt\'ukua\'n.</string>
+    <string name="topic_sports">Deportes</string>
+    <string name="topic_swimming">Ngi̲a̲ria.</string>
+    <string name="topic_technology">Teknoloji</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

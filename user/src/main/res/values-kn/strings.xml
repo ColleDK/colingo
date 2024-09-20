@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">ಪ್ರಾಣಿಗಳು</string>
+    <string name="topic_cooking">ಸಿಹಿತಿನಡೆಯುವುದು</string>
+    <string name="topic_theater">ಥಿಯೇಟರ್</string>
+    <string name="topic_partying">ಸಂಗೀತ ಕಾರ್ಯಕ್ರಮ</string>
+    <string name="topic_biking">ಬೈಕಿಂಗ್</string>
+    <string name="topic_camping">ಶಿಬಿರಗಳು</string>
+    <string name="topic_fitness">ಆರೋಗ್ಯಸೌಧ</string>
+    <string name="topic_meditation">ಧ್ಯಾನ</string>
+    <string name="topic_movie">ಚಲನಚಿತ್ರಗಳು</string>
+    <string name="topic_music">ಸಂಗೀತ</string>
+    <string name="topic_painting">ಚಿತ್ರಕಲೆ</string>
+    <string name="topic_physics">ಭೌತಶಾಸ್ತ್ರ</string>
+    <string name="topic_reading">ಓದುವುದು</string>
+    <string name="topic_science">ವಿಜ್ಞಾನ</string>
+    <string name="topic_sports">ಕ್ರೀಡೆ</string>
+    <string name="topic_swimming">ಈಜಿಕೊಳ್ಳುವುದು</string>
+    <string name="topic_technology">ತಂತ್ರಜ್ಞಾನ</string>
+    <string name="topic_videogame">ವೀಡಿಯೊ ಗೇಮ್‌ಗಳು</string>
+</resources>

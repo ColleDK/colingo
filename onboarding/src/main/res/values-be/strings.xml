@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Уваход</string>
+    <string name="onboarding_signup_btn">Зарэгістравацца</string>
+    <string name="onboarding_other_title">Або працягнуць з</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Працягнуць як госць</string>
+    <string name="onboarding_go_back">Вярнуцца</string>
+
+    <!-- Log in -->
+    <string name="login_title">Вітаем назад!</string>
+    <string name="login_subtitle">Увайсці ў свой рахунак</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_forgot_password">Забылі пароль\?</string>
+    <string name="login_login_btn">Уваход</string>
+    <string name="login_go_to_signup_1">Не маеце акаўнта яшчэ\?</string>
+    <string name="login_go_to_signup_2">Зарэгістравацца</string>
+    <string name="login_reset_password">Скід пароля</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Рэгістрацыя</string>
+    <string name="signup_subtitle">Стварыце ваш уліковы запіс</string>
+    <string name="signup_name_hint">Імя</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Пароль</string>
+    <string name="signup_confirm_password_hint">Пацвердзіце пароль</string>
+    <string name="signup_signup_btn">Рэгістрацыя</string>
+    <string name="signup_go_to_login_1">У вас ўжо ёсць уліковы запіс\?</string>
+    <string name="signup_go_to_login_2">Уваход</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Наступны.</string>
+    <string name="setup_profile_finish">Завершыць</string>
+    <string name="setup_profile_skip">Прапусціць</string>
+    <string name="add_picture_title">Наладзіць профіль</string>
+    <string name="add_picture_subtitle">Дадаць выяву профілю</string>
+    <string name="add_languages_title">Наладзіць профіль</string>
+    <string name="add_languages_subtitle">Выберыце мовы</string>
+    <string name="add_languages_select_proficiency">Выбраць умоўнасць</string>
+    <string name="add_languages_select_language">Выберыце мову</string>
+    <string name="add_languages_add_language">Дадаць мову</string>
+    <string name="add_language_select">Выбрать</string>
+    <string name="add_language_cancel">Адмяніць</string>
+    <string name="select_gender_title">Наладзіць профіль</string>
+    <string name="select_gender_subtitle">Выберыце пол</string>
+    <string name="select_topics_title">Наладзіць профіль</string>
+    <string name="select_topics_subtitle">Выберыць тэмы</string>
+    <string name="add_description_title">Наладзіць профіль</string>
+    <string name="add_description_subtitle">Дадайце некаторую інфармацыю аб сабе</string>
+    <string name="add_description_birthday_hint">Дзень нараджэньня</string>
+    <string name="add_description_birthday_select">Выбрать</string>
+    <string name="add_description_birthday_cancel">Адмяніць</string>
+    <string name="add_description_location_hint">Месцазнаходжанне</string>
+    <string name="add_description_description_hint">Апісанне</string>
+</resources>

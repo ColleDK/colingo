@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">动物</string>
+    <string name="topic_cooking">烹饪</string>
+    <string name="topic_theater">剧院</string>
+    <string name="topic_partying">派对</string>
+    <string name="topic_biking">骑行</string>
+    <string name="topic_camping">露营</string>
+    <string name="topic_fitness">健身</string>
+    <string name="topic_meditation">冥想</string>
+    <string name="topic_movie">电影</string>
+    <string name="topic_music">音乐</string>
+    <string name="topic_painting">绘画</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">阅读</string>
+    <string name="topic_science">科学</string>
+    <string name="topic_sports">体育</string>
+    <string name="topic_swimming">游泳</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">视频游戏</string>
+</resources>

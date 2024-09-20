@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Mzimayi</string>
+    <string name="topic_cooking">Kuyika chakudya</string>
+    <string name="topic_theater">Liyambira pa-English: Theater</string>
+    <string name="topic_partying">Partyikanenso</string>
+    <string name="topic_biking">Kukweza pa mokolola</string>
+    <string name="topic_camping">Kukhala pa mpando</string>
+    <string name="topic_fitness">Zokwanira</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Filamu</string>
+    <string name="topic_music">Mzika</string>
+    <string name="topic_painting">Kupaka</string>
+    <string name="topic_physics">Fiziksu</string>
+    <string name="topic_reading">Kusoma</string>
+    <string name="topic_science">Sayansi</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Kukweza</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

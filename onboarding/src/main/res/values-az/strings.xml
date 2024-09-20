@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Daxil ol</string>
+    <string name="onboarding_signup_btn">Qeydiyyatdan keçin</string>
+    <string name="onboarding_other_title">Yada davam edin</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Davam edin qonaq olaraq</string>
+    <string name="onboarding_go_back">Geriyə get</string>
+
+    <!-- Log in -->
+    <string name="login_title">Xoş gəldiniz!</string>
+    <string name="login_subtitle">Hesabınıza daxil olun</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Parol</string>
+    <string name="login_forgot_password">Parolunuzu unutdunuz\?</string>
+    <string name="login_login_btn">Daxil ol</string>
+    <string name="login_go_to_signup_1">Hesabınız yoxdur\?</string>
+    <string name="login_go_to_signup_2">Qeydiyyatdan keçin</string>
+    <string name="login_reset_password">Şifrəni yenidən qurmaq</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Qeydiyyat</string>
+    <string name="signup_subtitle">Hesabınızı yaradın</string>
+    <string name="signup_name_hint">Adınız</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Parol</string>
+    <string name="signup_confirm_password_hint">Təsdiq et parol</string>
+    <string name="signup_signup_btn">Qeydiyyat</string>
+    <string name="signup_go_to_login_1">Hesabınız var\?</string>
+    <string name="signup_go_to_login_2">Daxil ol</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Növbəti</string>
+    <string name="setup_profile_finish">Bitirmek</string>
+    <string name="setup_profile_skip">Keçmek</string>
+    <string name="add_picture_title">Profil qurmaq</string>
+    <string name="add_picture_subtitle">Profil şəkli əlavə edin</string>
+    <string name="add_languages_title">Profil qurmaq</string>
+    <string name="add_languages_subtitle">Dilləri seçin</string>
+    <string name="add_languages_select_proficiency">Bədəli seçin</string>
+    <string name="add_languages_select_language">Dil seçin</string>
+    <string name="add_languages_add_language">Dil əlavə etmek</string>
+    <string name="add_language_select">Seçin</string>
+    <string name="add_language_cancel">Ləğv etmek</string>
+    <string name="select_gender_title">Profil qurmaq</string>
+    <string name="select_gender_subtitle">Cinsiyyəti seçin</string>
+    <string name="select_topics_title">Profil qurmaq</string>
+    <string name="select_topics_subtitle">Mövzuları seçin</string>
+    <string name="add_description_title">Profil qurmaq</string>
+    <string name="add_description_subtitle">Özünüz haqqında bəzi məlumat əlavə edin.</string>
+    <string name="add_description_birthday_hint">Doğum günü</string>
+    <string name="add_description_birthday_select">Seçin</string>
+    <string name="add_description_birthday_cancel">Ləğv etmek</string>
+    <string name="add_description_location_hint">Yer</string>
+    <string name="add_description_description_hint">Məzmun</string>
+</resources>

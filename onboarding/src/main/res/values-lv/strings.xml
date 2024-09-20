@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Pierakstīties</string>
+    <string name="onboarding_signup_btn">Reģistrēties</string>
+    <string name="onboarding_other_title">Vai turpināt ar</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Turpināt kā viesis</string>
+    <string name="onboarding_go_back">Atpakaļ</string>
+
+    <!-- Log in -->
+    <string name="login_title">Laipni lūdzam atpakaļ!</string>
+    <string name="login_subtitle">Pierakstieties savā kontā</string>
+    <string name="login_email_hint">E-pasts</string>
+    <string name="login_password_hint">Parole</string>
+    <string name="login_forgot_password">Aizmirsu paroli\?</string>
+    <string name="login_login_btn">Pierakstīties</string>
+    <string name="login_go_to_signup_1">Vēl nav konta\?</string>
+    <string name="login_go_to_signup_2">Pierakstīties</string>
+    <string name="login_reset_password">Atiestatīt paroli</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Reģistrēties</string>
+    <string name="signup_subtitle">Izveidot savu kontu</string>
+    <string name="signup_name_hint">Vārds</string>
+    <string name="signup_email_hint">E-pasts</string>
+    <string name="signup_password_hint">Parole</string>
+    <string name="signup_confirm_password_hint">Apstiprināt paroli</string>
+    <string name="signup_signup_btn">Reģistrēties</string>
+    <string name="signup_go_to_login_1">Jau ir profils\?</string>
+    <string name="signup_go_to_login_2">Ienākt</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Nākamais</string>
+    <string name="setup_profile_finish">Pabeigt</string>
+    <string name="setup_profile_skip">Izlaist</string>
+    <string name="add_picture_title">Iestatīt profilu.</string>
+    <string name="add_picture_subtitle">Pievienot profila attēlu</string>
+    <string name="add_languages_title">Iestatīt profilu.</string>
+    <string name="add_languages_subtitle">Izvēlieties valodas</string>
+    <string name="add_languages_select_proficiency">Izvēlieties prasmību</string>
+    <string name="add_languages_select_language">Izvēlēties valodu</string>
+    <string name="add_languages_add_language">Pievienot valodu</string>
+    <string name="add_language_select">Izvēlēties</string>
+    <string name="add_language_cancel">Atcelt</string>
+    <string name="select_gender_title">Iestatīt profilu</string>
+    <string name="select_gender_subtitle">Izvēlieties dzimumu</string>
+    <string name="select_topics_title">Iestatīt profilu</string>
+    <string name="select_topics_subtitle">Izvēlieties tēmas</string>
+    <string name="add_description_title">Iestatīt profilu</string>
+    <string name="add_description_subtitle">Pievieno informāciju par sevi</string>
+    <string name="add_description_birthday_hint">Dzimšanas diena</string>
+    <string name="add_description_birthday_select">Izvēlēties</string>
+    <string name="add_description_birthday_cancel">Atcelt</string>
+    <string name="add_description_location_hint">Lokācija</string>
+    <string name="add_description_description_hint">Apraksts</string>
+</resources>

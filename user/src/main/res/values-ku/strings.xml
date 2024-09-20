@@ -1,0 +1,23 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Dijan</string>
+    <string name="topic_cooking">ئاشپزی</string>
+    <string name="topic_theater">ڕووناکخانە</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">دوژیکردن</string>
+    <string name="topic_camping">کەمپینگ</string>
+    <string name="topic_fitness">پێشکه‌شی تندروستی</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">ڕووخسار</string>
+    <string name="topic_music">مۆسیقا</string>
+    <string name="topic_painting">پەڕە (Painting)</string>
+    <string name="topic_physics">فیزیک</string>
+    <string name="topic_reading">خوێندن</string>
+    <string name="topic_science">Zanyarî</string>
+    <string name="topic_sports">وەرزش</string>
+    <string name="topic_swimming">Swimming</string>
+    <string name="topic_technology">Technology
+
+ستانداردیا.</string>
+    <string name="topic_videogame">بازی هەیندەیی</string>
+</resources>

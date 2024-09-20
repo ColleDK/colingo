@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Ouvri sesyon</string>
+    <string name="onboarding_signup_btn">Inskripsyon</string>
+    <string name="onboarding_other_title">Ou ka kontinye avèk</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Kontinye kòm envite</string>
+    <string name="onboarding_go_back">Retounen</string>
+
+    <!-- Log in -->
+    <string name="login_title">Bon retou!</string>
+    <string name="login_subtitle">Konekte sou kont ou</string>
+    <string name="login_email_hint">Imel</string>
+    <string name="login_password_hint">Modpas</string>
+    <string name="login_forgot_password">Ou bliye modpas ou\?</string>
+    <string name="login_login_btn">Ouvri sesyon</string>
+    <string name="login_go_to_signup_1">Pa gen yon kont ankò\?</string>
+    <string name="login_go_to_signup_2">Enskripsyon</string>
+    <string name="login_reset_password">Rezèt modpas</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Enskri.</string>
+    <string name="signup_subtitle">Kreye kont ou</string>
+    <string name="signup_name_hint">Non</string>
+    <string name="signup_email_hint">Imel</string>
+    <string name="signup_password_hint">Mo kle: Modpas</string>
+    <string name="signup_confirm_password_hint">Konfime mo anpil</string>
+    <string name="signup_signup_btn">Enskri.</string>
+    <string name="signup_go_to_login_1">Ou gen yon kont deja\?</string>
+    <string name="signup_go_to_login_2">Ouvri sesyon</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Fini</string>
+    <string name="setup_profile_skip">Pase</string>
+    <string name="add_picture_title">Kreyòl: Fòme profil la</string>
+    <string name="add_picture_subtitle">Ajoute yon foto profil</string>
+    <string name="add_languages_title">Kreyòl: Fòme profil la</string>
+    <string name="add_languages_subtitle">Chwazi lang yo</string>
+    <string name="add_languages_select_proficiency">Chwazi konpetans</string>
+    <string name="add_languages_select_language">Chwazi langaj</string>
+    <string name="add_languages_add_language">Ajoute lang yo</string>
+    <string name="add_language_select">Chwazi</string>
+    <string name="add_language_cancel">Kansèle</string>
+    <string name="select_gender_title">Kreyòl: Kreye profil</string>
+    <string name="select_gender_subtitle">Chwazi sèks</string>
+    <string name="select_topics_title">Kreyòl: Kreye profil</string>
+    <string name="select_topics_subtitle">Chwazi sije</string>
+    <string name="add_description_title">Kreyòl: Kreye profil</string>
+    <string name="add_description_subtitle">Ajoute yon ti enfòmasyon sou tèt ou</string>
+    <string name="add_description_birthday_hint">Fèt ou fete</string>
+    <string name="add_description_birthday_select">Chwazi</string>
+    <string name="add_description_birthday_cancel">Kansèle</string>
+    <string name="add_description_location_hint">Kote</string>
+    <string name="add_description_description_hint">Deskripsyon</string>
+</resources>

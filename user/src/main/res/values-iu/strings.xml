@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animalluut</string>
+    <string name="topic_cooking">Qallunaat.</string>
+    <string name="topic_theater">Theater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditatsiunut</string>
+    <string name="topic_movie">ᓂᐊᓂᑦ</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">Painting</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">ᖁᔭᖅᑐᖅ</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Nagligivaa</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

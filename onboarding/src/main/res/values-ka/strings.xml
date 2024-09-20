@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">შესვლა</string>
+    <string name="onboarding_signup_btn">რეგისტრაცია</string>
+    <string name="onboarding_other_title">ან გაგრძელეთ თვლა</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">გაგრძელეთ სტუმრად</string>
+    <string name="onboarding_go_back">დაბრუნება</string>
+
+    <!-- Log in -->
+    <string name="login_title">კეთდება!</string>
+    <string name="login_subtitle">შედით თქვენი ანგარიში.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">პაროლი</string>
+    <string name="login_forgot_password">პაროლის დავიწყება\?</string>
+    <string name="login_login_btn">შესვლა</string>
+    <string name="login_go_to_signup_1">არც არის ანგარიში\?</string>
+    <string name="login_go_to_signup_2">დარეგისტრირდი</string>
+    <string name="login_reset_password">პაროლის გადაყენება</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">რეგისტრაცია</string>
+    <string name="signup_subtitle">შექმენე შენი ანგარიში</string>
+    <string name="signup_name_hint">სახელი</string>
+    <string name="signup_email_hint">ელ. ფოსტა</string>
+    <string name="signup_password_hint">პაროლი</string>
+    <string name="signup_confirm_password_hint">პაროლის დადასტუძება</string>
+    <string name="signup_signup_btn">რეგისტრაცია</string>
+    <string name="signup_go_to_login_1">უკვე გაქვთ ანგარიში\?</string>
+    <string name="signup_go_to_login_2">შესვლა</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">შემდეგი</string>
+    <string name="setup_profile_finish">დასრულება</string>
+    <string name="setup_profile_skip">განაცხადი</string>
+    <string name="add_picture_title">პროფილის დაყენება</string>
+    <string name="add_picture_subtitle">დაამატე პროფილის სურათი</string>
+    <string name="add_languages_title">პროფილის დაყენება</string>
+    <string name="add_languages_subtitle">ენების არჩევა</string>
+    <string name="add_languages_select_proficiency">არჩევანი უსაფრთხოება</string>
+    <string name="add_languages_select_language">ენა არჩევა</string>
+    <string name="add_languages_add_language">ენის დამატება</string>
+    <string name="add_language_select">არჩევა</string>
+    <string name="add_language_cancel">გაუქმება</string>
+    <string name="select_gender_title">პროფილის დაყენება</string>
+    <string name="select_gender_subtitle">აირჩიეთ სქესი</string>
+    <string name="select_topics_title">პროფილის დაყენება</string>
+    <string name="select_topics_subtitle">თემების არჩევა</string>
+    <string name="add_description_title">პროფილის დაყენება</string>
+    <string name="add_description_subtitle">დაემატე რაღაც ინფორმაცია თქვენს შესახებ</string>
+    <string name="add_description_birthday_hint">დაბადების დღე</string>
+    <string name="add_description_birthday_select">არჩევა</string>
+    <string name="add_description_birthday_cancel">გაუქმება</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">აღწერა</string>
+</resources>

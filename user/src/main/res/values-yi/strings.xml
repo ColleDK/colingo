@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Tiere</string>
+    <string name="topic_cooking">Kochen</string>
+    <string name="topic_theater">Theater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditatsye</string>
+    <string name="topic_movie">Filmen</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">מאלובעון</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">לייענען</string>
+    <string name="topic_science">Science.</string>
+    <string name="topic_sports">ספּאָרט</string>
+    <string name="topic_swimming">Shvimmen</string>
+    <string name="topic_technology">טעכנאלאגיע</string>
+    <string name="topic_videogame">Video shpiln</string>
+</resources>

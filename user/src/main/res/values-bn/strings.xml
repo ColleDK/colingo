@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">প্রাণী</string>
+    <string name="topic_cooking">রন্ধনা</string>
+    <string name="topic_theater">থিয়েটার</string>
+    <string name="topic_partying">পার্টি করা।</string>
+    <string name="topic_biking">সাইকেল চালানো</string>
+    <string name="topic_camping">ক্যাম্পিং</string>
+    <string name="topic_fitness">ফিটনেস</string>
+    <string name="topic_meditation">ধ্যান</string>
+    <string name="topic_movie">চলচ্চিত্র</string>
+    <string name="topic_music">সঙ্গীত</string>
+    <string name="topic_painting">চিত্রকলা</string>
+    <string name="topic_physics">পদার্থ্য</string>
+    <string name="topic_reading">লেখাপড়া</string>
+    <string name="topic_science">বিজ্ঞান</string>
+    <string name="topic_sports">খেলা</string>
+    <string name="topic_swimming">সাঁতার করা</string>
+    <string name="topic_technology">প্রযুক্তি</string>
+    <string name="topic_videogame">ভিডিও গেম্‌স</string>
+</resources>

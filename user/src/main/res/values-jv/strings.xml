@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Hewan</string>
+    <string name="topic_cooking">Masak</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Berpesta</string>
+    <string name="topic_biking">Bersepeda</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditasi</string>
+    <string name="topic_movie">Film</string>
+    <string name="topic_music">Sangen.</string>
+    <string name="topic_painting">Lukisan</string>
+    <string name="topic_physics">Fisika</string>
+    <string name="topic_reading">Mbungahake</string>
+    <string name="topic_science">Ilmu</string>
+    <string name="topic_sports">Olahraga</string>
+    <string name="topic_swimming">Ngemuri</string>
+    <string name="topic_technology">Teknologi</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

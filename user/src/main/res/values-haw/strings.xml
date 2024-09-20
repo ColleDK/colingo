@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animals</string>
+    <string name="topic_cooking">ʻUala\'aka\'hui</string>
+    <string name="topic_theater">Halekūʻai</string>
+    <string name="topic_partying">Pā\'ina</string>
+    <string name="topic_biking">Hele palekana</string>
+    <string name="topic_camping">Kāmping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Nā Moʻolelo</string>
+    <string name="topic_music">Mele</string>
+    <string name="topic_painting">Kiʻi\'ai</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Heluhelu</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">ʻAuʻau</string>
+    <string name="topic_technology">Kekahi Mākau Nō Ka Huli Ana Ma Loko O Nā Papahana Aʻo Aʻa Pāpālua, Pēlā Nō Hoʻi Ma Loko O Nā Lawelawe Mālama a Pūlima Palapala Holoholona Holoholona.</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

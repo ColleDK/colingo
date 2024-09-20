@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Ensaluti</string>
+    <string name="onboarding_signup_btn">Registriĝi</string>
+    <string name="onboarding_other_title">Aŭ daŭrigi kun</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Daŭrigi kiel gasto</string>
+    <string name="onboarding_go_back">Reiru</string>
+
+    <!-- Log in -->
+    <string name="login_title">Bonvenon reen!</string>
+    <string name="login_subtitle">Ensaluti en vian konton</string>
+    <string name="login_email_hint">Retpoŝto</string>
+    <string name="login_password_hint">Pasvorto</string>
+    <string name="login_forgot_password">Forgesis pasvorton\?</string>
+    <string name="login_login_btn">Ensaluti</string>
+    <string name="login_go_to_signup_1">Ĉu vi ankoraŭ ne havas konton\?</string>
+    <string name="login_go_to_signup_2">Registriĝi</string>
+    <string name="login_reset_password">Restarigi pasvorton</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registriĝi</string>
+    <string name="signup_subtitle">Kreu vian konton</string>
+    <string name="signup_name_hint">Nomo</string>
+    <string name="signup_email_hint">Teksto por traduki: Retpoŝto</string>
+    <string name="signup_password_hint">Pasvorto</string>
+    <string name="signup_confirm_password_hint">Konfirmi pasvorton</string>
+    <string name="signup_signup_btn">Registriĝi</string>
+    <string name="signup_go_to_login_1">Ĉu vi jam havas konton\?</string>
+    <string name="signup_go_to_login_2">Ensaluti</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Sekva</string>
+    <string name="setup_profile_finish">Finu</string>
+    <string name="setup_profile_skip">Preterpasi</string>
+    <string name="add_picture_title">Agordi profilon</string>
+    <string name="add_picture_subtitle">Aldoni profilan bildon</string>
+    <string name="add_languages_title">Agordi profilon</string>
+    <string name="add_languages_subtitle">Elekti lingvojn</string>
+    <string name="add_languages_select_proficiency">Selekti kapablecon</string>
+    <string name="add_languages_select_language">Elektu lingvon</string>
+    <string name="add_languages_add_language">Aldoni lingvon</string>
+    <string name="add_language_select">Elekti</string>
+    <string name="add_language_cancel">Nuligi</string>
+    <string name="select_gender_title">Krei profilon</string>
+    <string name="select_gender_subtitle">Elekti sekson</string>
+    <string name="select_topics_title">Krei profilon</string>
+    <string name="select_topics_subtitle">Selekti temojn</string>
+    <string name="add_description_title">Krei profilon</string>
+    <string name="add_description_subtitle">Aldonu iom da informo pri vi</string>
+    <string name="add_description_birthday_hint">Naskiĝtago</string>
+    <string name="add_description_birthday_select">Selekti</string>
+    <string name="add_description_birthday_cancel">Nuligi</string>
+    <string name="add_description_location_hint">Loko</string>
+    <string name="add_description_description_hint">Priskribo</string>
+</resources>

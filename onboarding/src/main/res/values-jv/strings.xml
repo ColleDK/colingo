@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log masuk</string>
+    <string name="onboarding_signup_btn">Daftar</string>
+    <string name="onboarding_other_title">Utawa terusake karo</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Melanjutake dheweke minangka tamu</string>
+    <string name="onboarding_go_back">Mbalik.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Sugeng ambal warsa!</string>
+    <string name="login_subtitle">Masuk menyang akunmu</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Lali sandi\?</string>
+    <string name="login_login_btn">Masuk</string>
+    <string name="login_go_to_signup_1">Durung ana akun\?</string>
+    <string name="login_go_to_signup_2">Daftar</string>
+    <string name="login_reset_password">Reset password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrasi</string>
+    <string name="signup_subtitle">Gawe akunmu</string>
+    <string name="signup_name_hint">Jeneng</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Sandi</string>
+    <string name="signup_confirm_password_hint">Konfirmasi sandi</string>
+    <string name="signup_signup_btn">Registrasi</string>
+    <string name="signup_go_to_login_1">Sudah punya akun\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Selanjutnya</string>
+    <string name="setup_profile_finish">Selesai</string>
+    <string name="setup_profile_skip">Lewat</string>
+    <string name="add_picture_title">Siapake profil</string>
+    <string name="add_picture_subtitle">Tambahna gambar profil</string>
+    <string name="add_languages_title">Siapake profil</string>
+    <string name="add_languages_subtitle">Pilih basa-basa\'an</string>
+    <string name="add_languages_select_proficiency">Pilih kemampuan</string>
+    <string name="add_languages_select_language">Pilih basa</string>
+    <string name="add_languages_add_language">Tambah basa (Add language)</string>
+    <string name="add_language_select">Pilih</string>
+    <string name="add_language_cancel">Batal</string>
+    <string name="select_gender_title">Setup profil</string>
+    <string name="select_gender_subtitle">Pilih jender</string>
+    <string name="select_topics_title">Setup profil</string>
+    <string name="select_topics_subtitle">Pilih topik</string>
+    <string name="add_description_title">Atur Profil</string>
+    <string name="add_description_subtitle">Tambahaken swara babagan diri kowe</string>
+    <string name="add_description_birthday_hint">Ulang taun</string>
+    <string name="add_description_birthday_select">Pilih</string>
+    <string name="add_description_birthday_cancel">Batal</string>
+    <string name="add_description_location_hint">Lokasi</string>
+    <string name="add_description_description_hint">Pamutran</string>
+</resources>

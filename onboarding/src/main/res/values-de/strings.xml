@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Einloggen</string>
+    <string name="onboarding_signup_btn">Anmelden</string>
+    <string name="onboarding_other_title">Oder weiter mit</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Weiter als Gast</string>
+    <string name="onboarding_go_back">Zurück gehen</string>
+
+    <!-- Log in -->
+    <string name="login_title">Willkommen zurück!</string>
+    <string name="login_subtitle">Melden Sie sich in Ihrem Konto an</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Passwort</string>
+    <string name="login_forgot_password">Passwort vergessen\?</string>
+    <string name="login_login_btn">Anmelden</string>
+    <string name="login_go_to_signup_1">Noch keinen Account\?</string>
+    <string name="login_go_to_signup_2">Registrieren</string>
+    <string name="login_reset_password">Passwort zurücksetzen</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrieren</string>
+    <string name="signup_subtitle">Konto erstellen</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">E-Mail</string>
+    <string name="signup_password_hint">Passwort</string>
+    <string name="signup_confirm_password_hint">Bestätige das Passwort</string>
+    <string name="signup_signup_btn">Registrieren</string>
+    <string name="signup_go_to_login_1">Haben Sie bereits ein Konto\?</string>
+    <string name="signup_go_to_login_2">Anmelden</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Nächstes</string>
+    <string name="setup_profile_finish">Fertig</string>
+    <string name="setup_profile_skip">Überspringen</string>
+    <string name="add_picture_title">Profil einrichten</string>
+    <string name="add_picture_subtitle">Profilbild hinzufügen</string>
+    <string name="add_languages_title">Profil einrichten</string>
+    <string name="add_languages_subtitle">Wählen Sie Sprachen</string>
+    <string name="add_languages_select_proficiency">Wählen Sie die Kompetenz</string>
+    <string name="add_languages_select_language">Wählen Sie die Sprache</string>
+    <string name="add_languages_add_language">Sprache hinzufügen</string>
+    <string name="add_language_select">Auswählen</string>
+    <string name="add_language_cancel">Abbrechen</string>
+    <string name="select_gender_title">Profil einrichten</string>
+    <string name="select_gender_subtitle">Geschlecht auswählen</string>
+    <string name="select_topics_title">Profil einrichten</string>
+    <string name="select_topics_subtitle">Wählen Sie Themen</string>
+    <string name="add_description_title">Profil einrichten</string>
+    <string name="add_description_subtitle">Füge einige Informationen über dich selbst hinzu</string>
+    <string name="add_description_birthday_hint">Geburtstag</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Abbrechen</string>
+    <string name="add_description_location_hint">Ort</string>
+    <string name="add_description_description_hint">Beschreibung</string>
+</resources>

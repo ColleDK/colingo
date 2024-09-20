@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Wanyama</string>
+    <string name="topic_cooking">Kupika</string>
+    <string name="topic_theater">Jumba la Tamthilia</string>
+    <string name="topic_partying">Kuendelea na starehe</string>
+    <string name="topic_biking">Baiskeli</string>
+    <string name="topic_camping">Kambi</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Filamu</string>
+    <string name="topic_music">Muziki</string>
+    <string name="topic_painting">Picha</string>
+    <string name="topic_physics">Fizikia</string>
+    <string name="topic_reading">Kusoma</string>
+    <string name="topic_science">Sayansi</string>
+    <string name="topic_sports">Michezo</string>
+    <string name="topic_swimming">Kuogelea</string>
+    <string name="topic_technology">Teknolojia</string>
+    <string name="topic_videogame">Michezo ya video</string>
+</resources>

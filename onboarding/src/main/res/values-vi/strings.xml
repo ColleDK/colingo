@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Đăng nhập</string>
+    <string name="onboarding_signup_btn">Đăng ký</string>
+    <string name="onboarding_other_title">Hoặc tiếp tục với</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Tiếp tục dưới dạng khách hàng</string>
+    <string name="onboarding_go_back">Quay lại</string>
+
+    <!-- Log in -->
+    <string name="login_title">Chào mừng quay trở lại!</string>
+    <string name="login_subtitle">Đăng nhập vào tài khoản của bạn</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Mật khẩu</string>
+    <string name="login_forgot_password">Quên mật khẩu\?</string>
+    <string name="login_login_btn">Đăng nhập</string>
+    <string name="login_go_to_signup_1">Chưa có tài khoản\?</string>
+    <string name="login_go_to_signup_2">Đăng ký</string>
+    <string name="login_reset_password">Đặt lại mật khẩu</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Đăng ký</string>
+    <string name="signup_subtitle">Tạo tài khoản của bạn</string>
+    <string name="signup_name_hint">Tên</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Mật khẩu</string>
+    <string name="signup_confirm_password_hint">Xác nhận mật khẩu</string>
+    <string name="signup_signup_btn">Đăng ký</string>
+    <string name="signup_go_to_login_1">Đã có tài khoản\?</string>
+    <string name="signup_go_to_login_2">Đăng nhập</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Tiếp theo</string>
+    <string name="setup_profile_finish">Kết thúc</string>
+    <string name="setup_profile_skip">Bỏ qua</string>
+    <string name="add_picture_title">Thiết lập hồ sơ</string>
+    <string name="add_picture_subtitle">Thêm ảnh đại diện</string>
+    <string name="add_languages_title">Thiết lập hồ sơ</string>
+    <string name="add_languages_subtitle">Chọn ngôn ngữ</string>
+    <string name="add_languages_select_proficiency">Chọn trình độ chuyên môn</string>
+    <string name="add_languages_select_language">Chọn ngôn ngữ</string>
+    <string name="add_languages_add_language">Thêm ngôn ngữ</string>
+    <string name="add_language_select">Chọn</string>
+    <string name="add_language_cancel">Hủy</string>
+    <string name="select_gender_title">Thiết lập hồ sơ</string>
+    <string name="select_gender_subtitle">Chọn giới tính</string>
+    <string name="select_topics_title">Thiết lập hồ sơ</string>
+    <string name="select_topics_subtitle">Chọn chủ đề</string>
+    <string name="add_description_title">Thiết lập hồ sơ</string>
+    <string name="add_description_subtitle">Thêm một số thông tin về bản thân</string>
+    <string name="add_description_birthday_hint">Sinh nhật</string>
+    <string name="add_description_birthday_select">Chọn</string>
+    <string name="add_description_birthday_cancel">Hủy bỏ</string>
+    <string name="add_description_location_hint">Vị trí</string>
+    <string name="add_description_description_hint">Mô tả</string>
+</resources>

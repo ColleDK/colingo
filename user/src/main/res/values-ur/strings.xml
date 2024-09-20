@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">جانور</string>
+    <string name="topic_cooking">پکانا</string>
+    <string name="topic_theater">ٹھیٹر</string>
+    <string name="topic_partying">تفریح</string>
+    <string name="topic_biking">بائیکنگ</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">\"فٹنس\"</string>
+    <string name="topic_meditation">تأمل</string>
+    <string name="topic_movie">فلمیں</string>
+    <string name="topic_music">موسیقی</string>
+    <string name="topic_painting">پینٹنگ</string>
+    <string name="topic_physics">طبیعیات</string>
+    <string name="topic_reading">پڑھنا</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">کھیلوں</string>
+    <string name="topic_swimming">تیرنا</string>
+    <string name="topic_technology">ٹیکنالوجی</string>
+    <string name="topic_videogame">ویڈیو گیمز</string>
+</resources>

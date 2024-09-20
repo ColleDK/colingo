@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Beanntan</string>
+    <string name="topic_cooking">Cuir taic gun fhios do chuibhleachar.</string>
+    <string name="topic_theater">Amharclann</string>
+    <string name="topic_partying">Deoch-adhaircean</string>
+    <string name="topic_biking">Rothairseachd</string>
+    <string name="topic_camping">Glasadh-caimpeadh</string>
+    <string name="topic_fitness">Co-fhèin-choigsinn</string>
+    <string name="topic_meditation">Smaointeachadh</string>
+    <string name="topic_movie">Filmichean</string>
+    <string name="topic_music">Ceòl</string>
+    <string name="topic_painting">Pheantadh</string>
+    <string name="topic_physics">Fisiceachd</string>
+    <string name="topic_reading">Leughadh</string>
+    <string name="topic_science">Eòlas</string>
+    <string name="topic_sports">Spòrs</string>
+    <string name="topic_swimming">Snamhad</string>
+    <string name="topic_technology">Teicneòlas</string>
+    <string name="topic_videogame">Geamannan-bidio</string>
+</resources>

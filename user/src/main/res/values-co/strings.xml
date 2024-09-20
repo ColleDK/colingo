@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animali</string>
+    <string name="topic_cooking">Cucina</string>
+    <string name="topic_theater">Teatru</string>
+    <string name="topic_partying">Festighjà</string>
+    <string name="topic_biking">Bicicletta</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditazione</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Musica</string>
+    <string name="topic_painting">Pittrura</string>
+    <string name="topic_physics">Fisica</string>
+    <string name="topic_reading">Lettura</string>
+    <string name="topic_science">Scienza</string>
+    <string name="topic_sports">Sportivi</string>
+    <string name="topic_swimming">Nuotà</string>
+    <string name="topic_technology">Technulugia</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">لاگ ان</string>
+    <string name="onboarding_signup_btn">سائن اپ</string>
+    <string name="onboarding_other_title">يا توسيٽ ٺاپور، يا ادامَ کونٍ</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">رڳوند جي طور تي جاري رکو</string>
+    <string name="onboarding_go_back">واپس جاو</string>
+
+    <!-- Log in -->
+    <string name="login_title">خوش آمدید پٽو ٿيندو!</string>
+    <string name="login_subtitle">تھپو ءِن ڪيٽنٽ وڏھايو</string>
+    <string name="login_email_hint">ای میل</string>
+    <string name="login_password_hint">پاسورڊ</string>
+    <string name="login_forgot_password">پاسورڊ بھوليو؟</string>
+    <string name="login_login_btn">لاگ ان</string>
+    <string name="login_go_to_signup_1">هن بابت ايڪائونٽ ھنو نہ اٿاء؟</string>
+    <string name="login_go_to_signup_2">سائن اپ</string>
+    <string name="login_reset_password">پاسورڊ ريسيٽ ڪريو</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">رجسٽر ڪريو</string>
+    <string name="signup_subtitle">ٻيول حساب بنائيو</string>
+    <string name="signup_name_hint">نالو</string>
+    <string name="signup_email_hint">ای میل</string>
+    <string name="signup_password_hint">پاسورڊ</string>
+    <string name="signup_confirm_password_hint">تصدیق ڪريو پاسورڊ</string>
+    <string name="signup_signup_btn">رجسٽر ڪريو</string>
+    <string name="signup_go_to_login_1">پهريان ڪتاب ٻي ٻا اڪائو؟</string>
+    <string name="signup_go_to_login_2">لاگ ان</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">سمجهي</string>
+    <string name="setup_profile_skip">پاس کريو</string>
+    <string name="add_picture_title">پروفائل سیٽ اپ ڪريو</string>
+    <string name="add_picture_subtitle">پروفائل تصوير شامل ڪريو</string>
+    <string name="add_languages_title">پروفائل سیٽ اپ ڪريو</string>
+    <string name="add_languages_subtitle">ٻوليون منتخب ڪريو</string>
+    <string name="add_languages_select_proficiency">پيشكش چونڊا</string>
+    <string name="add_languages_select_language">ٻولي چُنو</string>
+    <string name="add_languages_add_language">زبان شامل ڪريو</string>
+    <string name="add_language_select">انتخاب ڪريو</string>
+    <string name="add_language_cancel">ردول</string>
+    <string name="select_gender_title">پروفائل سیٽ اپ ڪريو</string>
+    <string name="select_gender_subtitle">جنس چونڊيو</string>
+    <string name="select_topics_title">پروفائل سیٽ اپ ڪريو</string>
+    <string name="select_topics_subtitle">موضوعون چنAيواءيٽ ڪريو</string>
+    <string name="add_description_title">پروفائل سیٽ اپ ڪريو</string>
+    <string name="add_description_subtitle">خود کان ڪجھ معلومات شامل ڪريو</string>
+    <string name="add_description_birthday_hint">جنم ڏينھن</string>
+    <string name="add_description_birthday_select">انتخاب ڪريو</string>
+    <string name="add_description_birthday_cancel">ردول</string>
+    <string name="add_description_location_hint">ٽڪانو</string>
+    <string name="add_description_description_hint">تفصیل</string>
+</resources>

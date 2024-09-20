@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Haamata na tuhia\'ana ori no te ninamu fairehia\'aama\'a.</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Or continue with</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Apetahi atu e faaito\'ita\'a e he \'aitu.</string>
+    <string name="onboarding_go_back">Haere hoi</string>
+
+    <!-- Log in -->
+    <string name="login_title">Maeva hou!</string>
+    <string name="login_subtitle">Ha\'amata hia te tia\'i i to tia\'i utu.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Tahua-hoapa\'a</string>
+    <string name="login_forgot_password">Hiti parau mārua\?</string>
+    <string name="login_login_btn">Haere mai critiquer</string>
+    <string name="login_go_to_signup_1">Tahitian Translation: \'Aita teie i to oe pape tei e\\'a\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Aita\'a e haapii i te ha\'amau muaama.</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Oe te faaite i to oe pehea noa e haapiira atu i to oe ‘aho’a’inea’a</string>
+    <string name="signup_name_hint">Ioa</string>
+    <string name="signup_email_hint">Tāmia\'i\'i EMAIL.</string>
+    <string name="signup_password_hint">Motuaina</string>
+    <string name="signup_confirm_password_hint">Confirm password</string>
+    <string name="signup_signup_btn">Inoho</string>
+    <string name="signup_go_to_login_1">Te na roa oe i to rimaeroa i roto i te faahopea\?</string>
+    <string name="signup_go_to_login_2">Ha\'amata utu\'a\'a\'a</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Apetahi</string>
+    <string name="setup_profile_skip">Haehei</string>
+    <string name="add_picture_title">Seti upura\'anau</string>
+    <string name="add_picture_subtitle">Add profile picture</string>
+    <string name="add_languages_title">Seti upura\'anau</string>
+    <string name="add_languages_subtitle">E tāhua\'ia te reo</string>
+    <string name="add_languages_select_proficiency">Faitia i te mahana</string>
+    <string name="add_languages_select_language">Eo\'u tia\'i i te reo</string>
+    <string name="add_languages_add_language">Tāfāriri reo</string>
+    <string name="add_language_select">Faitoiti\'a</string>
+    <string name="add_language_cancel">Faahou atu</string>
+    <string name="select_gender_title">Fa\'atino\'i teie tumu to\'ohia\'a</string>
+    <string name="select_gender_subtitle">Select gender</string>
+    <string name="select_topics_title">Fa\'atino\'i teie tumu to\'ohia\'a</string>
+    <string name="select_topics_subtitle">Ta\'ata i taeae i nai topa\'ara\'a</string>
+    <string name="add_description_title">Faahou i te peretiteni.</string>
+    <string name="add_description_subtitle">Tāpa\'o i te mau mā\'ohi fa\'ahia e fa\'ahiti hau\'uru \'oe \'oe \'a\'au i to matou.</string>
+    <string name="add_description_birthday_hint">```OK`</string>
+    <string name="add_description_birthday_select">Faahana\'a</string>
+    <string name="add_description_birthday_cancel">Aveteaho</string>
+    <string name="add_description_location_hint">Le\'ina\'a</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

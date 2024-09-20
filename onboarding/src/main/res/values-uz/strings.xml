@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Kirish</string>
+    <string name="onboarding_signup_btn">Ro\'yxatdan o\'tish</string>
+    <string name="onboarding_other_title">Yoki davom eting</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Mehmon sifatida davom eting</string>
+    <string name="onboarding_go_back">Qaytmoq</string>
+
+    <!-- Log in -->
+    <string name="login_title">Xush kelibsiz!</string>
+    <string name="login_subtitle">Hisobingizga kirish</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Parol</string>
+    <string name="login_forgot_password">Parolni unutdingizmi\?</string>
+    <string name="login_login_btn">Kirish</string>
+    <string name="login_go_to_signup_1">Hali akkauntingiz yo\'qmi\?</string>
+    <string name="login_go_to_signup_2">Ro\'yxatdan o\'ting</string>
+    <string name="login_reset_password">Parolni tiklash</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Ro\'yxatdan o\'tish</string>
+    <string name="signup_subtitle">Hisobingizni yaratish</string>
+    <string name="signup_name_hint">Ism</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Parol</string>
+    <string name="signup_confirm_password_hint">Parolni tasdiqlang</string>
+    <string name="signup_signup_btn">Ro\'yxatdan o\'tish</string>
+    <string name="signup_go_to_login_1">Mavjud hisobingiz bormi\?</string>
+    <string name="signup_go_to_login_2">Kirish</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Keyingisi</string>
+    <string name="setup_profile_finish">Tugatish</string>
+    <string name="setup_profile_skip">Sotib o’tmoq</string>
+    <string name="add_picture_title">Profilni o\'rnatish</string>
+    <string name="add_picture_subtitle">Profilingiz rasmini qo\'shing</string>
+    <string name="add_languages_title">Profilni o\'rnatish</string>
+    <string name="add_languages_subtitle">Tillarni tanlash</string>
+    <string name="add_languages_select_proficiency">Ishonchlilikni tanlang</string>
+    <string name="add_languages_select_language">Tilni tanlang</string>
+    <string name="add_languages_add_language">Til qo\'shish</string>
+    <string name="add_language_select">Tanlash</string>
+    <string name="add_language_cancel">Bekor qilish</string>
+    <string name="select_gender_title">Profilni yaratish</string>
+    <string name="select_gender_subtitle">Jinsni tanlang</string>
+    <string name="select_topics_title">Profilni yaratish</string>
+    <string name="select_topics_subtitle">Mavzularni tanlang</string>
+    <string name="add_description_title">Profilni tanlash</string>
+    <string name="add_description_subtitle">O\'zingiz haqingizda qisqacha ma\'lumot qo\'shing</string>
+    <string name="add_description_birthday_hint">Tug\'ilgan kun</string>
+    <string name="add_description_birthday_select">Tanlang</string>
+    <string name="add_description_birthday_cancel">Bekor qilish</string>
+    <string name="add_description_location_hint">Manzil</string>
+    <string name="add_description_description_hint">Tavsif</string>
+</resources>

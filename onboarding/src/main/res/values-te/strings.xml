@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">కొలింగో</string>
+    <string name="onboarding_login_btn">లాగిన్ చేయండి</string>
+    <string name="onboarding_signup_btn">నమోదు చేయండి</string>
+    <string name="onboarding_other_title">కొనసాగండి</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">అతను గెస్ట్‌గా కొనసాగండి</string>
+    <string name="onboarding_go_back">తిరిగి వెళ్ళు నిజం</string>
+
+    <!-- Log in -->
+    <string name="login_title">స్వాగతము తిరిగివచ్చారు!</string>
+    <string name="login_subtitle">మీ ఖాతాకు ప్రవేశించండి.</string>
+    <string name="login_email_hint">ఇమెయిల్</string>
+    <string name="login_password_hint">పాస్వర్డు</string>
+    <string name="login_forgot_password">పాస్వర్డ్ మర్చిపోయారా\?</string>
+    <string name="login_login_btn">లాగిన్</string>
+    <string name="login_go_to_signup_1">ఇప్పుడు ఖాతా ఉండదు కాదా\?</string>
+    <string name="login_go_to_signup_2">చేరడం</string>
+    <string name="login_reset_password">పాస్వర్డ్ మళ్ళిచేయండి</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">నమోదు చేయండి</string>
+    <string name="signup_subtitle">మీ ఖాతాను సృష్టించండి.</string>
+    <string name="signup_name_hint">పేరు</string>
+    <string name="signup_email_hint">ఇమెయిల్</string>
+    <string name="signup_password_hint">పాస్వర్డ్</string>
+    <string name="signup_confirm_password_hint">పాస్వర్డ్ నిర్ధారించండి</string>
+    <string name="signup_signup_btn">నమోదు చేయండి</string>
+    <string name="signup_go_to_login_1">ఇప్పుడు అకౌంట్ ఉందా\?</string>
+    <string name="signup_go_to_login_2">లాగిన్</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">తరువాత</string>
+    <string name="setup_profile_finish">పూర్తి</string>
+    <string name="setup_profile_skip">వదిలి</string>
+    <string name="add_picture_title">ప్రొఫైలు సెటప్ (Setup profile)</string>
+    <string name="add_picture_subtitle">ప్రొఫైల్ చిత్రాన్ని జోడించండి</string>
+    <string name="add_languages_title">ప్రొఫైలు సెటప్ (Setup profile)</string>
+    <string name="add_languages_subtitle">భాషలను ఎంచుకోండి</string>
+    <string name="add_languages_select_proficiency">నేర్పు యోగ్యతను ఎంచుకోండి</string>
+    <string name="add_languages_select_language">భాషని ఎంపిక చేయండి</string>
+    <string name="add_languages_add_language">భాషను జోడించండి</string>
+    <string name="add_language_select">ఎంచుకోండి</string>
+    <string name="add_language_cancel">రద్దు చేయండి</string>
+    <string name="select_gender_title">ప్రొఫైల్ సెటప్</string>
+    <string name="select_gender_subtitle">లింగం ఎంచుకోండి</string>
+    <string name="select_topics_title">ప్రొఫైల్ సెటప్</string>
+    <string name="select_topics_subtitle">విషయాలను ఎంచుకోండి</string>
+    <string name="add_description_title">ప్రొఫైల్ సెటప్</string>
+    <string name="add_description_subtitle">మీరు గురించి కొంత సమాచారం చేర్చండి.</string>
+    <string name="add_description_birthday_hint">పుట్టినరోజు</string>
+    <string name="add_description_birthday_select">ఎంచుకోండి</string>
+    <string name="add_description_birthday_cancel">రద్దు చేయండి</string>
+    <string name="add_description_location_hint">స్థానం</string>
+    <string name="add_description_description_hint">వివరణ</string>
+</resources>

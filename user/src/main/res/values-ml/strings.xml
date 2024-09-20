@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">ജന്തുക്കൾ</string>
+    <string name="topic_cooking">പാചകം</string>
+    <string name="topic_theater">നാടകഗൃഹം</string>
+    <string name="topic_partying">പാർട്ടി ചെയ്യുന്നു</string>
+    <string name="topic_biking">ബൈക്കിംഗ്</string>
+    <string name="topic_camping">ക്യാമ്പിംഗ്</string>
+    <string name="topic_fitness">ആരോഗ്യം</string>
+    <string name="topic_meditation">ധ്യാനം</string>
+    <string name="topic_movie">ചലച്ചിത്രങ്ങൾ</string>
+    <string name="topic_music">സംഗീതം</string>
+    <string name="topic_painting">ചിത്രകല.</string>
+    <string name="topic_physics">ഭൗതികശാസ്ത്രം</string>
+    <string name="topic_reading">വായന ചെയ്യുക</string>
+    <string name="topic_science">ശാസ്ത്രം</string>
+    <string name="topic_sports">ക്രീഡാസങ്കേതം</string>
+    <string name="topic_swimming">ചൊല്ലുക: നദിയിലേക്ക് വീണ്ടുപോകുന്നത്, ഒരു പ്രവൃത്തി.</string>
+    <string name="topic_technology">സാങ്കേതികം</string>
+    <string name="topic_videogame">വീഡിയോ ഗെയിമുകൾ</string>
+</resources>

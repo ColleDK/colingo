@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Haiwan</string>
+    <string name="topic_cooking">Memasak</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Mengambil bahagian</string>
+    <string name="topic_biking">Berbasikal</string>
+    <string name="topic_camping">Kemasyarak</string>
+    <string name="topic_fitness">Kesihatan</string>
+    <string name="topic_meditation">Meditasi</string>
+    <string name="topic_movie">Filem</string>
+    <string name="topic_music">Muzik</string>
+    <string name="topic_painting">Lukisan</string>
+    <string name="topic_physics">Fizik</string>
+    <string name="topic_reading">Membaca</string>
+    <string name="topic_science">Sains</string>
+    <string name="topic_sports">Sukan</string>
+    <string name="topic_swimming">Renang</string>
+    <string name="topic_technology">Teknologi</string>
+    <string name="topic_videogame">Permainan video</string>
+</resources>

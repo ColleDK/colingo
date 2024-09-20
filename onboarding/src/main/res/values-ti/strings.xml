@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ግባር ኣረጋፍ ኣለኹ</string>
+    <string name="onboarding_signup_btn">ምዕጹ ኣብ።</string>
+    <string name="onboarding_other_title">እዚህ ናይክብራት ኣብቲ እዩ ናይክብራት ኣብቲ ይብሉኒ።</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">በናይልዎ ብዝገበር ተወሳኺ</string>
+    <string name="onboarding_go_back">Go back</string>
+
+    <!-- Log in -->
+    <string name="login_title">እንኳን መደምድ!</string>
+    <string name="login_subtitle">መወዲ ናብ መገለ ሓበሬታትን</string>
+    <string name="login_email_hint">ኢሜይል</string>
+    <string name="login_password_hint">ሓበሬ ማህበረሰብ</string>
+    <string name="login_forgot_password">የምንፈልገው ምስጢር\?</string>
+    <string name="login_login_btn">መግቢ እዩ</string>
+    <string name="login_go_to_signup_1">እታ ኣእምሮ ምድሃር ከምኡውታ\?</string>
+    <string name="login_go_to_signup_2">ሓበሬ ኣብ መለለይ ይብል ተመሓላለ፡ መመዳእ ኣብቲ ኣምሓራዮታት።</string>
+    <string name="login_reset_password">ናይ የኣይትፂ ዘጋጥም ወጺ</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ምዝጋሕ</string>
+    <string name="signup_subtitle">መዝግብ ይመልከቱ ንግዜ ሓዳሽ ተፈሊጡ</string>
+    <string name="signup_name_hint">ስም</string>
+    <string name="signup_email_hint">ኢሜል</string>
+    <string name="signup_password_hint">ዋና ቃል</string>
+    <string name="signup_confirm_password_hint">ምስጢር ቅሩብ ኣብ።</string>
+    <string name="signup_signup_btn">መዝግብ ኣለኹ</string>
+    <string name="signup_go_to_login_1">እንዴትይዞሽ ኣካይ እንዴትይዞሽ ኣካይ \?</string>
+    <string name="signup_go_to_login_2">ይግቡ ኣገልግሎ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ቀን እዚ ናይኢ ነፋሕኩም።</string>
+    <string name="setup_profile_finish">ሓደሽ</string>
+    <string name="setup_profile_skip">ምምዝጋ ኣይተዓትለይ ።</string>
+    <string name="add_picture_title">መርጃ መልቲ ማእከል ኣብቲ</string>
+    <string name="add_picture_subtitle">ምምዝ ስም ስዛር ኣፕ ነገር ይከኣል ።</string>
+    <string name="add_languages_title">መርጃ መልቲ ማእከል ኣብቲ</string>
+    <string name="add_languages_subtitle">ቋንቋዎን ምምልን ይምለሳ!</string>
+    <string name="add_languages_select_proficiency">ኣካፍል ክትርክብን</string>
+    <string name="add_languages_select_language">ቋንቋ ምዝገባ</string>
+    <string name="add_languages_add_language">ቋንጣ ኣክል</string>
+    <string name="add_language_select">ምምሕዳር</string>
+    <string name="add_language_cancel">ምዝገበ (Cancel)</string>
+    <string name="select_gender_title">መደብ ዝወሰኒ</string>
+    <string name="select_gender_subtitle">ሓበሬታ ምንቅስቃስ ምምዝገበር</string>
+    <string name="select_topics_title">መደብ ዝወሰኒ</string>
+    <string name="select_topics_subtitle">ምምዕር አምባ ይምረፍ ኣረጋጊኹም።</string>
+    <string name="add_description_title">ኣብቲ ስልጠና ኣርእስቶ</string>
+    <string name="add_description_subtitle">መሓዝና ንብሃት ብዝብል ናብ እምነትታዊዝ።</string>
+    <string name="add_description_birthday_hint">ልደት</string>
+    <string name="add_description_birthday_select">ምምሕዳር ምዝግሕ: ምድላእቲ ሓዱሽ</string>
+    <string name="add_description_birthday_cancel">ኣቐይ አድርሰኽ</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

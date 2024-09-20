@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Jọwọ ṣe iforukọsile.</string>
+    <string name="onboarding_signup_btn">Tẹ àwọn akọọdẹ si.</string>
+    <string name="onboarding_other_title">Ṣe iṣẹ yii tabi dabi fun.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Pẹlu gbogbo apanilaya</string>
+    <string name="onboarding_go_back">Lọ sí igbọdù.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ẹ ku igbola!</string>
+    <string name="login_subtitle">Tẹẹjẹ sii ní àkọọnti rẹ.</string>
+    <string name="login_email_hint">Imẹ̀l.</string>
+    <string name="login_password_hint">Iru ẹwọ ati ojú ewé</string>
+    <string name="login_forgot_password">Se alagbara akọọ rẹ\?</string>
+    <string name="login_login_btn">GBOKO</string>
+    <string name="login_go_to_signup_1">Ẹ ṣe alaye ti o ti jẹ ṣiṣẹ\?</string>
+    <string name="login_go_to_signup_2">Daa akọle</string>
+    <string name="login_reset_password">Yan aṣẹwọ orukọ.</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Dafarati</string>
+    <string name="signup_subtitle">Ṣẹda akọọnti rẹ</string>
+    <string name="signup_name_hint">Oruko</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Aṣayẹori</string>
+    <string name="signup_confirm_password_hint">Dapọ funa aṣeyọri ofin</string>
+    <string name="signup_signup_btn">Dafarati</string>
+    <string name="signup_go_to_login_1">Ṣe é jé akọọ̀ntì\?</string>
+    <string name="signup_go_to_login_2">Sign in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Iroyin to tera</string>
+    <string name="setup_profile_finish">Tẹta</string>
+    <string name="setup_profile_skip">Rā\'rá</string>
+    <string name="add_picture_title">Ṣeto ilẹ̣lẹẹtọninu</string>
+    <string name="add_picture_subtitle">Fi ohun elo ofẹsẹ rẹ</string>
+    <string name="add_languages_title">Ṣeto ilẹ̣lẹẹtọninu</string>
+    <string name="add_languages_subtitle">Yan iriri</string>
+    <string name="add_languages_select_proficiency">Yewo iṣẹlẹ tó ṣe.</string>
+    <string name="add_languages_select_language">Yan ọrọ: Yiyẹ ẹda</string>
+    <string name="add_languages_add_language">ẹdá àtúnṣe.</string>
+    <string name="add_language_select">Yewo.</string>
+    <string name="add_language_cancel">Fagun</string>
+    <string name="select_gender_title">Fi iṣeto agbègbè.</string>
+    <string name="select_gender_subtitle">Yiyẹ ọmọde ailera</string>
+    <string name="select_topics_title">Fi iṣeto agbègbè.</string>
+    <string name="select_topics_subtitle">Yewo awọn aaye</string>
+    <string name="add_description_title">Ṣeto iṣẹ-ṣiṣe.</string>
+    <string name="add_description_subtitle">Fi ọrọ kan pẹlu ounjẹ rẹ.</string>
+    <string name="add_description_birthday_hint">Ijé ìbíráà</string>
+    <string name="add_description_birthday_select">Ṣọ\'nìyi</string>
+    <string name="add_description_birthday_cancel">Fagunwa</string>
+    <string name="add_description_location_hint">Ilu</string>
+    <string name="add_description_description_hint">Ise: Alaye</string>
+</resources>

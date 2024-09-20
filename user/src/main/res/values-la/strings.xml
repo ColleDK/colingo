@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animālia</string>
+    <string name="topic_cooking">Coquendi</string>
+    <string name="topic_theater">Theatrum</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Vehens.</string>
+    <string name="topic_camping">Castra</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditatio</string>
+    <string name="topic_movie">Pelliculae</string>
+    <string name="topic_music">Musica</string>
+    <string name="topic_painting">Pingere</string>
+    <string name="topic_physics">Physica</string>
+    <string name="topic_reading">Lectura</string>
+    <string name="topic_science">Scientia</string>
+    <string name="topic_sports">Lusus</string>
+    <string name="topic_swimming">Natatio</string>
+    <string name="topic_technology">Technologia</string>
+    <string name="topic_videogame">Ludorum ludicrorum</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Ua \'oatu \'i he lao \'o pehē ki heni.</string>
+    <string name="onboarding_signup_btn">Loka’i me’a</string>
+    <string name="onboarding_other_title">\'Ongoongo ia\'</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Fāsibuʻuku</string>
+    <string name="onboarding_guest_btn">Foki meihe tui hake</string>
+    <string name="onboarding_go_back">Foki mai.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Malō e lelei hake!</string>
+    <string name="login_subtitle">Fakahu ki he akauniako ʻo hoku founga tohiʻiheʻapi.</string>
+    <string name="login_email_hint">Talanoaʻi</string>
+    <string name="login_password_hint">Faitomu</string>
+    <string name="login_forgot_password">Talatusi \'a e paasiute\?</string>
+    <string name="login_login_btn">Fakahu ki luga</string>
+    <string name="login_go_to_signup_1">Tē nau \'ikai ke ma\'u \'enitā,</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Fakamamafa e paasiʻiʻofisi</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Laitiʻi mai</string>
+    <string name="signup_subtitle">Fai ha ʻakauni ʻo e ʻaka heni</string>
+    <string name="signup_name_hint">Igoa</string>
+    <string name="signup_email_hint">ʻImeili</string>
+    <string name="signup_password_hint">Filita\'a</string>
+    <string name="signup_confirm_password_hint">Fakapilogalelo\'a e laisene paasi</string>
+    <string name="signup_signup_btn">Laititi</string>
+    <string name="signup_go_to_login_1">Talu ai pe e ihe ki he poupou fānauofa\?</string>
+    <string name="signup_go_to_login_2">Ua toe fakamoui lahi\'i.</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Fakanoa</string>
+    <string name="setup_profile_skip">Fakama\'alahi</string>
+    <string name="add_picture_title">Fokotu\'u hingoahestu holonganamu</string>
+    <string name="add_picture_subtitle">Fakahu hahau fakamatala profaile</string>
+    <string name="add_languages_title">Fokotu\'u hingoahestu holonganamu</string>
+    <string name="add_languages_subtitle">Fili e lea fakaikiiki</string>
+    <string name="add_languages_select_proficiency">Fili e faka-iloa fefeka.</string>
+    <string name="add_languages_select_language">Fili lea fakakongokonga</string>
+    <string name="add_languages_add_language">Fakafulungahelahela faka-Tonga</string>
+    <string name="add_language_select">Fili</string>
+    <string name="add_language_cancel">Faikemu</string>
+    <string name="select_gender_title">Hufaki fakahinohino protofilí</string>
+    <string name="select_gender_subtitle">Fili ange</string>
+    <string name="select_topics_title">Hufaki fakahinohino protofilí</string>
+    <string name="select_topics_subtitle">Fili e ngaahi me\'a ko e ngaue ki ai</string>
+    <string name="add_description_title">Fakangofua hifo</string>
+    <string name="add_description_subtitle">Fakatupu ha ngaahi fakamatala ki he koe.</string>
+    <string name="add_description_birthday_hint">\'Ulanga tā\'anga\'</string>
+    <string name="add_description_birthday_select">Filifili</string>
+    <string name="add_description_birthday_cancel">Fa\'uiki</string>
+    <string name="add_description_location_hint">Feituʻu</string>
+    <string name="add_description_description_hint">Fakaʻilonga</string>
+</resources>

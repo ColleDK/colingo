@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ᐊᑦᓯᓂᖅ</string>
+    <string name="onboarding_signup_btn">Qaumajuqqaqtuq</string>
+    <string name="onboarding_other_title">OK</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">Matuuk.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Tunngasugitsi!</string>
+    <string name="login_subtitle">ᓯᕗᓕᐅᓇᔭᖅ ᐊᓂᔅᒪᖓ</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Sikuniuniq</string>
+    <string name="login_forgot_password">ᐳᐃᒪᕐᓱᒃ ᐊᑐᐊᖅ\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">OK.</string>
+    <string name="login_go_to_signup_2">ᓯᓇᓕᕆᔫᖃ</string>
+    <string name="login_reset_password">Reset password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Qaumagiaq.</string>
+    <string name="signup_subtitle">Accountippaaaa!</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">ᖕᓯᕙᐅᔪᖅ ᓱᒪᕐᓯᐊᓕᐊᓗᑕ</string>
+    <string name="signup_signup_btn">Iliqqusiuinnaralqa</string>
+    <string name="signup_go_to_login_1">OK</string>
+    <string name="signup_go_to_login_2">Sivullutit</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Ukiukkanut</string>
+    <string name="setup_profile_finish">ᓄᓇᐅᑎᑦ</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Ilisaijaqqut titiraqqaalugu</string>
+    <string name="add_picture_subtitle">Iluaqtaaq kajusimatитемаак.</string>
+    <string name="add_languages_title">Ilisaijaqqut titiraqqaalugu</string>
+    <string name="add_languages_subtitle">Tusaajuminiitut ataatittiusumikulu.</string>
+    <string name="add_languages_select_proficiency">Pijariartunga nunavutqaq.</string>
+    <string name="add_languages_select_language">ᕿᑲᑐᑦ ᑕᖅᓐᓱᖕᓂᖅ</string>
+    <string name="add_languages_add_language">ᓇᓴᖕᓂᖅ ᐱᔭᖅᐱᒋᖃᑦ</string>
+    <string name="add_language_select">ᓂᑕᔾᔪᐊᖃ.</string>
+    <string name="add_language_cancel">Atii.</string>
+    <string name="select_gender_title">Ilisaijut inuusipkanik!</string>
+    <string name="select_gender_subtitle">Select ippugut seabornik</string>
+    <string name="select_topics_title">Ilisaijut inuusipkanik!</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Qiniqtittiniq isumaqatigiit</string>
+    <string name="add_description_subtitle">ᐃᓅᖃᖅᑳᕈᓐᓇᓂᑦ ᐊᓯᓕᐊᔪᖅᑦ ᐊᑕᐅᑦᑎᐊᑦ</string>
+    <string name="add_description_birthday_hint">Ukiaktautiniqtuq</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">IIK!</string>
+    <string name="add_description_location_hint">Lokashun</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

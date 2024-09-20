@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Σύνδεση</string>
+    <string name="onboarding_signup_btn">Εγγραφή</string>
+    <string name="onboarding_other_title">Ή συνέχισε με</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Συνέχετε ως επισκέπτης</string>
+    <string name="onboarding_go_back">Επιστροφή</string>
+
+    <!-- Log in -->
+    <string name="login_title">Καλώς ήρθες πίσω!</string>
+    <string name="login_subtitle">Συνδεθείτε στον λογαριασμό σας</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Κωδικός</string>
+    <string name="login_forgot_password">Ξεχάσατε τον κωδικό πρόσβασης;</string>
+    <string name="login_login_btn">Σύνδεση</string>
+    <string name="login_go_to_signup_1">Δεν έχετε ακόμα λογαριασμό;</string>
+    <string name="login_go_to_signup_2">Εγγραφή</string>
+    <string name="login_reset_password">Επαναφορά κωδικού πρόσβασης</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Καταχωρίστε</string>
+    <string name="signup_subtitle">Δημιουργήστε τον λογαριασμό σας</string>
+    <string name="signup_name_hint">Όνομα</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Επιβεβαίωση κωδικού</string>
+    <string name="signup_signup_btn">Εγγραφή</string>
+    <string name="signup_go_to_login_1">Έχετε ήδη λογαριασμό;</string>
+    <string name="signup_go_to_login_2">Σύνδεση</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Επόμενο</string>
+    <string name="setup_profile_finish">Ολοκλήρωση</string>
+    <string name="setup_profile_skip">Παράλειψη</string>
+    <string name="add_picture_title">Ρύθμιση προφίλ</string>
+    <string name="add_picture_subtitle">Προσθήκη φωτογραφίας προφίλ</string>
+    <string name="add_languages_title">Ρύθμιση προφίλ</string>
+    <string name="add_languages_subtitle">Επιλογή γλωσσών</string>
+    <string name="add_languages_select_proficiency">Επιλογή επάρκειας</string>
+    <string name="add_languages_select_language">Επιλογή γλώσσας</string>
+    <string name="add_languages_add_language">Προσθήκη γλώσσας</string>
+    <string name="add_language_select">Επιλογή</string>
+    <string name="add_language_cancel">Άκυρο</string>
+    <string name="select_gender_title">Δημιουργία προφίλ</string>
+    <string name="select_gender_subtitle">Επιλογή φύλου</string>
+    <string name="select_topics_title">Δημιουργία προφίλ</string>
+    <string name="select_topics_subtitle">Επιλογή θεμάτων</string>
+    <string name="add_description_title">Ρύθμιση προφίλ</string>
+    <string name="add_description_subtitle">Προσθέστε μερικές πληροφορίες σχετικά με εσάς</string>
+    <string name="add_description_birthday_hint">Γενέθλια</string>
+    <string name="add_description_birthday_select">Επιλογή</string>
+    <string name="add_description_birthday_cancel">Ακύρωση</string>
+    <string name="add_description_location_hint">Τοποθεσία</string>
+    <string name="add_description_description_hint">Περιγραφή</string>
+</resources>

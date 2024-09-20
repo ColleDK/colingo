@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animals</string>
+    <string name="topic_cooking">پخلیول</string>
+    <string name="topic_theater">د تياترو سره</string>
+    <string name="topic_partying">پارټي نه کولو</string>
+    <string name="topic_biking">دوځوټ کولو</string>
+    <string name="topic_camping">درنه</string>
+    <string name="topic_fitness">ورزش</string>
+    <string name="topic_meditation">د خود مرانو ورتهلا</string>
+    <string name="topic_movie">د فلمونو</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">Tablo</string>
+    <string name="topic_physics">فیزیک</string>
+    <string name="topic_reading">د خوندنه</string>
+    <string name="topic_science">دوستۍ</string>
+    <string name="topic_sports">ورزش</string>
+    <string name="topic_swimming">لنډنیدل</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">ویډیو لوبوبونه</string>
+</resources>

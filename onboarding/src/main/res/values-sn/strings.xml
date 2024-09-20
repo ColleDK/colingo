@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Fambisa ipapo</string>
+    <string name="onboarding_signup_btn">Register</string>
+    <string name="onboarding_other_title">Kana kuita continue nenzira yakanaka.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Enda seumambo</string>
+    <string name="onboarding_go_back">Ramba.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Kusvikira iwe unobuda!</string>
+    <string name="login_subtitle">Wanda nekuisa mukutano wako</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Ngoro</string>
+    <string name="login_forgot_password">Pane nyaya yakanyorwa: Zvapindwa mibvunzo yepassword\?</string>
+    <string name="login_login_btn">Fambisa ipapo</string>
+    <string name="login_go_to_signup_1">Usina chimiro ichi chawakaita here akati\?</string>
+    <string name="login_go_to_signup_2">Register</string>
+    <string name="login_reset_password">Reset password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Shandisa account yako</string>
+    <string name="signup_name_hint">Jina</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Ngoro</string>
+    <string name="signup_confirm_password_hint">Confirm password</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Uchiri neakawunti yako here\?</string>
+    <string name="signup_go_to_login_2">Fambisa ipapo</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Tsika inoita husiku pahere</string>
+    <string name="setup_profile_finish">Kwete</string>
+    <string name="setup_profile_skip">Ramba</string>
+    <string name="add_picture_title">Setup profile</string>
+    <string name="add_picture_subtitle">Wedzera chitandara chose.</string>
+    <string name="add_languages_title">Setup profile</string>
+    <string name="add_languages_subtitle">Chinjikano rezuva: Saina Mitauro</string>
+    <string name="add_languages_select_proficiency">Chinongonya kuchinja kugadzirisa.</string>
+    <string name="add_languages_select_language">Shandisa chero uchida</string>
+    <string name="add_languages_add_language">Tambisa chikamu</string>
+    <string name="add_language_select">Kuronga</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Selected gender</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Setup profile</string>
+    <string name="add_description_subtitle">Famba uone zvakare kwekuti yako</string>
+    <string name="add_description_birthday_hint">Kunamata</string>
+    <string name="add_description_birthday_select">Kuronga</string>
+    <string name="add_description_birthday_cancel">Cancel</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Mushandiso</string>
+</resources>

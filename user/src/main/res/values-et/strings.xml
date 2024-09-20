@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Loomad</string>
+    <string name="topic_cooking">Toitvalmistamine</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Pidutsemine</string>
+    <string name="topic_biking">Jalgrattasõit</string>
+    <string name="topic_camping">Lõkkeplats</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditatsioon</string>
+    <string name="topic_movie">Filmid</string>
+    <string name="topic_music">Muusika</string>
+    <string name="topic_painting">Maalimine</string>
+    <string name="topic_physics">Füüsika</string>
+    <string name="topic_reading">Tekst tõlkimiseks: Lugemine</string>
+    <string name="topic_science">Teadus</string>
+    <string name="topic_sports">Spordi</string>
+    <string name="topic_swimming">Ujumine</string>
+    <string name="topic_technology">Text to translate: Technology</string>
+    <string name="topic_videogame">Videomängud</string>
+</resources>

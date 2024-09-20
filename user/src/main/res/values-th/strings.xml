@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">สัตว์</string>
+    <string name="topic_cooking">การทำอาหาร</string>
+    <string name="topic_theater">โรงละคร</string>
+    <string name="topic_partying">ปาร์ตี้</string>
+    <string name="topic_biking">ขี่จักรยาน</string>
+    <string name="topic_camping">การแคมป์</string>
+    <string name="topic_fitness">ฟิตเนส</string>
+    <string name="topic_meditation">การทำสมาธิ</string>
+    <string name="topic_movie">หนัง</string>
+    <string name="topic_music">เพลง</string>
+    <string name="topic_painting">การวาดภาพ</string>
+    <string name="topic_physics">ฟิสิกส์</string>
+    <string name="topic_reading">การอ่าน</string>
+    <string name="topic_science">วิทยาศาสตร์</string>
+    <string name="topic_sports">กีฬา</string>
+    <string name="topic_swimming">ว่ายน้ำ</string>
+    <string name="topic_technology">เทคโนโลยี</string>
+    <string name="topic_videogame">เกมวิดีโอ</string>
+</resources>

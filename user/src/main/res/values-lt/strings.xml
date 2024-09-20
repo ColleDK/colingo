@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Gyvūnai</string>
+    <string name="topic_cooking">Gaminimas</string>
+    <string name="topic_theater">Teatras</string>
+    <string name="topic_partying">Šventės.</string>
+    <string name="topic_biking">Važiavimas dviračiu</string>
+    <string name="topic_camping">Kempingas</string>
+    <string name="topic_fitness">Fitnesas</string>
+    <string name="topic_meditation">Meditacija</string>
+    <string name="topic_movie">Filmai</string>
+    <string name="topic_music">Muzika</string>
+    <string name="topic_painting">Paveikslas</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Skaitymas</string>
+    <string name="topic_science">Mokslas</string>
+    <string name="topic_sports">Sportas</string>
+    <string name="topic_swimming">Plaukimas</string>
+    <string name="topic_technology">Technologija</string>
+    <string name="topic_videogame">Žaidimai vaizdo įrašams</string>
+</resources>

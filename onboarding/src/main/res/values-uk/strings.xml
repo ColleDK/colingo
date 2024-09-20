@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Увійти</string>
+    <string name="onboarding_signup_btn">Зареєструватися</string>
+    <string name="onboarding_other_title">Продовжити з</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Продовжити як гість</string>
+    <string name="onboarding_go_back">Повернутися</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ласкаво просимо назад!</string>
+    <string name="login_subtitle">Увійти до свого облікового запису</string>
+    <string name="login_email_hint">Електронна пошта</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_forgot_password">Забули пароль\?</string>
+    <string name="login_login_btn">Увійти</string>
+    <string name="login_go_to_signup_1">Text to translate: Don\\'t have an account yet\?</string>
+    <string name="login_go_to_signup_2">Зареєструватися</string>
+    <string name="login_reset_password">Скинути пароль</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Зареєструватися</string>
+    <string name="signup_subtitle">Створіть свій обліковий запис</string>
+    <string name="signup_name_hint">Ім\'я</string>
+    <string name="signup_email_hint">Електронна пошта</string>
+    <string name="signup_password_hint">Пароль</string>
+    <string name="signup_confirm_password_hint">Підтвердити пароль</string>
+    <string name="signup_signup_btn">Зареєструватися</string>
+    <string name="signup_go_to_login_1">Вже маєте обліковий запис\?</string>
+    <string name="signup_go_to_login_2">Увійти</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Наступне</string>
+    <string name="setup_profile_finish">Завершити</string>
+    <string name="setup_profile_skip">Пропустити</string>
+    <string name="add_picture_title">Створити профіль</string>
+    <string name="add_picture_subtitle">Додати фото профілю</string>
+    <string name="add_languages_title">Створити профіль</string>
+    <string name="add_languages_subtitle">Виберіть мови</string>
+    <string name="add_languages_select_proficiency">Оберіть рівень вмінь</string>
+    <string name="add_languages_select_language">Виберіть мову</string>
+    <string name="add_languages_add_language">Додати мову</string>
+    <string name="add_language_select">Вибрати</string>
+    <string name="add_language_cancel">Скасувати</string>
+    <string name="select_gender_title">Створити профіль</string>
+    <string name="select_gender_subtitle">Виберіть стать</string>
+    <string name="select_topics_title">Створити профіль</string>
+    <string name="select_topics_subtitle">Виберіть теми</string>
+    <string name="add_description_title">Створення профілю</string>
+    <string name="add_description_subtitle">Додайте деяку інформацію про себе</string>
+    <string name="add_description_birthday_hint">День народження</string>
+    <string name="add_description_birthday_select">Обрати</string>
+    <string name="add_description_birthday_cancel">Скасувати</string>
+    <string name="add_description_location_hint">Місцезнаходження</string>
+    <string name="add_description_description_hint">Опис</string>
+</resources>

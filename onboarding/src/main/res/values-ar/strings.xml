@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">تسجيل الدخول</string>
+    <string name="onboarding_signup_btn">اشترك</string>
+    <string name="onboarding_other_title">متابعة</string>
+    <string name="onboarding_google_btn">جوجل</string>
+    <string name="onboarding_facebook_btn">فيسبوك</string>
+    <string name="onboarding_guest_btn">تابع كضيف</string>
+    <string name="onboarding_go_back">ارجع</string>
+
+    <!-- Log in -->
+    <string name="login_title">مرحبًا بعودتك!</string>
+    <string name="login_subtitle">سجل الدخول إلى حسابك</string>
+    <string name="login_email_hint">البريد الإلكتروني</string>
+    <string name="login_password_hint">كلمة المرور</string>
+    <string name="login_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login_login_btn">تسجيل الدخول</string>
+    <string name="login_go_to_signup_1">ليس لديك حساب بعد؟</string>
+    <string name="login_go_to_signup_2">اشترك</string>
+    <string name="login_reset_password">إعادة تعيين كلمة المرور</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">تسجيل</string>
+    <string name="signup_subtitle">أنشئ حسابك</string>
+    <string name="signup_name_hint">الاسم</string>
+    <string name="signup_email_hint">البريد الإلكتروني</string>
+    <string name="signup_password_hint">كلمة المرور</string>
+    <string name="signup_confirm_password_hint">تأكيد كلمة المرور</string>
+    <string name="signup_signup_btn">تسجيل</string>
+    <string name="signup_go_to_login_1">هل لديك حساب بالفعل؟</string>
+    <string name="signup_go_to_login_2">تسجيل الدخول</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">التالي</string>
+    <string name="setup_profile_finish">إنهاء</string>
+    <string name="setup_profile_skip">تخطى</string>
+    <string name="add_picture_title">إعداد الملف الشخصي</string>
+    <string name="add_picture_subtitle">أضف صورة الملف الشخصي</string>
+    <string name="add_languages_title">إعداد الملف الشخصي</string>
+    <string name="add_languages_subtitle">اختر اللغات</string>
+    <string name="add_languages_select_proficiency">حدد المهارة</string>
+    <string name="add_languages_select_language">اختر اللغة</string>
+    <string name="add_languages_add_language">إضافة لغة</string>
+    <string name="add_language_select">اختيار</string>
+    <string name="add_language_cancel">إلغاء</string>
+    <string name="select_gender_title">إعداد الملف الشخصي</string>
+    <string name="select_gender_subtitle">اختر الجنس</string>
+    <string name="select_topics_title">إعداد الملف الشخصي</string>
+    <string name="select_topics_subtitle">اختر مواضيع</string>
+    <string name="add_description_title">إعداد الملف الشخصي</string>
+    <string name="add_description_subtitle">أضف بعض المعلومات عن نفسك</string>
+    <string name="add_description_birthday_hint">عيد ميلاد</string>
+    <string name="add_description_birthday_select">اختيار</string>
+    <string name="add_description_birthday_cancel">إلغاء</string>
+    <string name="add_description_location_hint">الموقع</string>
+    <string name="add_description_description_hint">الوصف</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">الحيوانات</string>
+    <string name="topic_cooking">طهي</string>
+    <string name="topic_theater">مسرح</string>
+    <string name="topic_partying">الإحتفال</string>
+    <string name="topic_biking">ركوب الدراجات</string>
+    <string name="topic_camping">تخييم</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">التأمل</string>
+    <string name="topic_movie">أفلام</string>
+    <string name="topic_music">الموسيقى</string>
+    <string name="topic_painting">التصوير</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Reading</string>
+    <string name="topic_science">علم</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">السباحة</string>
+    <string name="topic_technology">تكنولوجيا</string>
+    <string name="topic_videogame">ألعاب الفيديو</string>
+</resources>

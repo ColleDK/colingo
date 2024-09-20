@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Nọsọ isiokwu</string>
+    <string name="onboarding_signup_btn">Nkwupụta</string>
+    <string name="onboarding_other_title">Kachasị ijiịma.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Jiokwu ka ochie</string>
+    <string name="onboarding_go_back">Rọtara</string>
+
+    <!-- Log in -->
+    <string name="login_title">Nnọọ nke anyị!</string>
+    <string name="login_subtitle">Ndebanye na aka akụntụ gị.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Ok. Ntọalaahụụmmadụ.</string>
+    <string name="login_forgot_password">Ndee paswọdị\?</string>
+    <string name="login_login_btn">Jiri site</string>
+    <string name="login_go_to_signup_1">M\'etinyere aka anọ n\'ebeala\?</string>
+    <string name="login_go_to_signup_2">Dezie ịmepụta</string>
+    <string name="login_reset_password">Họrọ iji zụọla\'a isi ewuọ àkpọọnọn.</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Riachi</string>
+    <string name="signup_subtitle">Mepụta aka gị.</string>
+    <string name="signup_name_hint">Aha</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Ntụgharị Ego</string>
+    <string name="signup_confirm_password_hint">Dee iwu-ewu ise na-agba okwu</string>
+    <string name="signup_signup_btn">Regista</string>
+    <string name="signup_go_to_login_1">Ị naghị ekweta aka\?</string>
+    <string name="signup_go_to_login_2">Ntụgharị ọgụgụ​</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Ihe ndị bụrụ na: Ezeọgwụ.</string>
+    <string name="setup_profile_finish">Mgba/ipu.</string>
+    <string name="setup_profile_skip">Taa</string>
+    <string name="add_picture_title">Họrọ akwụkwọ ọrụ</string>
+    <string name="add_picture_subtitle">Tinyere akara mmepụtara.</string>
+    <string name="add_languages_title">Họrọ akwụkwọ ọrụ</string>
+    <string name="add_languages_subtitle">Nkọwa asụsụ</string>
+    <string name="add_languages_select_proficiency">Nọchiri \'Profidiensi\'</string>
+    <string name="add_languages_select_language">Họrọ asụsụ</string>
+    <string name="add_languages_add_language">Tinye asusu</string>
+    <string name="add_language_select">Họrọ</string>
+    <string name="add_language_cancel">Tuleghi</string>
+    <string name="select_gender_title">Tinyere mmebi akaọnụụgwọ</string>
+    <string name="select_gender_subtitle">Họrọ asụsụ: Chọọ ike onye obi</string>
+    <string name="select_topics_title">Tinyere mmebi akaọnụụgwọ</string>
+    <string name="select_topics_subtitle">Họrọ na mba</string>
+    <string name="add_description_title">Mezie ahaụdongọ</string>
+    <string name="add_description_subtitle">Tinye ihe omume g\'ị n\'okwu gị.</string>
+    <string name="add_description_birthday_hint">Oge afa</string>
+    <string name="add_description_birthday_select">Họrọ</string>
+    <string name="add_description_birthday_cancel">Hapụsị</string>
+    <string name="add_description_location_hint">Enyeọnụọnụ: Nchịkọta</string>
+    <string name="add_description_description_hint">Nkọwa</string>
+</resources>

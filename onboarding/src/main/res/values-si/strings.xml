@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">පුද්ගලිකත්වය වීම</string>
+    <string name="onboarding_signup_btn">ලියන්න</string>
+    <string name="onboarding_other_title">අනතුරුවදනක්ද නැත්නම්</string>
+    <string name="onboarding_google_btn">ගූගල්</string>
+    <string name="onboarding_facebook_btn">චේව්පෝව්</string>
+    <string name="onboarding_guest_btn">දිනකට කරැණායෝගීය ලාංචනයක් ලාභ වීමටත් ඉතා පැහැදිළි කරන්න.</string>
+    <string name="onboarding_go_back">ආපසු යන්න</string>
+
+    <!-- Log in -->
+    <string name="login_title">සාදම් ආවර්ජ්!</string>
+    <string name="login_subtitle">ඔබගේ ගිණුමට පිවිසීම කරන්න.</string>
+    <string name="login_email_hint">එමෙයිල්</string>
+    <string name="login_password_hint">මුර පදය</string>
+    <string name="login_forgot_password">මුරපදය අමතකද\?</string>
+    <string name="login_login_btn">පුද්ගලිකත්වය වීම</string>
+    <string name="login_go_to_signup_1">ගිණුමක් එකතු කර නොමැතද\?</string>
+    <string name="login_go_to_signup_2">ලියන්න</string>
+    <string name="login_reset_password">මුර මුරපදය නැවත සකසන්න</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ලියාපදිංචි කරන්න</string>
+    <string name="signup_subtitle">ඔබගේ ගිණුමක් තට්ටුව කරන්න.</string>
+    <string name="signup_name_hint">නම</string>
+    <string name="signup_email_hint">එමෙයිල්</string>
+    <string name="signup_password_hint">මුර පදය</string>
+    <string name="signup_confirm_password_hint">මුර මානකය තහවුරු කරන්න</string>
+    <string name="signup_signup_btn">ලියාපදිංචි කරන්න</string>
+    <string name="signup_go_to_login_1">ඒකාබදවී වෙලාවක්\?</string>
+    <string name="signup_go_to_login_2">පුද්ගලිකත්වය වීම</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ඊළඟ</string>
+    <string name="setup_profile_finish">වැඩිදුරට</string>
+    <string name="setup_profile_skip">පාවිච්චිය</string>
+    <string name="add_picture_title">පැතිකඩ සැඩසිටියා OK</string>
+    <string name="add_picture_subtitle">පැතේ රූපය එකතු කරන්න</string>
+    <string name="add_languages_title">පැතිකඩ සැඩසිටියා OK</string>
+    <string name="add_languages_subtitle">භාෂා තෝරන්න</string>
+    <string name="add_languages_select_proficiency">දායකත්වය තෝරන්න</string>
+    <string name="add_languages_select_language">භාෂා තෝරන්න</string>
+    <string name="add_languages_add_language">භාෂා එකතු කරන්න</string>
+    <string name="add_language_select">තෝරන්න.</string>
+    <string name="add_language_cancel">අවලංගු කරන්න</string>
+    <string name="select_gender_title">පැතිකඩ සැඩසිටියා OK</string>
+    <string name="select_gender_subtitle">පෙළෙන් පිරිසිදු කරන්න.</string>
+    <string name="select_topics_title">පැතිකඩ සැඩසිටියා OK</string>
+    <string name="select_topics_subtitle">මාධ්‍ය තෝරන්න</string>
+    <string name="add_description_title">පැතිකඩ සැඩසිටියා OK</string>
+    <string name="add_description_subtitle">ඔබ ගැන සම්බන්ද විස්තර එක් කරන්න.</string>
+    <string name="add_description_birthday_hint">උපන්දිමය</string>
+    <string name="add_description_birthday_select">තෝරන්න.</string>
+    <string name="add_description_birthday_cancel">අවලංගු කරන්න</string>
+    <string name="add_description_location_hint">ස්ථානය</string>
+    <string name="add_description_description_hint">විස්තරය</string>
+</resources>

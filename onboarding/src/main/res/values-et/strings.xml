@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Logi sisse</string>
+    <string name="onboarding_signup_btn">Registreeru</string>
+    <string name="onboarding_other_title">Jätkake või jätkake</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Jätka külalisena</string>
+    <string name="onboarding_go_back">Mine tagasi</string>
+
+    <!-- Log in -->
+    <string name="login_title">Tere tulemast tagasi!</string>
+    <string name="login_subtitle">Logige sisse oma kontole.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Parool</string>
+    <string name="login_forgot_password">Unustasid parooli\?</string>
+    <string name="login_login_btn">Logi sisse</string>
+    <string name="login_go_to_signup_1">Kas teil pole veel kontot\?</string>
+    <string name="login_go_to_signup_2">Registreeru</string>
+    <string name="login_reset_password">Taasta parool</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registreeru</string>
+    <string name="signup_subtitle">Loo oma konto</string>
+    <string name="signup_name_hint">Nimi</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Parool</string>
+    <string name="signup_confirm_password_hint">Kinnitage parool</string>
+    <string name="signup_signup_btn">Registreeri</string>
+    <string name="signup_go_to_login_1">Kas sul on juba konto\?</string>
+    <string name="signup_go_to_login_2">Logi sisse</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Järgmine</string>
+    <string name="setup_profile_finish">Lõpeta</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Profiili seadistamine</string>
+    <string name="add_picture_subtitle">Lisage profiilipilt</string>
+    <string name="add_languages_title">Profiili seadistamine</string>
+    <string name="add_languages_subtitle">Valige keeled</string>
+    <string name="add_languages_select_proficiency">Valige oskus näidata.</string>
+    <string name="add_languages_select_language">Valige keel</string>
+    <string name="add_languages_add_language">Lisa keel</string>
+    <string name="add_language_select">Vali</string>
+    <string name="add_language_cancel">Tühista</string>
+    <string name="select_gender_title">Profiili seadistamine</string>
+    <string name="select_gender_subtitle">Valige sugu</string>
+    <string name="select_topics_title">Profiili seadistamine</string>
+    <string name="select_topics_subtitle">Valige teemad</string>
+    <string name="add_description_title">Profiili seadistamine</string>
+    <string name="add_description_subtitle">Lisa mõned andmed enda kohta</string>
+    <string name="add_description_birthday_hint">Sünnipäev</string>
+    <string name="add_description_birthday_select">Vali</string>
+    <string name="add_description_birthday_cancel">Tühista</string>
+    <string name="add_description_location_hint">Asukoht</string>
+    <string name="add_description_description_hint">Kirjeldus</string>
+</resources>

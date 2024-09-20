@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Manumanu</string>
+    <string name="topic_cooking">Ngaahi me\'akai</string>
+    <string name="topic_theater">Falekoloa</string>
+    <string name="topic_partying">Fakamālohi</string>
+    <string name="topic_biking">Faitānima</string>
+    <string name="topic_camping">Faito\'oulu</string>
+    <string name="topic_fitness">Tele.</string>
+    <string name="topic_meditation">Meditasi</string>
+    <string name="topic_movie">Filimóúnga</string>
+    <string name="topic_music">Musika</string>
+    <string name="topic_painting">Fakamafanafana</string>
+    <string name="topic_physics">Fusíkesi</string>
+    <string name="topic_reading">Tuhi\'ai</string>
+    <string name="topic_science">Saiensi</string>
+    <string name="topic_sports">Lotu ma\'a\'I pē.</string>
+    <string name="topic_swimming">Moana\'ai</string>
+    <string name="topic_technology">Fakamahinaʻanga</string>
+    <string name="topic_videogame">Veʻesi Taʻu Fiefia</string>
+</resources>

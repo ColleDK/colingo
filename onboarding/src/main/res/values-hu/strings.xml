@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Bejelentkezés</string>
+    <string name="onboarding_signup_btn">Regisztrálás</string>
+    <string name="onboarding_other_title">Vagy folytatni.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Folytatás vendégként</string>
+    <string name="onboarding_go_back">Menj vissza.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Üdvözöljük vissza!</string>
+    <string name="login_subtitle">Jelentkezzen be az önétlapra.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Jelszó</string>
+    <string name="login_forgot_password">Elfelejtette a jelszavát\?</string>
+    <string name="login_login_btn">Bejelentkezés</string>
+    <string name="login_go_to_signup_1">Még nincs fiókja\?</string>
+    <string name="login_go_to_signup_2">Regisztráció</string>
+    <string name="login_reset_password">Jelszó visszaállítása</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Regisztráció</string>
+    <string name="signup_subtitle">Hozz létre egy fiókot</string>
+    <string name="signup_name_hint">Név</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Jelszó</string>
+    <string name="signup_confirm_password_hint">Jelszó megerősítése</string>
+    <string name="signup_signup_btn">Regisztráció</string>
+    <string name="signup_go_to_login_1">Már van fiókja\?</string>
+    <string name="signup_go_to_login_2">Bejelentkezés</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Következő</string>
+    <string name="setup_profile_finish">Befejezés</string>
+    <string name="setup_profile_skip">Ugrás</string>
+    <string name="add_picture_title">Profil beállítása</string>
+    <string name="add_picture_subtitle">Profilkép hozzáadása</string>
+    <string name="add_languages_title">Profil beállítása</string>
+    <string name="add_languages_subtitle">Válasszon nyelveket</string>
+    <string name="add_languages_select_proficiency">Képesség kiválasztása</string>
+    <string name="add_languages_select_language">Válasszon nyelvet</string>
+    <string name="add_languages_add_language">Nyelv hozzáadása</string>
+    <string name="add_language_select">Válasszon</string>
+    <string name="add_language_cancel">Mégse</string>
+    <string name="select_gender_title">Profil beállítása</string>
+    <string name="select_gender_subtitle">Válassza ki a nemét</string>
+    <string name="select_topics_title">Profil beállítása</string>
+    <string name="select_topics_subtitle">Témák kiválasztása</string>
+    <string name="add_description_title">Profil beállítása</string>
+    <string name="add_description_subtitle">Adjon hozzá néhány információt magáról</string>
+    <string name="add_description_birthday_hint">Születésnap</string>
+    <string name="add_description_birthday_select">Válassz</string>
+    <string name="add_description_birthday_cancel">Mégse</string>
+    <string name="add_description_location_hint">Helyszín</string>
+    <string name="add_description_description_hint">Leírás</string>
+</resources>

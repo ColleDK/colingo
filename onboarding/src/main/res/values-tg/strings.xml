@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Озод шудаед</string>
+    <string name="onboarding_signup_btn">Бақайдгирииш</string>
+    <string name="onboarding_other_title">Или идома доред.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Фейсбуқ</string>
+    <string name="onboarding_guest_btn">Идораи як медожо продолж карда мешавад</string>
+    <string name="onboarding_go_back">Баргашта шавед</string>
+
+    <!-- Log in -->
+    <string name="login_title">Хуш омадед ба бозгардонӣ!</string>
+    <string name="login_subtitle">Дар воридшавӣ ба ҳисоби худ وарезонед.</string>
+    <string name="login_email_hint">Почта</string>
+    <string name="login_password_hint">Гузардодани калима</string>
+    <string name="login_forgot_password">ҳастеҳаробиқулёбро парол мегирад\?</string>
+    <string name="login_login_btn">Қайд шудан</string>
+    <string name="login_go_to_signup_1">Одамон аз рӯзӣ хисоб доред\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Рамзи рӯзнома навстановить шавед</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Реестр</string>
+    <string name="signup_subtitle">Сабти ҳисоби шумо пайда кунед</string>
+    <string name="signup_name_hint">Ном</string>
+    <string name="signup_email_hint">Имейл</string>
+    <string name="signup_password_hint">Рамзи амният</string>
+    <string name="signup_confirm_password_hint">Тасдиқи парол.</string>
+    <string name="signup_signup_btn">Ређстрация</string>
+    <string name="signup_go_to_login_1">Оё аз аввали шумо ҳисоб доред\?</string>
+    <string name="signup_go_to_login_2">Воридшавӣ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Оянда</string>
+    <string name="setup_profile_finish">Пурра</string>
+    <string name="setup_profile_skip">Ok</string>
+    <string name="add_picture_title">Танзими профили</string>
+    <string name="add_picture_subtitle">Илова кардани тасвир дар профил</string>
+    <string name="add_languages_title">Танзими профили</string>
+    <string name="add_languages_subtitle">Интихоби забонه‌ҳо</string>
+    <string name="add_languages_select_proficiency">Интихоби саводзанӣ</string>
+    <string name="add_languages_select_language">Интихоби забон</string>
+    <string name="add_languages_add_language">Иловаи забон</string>
+    <string name="add_language_select">Интихоб Кунед</string>
+    <string name="add_language_cancel">Ғайб кардан</string>
+    <string name="select_gender_title">Интихоби Профилиро иҷоза кунед</string>
+    <string name="select_gender_subtitle">Интихоби ҷинсӣ</string>
+    <string name="select_topics_title">Интихоби Профилиро иҷоза кунед</string>
+    <string name="select_topics_subtitle">Интихоби мавзеаҳо</string>
+    <string name="add_description_title">Танзим кардани Профил</string>
+    <string name="add_description_subtitle">Иловаи маълумот дар бораи худатон</string>
+    <string name="add_description_birthday_hint">Таваллудатоном - Иди милодӣ</string>
+    <string name="add_description_birthday_select">Интихоб كардан</string>
+    <string name="add_description_birthday_cancel">ґayм карда шавад</string>
+    <string name="add_description_location_hint">Мағбул</string>
+    <string name="add_description_description_hint">Тавсиф</string>
+</resources>

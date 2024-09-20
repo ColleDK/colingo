@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Anifeiliaid</string>
+    <string name="topic_cooking">Coginio</string>
+    <string name="topic_theater">Theatr</string>
+    <string name="topic_partying">Partio</string>
+    <string name="topic_biking">Beicio</string>
+    <string name="topic_camping">Gwersylla</string>
+    <string name="topic_fitness">Iawn</string>
+    <string name="topic_meditation">Ystyried</string>
+    <string name="topic_movie">Ffilmiau</string>
+    <string name="topic_music">Cerddoriaeth</string>
+    <string name="topic_painting">Paentio</string>
+    <string name="topic_physics">Ffiseg</string>
+    <string name="topic_reading">Darllen</string>
+    <string name="topic_science">Gwyddoniaeth</string>
+    <string name="topic_sports">Chwaraeon</string>
+    <string name="topic_swimming">Nofio</string>
+    <string name="topic_technology">Technoleg</string>
+    <string name="topic_videogame">Gemau fideo</string>
+</resources>

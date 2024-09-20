@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Ngena</string>
+    <string name="onboarding_signup_btn">Bhalisa</string>
+    <string name="onboarding_other_title">Noma uxolo ngezi zinto, Angaze ungakhohlwa.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Dura njengomuntu ohlanzekile</string>
+    <string name="onboarding_go_back">Hamba emuva</string>
+
+    <!-- Log in -->
+    <string name="login_title">Siyakwamukela!</string>
+    <string name="login_subtitle">Ngena ekhasino yakho.</string>
+    <string name="login_email_hint">i-Email</string>
+    <string name="login_password_hint">Iphasiwedi</string>
+    <string name="login_forgot_password">Thatha iphasiwedi\?</string>
+    <string name="login_login_btn">Ngena.</string>
+    <string name="login_go_to_signup_1">Awukho uhlobo lwe-akhawunti\?</string>
+    <string name="login_go_to_signup_2">Thumelela ukuqala</string>
+    <string name="login_reset_password">Vula ikhasi lokufutshane</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Faka iqala</string>
+    <string name="signup_subtitle">Dala ikhawunti yakho</string>
+    <string name="signup_name_hint">Igama</string>
+    <string name="signup_email_hint">Imeyili</string>
+    <string name="signup_password_hint">Iphasiwedi</string>
+    <string name="signup_confirm_password_hint">Thumela iphaseword yakho</string>
+    <string name="signup_signup_btn">Bhalisa</string>
+    <string name="signup_go_to_login_1">Unesiphi isonto\?</string>
+    <string name="signup_go_to_login_2">Ngena</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Ok</string>
+    <string name="setup_profile_finish">Kwamanye amabhuzu: Qeda</string>
+    <string name="setup_profile_skip">Suka</string>
+    <string name="add_picture_title">Hlanganisa iprofayili</string>
+    <string name="add_picture_subtitle">Faka Isithombe sesikrini</string>
+    <string name="add_languages_title">Hlanganisa iprofayili</string>
+    <string name="add_languages_subtitle">Khetha izilimi</string>
+    <string name="add_languages_select_proficiency">Khetha ukuqonda</string>
+    <string name="add_languages_select_language">Khetha ulimi</string>
+    <string name="add_languages_add_language">Faka ulimi</string>
+    <string name="add_language_select">Khetha</string>
+    <string name="add_language_cancel">Hamba.</string>
+    <string name="select_gender_title">Set up iprofayela.</string>
+    <string name="select_gender_subtitle">Khetha isifundo</string>
+    <string name="select_topics_title">Set up iprofayela.</string>
+    <string name="select_topics_subtitle">Khetha amacebo</string>
+    <string name="add_description_title">Vula iprofayela</string>
+    <string name="add_description_subtitle">Faka izici mayelana nawe</string>
+    <string name="add_description_birthday_hint">Izinsuku zokuzalwa</string>
+    <string name="add_description_birthday_select">Khetha</string>
+    <string name="add_description_birthday_cancel">Khanselwa</string>
+    <string name="add_description_location_hint">Indawo</string>
+    <string name="add_description_description_hint">Incazelo</string>
+</resources>

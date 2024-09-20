@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Hyrje</string>
+    <string name="onboarding_signup_btn">Regjistrohu</string>
+    <string name="onboarding_other_title">Ose vazhdo me</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Vazhdoni si vizitor</string>
+    <string name="onboarding_go_back">Kthehu</string>
+
+    <!-- Log in -->
+    <string name="login_title">Mirëseardhje në kthim!</string>
+    <string name="login_subtitle">Hyr në llogarinë tënde</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Fjalëkalim</string>
+    <string name="login_forgot_password">Harruat fjalëkalimin\?</string>
+    <string name="login_login_btn">Hyrje</string>
+    <string name="login_go_to_signup_1">Nuk keni një llogari ende\?</string>
+    <string name="login_go_to_signup_2">Regjistrohu</string>
+    <string name="login_reset_password">Rivendos fjalëkalimin</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Regjistrohu</string>
+    <string name="signup_subtitle">Krijo llogarinë tënde</string>
+    <string name="signup_name_hint">Emri</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Fjalëkalim</string>
+    <string name="signup_confirm_password_hint">Konfirmoni fjalëkalimin</string>
+    <string name="signup_signup_btn">Regjistrohu</string>
+    <string name="signup_go_to_login_1">Keni një llogari tashmë\?</string>
+    <string name="signup_go_to_login_2">Hyrje</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Pasues.</string>
+    <string name="setup_profile_finish">Përfunduar</string>
+    <string name="setup_profile_skip">Kaloni</string>
+    <string name="add_picture_title">Krijo profil</string>
+    <string name="add_picture_subtitle">Shto foto profil</string>
+    <string name="add_languages_title">Krijo profil</string>
+    <string name="add_languages_subtitle">Zgjidhni gjuhët.</string>
+    <string name="add_languages_select_proficiency">Selekto nivelin e shkathtësive.</string>
+    <string name="add_languages_select_language">Zgjidhni gjuhën</string>
+    <string name="add_languages_add_language">Shto gjuhën</string>
+    <string name="add_language_select">Zgjidhuni</string>
+    <string name="add_language_cancel">Anulo</string>
+    <string name="select_gender_title">Krijo profil</string>
+    <string name="select_gender_subtitle">Zgjidh gjininë</string>
+    <string name="select_topics_title">Krijo profil</string>
+    <string name="select_topics_subtitle">Zgjidhni temat</string>
+    <string name="add_description_title">Krijo profil</string>
+    <string name="add_description_subtitle">Shto disa informacione rreth vetes</string>
+    <string name="add_description_birthday_hint">Ditelindja</string>
+    <string name="add_description_birthday_select">Zgjidhuni</string>
+    <string name="add_description_birthday_cancel">Anulo</string>
+    <string name="add_description_location_hint">Vendndodhja</string>
+    <string name="add_description_description_hint">Përshkrimi</string>
+</resources>

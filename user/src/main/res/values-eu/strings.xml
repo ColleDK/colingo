@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animaliak</string>
+    <string name="topic_cooking">Sukaldaritza</string>
+    <string name="topic_theater">Antzerkia</string>
+    <string name="topic_partying">Jaia egiten</string>
+    <string name="topic_biking">Txostenbat egiteko: Biking</string>
+    <string name="topic_camping">Txuriko baserria</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditazioa</string>
+    <string name="topic_movie">Filmaak</string>
+    <string name="topic_music">Musika</string>
+    <string name="topic_painting">Pintura</string>
+    <string name="topic_physics">Fisika</string>
+    <string name="topic_reading">Irakurketa</string>
+    <string name="topic_science">Zientzia</string>
+    <string name="topic_sports">Kirolak</string>
+    <string name="topic_swimming">Nahiz eta testua laburtzen, itzulpena zuzena eta argia izango da: Igerian</string>
+    <string name="topic_technology">Teknologia</string>
+    <string name="topic_videogame">Bideojokoak.</string>
+</resources>

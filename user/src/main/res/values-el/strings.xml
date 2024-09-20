@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Ζώα</string>
+    <string name="topic_cooking">Μαγειρική</string>
+    <string name="topic_theater">Θέατρο</string>
+    <string name="topic_partying">Διασκεδάζοντας</string>
+    <string name="topic_biking">Ποδηλασία</string>
+    <string name="topic_camping">Κατασκήνωση</string>
+    <string name="topic_fitness">Φυσική κατάσταση</string>
+    <string name="topic_meditation">Διαλογισμός</string>
+    <string name="topic_movie">Ταινίες</string>
+    <string name="topic_music">Μουσική</string>
+    <string name="topic_painting">Ζωγραφική</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Ανάγνωση</string>
+    <string name="topic_science">Επιστήμη</string>
+    <string name="topic_sports">Αθλητικά</string>
+    <string name="topic_swimming">Κολύμπι</string>
+    <string name="topic_technology">Τεχνολογία</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

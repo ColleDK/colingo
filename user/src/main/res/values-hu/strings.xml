@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Állatok</string>
+    <string name="topic_cooking">Főzés</string>
+    <string name="topic_theater">Színház</string>
+    <string name="topic_partying">Buli</string>
+    <string name="topic_biking">Kerékpározás</string>
+    <string name="topic_camping">Kemping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditáció</string>
+    <string name="topic_movie">Filmek</string>
+    <string name="topic_music">Zene</string>
+    <string name="topic_painting">Festészet</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Olvasás</string>
+    <string name="topic_science">Tudomány</string>
+    <string name="topic_sports">Sport</string>
+    <string name="topic_swimming">Úszás</string>
+    <string name="topic_technology">Technológia</string>
+    <string name="topic_videogame">Videojátékok</string>
+</resources>

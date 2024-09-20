@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">పశువులు</string>
+    <string name="topic_cooking">వంటకం</string>
+    <string name="topic_theater">థియాటర్</string>
+    <string name="topic_partying">పార్టీ చేస్తున్నారు</string>
+    <string name="topic_biking">సైక్లింగ్</string>
+    <string name="topic_camping">క్యాంప్ చేస్తున్నది</string>
+    <string name="topic_fitness">ఫిట్నెస్</string>
+    <string name="topic_meditation">ధ్యానం</string>
+    <string name="topic_movie">చిత్రాలు</string>
+    <string name="topic_music">సంగీతం</string>
+    <string name="topic_painting">పేయింటింగ్</string>
+    <string name="topic_physics">భౌతికశాస్త్రం</string>
+    <string name="topic_reading">చదవడం</string>
+    <string name="topic_science">శాస్త్రం</string>
+    <string name="topic_sports">ఖేళని చర్చ చేయాలి</string>
+    <string name="topic_swimming">ఈవేహనం</string>
+    <string name="topic_technology">సాంకేతికం</string>
+    <string name="topic_videogame">వీడియో గేమ్స్</string>
+</resources>

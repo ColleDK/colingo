@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">登入</string>
+    <string name="onboarding_signup_btn">注册</string>
+    <string name="onboarding_other_title">继续</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">继续以访客身份</string>
+    <string name="onboarding_go_back">返回</string>
+
+    <!-- Log in -->
+    <string name="login_title">欢迎回来!</string>
+    <string name="login_subtitle">登录您的账户</string>
+    <string name="login_email_hint">电子邮件</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_forgot_password">忘记密码？</string>
+    <string name="login_login_btn">登入</string>
+    <string name="login_go_to_signup_1">还没有帐号吗？</string>
+    <string name="login_go_to_signup_2">注册</string>
+    <string name="login_reset_password">重置密码</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">注册</string>
+    <string name="signup_subtitle">创建您的帐户</string>
+    <string name="signup_name_hint">名称</string>
+    <string name="signup_email_hint">电子邮件</string>
+    <string name="signup_password_hint">密码</string>
+    <string name="signup_confirm_password_hint">确认密码</string>
+    <string name="signup_signup_btn">注册</string>
+    <string name="signup_go_to_login_1">已经有账户了吗？</string>
+    <string name="signup_go_to_login_2">登入</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">下一个</string>
+    <string name="setup_profile_finish">完成</string>
+    <string name="setup_profile_skip">跳过</string>
+    <string name="add_picture_title">设置个人资料</string>
+    <string name="add_picture_subtitle">添加个人资料图片</string>
+    <string name="add_languages_title">设置个人资料</string>
+    <string name="add_languages_subtitle">选择语言</string>
+    <string name="add_languages_select_proficiency">选择熟练程度</string>
+    <string name="add_languages_select_language">选择语言</string>
+    <string name="add_languages_add_language">添加语言</string>
+    <string name="add_language_select">选择</string>
+    <string name="add_language_cancel">取消</string>
+    <string name="select_gender_title">设置个人资料</string>
+    <string name="select_gender_subtitle">选择性别</string>
+    <string name="select_topics_title">设置个人资料</string>
+    <string name="select_topics_subtitle">选择主题</string>
+    <string name="add_description_title">设置个人资料</string>
+    <string name="add_description_subtitle">添加一些关于你自己的信息</string>
+    <string name="add_description_birthday_hint">生日</string>
+    <string name="add_description_birthday_select">选择</string>
+    <string name="add_description_birthday_cancel">取消</string>
+    <string name="add_description_location_hint">位置</string>
+    <string name="add_description_description_hint">描述</string>
+</resources>

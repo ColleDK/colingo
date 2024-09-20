@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Teken in</string>
+    <string name="onboarding_signup_btn">Teken aan</string>
+    <string name="onboarding_other_title">Of gaan voort met</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Gaan voort as gas</string>
+    <string name="onboarding_go_back">Gaan terug</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welkom terug!</string>
+    <string name="login_subtitle">Teken in by jou rekening</string>
+    <string name="login_email_hint">E-pos</string>
+    <string name="login_password_hint">Wagwoord</string>
+    <string name="login_forgot_password">Geskiedenis verander\?</string>
+    <string name="login_login_btn">Teken in</string>
+    <string name="login_go_to_signup_1">Het jy nog nie ŉ rekening nie\?</string>
+    <string name="login_go_to_signup_2">Teken aan</string>
+    <string name="login_reset_password">Stel wagwoord terug</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registreer</string>
+    <string name="signup_subtitle">Skep jou rekening</string>
+    <string name="signup_name_hint">Naam</string>
+    <string name="signup_email_hint">E-pos</string>
+    <string name="signup_password_hint">Wagwoord</string>
+    <string name="signup_confirm_password_hint">Bevestig wagwoord</string>
+    <string name="signup_signup_btn">Registreer</string>
+    <string name="signup_go_to_login_1">Het jy reeds \'n rekening\?</string>
+    <string name="signup_go_to_login_2">Teken in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Volgende</string>
+    <string name="setup_profile_finish">Voltooi</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Stel profiel op</string>
+    <string name="add_picture_subtitle">Voeg profielfoto by</string>
+    <string name="add_languages_title">Stel profiel op</string>
+    <string name="add_languages_subtitle">Kies tale</string>
+    <string name="add_languages_select_proficiency">Kies vaardigheid</string>
+    <string name="add_languages_select_language">Kies taal</string>
+    <string name="add_languages_add_language">Voeg taal by</string>
+    <string name="add_language_select">Kies</string>
+    <string name="add_language_cancel">Kanselleer</string>
+    <string name="select_gender_title">Stel profiel op</string>
+    <string name="select_gender_subtitle">Kies geslag</string>
+    <string name="select_topics_title">Stel profiel op</string>
+    <string name="select_topics_subtitle">Kies onderwerpe</string>
+    <string name="add_description_title">Stel profiel op</string>
+    <string name="add_description_subtitle">Voeg \'n bietjie inligting oor jouself by</string>
+    <string name="add_description_birthday_hint">Verjaardag</string>
+    <string name="add_description_birthday_select">Kies</string>
+    <string name="add_description_birthday_cancel">Kanselleer</string>
+    <string name="add_description_location_hint">Plek</string>
+    <string name="add_description_description_hint">Beskrywing</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ننوې کړی وکړۍ</string>
+    <string name="onboarding_signup_btn">نوي استاز کول</string>
+    <string name="onboarding_other_title">د وساتلو سره ورسول</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">د پیار وېینولو جوړ کولو سره ورته راتل شه</string>
+    <string name="onboarding_go_back">پخپله وکړه</string>
+
+    <!-- Log in -->
+    <string name="login_title">خوش آمدید ووائې!</string>
+    <string name="login_subtitle">په خپل حساب کې د ننوتل شه</string>
+    <string name="login_email_hint">ایمیل</string>
+    <string name="login_password_hint">پاسورد</string>
+    <string name="login_forgot_password">رمز پټلوره؟</string>
+    <string name="login_login_btn">ننوې کړی وکړۍ</string>
+    <string name="login_go_to_signup_1">د خاصي حساپ لرم نه؟</string>
+    <string name="login_go_to_signup_2">نوي استاز کول</string>
+    <string name="login_reset_password">پاسورډ ترتیب کول</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">راجسټر کول</string>
+    <string name="signup_subtitle">د خلکو حساب جوړه کړئ</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">ایمیل</string>
+    <string name="signup_password_hint">پاسورد</string>
+    <string name="signup_confirm_password_hint">تصدیق پاسورډ</string>
+    <string name="signup_signup_btn">راجسټر کول</string>
+    <string name="signup_go_to_login_1">په کارته د څرنګوالیا لري؟</string>
+    <string name="signup_go_to_login_2">ننوې کړی وکړۍ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">بعدی</string>
+    <string name="setup_profile_finish">ختم وکړئ</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">په پيلو راپور کړه</string>
+    <string name="add_picture_subtitle">پېژندل پيلښتنه ورکړئ</string>
+    <string name="add_languages_title">په پيلو راپور کړه</string>
+    <string name="add_languages_subtitle">د ژبو د ټاکنه</string>
+    <string name="add_languages_select_proficiency">د مهارتونو انتخاب کړئ</string>
+    <string name="add_languages_select_language">د ژبې انتخاب کړئ</string>
+    <string name="add_languages_add_language">زمايو ژبه اضافه کړه</string>
+    <string name="add_language_select">اغېزه وټاکئ</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="select_gender_title">په پيلو راپور کړه</string>
+    <string name="select_gender_subtitle">د جنس پهټه</string>
+    <string name="select_topics_title">په پيلو راپور کړه</string>
+    <string name="select_topics_subtitle">موضوعونو خونديږه</string>
+    <string name="add_description_title">په پيلو راپور کړه</string>
+    <string name="add_description_subtitle">خود سره د خپلو مخونو معلومات اضافه کړئ</string>
+    <string name="add_description_birthday_hint">ميلاد ورځ</string>
+    <string name="add_description_birthday_select">اغېزه وټاکئ</string>
+    <string name="add_description_birthday_cancel">Cancel</string>
+    <string name="add_description_location_hint">موقع</string>
+    <string name="add_description_description_hint">پیژندلیدل</string>
+</resources>

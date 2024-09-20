@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">கோளிங்கோ</string>
+    <string name="onboarding_login_btn">உள்நுழையவும்</string>
+    <string name="onboarding_signup_btn">பதிவு செய்யுங்கள்</string>
+    <string name="onboarding_other_title">அல்லது தொடர்க</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">உண்மையில்யூஸர்</string>
+    <string name="onboarding_guest_btn">விரும்பியவராக தொடர்க</string>
+    <string name="onboarding_go_back">மீண்டும் செல்</string>
+
+    <!-- Log in -->
+    <string name="login_title">மீண்டும் வரவேற்கிறோம்!</string>
+    <string name="login_subtitle">உங்கள் கணக்குக்கு உள்நுழையவும்.</string>
+    <string name="login_email_hint">மின்னஞ்சல்</string>
+    <string name="login_password_hint">கடவுச்சொல்</string>
+    <string name="login_forgot_password">கடவுச்சொல்லை மறந்துவிட்டீர்களா\?</string>
+    <string name="login_login_btn">உள்நுழையுக</string>
+    <string name="login_go_to_signup_1">புதிய கணக்கு இல்லையா\?</string>
+    <string name="login_go_to_signup_2">பதிவு செய்க</string>
+    <string name="login_reset_password">கடவுச்சொல் மீளமைக்கவும்</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">பதிவு செய்யவும்</string>
+    <string name="signup_subtitle">உங்கள் கணக்கை உருவாக்கவும்.</string>
+    <string name="signup_name_hint">பெயர்</string>
+    <string name="signup_email_hint">மின்னஞ்சல்</string>
+    <string name="signup_password_hint">கடவுச்சொல்</string>
+    <string name="signup_confirm_password_hint">கடவுச்சொல் உறுதிப்படுத்தவும்</string>
+    <string name="signup_signup_btn">பதிவு செய்க</string>
+    <string name="signup_go_to_login_1">ஏனைகளை ஒரு கணக்கு உள்ளதாக\?</string>
+    <string name="signup_go_to_login_2">உள்நுழையவும்</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">அடுத்து</string>
+    <string name="setup_profile_finish">முடிக்கவும்</string>
+    <string name="setup_profile_skip">தவிர்</string>
+    <string name="add_picture_title">செதிப்பு சேட்டிங்</string>
+    <string name="add_picture_subtitle">சுயவிவரப் புகைப்படம் சேர்</string>
+    <string name="add_languages_title">செதிப்பு சேட்டிங்</string>
+    <string name="add_languages_subtitle">மொழிகளைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="add_languages_select_proficiency">நிபுணத்தைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="add_languages_select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="add_languages_add_language">மொழியை சேர்க்கவும்</string>
+    <string name="add_language_select">தேர்ந்தெடு.</string>
+    <string name="add_language_cancel">ரத்து செய்க</string>
+    <string name="select_gender_title">செடப் புரொஃபைல்</string>
+    <string name="select_gender_subtitle">பாலினமையை தேர்ந்தெடுக்கவும்</string>
+    <string name="select_topics_title">செடப் புரொஃபைல்</string>
+    <string name="select_topics_subtitle">பார்வையிட தலைப்புகளைத் தேர்வு செய்க.</string>
+    <string name="add_description_title">செடப் புத்தகம் அமைப்பது</string>
+    <string name="add_description_subtitle">உங்கள் பற்றி சில தகவல்களைச் சேர்க்கவும்</string>
+    <string name="add_description_birthday_hint">பிறந்தநாள்</string>
+    <string name="add_description_birthday_select">தேர்ந்தெடுக்கவும்</string>
+    <string name="add_description_birthday_cancel">ரத்து செய்</string>
+    <string name="add_description_location_hint">இடம்</string>
+    <string name="add_description_description_hint">விளக்கம்</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Inloggen</string>
+    <string name="onboarding_signup_btn">Aanmelden</string>
+    <string name="onboarding_other_title">Of ga verder met</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Doorgaan als gast</string>
+    <string name="onboarding_go_back">Ga terug</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welkom terug!</string>
+    <string name="login_subtitle">Log in op uw account</string>
+    <string name="login_email_hint">E-mail</string>
+    <string name="login_password_hint">Wachtwoord</string>
+    <string name="login_forgot_password">Wachtwoord vergeten\?</string>
+    <string name="login_login_btn">Inloggen</string>
+    <string name="login_go_to_signup_1">Heb je nog geen account\?</string>
+    <string name="login_go_to_signup_2">Aanmelden</string>
+    <string name="login_reset_password">Wachtwoord herstellen</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Maak een account aan</string>
+    <string name="signup_name_hint">Naam</string>
+    <string name="signup_email_hint">E-mail</string>
+    <string name="signup_password_hint">Wachtwoord</string>
+    <string name="signup_confirm_password_hint">Bevestig wachtwoord</string>
+    <string name="signup_signup_btn">Registreren</string>
+    <string name="signup_go_to_login_1">Heb je al een account\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Volgende</string>
+    <string name="setup_profile_finish">Afronden</string>
+    <string name="setup_profile_skip">Overslaan</string>
+    <string name="add_picture_title">Profiel instellen</string>
+    <string name="add_picture_subtitle">Profielfoto toevoegen</string>
+    <string name="add_languages_title">Profiel instellen</string>
+    <string name="add_languages_subtitle">Selecteer talen</string>
+    <string name="add_languages_select_proficiency">Selecteer expertise</string>
+    <string name="add_languages_select_language">Selecteer taal</string>
+    <string name="add_languages_add_language">Taal toevoegen</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Annuleren</string>
+    <string name="select_gender_title">Profiel instellen</string>
+    <string name="select_gender_subtitle">Selecteer geslacht</string>
+    <string name="select_topics_title">Profiel instellen</string>
+    <string name="select_topics_subtitle">Selecteer onderwerpen</string>
+    <string name="add_description_title">Profiel instellen</string>
+    <string name="add_description_subtitle">Voeg wat informatie over jezelf toe</string>
+    <string name="add_description_birthday_hint">Verjaardag</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Annuleren</string>
+    <string name="add_description_location_hint">Locatie</string>
+    <string name="add_description_description_hint">Beschrijving</string>
+</resources>

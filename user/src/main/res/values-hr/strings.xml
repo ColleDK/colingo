@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Životinje</string>
+    <string name="topic_cooking">Kuhanje</string>
+    <string name="topic_theater">Kazalište</string>
+    <string name="topic_partying">Slavlje</string>
+    <string name="topic_biking">Vožnja biciklom</string>
+    <string name="topic_camping">Kampiranje</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditacija</string>
+    <string name="topic_movie">Filmovi</string>
+    <string name="topic_music">Glazba</string>
+    <string name="topic_painting">Slikanje</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Čitanje</string>
+    <string name="topic_science">Znanost</string>
+    <string name="topic_sports">Sport</string>
+    <string name="topic_swimming">Plivanje</string>
+    <string name="topic_technology">Tehnologija</string>
+    <string name="topic_videogame">Video igre</string>
+</resources>

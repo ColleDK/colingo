@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Dzīvnieki</string>
+    <string name="topic_cooking">Gatavošana</string>
+    <string name="topic_theater">Teātris</string>
+    <string name="topic_partying">Svinēt</string>
+    <string name="topic_biking">Velosipēdēšana</string>
+    <string name="topic_camping">Kempings</string>
+    <string name="topic_fitness">Fitnesa</string>
+    <string name="topic_meditation">Meditācija</string>
+    <string name="topic_movie">Filmas</string>
+    <string name="topic_music">Mūzika</string>
+    <string name="topic_painting">Zīmējums</string>
+    <string name="topic_physics">Fizika.</string>
+    <string name="topic_reading">Lasīšana</string>
+    <string name="topic_science">Zinātne</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Peldēšana</string>
+    <string name="topic_technology">Tehnoloģija</string>
+    <string name="topic_videogame">Spēles</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ലോഗിൻ</string>
+    <string name="onboarding_signup_btn">സൈൻ അപ്പ് ചെയ്യുക</string>
+    <string name="onboarding_other_title">അല്ലെങ്കിൽ തുടരുക</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">അതിനാൽ അതുവഴി അതിനു ഒരു അതിഥിയായി തുടരുക</string>
+    <string name="onboarding_go_back">പിന്നിലേക്ക് പോകുക</string>
+
+    <!-- Log in -->
+    <string name="login_title">Swagatham!</string>
+    <string name="login_subtitle">നിങ്ങളുടെ അക്കൗണ്ടിലേക്ക് ലോഗ് ഇൻ ചെയ്യുക.</string>
+    <string name="login_email_hint">ഇമെയിൽ</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">പാസ്വേഡ് മറന്നോ\?</string>
+    <string name="login_login_btn">ലോഗിൻ ചെയ്യുക</string>
+    <string name="login_go_to_signup_1">ഇതുവരെ അക്കൗണ്ട് ഉണ്ടാക്കിയില്ലോ\?</string>
+    <string name="login_go_to_signup_2">സൈൻ അപ്പ് ചെയ്യുക</string>
+    <string name="login_reset_password">പാസ്‌വേഡ് മറന്ന് പുനഃസ്ഥാപിക്കുക</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">രജിസ്റ്റർ ചെയ്യുക.</string>
+    <string name="signup_subtitle">നിങ്ങളുടെ അക്കൗണ്ട് സൃഷ്ടിക്കുക.</string>
+    <string name="signup_name_hint">പേര്</string>
+    <string name="signup_email_hint">ഇമെയിൽ</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക</string>
+    <string name="signup_signup_btn">രജിസ്റ്റർ</string>
+    <string name="signup_go_to_login_1">നിങ്ങളിതിനാൽ ഒരു അക്കൗണ്ട് ഉണ്ടോ\?</string>
+    <string name="signup_go_to_login_2">ലോഗിൻ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">അടുത്തത്</string>
+    <string name="setup_profile_finish">അവസാനിപ്പിൽ</string>
+    <string name="setup_profile_skip">വിടുക</string>
+    <string name="add_picture_title">പ്രൊഫൈൽ സെറ്റപ്പ് ചെയ്യുക</string>
+    <string name="add_picture_subtitle">പ്രൊഫൈൽ ചിത്രം ചേർക്കുക</string>
+    <string name="add_languages_title">പ്രൊഫൈൽ സെറ്റപ്പ് ചെയ്യുക</string>
+    <string name="add_languages_subtitle">Select languages</string>
+    <string name="add_languages_select_proficiency">നേരിട്ടു കണ്ട് പരിപാലനം തിരഞ്ഞെടുത്തുക</string>
+    <string name="add_languages_select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="add_languages_add_language">ഭാഷ ചേർക്കുക</string>
+    <string name="add_language_select">തെരഞ്ഞെടുക്കുക</string>
+    <string name="add_language_cancel">റദ്ദാക്കുക</string>
+    <string name="select_gender_title">പ്രൊഫൈൽ സെറ്റപ്പ് ചെയ്യുക</string>
+    <string name="select_gender_subtitle">ലിംഗം തിരഞ്ഞെടുക്കുക</string>
+    <string name="select_topics_title">പ്രൊഫൈൽ സെറ്റപ്പ് ചെയ്യുക</string>
+    <string name="select_topics_subtitle">വിഷയങ്ങൾ തിരഞ്ഞെടുക്കുക</string>
+    <string name="add_description_title">പ്രൊഫൈൽ സെറ്റപ്പ് ചെയ്യുക</string>
+    <string name="add_description_subtitle">നിങ്ങളുടെ യോഗ്യത ചേർക്കുക</string>
+    <string name="add_description_birthday_hint">ജന്മദിനം</string>
+    <string name="add_description_birthday_select">തെരഞ്ഞെടുക്കുക</string>
+    <string name="add_description_birthday_cancel">റദ്ദക്ക് പോകുക</string>
+    <string name="add_description_location_hint">സ്ഥലം</string>
+    <string name="add_description_description_hint">വിവരണം</string>
+</resources>

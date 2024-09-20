@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Ntawv pab: Ntau ntaub ntawv</string>
+    <string name="topic_cooking">Ntujcov</string>
+    <string name="topic_theater">Xwm kab mob tshuaj.</string>
+    <string name="topic_partying">Hluas nyiam</string>
+    <string name="topic_biking">Peb thiab nrhiav lub sijhawm es tes.</string>
+    <string name="topic_camping">Txhawb nws</string>
+    <string name="topic_fitness">Kev coj mus twgpub.</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Movies</string>
+    <string name="topic_music">Nhạc</string>
+    <string name="topic_painting">Nqe cov nqi rau.</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Lus nug.</string>
+    <string name="topic_science">Npau suav</string>
+    <string name="topic_sports">Lub tsev kawm ntawv</string>
+    <string name="topic_swimming">Ntiv no: Qhib ntshav</string>
+    <string name="topic_technology">Kev pab cuam</string>
+    <string name="topic_videogame">Video games</string>
+</resources>
