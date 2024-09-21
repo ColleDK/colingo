@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Hlōla ho thusa maikutlo a hau ho fumana baeta ba bangata mangata</string>
 
     <string name="community_filters_limit">Khetha go %d dithulaganyo o ka ratang ho fumana batsoali ba basetsana ba ditlhamo kapa ba hlakuetsoe mahnaheng.</string>
-    <string name="community_filters_selected">%s/%s eteletswe</string>
+    <string name="community_filters_selected">%d/%d eteletswe</string>
     <string name="community_filters_clear">Fokotho e fokolletšwe</string>
     <string name="community_filters_your_languages">Dintlha tsa hao tse fetileng</string>
 
