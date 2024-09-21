@@ -17,5 +17,5 @@
 
     <string name="chat_created_msg">*Chat yaratıldı*</string>
     <string name="chatbot_created_msg">Chat yaradıldı: %s</string>
-    <string name="chatbot_create_chat">% s bilan chat yaratish</string>
+    <string name="chatbot_create_chat">%s bilan chat yaratish</string>
 </resources>
