@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Tìm đối tác</string>
+    <string name="community_page_title">Thành viên</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Nói</string>
+    <string name="community_user_learns">Học tập</string>
+
+    <string name="community_ai_empty_title">Không tìm thấy chatbot</string>
+    <string name="community_ai_empty_subtitle">Hãy thử cập nhật bộ lọc của bạn để tìm thêm chatbot</string>
+    <string name="community_empty_title">Không tìm thấy người dùng</string>
+    <string name="community_empty_subtitle">Hãy cập nhật bộ lọc của bạn để tìm thêm người dùng</string>
+
+    <string name="community_filters_limit">Chọn tối đa %d ngôn ngữ mà bạn muốn xem những người nói lưu loát.</string>
+    <string name="community_filters_selected">Chữ cần dịch: %d/%d đã được chọn</string>
+    <string name="community_filters_clear">Xoá bộ lọc</string>
+    <string name="community_filters_your_languages">Ngôn ngữ hiện tại của bạn</string>
+
+    <string name="chat_created_msg">Cuộc trò chuyện đã được tạo</string>
+    <string name="chatbot_created_msg">Cuộc trò chuyện được tạo với %s</string>
+    <string name="chatbot_create_chat">Tạo cuộc trò chuyện với %s</string>
+</resources>

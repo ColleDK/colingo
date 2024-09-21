@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">தெரிவு செய்யுங்கள்</string>
+    <string name="cancel_birthday_selection">ரத்து செய்</string>
+    <string name="edit_name_title">பெயர்</string>
+    <string name="location_empty_title">குறிப்பிடப்படவில்லை.</string>
+
+    <string name="description_title">விளக்கம்</string>
+
+    <string name="profile_updated_success">சுயவிவரம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது</string>
+
+    <string name="topics_empty_title">எந்த தலைப்புகளும் தேர்ந்தெடுக்கப்படவில்லை.</string>
+    <string name="topics_title">ஆராய்ச்சிகள்</string>
+
+    <string name="languages_title">மொழிகள்</string>
+    <string name="languages_empty_title">எந்த மொழிகளும் தேர்ந்தெடுக்கப்படவில்லை</string>
+    <string name="profile_add_language">மொழி சேர்க்கவும்</string>
+    <string name="profile_select_language">மொழியைத் தேர்வு செய்க</string>
+    <string name="profile_select_proficiency">நேர்மையைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="add_language_select">தேர்ந்தெடுக்கவும்</string>
+    <string name="add_language_cancel">ரத்து செய்</string>
+    <string name="gender_title">பாலினம்</string>
+</resources>

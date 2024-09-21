@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Text to translate: Ainmhithe</string>
+    <string name="topic_cooking">Cócaireacht</string>
+    <string name="topic_theater">Amharclann</string>
+    <string name="topic_partying">Ag seasamh.</string>
+    <string name="topic_biking">Rotharluíocht</string>
+    <string name="topic_camping">Campáil</string>
+    <string name="topic_fitness">Sláinte</string>
+    <string name="topic_meditation">Machnamh</string>
+    <string name="topic_movie">Scannáin</string>
+    <string name="topic_music">Ceol</string>
+    <string name="topic_painting">Péintéireacht</string>
+    <string name="topic_physics">Feidiceolaíocht</string>
+    <string name="topic_reading">Léamh</string>
+    <string name="topic_science">Eolaíocht</string>
+    <string name="topic_sports">Spórt</string>
+    <string name="topic_swimming">Snámh</string>
+    <string name="topic_technology">Teicneolaíocht</string>
+    <string name="topic_videogame">Cluichí físeán</string>
+</resources>

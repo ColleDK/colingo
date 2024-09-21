@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mitt flöde</string>
+    <string name="post_create_new">Skapa ett nytt inlägg</string>
+    <string name="create_post_dismiss">Avbryt</string>
+    <string name="create_post_create">Skapa</string>
+    <string name="post_show_more">Visa mer</string>
+    <string name="post_show_less">Visa mindre</string>
+
+    <string name="create_post_success">Inlägg skapat</string>
+    <string name="create_chat_success">Chatt skapad</string>
+
+    <string name="home_filters_oldest">Äldst</string>
+    <string name="home_filters_newest">Nyaste</string>
+    <string name="post_create_comment">Lägg till en kommentar</string>
+    <string name="post_likes">%s gillar</string>
+    <string name="post_comments">%s kommentarer</string>
+    <string name="post_no_comments_title">Inga svar ännu</string>
+    <string name="post_no_comments_subtitle">Var först med att dela dina tankar om detta inlägg.</string>
+
+    <string name="error_msg_general">Något gick fel. Försök igen.</string>
+</resources>

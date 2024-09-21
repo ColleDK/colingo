@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">My feed</string>
+    <string name="post_create_new">Krei novan afiŝon</string>
+    <string name="create_post_dismiss">Nuligi</string>
+    <string name="create_post_create">Krei</string>
+    <string name="post_show_more">Montri pli</string>
+    <string name="post_show_less">Montru malpli</string>
+
+    <string name="create_post_success">Enmetis aŭtoron</string>
+    <string name="create_chat_success">Babilado kreita</string>
+
+    <string name="home_filters_oldest">Pli aĝa</string>
+    <string name="home_filters_newest">Newest</string>
+    <string name="post_create_comment">Aldoni komenton</string>
+    <string name="post_likes">%s ŝatas</string>
+    <string name="post_comments">Komentoj: %s</string>
+    <string name="post_no_comments_title">Neniu respondis ankoraŭ</string>
+    <string name="post_no_comments_subtitle">Estu la unua por kunhavigi viajn pensojn pri tiu ĉi afiŝo.</string>
+
+    <string name="error_msg_general">Ion malĝuste iris. Bonvolu provi denove.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Dyr</string>
+    <string name="topic_cooking">Matlaging</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Festing</string>
+    <string name="topic_biking">Sykling</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditasjon</string>
+    <string name="topic_movie">Filmer</string>
+    <string name="topic_music">Musikk</string>
+    <string name="topic_painting">Maling</string>
+    <string name="topic_physics">Fysikk</string>
+    <string name="topic_reading">Lesing</string>
+    <string name="topic_science">Vitenskap</string>
+    <string name="topic_sports">Sport</string>
+    <string name="topic_swimming">Svømming</string>
+    <string name="topic_technology">Teknologi</string>
+    <string name="topic_videogame">Videospill</string>
+</resources>

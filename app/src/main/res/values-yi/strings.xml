@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Heim</string>
+    <string name="destination_explore_label">פֿאַראַן אונטערזוכן</string>
+    <string name="destination_chat_label">קאָבעל</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Einstellungen</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Berechtigungen</string>
+    <string name="setting_accessibility_title">Zugänglichkeit</string>
+    <string name="setting_about_title">Iber</string>
+    <string name="setting_rate_title">Bewerten zi di app.</string>
+    <string name="setting_report_title">Report a bug.</string>
+    <string name="setting_logout_title">Log out.</string>
+    <string name="setting_switch_language_title">Switch languages</string>
+
+    <string name="selected_language">וועלטקענדיק ספּראַך</string>
+
+    <string name="settings_change">פֿאַרןדערן איינשטעלונגען</string>
+    <string name="settings_switch_language">Switch shprakh.</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">דינאַמיש טעמינג</string>
+    <string name="setting_dark_theme">דאָרק טע‏מינג</string>
+
+    <string name="settings_rate_app_page_title">Bewert App</string>
+    <string name="settings_switch_language_title">Change language.</string>
+    <string name="settings_theming_title"><![CDATA[Theming & פאַרבן]]></string>
+    <string name="settings_about_page_title">Iber di app.</string>
+    <string name="settings_about_page_description1">Colingo iz a folkghemakhte shprachgeveks-platforn, vos iz entwickelt gevorn fun Colle/William.</string>
+    <string name="settings_about_page_description2">Mir shtrebn nokh tsu zayn azoy ofen un farshvungen iber alts inem app, vos iz farvos mir haltn es ofen-kvel.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">Text to translate: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">פּאקלאָזן באָג</string>
+    <string name="settings_report_bug_title">Far farsikern shteybiliklikh Ay-vey, mir samlen farbaizen rapportn fun krashn oytonomish, ober az ir fintz do akhshavayes un viln shoysn a blind rakhn, farbitn a form mit az fil informatsye vi ir hot.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

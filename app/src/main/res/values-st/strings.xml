@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Motse</string>
+    <string name="destination_explore_label">Hlokahala</string>
+    <string name="destination_chat_label">Phatlalatsa</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Tlhahiso</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tema</string>
+    <string name="setting_notifications_title">DintlhaChangeListener</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Ke ho bontsha ho feta</string>
+    <string name="setting_about_title">Motho</string>
+    <string name="setting_rate_title">Hlakudi sebaka</string>
+    <string name="setting_report_title">Rapota phahlo.</string>
+    <string name="setting_logout_title">Tlakisa setebo</string>
+    <string name="setting_switch_language_title">Hlakola ditaba</string>
+
+    <string name="selected_language">Sesweu sa khethekile</string>
+
+    <string name="settings_change">Hlakola mesebetsi</string>
+    <string name="settings_switch_language">Hlakola mokgatlo</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tsebo ya ho fetoha</string>
+    <string name="setting_dark_theme">Theming e \'mele, Kgomo ya Mahlakanya.</string>
+
+    <string name="settings_rate_app_page_title">Tlhahela app</string>
+    <string name="settings_switch_language_title">Hlahisa leqheka</string>
+    <string name="settings_theming_title"><![CDATA[Ho fetola & dipaka]]></string>
+    <string name="settings_about_page_title">Makolotelo ka mora.</string>
+    <string name="settings_about_page_description1">Colingo ke yone ya lebelo e leng motheo ya puo e tlase ka letsatsi le leng emelwang ke Colle/William.</string>
+    <string name="settings_about_page_description2">Re fana ka ho qhathanang le ho qala kabaka bakeng sa ts\'ebetso e, rea phatlalatsa ea ts\'ebetso.</string>
+    <string name="settings_about_page_description3">Dintlha tse dingwe tsa dikarolong tsa app e neng e tletswa ke bana ba AI le pelo tse ntle, fela mohlala hona le dikgetho tse hloko leho tse tlohela - hape fa o robala tse hloko, kamoso o ka re etela teng moisong ya \\"Rapota kgethosetso\\".</string>
+    <string name="settings_about_page_contact">Haeba u na le letsoho kapa litaba tsa hao bakeng sa app, o ka eketseha rona ka:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Rapota bogale</string>
+    <string name="settings_report_bug_title">Ho sa felo, rea etsa kalafo ea ho kuballa dithoatso tsa ho phatlalatsa, hobane hape leha o leka lihlooho le u batlang ho bafoha letsatsi lao, ka kopo boloka pele karolo le karolo.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

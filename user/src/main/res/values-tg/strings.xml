@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Хайвонот</string>
+    <string name="topic_cooking">Пароваришӣ</string>
+    <string name="topic_theater">Театр</string>
+    <string name="topic_partying">Ҷашнҳо</string>
+    <string name="topic_biking">Духтани велосипед</string>
+    <string name="topic_camping">Қайғу азоза.</string>
+    <string name="topic_fitness">Фитнес</string>
+    <string name="topic_meditation">Медитатсия</string>
+    <string name="topic_movie">Филмҳо</string>
+    <string name="topic_music">Мусиқӣ</string>
+    <string name="topic_painting">Ранговарӣ</string>
+    <string name="topic_physics">Физика</string>
+    <string name="topic_reading">Ҳонари хонандан</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Оидӣ</string>
+    <string name="topic_swimming">Ингардани</string>
+    <string name="topic_technology">Технология</string>
+    <string name="topic_videogame">Игрҳои видео</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Pata onkhoza</string>
+    <string name="community_page_title">Anthu</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Speaks</string>
+    <string name="community_user_learns">Kuyendayenda</string>
+
+    <string name="community_ai_empty_title">Chatbots osatonzedwa</string>
+    <string name="community_ai_empty_subtitle">Sinthani pangono pangono mafota anu kuti musunge zambiri za chatbots</string>
+    <string name="community_empty_title">Palibe atumiki amene anapezeka</string>
+    <string name="community_empty_subtitle">Sankhani zooneka zanu kuti mukhoza kuthandiza ogula wambiri</string>
+
+    <string name="community_filters_limit">Sankhani mpaka %d za malangizo monga mukhoza kukhala abwino woyankhula.</string>
+    <string name="community_filters_selected">%d/%d yapadutsidwa</string>
+    <string name="community_filters_clear">Pangono pang\'ono</string>
+    <string name="community_filters_your_languages">Viwerengerezi vnuzo mwachilungamo</string>
+
+    <string name="chat_created_msg">Chat yachitidwa</string>
+    <string name="chatbot_created_msg">Chat ili chotchedwa ndi %s</string>
+    <string name="chatbot_create_chat">Pangani chisankho cha chinthu nthawi zonse ndi %s</string>
+</resources>

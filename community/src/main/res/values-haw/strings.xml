@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Mākaʻikaʻi</string>
+    <string name="chatbot_page_title">Nā Palapala Ho\'ohui\'ai</string>
+    <string name="community_user_speaks">Nānākomunikate</string>
+    <string name="community_user_learns">Hāpai \'ike</string>
+
+    <string name="community_ai_empty_title">ʻAʻole loa i ʻike ʻia nā mea kolohe palapalaʻi</string>
+    <string name="community_ai_empty_subtitle">E hoʻopuka i kāu mau pāwela e loaʻa ai nā chatbots houʻ.</string>
+    <string name="community_empty_title">ʻAʻole i ʻike ʻia nā mea hoʻoholo hana</string>
+    <string name="community_empty_subtitle">E hoʻopohihi i kāu mau kīwī e loaʻa ai i nā mea hoʻohana hou.</string>
+
+    <string name="community_filters_limit">Koho i nā ʻōlelo a ʻoi aku i ke kākoʻo ʻia mai e nā kaʻa konohi ʻōlelo hana.</string>
+    <string name="community_filters_selected">%d/%d ikaika\'a\'ai</string>
+    <string name="community_filters_clear">Holo Iʻaupeʻe</string>
+    <string name="community_filters_your_languages">Kou mau ʻōlelo i kēia manawa</string>
+
+    <string name="chat_created_msg">He Pāʻina Kamaʻilio hana ʻia</string>
+    <string name="chatbot_created_msg">Hoʻokumu ʻia ka ʻahaʻōlelo me %s</string>
+    <string name="chatbot_create_chat">Loaʻa iā ʻoe ka paʻi hoʻohuipio me %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Dieren</string>
+    <string name="topic_cooking">Koekje</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Fytse</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditaasje</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Muzyk</string>
+    <string name="topic_painting">Skilderje</string>
+    <string name="topic_physics">Fysika.</string>
+    <string name="topic_reading">Lêzen</string>
+    <string name="topic_science">Wittenskip</string>
+    <string name="topic_sports">Sporten</string>
+    <string name="topic_swimming">Swimmen</string>
+    <string name="topic_technology">Teknology</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

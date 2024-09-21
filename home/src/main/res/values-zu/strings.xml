@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Isifideli sami</string>
+    <string name="post_create_new">Dala iphoswa elisha</string>
+    <string name="create_post_dismiss">Khanselwa</string>
+    <string name="create_post_create">Dala</string>
+    <string name="post_show_more">Bonisa okunye</string>
+    <string name="post_show_less">Bona okubi</string>
+
+    <string name="create_post_success">Ithayipha elikhishwe</string>
+    <string name="create_chat_success">Ukudalwe kwesiqalo</string>
+
+    <string name="home_filters_oldest">Okusendulo: Okokuqala</string>
+    <string name="home_filters_newest">Enkulu</string>
+    <string name="post_create_comment">Faka umbono</string>
+    <string name="post_likes">Isifundo: %s uthanda</string>
+    <string name="post_comments">Izimvo: %s</string>
+    <string name="post_no_comments_title">Akukho okugezile okwamanje</string>
+    <string name="post_no_comments_subtitle">Qala wena ukuqhubekeza izinkinga zakho kule mpendulo</string>
+
+    <string name="error_msg_general">Into = Kukhona okubi. Sicela uzame futhi</string>
+</resources>

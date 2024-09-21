@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">چوونەوە</string>
+    <string name="onboarding_signup_btn">خۆ تۆماربوون</string>
+    <string name="onboarding_other_title">یان بەردەست بمیرەوە</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">بەڕێوبەرێت بۆ ئەندامی نابەتیت لەگەڵدهوكڕاویدا بەردەستەیدەخێنوە</string>
+    <string name="onboarding_go_back">بگه‌ڕێوه‌</string>
+
+    <!-- Log in -->
+    <string name="login_title">Bi xêr hatî!</string>
+    <string name="login_subtitle">بچۆ ژووره‌وه‌ بكه‌ به‌ هه‌ژماره‌كه‌یان</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Gotunaşîn</string>
+    <string name="login_forgot_password">وشه‌ی نهێنیت پەیوستیی؟</string>
+    <string name="login_login_btn">چوونە ژوورەوە</string>
+    <string name="login_go_to_signup_1">هه‌ژمارێك ههنووکه‌ت ناوەدۆزیت؟</string>
+    <string name="login_go_to_signup_2">خۆ تۆماربوون</string>
+    <string name="login_reset_password">Rêzkirina şîfreyê</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">تۆماركردن</string>
+    <string name="signup_subtitle">Hesabekê biafirîn</string>
+    <string name="signup_name_hint">Nav</string>
+    <string name="signup_email_hint">ئیمەیل</string>
+    <string name="signup_password_hint">گو watchبورد</string>
+    <string name="signup_confirm_password_hint">چاوەڕێکردنی وشەی تێپەڕەوشە</string>
+    <string name="signup_signup_btn">تۆماركردن</string>
+    <string name="signup_go_to_login_1">کارت هەیە؟</string>
+    <string name="signup_go_to_login_2">بچۆ ژوورەوە</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">داهات، داهاتی dine</string>
+    <string name="setup_profile_finish">Pêdivî: Pêl bide.</string>
+    <string name="setup_profile_skip">ببورە</string>
+    <string name="add_picture_title">پێڕستەی چالاککردن administratorkayipratsftv.</string>
+    <string name="add_picture_subtitle">وێنەی پرۆفایل زیاد بکە</string>
+    <string name="add_languages_title">پێڕستەی چالاککردن administratorkayipratsftv.</string>
+    <string name="add_languages_subtitle">زمان هەڵبژێرە</string>
+    <string name="add_languages_select_proficiency">هێنانی باریزیكردنی تاقنەكان</string>
+    <string name="add_languages_select_language">زمان هه‌ڵبژێره‌وه‌</string>
+    <string name="add_languages_add_language">زمان زیادبکه‌یەوه‌</string>
+    <string name="add_language_select">هەڵبژێر\'e\'</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="select_gender_title">دروستکردنی پڕۆفایل</string>
+    <string name="select_gender_subtitle">جنس هەڵبژێرە</string>
+    <string name="select_topics_title">دروستکردنی پڕۆفایل</string>
+    <string name="select_topics_subtitle">هەڵبژێرەوەکان گرتبکە</string>
+    <string name="add_description_title">Profîleya sazkirinê</string>
+    <string name="add_description_subtitle">زانیاریێک زیاد بکه له سه‌باره‌ی خۆت</string>
+    <string name="add_description_birthday_hint">لە بەرێوبەری تەندروستیبوون, OK</string>
+    <string name="add_description_birthday_select">هەڵبژێرە</string>
+    <string name="add_description_birthday_cancel">پەرلۆك كردن</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">پەسنی سەرباره</string>
+</resources>

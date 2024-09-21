@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Rumah</string>
+    <string name="destination_explore_label">Explore</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Setélan</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Panggeroan</string>
+    <string name="setting_permissions_title">Ijin</string>
+    <string name="setting_accessibility_title">Aksésibilitas</string>
+    <string name="setting_about_title">Ngena ti tekah.</string>
+    <string name="setting_rate_title">Beri nilai aplikasina</string>
+    <string name="setting_report_title">Laporkeun bug</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Ganti basa</string>
+
+    <string name="selected_language">Bahasa anu dipilih</string>
+
+    <string name="settings_change">Rubah setélan</string>
+    <string name="settings_switch_language">Ganti basa</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Tema gelap</string>
+
+    <string name="settings_rate_app_page_title">Rate aplikasi</string>
+    <string name="settings_switch_language_title">Ganti basa</string>
+    <string name="settings_theming_title"><![CDATA[Theming & warnana]]></string>
+    <string name="settings_about_page_title">Tentang aplikasi</string>
+    <string name="settings_about_page_description1">Colingo nyaéta hiji platform pertukaran basa anu digerakkeun ku komunitas sumber terbuka anu dikembangkeun ku Colle/William.</string>
+    <string name="settings_about_page_description2">Kami ngaratéa pikeun janten sareng lengket ngeunaan sakuriling hal dina aplikasi, eta ngan nu kami ngadamel open-source.</string>
+    <string name="settings_about_page_description3">Sadaya tarjamahan dina aplikasi ieu dilaksanakeun ku AIs jeung bade aya galat tarjamahan - upami anjeun nemu salah sahenteuna dilaporkan dina pane \"Lapor Galat\".</string>
+    <string name="settings_about_page_contact">Mun aya karesahan atanapi pamundut pikeun aplikasi ieu, tiasa ngahubungi kamimitra dina:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Lapor bug</string>
+    <string name="settings_report_bug_title">Pikeun mastikeun kastabilitas, kamih nyadiakeun nabraki otomatis, tapi upami anjeun nemu masalah jeung badé ngirimkeun bug langsung, kalérakan ngisi formulir jeung informasi sarengna.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

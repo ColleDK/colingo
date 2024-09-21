@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ログイン</string>
+    <string name="onboarding_signup_btn">登録</string>
+    <string name="onboarding_other_title">続行しますか</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">ゲストとして続行</string>
+    <string name="onboarding_go_back">戻る</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">アカウントにログインする</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">パスワード</string>
+    <string name="login_forgot_password">パスワードを忘れましたか？</string>
+    <string name="login_login_btn">ログイン</string>
+    <string name="login_go_to_signup_1">まだアカウントをお持ちでないですか？</string>
+    <string name="login_go_to_signup_2">登録</string>
+    <string name="login_reset_password">パスワードをリセット</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">登録</string>
+    <string name="signup_subtitle">アカウントを作成します</string>
+    <string name="signup_name_hint">名前</string>
+    <string name="signup_email_hint">Eメール</string>
+    <string name="signup_password_hint">パスワード</string>
+    <string name="signup_confirm_password_hint">パスワードを確認</string>
+    <string name="signup_signup_btn">登録</string>
+    <string name="signup_go_to_login_1">アカウントをお持ちですか？</string>
+    <string name="signup_go_to_login_2">ログイン</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">次へ</string>
+    <string name="setup_profile_finish">終了</string>
+    <string name="setup_profile_skip">スキップ</string>
+    <string name="add_picture_title">プロフィール設定</string>
+    <string name="add_picture_subtitle">プロフィール写真を追加</string>
+    <string name="add_languages_title">プロフィール設定</string>
+    <string name="add_languages_subtitle">言語を選択</string>
+    <string name="add_languages_select_proficiency">選択しました。</string>
+    <string name="add_languages_select_language">言語を選択</string>
+    <string name="add_languages_add_language">言語を追加</string>
+    <string name="add_language_select">選択</string>
+    <string name="add_language_cancel">キャンセル</string>
+    <string name="select_gender_title">プロフィール設定</string>
+    <string name="select_gender_subtitle">性別を選択</string>
+    <string name="select_topics_title">プロフィール設定</string>
+    <string name="select_topics_subtitle">トピックを選択</string>
+    <string name="add_description_title">プロフィールを設定</string>
+    <string name="add_description_subtitle">自己紹介についての情報を追加してください。</string>
+    <string name="add_description_birthday_hint">誕生日</string>
+    <string name="add_description_birthday_select">選択</string>
+    <string name="add_description_birthday_cancel">キャンセル</string>
+    <string name="add_description_location_hint">場所</string>
+    <string name="add_description_description_hint">説明</string>
+</resources>

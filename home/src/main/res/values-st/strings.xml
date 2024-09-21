@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Morao wa ka</string>
+    <string name="post_create_new">Bua bosupišo bo fapaneng.</string>
+    <string name="create_post_dismiss">Kansala</string>
+    <string name="create_post_create">Bontsha</string>
+    <string name="post_show_more">Bontša ka nako e \'ngoe</string>
+    <string name="post_show_less">Fetola meno</string>
+
+    <string name="create_post_success">Phatlalatso e hlahlobiwa</string>
+    <string name="create_chat_success">Sebetsa se fetotse</string>
+
+    <string name="home_filters_oldest">Boleng ba feela</string>
+    <string name="home_filters_newest">Mahlobo haholo</string>
+    <string name="post_create_comment">Kgothatsa setšhaba.</string>
+    <string name="post_likes">%s o rata</string>
+    <string name="post_comments">Mesebetsi %s</string>
+    <string name="post_no_comments_title">Ha ho mafahlelo hoja.</string>
+    <string name="post_no_comments_subtitle">Eo u qala ho ikopanya maikutlo a hao ka post e ena.</string>
+
+    <string name="error_msg_general">Sebaka se sa hloka. Ka kopo, le tlameha hape.</string>
+</resources>

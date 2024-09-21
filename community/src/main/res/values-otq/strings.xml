@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Ahi̲ llano nä\'ä parceros.</string>
+    <string name="community_page_title">Tembahyo.</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Ts\'inihuéi</string>
+    <string name="community_user_learns">Ítoxi\'uhxi</string>
+
+    <string name="community_ai_empty_title">Mahkah ña̱di chatbots.</string>
+    <string name="community_ai_empty_subtitle">Rigajei candi̲ nna̲nki̲ t\'ot\'ampe k\'opu̲ ra o̲mo chatbot\'i ta ho̲ntho.</string>
+    <string name="community_empty_title">No usuan mbo na za̲ku t\'uu.</string>
+    <string name="community_empty_subtitle">Ngo mboho nja ra nge nthe ndiswaniki.</string>
+
+    <string name="community_filters_limit">Choose up to %d languages you want to see fluent speakers from</string>
+    <string name="community_filters_selected">%d/%d ha túัน ge̲ gi̲θa̲ ne da̲gi̲ ndo\'yo.</string>
+    <string name="community_filters_clear">Roho ndäts\'öhg\'öghöhu\'i</string>
+    <string name="community_filters_your_languages">Mba̲\'a ho mi̲t\'ijaru̲ mdo hingi.</string>
+
+    <string name="chat_created_msg">K\'uu t\'uhu hñä.</string>
+    <string name="chatbot_created_msg">Chat created with %s</string>
+    <string name="chatbot_create_chat">O\'dasti chat %s ma\'a.</string>
+</resources>

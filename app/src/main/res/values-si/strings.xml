@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ගෝම</string>
+    <string name="destination_explore_label">අගයමස්ථරගත කරනවා</string>
+    <string name="destination_chat_label">කතෝෂයා</string>
+    <string name="destination_profile_label">විස්තරය</string>
+    <string name="destination_settings_label">සැකිල්</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">අවසරන්නවූරු</string>
+    <string name="setting_accessibility_title">සිංහලකින් විස්තරවේගෙන්ය</string>
+    <string name="setting_about_title">විස්තරයක්</string>
+    <string name="setting_rate_title">යෙදුම ශ්‍රේණිගත කරන්න</string>
+    <string name="setting_report_title">දෝෂය විස්තරයෙන් ඇනවුම කරන්න.</string>
+    <string name="setting_logout_title">පිටවීම වරණයේදී</string>
+    <string name="setting_switch_language_title">භාෂා වෙනස් කරන්න</string>
+
+    <string name="selected_language">තෝරාගත් භාෂාව</string>
+
+    <string name="settings_change">සැකසුම් වෙනස් කරන්න</string>
+    <string name="settings_switch_language">භාෂා වෙවේධයෙන් විසින්ම වෙනස් කරන්න</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">යථාර්ඝ සෞඛ්‍යයිජකයන්</string>
+    <string name="setting_dark_theme">අඳුරු සහිතය සඳහා</string>
+
+    <string name="settings_rate_app_page_title">යොන්විදේශ කරන්න</string>
+    <string name="settings_switch_language_title">භාෂා වෙනස් කිරීම</string>
+    <string name="settings_theming_title">රූපසේ ආවරණය සහ වර්ණයන්</string>
+    <string name="settings_about_page_title">යෙදුම ගැන</string>
+    <string name="settings_about_page_description1">Colingo යනු හැවිරිදි සත්‍ය දත්ත විරෝධයේ පෙරහන් ප්‍රාථමිකරණයක් ක්‍රියාත්මයෙන් එළිණමින් Colle/William විසින් සමූහරණය කරන වාදයයි.</string>
+    <string name="settings_about_page_description2">අපි යම් අඩ්‍යයම් විසින් සෞඛ්‍ය හා ද්‍රව්‍ය ගත් හෝ පූර්ණයෙන් දැන්වෙයි මෙම යෙදුම්, ඒ සඳහා අපි එය ව්‍යාපෘතිද වේ.</string>
+    <string name="settings_about_page_description3">සියලු පරිශීලකට මෙම යෙදුමෙහි සියලු විශේශිතතාවයේ පැවතීම් විමසන්න - විශේශිතතාවක් ප්‍රතිචාර කිරීමට කිව්වි \"වාර්තාවේ කොමන\" පැනලට.</string>
+    <string name="settings_about_page_contact">පැහැ හැකි හෝ යෝජිතයන් සඳහා විස්තර හෝ යෝජනාවන්ගේ හෝ අනෙකුත්, ඔබ අපට සම්බන්ධ සහිත වන්නේය.</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ක්‍රිපෝට් කරන්න</string>
+    <string name="settings_report_bug_title">තුවාලය සිදු කිරවම් කළේ, නමුත් ඔබට අවවාහයට ලබා ඇති අවශ්‍යතා සොයා ගැනීමට හෝ ප්‍රසිද්ධ අත්සන කිරීමට අවශ්‍ය නම්, කරුණාකර ඇමතුම් නාම ඇදහිලි කරන්න තෝරාගත යුතුයි.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

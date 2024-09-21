@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Կենդանիներ</string>
+    <string name="topic_cooking">Սունկական</string>
+    <string name="topic_theater">Թատրոն</string>
+    <string name="topic_partying">Հարվածություն</string>
+    <string name="topic_biking">Շեղավարություն</string>
+    <string name="topic_camping">Տեղամասներ</string>
+    <string name="topic_fitness">Ֆիզիկարենս</string>
+    <string name="topic_meditation">Մեդիտացիա</string>
+    <string name="topic_movie">Կինո</string>
+    <string name="topic_music">Երաժշտություն</string>
+    <string name="topic_painting">Նկարություն</string>
+    <string name="topic_physics">Ֆիզիկա</string>
+    <string name="topic_reading">Տեքստը թարգմանել՝ Կրկնօրինակ</string>
+    <string name="topic_science">գիտություն</string>
+    <string name="topic_sports">Սպորտ</string>
+    <string name="topic_swimming">Պլյոցարավորված է</string>
+    <string name="topic_technology">Տեխնոլոգիա</string>
+    <string name="topic_videogame">Տեսանյութեր խաղեր</string>
+</resources>

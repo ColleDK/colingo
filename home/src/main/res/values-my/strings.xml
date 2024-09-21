@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ကျွန်ုပ်တော်တို့ရဲ့ Feed ကို</string>
+    <string name="post_create_new">သင့်ရဲ့ အကြောင်းအရာ ဖန်တီးပါ</string>
+    <string name="create_post_dismiss">ပယ်ဖျက်</string>
+    <string name="create_post_create">ဖန်တီးပါ</string>
+    <string name="post_show_more">ပါဝင်ရောက်ပါ</string>
+    <string name="post_show_less">သင့်ရဲ့ချိန်ညှိန်မှုကိုပြသသည့်တန်ဖိုး</string>
+
+    <string name="create_post_success">Post ဖန်တီးပြီးပြီ</string>
+    <string name="create_chat_success">စကားဝှက် ဖန်တီးပြီးပါသည်</string>
+
+    <string name="home_filters_oldest">အသက်ရှင်</string>
+    <string name="home_filters_newest">အသစ္</string>
+    <string name="post_create_comment">မှတ်ချက်ထည့်ပါ</string>
+    <string name="post_likes">%s ကို ခံယှဉ်ပြီးပါပြီ။</string>
+    <string name="post_comments">မှာ %s မှာ မှတ်ချက်များ</string>
+    <string name="post_no_comments_title">အသစ်မဟုတ်ရသည်</string>
+    <string name="post_no_comments_subtitle">ဤစာမျက်နှာအတွက် သင့်ရဲ့ အစိုးရမှတ်မိသွားပါပြီ။</string>
+
+    <string name="error_msg_general">တစ်ခုလုပ်လုပ်လို့ မကြာခဏဆုံးပါ။ ထပ်ကွက်ကွက် အားလုံးကို ဖြင့်ပါ။</string>
+</resources>

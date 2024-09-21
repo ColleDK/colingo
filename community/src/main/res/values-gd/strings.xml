@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Lorg com-pàirteachaidh</string>
+    <string name="community_page_title">Ballraich</string>
+    <string name="chatbot_page_title">Ròpaichean-chòmhraidh</string>
+    <string name="community_user_speaks">Labhair</string>
+    <string name="community_user_learns">Ionnsachadh</string>
+
+    <string name="community_ai_empty_title">Cha robh chatbots ri lorg</string>
+    <string name="community_ai_empty_subtitle">Feuch cothromachadh air do gheàrr-chlò sìos gus barrachd chatbots fhaighinn.</string>
+    <string name="community_empty_title">Cha deach luchd-cleachdaidh air an t-suidheachadh</string>
+    <string name="community_empty_subtitle">Feuch an ùrachadh air do bhiastagan gus barrachd luchd-cleachdaidh lorgadh</string>
+
+    <string name="community_filters_limit">Tagh suas gu %d cànanan a tha thu airson cluicheadairean brèagha bho fhacal.</string>
+    <string name="community_filters_selected">Text to translate: %d/%d air a thaghadh</string>
+    <string name="community_filters_clear">Fosgail stuthan</string>
+    <string name="community_filters_your_languages">Do na cànainean agad</string>
+
+    <string name="chat_created_msg">Còmhraidh cruthaichte</string>
+    <string name="chatbot_created_msg">Seo a\' chòmhraidh cruthaichte le %s</string>
+    <string name="chatbot_create_chat">Cruthaich sgeulachd le %s</string>
+</resources>

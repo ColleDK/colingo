@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Meld dech un</string>
+    <string name="onboarding_signup_btn">Registréieren</string>
+    <string name="onboarding_other_title">Text ze fäerten mat</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Weidermachen als Gaascht</string>
+    <string name="onboarding_go_back">Geh zréck</string>
+
+    <!-- Log in -->
+    <string name="login_title">Wilkommm zréck!</string>
+    <string name="login_subtitle">Mellt Iech an Eiere Kont a</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Passwuert</string>
+    <string name="login_forgot_password">Passwuert verluer\?</string>
+    <string name="login_login_btn">Log Ie(a)schreiwung</string>
+    <string name="login_go_to_signup_1">Hues nach keng Benotzerkont\?</string>
+    <string name="login_go_to_signup_2">Reegistréiert Iech</string>
+    <string name="login_reset_password">Zréckesett Passwuert</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registreieren</string>
+    <string name="signup_subtitle">Erstelle däin Kont tëschegen.</string>
+    <string name="signup_name_hint">Numm</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Passwuert</string>
+    <string name="signup_confirm_password_hint">Confirméieren Passwuert</string>
+    <string name="signup_signup_btn">Registréieren</string>
+    <string name="signup_go_to_login_1">Schonn e Benotzerkont\?</string>
+    <string name="signup_go_to_login_2">Mellen.</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Fäerdeg</string>
+    <string name="setup_profile_skip">Iwwersprénge</string>
+    <string name="add_picture_title">Setzen Profilën op</string>
+    <string name="add_picture_subtitle">Bild hinzefügen</string>
+    <string name="add_languages_title">Setzen Profilën op</string>
+    <string name="add_languages_subtitle">Wielt Sproochen</string>
+    <string name="add_languages_select_proficiency">Wielt Kompetenzlevels.</string>
+    <string name="add_languages_select_language">Wielt Sprooch</string>
+    <string name="add_languages_add_language">Fügt Sprooch hinzu</string>
+    <string name="add_language_select">Wielen</string>
+    <string name="add_language_cancel">Stornéieren</string>
+    <string name="select_gender_title">Profil opstellen</string>
+    <string name="select_gender_subtitle">Wielt Geschlecht</string>
+    <string name="select_topics_title">Profil opstellen</string>
+    <string name="select_topics_subtitle">Wieler Themen auswielen</string>
+    <string name="add_description_title">Setup Profil</string>
+    <string name="add_description_subtitle">Fügt e bëssen Informatioun iwwer iech selwer bäi.</string>
+    <string name="add_description_birthday_hint">Gebuertsdag</string>
+    <string name="add_description_birthday_select">Wielen</string>
+    <string name="add_description_birthday_cancel">Ofbrechen</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Beschreiwung</string>
+</resources>

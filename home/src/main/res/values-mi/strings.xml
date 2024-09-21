@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Tōku kaihu\'ai</string>
+    <string name="post_create_new"><![CDATA[Waihanga he t&#257; Aumatua]]></string>
+    <string name="create_post_dismiss">Whakakore</string>
+    <string name="create_post_create">Waihanga</string>
+    <string name="post_show_more">Whakaatu atu tonu</string>
+    <string name="post_show_less">Whakaatu iti ake</string>
+
+    <string name="create_post_success">Ka whakaputahia te whakapā mai</string>
+    <string name="create_chat_success">Me whakapāpātanga kōrero</string>
+
+    <string name="home_filters_oldest">Tino kaumātua</string>
+    <string name="home_filters_newest">Maioranga.</string>
+    <string name="post_create_comment">Tāpiri he kupu whakamārama</string>
+    <string name="post_likes">%s e ngākau ana</string>
+    <string name="post_comments">%s comments:</string>
+    <string name="post_no_comments_title">Kāore anō ngā whakahoki</string>
+    <string name="post_no_comments_subtitle">Be the first to share your thoughts on this post.</string>
+
+    <string name="error_msg_general">Ira ke te hē. Whakamatautau anō.</string>
+</resources>

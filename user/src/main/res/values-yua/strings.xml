@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animales</string>
+    <string name="topic_cooking">K\'a\'abik.</string>
+    <string name="topic_theater">Bix u kaaj.</string>
+    <string name="topic_partying">Chen k\'inil.</string>
+    <string name="topic_biking">Bislebil.</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Ki\'ik\'\"Fitness\"</string>
+    <string name="topic_meditation">Yaan ts\'áabejil u dzaibil.</string>
+    <string name="topic_movie">Pelicula</string>
+    <string name="topic_music">U k\'ab_text: Música</string>
+    <string name="topic_painting">K\'ajóolta\'ajo\'</string>
+    <string name="topic_physics">Fisica</string>
+    <string name="topic_reading">K\'abtaj u k\'i\'ik\'.</string>
+    <string name="topic_science">Ciencia.</string>
+    <string name="topic_sports">Deportes</string>
+    <string name="topic_swimming">U k\'a\'abik k\'oja\' luk\'um.</string>
+    <string name="topic_technology">Teknolojia</string>
+    <string name="topic_videogame">Videojuegos</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ኣዲስ ውዕሎ ኣገደስ ኣረግ።</string>
+    <string name="date_today">ሓሙስ</string>
+
+    <string name="members_page_title">ቻትስ</string>
+    <string name="bots_page_title">ቦት ናይ ካቲት አዳሪ።</string>
+
+    <string name="chat_my_messages">መ መልዕቃዎታ</string>
+    <string name="chat_empty_title">ሜላዊ ምስል እዚ ኣይንስሓርም ።</string>
+    <string name="chat_empty_description">መንገድ ትናገር፡ ምላሽን ሓንቲ እዩ ቀረ፡</string>
+
+    <string name="chats_empty_title">እንዴት ካንደ ንጽሕ ማሕበር የለን\?</string>
+    <string name="chats_empty_description">ጸብጡት ብኽብሪዱ ሓበሬታ ሕማም እዩ ፈሊ ሸይጥ ኣሎ።</string>
+
+    <string name="chats_delete_title">ስለዝኽእ ዕማር ተወስኦ</string>
+    <string name="chats_delete_subtitle">እዚ ብትሕቲ እየ አይብቃንን!</string>
+    <string name="chats_delete_confirm">ኣረጋግ ኣለዎ</string>
+    <string name="chats_delete_cancel">ምንጭፍ ሰረዓት</string>
+    <string name="chats_delete_success">ስለተረዳ፣ ተማሪ አቁም አዘጋጅቶ ተዘምነዋል ።</string>
+
+    <string name="message_time_today">ሕሉ፡</string>
+    <string name="message_time_yesterday">ትንሽ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ዘለና ስፓንፒሽ ናይ። መጨረሻዊ ትምህርቲን ኣብዚ ምስ ኣብ ምኽፋብ ክፍትወን!</string>
+</resources>

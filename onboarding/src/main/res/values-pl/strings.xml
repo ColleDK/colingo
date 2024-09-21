@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Zaloguj się</string>
+    <string name="onboarding_signup_btn">Zarejestruj się</string>
+    <string name="onboarding_other_title">Kontynuuj lub przejdź dalej</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Kontynuuj jako gość</string>
+    <string name="onboarding_go_back">Wróć</string>
+
+    <!-- Log in -->
+    <string name="login_title">Powrót!</string>
+    <string name="login_subtitle">Zaloguj się na swoje konto</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Hasło</string>
+    <string name="login_forgot_password">Zapomniałeś hasła\?</string>
+    <string name="login_login_btn">Zaloguj się</string>
+    <string name="login_go_to_signup_1">Nie masz jeszcze konta\?</string>
+    <string name="login_go_to_signup_2">Zarejestruj się</string>
+    <string name="login_reset_password">Zresetuj hasło</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Zarejestruj się</string>
+    <string name="signup_subtitle">Utwórz swoje konto</string>
+    <string name="signup_name_hint">Imię</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Hasło</string>
+    <string name="signup_confirm_password_hint">Potwierdź hasło</string>
+    <string name="signup_signup_btn">Zarejestruj się</string>
+    <string name="signup_go_to_login_1">Masz już konto\?</string>
+    <string name="signup_go_to_login_2">Zaloguj się</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Następny</string>
+    <string name="setup_profile_finish">Zakończ</string>
+    <string name="setup_profile_skip">Pomiń</string>
+    <string name="add_picture_title">Ustawienie profilu</string>
+    <string name="add_picture_subtitle">Dodaj zdjęcie profilowe</string>
+    <string name="add_languages_title">Ustawienie profilu</string>
+    <string name="add_languages_subtitle">Wybierz języki</string>
+    <string name="add_languages_select_proficiency">Wybierz poziom biegłości</string>
+    <string name="add_languages_select_language">Wybierz język</string>
+    <string name="add_languages_add_language">Dodaj język</string>
+    <string name="add_language_select">Wybierz</string>
+    <string name="add_language_cancel">Anuluj</string>
+    <string name="select_gender_title">Ustawienie profilu</string>
+    <string name="select_gender_subtitle">Wybierz płeć</string>
+    <string name="select_topics_title">Ustawienie profilu</string>
+    <string name="select_topics_subtitle">Wybierz tematy</string>
+    <string name="add_description_title">Ustawienie profilu</string>
+    <string name="add_description_subtitle">Dodaj kilka informacji o sobie</string>
+    <string name="add_description_birthday_hint">Urodziny</string>
+    <string name="add_description_birthday_select">Wybierz</string>
+    <string name="add_description_birthday_cancel">Anuluj</string>
+    <string name="add_description_location_hint">Lokalizacja</string>
+    <string name="add_description_description_hint">Opis</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Text to translate: Home</string>
+    <string name="destination_explore_label">تاوانبوون</string>
+    <string name="destination_chat_label">چاوپەڕشکردن</string>
+    <string name="destination_profile_label">پڕۆفایل</string>
+    <string name="destination_settings_label">چاڵاکیاکان</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">تیمی کردن</string>
+    <string name="setting_notifications_title">ئاگادارییەکان</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">گیراویەکانده‌بەریبكاتی</string>
+    <string name="setting_about_title">دەبارە</string>
+    <string name="setting_rate_title">پلەیک بکە بۆ ئەپلىكەیشن</string>
+    <string name="setting_report_title">گوێگرتنی هەڵە</string>
+    <string name="setting_logout_title">چوونە دەرەوە</string>
+    <string name="setting_switch_language_title">زمان هه‌ڵبژێره‌.wdisplayText to translate: Switch languages</string>
+
+    <string name="selected_language">زمانی هەڵبژارداو.</string>
+
+    <string name="settings_change">گۆڕینەکان بگۆڕە</string>
+    <string name="settings_switch_language">زمان هه‌ڵبژێره‌</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">تایبەتمترین تەماگرتن</string>
+    <string name="setting_dark_theme">ڕوونکردنەوەی تەندرەکان</string>
+
+    <string name="settings_rate_app_page_title">App-ê bixwazin bişînin</string>
+    <string name="settings_switch_language_title">Zimanê guhêrînê</string>
+    <string name="settings_theming_title">تەماکردن و ڕەنگەکان</string>
+    <string name="settings_about_page_title">بابەت بۆ مۆبایلیمده‌ست کردن</string>
+    <string name="settings_about_page_description1">Cilingo platformekêêke hişyariyekêyekê pêşkêş dike ku ji aliyê Colle/William ve hatiye afirandin.</string>
+    <string name="settings_about_page_description2">Tekstî bêje: Em di cih de hêjayî \"vêcidêbûna\" werin û ji her tiştî li ser beşa tîpêjê biweşînin, ji ber vê yekê em vê weşanî dikin.</string>
+    <string name="settings_about_page_description3">هەموو وەشانەکانی ترجمەکردن لە ناونیشانی موبایلەکە لەلایەن هوتەکە بەکاردهێنرێت و بەو شێوەیە پێویستە هەڵکەن بی هەڵەکان هەیە - ئەگەر تۆ لێیت هیچ هەڵکە بابەت ئەوەیە بزانیتەوە لە خشتەی \\"تاقیکردنی هەڵە\\".</string>
+    <string name="settings_about_page_contact">ئەگەر لەگەل ئامانجەکەدا هیچ بیردەیێک یان پەیوەندی کردارەت هەبێت، دەتوانیت پەیوەندی بکەیت بەم ڕێنماوەی خوارەوە:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ڕاپۆرت کردنی هێناگه‌یشه‌</string>
+    <string name="settings_report_bug_title">بۆ یەکەمان بواری تایبەتی دا بەردەست بکەین، مە بۆ ناواوکرنەوەی گرتەیەکی ڕێپێدان دا خودکار پەیوەندین مرۆڑەکان جاگرت، بەڵام ئەگەر گرتووەیەک بەدیار هێنین و دەتوانن لەم بابەتە وەرگريان بکەن، تکایە فۆڕمێک پڕ کرەوە لەگەڵ زانیاری زیاترەوەی هەڵدەستت هێنان.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

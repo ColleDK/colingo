@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hadi luluudsado</string>
+    <string name="community_page_title">Aqoonyahan.</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Hadalka</string>
+    <string name="community_user_learns">Barashada</string>
+
+    <string name="community_ai_empty_title">Ma waxaa laga helay chatbots ah</string>
+    <string name="community_ai_empty_subtitle">Isku day xogta filtaga si aad u heli lahayd chatbots badan</string>
+    <string name="community_empty_title">Ma ay ka heli kara isticmaaleheyn.RemoveAll suggestions irresponsible.</string>
+    <string name="community_empty_subtitle">Isku day filters kuu cusubi si aad ku dhaafo isticmaaleyaasha badan</string>
+
+    <string name="community_filters_limit">Xulo halkan ka hooseyo %d luqadood oo aad jeclaatay in lagaga daaweeyo dadka fluent in.</string>
+    <string name="community_filters_selected">Qoraalka loo turjumay: %d/%d la soo xulay</string>
+    <string name="community_filters_clear">Filtarooyinka saafi.</string>
+    <string name="community_filters_your_languages">Afkaaradaada hadda haatan</string>
+
+    <string name="chat_created_msg">Fariin wuxuu dhammaaday</string>
+    <string name="chatbot_created_msg">Falantay la sameeyey %s</string>
+    <string name="chatbot_create_chat">Dhig falanqayn la wadaag %s</string>
+</resources>

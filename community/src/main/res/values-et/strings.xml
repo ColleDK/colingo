@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Leia partnerid</string>
+    <string name="community_page_title">Liikmed</string>
+    <string name="chatbot_page_title">Chatbotid</string>
+    <string name="community_user_speaks">Räägib</string>
+    <string name="community_user_learns">Õppimine</string>
+
+    <string name="community_ai_empty_title">Chatbotid puuduvad</string>
+    <string name="community_ai_empty_subtitle">Proovige oma filtreid uuendada, et leida rohkem juturoboteid</string>
+    <string name="community_empty_title">Kasutajaid ei leitud</string>
+    <string name="community_empty_subtitle">Proovige oma filtreid uuendada, et leida rohkem kasutajaid.</string>
+
+    <string name="community_filters_limit">Valige kuni %d keelt, mida soovite näha emakeele tasemel kõnelejatena</string>
+    <string name="community_filters_selected">Tekst tõlkimiseks: %d/%d valitud</string>
+    <string name="community_filters_clear">Tühjenda filtrid</string>
+    <string name="community_filters_your_languages">Sinu hetkekeel(ed)</string>
+
+    <string name="chat_created_msg">Vestlus loodud</string>
+    <string name="chatbot_created_msg">Vestlus loodi %s abil</string>
+    <string name="chatbot_create_chat">Looge vestlus rakenduses %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Мая стрычка</string>
+    <string name="post_create_new">Стварыць новы запіс</string>
+    <string name="create_post_dismiss">Адмяніць</string>
+    <string name="create_post_create">Стварыць</string>
+    <string name="post_show_more">Паказаць больш</string>
+    <string name="post_show_less">Паказаць меней</string>
+
+    <string name="create_post_success">Паведамленне створанае</string>
+    <string name="create_chat_success">Чат створаны</string>
+
+    <string name="home_filters_oldest">Старейшы.</string>
+    <string name="home_filters_newest">Апошні.</string>
+    <string name="post_create_comment">Дадаць каментарий</string>
+    <string name="post_likes">%s лайкае</string>
+    <string name="post_comments">Тэкст для перакладу: %s каментары</string>
+    <string name="post_no_comments_title">Няма адказу.</string>
+    <string name="post_no_comments_subtitle">Будзьце першымі, хто падзяліцца сваімі думкамі па гэтым паведамленні</string>
+
+    <string name="error_msg_general">Штось пайшло не так. Калі ласка, паспрабуйце яшчэ раз.</string>
+</resources>

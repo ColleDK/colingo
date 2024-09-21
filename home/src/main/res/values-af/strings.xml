@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">My voer</string>
+    <string name="post_create_new">Skep \'n nuwe plasing</string>
+    <string name="create_post_dismiss">Kanselleer</string>
+    <string name="create_post_create">Skep</string>
+    <string name="post_show_more">Wys meer</string>
+    <string name="post_show_less">Toon minder</string>
+
+    <string name="create_post_success">Pos geskep</string>
+    <string name="create_chat_success">Geselskap geskep</string>
+
+    <string name="home_filters_oldest">Oudste</string>
+    <string name="home_filters_newest">Nuutste</string>
+    <string name="post_create_comment">Voeg \'n kommentaar by</string>
+    <string name="post_likes">%s hou daarvan</string>
+    <string name="post_comments">%s kommentaar</string>
+    <string name="post_no_comments_title">Nog geen antwoorde nie</string>
+    <string name="post_no_comments_subtitle">Wees die eerste om jou gedagtes oor hierdie pos te deel.</string>
+
+    <string name="error_msg_general">Iets het verkeerd geloop. Probeer asseblief weer.</string>
+</resources>

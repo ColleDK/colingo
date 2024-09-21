@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Βρείτε συνεργάτες</string>
+    <string name="community_page_title">Μέλη</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Μιλά</string>
+    <string name="community_user_learns">Μάθηση</string>
+
+    <string name="community_ai_empty_title">Δεν βρέθηκαν chatbots</string>
+    <string name="community_ai_empty_subtitle">Δοκιμάστε να ενημερώσετε τα φίλτρα σας για να βρείτε περισσότερα chatbots</string>
+    <string name="community_empty_title">Χρήστες δεν βρέθηκαν</string>
+    <string name="community_empty_subtitle">Δοκιμάστε να ενημερώσετε τα φίλτρα σας για να βρείτε περισσότερους χρήστες.</string>
+
+    <string name="community_filters_limit">Επιλέξτε έως και %d γλώσσες που θέλετε να βλέπετε ομιλητές που μιλάνε ρευστά.</string>
+    <string name="community_filters_selected">Επιλέχθηκαν %d/%d</string>
+    <string name="community_filters_clear">Καθαρισμός φίλτρων</string>
+    <string name="community_filters_your_languages">Οι τρέχουσες γλώσσες σας</string>
+
+    <string name="chat_created_msg">Συνομιλία δημιουργήθηκε</string>
+    <string name="chatbot_created_msg">Συνομιλία δημιουργήθηκε με %s.</string>
+    <string name="chatbot_create_chat">Δημιουργία συνομιλίας με %s</string>
+</resources>

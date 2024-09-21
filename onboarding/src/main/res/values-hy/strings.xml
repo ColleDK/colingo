@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Մուտք գործել</string>
+    <string name="onboarding_signup_btn">Գրանցվեք</string>
+    <string name="onboarding_other_title">Շարունակեք կամ շարունակեք</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Շարունակել որպես հյուսիս</string>
+    <string name="onboarding_go_back">Հետ դիտարկել</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ողջույն` դեպի հետ.</string>
+    <string name="login_subtitle">Մուտք գործեք ձեր հաշիվը</string>
+    <string name="login_email_hint">Էլ. փոստ</string>
+    <string name="login_password_hint">Գաղտնաբառ</string>
+    <string name="login_forgot_password">Փակ գաղտնաբառը մոռացե՞լ եք:</string>
+    <string name="login_login_btn">Մուտք գործել</string>
+    <string name="login_go_to_signup_1">Դեմքեսն դեմպանյալ չունիք։</string>
+    <string name="login_go_to_signup_2">Գրանցվեք</string>
+    <string name="login_reset_password">Բացաջարկել գաղտնաբառը</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Գրանցվել</string>
+    <string name="signup_subtitle">Ստեղծեք ձեր հաշիվը</string>
+    <string name="signup_name_hint">Անուն</string>
+    <string name="signup_email_hint">Էլ. փոստ</string>
+    <string name="signup_password_hint">Գաղտնաբառ</string>
+    <string name="signup_confirm_password_hint">Հաստատեք ծածկագիրը</string>
+    <string name="signup_signup_btn">Գրանցվել</string>
+    <string name="signup_go_to_login_1">Արդեն ունեք հաշիվ:</string>
+    <string name="signup_go_to_login_2">Մուտք գործել</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Հաջորդ</string>
+    <string name="setup_profile_finish">Ավարտ</string>
+    <string name="setup_profile_skip">Հետևել</string>
+    <string name="add_picture_title">Պրոֆիլի կարգավորում</string>
+    <string name="add_picture_subtitle">Ավելացրեք պրոֆիլի նկարը</string>
+    <string name="add_languages_title">Պրոֆիլի կարգավորում</string>
+    <string name="add_languages_subtitle">Ընտրեք լեզուները</string>
+    <string name="add_languages_select_proficiency">Նշեք հմուտը</string>
+    <string name="add_languages_select_language">Ընտրեք լեզուն</string>
+    <string name="add_languages_add_language">Ավելացնել լեզու</string>
+    <string name="add_language_select">Ընտրեք</string>
+    <string name="add_language_cancel">Չեղարկել</string>
+    <string name="select_gender_title">Պրոֆիլի կարգավորում</string>
+    <string name="select_gender_subtitle">Ընտրեք սեռը</string>
+    <string name="select_topics_title">Պրոֆիլի կարգավորում</string>
+    <string name="select_topics_subtitle">Ընտրեք թեմաները</string>
+    <string name="add_description_title">Պրոֆիլի կարգավորում</string>
+    <string name="add_description_subtitle">Ավելացրեք ավելացված տեղեկություններ ձեր մասին</string>
+    <string name="add_description_birthday_hint">Ծնունդ</string>
+    <string name="add_description_birthday_select">Ընտրեք</string>
+    <string name="add_description_birthday_cancel">Չեղարկել</string>
+    <string name="add_description_location_hint">Տեղակայում</string>
+    <string name="add_description_description_hint">Նկարագրություն</string>
+</resources>

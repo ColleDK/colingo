@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pasirinkti</string>
+    <string name="cancel_birthday_selection">Atšaukti</string>
+    <string name="edit_name_title">Vardas</string>
+    <string name="location_empty_title">Nenurodyta</string>
+
+    <string name="description_title">Aprašymas</string>
+
+    <string name="profile_updated_success">Profilis sėkmingai atnaujintas</string>
+
+    <string name="topics_empty_title">Nepasirinkta jokių temų</string>
+    <string name="topics_title">Pristatymas</string>
+
+    <string name="languages_title">Kalbos</string>
+    <string name="languages_empty_title">Nepasirinktos jokios kalbos</string>
+    <string name="profile_add_language">Pridėti kalbą.</string>
+    <string name="profile_select_language">Pasirinkite kalbą</string>
+    <string name="profile_select_proficiency">Pasirinkite įgūdžių lygį</string>
+    <string name="add_language_select">Pasirinkti</string>
+    <string name="add_language_cancel">Atšaukti</string>
+    <string name="gender_title">Lytis</string>
+</resources>

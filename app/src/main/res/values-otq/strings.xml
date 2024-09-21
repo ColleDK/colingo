@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nda̲ pu̲da.</string>
+    <string name="destination_explore_label">Explora</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Perfil</string>
+    <string name="destination_settings_label">Ajustes</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notificaciones</string>
+    <string name="setting_permissions_title">Ts\'ip\' arhitejom.</string>
+    <string name="setting_accessibility_title">Jugapu̲ n̲du̲ho</string>
+    <string name="setting_about_title">Maxeinda\'an</string>
+    <string name="setting_rate_title">Ra ja ga nägi nä diye\'epe.</string>
+    <string name="setting_report_title">Reporta un kurhiwiki.</string>
+    <string name="setting_logout_title">Ingi mank\'ini</string>
+    <string name="setting_switch_language_title">Chu máä hmu̲nt\'e\'ai.</string>
+
+    <string name="selected_language">Tsu mä\'ärhe da jä\'ño\' näthi\'ngo</string>
+
+    <string name="settings_change">Ti̲n̲oi̲ nge̲ya̲dimi̲n̲.</string>
+    <string name="settings_switch_language">Rangi xya\'a mahti\'a</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tema dinámiko</string>
+    <string name="setting_dark_theme">Rie ka na̲ Jatziri̲no\'̲da ra̲di.</string>
+
+    <string name="settings_rate_app_page_title">\"Hikas̥tí eqta\"</string>
+    <string name="settings_switch_language_title">Júts\'i da ja̲\'yo\' nätho ya.</string>
+    <string name="settings_theming_title"><![CDATA[Temamatidotla & maʼa momuke\'anigumi\'a]]></string>
+    <string name="settings_about_page_title">Text to translate: About the app</string>
+    <string name="settings_about_page_description1">Colingo jña ho\'ño ho\'m\'ei ho ga añgʼu cuyo ho m atxʼe nteho Colle/William ho ngu̲hni.</string>
+    <string name="settings_about_page_description2">uki\' ñä rö döhi hñä ori mba wilaxi, xi ndu ndo okñe ra ñä rö re xi mbo nri dayo be.</string>
+    <string name="settings_about_page_description3">Text to translate: All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">Text to translate: If you have any concerns or suggestions for the app, you can contact us at:
+OK</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Reportar error</string>
+    <string name="settings_report_bug_title">NGÄ\'Ä XÄNM\'ÄR FÏT\'i ORDÄR, MÄ Ī\'ONÄ dÄN KÄJBÏnK\'Ä, Ä\'Ä JÄXÄNG\'ÄTÄST\'Ä, CÄ BÄN gÄR nJÄNGÄ KÄNG\'ÄRÓ rÄXÄTÄRÄ MAÄRÄMÄ, dÄJ KÄNGÄRÄ JÄĪRÄ GÄR gÄ FÄ\'RÍ jÄXÓNÄMÄK with ÏB\'ÓRÍ\'ÄN\'Ä RÄJÄ ÑÄJÄ.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

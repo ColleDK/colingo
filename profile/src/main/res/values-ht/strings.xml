@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Seleksyone</string>
+    <string name="cancel_birthday_selection">Cancel</string>
+    <string name="edit_name_title">Non</string>
+    <string name="location_empty_title">Non spécifié</string>
+
+    <string name="description_title">Deskripsyon</string>
+
+    <string name="profile_updated_success">Pwofiy ou a mete ajou avèk siksè</string>
+
+    <string name="topics_empty_title">Aucun sujet sélectionné</string>
+    <string name="topics_title">Enterè.</string>
+
+    <string name="languages_title">Lang yo</string>
+    <string name="languages_empty_title">Pa gen lang ki chwazi.</string>
+    <string name="profile_add_language">Ajoute lang yo</string>
+    <string name="profile_select_language">Chwazi langaj</string>
+    <string name="profile_select_proficiency">Chwazi konpetans</string>
+    <string name="add_language_select">Seleksyone</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="gender_title"><![CDATA[Sex AsyncTask genderrelationSANDASYONKimoun GenderLi ok \?>>]]></string>
+</resources>

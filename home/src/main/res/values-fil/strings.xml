@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Aking feed</string>
+    <string name="post_create_new">Gumawa ng bagong post</string>
+    <string name="create_post_dismiss">Kanselahin</string>
+    <string name="create_post_create">Lumikha</string>
+    <string name="post_show_more">Ipakita pa</string>
+    <string name="post_show_less">Ipakita ng kaunti</string>
+
+    <string name="create_post_success">Post na nilikha</string>
+    <string name="create_chat_success">Chat na nilikha</string>
+
+    <string name="home_filters_oldest">Pinakamatanda</string>
+    <string name="home_filters_newest">Pinakabago</string>
+    <string name="post_create_comment">Magdagdag ng komento</string>
+    <string name="post_likes">Gusto ni %s</string>
+    <string name="post_comments">%s mga komento</string>
+    <string name="post_no_comments_title">Walang sagot pa.</string>
+    <string name="post_no_comments_subtitle">Maging unang magbahagi ng iyong mga saloobin sa post na ito.</string>
+
+    <string name="error_msg_general">May nangyaring hindi tama. Subukan muli.</string>
+</resources>

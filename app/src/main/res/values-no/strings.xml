@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Hjem</string>
+    <string name="destination_explore_label">Utforsk</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Innstillinger</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Temaer</string>
+    <string name="setting_notifications_title">Varsler</string>
+    <string name="setting_permissions_title">Tillatelser</string>
+    <string name="setting_accessibility_title">Tilgjengelighet</string>
+    <string name="setting_about_title">Om</string>
+    <string name="setting_rate_title">Vurder appen</string>
+    <string name="setting_report_title">Rapporter en feil</string>
+    <string name="setting_logout_title">Logg ut</string>
+    <string name="setting_switch_language_title">Bytt språk</string>
+
+    <string name="selected_language">Valgt språk</string>
+
+    <string name="settings_change">Endre innstillinger</string>
+    <string name="settings_switch_language">Bytt språk</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamisk theming</string>
+    <string name="setting_dark_theme">Mørk tema</string>
+
+    <string name="settings_rate_app_page_title">Vurder appen</string>
+    <string name="settings_switch_language_title">Endre språk</string>
+    <string name="settings_theming_title"><![CDATA[Temaer & farger]]></string>
+    <string name="settings_about_page_title">Om appen</string>
+    <string name="settings_about_page_description1">Colingo er en åpen kildekode-drevet språkutvekslingsplattform utviklet av Colle/William.</string>
+    <string name="settings_about_page_description2">Vi streber mot å være så åpne og ærlige om alt i appen, derfor holder vi den åpen kildekode.</string>
+    <string name="settings_about_page_description3">Tekst å oversette: All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \\"Report a bug\\" pane. 
+
+Alle oversettelser inne i appen er gjort av AI-er, og følgelig kan det forekomme oversettelsesfeil - hvis du finner noen, vennligst rapporter det i \\"Rapporter en feil\\"-delen.</string>
+    <string name="settings_about_page_contact">Hvis du har noen bekymringer eller forslag til appen, kan du kontakte oss på:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Rapporter feil</string>
+    <string name="settings_report_bug_title">For å sikre stabilitet, samler vi automatisk inn krasjrapporter. Hvis du oppdager noen problemer og ønsker å sende inn en feil direkte, vennligst fyll ut et skjema med så mye informasjon du har tilgjengelig.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

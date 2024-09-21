@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Hanga he kōrero hou</string>
+    <string name="date_today">Tēnei rā</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot taurua</string>
+
+    <string name="chat_my_messages">Īnga whakapā mai</string>
+    <string name="chat_empty_title">Kare anō kau he karere</string>
+    <string name="chat_empty_description">Timata anga korero kia kite i ou karere kei konei.</string>
+
+    <string name="chats_empty_title">Kāore anō ngā whakakōrero</string>
+    <string name="chats_empty_description">Mēnā kua tīmata koe i tētahi kōrerorero hou, ka kitea ai ēnei e rārangi ana.</string>
+
+    <string name="chats_delete_title">Muku whakawhiti pānui</string>
+    <string name="chats_delete_subtitle">This action cannot be undone!</string>
+    <string name="chats_delete_confirm">Whakaae</string>
+    <string name="chats_delete_cancel">Whakakore</string>
+    <string name="chats_delete_success">Kua mukua te kōrero</string>
+
+    <string name="message_time_today">I tēnei rā</string>
+    <string name="message_time_yesterday">Tēnei te tekau o Oketopa.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise he kaiako reo Pāniora e āwhina ana i a koe ki te whakapai ake i tō rerenga kōrero!</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Нэвтрэх</string>
+    <string name="onboarding_signup_btn">Бүртгүүлэх</string>
+    <string name="onboarding_other_title">Үргэлжлүүлэх эсвэл үргэлжлүүлэх.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">\"Түгээмэл хэрэглэгчийн нэрээр\"</string>
+    <string name="onboarding_go_back">Буцах</string>
+
+    <!-- Log in -->
+    <string name="login_title">Өршөөд нэрийнд баярлалаа!</string>
+    <string name="login_subtitle">Хэрэглэгчийн нэвтрэх</string>
+    <string name="login_email_hint">Имэйл</string>
+    <string name="login_password_hint">Нууц үг</string>
+    <string name="login_forgot_password">Нууц үгээ мартсан уу\?</string>
+    <string name="login_login_btn">Нэвтрэх</string>
+    <string name="login_go_to_signup_1">Та дугаар үүсгээгүй байна уу\?</string>
+    <string name="login_go_to_signup_2">Бүртгүүлэх</string>
+    <string name="login_reset_password">Нууц үг сэргээх</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Бүртгүүлэх</string>
+    <string name="signup_subtitle">Таны данс үүсгэх</string>
+    <string name="signup_name_hint">Нэр</string>
+    <string name="signup_email_hint">Имэйл</string>
+    <string name="signup_password_hint">Нууц үг</string>
+    <string name="signup_confirm_password_hint">Нууц үг баталгаажуулах</string>
+    <string name="signup_signup_btn">Бүртгүүлэх</string>
+    <string name="signup_go_to_login_1">Өмнөх бүртгэлтэй уу\?</string>
+    <string name="signup_go_to_login_2">Нэвтрэх</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Дараагийн</string>
+    <string name="setup_profile_finish">Дуусга.</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Профайл тохируулах</string>
+    <string name="add_picture_subtitle">Профайл зураг нэмэх</string>
+    <string name="add_languages_title">Профайл тохируулах</string>
+    <string name="add_languages_subtitle">Хэл сонгох</string>
+    <string name="add_languages_select_proficiency">Түвшний мэргэжил сонгох</string>
+    <string name="add_languages_select_language">Хэл сонгох</string>
+    <string name="add_languages_add_language">Хэл нэмэх</string>
+    <string name="add_language_select">Сонгох</string>
+    <string name="add_language_cancel">Цуцлах</string>
+    <string name="select_gender_title">Профайл тохируулах</string>
+    <string name="select_gender_subtitle">Хүйс сонгох</string>
+    <string name="select_topics_title">Профайл тохируулах</string>
+    <string name="select_topics_subtitle">Сэдвүүдээ сонгох</string>
+    <string name="add_description_title">Профайл тохируулах</string>
+    <string name="add_description_subtitle">Өөртөө өөрийн мэдээллийг нэмнэ үү</string>
+    <string name="add_description_birthday_hint">Төрсөн өдрийн баярын наадмын баярлалт</string>
+    <string name="add_description_birthday_select">Сонгох</string>
+    <string name="add_description_birthday_cancel">Цуцлах</string>
+    <string name="add_description_location_hint">Байршил</string>
+    <string name="add_description_description_hint">Тайлбар</string>
+</resources>

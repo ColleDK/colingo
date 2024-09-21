@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pilih</string>
+    <string name="cancel_birthday_selection">Batalkan</string>
+    <string name="edit_name_title">Nama</string>
+    <string name="location_empty_title">Teks yang akan diterjemahkan: Tidak ditentukan</string>
+
+    <string name="description_title">Deskripsi</string>
+
+    <string name="profile_updated_success">Profil berhasil diperbarui</string>
+
+    <string name="topics_empty_title">Tidak ada topik yang dipilih</string>
+    <string name="topics_title">Minat</string>
+
+    <string name="languages_title">Bahasa</string>
+    <string name="languages_empty_title">Tidak ada bahasa yang dipilih</string>
+    <string name="profile_add_language">Tambah bahasa</string>
+    <string name="profile_select_language">Pilih bahasa</string>
+    <string name="profile_select_proficiency">Pilih tingkat keahlian</string>
+    <string name="add_language_select">Pilih</string>
+    <string name="add_language_cancel">Batalkan</string>
+    <string name="gender_title">Jenis kelamin</string>
+</resources>

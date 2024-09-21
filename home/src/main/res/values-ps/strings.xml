@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">زما فید</string>
+    <string name="post_create_new">نوي پوسټ تخليق کول</string>
+    <string name="create_post_dismiss">لغو کول</string>
+    <string name="create_post_create">پیلول</string>
+    <string name="post_show_more">نور لیکل يو شویدل.</string>
+    <string name="post_show_less">لږ وګورئ</string>
+
+    <string name="create_post_success">پوستول ایجاد شوی</string>
+    <string name="create_chat_success">په اړه خبرې اوسیدل شوه</string>
+
+    <string name="home_filters_oldest">قدیمْ</string>
+    <string name="home_filters_newest">تازه</string>
+    <string name="post_create_comment">تبصرہ اضافه کول</string>
+    <string name="post_likes">%s د خوښونویدی</string>
+    <string name="post_comments">%s تبصرې</string>
+    <string name="post_no_comments_title">هنوز ځوابونه نه وویشل شو۔</string>
+    <string name="post_no_comments_subtitle">په دا برخه کې خپله خیالاتو تر اوسه وکړئ</string>
+
+    <string name="error_msg_general">مخکي د خلکو څخه کړه. مهرباني وکړئ بیا سعی کړئ</string>
+</resources>

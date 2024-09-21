@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Txhua leej txhua tus mus tswv yim.</string>
+    <string name="community_page_title">Xov xwm</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Speaks</string>
+    <string name="community_user_learns">Learning</string>
+
+    <string name="community_ai_empty_title">Tsis paub nyob rau hauv chatbot</string>
+    <string name="community_ai_empty_subtitle">Ces tawm tau koj tej tsheb kiag li yuav siv ntxiv mus rau cov chatbots.</string>
+    <string name="community_empty_title">No users found</string>
+    <string name="community_empty_subtitle">Ntawm koj tsuas: Thov txawv pob hauv dav filters mus saib ntsib cov neeg siv plaws.</string>
+
+    <string name="community_filters_limit">Xav %d lus uas koj xav tau tshaj plaws txhawb no ua dab tsi.</string>
+    <string name="community_filters_selected">%d/%d tsawg dua hauv xaiv.</string>
+    <string name="community_filters_clear">Xaiv filters</string>
+    <string name="community_filters_your_languages">Your current languages</string>
+
+    <string name="chat_created_msg">Chat created</string>
+    <string name="chatbot_created_msg">Chat hu ua %s ntxiv.</string>
+    <string name="chatbot_create_chat">Xa cov lus txhais kawm rau %s</string>
+</resources>

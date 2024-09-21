@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_explore_label">探索</string>
+    <string name="destination_chat_label">聊天</string>
+    <string name="destination_profile_label">個人資料</string>
+    <string name="destination_settings_label">設定</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">主題設定</string>
+    <string name="setting_notifications_title">通知</string>
+    <string name="setting_permissions_title">權限</string>
+    <string name="setting_accessibility_title">無障礙設施</string>
+    <string name="setting_about_title">關於</string>
+    <string name="setting_rate_title">評分應用程式</string>
+    <string name="setting_report_title">報告錯誤</string>
+    <string name="setting_logout_title">登出</string>
+    <string name="setting_switch_language_title">切換語言</string>
+
+    <string name="selected_language">選擇的語言</string>
+
+    <string name="settings_change">更改設置</string>
+    <string name="settings_switch_language">切換語言</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">動態主題設定</string>
+    <string name="setting_dark_theme">深色主題</string>
+
+    <string name="settings_rate_app_page_title">評分應用</string>
+    <string name="settings_switch_language_title">更改語言</string>
+    <string name="settings_theming_title">主題設定和顏色</string>
+    <string name="settings_about_page_title">關於應用程式</string>
+    <string name="settings_about_page_description1">Colingo 是由 Colle/William 開發的開源社群驅動語言交流平台。</string>
+    <string name="settings_about_page_description2">我們致力於在應用程序中的一切都保持公開和坦誠，這就是為什麼我們使其成為開源的原因。</string>
+    <string name="settings_about_page_description3">在應用程式中的所有翻譯均由 AI 完成，因此可能存在翻譯錯誤 - 如果您發現任何問題，請在“報告錯誤”窗格中報告。</string>
+    <string name="settings_about_page_contact">如果您對應用程式有任何疑慮或建議，請聯絡我們:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">回報問題</string>
+    <string name="settings_report_bug_title">為確保穩定性，我們會自動收集崩潰報告，但如果您發現任何問題並希望直接提交錯誤，請填寫表格並提供您所知道的所有信息。</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

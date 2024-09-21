@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Mhino</string>
+    <string name="topic_cooking">Kupika</string>
+    <string name="topic_theater">Teatro</string>
+    <string name="topic_partying">Kugumisirwa</string>
+    <string name="topic_biking">Kusarudza</string>
+    <string name="topic_camping">Kuhwadzana</string>
+    <string name="topic_fitness">Kukura</string>
+    <string name="topic_meditation">Kuonera</string>
+    <string name="topic_movie">Mabhuku</string>
+    <string name="topic_music">Muziki</string>
+    <string name="topic_painting">Kuverenga</string>
+    <string name="topic_physics">Fiziks</string>
+    <string name="topic_reading">Kuramba</string>
+    <string name="topic_science">Mutaundi</string>
+    <string name="topic_sports">Michezo</string>
+    <string name="topic_swimming">Kurwadza</string>
+    <string name="topic_technology">Tekinorodzi</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

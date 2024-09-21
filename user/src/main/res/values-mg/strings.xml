@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Manan-kery</string>
+    <string name="topic_cooking">Cooking</string>
+    <string name="topic_theater">Teatro</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Miakatra beabe</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitnesy.</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Musique</string>
+    <string name="topic_painting">Fanolorana</string>
+    <string name="topic_physics">Fisika</string>
+    <string name="topic_reading">Fampianarana</string>
+    <string name="topic_science">Fananana</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Manjary</string>
+    <string name="topic_technology">Teknolojia</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

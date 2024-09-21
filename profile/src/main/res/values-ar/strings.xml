@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">اختيار</string>
+    <string name="cancel_birthday_selection">إلغاء</string>
+    <string name="edit_name_title">الاسم</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">الوصف</string>
+
+    <string name="profile_updated_success">تم تحديث الملف الشخصي بنجاح</string>
+
+    <string name="topics_empty_title">لم يتم اختيار أي مواضيع</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">اللغات</string>
+    <string name="languages_empty_title">لم يتم تحديد أي لغات</string>
+    <string name="profile_add_language">إضافة لغة</string>
+    <string name="profile_select_language">اختر اللغة</string>
+    <string name="profile_select_proficiency">اختر المهارة</string>
+    <string name="add_language_select">اختيار</string>
+    <string name="add_language_cancel">إلغاء</string>
+    <string name="gender_title">الجنس</string>
+</resources>

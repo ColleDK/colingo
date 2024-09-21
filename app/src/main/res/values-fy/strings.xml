@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Thús</string>
+    <string name="destination_explore_label">Ûntdekke</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profiel</string>
+    <string name="destination_settings_label">Ynstellings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Themazjen</string>
+    <string name="setting_notifications_title">Notifikaasjes</string>
+    <string name="setting_permissions_title">Machtigingen</string>
+    <string name="setting_accessibility_title">Bereikberens</string>
+    <string name="setting_about_title">Oer</string>
+    <string name="setting_rate_title">Bewurd de app</string>
+    <string name="setting_report_title">Meld in flater</string>
+    <string name="setting_logout_title">Útlogge</string>
+    <string name="setting_switch_language_title">Wiksje talen</string>
+
+    <string name="selected_language">Selektearre taal.</string>
+
+    <string name="settings_change">Wizigje ynstellingen</string>
+    <string name="settings_switch_language">Wiksje taal</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamysk thema\'s</string>
+    <string name="setting_dark_theme">Dûster thema.</string>
+
+    <string name="settings_rate_app_page_title">Bewurdigje app</string>
+    <string name="settings_switch_language_title">Feroarje taal</string>
+    <string name="settings_theming_title"><![CDATA[Tekst om te fertalen: Theming & kleuren]]></string>
+    <string name="settings_about_page_title">Oer de app</string>
+    <string name="settings_about_page_description1">Colingo is in iepenbronne, gemeenskipsdielde taalútwikselplatfoarm ûntwikkele troch Colle/William.</string>
+    <string name="settings_about_page_description2">Wy stribje nei iepenheid en earlikens oer alles yn \'e app, dat is wêrom\'t wy it iepen boarne hâlde.</string>
+    <string name="settings_about_page_description3">Alle oersettingen yn \'e app wurde dien troch AIs en dus kinne der oersettingsfouten wêze - asto ien fynst, meld it dan yn it \\"Rapportearje in bug\\"-rút.</string>
+    <string name="settings_about_page_contact">Text om te oersetten: As jo ​​noch soargen of suggestjes hawwe foar de app, kinne jo kontakt mei ús opnimme op:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Meld fout.</string>
+    <string name="settings_report_bug_title">Om stabilitiet te garandearjen, sammelje wy automatysk allinich rapporten fan ôfkraakjen, mar assto probleem findest en in bug direkt ynstjoere wolst, folje dan in formulier yn mei safolle ynformaasje assto hast.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

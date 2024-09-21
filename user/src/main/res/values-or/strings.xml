@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">ପଶୁଗୁଲି</string>
+    <string name="topic_cooking">ରନ୍ଧନକାରୀ</string>
+    <string name="topic_theater">ଥିୟାଟର</string>
+    <string name="topic_partying">ପାର୍ଟି କରିବା</string>
+    <string name="topic_biking">ବାଇକ ଚାଲଣା କରିବା</string>
+    <string name="topic_camping">କେମ୍ପିଂ</string>
+    <string name="topic_fitness">ଫିଟନେସ୍।</string>
+    <string name="topic_meditation">ଧ୍ୟାନ</string>
+    <string name="topic_movie">ଚଳଚିତ୍ର</string>
+    <string name="topic_music">ସଙ୍ଗୀତ</string>
+    <string name="topic_painting">ଚିତ୍ରକଲ྽</string>
+    <string name="topic_physics">ପଦାର୍ଥବିଜ୍ଞାନ</string>
+    <string name="topic_reading">ପଢ଼ନ୍ତି</string>
+    <string name="topic_science">ବିଜ୍ଞାନ</string>
+    <string name="topic_sports">କ୍ରୀଡା</string>
+    <string name="topic_swimming">ତୀର ଚାଳନ୍ତୁ |</string>
+    <string name="topic_technology">ପ୍ରଯୁକ୍ତିବିଦ୍ୟା</string>
+    <string name="topic_videogame">ଭିଡିଓ ଗେମ୍‌ଗୁଡିକଲ୍।</string>
+</resources>

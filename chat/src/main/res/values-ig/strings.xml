@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Mepụta ụdị chat ịbụanya</string>
+    <string name="date_today">Taa</string>
+
+    <string name="members_page_title">Ok.</string>
+    <string name="bots_page_title">Ok</string>
+
+    <string name="chat_my_messages">Ndi mmegharịọ m.</string>
+    <string name="chat_empty_title">Ọ dịghị ebe m na-efu.</string>
+    <string name="chat_empty_description">Deba ịkaria ịbi nke a ka ị ma kwa iwu gbasara ezigbo nkiti a.</string>
+
+    <string name="chats_empty_title">Ọ bụghị ebe enweghị usoro.</string>
+    <string name="chats_empty_description">Nke a bụrụ na ọ bụrụ ahu ikpachi ibe e nwere a.</string>
+
+    <string name="chats_delete_title">Taa afọ gụachọụ chat</string>
+    <string name="chats_delete_subtitle">Nke a agbanaga anaghị akpọrọ ya edere!</string>
+    <string name="chats_delete_confirm">Gbalaba</string>
+    <string name="chats_delete_cancel">Emeziọkwaghị</string>
+    <string name="chats_delete_success">Chat aghụkwaghịtị</string>
+
+    <string name="message_time_today">Taa</string>
+    <string name="message_time_yesterday">Echi dike</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise bụ onye akwụkwọ Asụsụ Spanị na-enye gị aka ijide ịmara n\'asụsụ gị!</string>
+</resources>

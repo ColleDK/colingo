@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Ev</string>
+    <string name="destination_explore_label">Keşfet</string>
+    <string name="destination_chat_label">Sohbet</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Ayarlar</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tema oluşturma</string>
+    <string name="setting_notifications_title">Bildirimler</string>
+    <string name="setting_permissions_title">İzinler</string>
+    <string name="setting_accessibility_title">Erişilebilirlik</string>
+    <string name="setting_about_title">Hakkında</string>
+    <string name="setting_rate_title">Uygulamayı değerlendir</string>
+    <string name="setting_report_title">Hata bildirimi</string>
+    <string name="setting_logout_title">Çıkış yap</string>
+    <string name="setting_switch_language_title">Dilleri değiştir</string>
+
+    <string name="selected_language">Seçilen dil</string>
+
+    <string name="settings_change">Ayarları değiştir</string>
+    <string name="settings_switch_language">Dili değiştir</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamik tema</string>
+    <string name="setting_dark_theme">Karanlık tema</string>
+
+    <string name="settings_rate_app_page_title">Uygulamayı değerlendir</string>
+    <string name="settings_switch_language_title">Dil değiştir</string>
+    <string name="settings_theming_title">Tema ve renkler</string>
+    <string name="settings_about_page_title">Uygulama hakkında</string>
+    <string name="settings_about_page_description1">Colingo, Colle/William tarafından geliştirilen açık kaynaklı topluluk destekli dil değişim platformudur.</string>
+    <string name="settings_about_page_description2">Uygulamadaki her şey hakkında olabildiğince açık ve dürüst olmayı hedefliyoruz, bu yüzden açık kaynak olarak tutuyoruz.</string>
+    <string name="settings_about_page_description3">Uygulama içindeki tüm çeviriler yapay zeka tarafından gerçekleştirilir ve bu nedenle çeviri hataları olabilir - herhangi bir hata bulursanız lütfen \\"Hata Bildir\\" bölümünde raporlayın.</string>
+    <string name="settings_about_page_contact">Eğer uygulama hakkında herhangi bir endişeniz veya öneriniz varsa, bize şuradan ulaşabilirsiniz:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Hata bildirimi</string>
+    <string name="settings_report_bug_title">Kararlılığı sağlamak için çökme raporlarını otomatik olarak topluyoruz, ancak herhangi bir sorun bulursanız ve doğrudan bir hata göndermek isterseniz, lütfen bildiğiniz kadar bilgi ile bir form doldurun.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

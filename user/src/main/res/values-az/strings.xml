@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Heyvanlar</string>
+    <string name="topic_cooking">Pisirme</string>
+    <string name="topic_theater">Teatr</string>
+    <string name="topic_partying">Parti.</string>
+    <string name="topic_biking">Bisiklet_SURMƏK</string>
+    <string name="topic_camping">Kamp etmək</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditasiya</string>
+    <string name="topic_movie">Filmlər</string>
+    <string name="topic_music">Musiqi</string>
+    <string name="topic_painting">Rəsmiş</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Oxumaq</string>
+    <string name="topic_science">Elm</string>
+    <string name="topic_sports">İdman</string>
+    <string name="topic_swimming">Yüzmə</string>
+    <string name="topic_technology">Texnologiya</string>
+    <string name="topic_videogame">Video oyunları</string>
+</resources>

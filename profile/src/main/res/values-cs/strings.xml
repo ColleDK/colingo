@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Vybrat</string>
+    <string name="cancel_birthday_selection">Storno</string>
+    <string name="edit_name_title">Jméno</string>
+    <string name="location_empty_title">Neurčeno</string>
+
+    <string name="description_title">Popis</string>
+
+    <string name="profile_updated_success">Profil úspěšně aktualizován</string>
+
+    <string name="topics_empty_title">Nevybrána žádná témata</string>
+    <string name="topics_title">Zájmy</string>
+
+    <string name="languages_title">Jazyky</string>
+    <string name="languages_empty_title">Žádné jazyky nevybrány.</string>
+    <string name="profile_add_language">Přidat jazyk.</string>
+    <string name="profile_select_language">Vyberte jazyk</string>
+    <string name="profile_select_proficiency">Vyberte úroveň dovedností.</string>
+    <string name="add_language_select">Vybrat</string>
+    <string name="add_language_cancel">Storno</string>
+    <string name="gender_title">Pohlaví</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mé zdroje</string>
+    <string name="post_create_new">Vytvořit nový příspěvek</string>
+    <string name="create_post_dismiss">Zrušit</string>
+    <string name="create_post_create">Vytvořit</string>
+    <string name="post_show_more">Zobrazit více</string>
+    <string name="post_show_less">Zobrazit méně</string>
+
+    <string name="create_post_success">Příspěvek vytvořen</string>
+    <string name="create_chat_success">Chat vytvořen.</string>
+
+    <string name="home_filters_oldest">Nejstarší</string>
+    <string name="home_filters_newest">Nejnovější</string>
+    <string name="post_create_comment">Přidat komentář</string>
+    <string name="post_likes">%s se líbí.</string>
+    <string name="post_comments">Komentáře: %s</string>
+    <string name="post_no_comments_title">Žádné odpovědi zatím</string>
+    <string name="post_no_comments_subtitle">Buďte první, kdo sdílí své myšlenky k tomuto příspěvku.</string>
+
+    <string name="error_msg_general">Něco se nepovedlo. Zkuste to prosím znovu.</string>
+</resources>

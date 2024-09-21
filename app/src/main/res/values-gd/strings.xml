@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Dùthaich</string>
+    <string name="destination_explore_label">Rannsachadh</string>
+    <string name="destination_chat_label">Còmhradh</string>
+    <string name="destination_profile_label">Profaidh</string>
+    <string name="destination_settings_label">Roghainnean</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Teacstailadh</string>
+    <string name="setting_notifications_title">Riaghailtean</string>
+    <string name="setting_permissions_title">Ceadan</string>
+    <string name="setting_accessibility_title">Cothromachd</string>
+    <string name="setting_about_title">Mu</string>
+    <string name="setting_rate_title">Clàraich an app</string>
+    <string name="setting_report_title">Thoir fios mu bhac</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Atharraich cànanan</string>
+
+    <string name="selected_language">Cànain taghta</string>
+
+    <string name="settings_change">Atharraich sGrìobhadairean</string>
+    <string name="settings_switch_language">Atharraich cànan</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tèma-dìnamicseach</string>
+    <string name="setting_dark_theme">Dealbhadair dorchaidh</string>
+
+    <string name="settings_rate_app_page_title">Luaidh app</string>
+    <string name="settings_switch_language_title">Atharraich cànan</string>
+    <string name="settings_theming_title"><![CDATA[Roghnaichean & dathan]]></string>
+    <string name="settings_about_page_title">Maidir ris an app</string>
+    <string name="settings_about_page_description1">Tha Colingo na phlatform coimhearsnachd fosgailte air a stiùireadh le Colle/William.</string>
+    <string name="settings_about_page_description2">Dèanamh sinn an dìcheall gus a bhith cho frithealaidh is soileir mu gach rud sa phrògram, agus sin mar a tha sinn a \'cumail fosgailte.</string>
+    <string name="settings_about_page_description3">Gach iomradh sa phrògram bidh a\' dèanamh le conaltradh (AI) agus gu h-àraid air sgàth \'s gun tèid mearachdan dèanta - ma lorgas tu sam bith, cuiribh fios sa phèine \"Aithisg air mhearachd\".</string>
+    <string name="settings_about_page_contact">Ma tha sam bith dragh no molaidhean agad airson an app, faodaidh tu bruidhinn rinn aig:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Tha aithisg bug</string>
+    <string name="settings_report_bug_title">Gus a bhith cinnteach gum bi buannachd ann, tha sinn a \'cur ri chèile na rèir aonais riutha a\' crathadh, ge-tà, ma lorgas tu sam bith foighidinn agus bu toil leat buille na dealbhadh, òrdaich foirm le cho math fiosrachadh agus sibh aig.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

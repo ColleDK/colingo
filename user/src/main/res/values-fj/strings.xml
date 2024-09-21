@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animal</string>
+    <string name="topic_cooking">Vakara kana</string>
+    <string name="topic_theater">Vaudeville</string>
+    <string name="topic_partying">Vakasama ni veitabalevmatua</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Vakamalua ni titoko ni bera ni qoli.</string>
+    <string name="topic_fitness">Vakarorogo.</string>
+    <string name="topic_meditation">Vakavinavinaka</string>
+    <string name="topic_movie">Filimi</string>
+    <string name="topic_music">Muzika</string>
+    <string name="topic_painting">Vakacacawidgets</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">Vakayagataki</string>
+    <string name="topic_science">Volaivola</string>
+    <string name="topic_sports">VakavakadewatakaCGSizeSports</string>
+    <string name="topic_swimming">Vakasama</string>
+    <string name="topic_technology">Tauteqitoqo</string>
+    <string name="topic_videogame">Vitiogi meke</string>
+</resources>

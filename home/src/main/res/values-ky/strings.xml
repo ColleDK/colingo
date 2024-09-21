@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Мениң маалыматым</string>
+    <string name="post_create_new">Жаңы постту түзүү</string>
+    <string name="create_post_dismiss">Жоккоого айырылуу</string>
+    <string name="create_post_create">Үтүрүү</string>
+    <string name="post_show_more">Көбүрөк көрсөтүү</string>
+    <string name="post_show_less">Көбүндү көрсөт</string>
+
+    <string name="create_post_success">Жаздырылган пост</string>
+    <string name="create_chat_success">Сүйлөшүү түзүлдү</string>
+
+    <string name="home_filters_oldest">Жашымсыз</string>
+    <string name="home_filters_newest">Жаңы.</string>
+    <string name="post_create_comment">Комментарийди кошуу</string>
+    <string name="post_likes">%s көңүл алдырып жатат</string>
+    <string name="post_comments">Комментарийдер: %s</string>
+    <string name="post_no_comments_title">Жооп бир жок</string>
+    <string name="post_no_comments_subtitle">Бул карар тууралуу думалоогоңузду биринчи болунунун.</string>
+
+    <string name="error_msg_general">Негизде катар жатыш катышат кыйынкы. Кийин анын алып коюндорун текшериниз</string>
+</resources>

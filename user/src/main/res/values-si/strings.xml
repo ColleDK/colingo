@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">සංස්කෘතිය</string>
+    <string name="topic_cooking">පානලා</string>
+    <string name="topic_theater">නාට්‍යය</string>
+    <string name="topic_partying">උදා OK</string>
+    <string name="topic_biking">සරලමත් රගාවක්</string>
+    <string name="topic_camping">විශ්වාසන්දත් විසින් සබඳා ගැනීමට හා පුහුණු ඉතා උද්‍යාගැනීම්කම සක්‍රීයයි.</string>
+    <string name="topic_fitness">අධ්‍යාපනය</string>
+    <string name="topic_meditation">සටහන</string>
+    <string name="topic_movie">කතාමාරිකයාටම(s)</string>
+    <string name="topic_music">සංගීතය</string>
+    <string name="topic_painting">පිනිවුඩය</string>
+    <string name="topic_physics">වාදය</string>
+    <string name="topic_reading">කියවන්න</string>
+    <string name="topic_science">විද්‍යාව</string>
+    <string name="topic_sports">විද්‍යා ක්‍රියාව හෝ ක්‍ර්ම්පසදරුවන්</string>
+    <string name="topic_swimming">පාන් කරන්න</string>
+    <string name="topic_technology">තාක්ෂණය</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

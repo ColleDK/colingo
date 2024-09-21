@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">我的動態</string>
+    <string name="post_create_new">新增帖子</string>
+    <string name="create_post_dismiss">取消</string>
+    <string name="create_post_create">建立</string>
+    <string name="post_show_more">顯示更多</string>
+    <string name="post_show_less">減少顯示</string>
+
+    <string name="create_post_success">帖子已建立</string>
+    <string name="create_chat_success">聊天已建立</string>
+
+    <string name="home_filters_oldest">最老</string>
+    <string name="home_filters_newest">最新</string>
+    <string name="post_create_comment">新增評論</string>
+    <string name="post_likes">%s 喜歡</string>
+    <string name="post_comments">%s 評論</string>
+    <string name="post_no_comments_title">暫無回覆</string>
+    <string name="post_no_comments_subtitle">成為第一位分享您對這篇文章的想法的人。</string>
+
+    <string name="error_msg_general">出了一些問題。請再試一次。</string>
+</resources>

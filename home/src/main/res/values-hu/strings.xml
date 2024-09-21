@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Hírcsatorna</string>
+    <string name="post_create_new">Hozzon létre egy új bejegyzést</string>
+    <string name="create_post_dismiss">Mégse</string>
+    <string name="create_post_create">Létrehozás</string>
+    <string name="post_show_more">Továbbiak megjelenítése</string>
+    <string name="post_show_less">Kevesebbet mutatni</string>
+
+    <string name="create_post_success">Bejegyzés létrehozva</string>
+    <string name="create_chat_success">A beszélgetés létrehozva</string>
+
+    <string name="home_filters_oldest">Legéregebben</string>
+    <string name="home_filters_newest">Legújabb</string>
+    <string name="post_create_comment">Hozzászólás hozzáadása</string>
+    <string name="post_likes">%s kedveli</string>
+    <string name="post_comments">Hozzászólások: %s</string>
+    <string name="post_no_comments_title">Még nincs válasz</string>
+    <string name="post_no_comments_subtitle">Legyen az első, aki megosztja a gondolatait erről a bejegyzésről.</string>
+
+    <string name="error_msg_general">Valami hiba történt. Kérjük, próbálkozzon újra.</string>
+</resources>

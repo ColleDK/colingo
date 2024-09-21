@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Zaɓi</string>
+    <string name="cancel_birthday_selection">Tsaya.</string>
+    <string name="edit_name_title">Sunan</string>
+    <string name="location_empty_title">Muryar da za a tarjumci: Babu bayani</string>
+
+    <string name="description_title">Bayani</string>
+
+    <string name="profile_updated_success">Wasu daga cikin bayanan sasar program an kashe.</string>
+
+    <string name="topics_empty_title">Ba a zaɓen hanyoyi din ba</string>
+    <string name="topics_title">Yi bayani: Mukaiwa</string>
+
+    <string name="languages_title">Harshe</string>
+    <string name="languages_empty_title">Basu harshe wajen furucin harshe ba</string>
+    <string name="profile_add_language">Zaɓa harshen</string>
+    <string name="profile_select_language">Zaɓi harshe</string>
+    <string name="profile_select_proficiency">Zaɓi nasara</string>
+    <string name="add_language_select">Zaɓi</string>
+    <string name="add_language_cancel">Tsaya.</string>
+    <string name="gender_title">Jins.</string>
+</resources>

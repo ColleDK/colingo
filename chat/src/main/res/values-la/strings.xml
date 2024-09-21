@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Crea novam sermonem</string>
+    <string name="date_today">Hodie</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Conversations de Bot</string>
+
+    <string name="chat_my_messages">Meae epistolae</string>
+    <string name="chat_empty_title">Nullae adhuc litterae</string>
+    <string name="chat_empty_description">Coepi colloqui ut tuae litterae hic appareant.</string>
+
+    <string name="chats_empty_title">Nondum colloquia</string>
+    <string name="chats_empty_description">Hic conversatio nova a te incepta, visurus es eam hic listatam.</string>
+
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">Haec actio non potest revocari!</string>
+    <string name="chats_delete_confirm">Confirma</string>
+    <string name="chats_delete_cancel">Cancel</string>
+    <string name="chats_delete_success">Conversatio deleta</string>
+
+    <string name="message_time_today">Hodie</string>
+    <string name="message_time_yesterday">Heri</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise est magistra Hispanica quae te adiuvare potest ad augendam tuam vocabulationem!</string>
+</resources>

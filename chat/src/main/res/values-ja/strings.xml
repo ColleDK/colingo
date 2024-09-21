@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">新しいチャットを作成します</string>
+    <string name="date_today">今日</string>
+
+    <string name="members_page_title">チャット</string>
+    <string name="bots_page_title">ボットのチャット</string>
+
+    <string name="chat_my_messages">私のメッセージ</string>
+    <string name="chat_empty_title">まだメッセージはありません.</string>
+    <string name="chat_empty_description">ここにメッセージを見るために会話を始めましょう。</string>
+
+    <string name="chats_empty_title">未だチャットはありません。</string>
+    <string name="chats_empty_description">新しい会話を開始すると、こちらにリストされます。</string>
+
+    <string name="chats_delete_title">チャットを削除</string>
+    <string name="chats_delete_subtitle">この操作は取り消しできません！</string>
+    <string name="chats_delete_confirm">確認</string>
+    <string name="chats_delete_cancel">キャンセル</string>
+    <string name="chats_delete_success">チャットが削除されました</string>
+
+    <string name="message_time_today">今日</string>
+    <string name="message_time_yesterday">昨日</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louiseは、あなたの語彙を向上させるのに役立つスペイン語の教師です！</string>
+</resources>

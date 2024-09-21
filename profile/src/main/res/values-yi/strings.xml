@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Wielen.</string>
+    <string name="cancel_birthday_selection">קענטשנ מקבליקן</string>
+    <string name="edit_name_title">שטעלעNamen</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Beschreibung</string>
+
+    <string name="profile_updated_success">Profil erfolgreich aktualisiert</string>
+
+    <string name="topics_empty_title">Keine Themen ausgewählt</string>
+    <string name="topics_title">Interesn.</string>
+
+    <string name="languages_title">Shprakhn</string>
+    <string name="languages_empty_title">קיין שפּראַכן אויסגעקליבן</string>
+    <string name="profile_add_language">צוגעלייגן שפּראַך</string>
+    <string name="profile_select_language">וואַלט שפּראַך  - OK</string>
+    <string name="profile_select_proficiency">ריירן שפּעקסאַס!</string>
+    <string name="add_language_select">סעלעקטירן</string>
+    <string name="add_language_cancel">אויסלעגן</string>
+    <string name="gender_title">Geshlecht</string>
+</resources>

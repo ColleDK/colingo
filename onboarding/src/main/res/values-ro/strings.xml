@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Conectare</string>
+    <string name="onboarding_signup_btn">Înscrie-te</string>
+    <string name="onboarding_other_title">Sau continuă cu</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continuați ca vizitator</string>
+    <string name="onboarding_go_back">Intoarcere.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Bine ai revenit!</string>
+    <string name="login_subtitle">Conectează-te la contul tău</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Parolă</string>
+    <string name="login_forgot_password">Ai uitat parola\?</string>
+    <string name="login_login_btn">Conectare</string>
+    <string name="login_go_to_signup_1">Încă nu ai un cont\?</string>
+    <string name="login_go_to_signup_2">Înscrie-te</string>
+    <string name="login_reset_password">Resetează parola</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Înregistrare</string>
+    <string name="signup_subtitle">Creează-ți contul</string>
+    <string name="signup_name_hint">Nume</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Parolă</string>
+    <string name="signup_confirm_password_hint">Confirmare parolă</string>
+    <string name="signup_signup_btn">Înregistrare</string>
+    <string name="signup_go_to_login_1">Ai deja un cont\?</string>
+    <string name="signup_go_to_login_2">Conectare</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Următorul</string>
+    <string name="setup_profile_finish">Termină</string>
+    <string name="setup_profile_skip">Ignoră</string>
+    <string name="add_picture_title">Setare profil</string>
+    <string name="add_picture_subtitle">Adaugă fotografie de profil</string>
+    <string name="add_languages_title">Setare profil</string>
+    <string name="add_languages_subtitle">Selectați limbi</string>
+    <string name="add_languages_select_proficiency">Selectați competențele.</string>
+    <string name="add_languages_select_language">Selectează limba</string>
+    <string name="add_languages_add_language">Adăugați limbă</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Anulare</string>
+    <string name="select_gender_title">Setare profil</string>
+    <string name="select_gender_subtitle">Selectați genul</string>
+    <string name="select_topics_title">Setare profil</string>
+    <string name="select_topics_subtitle">Selectați subiecte</string>
+    <string name="add_description_title">Setare profil</string>
+    <string name="add_description_subtitle">Adauga cateva informatii despre tine</string>
+    <string name="add_description_birthday_hint">Aniversare</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Anulare</string>
+    <string name="add_description_location_hint">Locație</string>
+    <string name="add_description_description_hint">Descriere</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Velja</string>
+    <string name="cancel_birthday_selection">Hætta</string>
+    <string name="edit_name_title">Nafn</string>
+    <string name="location_empty_title">Ótilgreint</string>
+
+    <string name="description_title">Lýsing</string>
+
+    <string name="profile_updated_success">Profilinu uppfærðið með góðum árangri</string>
+
+    <string name="topics_empty_title">Engar þemu valdar</string>
+    <string name="topics_title">Áhugamál</string>
+
+    <string name="languages_title">Tungumál</string>
+    <string name="languages_empty_title">Engin tungumál valin</string>
+    <string name="profile_add_language">Bæta við tungumáli</string>
+    <string name="profile_select_language">Veldu tungumál</string>
+    <string name="profile_select_proficiency">Veldu hæfileika</string>
+    <string name="add_language_select">Veldu</string>
+    <string name="add_language_cancel">Hætta við</string>
+    <string name="gender_title">Kyn</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">צור צ\'אט חדש</string>
+    <string name="date_today">היום</string>
+
+    <string name="members_page_title">צ\'אטים</string>
+    <string name="bots_page_title">שיחות בוטים</string>
+
+    <string name="chat_my_messages">הודעות שלי</string>
+    <string name="chat_empty_title">אין הודעות עדיין</string>
+    <string name="chat_empty_description">התחל לשוחח כדי לראות את ההודעות שלך כאן.</string>
+
+    <string name="chats_empty_title">אין צ\'אטים עדיין</string>
+    <string name="chats_empty_description">כאשר מתחילים שיחה חדשה, תראו אותה מופיעה כאן.</string>
+
+    <string name="chats_delete_title">מחק צ\'אט</string>
+    <string name="chats_delete_subtitle">הפעולה לא ניתנת לביטול!</string>
+    <string name="chats_delete_confirm">אישור</string>
+    <string name="chats_delete_cancel">ביטול</string>
+    <string name="chats_delete_success">Chat deleted.</string>
+
+    <string name="message_time_today">היום</string>
+    <string name="message_time_yesterday">אתמול</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise היא מורה ספרדית שיכולה לעזור לך לשפר את המילון שלך!</string>
+</resources>

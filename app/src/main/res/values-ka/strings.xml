@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">მთავარი</string>
+    <string name="destination_explore_label">გადაარჩიე</string>
+    <string name="destination_chat_label">ჩეთი</string>
+    <string name="destination_profile_label">პროფილი</string>
+    <string name="destination_settings_label">პარამეტრები</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">თემების განთავსება</string>
+    <string name="setting_notifications_title">შეტყობინებები</string>
+    <string name="setting_permissions_title">ნებართვები</string>
+    <string name="setting_accessibility_title">დახვეწება</string>
+    <string name="setting_about_title">შესახებ</string>
+    <string name="setting_rate_title">შეფასებეთ აპლიკაცია</string>
+    <string name="setting_report_title">შეუსაბამისი შეცდომის რეპორტი</string>
+    <string name="setting_logout_title">გამოსვლა</string>
+    <string name="setting_switch_language_title">ენების გადართვა</string>
+
+    <string name="selected_language">არჩეული ენა</string>
+
+    <string name="settings_change">პარამეტრების შეცვლა</string>
+    <string name="settings_switch_language">ენის შეცვლა</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">დინამიური თემები</string>
+    <string name="setting_dark_theme">მუქი თემატიკა</string>
+
+    <string name="settings_rate_app_page_title">შეფასება აპლიკაცია</string>
+    <string name="settings_switch_language_title">ენის შეცვლა</string>
+    <string name="settings_theming_title">თემიზები და ფერები</string>
+    <string name="settings_about_page_title">აპლიკაციის შესახებ</string>
+    <string name="settings_about_page_description1">Colingo - ეს არის ღია კოდით შექმნილი ენათა გაცნობილებების გაცვლით პლატფორმა, რომლის დამზადება განხილვანია Colle/William-მიერ.</string>
+    <string name="settings_about_page_description2">ჩვენ ეწერებით ისე ღია და გამოშვებული ყველას შესახებ აპლიკაციის შესახებ, რაც არის რატომ ეხლავებათ ღია-წყლის.</string>
+    <string name="settings_about_page_description3">ყველა აპის შიგთავსი გამოცდილპგზავბარიის შესრულებით მოხდა და ამჟამინდ შეცდომები შეიძლება წარმოიშვნართ - თუ გიპისურებთ, გთხოვთ, შეატყობინოთ ეს \\"ბაგის შეტყობინება\\" საფეხურზე.</string>
+    <string name="settings_about_page_contact">ტექსტი თარგმნის: თუ არსებობს ნებისმიერი კიდევ რჩევები ან წინასწარ შეთავაზებები აპლიკაციისთვის, შეგიძლიათ დაგვიკავშიროთ:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">შეცდომის ანგარიში</string>
+    <string name="settings_report_bug_title">სტაბილურობის გასაფენტრად, ჩვენ ავტომატურად ვთავაზობთ კრაშის რეპორტებს, თუმცა თუ გჭირდებათ შევიტანოთ შეცდომები და გსურთ მაკლდეთ ბაგი პირდაპირ, გთხოვთ შეავსეთ ფორმა იმ ინფორმაციით, რამდენიც გაქვთ.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">భాగస్వాములను కనుగొను.</string>
+    <string name="community_page_title">సభ్యులు</string>
+    <string name="chatbot_page_title">చాట్బాట్లు</string>
+    <string name="community_user_speaks">ప్రస్తావించేది</string>
+    <string name="community_user_learns">అభ్యాసం</string>
+
+    <string name="community_ai_empty_title">చాట్బాట్లు దొరకలేదు.</string>
+    <string name="community_ai_empty_subtitle">మీ ఫిల్టర్‌లను అప్‌డేట్ చేయడం వల్ల ఎక్కువ చాట్‌బాట్‌లను కనుగొనడం ప్రయత్నించండి.</string>
+    <string name="community_empty_title">యూజర్లు దొరకలేదు</string>
+    <string name="community_empty_subtitle">మరింత వినియోగదారులను కనుగొన్నకు మీ ఫిల్టర్లను తాజాగా పొందడానికి ప్రయత్నించండి.</string>
+
+    <string name="community_filters_limit">%d భాషలను ఎంచుకోండి, మీరు పరిపూర్ణ పరీక్షకులు చుట్టుముఖులు చూడటం ఇష్టమైనవి.</string>
+    <string name="community_filters_selected">%d/%d ఎంచుకోబడింది</string>
+    <string name="community_filters_clear">ఫిల్టరులను తొలగించు</string>
+    <string name="community_filters_your_languages">మీ ప్రస్తుత భాషలు</string>
+
+    <string name="chat_created_msg">చాట్ సృష్టించబడింది</string>
+    <string name="chatbot_created_msg">అభివాదనలు %s తో సృష్టించబడింది</string>
+    <string name="chatbot_create_chat">సందేశం సృష్టించు %s తో</string>
+</resources>

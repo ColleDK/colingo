@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Fa\'afa\'ara\'a</string>
+    <string name="topic_cooking">Tahitian: Tunu</string>
+    <string name="topic_theater">Teatea.</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">Peintura</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Lecture</string>
+    <string name="topic_science">Science</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Aqa moana</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">Jeux vidéo</string>
+</resources>

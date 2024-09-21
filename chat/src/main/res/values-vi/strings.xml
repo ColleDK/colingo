@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Tạo cuộc trò chuyện mới</string>
+    <string name="date_today">Hôm nay</string>
+
+    <string name="members_page_title">Trò chuyện</string>
+    <string name="bots_page_title">Trò chuyện bằng chatbot</string>
+
+    <string name="chat_my_messages">Tin nhắn của tôi</string>
+    <string name="chat_empty_title">Chưa có tin nhắn</string>
+    <string name="chat_empty_description">Bắt đầu trò chuyện để xem tin nhắn của bạn ở đây.</string>
+
+    <string name="chats_empty_title">Chưa có cuộc trò chuyện nào</string>
+    <string name="chats_empty_description">Sau khi bắt đầu cuộc trò chuyện mới, bạn sẽ thấy nó được liệt kê ở đây.</string>
+
+    <string name="chats_delete_title">Xóa cuộc trò chuyện</string>
+    <string name="chats_delete_subtitle">Hành động này không thể hoàn tác!</string>
+    <string name="chats_delete_confirm">Xác nhận</string>
+    <string name="chats_delete_cancel">Huỷ</string>
+    <string name="chats_delete_success">Cuộc trò chuyện đã bị xóa</string>
+
+    <string name="message_time_today">Hôm nay</string>
+    <string name="message_time_yesterday">Hôm qua</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise là một giáo viên Tây Ban Nha có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
+</resources>

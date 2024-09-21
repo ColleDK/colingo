@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Moj vir</string>
+    <string name="post_create_new">Ustvari nov zapis</string>
+    <string name="create_post_dismiss">Prekliči</string>
+    <string name="create_post_create">Ustvari</string>
+    <string name="post_show_more">Pokaži več</string>
+    <string name="post_show_less">Pokaži manj</string>
+
+    <string name="create_post_success">Objava ustvarjena</string>
+    <string name="create_chat_success">Klepet ustvarjen</string>
+
+    <string name="home_filters_oldest">Najstarejši</string>
+    <string name="home_filters_newest">Najnovejše</string>
+    <string name="post_create_comment">Dodaj komentar</string>
+    <string name="post_likes">Všečno: %s</string>
+    <string name="post_comments">Besedilo za prevod: %s komentarjev</string>
+    <string name="post_no_comments_title">Še ni odgovorov</string>
+    <string name="post_no_comments_subtitle">Bodite prvi, ki deli svoje misli o tej objavi.</string>
+
+    <string name="error_msg_general">Nekaj je šlo narobe. Poskusite znova.</string>
+</resources>

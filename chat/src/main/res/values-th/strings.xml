@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">สร้างการสนทนาใหม่</string>
+    <string name="date_today">วันนี้</string>
+
+    <string name="members_page_title">การสนทนา</string>
+    <string name="bots_page_title">การสนทนาของบอท</string>
+
+    <string name="chat_my_messages">ข้อความของฉัน</string>
+    <string name="chat_empty_title">ยังไม่มีข้อความ</string>
+    <string name="chat_empty_description">เริ่มการสนทนาเพื่อดูข้อความของคุณที่นี่ค่ะ.</string>
+
+    <string name="chats_empty_title">ยังไม่มีการสนทนา</string>
+    <string name="chats_empty_description">เมื่อคุณเริ่มสร้างบทสนทนาใหม่ คุณจะเห็นมันแสดงที่นี่.</string>
+
+    <string name="chats_delete_title">ลบการสนทนา</string>
+    <string name="chats_delete_subtitle">การดำเนินการนี้ไม่สามารถย้อนกลับได้!</string>
+    <string name="chats_delete_confirm">ยืนยัน</string>
+    <string name="chats_delete_cancel">ยกเลิก</string>
+    <string name="chats_delete_success">การลบการสนทนา</string>
+
+    <string name="message_time_today">วันนี้</string>
+    <string name="message_time_yesterday">เมื่อวาน</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise เป็นครูสเปนที่ช่วยคุณในการปรับปรุงกว่างการศึกษาของคุณ!</string>
+</resources>

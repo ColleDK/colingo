@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ရွေးချယ်ပါ</string>
+    <string name="cancel_birthday_selection">ပယ်ဖ်ကို</string>
+    <string name="edit_name_title">နာမည်</string>
+    <string name="location_empty_title">မသုံးပါ</string>
+
+    <string name="description_title">ဖော်ပြချက်</string>
+
+    <string name="profile_updated_success">ကိုယ့်ရဲ့ ကိုယ်လိုမီတာ အောက်ပါနောက် အသစ် ချံပြုရန် ေနာက်တစ်ကြိမ်ပါပဲ</string>
+
+    <string name="topics_empty_title">အခြား ဘာမျှသာဖြင့်ခွင့်မရွေးပါ</string>
+    <string name="topics_title">အရှည်အသွေးများ</string>
+
+    <string name="languages_title">ဘာဘာသာစကားများ</string>
+    <string name="languages_empty_title">ဘာဘာဘာများကိုရွေးချယ်ထားပါမည်</string>
+    <string name="profile_add_language">ဘာသာစကား ထည့်ပါ</string>
+    <string name="profile_select_language">ဘာသာစကား ရွေးချယ်ပါ</string>
+    <string name="profile_select_proficiency">ဆောင်ရွက်မှုရွေးပါ</string>
+    <string name="add_language_select">ရွေးချယ်ပါ</string>
+    <string name="add_language_cancel">ပယ်ဖ်ကို</string>
+    <string name="gender_title">Gender</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Bakeng sa hlobo ya boemo ba chat e ncha</string>
+    <string name="date_today">Namuhla</string>
+
+    <string name="members_page_title">Lekala</string>
+    <string name="bots_page_title">Maikarete a botswana</string>
+
+    <string name="chat_my_messages">Ditlalemeso.</string>
+    <string name="chat_empty_title">Ha ho lefase ha ho leliu</string>
+    <string name="chat_empty_description">Ho qala ho etsa sebaka sa hao hore u bone litokelo tsa hao moo.</string>
+
+    <string name="chats_empty_title">Ha hona thuso etepeleše</string>
+    <string name="chats_empty_description">Kamore o ile o qala sehlopha sa hao se sa thata, o tla bona ho fokotsa ketane eona moo.</string>
+
+    <string name="chats_delete_title">Tlosa sebaka</string>
+    <string name="chats_delete_subtitle">Leeto lena ga le hlokahale bo-matla!</string>
+    <string name="chats_delete_confirm">Qaqi</string>
+    <string name="chats_delete_cancel">Hlakola</string>
+    <string name="chats_delete_success">Sebetsa esephuthumetsoe</string>
+
+    <string name="message_time_today">Namuhla</string>
+    <string name="message_time_yesterday">Nakong ya lelapa</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ke mofumahali wa Sepanisheng ye ka kgothatsa ho fana ka ho kenya setso sa hao!</string>
+</resources>

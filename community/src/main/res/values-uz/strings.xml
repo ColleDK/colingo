@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Sheriklarni qidiring</string>
+    <string name="community_page_title">A\'zolar</string>
+    <string name="chatbot_page_title">Chatbotlar</string>
+    <string name="community_user_speaks">Gapira_eos_KO\'rsatmoq</string>
+    <string name="community_user_learns">O\'rganish</string>
+
+    <string name="community_ai_empty_title">Chatbot topilmadi</string>
+    <string name="community_ai_empty_subtitle">Chatbotlarni ko\'proq topish uchun filtrlaringizni yangilang.</string>
+    <string name="community_empty_title">Foydalanuvchilar topilmadi</string>
+    <string name="community_empty_subtitle">Filtrlaringizni yangilashingizni urinib ko\'ring, qo\'shimcha foydalanuvchilar topishingiz mumkin</string>
+
+    <string name="community_filters_limit">Tanlash: Siz ko\'rishni istagan %d tilni tanlang, -ning sharqiyaltida gapiruvchilarni.</string>
+    <string name="community_filters_selected">Tanlanganlar: %d/%d</string>
+    <string name="community_filters_clear">Filtrlarni tozalash</string>
+    <string name="community_filters_your_languages">Hozirgi tilingiz</string>
+
+    <string name="chat_created_msg">*Chat yaratıldı*</string>
+    <string name="chatbot_created_msg">Chat yaradıldı: %s</string>
+    <string name="chatbot_create_chat">%s bilan chat yaratish</string>
+</resources>

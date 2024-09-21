@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">创建一个新的聊天</string>
+    <string name="date_today">今天</string>
+
+    <string name="members_page_title">聊天</string>
+    <string name="bots_page_title">机器人聊天</string>
+
+    <string name="chat_my_messages">我的消息</string>
+    <string name="chat_empty_title">暂无消息</string>
+    <string name="chat_empty_description">开始对话以查看您的消息。</string>
+
+    <string name="chats_empty_title">还没有聊天</string>
+    <string name="chats_empty_description">一旦您开始了新的对话，您将在此处看到它被列出。</string>
+
+    <string name="chats_delete_title">删除聊天</string>
+    <string name="chats_delete_subtitle">这个操作无法撤消！</string>
+    <string name="chats_delete_confirm">确认</string>
+    <string name="chats_delete_cancel">取消</string>
+    <string name="chats_delete_success">删除的聊天</string>
+
+    <string name="message_time_today">今天</string>
+    <string name="message_time_yesterday">昨天</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise是一位西班牙语老师，可以帮助您提高词汇量！</string>
+</resources>

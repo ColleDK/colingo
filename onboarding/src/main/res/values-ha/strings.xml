@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Shiga da aka samu girma.</string>
+    <string name="onboarding_signup_btn">Daftarma</string>
+    <string name="onboarding_other_title">Ya zama tare da</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Tudure don sama mai amfani</string>
+    <string name="onboarding_go_back">Kai motsawa</string>
+
+    <!-- Log in -->
+    <string name="login_title">Barka da zuwa!</string>
+    <string name="login_subtitle">Shiga kiran ku</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Kalmar Musamman</string>
+    <string name="login_forgot_password">Wannan ɓangare kayan aiki ne\?</string>
+    <string name="login_login_btn">Shiga computer din</string>
+    <string name="login_go_to_signup_1">Baya buƙatar kaɗan idan kana da akauntin ba\?</string>
+    <string name="login_go_to_signup_2">Daftari</string>
+    <string name="login_reset_password">Sake saita kalmar sirri</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Sami daftar dabarunmu</string>
+    <string name="signup_subtitle">Sanya akauntinki</string>
+    <string name="signup_name_hint">Sunan</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Kalmar kalmar</string>
+    <string name="signup_confirm_password_hint">Confirm password</string>
+    <string name="signup_signup_btn">Shigarwa</string>
+    <string name="signup_go_to_login_1">An shiga wasu manyan katinan\?</string>
+    <string name="signup_go_to_login_2">Shiga</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Ajiya</string>
+    <string name="setup_profile_finish">Kone</string>
+    <string name="setup_profile_skip">Kasance</string>
+    <string name="add_picture_title">Saitin sadarwa</string>
+    <string name="add_picture_subtitle">Daɗewa hoto na shafin wurin.</string>
+    <string name="add_languages_title">Saitin sadarwa</string>
+    <string name="add_languages_subtitle">Zaɓi harshe</string>
+    <string name="add_languages_select_proficiency">Zaɓa hadiƙa.</string>
+    <string name="add_languages_select_language">Zaɓi harshe</string>
+    <string name="add_languages_add_language">Ƙara adadin harshen</string>
+    <string name="add_language_select">Zaɓa</string>
+    <string name="add_language_cancel">Tsaya</string>
+    <string name="select_gender_title">Saitin bukatar Profile</string>
+    <string name="select_gender_subtitle">Zaɓi jinsa</string>
+    <string name="select_topics_title">Saitin bukatar Profile</string>
+    <string name="select_topics_subtitle">Za\'a zaɓa matsalar.</string>
+    <string name="add_description_title">Saita profil din</string>
+    <string name="add_description_subtitle">Samu bayanan ka a kan ka</string>
+    <string name="add_description_birthday_hint">Hutu ta ganda</string>
+    <string name="add_description_birthday_select">Zaɓi</string>
+    <string name="add_description_birthday_cancel">Tsika</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Bayanin matsayin hanyar.</string>
+</resources>

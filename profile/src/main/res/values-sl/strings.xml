@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Izberi</string>
+    <string name="cancel_birthday_selection">Prekliči</string>
+    <string name="edit_name_title">Ime</string>
+    <string name="location_empty_title">Nespecificirano</string>
+
+    <string name="description_title">Opis</string>
+
+    <string name="profile_updated_success">Profil uspešno posodobljen</string>
+
+    <string name="topics_empty_title">Ni izbranih tem.</string>
+    <string name="topics_title">Interesi</string>
+
+    <string name="languages_title">Jeziki</string>
+    <string name="languages_empty_title">Ni izbranih jezikov</string>
+    <string name="profile_add_language">Dodaj jezik</string>
+    <string name="profile_select_language">Izberi jezik</string>
+    <string name="profile_select_proficiency">Izberi stopnjo spretnosti</string>
+    <string name="add_language_select">Izberi</string>
+    <string name="add_language_cancel">Prekliči</string>
+    <string name="gender_title">Spol</string>
+</resources>

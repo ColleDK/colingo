@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Rasti partnerius</string>
+    <string name="community_page_title">Nariai</string>
+    <string name="chatbot_page_title">Pokalbių robotai</string>
+    <string name="community_user_speaks">Kalba</string>
+    <string name="community_user_learns">Mokymasis</string>
+
+    <string name="community_ai_empty_title">Nerasta jokio pokalbių robotų</string>
+    <string name="community_ai_empty_subtitle">Bandykite atnaujinti savo filtrus, kad rastumėte daugiau pokalbių robotų</string>
+    <string name="community_empty_title">Naudotojų nerasta</string>
+    <string name="community_empty_subtitle">Bandykite atnaujinti savo filtrus, kad rastumėte daugiau vartotojų.</string>
+
+    <string name="community_filters_limit">Pasirinkite iki %d kalbų, iš kurių norėtumėte matyti sklandžiai kalbančius žmones.</string>
+    <string name="community_filters_selected">Pasirinkta: %d/%d</string>
+    <string name="community_filters_clear">Išvalyti filtrus</string>
+    <string name="community_filters_your_languages">Jūsų dabartinės kalbos</string>
+
+    <string name="chat_created_msg">Pokalbis sukurtas</string>
+    <string name="chatbot_created_msg">Pokalbis sukurtas naudojant %s.</string>
+    <string name="chatbot_create_chat">Sukurkite pokalbį su %s</string>
+</resources>

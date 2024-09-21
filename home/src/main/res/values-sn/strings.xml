@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Chikamu changu</string>
+    <string name="post_create_new">Gadzira chitupa chakasiyana</string>
+    <string name="create_post_dismiss">Bvisa</string>
+    <string name="create_post_create">Wandisa</string>
+    <string name="post_show_more">Onesha zvakawanda</string>
+    <string name="post_show_less">Pindura pano</string>
+
+    <string name="create_post_success">Chisi chekutanga rakaitwa</string>
+    <string name="create_chat_success">Chikorobho chakaitwa</string>
+
+    <string name="home_filters_oldest">Inhanga</string>
+    <string name="home_filters_newest">Pakutanga</string>
+    <string name="post_create_comment">Tambira chirongwa</string>
+    <string name="post_likes">%s anoratidza</string>
+    <string name="post_comments">MaComment %s.</string>
+    <string name="post_no_comments_title">Hapana kana kunge akabatsira kuitika</string>
+    <string name="post_no_comments_subtitle">Endai mese mungaita kuratidza zvamakamboziva nezve chimwe chavakaita.</string>
+
+    <string name="error_msg_general">Zvakakosha. Ndapota, jongorai zvakare.</string>
+</resources>

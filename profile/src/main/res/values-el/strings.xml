@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Επιλογή</string>
+    <string name="cancel_birthday_selection">Ακύρωση</string>
+    <string name="edit_name_title">Name</string>
+    <string name="location_empty_title">Μη καθορισμένο.</string>
+
+    <string name="description_title">Περιγραφή</string>
+
+    <string name="profile_updated_success">Το προφίλ ενημερώθηκε με επιτυχία.</string>
+
+    <string name="topics_empty_title">Καμία θεματολογία επιλέχθηκε</string>
+    <string name="topics_title">Ενδιαφέροντα</string>
+
+    <string name="languages_title">Γλώσσες</string>
+    <string name="languages_empty_title">Καμία γλώσσα που επιλέχθηκε.</string>
+    <string name="profile_add_language">Προσθήκη γλώσσας</string>
+    <string name="profile_select_language">Επιλογή γλώσσας</string>
+    <string name="profile_select_proficiency">Επιλέξτε επιδεξιότητα.</string>
+    <string name="add_language_select">Επιλογή</string>
+    <string name="add_language_cancel">Ακύρωση</string>
+    <string name="gender_title">Φύλο</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Caraafinyo</string>
+    <string name="topic_cooking">Daboolka</string>
+    <string name="topic_theater">Falalka</string>
+    <string name="topic_partying">Daboolid</string>
+    <string name="topic_biking">Biskiin.</string>
+    <string name="topic_camping">Qubanayaasha</string>
+    <string name="topic_fitness">Fikirsan.</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Filima</string>
+    <string name="topic_music">Music</string>
+    <string name="topic_painting">Farshaxan</string>
+    <string name="topic_physics">Fasadka</string>
+    <string name="topic_reading">Aqoon</string>
+    <string name="topic_science">Cilmiga</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Ku guuleysto</string>
+    <string name="topic_technology">Teknoloji</string>
+    <string name="topic_videogame">Cilmi-baadhayaal digital</string>
+</resources>

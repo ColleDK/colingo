@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nyumbani</string>
+    <string name="destination_explore_label">Tafuta</string>
+    <string name="destination_chat_label">Mazungumzo</string>
+    <string name="destination_profile_label">Profaili</string>
+    <string name="destination_settings_label">Mipangilio</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Taarifa</string>
+    <string name="setting_permissions_title">Ruhusa</string>
+    <string name="setting_accessibility_title">Urahisi wa kupatikana</string>
+    <string name="setting_about_title">Kuhusu</string>
+    <string name="setting_rate_title">Pima programu</string>
+    <string name="setting_report_title">Ripoti hitilafu</string>
+    <string name="setting_logout_title">Saini Nje</string>
+    <string name="setting_switch_language_title">Badilisha lugha</string>
+
+    <string name="selected_language">Lugha iliyochaguliwa</string>
+
+    <string name="settings_change">Badilisha vipimo</string>
+    <string name="settings_switch_language">Badilisha lugha</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Uteuzi wa mandhari wa kibadilifu</string>
+    <string name="setting_dark_theme">Mandhari ya giza</string>
+
+    <string name="settings_rate_app_page_title">Pembeza app.</string>
+    <string name="settings_switch_language_title">Badilisha lugha</string>
+    <string name="settings_theming_title"><![CDATA[Thema & rangi]]></string>
+    <string name="settings_about_page_title">Kuhusu programu</string>
+    <string name="settings_about_page_description1">Cologo ni jukwaa la kubadilishana lugha linaloendeshwa na jamii na linalotumia chanzo wazi cha Colle/William.</string>
+    <string name="settings_about_page_description2">Tunajitahidi kuwa wazi na wazi kuhusu kila kitu katika programu, ndio sababu tunakifanya iwe chanzo wazi.</string>
+    <string name="settings_about_page_description3">Tafsiri zote ndani ya programu zinafanywa na Akili bandia na kwa hivyo kunaweza kuwepo makosa ya tafsiri - ukigundua lolote tafadhali ripoti kwenye kisanduku cha \"Ripoti hitilafu\".</string>
+    <string name="settings_about_page_contact">Ikiwa una wasiwasi au mapendekezo kuhusu programu, unaweza kuwasiliana nasi kwenye:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ripoti tatizo</string>
+    <string name="settings_report_bug_title">Ili kuhakikisha utulivu, tunakusanya ripoti za kuzimia kiatomati, lakini ukipata shida yoyote na ungependa kuwasilisha tatizo moja kwa moja, tafadhali jaza fomu kwa taarifa nyingi unazoweza.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

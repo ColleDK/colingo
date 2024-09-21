@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Il-mudell tiegħi</string>
+    <string name="post_create_new">Iġġib post ġdid</string>
+    <string name="create_post_dismiss">Ikkanċella</string>
+    <string name="create_post_create">Oħloq</string>
+    <string name="post_show_more">Uri aktar</string>
+    <string name="post_show_less">Uriċi \'aktar ftit\'</string>
+
+    <string name="create_post_success">Post ippubblikat</string>
+    <string name="create_chat_success">Chat ġie maħluq</string>
+
+    <string name="home_filters_oldest">Aktar qadim</string>
+    <string name="home_filters_newest">Latest</string>
+    <string name="post_create_comment"><![CDATA[Żid kumment<textarea></textarea>]]></string>
+    <string name="post_likes">%s jogħġob</string>
+    <string name="post_comments">Test biex titttraduċi: %s kommenti</string>
+    <string name="post_no_comments_title">L-ebda risposta għaddejja</string>
+    <string name="post_no_comments_subtitle">Kun l-ewwel li tixtieq taqsam il-ħsibijiet tiegħek dwar dan il-post.</string>
+
+    <string name="error_msg_general">Xi ħaġa ġiet ħażina. Jekk jogħġbok erġa\' ppoppa.</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Миний мэдээлэл</string>
+    <string name="post_create_new">Шинэ нийтлэл үүсгэх</string>
+    <string name="create_post_dismiss">Цуцлах</string>
+    <string name="create_post_create">Үүсгэх</string>
+    <string name="post_show_more">Илүү их харуулах</string>
+    <string name="post_show_less">Өмнөхийг үргэлж харуулахийг хүсч байна.</string>
+
+    <string name="create_post_success">Нийтлэгдсэн пост</string>
+    <string name="create_chat_success">Чат үүсгэгдлээ</string>
+
+    <string name="home_filters_oldest">Хуучин</string>
+    <string name="home_filters_newest">Шинээрээ</string>
+    <string name="post_create_comment">Сэтгэгдэл нэмэх</string>
+    <string name="post_likes">Сэтгэгдэл: %s дуртай</string>
+    <string name="post_comments">%s сэтгэгдэл</string>
+    <string name="post_no_comments_title">Хариу ирээгүй.</string>
+    <string name="post_no_comments_subtitle">Энэ бичлэгт таны сэтгэл зүйг хуваалцах хүнийг танаас эхний болгоно уу</string>
+
+    <string name="error_msg_general">Ажлын алдаа гарлаа. Дахин оролдоно уу</string>
+</resources>

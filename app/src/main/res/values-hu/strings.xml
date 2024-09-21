@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Otthon</string>
+    <string name="destination_explore_label">Fedezd fel</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Beállítások</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Témázás</string>
+    <string name="setting_notifications_title">Értesítések</string>
+    <string name="setting_permissions_title">Engedélyek</string>
+    <string name="setting_accessibility_title">Hozzáférhetőség.</string>
+    <string name="setting_about_title">Rólunk</string>
+    <string name="setting_rate_title">Értékeld az appot.</string>
+    <string name="setting_report_title">Jelenteni egy hibát</string>
+    <string name="setting_logout_title">Kijelentkezés</string>
+    <string name="setting_switch_language_title">Nyelvek váltása</string>
+
+    <string name="selected_language">Kiválasztott nyelv</string>
+
+    <string name="settings_change">Beállítások megváltoztatása</string>
+    <string name="settings_switch_language">Nyelv váltása</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinamikus témázás</string>
+    <string name="setting_dark_theme">Sötét témázás</string>
+
+    <string name="settings_rate_app_page_title">Értékelés app</string>
+    <string name="settings_switch_language_title">Nyelv megváltoztatása</string>
+    <string name="settings_theming_title"><![CDATA[Témázás & színek]]></string>
+    <string name="settings_about_page_title">Az alkalmazásról</string>
+    <string name="settings_about_page_description1">A Colingo egy nyílt forráskódú közösségi nyelvcsere platform, amelyet Colle/William fejlesztett.</string>
+    <string name="settings_about_page_description2">Azt igyekszünk elérni, hogy minden az alkalmazásban nyílt és őszinte legyen, ezért tartjuk nyílt forráskódúnak.</string>
+    <string name="settings_about_page_description3">Az alkalmazásban lévő összes fordítást mesterséges intelligencia végezte, így előfordulhatnak fordítási hibák - ha bármilyen hibát találsz, kérjük, jelentsd az „Hibajelentés” ablakban.</string>
+    <string name="settings_about_page_contact">Ha bármilyen aggálya vagy javaslata van az alkalmazással kapcsolatban, forduljon hozzánk itt:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Hiba jelentése</string>
+    <string name="settings_report_bug_title">Az instabilitás biztosítása érdekében automatikusan gyűjtünk összeomlási jelentéseket. Ha azonban bármilyen problémát észlel és szeretne közvetlenül hibát bejelenteni, töltse ki a lehető legtöbb információval rendelkező űrlapot.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

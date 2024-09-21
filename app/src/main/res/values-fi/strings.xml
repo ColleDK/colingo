@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Koti</string>
+    <string name="destination_explore_label">Tutki</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profiili</string>
+    <string name="destination_settings_label">Asetukset</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Teema</string>
+    <string name="setting_notifications_title">Ilmoitukset</string>
+    <string name="setting_permissions_title">Oikeudet</string>
+    <string name="setting_accessibility_title">Saavutettavuus</string>
+    <string name="setting_about_title">Tietoa</string>
+    <string name="setting_rate_title">Arvioi sovellus</string>
+    <string name="setting_report_title">Ilmoita virhe</string>
+    <string name="setting_logout_title">Kirjaudu ulos</string>
+    <string name="setting_switch_language_title">Vaihda kieltä</string>
+
+    <string name="selected_language">Valittu kieli</string>
+
+    <string name="settings_change">Muuta asetuksia</string>
+    <string name="settings_switch_language">Vaihda kieli</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynaaminen teema</string>
+    <string name="setting_dark_theme">Tummamuoto</string>
+
+    <string name="settings_rate_app_page_title">Arvostele sovellus</string>
+    <string name="settings_switch_language_title">Vaihda kieli</string>
+    <string name="settings_theming_title">Teema ja värit</string>
+    <string name="settings_about_page_title">Sovelluksesta</string>
+    <string name="settings_about_page_description1">Colingo on avoimen lähdekoodin yhteisöllinen kielten vaihtoalusta, joka on kehitetty Colle/Williamin toimesta.</string>
+    <string name="settings_about_page_description2">Pyrimme olemaan avoimia ja suoria kaikessa sovelluksessa, siksi pidämme sen avoimen lähdekoodin.</string>
+    <string name="settings_about_page_description3">Kaikki sovelluksen sisäiset käännökset tehdään tekoälyn avulla, joten niissä voi olla käännösvirheitä - jos löydät sellaisen, ilmoita siitä \"Raportoi virheestä\" -osiossa.</string>
+    <string name="settings_about_page_contact">Jos sinulla on huolia tai ehdotuksia sovelluksesta, voit ottaa meihin yhteyttä osoitteessa:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ilmoita virhe</string>
+    <string name="settings_report_bug_title">Varmistaaksemme vakauden, keräämme automaattisesti kaatumisraportteja. Jos kuitenkin huomaat ongelmia ja haluat lähettää virheraportin suoraan, täytä lomake mahdollisimman paljon tietoa antaen.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

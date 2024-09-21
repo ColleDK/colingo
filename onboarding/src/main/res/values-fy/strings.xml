@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log yn</string>
+    <string name="onboarding_signup_btn">Oanmelde</string>
+    <string name="onboarding_other_title">Of fierdergean mei</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Ferfier as gast</string>
+    <string name="onboarding_go_back">Gean werom</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welkom werom!</string>
+    <string name="login_subtitle">Log yn op dyn account</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Wachtwurd</string>
+    <string name="login_forgot_password">Wachtwurd fergetten\?</string>
+    <string name="login_login_btn">Log yn</string>
+    <string name="login_go_to_signup_1">Hasto noch gjin account\?</string>
+    <string name="login_go_to_signup_2">Oanmelde</string>
+    <string name="login_reset_password">Wachtwurd opnij ynstelle</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrearje</string>
+    <string name="signup_subtitle">Maak jo aksje aan.</string>
+    <string name="signup_name_hint">Namme</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Wachtwurd</string>
+    <string name="signup_confirm_password_hint">Bevestig wachtwurd</string>
+    <string name="signup_signup_btn">Registrearje</string>
+    <string name="signup_go_to_login_1">Al in akkoût\?</string>
+    <string name="signup_go_to_login_2">Log yn</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Folgje</string>
+    <string name="setup_profile_finish">Afrûne</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Stel profyl yn</string>
+    <string name="add_picture_subtitle">Foech profileringsbyld ta</string>
+    <string name="add_languages_title">Stel profyl yn</string>
+    <string name="add_languages_subtitle">Selektearje talen.</string>
+    <string name="add_languages_select_proficiency">Kies bekwaamheid</string>
+    <string name="add_languages_select_language">Selektearje taal</string>
+    <string name="add_languages_add_language">Foech taal ta.</string>
+    <string name="add_language_select">Selektearje</string>
+    <string name="add_language_cancel">Annulearje</string>
+    <string name="select_gender_title">Opset profyl</string>
+    <string name="select_gender_subtitle">Kies geslacht.</string>
+    <string name="select_topics_title">Opset profyl</string>
+    <string name="select_topics_subtitle">Kies ûnderwerpen</string>
+    <string name="add_description_title">Stel profyl op</string>
+    <string name="add_description_subtitle">Foech wat ynformaasje ta oer dysels</string>
+    <string name="add_description_birthday_hint">Jierdei</string>
+    <string name="add_description_birthday_select">Kies</string>
+    <string name="add_description_birthday_cancel">Annulearje</string>
+    <string name="add_description_location_hint">Lokaasje</string>
+    <string name="add_description_description_hint">Beskriuwing</string>
+</resources>

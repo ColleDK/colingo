@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">گھر</string>
+    <string name="destination_explore_label">تلاش کریں</string>
+    <string name="destination_chat_label">چیٹ</string>
+    <string name="destination_profile_label">پروفائل</string>
+    <string name="destination_settings_label">ترتیبات</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">تھیمنگ</string>
+    <string name="setting_notifications_title">نوٹیفکیشنز</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">رسائی</string>
+    <string name="setting_about_title">About</string>
+    <string name="setting_rate_title">App ko darja den</string>
+    <string name="setting_report_title">بگ رپورٹ کریں</string>
+    <string name="setting_logout_title">خارج ہو جائیں</string>
+    <string name="setting_switch_language_title">زبان تبدیل کریں</string>
+
+    <string name="selected_language">منتخب زبان</string>
+
+    <string name="settings_change">ترتیبات تبدیل کریں</string>
+    <string name="settings_switch_language">زبان تبدیل کریں</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">متحرک تھیمنگ</string>
+    <string name="setting_dark_theme">تاریک ڥیب</string>
+
+    <string name="settings_rate_app_page_title">App کی درجہ بندی</string>
+    <string name="settings_switch_language_title">زبان تبدیل کریں</string>
+    <string name="settings_theming_title">تھیمنگ اور رنگات</string>
+    <string name="settings_about_page_title">اس ایپ کے بارے میں</string>
+    <string name="settings_about_page_description1">Colingo ایک آپن سورس کمیونٹی پرموٹر لینگویج ایکسچینج پلیٹفارم ہے جسے Colle/William نے ترقی دیا ہے۔</string>
+    <string name="settings_about_page_description2">ہم کوشش کرتے ہیں کہ ایپ میں ہر چیز کے بارے میں کھلے دل سے بات کریں، یہی وجہ ہے کہ ہم اسے آزاد (open-source) رکھتے ہیں۔</string>
+    <string name="settings_about_page_description3">تمام تراجم ایپ کے اندر AI کے ذریعہ کیے جاتے ہیں اور اس طرح غلط تراجم ہوسکتی ہیں - اگر آپ کو کوئی خامی ملے تو براہ کرم \\"رپورٹ ایک بگ\\" پین میں رپورٹ کریں۔</string>
+    <string name="settings_about_page_contact">اگر آپ کو ایپ کے بارے میں کوئی تشویش یا تجاویز ہیں تو براہ کرم ہم سے رابطہ کریں:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">بگ رپورٹ</string>
+    <string name="settings_report_bug_title">استحکام یقینی بنانے کی خاطر، ہم تعطل کے رپورٹ خودبخود جمع کرتے ہیں، مگر اگر آپ کو کوئی مسئلہ ملتا ہے اور آپ کو چاہت ہے کہ بگ کو براہ راست جمع کرایا جائے، تو براہ کرم جتنی ممکنہ معلومات کے ساتھ ایک فارم پر بھریں۔</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

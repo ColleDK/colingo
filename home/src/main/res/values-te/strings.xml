@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">నా ఫీడ్</string>
+    <string name="post_create_new">కొత్త పోస్ట్ సృష్టించండి.</string>
+    <string name="create_post_dismiss">రద్దు చేయండి</string>
+    <string name="create_post_create">సృష్టించండి</string>
+    <string name="post_show_more">మరిన్ని చూపు</string>
+    <string name="post_show_less">తక్కువగా చూపించు</string>
+
+    <string name="create_post_success">పోస్టు సృష్టించబడింది</string>
+    <string name="create_chat_success">చాట్ సృష్టించబడింది</string>
+
+    <string name="home_filters_oldest">పురాతనమైన</string>
+    <string name="home_filters_newest">కొత్తవి</string>
+    <string name="post_create_comment">వ్యాఖ్య చేర్చండి</string>
+    <string name="post_likes">%s ఇష్టపడుతుంది.</string>
+    <string name="post_comments">%s వ్యాఖ్యలు</string>
+    <string name="post_no_comments_title">ఇంకా ప్రత్యుత్తరములు లేవు</string>
+    <string name="post_no_comments_subtitle">ఈ పోస్ట్‌పై మీ ఆలోచనలను భాగస్వాములతో పంచుకోవడం మొదలైంది.</string>
+
+    <string name="error_msg_general">ఏదో తప్పు జరిగింది. దయచేసి మళ్లీ ప్రయత్నించండి.</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Skrá inn</string>
+    <string name="onboarding_signup_btn">Skráðu þig</string>
+    <string name="onboarding_other_title">Eða halda áfram með</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Halda áfram sem gestur</string>
+    <string name="onboarding_go_back">Fara til baka</string>
+
+    <!-- Log in -->
+    <string name="login_title">Velkomin aftur!</string>
+    <string name="login_subtitle">Skráðu þig inn á reikninginn þinn.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Lykilorð</string>
+    <string name="login_forgot_password">Gleymdir þú lykilorðinu\?</string>
+    <string name="login_login_btn">Innskráning</string>
+    <string name="login_go_to_signup_1">Á ekki aðgang ennþá\?</string>
+    <string name="login_go_to_signup_2">Skráðu þig</string>
+    <string name="login_reset_password">Til baka stillingar</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Skráðu þig</string>
+    <string name="signup_subtitle">Búðu til aðganginn þinn.</string>
+    <string name="signup_name_hint">Nafn</string>
+    <string name="signup_email_hint">Tölvupóst</string>
+    <string name="signup_password_hint">Lykilorð</string>
+    <string name="signup_confirm_password_hint">Staðfestu lykilorð</string>
+    <string name="signup_signup_btn">Skráðu þig</string>
+    <string name="signup_go_to_login_1">Á þig er til reikningur\?</string>
+    <string name="signup_go_to_login_2">Innskráning</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Næst.</string>
+    <string name="setup_profile_finish">Lokið</string>
+    <string name="setup_profile_skip">Sleppa</string>
+    <string name="add_picture_title">Stilla upp prófíl</string>
+    <string name="add_picture_subtitle">Bæta við prófílmynd</string>
+    <string name="add_languages_title">Stilla upp prófíl</string>
+    <string name="add_languages_subtitle">Veldu tungumál</string>
+    <string name="add_languages_select_proficiency">Velja hæfni</string>
+    <string name="add_languages_select_language">Veldu tungumál</string>
+    <string name="add_languages_add_language">Bæta við tungumál</string>
+    <string name="add_language_select">Veldu</string>
+    <string name="add_language_cancel">Hætta við</string>
+    <string name="select_gender_title">Stofna prófíl</string>
+    <string name="select_gender_subtitle">Velja kyn</string>
+    <string name="select_topics_title">Stofna prófíl</string>
+    <string name="select_topics_subtitle">Veldu viðfangsefni</string>
+    <string name="add_description_title">Stilltu upp prófíl</string>
+    <string name="add_description_subtitle">Bættu við upplýsingum um þig.</string>
+    <string name="add_description_birthday_hint">Afmæli</string>
+    <string name="add_description_birthday_select">Veldu</string>
+    <string name="add_description_birthday_cancel">Hætta</string>
+    <string name="add_description_location_hint">Staðsetning</string>
+    <string name="add_description_description_hint">Lýsing</string>
+</resources>

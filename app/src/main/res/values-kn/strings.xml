@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ಮನೆ</string>
+    <string name="destination_explore_label">ಅನ್ವೇಷಿಸಿ</string>
+    <string name="destination_chat_label">ಚಾಟ್</string>
+    <string name="destination_profile_label">ಪ್ರೊಫೈಲ್</string>
+    <string name="destination_settings_label">ಸೆಟ್ಟಿಂಗುಗಳು</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ಥೀಮಿಂಗ್</string>
+    <string name="setting_notifications_title">ಅಱಿವುಗಳು</string>
+    <string name="setting_permissions_title">ಅನುಮತಿಗಳು</string>
+    <string name="setting_accessibility_title">ಸುಲಭತೆ</string>
+    <string name="setting_about_title">ಪರಿಪೂರ್ಣವಾಗಿ</string>
+    <string name="setting_rate_title">ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ರೇಟ್ ಮಾಡಿ</string>
+    <string name="setting_report_title">ದೋಷವನ್ನು ವರದಿಸಲು</string>
+    <string name="setting_logout_title">ಲಾಗ್ ಔಟ್</string>
+    <string name="setting_switch_language_title">ಭಾಷೆಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
+
+    <string name="selected_language">ಆಯ್ಕೆಯಾದ ಭಾಷೆ</string>
+
+    <string name="settings_change">ಸೆಟ್ಟಿಂಗ್ಸ್ ಬದಲಾಯಿಸಿ</string>
+    <string name="settings_switch_language">ಭಾಷೆ ಬದಲಿಸು</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ಡೈನಾಮಿಕ್ ಥೀಮಿಂಗ್</string>
+    <string name="setting_dark_theme">ಧೂಮವನ್ನು ನಿಯಂತ್ರಿಸುವುದು</string>
+
+    <string name="settings_rate_app_page_title">ಅನುಮತಿಸಿ ಅಪ್ಲಿಕೇಶನ್ ಅನುಮತಿಯನ್ನು ರೇಟ್ ಮಾಡಿ</string>
+    <string name="settings_switch_language_title">ಭಾಷೆ ಬದಲಿಸಿ</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">App ಬಗ್ಗೆ</string>
+    <string name="settings_about_page_description1">Colingo ಕಾಲವಾದ ಭಾಷಾ ವ್ಯಬನೇತರದ ಪ್ಲ್ಯಾಟ್‌ಫಾರ್ಮ್ ಆಗಿದೆ, ಇದನು Colle/William ಅವರಿಂದ ಅಭಿವೃದ್ಧಿಗೆ ಒಪ್ಪಂದ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="settings_about_page_description2">ನಾವು ಆಪ್‌ನಲ್ಲಿ ಎಲ್ಲಾದರಲ್ಲೂ ಸ್ಪಷ್ಟವಾಗಿ ಮತ್ತು ಮುಂದುವರಿಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇವೆ, ಇದೇ ಕಾರಣಕ್ಕಾಗಿ ನಾವು ಅದನ್ನು ಓಪನ್-ಸೋರ್ಸ್‌ಆಗಿ ಇಟ್ಟಿದ್ದೇವೆ.</string>
+    <string name="settings_about_page_description3">ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿನ ಎಲ್ಲ ಭಾಷಾಂತರಗಳು ಏಕೆಂದರೆ AIs ದ್ವಾರಾ ಮಾಡಲಾಗಿದೆ ಮತ್ತು ಅದರಲ್ಲಿ ತಪ್ಪುಗಳಿದ್ದರೆ - ಯಾವುದೇ ತಪ್ಪುಗಳನ್ನು ನೀವು ಹೇಗಿದ್ದಾರೆ ಹೇಳಿ \"ಪ್ರಮಾಣಿಕತೆಯ ಅಭಿಪ್ರಾಯ\" ಪ್ಯಾನ್‌ನಲ್ಲಿ ವರದಿಸಿ.</string>
+    <string name="settings_about_page_contact">ಯಾವುದೇ ಆಪ್ ಗೆ ಸಂದೇಹಗಳು ಅಥವ ಸೂಚನೆಗಳಿವೆಯೋ ಅವುಗಳನ್ನು ನಾವು ಸಂಪರ್ಕಿಸಬಹುದು:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ದೋಷವನ್ನು ವರದಿಸಿ ಮಾಹಿತಿ ನೀಡಿ</string>
+    <string name="settings_report_bug_title">ಸ್ಥಿರತೆಯನ್ನು ಖಚಿತಪಡಿಸಲು, ವೇದನವನ್ನು ಸ್ವಯಂವಯವಾಗಿ ಸಂಗ್ರಹಿಸುತ್ತಾವೆ, ಆದರೆ ನೀವು ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿದಿದ್ದರೆ ಮತ್ತು ಬಗ್ ನನನ್ನು ನೇರವಾಗಿ ಸಬ್ಮಿಟ್ ಮಾಡಬಯಸುತ್ತೀರಿದ್ದರೆ, ದಯವಿಟ್ಟು ನಿಮ್ಮ ಲಭ್ಯವಿರುವ ಸಮಗ್ರ ಮಾಹಿತಿಯೊಂದಿಗೆ ಫಾರಂ ನೆಂದರೆ ಪೂರೈಸಿ.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

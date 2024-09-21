@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ಹೊಸ ಚಾಟ್ ರಚಿಸಿ</string>
+    <string name="date_today">ಇಂದು</string>
+
+    <string name="members_page_title">ಚಾಟ್ಗಳು</string>
+    <string name="bots_page_title">ಬಾಟ್ ಚಾಟ್ಗಳು</string>
+
+    <string name="chat_my_messages">ನನ್ನ ಸಂದೇಶಗಳು</string>
+    <string name="chat_empty_title">ಇನ್ನು ಸಂದೇಶಗಳಿಲ್ಲ</string>
+    <string name="chat_empty_description">ಇಲ್ಲಿ ನೂರೇರಿ ಮಾತನಾಡಿಸುವುದರಿಂದ ನಿಮ್ಮ ಸಂದೇಶಗಳನ್ನು ನೋಡಲು ಪ್ರಾರಂಭಿಸಿ.</string>
+
+    <string name="chats_empty_title">ಈಗಾಗಲೇ ಚಾಟ್‌ಗಳಿಲ್ಲ</string>
+    <string name="chats_empty_description">ಭಾಷಣವನ್ನು ಪ್ರಾರಂಭಿಸಿದ ಮೇಲೆ ನೀವು ಅದನ್ನು ಇಲ್ಲಿ ಪಟ್ಟಿಯಾಗಿ ನೋಡುವಿರಿ.</string>
+
+    <string name="chats_delete_title">ಚಾಟ್ ಅಳಿಸಿ</string>
+    <string name="chats_delete_subtitle">ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದು ಮಾಡಲಾಗುವುದಿಲ್ಲ!</string>
+    <string name="chats_delete_confirm">ದೃ‌ಢಪಡಿಸು</string>
+    <string name="chats_delete_cancel">ರद्दि</string>
+    <string name="chats_delete_success">ಚಾಟ್ ಅಳಿಸಲಾಗಿದೆ</string>
+
+    <string name="message_time_today">ಇಂದು</string>
+    <string name="message_time_yesterday">ನಿನ್ನೆ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ನುಡಿದಾರನಾಗಿ ನಿಮ್ಮ ಶಬ್ದಸಾಗರವನ್ನು ಸುಧಾರಿಸುವುದರಲ್ಲಿ ನೆರವು ನೀಡಬಲ್ಲ ಸ್ಪ್ಯಾನಿಷ್ ಶಿಕ್ಷಕ!</string>
+</resources>

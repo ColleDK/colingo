@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Feedkeeyga</string>
+    <string name="post_create_new">Abuur qoraal cusub</string>
+    <string name="create_post_dismiss">Ka diido</string>
+    <string name="create_post_create">Abuur</string>
+    <string name="post_show_more">Nooca riixista: Muuqaal dheeraad ah.</string>
+    <string name="post_show_less">Dhagaha hoos u celi</string>
+
+    <string name="create_post_success">Post lagu sameeyey</string>
+    <string name="create_chat_success">Falcelis wuxuu sameeyay</string>
+
+    <string name="home_filters_oldest">Ugu da\'da ah</string>
+    <string name="home_filters_newest">Cusub</string>
+    <string name="post_create_comment">Ku dar qoraal</string>
+    <string name="post_likes">Liiska: %s wuxuu jeclaa.</string>
+    <string name="post_comments">Tafatir: %s</string>
+    <string name="post_no_comments_title">No waa la jawaabi karaa ah</string>
+    <string name="post_no_comments_subtitle">Ku bixi fikradahaaga ee kowaad ee qoraalkan.</string>
+
+    <string name="error_msg_general">Waxaad ku abuuray wax xun. Fadlan iskuday.</string>
+</resources>

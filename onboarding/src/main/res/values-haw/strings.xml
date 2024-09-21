@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Komo ma hope</string>
+    <string name="onboarding_signup_btn">Kāna Inoa</string>
+    <string name="onboarding_other_title">Hoe aku, e hoʻomau hou pū ana</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">ʻAoʻe</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Komo mai i kou helu helumoa</string>
+    <string name="login_email_hint">ʻImēla</string>
+    <string name="login_password_hint">Kiʻiwaena</string>
+    <string name="login_forgot_password">Nīnau hoʻopau inoa\?</string>
+    <string name="login_login_btn">Komo hou</string>
+    <string name="login_go_to_signup_1">Mai loaʻa kēia hūliau akā ua ʻaʻole i ʻoihana ʻia ʻia ʻoeya hakuʻu nīnau\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Hoʻohou i ka hū aʻe ʻana ʻana</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Hana i kou helu kālā</string>
+    <string name="signup_name_hint">Inoa</string>
+    <string name="signup_email_hint">Lolokahi hoʻopukaʻana\'ao\'ai</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Hoʻohui ʻia ka hōʻoia i ka hōʻailona.</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Ua loaʻa iā ʻoe ka helu ʻāpana\?</string>
+    <string name="signup_go_to_login_2">Komo hou</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Hoʻomau</string>
+    <string name="setup_profile_skip">Alihilani</string>
+    <string name="add_picture_title">Ho\'okumu i ka hō\'ike ma\'ema\'e</string>
+    <string name="add_picture_subtitle">Add profile picture</string>
+    <string name="add_languages_title">Ho\'okumu i ka hō\'ike ma\'ema\'e</string>
+    <string name="add_languages_subtitle">Select languages</string>
+    <string name="add_languages_select_proficiency">Wae i ka maʻalea\'ai.</string>
+    <string name="add_languages_select_language">Koho ʻōlelo</string>
+    <string name="add_languages_add_language">Add language</string>
+    <string name="add_language_select">Koho</string>
+    <string name="add_language_cancel">Hoʻokuʻu</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Koho kino kanaka</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Hoʻonohonoho profaile</string>
+    <string name="add_description_subtitle">Koho i kekahi manawa e pili iā \'oe rinahipi a\'0你确定要删除用户iami.</string>
+    <string name="add_description_birthday_hint">La Hanau</string>
+    <string name="add_description_birthday_select">Koho</string>
+    <string name="add_description_birthday_cancel">Hoʻopau</string>
+    <string name="add_description_location_hint">Loloā</string>
+    <string name="add_description_description_hint">Huli.</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Luo uusi keskustelu</string>
+    <string name="date_today">Tänään</string>
+
+    <string name="members_page_title">Keskustelut</string>
+    <string name="bots_page_title">Bot-keskustelut</string>
+
+    <string name="chat_my_messages">Viestini</string>
+    <string name="chat_empty_title">Ei viestejä vielä</string>
+    <string name="chat_empty_description">Aloita keskustelu nähdäksesi viestisi täällä.</string>
+
+    <string name="chats_empty_title">Ei vielä keskusteluja</string>
+    <string name="chats_empty_description">Kun olet aloittanut uuden keskustelun, näet sen listattuna täällä.</string>
+
+    <string name="chats_delete_title">Poista keskustelu</string>
+    <string name="chats_delete_subtitle">Tätä toimintoa ei voi peruuttaa!</string>
+    <string name="chats_delete_confirm">Vahvista</string>
+    <string name="chats_delete_cancel">Peruuta</string>
+    <string name="chats_delete_success">Keskustelu poistettu.</string>
+
+    <string name="message_time_today">Tänään</string>
+    <string name="message_time_yesterday">Eilen</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise on espanjan opettaja, joka voi auttaa sinua sanavaraston parantamisessa!</string>
+</resources>

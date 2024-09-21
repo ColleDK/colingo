@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Bèt.</string>
+    <string name="topic_cooking">Kuizin</string>
+    <string name="topic_theater">Theyat la</string>
+    <string name="topic_partying">Fèt la</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditasyon</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Mizik</string>
+    <string name="topic_painting">Peinti</string>
+    <string name="topic_physics">Fizik</string>
+    <string name="topic_reading">Lekti</string>
+    <string name="topic_science">Syans</string>
+    <string name="topic_sports">Sports</string>
+    <string name="topic_swimming">Naje</string>
+    <string name="topic_technology">Teknoloji</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

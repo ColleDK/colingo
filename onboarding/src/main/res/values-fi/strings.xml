@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Kirjaudu sisään</string>
+    <string name="onboarding_signup_btn">Rekisteröidy</string>
+    <string name="onboarding_other_title">Tai jatka</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Jatka vieraana</string>
+    <string name="onboarding_go_back">Mene takaisin</string>
+
+    <!-- Log in -->
+    <string name="login_title">Tervetuloa takaisin!</string>
+    <string name="login_subtitle">Kirjaudu sisään tilillesi.</string>
+    <string name="login_email_hint">Sähköposti</string>
+    <string name="login_password_hint">Salasana</string>
+    <string name="login_forgot_password">Unohditko salasanan\?</string>
+    <string name="login_login_btn">Kirjaudu sisään</string>
+    <string name="login_go_to_signup_1">Ei vielä käyttäjätiliä\?</string>
+    <string name="login_go_to_signup_2">Rekisteröidy</string>
+    <string name="login_reset_password">Nollaa salasana</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Rekisteröidy</string>
+    <string name="signup_subtitle">Luo tiliisi</string>
+    <string name="signup_name_hint">Nimi</string>
+    <string name="signup_email_hint">Sähköposti</string>
+    <string name="signup_password_hint">Salasana</string>
+    <string name="signup_confirm_password_hint">Vahvista salasana</string>
+    <string name="signup_signup_btn">Rekisteröidy</string>
+    <string name="signup_go_to_login_1">Onko sinulla jo tili\?</string>
+    <string name="signup_go_to_login_2">Kirjaudu sisään</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Seuraava</string>
+    <string name="setup_profile_finish">Teksti käännettäväksi: Finnish</string>
+    <string name="setup_profile_skip">Ohita</string>
+    <string name="add_picture_title">Aseta profiili</string>
+    <string name="add_picture_subtitle">Lisää profiilikuva</string>
+    <string name="add_languages_title">Aseta profiili</string>
+    <string name="add_languages_subtitle">Valitse kielet</string>
+    <string name="add_languages_select_proficiency">Valitse osaaminen</string>
+    <string name="add_languages_select_language">Valitse kieli</string>
+    <string name="add_languages_add_language">Lisää kieli</string>
+    <string name="add_language_select">Valitse</string>
+    <string name="add_language_cancel">Peruuta</string>
+    <string name="select_gender_title">Aseta profiili</string>
+    <string name="select_gender_subtitle">Valitse sukupuoli</string>
+    <string name="select_topics_title">Aseta profiili</string>
+    <string name="select_topics_subtitle">Valitse aiheet</string>
+    <string name="add_description_title">Aseta profiili</string>
+    <string name="add_description_subtitle">Lisää tietoa itsestäsi</string>
+    <string name="add_description_birthday_hint">Syntymäpäivä</string>
+    <string name="add_description_birthday_select">Valitse</string>
+    <string name="add_description_birthday_cancel">Peruuta</string>
+    <string name="add_description_location_hint">Sijainti</string>
+    <string name="add_description_description_hint">Kuvaus</string>
+</resources>

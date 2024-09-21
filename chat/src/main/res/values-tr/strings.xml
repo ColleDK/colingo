@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Yeni bir sohbet oluştur</string>
+    <string name="date_today">Bugün</string>
+
+    <string name="members_page_title">Sohbetler</string>
+    <string name="bots_page_title">Bot sohbetleri</string>
+
+    <string name="chat_my_messages">Benim mesajlarım</string>
+    <string name="chat_empty_title">Henüz mesaj yok</string>
+    <string name="chat_empty_description">Mesajlarınızı görmek için konuşmaya başlayın.</string>
+
+    <string name="chats_empty_title">Henüz hiç sohbet yok</string>
+    <string name="chats_empty_description">Yeni bir konuşma başlattıktan sonra, burada listelendiğini göreceksiniz.</string>
+
+    <string name="chats_delete_title">Sohbeti sil</string>
+    <string name="chats_delete_subtitle">Bu işlem geri alınamaz!</string>
+    <string name="chats_delete_confirm">Onayla</string>
+    <string name="chats_delete_cancel">İptal</string>
+    <string name="chats_delete_success">Sohbet silindi</string>
+
+    <string name="message_time_today">Bugün</string>
+    <string name="message_time_yesterday">Dün</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise, kelime bilginizi geliştirmenize yardımcı olabilecek bir İspanyolca öğretmenidir!</string>
+</resources>

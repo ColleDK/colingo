@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Indlu</string>
+    <string name="destination_explore_label">Vula</string>
+    <string name="destination_chat_label">Siza</string>
+    <string name="destination_profile_label">Ibhlokhi</string>
+    <string name="destination_settings_label">Izilungiso</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Izaziso</string>
+    <string name="setting_permissions_title">Imvume</string>
+    <string name="setting_accessibility_title">Ukuzinikela</string>
+    <string name="setting_about_title">Malunga nayo</string>
+    <string name="setting_rate_title">Yala le-app</string>
+    <string name="setting_report_title">Qwalithixa ixhwili</string>
+    <string name="setting_logout_title">Phuma kwi-akhawunti</string>
+    <string name="setting_switch_language_title">Hlela izilimi</string>
+
+    <string name="selected_language">Isixhosa esiDidimile</string>
+
+    <string name="settings_change">Bhala izilungiselelo</string>
+    <string name="settings_switch_language">Hlawula ulwimi</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Ukubukeka okumnyama</string>
+
+    <string name="settings_rate_app_page_title">Yalisa uhlobo lwendlu</string>
+    <string name="settings_switch_language_title">Hlabisa ulwimi</string>
+    <string name="settings_theming_title"><![CDATA[Theming & iintsaphuli]]></string>
+    <string name="settings_about_page_title">Mayesekhandlela</string>
+    <string name="settings_about_page_description1">Colingo yiplatfolomu yokuphila okwenzelwe ngokweqile.それはColle/William abenza.</string>
+    <string name="settings_about_page_description2">Sifuna ukuthuthukisa ukuba kube nomaphi na ukwaneliseka kwi-app, ngakuba sisebenzisa open-source.</string>
+    <string name="settings_about_page_description3">Zonke izifundo ezisebenzisayo kwelikhasi azisebenzisiwa ngaba AIs nokuba kunoku ngxelo zokubonakalisa ukwakhiwa kwezinto - ukuba ufumane into eyenzekayo, ndicela ushicilela kwi \"iReport a bug\" isiqingi.</string>
+    <string name="settings_about_page_contact">Ukuze uthumele okanye ucacisa ngencwadi, uxolo zifuna, unokurhoxa ucinga kwi-iimfundo kwimpumelelo zethu kwi:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Riphotha isibonakaliso</string>
+    <string name="settings_report_bug_title">Ukuze sikwenze okusemthethweni, siya kufumana izixhumanisi zokuphela okanye ukusokola, kodwa ukuba uthanda ukuthi uthumele inqaku ngokwengqondo, sicela ukupheka ifomu oluqukayo nabanye imibuzo ofunyanayo. Akekho onke amazwi ozithile azibandakanye nayo.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

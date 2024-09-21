@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hanorahora i te hoa\'ai.</string>
+    <string name="community_page_title">Membra</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Parau</string>
+    <string name="community_user_learns">Apprentissage</string>
+
+    <string name="community_ai_empty_title">Tehina\'e teie i te chatbots\'ai\'ai\'a\'e</string>
+    <string name="community_ai_empty_subtitle">Tahiti: Tena horoi i to outou \'api i muri i te mahana i te pūpū ra\'i ute nei ia haere roa atu mai i te botau pūpū āmui mai.</string>
+    <string name="community_empty_title">Teha\'a ra Users i raro nei</string>
+    <string name="community_empty_subtitle">Tehaa i ta pihanoa i to oe papeehia i te mau toari i tei ahu atu ite mau hō tahi ai.</string>
+
+    <string name="community_filters_limit">E tiimahana i te %d lingua e vahi i te haapiiraa a ohipa parau haapuro maii.</string>
+    <string name="community_filters_selected">%d/%d te ta\'ata\'a\'ai</string>
+    <string name="community_filters_clear">Fahaheori i te mau tapa\'ina</string>
+    <string name="community_filters_your_languages">Ohipa to\'u reo i nia ora\'a\'a\'a\'a\'a\'a\'a\'a\'a\'a\'ar a\'u mai.</string>
+
+    <string name="chat_created_msg">E haapararararaa parau haere: Faraa reruia\'a\'e</string>
+    <string name="chatbot_created_msg">Chat e tauiraia me %s</string>
+    <string name="chatbot_create_chat">Créez taonana mea %s</string>
+</resources>

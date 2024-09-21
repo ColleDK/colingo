@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Profile ku</string>
+    <string name="post_create_new">Unggah titimang anyar</string>
+    <string name="create_post_dismiss">Bolay</string>
+    <string name="create_post_create">Bereupakan</string>
+    <string name="post_show_more">Tampilkeun deui</string>
+    <string name="post_show_less">Tingalkeun langkung sedeng.</string>
+
+    <string name="create_post_success">Téks anu kuadjur.</string>
+    <string name="create_chat_success">Obrolan diciptakeun</string>
+
+    <string name="home_filters_oldest">Teresina</string>
+    <string name="home_filters_newest">Panggedéna</string>
+    <string name="post_create_comment">Tambihkeun pairan</string>
+    <string name="post_likes">%s resep</string>
+    <string name="post_comments">Tulisan pikeun diterjemahkan: %s koméntar</string>
+    <string name="post_no_comments_title">Teu aya balikeun pole.</string>
+    <string name="post_no_comments_subtitle">Janten anu paling anu unggal ngamumulkeun pemikiran anjeun dina ieu pamundut</string>
+
+    <string name="error_msg_general">Aya sacara nu salah. Mangga cobian deui.</string>
+</resources>

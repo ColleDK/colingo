@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Imi mi</string>
+    <string name="post_create_new">Ṣẹda iwe tuntun</string>
+    <string name="create_post_dismiss">Kọ lẹnu.</string>
+    <string name="create_post_create">Ṣẹda</string>
+    <string name="post_show_more">Rọ níbẹ</string>
+    <string name="post_show_less">Fi ohun ti o kere da gazette.</string>
+
+    <string name="create_post_success">Iwe ti wakọ.</string>
+    <string name="create_chat_success">Iwe aṣọ ti wọlé</string>
+
+    <string name="home_filters_oldest">Ti o ba ri iwe yii, jọwọ ri awọn erifiji rẹ. Gbọdọ ni a gbọdọ gẹgẹbi ọpọlọpọ ẹlẹsẹ̀ gbogbo ti a naa ni aami naa. A dá èdá lórílẹ̀-ẹ̀dá gbogbo látinú tí wọnyi àwọn èdá naa. Ẹ dá awo̩n Afirikà, Yorùbá, Ede Owó, Nẹ́tírí-Ìhàtàkà, ká sọ. OK</string>
+    <string name="home_filters_newest">Titẹsọwo</string>
+    <string name="post_create_comment">Fidio akọle</string>
+    <string name="post_likes">%s nifẹ.</string>
+    <string name="post_comments">Iroyin lati yi si: %s</string>
+    <string name="post_no_comments_title">Ko si iwe keji pe.</string>
+    <string name="post_no_comments_subtitle">Jẹ́ kí o jẹ́ aládààkù látinú kí o máa pàtà àwọn ìlò pẹ́lú ìwe yii</string>
+
+    <string name="error_msg_general">ẹ̀rọ̀ ayélujára. Jọ̀wọ́ sọ̀rọ síbè.</string>
+</resources>

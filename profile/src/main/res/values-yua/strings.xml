@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Seleccionar</string>
+    <string name="cancel_birthday_selection">Bix yanak.</string>
+    <string name="edit_name_title">Ts\'íib.</string>
+    <string name="location_empty_title">Unspecified.</string>
+
+    <string name="description_title">T\'an u tsikbal.</string>
+
+    <string name="profile_updated_success">Perfil yaan actualizado che\'ob.</string>
+
+    <string name="topics_empty_title">Máaxo\' meyaj le yéetel ma\'alobil u beeta\'al.</string>
+    <string name="topics_title">Intereses</string>
+
+    <string name="languages_title">T\'anik.</string>
+    <string name="languages_empty_title">Ma\'alob k\'iik\'alilo\'ob máax.</string>
+    <string name="profile_add_language">Táanta\'e\' le k\'áat aústo\'on.</string>
+    <string name="profile_select_language">Selecciona le waaj.</string>
+    <string name="profile_select_proficiency">Selecciona la habilidad.</string>
+    <string name="add_language_select">Kabahil.</string>
+    <string name="add_language_cancel">U k\'íiwik ka\'ansaj.</string>
+    <string name="gender_title">Tu\'ux ka\'aj.</string>
+</resources>

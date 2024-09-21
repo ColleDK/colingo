@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Maak in nije petear</string>
+    <string name="date_today">Hjoed</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot chatten</string>
+
+    <string name="chat_my_messages">Myn berjochten</string>
+    <string name="chat_empty_title">Gjin berjochten noch.</string>
+    <string name="chat_empty_description">Start mei it petearje om dyn berjochten hjir te sjen.</string>
+
+    <string name="chats_empty_title">Gjin chats noch net</string>
+    <string name="chats_empty_description">As jo in nije petear begûn binne, sille jo it hjir list sjen.</string>
+
+    <string name="chats_delete_title">Ferwiderje petear</string>
+    <string name="chats_delete_subtitle">Dizze aksje kin net weromdraaid wurde!</string>
+    <string name="chats_delete_confirm">Bêstigje</string>
+    <string name="chats_delete_cancel">Annulearje</string>
+    <string name="chats_delete_success">Chat deleted</string>
+
+    <string name="message_time_today">Hjoed</string>
+    <string name="message_time_yesterday">Gister.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise is in Spaanske lerares dy\'t jo helpe kin mei it ferbetterjen fan jo fokabulêr!</string>
+</resources>

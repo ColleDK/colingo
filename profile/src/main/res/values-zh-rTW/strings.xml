@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">選擇</string>
+    <string name="cancel_birthday_selection">取消</string>
+    <string name="edit_name_title">名稱</string>
+    <string name="location_empty_title">未指定</string>
+
+    <string name="description_title">描述</string>
+
+    <string name="profile_updated_success">個人資料已成功更新</string>
+
+    <string name="topics_empty_title">未選擇任何主題</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">語言</string>
+    <string name="languages_empty_title">尚未選擇任何語言</string>
+    <string name="profile_add_language">新增語言</string>
+    <string name="profile_select_language">選擇語言</string>
+    <string name="profile_select_proficiency">選擇熟練程度</string>
+    <string name="add_language_select">選擇</string>
+    <string name="add_language_cancel">取消</string>
+    <string name="gender_title">性別</string>
+</resources>

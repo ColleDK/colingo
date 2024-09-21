@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Animale</string>
+    <string name="topic_cooking">Gatit</string>
+    <string name="topic_theater">Teatru</string>
+    <string name="topic_partying">Petrecere</string>
+    <string name="topic_biking">Mers pe bicicletă</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditatie</string>
+    <string name="topic_movie">Filme</string>
+    <string name="topic_music">Muzică</string>
+    <string name="topic_painting">Pictură</string>
+    <string name="topic_physics">Fizică</string>
+    <string name="topic_reading">Lectură</string>
+    <string name="topic_science">Știință</string>
+    <string name="topic_sports">Sporturi</string>
+    <string name="topic_swimming">Înot</string>
+    <string name="topic_technology">Tehnologie</string>
+    <string name="topic_videogame">Jocuri video</string>
+</resources>

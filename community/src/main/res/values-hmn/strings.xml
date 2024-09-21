@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Trov partners.</string>
+    <string name="community_page_title">Tus neeg tej zaj yuav pib.</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Speaks</string>
+    <string name="community_user_learns">ການຮຽກຮູ້</string>
+
+    <string name="community_ai_empty_title">Tsis muaj chatbots pom lawm</string>
+    <string name="community_ai_empty_subtitle">Thov txhais cov nqe lwm yam txog kev pom zoo txaus siab rau koj tau txais chatbots lub chaw.</string>
+    <string name="community_empty_title">Tsis muaj cov neeg siv txoj cai.</string>
+    <string name="community_empty_subtitle">Ntawm koj tsuas yuav pom ntau cov filters cais kom muaj neeg siv ntau.</string>
+
+    <string name="community_filters_limit">Cov lus nug: Xa mus rau %d lus koj hais lus lwm tus nqi uas koj xav hlub mus rau.</string>
+    <string name="community_filters_selected">%d/%d sawv cev.</string>
+    <string name="community_filters_clear">Ntxig xaus</string>
+    <string name="community_filters_your_languages">Koj tus neeg tshaj plaws tshaj plaws cov lus uas koj puas siv.</string>
+
+    <string name="chat_created_msg">Chat hu ua hauj lwm,</string>
+    <string name="chatbot_created_msg">Chat tsim los yeej sib txuas nrog %s</string>
+    <string name="chatbot_create_chat">Tuaj yeem muaj ib lub lus qhia chat caw %s</string>
+</resources>

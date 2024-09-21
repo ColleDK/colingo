@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Yẹ ọrọ: Firan</string>
+    <string name="cancel_birthday_selection">Fagunwa</string>
+    <string name="edit_name_title">Oruko</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Apeju</string>
+
+    <string name="profile_updated_success">Iroyin so wi pe o ti so funrare tuntun wa wa.</string>
+
+    <string name="topics_empty_title">Ko si awọn iṣẹti ti à pe sitẹri.</string>
+    <string name="topics_title">Awọn Ayọ.</string>
+
+    <string name="languages_title">Iroyin: \`Gẹgẹ bí\' Kindi\'\'</string>
+    <string name="languages_empty_title">Ko si ede ti o yan</string>
+    <string name="profile_add_language">Fidio ede</string>
+    <string name="profile_select_language">Yifọn ẹrọ aṣẹda ọrọ.</string>
+    <string name="profile_select_proficiency">Yewo ise ilera</string>
+    <string name="add_language_select">Yiwo ohun rẹ: Karọn</string>
+    <string name="add_language_cancel">Ko o da.</string>
+    <string name="gender_title">Iwe aṣojú ìjìnlẹ.</string>
+</resources>

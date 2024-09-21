@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Temukan mitra</string>
+    <string name="community_page_title">Anggota</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Berbicara</string>
+    <string name="community_user_learns">Belajar</string>
+
+    <string name="community_ai_empty_title">Tidak ditemukan chatbot</string>
+    <string name="community_ai_empty_subtitle">Coba perbarui filter Anda untuk menemukan lebih banyak chatbots.</string>
+    <string name="community_empty_title">Pengguna tidak ditemukan</string>
+    <string name="community_empty_subtitle">Coba perbarui filter Anda untuk menemukan lebih banyak pengguna.</string>
+
+    <string name="community_filters_limit">Pilih hingga %d bahasa yang ingin Anda lihat penutur aslinya yang lancar</string>
+    <string name="community_filters_selected">Teks untuk diterjemahkan: %d/%d dipilih</string>
+    <string name="community_filters_clear">Hapus filter</string>
+    <string name="community_filters_your_languages">Bahasa yang Anda gunakan saat ini</string>
+
+    <string name="chat_created_msg">Percakapan dibuat</string>
+    <string name="chatbot_created_msg">Obrolan dibuat dengan %s</string>
+    <string name="chatbot_create_chat">Buat obrolan dengan %s</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ਚੁਣੋ</string>
+    <string name="cancel_birthday_selection">ਰੱਦ ਕਰੋ</string>
+    <string name="edit_name_title">ਨਾਮ</string>
+    <string name="location_empty_title">ਅਨਿਰਧਾਰਿਤ</string>
+
+    <string name="description_title">ਵੇਰਵਾ ਵੇਰਵਾ</string>
+
+    <string name="profile_updated_success">ਪ੍ਰੋਫ਼ਾਈਲ ਸਫਲਤਾਪੂਰਵਕ ਅਪਡੇਟ ਕੀਤੀ ਗਈ ਹੈ।</string>
+
+    <string name="topics_empty_title">ਕੋਈ ਵਿਸ਼ਾ ਚੁਣਿਆ ਨਹੀਂ ਗਿਆ ਹੈ ਜੀ</string>
+    <string name="topics_title">ਰੁਚੀਆਂ</string>
+
+    <string name="languages_title">ਭਾਸ਼ਾਵਾਂ</string>
+    <string name="languages_empty_title">ਕੋਈ ਭਾਸ਼ਾ ਚੁਣੀ ਨਹੀਂ ਗਈ ਹੈ।</string>
+    <string name="profile_add_language">ਭਾ਷ਾ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="profile_select_language">ਭਾਸ਼ਾ ਚੁਣੋ</string>
+    <string name="profile_select_proficiency">ਮਾਹਰਤ ਚੁਣੋ</string>
+    <string name="add_language_select">ਚੁਣੋ</string>
+    <string name="add_language_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="gender_title">ਲਿੰਗ</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Vytvoriť nový chat.</string>
+    <string name="date_today">Dnes.</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Konverzácie bota</string>
+
+    <string name="chat_my_messages">Moje správy</string>
+    <string name="chat_empty_title">Žiadne správy zatiaľ</string>
+    <string name="chat_empty_description">Začnite konverzáciu, aby sa zobrazili vaše správy tu.</string>
+
+    <string name="chats_empty_title">Žiadne rozhovory zatiaľ</string>
+    <string name="chats_empty_description">Keď začnete nový rozhovor, zobrazí sa vám tu v zozname.</string>
+
+    <string name="chats_delete_title">Zmazať chat</string>
+    <string name="chats_delete_subtitle">Táto akcia nemôže byť vrátená späť!</string>
+    <string name="chats_delete_confirm">Potvrdiť</string>
+    <string name="chats_delete_cancel">Zrušiť</string>
+    <string name="chats_delete_success">Chat zmazaný</string>
+
+    <string name="message_time_today">Dnes</string>
+    <string name="message_time_yesterday">Včera</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise je učiteľka španielčiny, ktorá vám môže pomôcť s rozšírením vášho slovníka!</string>
+</resources>

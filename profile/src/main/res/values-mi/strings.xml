@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Kōwhiri</string>
+    <string name="cancel_birthday_selection">Whakakore</string>
+    <string name="edit_name_title">Ingoa</string>
+    <string name="location_empty_title">Kāore i whakarārangi</string>
+
+    <string name="description_title">Whakamārama</string>
+
+    <string name="profile_updated_success">Kua whakapai ake te pakitaka.</string>
+
+    <string name="topics_empty_title">Kāore i kōwhiria ngā kaupapa</string>
+    <string name="topics_title">Kaupapa</string>
+
+    <string name="languages_title">Reo</string>
+    <string name="languages_empty_title">Kare he reo i tīpako</string>
+    <string name="profile_add_language">Tāpiritia te reo</string>
+    <string name="profile_select_language">Kīia te reo</string>
+    <string name="profile_select_proficiency">Kōwhiri pūkenga</string>
+    <string name="add_language_select">Kōwhiria</string>
+    <string name="add_language_cancel">Whakakore</string>
+    <string name="gender_title">Tāngata wahine tāne</string>
+</resources>

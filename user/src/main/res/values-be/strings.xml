@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Тэкст для перакладу: Жывёлі.</string>
+    <string name="topic_cooking">Кулінарыя</string>
+    <string name="topic_theater">Тэатр</string>
+    <string name="topic_partying">Вечароўка</string>
+    <string name="topic_biking">Biking</string>
+    <string name="topic_camping">Кемпінг</string>
+    <string name="topic_fitness">Фітнес</string>
+    <string name="topic_meditation">Медытацыя</string>
+    <string name="topic_movie">Фільмы</string>
+    <string name="topic_music">Музыка</string>
+    <string name="topic_painting">Малюнак</string>
+    <string name="topic_physics">Фiзiка</string>
+    <string name="topic_reading">Чытанне</string>
+    <string name="topic_science">Навука</string>
+    <string name="topic_sports">Спорт</string>
+    <string name="topic_swimming">Плаванне</string>
+    <string name="topic_technology">Тэхналогіі</string>
+    <string name="topic_videogame">Гульні на відэафайлах</string>
+</resources>

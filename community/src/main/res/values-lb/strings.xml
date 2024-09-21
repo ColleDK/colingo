@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Fann Partner.</string>
+    <string name="community_page_title">Membercher</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Sprécht</string>
+    <string name="community_user_learns">Léieren</string>
+
+    <string name="community_ai_empty_title">Keng Chatbots fonnt</string>
+    <string name="community_ai_empty_subtitle">Versicht Är Filter ze aktualiséieren fir méi Chatbots ze fannen.</string>
+    <string name="community_empty_title">Keen Benotzer fonnt.</string>
+    <string name="community_empty_subtitle">Versuch deng Filter ze aktualiséieren fir méi Benotzer ze fannen.</string>
+
+    <string name="community_filters_limit">Wielt bis zu %d Sproochen, vu deenen Du flott Sprooche maache wëlls.</string>
+    <string name="community_filters_selected">%d/%d ausgewielt</string>
+    <string name="community_filters_clear">Kloer Filter anzeigen</string>
+    <string name="community_filters_your_languages">Deng aktuell Sproochen</string>
+
+    <string name="chat_created_msg">Chat erstallt</string>
+    <string name="chatbot_created_msg">Chat erstallt mat %s</string>
+    <string name="chatbot_create_chat">Erstelle Chat mat %s</string>
+</resources>

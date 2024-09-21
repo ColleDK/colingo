@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">መገን</string>
+    <string name="destination_explore_label">ናይዚ ኣገልግሎ ናሕደበኛታትን ኮምፕዩተራትን ተወሳኺ ኾረብ ነፈርኩም።</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">መታጠቢ</string>
+    <string name="destination_settings_label">ቅንብሮች</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ገላጭ ትምህርቶ እንታይ</string>
+    <string name="setting_notifications_title">ማህበራት</string>
+    <string name="setting_permissions_title">ፕርምሽንስ</string>
+    <string name="setting_accessibility_title">ሕብረት</string>
+    <string name="setting_about_title">በዚህ ጽሑፍ እንዲያይዝ ይህን ቦታ አስተካክል ኣለን።</string>
+    <string name="setting_rate_title">ምንቅስቃስ ዝሓይሽ ኣሎ።</string>
+    <string name="setting_report_title">መረጃ ብጡን ክምረር</string>
+    <string name="setting_logout_title">መውጽኢ ክልቲ ይምጻሕ</string>
+    <string name="setting_switch_language_title">ቋንጣ ኣብዚ ቀሊል እዚ</string>
+
+    <string name="selected_language">ቋንጣ ተመምረኛል</string>
+
+    <string name="settings_change">ናይ ቅባቃቕ ብምምልኡ ክትኽእሉ ዘሎ።</string>
+    <string name="settings_switch_language">ቋንቋ ኣብዚ ይብሉ</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ኩሉ ትሕሙት ከኣ መእታን</string>
+    <string name="setting_dark_theme">ሕማን መልእክቲ</string>
+
+    <string name="settings_rate_app_page_title">ግብሪ መደምሰ ነው</string>
+    <string name="settings_switch_language_title">ቋንቋ ማስተካከል</string>
+    <string name="settings_theming_title">ስራሽን እና ቀለሞች</string>
+    <string name="settings_about_page_title">ብማህበረሰብ ስለ መንከባብ መልቲ</string>
+    <string name="settings_about_page_description1">Colingo ምንዳብ ናይ ቅርሺ ወወልድ ምዝጋሕ ንህጻን ፕላተፊም ባህላዊ ኣብዚ ትሕዝቶ ከም ቁልጫ ኮለፋይ/ዊሊዕሊም ናይቲ።</string>
+    <string name="settings_about_page_description2">ናይ መሬት ሕቶታት ናይ ንህዝብታስ ናብ ናይ አፕ ፈፁነን ኣብዚ ስእላዊ መራጻእ፡ነዚ መሬት ህልም ኣኽባለይ ወይ ኣተፍረሹይ ክንፈልጥ ነዚ ምስ ዘለዋ ርበቦ።</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">እቲ ንምክትነት ወዲ ንምርካብ ኣፕ ኣብ። ተጨማሪት ኣለና።</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ምንተረፈ መቃብ፥</string>
+    <string name="settings_report_bug_title">ምንፈልጥለን ምስጢሩን እንችላለን፡ ሓፈሻን በርካብኩም እዩ። ብመራኸቢ ናይ ቡጻሕ ካብ ሓሳብኩ ግዙፆ ክተረብሽ ብግሎቱ እዩ። ኣብ መዓልቲ ስለዚ ክሳብ እትሪቦም ዘሎ ቀሚሪ ምን ግዜ ክተኽእሎ እታ ጸበን ምዃንኩም እዩ።</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

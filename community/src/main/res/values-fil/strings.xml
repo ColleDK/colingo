@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hanapin ang mga kapartner</string>
+    <string name="community_page_title">Mga Miyembro</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Nagsasalita</string>
+    <string name="community_user_learns">Pag-aaral</string>
+
+    <string name="community_ai_empty_title">Walang natagpuang chatbot</string>
+    <string name="community_ai_empty_subtitle">Subukan i-update ang iyong mga filter para makahanap ng mas maraming chatbots.</string>
+    <string name="community_empty_title">Walang natagpuang users</string>
+    <string name="community_empty_subtitle">Subukan i-update ang iyong mga filter para makahanap ng mas maraming mga gumagamit</string>
+
+    <string name="community_filters_limit">Pumili ng hanggang sa %d wika na nais mong makita ang mga bihasang tagapagsalita mula sa</string>
+    <string name="community_filters_selected">%d/%d ang napili</string>
+    <string name="community_filters_clear">I-clear ang filters</string>
+    <string name="community_filters_your_languages">Ang iyong kasalukuyang mga wika</string>
+
+    <string name="chat_created_msg">Chat nabuo</string>
+    <string name="chatbot_created_msg">Chat na nilikha gamit ang %s</string>
+    <string name="chatbot_create_chat">Lumikha ng chat kay %s</string>
+</resources>

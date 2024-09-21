@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ଭାଗ୍ୟବାନଙ୍କୁ ଖୋଜନ୍ତୁ।</string>
+    <string name="community_page_title">ସদস্য</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">କଥାହେଉଛି</string>
+    <string name="community_user_learns">ଶିକ୍ଷା</string>
+
+    <string name="community_ai_empty_title">କୌଣ chatbots ପାଇବେନା ।</string>
+    <string name="community_ai_empty_subtitle">Try updating your filters to find more chatbots.</string>
+    <string name="community_empty_title">କୋଣାଙ୍କ ଉପଭୋକ୍ତା ମିଳିନାହି।</string>
+    <string name="community_empty_subtitle">ଆପଣଙ୍କ ଫିଲ୍ଟର୍‌ ଆପଡେଟ୍ କରନ୍ତୁ ଯାହା ଆପଣଙ୍କୁ ଅଧିକ ବ୍ୟବହାରକାରୀ ଖୋଜିବାରେ ସହଯୋଗ କରିପାରିବ।</string>
+
+    <string name="community_filters_limit">%d ଭାଷା ଚୟନ କରନ୍ତୁ ଯେଉଁଥିରେ ଆପ୍‌ କୌଣସି ଭାଷାରେ ଧାରା ବୋଲୁଥିବାର ଲକ୍ଷ୍ୟ ରଖନ୍ତୁ।</string>
+    <string name="community_filters_selected">%d/%d ପସନ୍ଦ କରାଯାଇଛି।</string>
+    <string name="community_filters_clear">ସଫୋଟଗୁଡ଼ିକ ସାଫ କରନ୍ତୁ</string>
+    <string name="community_filters_your_languages">ତମର ବର୍ତ୍ତମାନ ଭାଷାଗୁଡ଼ିକ ଦୟାକରି |</string>
+
+    <string name="chat_created_msg">ଚ୍ୟାଟ୍ ତିଆରି ହେଉଛି।</string>
+    <string name="chatbot_created_msg">Chat ଯେ %s ସହ ନିର୍ମାଣ ହୋଇଛି।</string>
+    <string name="chatbot_create_chat">%s ମଧ୍ୟମେ ଚାଟ୍ ସୃଷ୍ଟି କରନ୍ତୁ।</string>
+</resources>

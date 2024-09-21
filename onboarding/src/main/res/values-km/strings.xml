@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">ចុះឈ្មោះ</string>
+    <string name="onboarding_other_title">ឬបន្តាចូល</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">បន្តជាភ្ញៀវ</string>
+    <string name="onboarding_go_back">ត្រឡប់ទៅក្រៅ</string>
+
+    <!-- Log in -->
+    <string name="login_title">ស្វាគមន៍ម្តងទៀត!</string>
+    <string name="login_subtitle">Log in to your account</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">ពាក្យសម្ងាត់</string>
+    <string name="login_forgot_password">ភ្លៀងពាក្យ​សំលេង​ឡើងវិញហើយឫ\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">មិនទាន់មានគណនីទេជាមួយហើយ​ទេ\?</string>
+    <string name="login_go_to_signup_2">ចុះឈ្មោះ</string>
+    <string name="login_reset_password">កំណែក​ពាក្យ​សម្ងាត់</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ចុះ​ឈ្មោះ</string>
+    <string name="signup_subtitle">បង្កើតគណនី​របស់​អ្នក​។</string>
+    <string name="signup_name_hint">ឈ្មោះ</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">ពាក្យសំងាត់</string>
+    <string name="signup_confirm_password_hint">បញ្ជាក់​ពាក្យ​សម្ងាត់</string>
+    <string name="signup_signup_btn">ចុះ​ឈ្មោះ</string>
+    <string name="signup_go_to_login_1">អ្នក​រ​មាន​គណនី​រួច​ហួស​មេ\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ជំនួស</string>
+    <string name="setup_profile_finish">បញ្ចប់</string>
+    <string name="setup_profile_skip">រំកិល</string>
+    <string name="add_picture_title">រៀបចំ​ទិន្នន័យ</string>
+    <string name="add_picture_subtitle">បន្ថែមរូបភាពប្រវត្តវា</string>
+    <string name="add_languages_title">រៀបចំ​ទិន្នន័យ</string>
+    <string name="add_languages_subtitle">ជ្រើសរើសភាសា</string>
+    <string name="add_languages_select_proficiency">ជ្រើសរើសបទ្ធរាយ</string>
+    <string name="add_languages_select_language">ជ្រើសភាសា</string>
+    <string name="add_languages_add_language">បន្ថែមភាសា</string>
+    <string name="add_language_select">ជ្រើស</string>
+    <string name="add_language_cancel">បោះបង់</string>
+    <string name="select_gender_title">កំណត់រូបភាព</string>
+    <string name="select_gender_subtitle">ជ្រើសភេទ</string>
+    <string name="select_topics_title">កំណត់រូបភាព</string>
+    <string name="select_topics_subtitle">ជ្រើសមុខរបរ</string>
+    <string name="add_description_title">កំណត់​ទ្រង់ទ្រាយ​</string>
+    <string name="add_description_subtitle">បន្ថែម​ព​តម្រូវ​អោយ​អ្នក​​ទៅ​​បន្ថែ​ព​អោយ​អោយ​របស់​ខ្ញុំ​នូវ​អត្ថបទ​ចម្ង​បែប​អតិថិជិ​ជា។</string>
+    <string name="add_description_birthday_hint">ថ្ងៃខួប</string>
+    <string name="add_description_birthday_select">ជ្រើស</string>
+    <string name="add_description_birthday_cancel">បោះបង់</string>
+    <string name="add_description_location_hint">ទីតាំង</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

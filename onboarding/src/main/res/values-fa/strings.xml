@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ورود</string>
+    <string name="onboarding_signup_btn">ثبت نام</string>
+    <string name="onboarding_other_title">یا ادامه دهید</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">فیسبوک</string>
+    <string name="onboarding_guest_btn">به عنوان مهمان ادامه دهید</string>
+    <string name="onboarding_go_back">برگردید</string>
+
+    <!-- Log in -->
+    <string name="login_title">به بازگشت شما خوش آمدید!</string>
+    <string name="login_subtitle">وارد حساب کاربری خود شوید</string>
+    <string name="login_email_hint">ایمیل</string>
+    <string name="login_password_hint">رمزعبور</string>
+    <string name="login_forgot_password">رمز عبور را فراموش کرده‌اید؟</string>
+    <string name="login_login_btn">ورود</string>
+    <string name="login_go_to_signup_1">هنوز حساب کاربری ندارید؟</string>
+    <string name="login_go_to_signup_2">ثبت نام</string>
+    <string name="login_reset_password">بازنشانی رمز عبور</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">ساخت حساب کاربری خود</string>
+    <string name="signup_name_hint">نام</string>
+    <string name="signup_email_hint">ایمیل</string>
+    <string name="signup_password_hint">رمزعبور</string>
+    <string name="signup_confirm_password_hint">تأیید رمز عبور</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">آیا حساب کاربری دارید؟</string>
+    <string name="signup_go_to_login_2">ورود</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">بعدی</string>
+    <string name="setup_profile_finish">پایان</string>
+    <string name="setup_profile_skip">ردگیری</string>
+    <string name="add_picture_title">راه‌اندازی پروفایل</string>
+    <string name="add_picture_subtitle">افزودن عکس پروفایل</string>
+    <string name="add_languages_title">راه‌اندازی پروفایل</string>
+    <string name="add_languages_subtitle">انتخاب زبان‌ها</string>
+    <string name="add_languages_select_proficiency">انتخاب توانمندی</string>
+    <string name="add_languages_select_language">انتخاب زبان</string>
+    <string name="add_languages_add_language">اضافه‌کردن زبان</string>
+    <string name="add_language_select">انتخاب</string>
+    <string name="add_language_cancel">لغو</string>
+    <string name="select_gender_title">راه‌اندازی پروفایل</string>
+    <string name="select_gender_subtitle">انتخاب جنسیت</string>
+    <string name="select_topics_title">راه‌اندازی پروفایل</string>
+    <string name="select_topics_subtitle">انتخاب موضوعات</string>
+    <string name="add_description_title">راه‌اندازی پروفایل</string>
+    <string name="add_description_subtitle">اطلاعاتی درباره خودتان اضافه کنید</string>
+    <string name="add_description_birthday_hint">تولد</string>
+    <string name="add_description_birthday_select">انتخاب</string>
+    <string name="add_description_birthday_cancel">لغو</string>
+    <string name="add_description_location_hint">مکان</string>
+    <string name="add_description_description_hint">توضیحات</string>
+</resources>

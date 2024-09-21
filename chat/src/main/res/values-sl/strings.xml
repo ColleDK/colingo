@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Ustvari nov klepet.</string>
+    <string name="date_today">Danes</string>
+
+    <string name="members_page_title">Pogovori</string>
+    <string name="bots_page_title">Klepetalni boti</string>
+
+    <string name="chat_my_messages">Moja sporočila</string>
+    <string name="chat_empty_title">Ni še sporočil</string>
+    <string name="chat_empty_description">Začnite pogovor, da bodo prikazana vaša sporočila tukaj.</string>
+
+    <string name="chats_empty_title">Ni še klepetov</string>
+    <string name="chats_empty_description">Ko začnete novo pogovor, ga boste tukaj videli navedenega.</string>
+
+    <string name="chats_delete_title">Izbriši klepet</string>
+    <string name="chats_delete_subtitle">Ta dejanje ni mogoče razveljaviti!</string>
+    <string name="chats_delete_confirm">Potrdi</string>
+    <string name="chats_delete_cancel">Prekliči</string>
+    <string name="chats_delete_success">Klepet izbrisan</string>
+
+    <string name="message_time_today">Danes</string>
+    <string name="message_time_yesterday">Včeraj</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise je španska učiteljica, ki vam lahko pomaga pri izboljšanju vaše slovarice!</string>
+</resources>

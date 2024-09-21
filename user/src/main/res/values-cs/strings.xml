@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Zvířata</string>
+    <string name="topic_cooking">Vaření</string>
+    <string name="topic_theater">Divadlo</string>
+    <string name="topic_partying">Večírek</string>
+    <string name="topic_biking">Jízda na kole</string>
+    <string name="topic_camping">Kempování</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditace</string>
+    <string name="topic_movie">Filmy</string>
+    <string name="topic_music">Hudba.</string>
+    <string name="topic_painting">Malba</string>
+    <string name="topic_physics">Fyzika</string>
+    <string name="topic_reading">Čtení</string>
+    <string name="topic_science">Věda</string>
+    <string name="topic_sports">Sporty</string>
+    <string name="topic_swimming">Plavání</string>
+    <string name="topic_technology">Technologie</string>
+    <string name="topic_videogame">Video hry</string>
+</resources>

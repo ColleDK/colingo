@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Тандау</string>
+    <string name="cancel_birthday_selection">Жоккоо</string>
+    <string name="edit_name_title">Аты</string>
+    <string name="location_empty_title">Белгисиз</string>
+
+    <string name="description_title">Сүрөттөмө</string>
+
+    <string name="profile_updated_success">Профиль ийгиликтүү жаңыртылды</string>
+
+    <string name="topics_empty_title">Тема тандалган эмес</string>
+    <string name="topics_title">Мүмкүндүктөр</string>
+
+    <string name="languages_title">Тилдер</string>
+    <string name="languages_empty_title">Тил тандагы жок</string>
+    <string name="profile_add_language">Тилди кошу</string>
+    <string name="profile_select_language">Тилди тандоо</string>
+    <string name="profile_select_proficiency">Профайлдуулукты тандаңыз</string>
+    <string name="add_language_select">Тандоо</string>
+    <string name="add_language_cancel">Болдуруу</string>
+    <string name="gender_title">Жыныссы</string>
+</resources>

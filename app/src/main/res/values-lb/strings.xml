@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Heem</string>
+    <string name="destination_explore_label">Erkennen</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Astellungen</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Benachrichtegungen</string>
+    <string name="setting_permissions_title">Erlaabnisser.</string>
+    <string name="setting_accessibility_title">Zougangsfäegkeet</string>
+    <string name="setting_about_title">Iwwer</string>
+    <string name="setting_rate_title">Bewäert d\'App</string>
+    <string name="setting_report_title">Bug melle fir.</string>
+    <string name="setting_logout_title">Ofloggen</string>
+    <string name="setting_switch_language_title">Schwiichten Sproochen</string>
+
+    <string name="selected_language">Ausgewielte Sprooch</string>
+
+    <string name="settings_change">Änneren Astellunge</string>
+    <string name="settings_switch_language">Wechselt Sprooch</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamësch Themen.</string>
+    <string name="setting_dark_theme">Däischter Themen.</string>
+
+    <string name="settings_rate_app_page_title">Bewäert App</string>
+    <string name="settings_switch_language_title">Ännerung vun der Sprooch</string>
+    <string name="settings_theming_title"><![CDATA[Theming & Farwen]]></string>
+    <string name="settings_about_page_title">Iwwer d\'App</string>
+    <string name="settings_about_page_description1">Colingo ass e Quellcode-Gemeinschaftsgetriwwenen-Sproochen-Ausdrocksplang, dee vum Colle/William entwéckelt gouf.</string>
+    <string name="settings_about_page_description2">Mir streben no, esou oppen an direkt iwwer alles am App ze sinn, dofir halen mer et open-source.</string>
+    <string name="settings_about_page_description3">All Iwwersetzungënnereen Appkeint gehme vu kierperléchen Intelligenzen duerchgefillt an esou kéint et ze Uertschelperféieren - wann Dir iergendeen fannt, mellt et bëtten an der \\"Fehler mellen \\"Pan”.</string>
+    <string name="settings_about_page_contact">Falls dir iergendwelch Sueren oder Virschleiß fir déi App hueden, kanns du eis ëmmer kontaktéieren op:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Bericht Feeler</string>
+    <string name="settings_report_bug_title">Fir Stabilitéit ze garantéieren, sammelen mir automatesch Crash-Reports. Falls Dir awer Problemer entdeckt an e Fehler direkt mellen wëllt, füllt bitt e Formulaar aus mat esou vill Informatiounen ewéi méiglech.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

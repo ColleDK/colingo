@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Хамтран ажилладаг харилцагчидыг хайх</string>
+    <string name="community_page_title">Гишүүн</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Гарчигдах</string>
+    <string name="community_user_learns">Сургалтанд ойрхон</string>
+
+    <string name="community_ai_empty_title">Chatbot-үүд олдсонгүй</string>
+    <string name="community_ai_empty_subtitle">Chatbot-уудыг илүү их хайж олохын тулд шүүлтүүрийг шинэчлэхээр оролдож үзээрэй</string>
+    <string name="community_empty_title">Хэрэглэгч олдсонгүй</string>
+    <string name="community_empty_subtitle">Та илэрцүүлэгийн сонголтуудыг шинэчилж илрүүлсэн хэрэглэгчидийг олж үзээрэй</string>
+
+    <string name="community_filters_limit">Сонгох: Та хүссэн хэмжээнд %d хэл сонгохыг хүсдэг боломжтой</string>
+    <string name="community_filters_selected">%d/%d сонгогдсон</string>
+    <string name="community_filters_clear">Фильтрүүдийг арилгах</string>
+    <string name="community_filters_your_languages">Таны одоогийн хэлсэн хэлсэн</string>
+
+    <string name="chat_created_msg">Чат үүсгэгдлээ</string>
+    <string name="chatbot_created_msg">Chat-ийг %s-тэй үүсгэлээ.</string>
+    <string name="chatbot_create_chat">Сэтгэгдэл үүсгэх %s-тай</string>
+</resources>

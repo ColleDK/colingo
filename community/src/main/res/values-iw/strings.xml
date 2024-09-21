@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">מצא שותפים</string>
+    <string name="community_page_title">חברים</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">ניסואי</string>
+    <string name="community_user_learns">למידה</string>
+
+    <string name="community_ai_empty_title">לא נמצאו צ\'אטבוטים</string>
+    <string name="community_ai_empty_subtitle">נסה לעדכן את המסננים שלך כדי למצוא עוד צ\'אטבוטים</string>
+    <string name="community_empty_title">לא נמצאו משתמשים</string>
+    <string name="community_empty_subtitle">נסה לעדכן את הסינון שלך כדי למצוא עוד משתמשים</string>
+
+    <string name="community_filters_limit">בחר עד %d שפות שתרצה לראות דוברים שולטים בהן</string>
+    <string name="community_filters_selected">%d/%d נבחרו</string>
+    <string name="community_filters_clear">נקה מסננים</string>
+    <string name="community_filters_your_languages">שפות נוכחיות שלך</string>
+
+    <string name="chat_created_msg">צ\'אט נוצר</string>
+    <string name="chatbot_created_msg">שיחה שנוצרה עם %s</string>
+    <string name="chatbot_create_chat">צור צ\'אט עם %s</string>
+</resources>

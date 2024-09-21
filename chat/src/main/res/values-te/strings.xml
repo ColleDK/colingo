@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">కొత్త చాట్ సృష్టించండి</string>
+    <string name="date_today">నేడు</string>
+
+    <string name="members_page_title">చాట్లు</string>
+    <string name="bots_page_title">బాట్ చాట్లు</string>
+
+    <string name="chat_my_messages">నా సందేశాలు</string>
+    <string name="chat_empty_title">ఇంకా సందేశాలు లేవు</string>
+    <string name="chat_empty_description">ఇక్కడ మీ సందేశాలను చూడడానికి మాటము ప్రారంభించండి.</string>
+
+    <string name="chats_empty_title">ఇంతకు ఇక్కడ చాట్లు లేవు</string>
+    <string name="chats_empty_description">భాషలోని మొదటి చర్చను ప్రారంభించినదాట, ఇక్కడ అది జాబితాగా చూపబడుతుంది.</string>
+
+    <string name="chats_delete_title">చాట్ తొలగించండి</string>
+    <string name="chats_delete_subtitle">ఈ చర్య రద్దు చేయబడదు!</string>
+    <string name="chats_delete_confirm">ధ్యానంలో ఉంచండి</string>
+    <string name="chats_delete_cancel">రద్దు చేయండి</string>
+    <string name="chats_delete_success">చాట్ తొలగించబడింది</string>
+
+    <string name="message_time_today">ఆజు</string>
+    <string name="message_time_yesterday">నిన్నേ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">టెక్స్ట్ అనువాదం: లూయిస్ ఒక స్పానిష్ ఉపాధ్యాయుడు, మీ శబ్దావలిని మెరుగుపరచడంలో మద్దతు చేయగలడు!</string>
+</resources>

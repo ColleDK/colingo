@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ਸਾਥੀਆਂ ਲੱਭੋ</string>
+    <string name="community_page_title">ਸਭੀ ਵੱਡੇਸ਼੍ਰੇਣੀ ਦੇ ਲੋਕ</string>
+    <string name="chatbot_page_title">ਚیٹਬੋਟਸ ਕਰੋ</string>
+    <string name="community_user_speaks">ਬੋਲਦਾ ਹੈ</string>
+    <string name="community_user_learns">ਸਿਖਣਾ</string>
+
+    <string name="community_ai_empty_title">ਕੋਈ ਚੈਟਬੁਟ ਨਹੀਂ ਲੱਭੇ ਗਏ ਹਨ</string>
+    <string name="community_ai_empty_subtitle">ਔਨਲਾਈਨ ਚੈਟਬਾਟਾਂ ਲੱਭਣ ਲਈ ਆਪਣੇ ਫਿਲਟਰਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ ਟ੍ਰਾਈ ਕਰੋ।</string>
+    <string name="community_empty_title">ਕੋਈ ਯੂਜ਼ਰ ਨਹੀਂ ਲੱਭਿਆ ਹੈ</string>
+    <string name="community_empty_subtitle">ਹੋਰ ਯੂਜ਼ਰਾਂ ਲਈ ਆਪਣੇ ਫਿਲਟਰਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+
+    <string name="community_filters_limit">ਚੁਣੋ ਤੱਕ %d ਭਾਸ਼ਾਵਾਂ ਜੋ ਤੁਸੀਂ ਮਾਹਰ ਬੋਲਣ ਵਾਲੇ ਵਿਅਕਤੀਆਂ ਨੂੰ ਵੇਖਣਾ ਚਾਹੁੰਦੇ ਹੋ</string>
+    <string name="community_filters_selected">%d/%d ਚੁਣੇ ਗਏ ਹਨ</string>
+    <string name="community_filters_clear">ਫਿਲਟਰ ਸਾਫ ਕਰੋ</string>
+    <string name="community_filters_your_languages">ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਭਾਸ਼ਾਵਾਂ</string>
+
+    <string name="chat_created_msg">ਚੈਟ ਬਣਾਈ ਗਈ ਹੈ</string>
+    <string name="chatbot_created_msg">ਚੈਟ %s ਨਾਲ ਬਣਾਈ ਗਈ ਹੈ।</string>
+    <string name="chatbot_create_chat">ਚੈਟ ਬਣਾਓ %s ਨਾਲ</string>
+</resources>

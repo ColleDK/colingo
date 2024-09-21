@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Хөвчлөгчид</string>
+    <string name="topic_cooking">Жорын хуудас</string>
+    <string name="topic_theater">Театр</string>
+    <string name="topic_partying">Загварлах</string>
+    <string name="topic_biking">Унах</string>
+    <string name="topic_camping">Гэр бүлийн сурагчид</string>
+    <string name="topic_fitness">Фитнес</string>
+    <string name="topic_meditation">Медитаци</string>
+    <string name="topic_movie">Кино</string>
+    <string name="topic_music">Дууны өгүүлэлт</string>
+    <string name="topic_painting">Зургийн өгүүлэл</string>
+    <string name="topic_physics">Физик хэрэгтэй</string>
+    <string name="topic_reading">Унших</string>
+    <string name="topic_science">Шинжлэх ухаан</string>
+    <string name="topic_sports">Спорт</string>
+    <string name="topic_swimming">Хөвөлт цагаандаа</string>
+    <string name="topic_technology">Технологи.</string>
+    <string name="topic_videogame">Видео тоглоом</string>
+</resources>

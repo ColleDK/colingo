@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Шинэ чат үүсгэх</string>
+    <string name="date_today">Өнөөдөр</string>
+
+    <string name="members_page_title">Чаты</string>
+    <string name="bots_page_title">Бот хоёр дахин холбох</string>
+
+    <string name="chat_my_messages">Миний зурвасууд</string>
+    <string name="chat_empty_title">Мессеж илгээгээгүй</string>
+    <string name="chat_empty_description">Мессежүүдийг харахын тулд ярилцаж эхлүүлээрэй.</string>
+
+    <string name="chats_empty_title">Шуудан алга</string>
+    <string name="chats_empty_description">Шинэ гарын авлага эхлүүлсэнээр дотроо жагсаалтанд харагдана.</string>
+
+    <string name="chats_delete_title">Сэтгэл судлахыг устгах</string>
+    <string name="chats_delete_subtitle">Энэ үйлдлийг сэргээх боломжгүй!</string>
+    <string name="chats_delete_confirm">Батлах</string>
+    <string name="chats_delete_cancel">Цуцлах</string>
+    <string name="chats_delete_success">Чат устгагдлаа</string>
+
+    <string name="message_time_today">Өнөөдөр</string>
+    <string name="message_time_yesterday">Өчигдөр</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Луис нь танд ихэнх хэлний тэмдэглэл сацуулахад туслах боломжтой Испани хэлний багш юм.</string>
+</resources>

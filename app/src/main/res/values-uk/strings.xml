@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Дім</string>
+    <string name="destination_explore_label">Дослідити</string>
+    <string name="destination_chat_label">Чат</string>
+    <string name="destination_profile_label">Профіль</string>
+    <string name="destination_settings_label">Налаштування</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Тематика</string>
+    <string name="setting_notifications_title">Повідомлення</string>
+    <string name="setting_permissions_title">Дозволи</string>
+    <string name="setting_accessibility_title">Доступність</string>
+    <string name="setting_about_title">Про</string>
+    <string name="setting_rate_title">Оцініть додаток</string>
+    <string name="setting_report_title">Повідомити про помилку</string>
+    <string name="setting_logout_title">Вийти</string>
+    <string name="setting_switch_language_title">Змінити мову</string>
+
+    <string name="selected_language">Обрана мова</string>
+
+    <string name="settings_change">Змінити налаштування</string>
+    <string name="settings_switch_language">Перемкнути мову</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Динамічне оформлення</string>
+    <string name="setting_dark_theme">Темна тема</string>
+
+    <string name="settings_rate_app_page_title">Оцініть додаток</string>
+    <string name="settings_switch_language_title">Змінити мову</string>
+    <string name="settings_theming_title">Формування тем та кольорів</string>
+    <string name="settings_about_page_title">Про додаток</string>
+    <string name="settings_about_page_description1">Colingo - це платформа обміну мовами, створена спільнотою на основі відкритого програмного забезпечення розроблена Колле/Вільямом.</string>
+    <string name="settings_about_page_description2">Ми прагнемо бути якомога відкритими та прозорими щодо всього в додатку, тому ми тримаємо його у відкритому доступі.</string>
+    <string name="settings_about_page_description3">Усі переклади у додатку виконуються штучними інтелектами, тому можли виникати помилки в перекладі - якщо ви знайдете їх, будь ласка, повідомте про це в розділі \"Повідомити про помилку\".</string>
+    <string name="settings_about_page_contact">Текст для перекладу: Якщо у вас є які-небудь зауваження або пропозиції щодо додатку, ви можете зв\'язатися з нами за адресою:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Повідомити про помилку</string>
+    <string name="settings_report_bug_title">Для забезпечення стабільності ми автоматично збираємо звіти про аварійні збої, проте якщо ви знаходите будь-які проблеми і хочете надіслати жук напряму, будь ласка, заповніть форму з якомога більшою кількістю інформації, якою володієте.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

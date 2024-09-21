@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Skapa en ny chatt</string>
+    <string name="date_today">Idag</string>
+
+    <string name="members_page_title">Chattar</string>
+    <string name="bots_page_title">Bot chattar</string>
+
+    <string name="chat_my_messages">Mina meddelanden.</string>
+    <string name="chat_empty_title">Inga meddelanden än</string>
+    <string name="chat_empty_description">Börja konversera för att se dina meddelanden här.</string>
+
+    <string name="chats_empty_title">Inga chattar ännu</string>
+    <string name="chats_empty_description">När du har startat en ny konversation kommer du att se den listad här.</string>
+
+    <string name="chats_delete_title">Ta bort chatt</string>
+    <string name="chats_delete_subtitle">Denna åtgärd går inte att ångra!</string>
+    <string name="chats_delete_confirm">Bekräfta</string>
+    <string name="chats_delete_cancel">Avbryt</string>
+    <string name="chats_delete_success">Chatt raderad</string>
+
+    <string name="message_time_today">Idag</string>
+    <string name="message_time_yesterday">Igår</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise är en spansk lärare som kan hjälpa dig med att förbättra ditt ordförråd!</string>
+</resources>

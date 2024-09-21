@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nyumbani</string>
+    <string name="destination_explore_label">Shandisa</string>
+    <string name="destination_chat_label">Chikamuva</string>
+    <string name="destination_profile_label">Chirongwa</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Maitirozvicherechedzo</string>
+    <string name="setting_permissions_title">Mazvinzwa</string>
+    <string name="setting_accessibility_title">Accessibility</string>
+    <string name="setting_about_title">Kunyange</string>
+    <string name="setting_rate_title">Rate the app</string>
+    <string name="setting_report_title">Ripoti musiyo</string>
+    <string name="setting_logout_title">Log out</string>
+    <string name="setting_switch_language_title">Changez les langues</string>
+
+    <string name="selected_language">Rukuvhutiro rwakakosha</string>
+
+    <string name="settings_change">Shandisa zviratidzo</string>
+    <string name="settings_switch_language">Bvuma rimwe gudo</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Kudyisirazve kurarama</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Shandisa, Nguva, Nguva rinowanikwa, Kusiyana husingaperi</string>
+    <string name="settings_theming_title"><![CDATA[Kusarudza nokukanganisa & mabhizimisi]]></string>
+    <string name="settings_about_page_title">Mushandisi wepfoni</string>
+    <string name="settings_about_page_description1">Colingo ndiyo platformu yekutaurirana mubatanidzwa yokutakurana nomagariro ekupfuura yakaitwa na Colle/William.</string>
+    <string name="settings_about_page_description2">Tiripo kuvaka nokuti tisarudza zvese mu-App, nokuti tiri kunze kwezvinhu nekusarudza.</string>
+    <string name="settings_about_page_description3">Matumwa ese muvepi iyi iri kuiswa neAIs uye seuro, kana uchida kugadzirisa cherochero pane zvikoko - kana uchida, ndapota dya mira mupepanera re \"Report a bug\".</string>
+    <string name="settings_about_page_contact">Makatarisa chero zvinhu zvako kana zvikanganwane neupenyu wekushandisa, unogona kudzvanya nesu pa:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ripo bhaɣa</string>
+    <string name="settings_report_bug_title">Kutaurwa kwakanaka: Kuti tigadzirise kugadzirisa, tinoendesa kwavanhu kwavari kufamba, asi kana uchida kuona zvakakosha uchida kuenda kureporta kudhumhaniswa, ndapindura form uchida nemazwi ose uchida.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

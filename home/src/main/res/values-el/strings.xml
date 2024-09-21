@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Τροφοδότησή μου</string>
+    <string name="post_create_new">Δημιουργία νέας δημοσίευσης</string>
+    <string name="create_post_dismiss">Ακύρωση</string>
+    <string name="create_post_create">Δημιουργία</string>
+    <string name="post_show_more">Εμφάνιση περισσότερων</string>
+    <string name="post_show_less">Εμφάνιση λιγότερων</string>
+
+    <string name="create_post_success">Δημιουργήθηκε ανάρτηση</string>
+    <string name="create_chat_success">Συνομιλία δημιουργήθηκε</string>
+
+    <string name="home_filters_oldest">Παλαιότερο</string>
+    <string name="home_filters_newest">Νεότερο</string>
+    <string name="post_create_comment">Προσθήκη σχολίου</string>
+    <string name="post_likes">%s του αρέσει.</string>
+    <string name="post_comments">Σχόλια: %s</string>
+    <string name="post_no_comments_title">Καμία απάντηση ακόμα</string>
+    <string name="post_no_comments_subtitle">Γίνε ο πρώτος που θα μοιραστεί τις σκέψεις σου σχετικά με αυτή τη δημοσίευση</string>
+
+    <string name="error_msg_general">Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.</string>
+</resources>

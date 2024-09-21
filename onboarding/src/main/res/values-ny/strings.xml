@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Koma tsegulani\'yo.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Ndiyenera kusintha ndiowona muli mmodzi mwa osandika</string>
+    <string name="onboarding_go_back">Rudi</string>
+
+    <!-- Log in -->
+    <string name="login_title">Kukumbukirani!</string>
+    <string name="login_subtitle">Sankhani munthu wako pa akaunti yako</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Mawu a mkwiyo</string>
+    <string name="login_forgot_password">Pang\'ono wandidzipitirira\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Sindikugwira ndi akawiri bwanji\?</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Sungani nyenyezi.</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Tsopanofunga</string>
+    <string name="signup_subtitle">Panga akaunti yanu</string>
+    <string name="signup_name_hint">Dzina</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Mawu a mkwiyo</string>
+    <string name="signup_confirm_password_hint">Thandiza nyimbo.</string>
+    <string name="signup_signup_btn">Tsopanofunga</string>
+    <string name="signup_go_to_login_1">Ukuyenera akaone akaunti\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Pamwamba</string>
+    <string name="setup_profile_finish">Pang\'ono Koma</string>
+    <string name="setup_profile_skip">Pitiriza</string>
+    <string name="add_picture_title">Sungani mawonekedwe</string>
+    <string name="add_picture_subtitle">Sungani pachiphwiru chakuti m\'mafotoko a mfundo.</string>
+    <string name="add_languages_title">Sungani mawonekedwe</string>
+    <string name="add_languages_subtitle">Zikhazikitsidwe zaulimi</string>
+    <string name="add_languages_select_proficiency">Khazikitsani kusintha.</string>
+    <string name="add_languages_select_language">Fufuzani chinthu cha galimoto.</string>
+    <string name="add_languages_add_language">Zonyoza chidzukulu</string>
+    <string name="add_language_select">Fufuzani</string>
+    <string name="add_language_cancel">Pitani mawa</string>
+    <string name="select_gender_title">Sungani mawonekedwe</string>
+    <string name="select_gender_subtitle">Fufuzani nthawi ya fumbiyo</string>
+    <string name="select_topics_title">Sungani mawonekedwe</string>
+    <string name="select_topics_subtitle">Fufuzani zochitika</string>
+    <string name="add_description_title">Sungani mawonekedwe</string>
+    <string name="add_description_subtitle">Fufuzani zambiri zokhudza zosasinthika zanu</string>
+    <string name="add_description_birthday_hint">Za M\'Diyoni</string>
+    <string name="add_description_birthday_select">Fufuzani</string>
+    <string name="add_description_birthday_cancel">Pitani mawa</string>
+    <string name="add_description_location_hint">Lokoshe.</string>
+    <string name="add_description_description_hint">Maukauni</string>
+</resources>

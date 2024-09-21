@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mín fæða</string>
+    <string name="post_create_new">Búa til nýja færslu</string>
+    <string name="create_post_dismiss">Hætta við</string>
+    <string name="create_post_create">Búa til</string>
+    <string name="post_show_more">Sýna meira</string>
+    <string name="post_show_less">Sýna minna</string>
+
+    <string name="create_post_success">Póstur búinn til</string>
+    <string name="create_chat_success">Spjall búið til</string>
+
+    <string name="home_filters_oldest">Eldsti</string>
+    <string name="home_filters_newest">Nýjast</string>
+    <string name="post_create_comment">Bæta við athugasemd</string>
+    <string name="post_likes">%s líkar við</string>
+    <string name="post_comments">%s athugasemdir</string>
+    <string name="post_no_comments_title">Engin svör enn</string>
+    <string name="post_no_comments_subtitle">Verðu fyrst(ur) til að deila hugsunum þínum um þennan pistil.</string>
+
+    <string name="error_msg_general">Eitthvað fór úrskeiðis. Vinsamlegast reyndu aftur.</string>
+</resources>

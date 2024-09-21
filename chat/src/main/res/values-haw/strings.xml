@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Kukulu i he hānauinoa hou</string>
+    <string name="date_today">Today</string>
+
+    <string name="members_page_title">Nā Mea Kama\'ilio</string>
+    <string name="bots_page_title">ʻŌlelo e palekana ai: Bot ʻōlelo</string>
+
+    <string name="chat_my_messages">Ko\'u ua mai</string>
+    <string name="chat_empty_title">ʻAʻole i loaʻa na manaʻo hou</string>
+    <string name="chat_empty_description">Hāʻawi i ka ʻōlelo e ʻike ai i kāu mau kumuwānane ma ʻaneʻi.</string>
+
+    <string name="chats_empty_title">Aole i lohe me keia manawa</string>
+    <string name="chats_empty_description">OK</string>
+
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">‘Aʻole e hiki ke hoʻopau ʻia iho nei kēia hana!</string>
+    <string name="chats_delete_confirm">Hōʻoia\'a</string>
+    <string name="chats_delete_cancel">Hoʻokuke</string>
+    <string name="chats_delete_success">Hua\'ōlelo i hūnā</string>
+
+    <string name="message_time_today">Today</string>
+    <string name="message_time_yesterday">Nīnau e hoʻomaka: Yesterday</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise he kumu ʻōlelo Pelekani e kōkua aku ana iā ʻoe ma ka hoʻomaikaʻi i kou ʻikepili!</string>
+</resources>

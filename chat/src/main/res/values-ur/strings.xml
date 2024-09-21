@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">نیا چیٹ بنائیں</string>
+    <string name="date_today">آج</string>
+
+    <string name="members_page_title">چیٹس</string>
+    <string name="bots_page_title">بٹ چیٹس</string>
+
+    <string name="chat_my_messages">میرے پیغامات</string>
+    <string name="chat_empty_title">ابھی تک کوئی پیغام نہیں</string>
+    <string name="chat_empty_description">اب یہاں اپنے پیغام دیکھنے کے لئے گفتگو شروع کریں۔</string>
+
+    <string name="chats_empty_title">ابھی تک کوئی چیٹ نہیں</string>
+    <string name="chats_empty_description">جب آپ نے نیا مکالمہ شروع کیا ہوگا، تو آپ یہاں دیکھیں گے۔</string>
+
+    <string name="chats_delete_title">چیٹ کو حذف کریں</string>
+    <string name="chats_delete_subtitle">یہ عمل واپس نہیں کیا جا سکتا ہے!</string>
+    <string name="chats_delete_confirm">تصدیق کریں</string>
+    <string name="chats_delete_cancel">منسوخ کریں</string>
+    <string name="chats_delete_success">چیٹ ڈیلیٹ ہو گئی۔</string>
+
+    <string name="message_time_today">آج</string>
+    <string name="message_time_yesterday">گزشتہ کل</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ایک ہے جو آپ کو آپ کی ویکیولری میں بہتری کے لیے مدد کرسکتی ہے!</string>
+</resources>

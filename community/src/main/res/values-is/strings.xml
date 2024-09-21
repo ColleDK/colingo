@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Finndu samstarfsaðila</string>
+    <string name="community_page_title">Meðlimir</string>
+    <string name="chatbot_page_title">Text to translate: Chatbots</string>
+    <string name="community_user_speaks">Talar</string>
+    <string name="community_user_learns">Nám</string>
+
+    <string name="community_ai_empty_title">Engin spjallvélmenni fundust</string>
+    <string name="community_ai_empty_subtitle">Reyndu að uppfæra síunar þínar til að finna fleiri spjallsíma</string>
+    <string name="community_empty_title">Engar notendur fundnir</string>
+    <string name="community_empty_subtitle">Prófaðu að uppfæra síunina þína til að finna fleiri notendur.</string>
+
+    <string name="community_filters_limit">Veldu allt að %d tungumál sem þú vilt sjá fljótlega mælandi frá</string>
+    <string name="community_filters_selected">%d/%d valin</string>
+    <string name="community_filters_clear">Hreinsa síur</string>
+    <string name="community_filters_your_languages">Núverandi tungumál þín</string>
+
+    <string name="chat_created_msg">Spjall búið til</string>
+    <string name="chatbot_created_msg">Spjall búið til með %s</string>
+    <string name="chatbot_create_chat">Búa til spjall með %s.</string>
+</resources>

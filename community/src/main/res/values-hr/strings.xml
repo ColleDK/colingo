@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Pronađi partnere</string>
+    <string name="community_page_title">Članovi</string>
+    <string name="chatbot_page_title">Chatboti</string>
+    <string name="community_user_speaks">Govori</string>
+    <string name="community_user_learns">Učenje</string>
+
+    <string name="community_ai_empty_title">Nema pronađenih čet botova</string>
+    <string name="community_ai_empty_subtitle">Pokušajte ažurirati filtre kako biste pronašli više chatbotova</string>
+    <string name="community_empty_title">Nema pronađenih korisnika</string>
+    <string name="community_empty_subtitle">Pokušajte ažurirati filtre kako biste pronašli više korisnika.</string>
+
+    <string name="community_filters_limit">Odaberite do %d jezika za koje želite vidjeti govornike koji tečno govore</string>
+    <string name="community_filters_selected">Odabrano %d/%d</string>
+    <string name="community_filters_clear">Očisti filtre</string>
+    <string name="community_filters_your_languages">Vaši trenutni jezici</string>
+
+    <string name="chat_created_msg">Razgovor stvoren</string>
+    <string name="chatbot_created_msg">Razgovor stvoren s %s</string>
+    <string name="chatbot_create_chat">Stvori chat s %s</string>
+</resources>

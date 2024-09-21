@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">یافتن همکاران</string>
+    <string name="community_page_title">اعضا</string>
+    <string name="chatbot_page_title">چت‌بات‌ها</string>
+    <string name="community_user_speaks">روانه‌گویی</string>
+    <string name="community_user_learns">یادگیری</string>
+
+    <string name="community_ai_empty_title">هیچ چت‌باتی یافت نشد</string>
+    <string name="community_ai_empty_subtitle">کوشش کنید فیلترهای خود را به‌روز کنید تا چت‌بات‌های بیشتری پیدا کنید.</string>
+    <string name="community_empty_title">کاربر پیدا نشد</string>
+    <string name="community_empty_subtitle">سعی کنید فیلترهای خود را به‌روز کنید تا کاربران بیشتری پیدا کنید</string>
+
+    <string name="community_filters_limit">انتخاب نمایید تا %d زبان که مایلید افراد ماهر در گفتار در آنها را ببینید</string>
+    <string name="community_filters_selected">%d/%d انتخاب شده</string>
+    <string name="community_filters_clear">پاکسازی فیلترها</string>
+    <string name="community_filters_your_languages">زبان‌های فعلی شما</string>
+
+    <string name="chat_created_msg">چت ایجاد شد</string>
+    <string name="chatbot_created_msg">چت ایجاد شده با %s</string>
+    <string name="chatbot_create_chat">ایجاد چت با %s</string>
+</resources>

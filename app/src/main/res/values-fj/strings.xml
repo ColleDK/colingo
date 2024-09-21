@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">vale</string>
+    <string name="destination_explore_label">Rukuruku</string>
+    <string name="destination_chat_label">Veivosaki</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Veikoro</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Malumalumu</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Ra vakakina me vakarabici.</string>
+    <string name="setting_about_title">About</string>
+    <string name="setting_rate_title">Vakatakarakarataki na app ni apeni</string>
+    <string name="setting_report_title">Vakadonui e dua na vasavasa</string>
+    <string name="setting_logout_title">Soli yani</string>
+    <string name="setting_switch_language_title">Vakayalo kei na vosa</string>
+
+    <string name="selected_language">Language emuri me rawa tu ka digitaki.</string>
+
+    <string name="settings_change">Vakarautaka na setingi</string>
+    <string name="settings_switch_language">Sobo yavutaki vosa</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Vakarautaka na macawa wale.</string>
+
+    <string name="settings_rate_app_page_title">Vakatovolea na app</string>
+    <string name="settings_switch_language_title">Vakayacora na vosa</string>
+    <string name="settings_theming_title"><![CDATA[Themes & vakacaca]]></string>
+    <string name="settings_about_page_title">E tukuna mada na app ni vosa.</string>
+    <string name="settings_about_page_description1">Colingo e dua na i cavuti e duka yani ni dua na i tutu sila ni i bula ni vosa e laurai tiko e Voli Ma William.</string>
+    <string name="settings_about_page_description2">Keitou sa la’ki vakaraici toso me da yacova yani e na ka keitou sa vakaraitaka yani tu e na app, ena vuku ni keitou sa maroroya me yaco ga e dua na bula vuni.</string>
+    <string name="settings_about_page_description3">Translations ni oni a cakacaka tu kina e na app sa cakacaka e na AI, ia e rawa ni dua na veika ni toso - kevaka ko kune e dua, vakaraitaka tu e na pane ni \\"Report a bug\\".</string>
+    <string name="settings_about_page_contact">Kevaka e dua na veika e da sa soli vei kemuni e dua ga na vakanuinui se vosota e dua ga me vakaduria na app, kau vakamacala vei keimami maikea:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ripoti na lasu</string>
+    <string name="settings_report_bug_title">Me vakarorogo me vakadeitaka na vakayacori tiko, keimami sa vakasoqoni tiko na veisiga ni ciliva, ia kevaka ko ni sa kunea e dua na ka e sega ni vinakata, se vinaka me vakaqarai na isau, vakarogoca mada ni vakasavinai e dua na ituvaki kei na veiyacori kei na kena tikina me vaka na kaukauwa kei ni leqa. Vinaka.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

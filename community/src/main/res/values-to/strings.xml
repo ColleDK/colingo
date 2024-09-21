@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Mema</string>
+    <string name="chatbot_page_title">Lēa Lēa Mētô्s</string>
+    <string name="community_user_speaks">Fakapuhikihiki</string>
+    <string name="community_user_learns">Faka\'osi</string>
+
+    <string name="community_ai_empty_title">Tulitulikotoni \'ikai \'ikai \'ihe taha \'o e chatbot</string>
+    <string name="community_ai_empty_subtitle">Fakakaua ke lava \'o toe fakatatau\'i \'a e ngaahi filita ki he ngaahi me\'a \'e lava \'o fakamatala pea ki he ngaahi \'ehe chatbots \'i he ta\'ahine.</string>
+    <string name="community_empty_title">Tulou, \'Ikai ha ngauekina \'i he ngaahi inisuʻI\'ai.</string>
+    <string name="community_empty_subtitle">Fakamamahi ha ngaahi fihia ki he fakakite i ha faingamaliea fekau aupo\'a.</string>
+
+    <string name="community_filters_limit"><![CDATA[Fili e tali ange %d ʻehe lea kehe ko ha tauhi tala maiʻa ʻi he fakahā moʻui ne maʻfana.]]></string>
+    <string name="community_filters_selected">%d/%d hili\'i</string>
+    <string name="community_filters_clear">Filita fatongia</string>
+    <string name="community_filters_your_languages">Ongoongo ke tau kau ai.</string>
+
+    <string name="chat_created_msg">Fakamatala fakatahataha</string>
+    <string name="chatbot_created_msg">Fakamatala fakavaha\'anga \'e %s \'OK\'</string>
+    <string name="chatbot_create_chat">Fai ha fakamatala \'i he %s</string>
+</resources>

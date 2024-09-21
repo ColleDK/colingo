@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Inicia la sessió</string>
+    <string name="onboarding_signup_btn">Registra\'t</string>
+    <string name="onboarding_other_title">O continua amb</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continuar com a convidat.</string>
+    <string name="onboarding_go_back">Torna enrere</string>
+
+    <!-- Log in -->
+    <string name="login_title">Benvingut de nou!</string>
+    <string name="login_subtitle">Inicia la sessió al teu compte</string>
+    <string name="login_email_hint">Correu electrònic</string>
+    <string name="login_password_hint">Contrasenya</string>
+    <string name="login_forgot_password">Has oblidat la contrasenya\?</string>
+    <string name="login_login_btn">Inicia la sessió</string>
+    <string name="login_go_to_signup_1">Encara no tens un compte\?</string>
+    <string name="login_go_to_signup_2">Registra\'t</string>
+    <string name="login_reset_password">Restablir contrasenya</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registre</string>
+    <string name="signup_subtitle">Crea el teu compte</string>
+    <string name="signup_name_hint">Nom</string>
+    <string name="signup_email_hint">Correu electrònic</string>
+    <string name="signup_password_hint">Contrasenya</string>
+    <string name="signup_confirm_password_hint">Confirma la contrasenya</string>
+    <string name="signup_signup_btn">Registre</string>
+    <string name="signup_go_to_login_1">Ja tens un compte\?</string>
+    <string name="signup_go_to_login_2">Inicia la sessió</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Següent</string>
+    <string name="setup_profile_finish">Acabar</string>
+    <string name="setup_profile_skip">Ometre</string>
+    <string name="add_picture_title">Configurar perfil</string>
+    <string name="add_picture_subtitle">Afegir foto de perfil</string>
+    <string name="add_languages_title">Configurar perfil</string>
+    <string name="add_languages_subtitle">Seleccionar idiomes</string>
+    <string name="add_languages_select_proficiency">Selecciona el nivell de competència</string>
+    <string name="add_languages_select_language">Selecciona l\'idioma</string>
+    <string name="add_languages_add_language">Afegir idioma</string>
+    <string name="add_language_select">Selecciona</string>
+    <string name="add_language_cancel">Cancel·lar</string>
+    <string name="select_gender_title">Configurar perfil</string>
+    <string name="select_gender_subtitle">Selecciona el gènere</string>
+    <string name="select_topics_title">Configurar perfil</string>
+    <string name="select_topics_subtitle">Seleccionar temes</string>
+    <string name="add_description_title">Configurar perfil</string>
+    <string name="add_description_subtitle">Afegeix alguna informació sobre tu mateix.</string>
+    <string name="add_description_birthday_hint">Aniversari</string>
+    <string name="add_description_birthday_select">Selecciona</string>
+    <string name="add_description_birthday_cancel">Cancel·lar</string>
+    <string name="add_description_location_hint">Ubicació</string>
+    <string name="add_description_description_hint">Descripció</string>
+</resources>

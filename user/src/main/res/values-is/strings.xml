@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Dýr</string>
+    <string name="topic_cooking">Matargerð</string>
+    <string name="topic_theater">Leikfélagið</string>
+    <string name="topic_partying">Á­pa­tíði</string>
+    <string name="topic_biking">Hjólað</string>
+    <string name="topic_camping">Kempa</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Kvikmyndir</string>
+    <string name="topic_music">Tónlist</string>
+    <string name="topic_painting">Myndlist</string>
+    <string name="topic_physics">Eðlisfræði</string>
+    <string name="topic_reading">Lesa</string>
+    <string name="topic_science">Vísindi</string>
+    <string name="topic_sports">Íþróttir</string>
+    <string name="topic_swimming">Sundlauf</string>
+    <string name="topic_technology">Tækni</string>
+    <string name="topic_videogame">Tölvuleikir</string>
+</resources>

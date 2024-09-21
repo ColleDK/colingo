@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">نوی چټکې جوړ کړه</string>
+    <string name="date_today">اوسه</string>
+
+    <string name="members_page_title">چټې</string>
+    <string name="bots_page_title">د بوټ چټکونه</string>
+
+    <string name="chat_my_messages">زه زړه ورځنې</string>
+    <string name="chat_empty_title">د تذکرې په اوږدونو کې نه وايي</string>
+    <string name="chat_empty_description">د خبريدلو لټول او خبرې د خلکو په دې کېدل اوسه ورته وړاندې کړۍ.</string>
+
+    <string name="chats_empty_title">هنوز د چټکانو مخې ونه نه وي</string>
+    <string name="chats_empty_description">د نوي خبري اولسم پرې کېداي شي، تاسو کولای شم دلته د دغه ليست وړ شوی کېږي.</string>
+
+    <string name="chats_delete_title">پیغام پاکول</string>
+    <string name="chats_delete_subtitle">دا کار قابل نه دی پرته امک نه کولای شي!</string>
+    <string name="chats_delete_confirm">تصدیق</string>
+    <string name="chats_delete_cancel">Cancel</string>
+    <string name="chats_delete_success">د چټک تلف کیدل شو</string>
+
+    <string name="message_time_today">اوسونه</string>
+    <string name="message_time_yesterday">Sta kal وروسته</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">لوئیس اووه یوه اسپانۍ ورځنی د کړه له خوښوي چې کولای شما په واړه زیاتولایسی!</string>
+</resources>

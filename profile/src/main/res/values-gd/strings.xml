@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Tagh</string>
+    <string name="cancel_birthday_selection">Sguir air ais</string>
+    <string name="edit_name_title">Ainm</string>
+    <string name="location_empty_title">Gun dearbhadh</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">Proifil soirbheachail gun iarraidh.</string>
+
+    <string name="topics_empty_title">Guthadh gun aon cuspair air a thaghadh</string>
+    <string name="topics_title">Ìomhaighichean</string>
+
+    <string name="languages_title">Cànainean</string>
+    <string name="languages_empty_title">Tha cànainean sam bith air a thaghadh</string>
+    <string name="profile_add_language">Cuir cànan</string>
+    <string name="profile_select_language">Tagh cànan</string>
+    <string name="profile_select_proficiency">Tagh eòlas</string>
+    <string name="add_language_select">Tagh</string>
+    <string name="add_language_cancel">Cuir dheth</string>
+    <string name="gender_title">Ainmhidhean</string>
+</resources>

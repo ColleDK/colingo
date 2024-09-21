@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Pata washirika</string>
+    <string name="community_page_title">Wanachama</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Hutamka</string>
+    <string name="community_user_learns">Kujifunza</string>
+
+    <string name="community_ai_empty_title">Hakuna chatbots walioonekana</string>
+    <string name="community_ai_empty_subtitle">Jaribu kuboresha mipasho yako ili upate chatbots zaidi</string>
+    <string name="community_empty_title">Hakuna watumiaji walioonekana</string>
+    <string name="community_empty_subtitle">Jaribu kuboresha vichujio vyako ili upate watumiaji zaidi</string>
+
+    <string name="community_filters_limit">Chagua lugha hadi %d unayotaka kuona wasemaji wanaojua kuzungumza vizuri.</string>
+    <string name="community_filters_selected">%d/%d kuchaguliwa</string>
+    <string name="community_filters_clear">Ondoa vichujio</string>
+    <string name="community_filters_your_languages">Lugha zako za sasa</string>
+
+    <string name="chat_created_msg">Mazungumzo yameundwa</string>
+    <string name="chatbot_created_msg">Mazungumzo yaliyoanzishwa na %s</string>
+    <string name="chatbot_create_chat">Tengeneza mazungumzo na %s</string>
+</resources>

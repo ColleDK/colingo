@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Мій стрім</string>
+    <string name="post_create_new">Створити новий допис</string>
+    <string name="create_post_dismiss">Скасувати</string>
+    <string name="create_post_create">Створити</string>
+    <string name="post_show_more">Показати більше</string>
+    <string name="post_show_less">Показати менше</string>
+
+    <string name="create_post_success">Повідомлення створено</string>
+    <string name="create_chat_success">Чат створено</string>
+
+    <string name="home_filters_oldest">Найстарший</string>
+    <string name="home_filters_newest">Найновіші</string>
+    <string name="post_create_comment">Додати коментар</string>
+    <string name="post_likes">%s подобається</string>
+    <string name="post_comments">Текст для перекладу: %s коментарів</string>
+    <string name="post_no_comments_title">Ще немає відповіді</string>
+    <string name="post_no_comments_subtitle">Будьте першим, хто поділиться своїми думками щодо цього повідомлення.</string>
+
+    <string name="error_msg_general">Щось пішло не так. Будь ласка, спробуйте ще раз.</string>
+</resources>

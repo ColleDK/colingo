@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ສ້າງການວຽກໃໝ່</string>
+    <string name="date_today">ມື້ນີ້</string>
+
+    <string name="members_page_title">ສົງກັນ</string>
+    <string name="bots_page_title">ສໍາຫຼັບພາບຂໍຂໍ</string>
+
+    <string name="chat_my_messages">ຂໍ້ຄວາມຂອງຂ້ອຍ</string>
+    <string name="chat_empty_title">ຍັງບໍ່ມີຂໍ້ຄວາມຫຼັງກ່ວາ</string>
+    <string name="chat_empty_description">ແຕະຈິງເພື່ອເຫັນພາບຂ້ອຍມີແຊວຂອງທ່ານໃນນີ້.</string>
+
+    <string name="chats_empty_title">ຍັງບໍ່ມ່ວນມີການສງິນເອງ</string>
+    <string name="chats_empty_description">ເມື mostສໍາເລັດກ່ຽວຝັ້ນຖືກຮ່ອມຮຽນໃກ້ໄດ້, ທ່ານຈະເບິ່ງມີການຮ່ອມຮຽນໃຫຍ່ລະອາດທີ່ຈະໄດ້ຫາຢູ່ທີ່ນີ້.</string>
+
+    <string name="chats_delete_title">ລຶບກາຍຫ້ອງວຽກ</string>
+    <string name="chats_delete_subtitle">ການນັບຕໍ່ນີ້ບໍ່ສາມາດເລີ່ມຕົ້ນໄດ້!</string>
+    <string name="chats_delete_confirm">ຢືນຢູ່</string>
+    <string name="chats_delete_cancel">ຍົກຍົກ</string>
+    <string name="chats_delete_success">ສົ່ງຂ້ອຍຖະແຫຼງ</string>
+
+    <string name="message_time_today">ມື້ນີ້</string>
+    <string name="message_time_yesterday">ມື້ວັນມືນ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">ລູກຄ້າ: ຫລີໄຊ໌ແມ່ແກນເປັນຂອງພາລາສາ ທີ່ສາມາດຊ່ວຍເພື່ອປົກຄອງວິດີໂອມັນຂອງທ່ານ!</string>
+</resources>

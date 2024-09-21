@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Looge uus vestlus</string>
+    <string name="date_today">Täna</string>
+
+    <string name="members_page_title">Tekst tõlkimiseks: Vestlused</string>
+    <string name="bots_page_title">Boti jututoad</string>
+
+    <string name="chat_my_messages">Minu sõnumid</string>
+    <string name="chat_empty_title">Sõnumeid veel pole</string>
+    <string name="chat_empty_description">Alusta vestlust, et näha oma sõnumeid siin.</string>
+
+    <string name="chats_empty_title">Pole veel vestlusi</string>
+    <string name="chats_empty_description">Kui olete alustanud uut vestlust, siis näete seda siin loetletud.</string>
+
+    <string name="chats_delete_title">Kustuta vestlus</string>
+    <string name="chats_delete_subtitle">See toimingut ei saa tagasi võtta!</string>
+    <string name="chats_delete_confirm">Kinnita</string>
+    <string name="chats_delete_cancel">Tühista</string>
+    <string name="chats_delete_success">Vestlus kustutatud</string>
+
+    <string name="message_time_today">Täna</string>
+    <string name="message_time_yesterday">Eile</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise on hispaania keele õpetaja, kes saab aidata sul oma sõnavara parandada!</string>
+</resources>

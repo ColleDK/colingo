@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Annimali</string>
+    <string name="topic_cooking">Kikkra</string>
+    <string name="topic_theater">Teatru</string>
+    <string name="topic_partying">Festi</string>
+    <string name="topic_biking">Bikking</string>
+    <string name="topic_camping">Kampar.</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditazzjoni</string>
+    <string name="topic_movie">Films</string>
+    <string name="topic_music">Musika</string>
+    <string name="topic_painting">Pittura</string>
+    <string name="topic_physics">Fisika</string>
+    <string name="topic_reading">Taqsima</string>
+    <string name="topic_science">Il-ħsieb</string>
+    <string name="topic_sports">Sport</string>
+    <string name="topic_swimming">Nużawarar</string>
+    <string name="topic_technology">Teknoloġija</string>
+    <string name="topic_videogame">Video games</string>
+</resources>

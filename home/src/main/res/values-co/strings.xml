@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">A mio feed</string>
+    <string name="post_create_new">Cree un novu postu</string>
+    <string name="create_post_dismiss">Annulà</string>
+    <string name="create_post_create">Cree</string>
+    <string name="post_show_more">Mostra di più</string>
+    <string name="post_show_less">Mostra menus</string>
+
+    <string name="create_post_success">Post creatu</string>
+    <string name="create_chat_success">Chat creatu</string>
+
+    <string name="home_filters_oldest">Più antichi</string>
+    <string name="home_filters_newest">Novu</string>
+    <string name="post_create_comment">Aghjungete un cumentu</string>
+    <string name="post_likes">%s piace</string>
+    <string name="post_comments">%s cumentarii</string>
+    <string name="post_no_comments_title">Ancora nisuna risposta</string>
+    <string name="post_no_comments_subtitle">Sii u primu à cumpartì i to penseri nant\'à sta publicazione</string>
+
+    <string name="error_msg_general">Qualcosa è andato stortu. Perfavore riprova.</string>
+</resources>

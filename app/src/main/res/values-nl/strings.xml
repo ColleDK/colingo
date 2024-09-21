@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Home</string>
+    <string name="destination_explore_label">Verkennen</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profiel</string>
+    <string name="destination_settings_label">Instellingen</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Meldingen</string>
+    <string name="setting_permissions_title">Machtigingen</string>
+    <string name="setting_accessibility_title">Toegankelijkheid</string>
+    <string name="setting_about_title">Over</string>
+    <string name="setting_rate_title">Beoordeel de app</string>
+    <string name="setting_report_title">Meld een bug.</string>
+    <string name="setting_logout_title">Afmelden</string>
+    <string name="setting_switch_language_title">Schakel talen om</string>
+
+    <string name="selected_language">Geselecteerde taal</string>
+
+    <string name="settings_change">Wijzig instellingen</string>
+    <string name="settings_switch_language">Taal wijzigen</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamische thema\'s</string>
+    <string name="setting_dark_theme">Donker thema</string>
+
+    <string name="settings_rate_app_page_title">Beoordeel app</string>
+    <string name="settings_switch_language_title">Verander taal</string>
+    <string name="settings_theming_title"><![CDATA[Thema\'s & kleuren]]></string>
+    <string name="settings_about_page_title">Over de app</string>
+    <string name="settings_about_page_description1">Colingo is een open-source platform voor taaluitwisseling dat wordt ontwikkeld door Colle/William en wordt aangedreven door de gemeenschap.</string>
+    <string name="settings_about_page_description2">We streven ernaar zo open en transparant mogelijk te zijn over alles in de app, daarom houden we het open-source.</string>
+    <string name="settings_about_page_description3">Alle vertalingen in de app worden gedaan door AI en kunnen daarom vertaalfouten bevatten - als je er een vindt, meld het dan in het \"Bug rapporteren\" venster.</string>
+    <string name="settings_about_page_contact">Als u vragen of suggesties heeft voor de app, kunt u contact met ons opnemen op:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Rapporteer bug</string>
+    <string name="settings_report_bug_title">Om stabiliteit te waarborgen, verzamelen we automatisch crashrapporten, maar als u problemen ondervindt en rechtstreeks een bug wilt indienen, vul dan een formulier in met zoveel informatie als u heeft.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

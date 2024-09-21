@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Cilingo</string>
+    <string name="onboarding_login_btn">Ingia</string>
+    <string name="onboarding_signup_btn">Jiandikishe</string>
+    <string name="onboarding_other_title">Endelea na</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Endelea kama mgeni</string>
+    <string name="onboarding_go_back">Rudi</string>
+
+    <!-- Log in -->
+    <string name="login_title">Karibu tena!</string>
+    <string name="login_subtitle">Ingia katika akaunti yako</string>
+    <string name="login_email_hint">Barua pepe</string>
+    <string name="login_password_hint">Nenosiri</string>
+    <string name="login_forgot_password">Sahau nenosiri\?</string>
+    <string name="login_login_btn">Ingia</string>
+    <string name="login_go_to_signup_1">Huna akaunti bado\?</string>
+    <string name="login_go_to_signup_2">Jisajili</string>
+    <string name="login_reset_password">Rekebisha nenosiri</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Sajili</string>
+    <string name="signup_subtitle">Tengeneza akaunti yako</string>
+    <string name="signup_name_hint">Jina</string>
+    <string name="signup_email_hint">Barua pepe</string>
+    <string name="signup_password_hint">Nenosiri</string>
+    <string name="signup_confirm_password_hint">Thibitisha nenosiri</string>
+    <string name="signup_signup_btn">Jiandikishe</string>
+    <string name="signup_go_to_login_1">Tayari una akaunti\?</string>
+    <string name="signup_go_to_login_2">Ingia</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Maliza</string>
+    <string name="setup_profile_skip">Ruka</string>
+    <string name="add_picture_title">Jaza wasifu</string>
+    <string name="add_picture_subtitle">Ongeza picha ya wasifu</string>
+    <string name="add_languages_title">Jaza wasifu</string>
+    <string name="add_languages_subtitle">Chagua lugha</string>
+    <string name="add_languages_select_proficiency">Chagua ujuzi</string>
+    <string name="add_languages_select_language">Chagua lugha</string>
+    <string name="add_languages_add_language">Ongeza lugha</string>
+    <string name="add_language_select">Chagua</string>
+    <string name="add_language_cancel">Ghairi</string>
+    <string name="select_gender_title">Sakinisha wasifu</string>
+    <string name="select_gender_subtitle">Chagua jinsia</string>
+    <string name="select_topics_title">Sakinisha wasifu</string>
+    <string name="select_topics_subtitle">Chagua mada</string>
+    <string name="add_description_title">Sanidi wasifu</string>
+    <string name="add_description_subtitle">Ongeza taarifa kuhusu wewe mwenyewe</string>
+    <string name="add_description_birthday_hint">Siku ya kuzaliwa</string>
+    <string name="add_description_birthday_select">Chagua</string>
+    <string name="add_description_birthday_cancel">Ghairi</string>
+    <string name="add_description_location_hint">Mahali</string>
+    <string name="add_description_description_hint">Maelezo</string>
+</resources>

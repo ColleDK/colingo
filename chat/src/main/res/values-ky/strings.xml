@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Жаңы чат жасоо</string>
+    <string name="date_today">Бүгүн</string>
+
+    <string name="members_page_title">Сүйлөшүүлөр</string>
+    <string name="bots_page_title">Бот сүйлөүлөрü</string>
+
+    <string name="chat_my_messages">Менин жаздыларым</string>
+    <string name="chat_empty_title">Жок кошулгон мезгил жок</string>
+    <string name="chat_empty_description">Мөлчерге баштоо үчүн бул жерде жазуунузду көрсөтүп баштооңуз.</string>
+
+    <string name="chats_empty_title">Чаттар жок</string>
+    <string name="chats_empty_description">Түзүү начартканда каалайсыз, ал тизмеде көрүп аласыз.</string>
+
+    <string name="chats_delete_title">Чатты өчүрүү</string>
+    <string name="chats_delete_subtitle">Эки шарттуу этелбейт!</string>
+    <string name="chats_delete_confirm">Тастыктуу</string>
+    <string name="chats_delete_cancel">Жоккоо</string>
+    <string name="chats_delete_success">Сүйлөшүү жок этилди</string>
+
+    <string name="message_time_today">Бүгүн</string>
+    <string name="message_time_yesterday">Кече.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise - Испаниялык оқуучу, сөз санатыңызды жеткиликтүүдү жеткиликтүүдүн маңыздатууга көмөктөй алат.</string>
+</resources>

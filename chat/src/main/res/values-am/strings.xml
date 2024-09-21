@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ኮለም አዲስ ቀንየሉ።</string>
+    <string name="date_today">ወሬ</string>
+
+    <string name="members_page_title">ፓስትOP</string>
+    <string name="bots_page_title">ስለ ቦት ቀላል ከፈለው</string>
+
+    <string name="chat_my_messages">መልዕክቶችን</string>
+    <string name="chat_empty_title">መልእክቶች እኛን ያለው አላባላት የለም</string>
+    <string name="chat_empty_description">ንግስት የምልከት ያለውን መልዕክቶችን ይጠቀሙ።</string>
+
+    <string name="chats_empty_title">በላይ እንዴት ያልተወደደበት ታሪክ አልሰራም</string>
+    <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+
+    <string name="chats_delete_title">ተምረው ፅሁፎ</string>
+    <string name="chats_delete_subtitle">ይህ ብጥብጥታ አይብለንም!</string>
+    <string name="chats_delete_confirm">ተነስቷል</string>
+    <string name="chats_delete_cancel">ሰርዝ</string>
+    <string name="chats_delete_success">ታክታለት ውድ ተዘምነው</string>
+
+    <string name="message_time_today">ወሬ</string>
+    <string name="message_time_yesterday">ቅዳሜ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ማንዳ ላሉት ምንድን ነው በጥንካሬ ወደዚህ ወደእርስዎ ትግበር ይላኩ!</string>
+</resources>

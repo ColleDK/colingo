@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Δημιουργία νέας συνομιλίας</string>
+    <string name="date_today">Σήμερα</string>
+
+    <string name="members_page_title">Συνομιλίες</string>
+    <string name="bots_page_title">Συνομιλίες με ρομπότ</string>
+
+    <string name="chat_my_messages">Τα μηνύματά μου</string>
+    <string name="chat_empty_title">Κανένα μήνυμα ακόμα</string>
+    <string name="chat_empty_description">Ξεκινήστε τη συνομιλία για να δείτε τα μηνύματά σας εδώ.</string>
+
+    <string name="chats_empty_title">Καμία συνομιλία ακόμα</string>
+    <string name="chats_empty_description">Μόλις ξεκινήσετε μια νέα συνομιλία, θα την δείτε εδώ στη λίστα.</string>
+
+    <string name="chats_delete_title">Διαγραφή συνομιλίας</string>
+    <string name="chats_delete_subtitle">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!</string>
+    <string name="chats_delete_confirm">Επιβεβαίωση</string>
+    <string name="chats_delete_cancel">Ακύρωση</string>
+    <string name="chats_delete_success">Συνομιλία διαγράφηκε</string>
+
+    <string name="message_time_today">Σήμερα</string>
+    <string name="message_time_yesterday">Χθες</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Η Louise είναι μια δάσκαλος Ισπανικών που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+</resources>

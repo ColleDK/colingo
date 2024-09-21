@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">விலங்குகள்</string>
+    <string name="topic_cooking">சமையல்</string>
+    <string name="topic_theater">திரையரங்கம்</string>
+    <string name="topic_partying">விளையாட்டு</string>
+    <string name="topic_biking">சைக்கிளிங்</string>
+    <string name="topic_camping">கேம்பிங்</string>
+    <string name="topic_fitness">உடல் ஆரோக்கியம்</string>
+    <string name="topic_meditation">யோகம்</string>
+    <string name="topic_movie">திரைப்படங்கள்</string>
+    <string name="topic_music">இசை</string>
+    <string name="topic_painting">ஓவியம்</string>
+    <string name="topic_physics">பொதுவியல்</string>
+    <string name="topic_reading">வாசிப்பது</string>
+    <string name="topic_science">அறிவியல்</string>
+    <string name="topic_sports">விளையாட்டு</string>
+    <string name="topic_swimming">குளம் பயிற்சி</string>
+    <string name="topic_technology">தொழில்நுட்பம்</string>
+    <string name="topic_videogame">வீடியோ விளக்கம்.</string>
+</resources>

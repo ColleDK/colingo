@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ተወዳጅ ኣኖላት ።</string>
+    <string name="community_page_title">ኣባላት</string>
+    <string name="chatbot_page_title">መልእኽቲ ኮንትኤንቶብስ</string>
+    <string name="community_user_speaks">ትክክለኛ</string>
+    <string name="community_user_learns">ምምሕዝና ለምለም ሕግዝት</string>
+
+    <string name="community_ai_empty_title">ሕክወት እያ ክትመልእ ብሕማም ኣሎ ።</string>
+    <string name="community_ai_empty_subtitle">ናብሩ ካብ ስላጡ ኣፕ ካልእን ጻዕር እንሓይሽ ነቲ ሓሰይ ምድሓን ምኽንያት ንምግበር ንግስታትን በዓል መራሒን ኩሉ ንምግበር ደዋየን ነዚሁ ከም ህግደፍ ዝኒኦም እንተዘይብልን።</string>
+    <string name="community_empty_title">ኣበይ ተጠቓማይ ኣይኮነን ንምምዕር ክትምጽሖን ክሳብሖን።</string>
+    <string name="community_empty_subtitle">ኣባልዋ ከም ፊልትህ ኣብዚ ኣፈቱና፡ ብዝሒ ተፈልቲ እዩ ምምዝግብህ ከይዘረብ።</string>
+
+    <string name="community_filters_limit">ምንጣጣማ ቅድሚት ኣብ %d ቋንቋ ናይዚ ደምበኩም ተማህራን።</string>
+    <string name="community_filters_selected">%d/%d ተምርህር</string>
+    <string name="community_filters_clear">ኣገልግሎት መብራህ</string>
+    <string name="community_filters_your_languages">ቋንጣ፣ ሓበሬታታትን፡</string>
+
+    <string name="chat_created_msg">ጨምም፡ እስከሚቆጠቅበት ቀን ከሆነ ያለበት ነው ።</string>
+    <string name="chatbot_created_msg">ክስን ተፈጠረ ብ %s</string>
+    <string name="chatbot_create_chat">ተነስታ ኣስበሮ ኣብ %s</string>
+</resources>

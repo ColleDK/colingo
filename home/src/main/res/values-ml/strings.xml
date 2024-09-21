@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">എനിക്ക് ഫീഡ്</string>
+    <string name="post_create_new">ഒരു പുതിയ പോസ്റ്റ് സൃഷ്ടിക്കുക.</string>
+    <string name="create_post_dismiss">റദ്ദാക്കുക</string>
+    <string name="create_post_create">സൃഷ്ടിക്കുക</string>
+    <string name="post_show_more">കൂടുതല്‍ കാണിക്കുക</string>
+    <string name="post_show_less">കുറച്ച് കാണിക്കുക</string>
+
+    <string name="create_post_success">പോസ്റ്റ് സൃഷ്ടിച്ചു</string>
+    <string name="create_chat_success">ചാട് സൃഷ്ടിച്ചു</string>
+
+    <string name="home_filters_oldest">ഏറെ പുരാതനമായിരിക്കുന്നു</string>
+    <string name="home_filters_newest">അത്യുപരിതത്തയായത്</string>
+    <string name="post_create_comment">ഒരു അഭിപ്രായം ചേർക്കുക</string>
+    <string name="post_likes">%s ഇഷ്ടപ്പെടുന്നു</string>
+    <string name="post_comments">%s അഭിപ്രായങ്ങൾ</string>
+    <string name="post_no_comments_title">എന്നതിനായി ഉത്തരമൊന്നും ഇല്ല.</string>
+    <string name="post_no_comments_subtitle">ഈ പോസ്റ്റിലെ നിങ്ങളുടെ അഭിപ്രായങ്ങൾ പങ്കുവെയ്ക്കാൻ ആദ്യത്തിൽ ആവശ്യമുള്ളവരാകൂ</string>
+
+    <string name="error_msg_general">ഒന്നുംശരിയായി പോയെന്ന് പുനഃപ്രയത്നിക്കുക.</string>
+</resources>

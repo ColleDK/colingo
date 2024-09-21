@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Izilwane</string>
+    <string name="topic_cooking">Ukusiza</string>
+    <string name="topic_theater">Izulu</string>
+    <string name="topic_partying">Ukushaywa.</string>
+    <string name="topic_biking">Ukuhamba ngamabhasikidi</string>
+    <string name="topic_camping">Ukucimeka</string>
+    <string name="topic_fitness">Ukukhula</string>
+    <string name="topic_meditation">Ukuphakama</string>
+    <string name="topic_movie">Izikrini</string>
+    <string name="topic_music">Ingingo</string>
+    <string name="topic_painting">Ulimi</string>
+    <string name="topic_physics">Ok</string>
+    <string name="topic_reading">Ukufunda</string>
+    <string name="topic_science">Ncazelo</string>
+    <string name="topic_sports">Izilaleli</string>
+    <string name="topic_swimming">Ukulungisa</string>
+    <string name="topic_technology">Izifundo</string>
+    <string name="topic_videogame">Amagambu okuvakasha</string>
+</resources>

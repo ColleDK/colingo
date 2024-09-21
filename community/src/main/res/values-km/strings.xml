@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ស្វែងរកសហកម្ម</string>
+    <string name="community_page_title">សមាជិក</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">នៅនឹងនិយាយ</string>
+    <string name="community_user_learns">ការរៀន</string>
+
+    <string name="community_ai_empty_title">មិន​បាន​រក​ឃើញ​ឧប្បត្តិ​កម្មសិទ្ធិ​OK</string>
+    <string name="community_ai_empty_subtitle">សាកល្បងធ្វើការធ្វើបច្ចុប្បន្បភាពបន្តយើងប្រសិនបើអ្នកចង់រកឃើញទិដ្ឋភាព​ពីតំណាងទិដ្ឋភាព​ដូ​ចាប់ផ្តើ។</string>
+    <string name="community_empty_title">រកមិនឃើញអ្នក​ប្រើប្រាស់​ទេ​។</string>
+    <string name="community_empty_subtitle">ព្យាយាមធ្វើបច្ចេកវិទ្យាដើម្បីរកឃើញអ្នកប្រើប្រាស់ច្រើនបានទៀត</string>
+
+    <string name="community_filters_limit">ជ្រើសរើសភាគហ៊ុន %d ភាគហ៊ុនភាគហ៊ុនអ្នកនិយាយរស់រយ។</string>
+    <string name="community_filters_selected">បានជ្រើសរើស %d/%d</string>
+    <string name="community_filters_clear">សម្រាប់​លំដាប់​ច្រត់​ចំបង</string>
+    <string name="community_filters_your_languages">ភាសា​បច្ចុប្បន្ត​បច្ចេក​ហួ​បច្ចេក​នោះ​របស់​អ្នក​ហើយ​មឺ​ពាំង​ន៌​ក​​ទំនាំ​នៃ​ភាសារបស់​អ្នក។</string>
+
+    <string name="chat_created_msg">ការពេលអោយ話</string>
+    <string name="chatbot_created_msg">ការពិនិត្យឯកសារបានបង្កើតដោយ %s</string>
+    <string name="chatbot_create_chat">បង្កើត​ការ​ជជែក​ជាមួយ %s</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Krijo një bisedë të re</string>
+    <string name="date_today">Sot</string>
+
+    <string name="members_page_title">Bisedime</string>
+    <string name="bots_page_title">Bisedat e botës</string>
+
+    <string name="chat_my_messages">Mesazhet e mia</string>
+    <string name="chat_empty_title">Asnjë mesazh ende</string>
+    <string name="chat_empty_description">Fillimi i bisedës për të parë mesazhet tuaja këtu.</string>
+
+    <string name="chats_empty_title">Asnjë bisedë ende</string>
+    <string name="chats_empty_description">Pasi të keni filluar një bisedë të re, do ta shihni të listuar këtu.</string>
+
+    <string name="chats_delete_title">Fshije bisedën</string>
+    <string name="chats_delete_subtitle">Ky veprim nuk mund të zhbëhet!</string>
+    <string name="chats_delete_confirm">Konfirmo</string>
+    <string name="chats_delete_cancel">Anulo</string>
+    <string name="chats_delete_success">Biseda fshirë</string>
+
+    <string name="message_time_today">Sot</string>
+    <string name="message_time_yesterday">Dje</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise është një mësuese spanjolle që mund t\'ju ndihmojë të përmirësoni fjalorin tuaj!</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Nájdite partnerov</string>
+    <string name="community_page_title">Členovia</string>
+    <string name="chatbot_page_title">Chatboty</string>
+    <string name="community_user_speaks">Hovorí</string>
+    <string name="community_user_learns">Učenie</string>
+
+    <string name="community_ai_empty_title">Žiadne chatboty neboli nájdené.</string>
+    <string name="community_ai_empty_subtitle">Skúste aktualizovať filtre, aby ste našli viac chatbotov.</string>
+    <string name="community_empty_title">Žiadni používatelia nenájdení</string>
+    <string name="community_empty_subtitle">Skúste aktualizovať svoje filtre, aby ste našli viac užívateľov.</string>
+
+    <string name="community_filters_limit">Vyberte až %d jazykov, z ktorých chcete vidieť plynulých hovorcov.</string>
+    <string name="community_filters_selected">Vybraných %d/%d</string>
+    <string name="community_filters_clear">Vymazať filtre</string>
+    <string name="community_filters_your_languages">Vaše aktuálne jazyky</string>
+
+    <string name="chat_created_msg">Chat bol vytvorený</string>
+    <string name="chatbot_created_msg">Chat vytvorený s %s</string>
+    <string name="chatbot_create_chat">Vytvoriť chat s %s</string>
+</resources>

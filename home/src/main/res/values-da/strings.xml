@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Min feed</string>
+    <string name="post_create_new">Opret et nyt opslag.</string>
+    <string name="create_post_dismiss">Annuller</string>
+    <string name="create_post_create">Opret</string>
+    <string name="post_show_more">Vis mere</string>
+    <string name="post_show_less">Vis mindre</string>
+
+    <string name="create_post_success">Indlæg oprettet</string>
+    <string name="create_chat_success">Chat oprettet</string>
+
+    <string name="home_filters_oldest">Ældste</string>
+    <string name="home_filters_newest">Nyeste</string>
+    <string name="post_create_comment">Tilføj en kommentar</string>
+    <string name="post_likes">%s kan lide.</string>
+    <string name="post_comments">%s kommentarer</string>
+    <string name="post_no_comments_title">Ingen svar endnu</string>
+    <string name="post_no_comments_subtitle">Vær den første til at dele dine tanker om dette indlæg.</string>
+
+    <string name="error_msg_general">Noget gik galt. Prøv igen.</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pilih</string>
+    <string name="cancel_birthday_selection">Batal</string>
+    <string name="edit_name_title">Ngaran</string>
+    <string name="location_empty_title">Teu ditangtos.</string>
+
+    <string name="description_title">Katerangan</string>
+
+    <string name="profile_updated_success">Profil hasil dirobah suksés</string>
+
+    <string name="topics_empty_title">Teu aya topik dipilih</string>
+    <string name="topics_title">Hambalan</string>
+
+    <string name="languages_title">Bahasa-basa</string>
+    <string name="languages_empty_title">Teu aya basa dipilih</string>
+    <string name="profile_add_language">Tambah basa</string>
+    <string name="profile_select_language">Pilih basa</string>
+    <string name="profile_select_proficiency">Pilih kemahiran</string>
+    <string name="add_language_select">Pilih</string>
+    <string name="add_language_cancel">Batal</string>
+    <string name="gender_title">Jenis kelamin</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Nqe Lus paub: Home</string>
+    <string name="destination_explore_label">Txhais lus: Explore</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Accessibility</string>
+    <string name="setting_about_title">About</string>
+    <string name="setting_rate_title">Rate the app</string>
+    <string name="setting_report_title">Report a bug: Txhua tus nqi xyuas sau ua hauv kev pab.</string>
+    <string name="setting_logout_title">Thoob kom Loj tub yeej.</string>
+    <string name="setting_switch_language_title">Switch languages</string>
+
+    <string name="selected_language">Yam siv lus tus.</string>
+
+    <string name="settings_change">Thov hloov sau cov khoom muaj.</string>
+    <string name="settings_switch_language">Txawv hmoob pib nto qhov ua lus yog vim tias muaj hnub tuaj pej xwb tso.</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming: 𠱓𠰇𠸌𠼺𧈞𡆠</string>
+
+    <string name="settings_rate_app_page_title">Rate app</string>
+    <string name="settings_switch_language_title">Cov lus txhais lus saib xws li.</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Text to translate: About the app</string>
+    <string name="settings_about_page_description1">Colingo yog ib tus tswv yim ntawm cov neeg siv tawv nqai kom txhij peb hauv ib tug platform tswv yim tseem ceeb uas Colle/William muaj.</string>
+    <string name="settings_about_page_description2">Yog peb yuav cuag neeg pib thaum hu ua app no, tom qab peb tsis tau mus ua app los sis.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">Muaj lus qhia los sis lus niam tsev rau kev pab, txawm koj tuaj nrhiav rau peb ntawm:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Report bug</string>
+    <string name="settings_report_bug_title">OK</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

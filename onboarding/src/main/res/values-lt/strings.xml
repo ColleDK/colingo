@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Prisijungti</string>
+    <string name="onboarding_signup_btn">Užsiregistruoti</string>
+    <string name="onboarding_other_title">Arba tęskite su</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Tęsti kaip svečias</string>
+    <string name="onboarding_go_back">Grįžkite</string>
+
+    <!-- Log in -->
+    <string name="login_title">Sveiki sugrįžę!</string>
+    <string name="login_subtitle">Prisijungti prie savo paskyros</string>
+    <string name="login_email_hint">El. paštas</string>
+    <string name="login_password_hint">Slaptažodis</string>
+    <string name="login_forgot_password">Pamiršote slaptažodį\?</string>
+    <string name="login_login_btn">Prisijungti</string>
+    <string name="login_go_to_signup_1">Dar neturite paskyros\?</string>
+    <string name="login_go_to_signup_2">Užsiregistruoti</string>
+    <string name="login_reset_password">Nustatyti slaptažodį</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registruotis</string>
+    <string name="signup_subtitle">Sukurkite savo paskyrą</string>
+    <string name="signup_name_hint">Vardas</string>
+    <string name="signup_email_hint">El. paštas</string>
+    <string name="signup_password_hint">Slaptažodis</string>
+    <string name="signup_confirm_password_hint">Patvirtinti slaptažodį</string>
+    <string name="signup_signup_btn">Registruotis</string>
+    <string name="signup_go_to_login_1">Turite paskyrą\?</string>
+    <string name="signup_go_to_login_2">Prisijungti</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Kitas</string>
+    <string name="setup_profile_finish">Pabaigti</string>
+    <string name="setup_profile_skip">Praleisti</string>
+    <string name="add_picture_title">Nustatyti profilį</string>
+    <string name="add_picture_subtitle">Pridėti profilio nuotrauką</string>
+    <string name="add_languages_title">Nustatyti profilį</string>
+    <string name="add_languages_subtitle">Pasirinkite kalbas</string>
+    <string name="add_languages_select_proficiency">Pasirinkite įgūdžių lygį</string>
+    <string name="add_languages_select_language">Pasirinkite kalbą</string>
+    <string name="add_languages_add_language">Pridėti kalbą</string>
+    <string name="add_language_select">Pasirinkti</string>
+    <string name="add_language_cancel">Atšaukti</string>
+    <string name="select_gender_title">Profilio sąranka</string>
+    <string name="select_gender_subtitle">Pasirinkite lytį</string>
+    <string name="select_topics_title">Profilio sąranka</string>
+    <string name="select_topics_subtitle">Pasirinkite temas.</string>
+    <string name="add_description_title">Profilio nustatymas</string>
+    <string name="add_description_subtitle">Pridėkite keletą informacijos apie save.</string>
+    <string name="add_description_birthday_hint">Gimtadienis</string>
+    <string name="add_description_birthday_select">Pasirinkti</string>
+    <string name="add_description_birthday_cancel">Atšaukti</string>
+    <string name="add_description_location_hint">Vieta</string>
+    <string name="add_description_description_hint">Aprašymas</string>
+</resources>

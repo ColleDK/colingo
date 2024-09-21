@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">בחר</string>
+    <string name="cancel_birthday_selection">בטל</string>
+    <string name="edit_name_title">שם</string>
+    <string name="location_empty_title">לא מוגדר</string>
+
+    <string name="description_title">תיאור</string>
+
+    <string name="profile_updated_success">הפרופיל עודכן בהצלחה</string>
+
+    <string name="topics_empty_title">אין נבחר נושאים</string>
+    <string name="topics_title">תחומי עניין</string>
+
+    <string name="languages_title">שפות</string>
+    <string name="languages_empty_title">אין שפות נבחרו</string>
+    <string name="profile_add_language">הוסף שפה</string>
+    <string name="profile_select_language">בחר שפה</string>
+    <string name="profile_select_proficiency">בחר רמת מיומנות</string>
+    <string name="add_language_select">בחר</string>
+    <string name="add_language_cancel">בטל</string>
+    <string name="gender_title">מגדר</string>
+</resources>

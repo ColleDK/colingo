@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">ຊື່ເພື່ອຄົ້ນຫາຄົນເພື່ອສຶກສາ</string>
+    <string name="community_page_title">ສະມາຊິກ</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">ສ່ວນ</string>
+    <string name="community_user_learns">ການໄດ້ໄລ່</string>
+
+    <string name="community_ai_empty_title">ບໍ່ພວກມະນຸແມ່ບູດປຶກຕົວ</string>
+    <string name="community_ai_empty_subtitle">ພວກເຮົາອ່າງໃຊ້ການປັບຂື້ນກີບຂອງທ່ານເພື່ອຊອກຫາແຫ້ chatbots ອີກຄັ້ງ</string>
+    <string name="community_empty_title">ບໍ່ພົບຜູ້ໃຊ້</string>
+    <string name="community_empty_subtitle">ພລັງອັບເຕຣແຕ່ການປ່ຽນແຕ່ສິດຂອງທ່ານເພື່ອຄົ້ນຫາຜູ້ໃຫ້ຫຼາຍຫລາຍກັບ</string>
+
+    <string name="community_filters_limit">ເລືອກໄປຫາ %d ໄລຍະພາສາທີ່ທ່ານຕ້ອງການເບີກຄືນສໍາລັບຊາອູຳກາດ</string>
+    <string name="community_filters_selected">ເລືອກ %d/%d</string>
+    <string name="community_filters_clear">ລຶບການກັບຄືນ</string>
+    <string name="community_filters_your_languages">ພາສາປັດປຸງປັຫຍຈາກການສ້າງແບບທີ່ແມ່ນຫຼັງຈາກ</string>
+
+    <string name="chat_created_msg">ສໍາລັບການແລກປ່ຽນຖາມ</string>
+    <string name="chatbot_created_msg">ສົ່ງຮູບຂໍ້ຄວາມກະໄຍ %s</string>
+    <string name="chatbot_create_chat">ສ້າງ​ການ​ຖາມ​ງານ​ງານ​ດ​%s</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Fufutani</string>
+    <string name="cancel_birthday_selection">Gwiritsani ntchito</string>
+    <string name="edit_name_title">Dzina</string>
+    <string name="location_empty_title">Unazindikilizidwa</string>
+
+    <string name="description_title">Opita.</string>
+
+    <string name="profile_updated_success">Profile imachitika bwino pa zitukukozi</string>
+
+    <string name="topics_empty_title">No topics selected</string>
+    <string name="topics_title">Mawonekedwe</string>
+
+    <string name="languages_title">Languages</string>
+    <string name="languages_empty_title">Pasakhale mawu ochiti \'No languages selected\'.</string>
+    <string name="profile_add_language">Pitiriza chiyanjano</string>
+    <string name="profile_select_language">Funsani chiyanjano</string>
+    <string name="profile_select_proficiency">Sankhani ubwino</string>
+    <string name="add_language_select">Fufutani</string>
+    <string name="add_language_cancel">Gwiritsani ntchito</string>
+    <string name="gender_title">Zovala</string>
+</resources>

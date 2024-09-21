@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Crete\'a le tala fou</string>
+    <string name="date_today">Aso nei</string>
+
+    <string name="members_page_title">Saʻo.</string>
+    <string name="bots_page_title">O le tusi e fesoasoani ai le oloa ia te oe.</string>
+
+    <string name="chat_my_messages">O aku fa\'ailo tele</string>
+    <string name="chat_empty_title">\'E leai foi la e fa\'atalosia\'</string>
+    <string name="chat_empty_description">Alofaia le fa\'atonuina e fai su\'esu\'e e va\'ai i lau ʻauga.</string>
+
+    <string name="chats_empty_title">Talafou le su\'esu\'e.</string>
+    <string name="chats_empty_description">O le taimi lava na faasalala ai i le feau fou, e mafai ona e fesoasoani ma vaega lava nei.</string>
+
+    <string name="chats_delete_title">Talie le fe\'auana</string>
+    <string name="chats_delete_subtitle">Leai se avanoa e mafai ona fa\'oa\'oa i lou auala!</string>
+    <string name="chats_delete_confirm">Fa\'amaoni</string>
+    <string name="chats_delete_cancel">Fa\'aumaifa\'i</string>
+    <string name="chats_delete_success">Talanoa na tuli(ai) mea\'ai</string>
+
+    <string name="message_time_today">Aso nei</string>
+    <string name="message_time_yesterday">Aso igoa: Ananafi</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise o se faia\'oga Spaina e mafai ona māfaia ma le fa\'atulagaina o lou vaoga!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">შექმენი ახალი ჩეთი</string>
+    <string name="date_today">დღეს</string>
+
+    <string name="members_page_title">ჩეთები</string>
+    <string name="bots_page_title">Bot ჩეთები</string>
+
+    <string name="chat_my_messages">ჩემი შეტყობინებები</string>
+    <string name="chat_empty_title">ჯერ შეტყობინება არ არის</string>
+    <string name="chat_empty_description">დაიწყეთ ლაპარაკობა, რათა ნახოთ თქვენი შეტყობინებები აქ.</string>
+
+    <string name="chats_empty_title">ჯგუფები არ არის კიდევ</string>
+    <string name="chats_empty_description">როდესაც ახალი საუბრო დაიწყებთ, იხილთ ის სიის შეთავაზებაში.</string>
+
+    <string name="chats_delete_title">ჩატის წაშლა</string>
+    <string name="chats_delete_subtitle">ეს ქმედება ვერ გაუქმდება!</string>
+    <string name="chats_delete_confirm">დადასტუძება</string>
+    <string name="chats_delete_cancel">გაუქმება</string>
+    <string name="chats_delete_success">ჩეთი წაიშლება</string>
+
+    <string name="message_time_today">დღეს</string>
+    <string name="message_time_yesterday">გულშემცვლილი</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise არის ესპანური მეცნიერი, რომელიც შეძლების თქვენ დაგეხმაროთ ლექსიკონის გაუმერტყმელობაში!</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Valitse</string>
+    <string name="cancel_birthday_selection">Peruuta</string>
+    <string name="edit_name_title">Nimi</string>
+    <string name="location_empty_title">Määrittelemätön</string>
+
+    <string name="description_title">Kuvaus</string>
+
+    <string name="profile_updated_success">Profiili päivitetty onnistuneesti</string>
+
+    <string name="topics_empty_title">Ei valittuja aiheita</string>
+    <string name="topics_title">Kiinnostuksen kohteet</string>
+
+    <string name="languages_title">Kielet</string>
+    <string name="languages_empty_title">Ei kieliä valittu</string>
+    <string name="profile_add_language">Lisää kieli.</string>
+    <string name="profile_select_language">Valitse kieli</string>
+    <string name="profile_select_proficiency">Valitse osaaminen</string>
+    <string name="add_language_select">Valitse</string>
+    <string name="add_language_cancel">Peruuta</string>
+    <string name="gender_title">Sukupuoli</string>
+</resources>

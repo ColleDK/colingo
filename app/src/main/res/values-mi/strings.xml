@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Kāinga</string>
+    <string name="destination_explore_label">Whaiaro</string>
+    <string name="destination_chat_label">Kōrerorero</string>
+    <string name="destination_profile_label">Tuhinga Tūhononga</string>
+    <string name="destination_settings_label">Tautuhinga</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Pānui</string>
+    <string name="setting_permissions_title">Whakaaetanga</string>
+    <string name="setting_accessibility_title">Whakamahitanga</string>
+    <string name="setting_about_title">Tuhinga: Tuhinga</string>
+    <string name="setting_rate_title">Areiti i te taatari app</string>
+    <string name="setting_report_title">Report a bug</string>
+    <string name="setting_logout_title">Whakakoreuru</string>
+    <string name="setting_switch_language_title">Whakawātea ngā reo</string>
+
+    <string name="selected_language">Whakakahoretia te reo</string>
+
+    <string name="settings_change">Whakarerekē tautuhinga</string>
+    <string name="settings_switch_language">Huri reo</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Whakamaoria: Whakarerekē whakapae</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Arotake i te taupānga</string>
+    <string name="settings_switch_language_title">Huri reo</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">E pa ana ki te taupā, OK</string>
+    <string name="settings_about_page_description1">Colingo he papa tukutuku reo reo hurihia e te hapori whanui i hangaia e Colle/William.</string>
+    <string name="settings_about_page_description2">Whakapūmau ana mātou ki te whai wāhi tonu me te whakapaoho i ngā mea katoa kei roto i te taumata, koia te mea e tiakina ana e mātou hei mea wātea.</string>
+    <string name="settings_about_page_description3">Ko ngā whakamāoritanga katoa kei roto i te taupānga e mahia ana e ngā AIs ā, nā reira, kei ētahi wā ngā hapa whakamāoritanga - ki te kite koe i tētahi, whakapā atu ki te \"Ripoata he Hē\" pae.</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Ripoata hē</string>
+    <string name="settings_report_bug_title">Kia āhei ai te whakapūmautia, ka kohi pūrongo tūpāpaku taumaha tūmata, engari me puta kē he āwangawanga tuatahi me te hiahia ki te tuku atu i tētahi hopu, me whakakī i tētahi puka me ngā korero katoa e āhua ana ki a koe.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Eläimet</string>
+    <string name="topic_cooking">Kokkaus</string>
+    <string name="topic_theater">Teatteri</string>
+    <string name="topic_partying">Bilettäminen</string>
+    <string name="topic_biking">Pyöräily</string>
+    <string name="topic_camping">Leirintä</string>
+    <string name="topic_fitness">Kuntoilu</string>
+    <string name="topic_meditation">Meditaatio</string>
+    <string name="topic_movie">Elokuvat</string>
+    <string name="topic_music">Musiikki</string>
+    <string name="topic_painting">Maalaus</string>
+    <string name="topic_physics">Fysiikka</string>
+    <string name="topic_reading">Lukeminen</string>
+    <string name="topic_science">Tiede</string>
+    <string name="topic_sports">Urheilu</string>
+    <string name="topic_swimming">Uinti</string>
+    <string name="topic_technology">Teknologia</string>
+    <string name="topic_videogame">Videopelit</string>
+</resources>

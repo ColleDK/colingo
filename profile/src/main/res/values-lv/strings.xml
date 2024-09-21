@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Izvēlēties</string>
+    <string name="cancel_birthday_selection">Atcelt</string>
+    <string name="edit_name_title">Vārds</string>
+    <string name="location_empty_title">Nav norādīts</string>
+
+    <string name="description_title">Apraksts</string>
+
+    <string name="profile_updated_success">Profils veiksmīgi atjaunināts</string>
+
+    <string name="topics_empty_title">Nav izvēlēti nekādi tēmas</string>
+    <string name="topics_title">Intereses</string>
+
+    <string name="languages_title">Valodas</string>
+    <string name="languages_empty_title">Nav izvēlētu valodu</string>
+    <string name="profile_add_language">Pievienot valodu</string>
+    <string name="profile_select_language">Izvēlieties valodu</string>
+    <string name="profile_select_proficiency">Izvēlieties prasmību</string>
+    <string name="add_language_select">Izvēlēties</string>
+    <string name="add_language_cancel">Atcelt</string>
+    <string name="gender_title">Dzimums</string>
+</resources>

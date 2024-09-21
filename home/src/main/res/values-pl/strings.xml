@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Moje wpisy</string>
+    <string name="post_create_new">Utwórz nowy post</string>
+    <string name="create_post_dismiss">Anuluj</string>
+    <string name="create_post_create">Utwórz</string>
+    <string name="post_show_more">Pokaż więcej</string>
+    <string name="post_show_less">Pokaż mniej</string>
+
+    <string name="create_post_success">Post utworzony</string>
+    <string name="create_chat_success">Rozmowa utworzona.</string>
+
+    <string name="home_filters_oldest">Najstarszy</string>
+    <string name="home_filters_newest">Najnowsze</string>
+    <string name="post_create_comment">Dodaj komentarz</string>
+    <string name="post_likes">%s lubi</string>
+    <string name="post_comments">Komentarze: %s</string>
+    <string name="post_no_comments_title">Brak odpowiedzi</string>
+    <string name="post_no_comments_subtitle">Bądź pierwszy, który podzieli się swoimi myślami na ten temat.</string>
+
+    <string name="error_msg_general">Coś poszło nie tak. Proszę spróbować ponownie.</string>
+</resources>

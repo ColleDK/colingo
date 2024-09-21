@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Maak een nieuwe chat</string>
+    <string name="date_today">Vandaag</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot chats</string>
+
+    <string name="chat_my_messages">Mijn berichten</string>
+    <string name="chat_empty_title">Nog geen berichten</string>
+    <string name="chat_empty_description">Begin met praten om hier je berichten te zien.</string>
+
+    <string name="chats_empty_title">Nog geen chats</string>
+    <string name="chats_empty_description">Zodra je een nieuw gesprek start, zal je het hier vermeld zien staan.</string>
+
+    <string name="chats_delete_title">Verwijder chat</string>
+    <string name="chats_delete_subtitle">Deze actie kan niet ongedaan worden gemaakt!</string>
+    <string name="chats_delete_confirm">Bevestigen</string>
+    <string name="chats_delete_cancel">Annuleren</string>
+    <string name="chats_delete_success">Chat verwijderd</string>
+
+    <string name="message_time_today">Vandaag</string>
+    <string name="message_time_yesterday">Gisteren</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise is een Spaanse docent die je kan helpen met het verbeteren van je woordenschat!</string>
+</resources>

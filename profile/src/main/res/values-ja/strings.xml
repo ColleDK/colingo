@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">選択</string>
+    <string name="cancel_birthday_selection">キャンセル</string>
+    <string name="edit_name_title">名前</string>
+    <string name="location_empty_title">未指定</string>
+
+    <string name="description_title">説明</string>
+
+    <string name="profile_updated_success">プロフィールが正常に更新されました</string>
+
+    <string name="topics_empty_title">選択されたトピックはありません</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">言語</string>
+    <string name="languages_empty_title">選択された言語はありません</string>
+    <string name="profile_add_language">言語を追加</string>
+    <string name="profile_select_language">言語を選択</string>
+    <string name="profile_select_proficiency">選択したスキル</string>
+    <string name="add_language_select">選択</string>
+    <string name="add_language_cancel">キャンセル</string>
+    <string name="gender_title">Gender</string>
+</resources>

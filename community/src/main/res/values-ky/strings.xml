@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Таарыкталуучуларды табуу</string>
+    <string name="community_page_title">Өкмөткөрлөр</string>
+    <string name="chatbot_page_title">Сүйлөшкөн боттар</string>
+    <string name="community_user_speaks">Өтүнүүше</string>
+    <string name="community_user_learns">Окуугу</string>
+
+    <string name="community_ai_empty_title">Чатботтор табылган эмес</string>
+    <string name="community_ai_empty_subtitle">Фильтрдерди жаңыртуп чатботтарды көп табуу үчүн көрүңүз</string>
+    <string name="community_empty_title">Пайдалануучу табылган жок</string>
+    <string name="community_empty_subtitle">Фильтрлерди жаңыртуу кызматын колдонуп колдоңуз, адамдарды көбүрөөк табууга таалланыңыз</string>
+
+    <string name="community_filters_limit">Тилдердин жеткисин тандап аласыз: %d количествотинен баш белги жаткан тилдердин ойнаган жаткысын коирө биле аласыз.</string>
+    <string name="community_filters_selected">Анындай: %d/%d тандалды.</string>
+    <string name="community_filters_clear">Фильтрлерди тазалоо</string>
+    <string name="community_filters_your_languages">Азырындагы тилдериңиз</string>
+
+    <string name="chat_created_msg">Сүйлөшүү жасалды</string>
+    <string name="chatbot_created_msg">Чат %s менен жасалды</string>
+    <string name="chatbot_create_chat">Чат жасоо: %s</string>
+</resources>

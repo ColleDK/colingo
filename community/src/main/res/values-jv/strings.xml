@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Cari miturut sesami</string>
+    <string name="community_page_title">Anggota</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Golek-Arti</string>
+    <string name="community_user_learns">Pembelajaran</string>
+
+    <string name="community_ai_empty_title">No chatbots found</string>
+    <string name="community_ai_empty_subtitle">Coba update filter mu kanggo nemokake chatbot sing luwih banyak</string>
+    <string name="community_empty_title">Ora ana pengguna kathah</string>
+    <string name="community_empty_subtitle">Cobani nganyari filter-filtermu kanggo nemokake wong sing luwih banyak</string>
+
+    <string name="community_filters_limit">Pilih hingga %d bahasa sing pengen sami penutur lancar saka</string>
+    <string name="community_filters_selected">%d/%d dipilih</string>
+    <string name="community_filters_clear">Hapus filters</string>
+    <string name="community_filters_your_languages">Bahasa saiki</string>
+
+    <string name="chat_created_msg">Obrolan dibuat</string>
+    <string name="chatbot_created_msg">Obrolan digawe karo %s</string>
+    <string name="chatbot_create_chat">Gawe obrolan karo %s</string>
+</resources>

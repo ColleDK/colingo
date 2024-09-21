@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Ndjekja ime</string>
+    <string name="post_create_new">Krijo një postim të ri</string>
+    <string name="create_post_dismiss">Anulo</string>
+    <string name="create_post_create">Krijo</string>
+    <string name="post_show_more">Shfaq me shumë</string>
+    <string name="post_show_less">Shfaq më pak</string>
+
+    <string name="create_post_success">Postim i krijuar</string>
+    <string name="create_chat_success">Biseda e krijuar</string>
+
+    <string name="home_filters_oldest">Më i vjetër</string>
+    <string name="home_filters_newest">Më i ri</string>
+    <string name="post_create_comment">Shto një koment</string>
+    <string name="post_likes">Teksti për t\'u përkthyer: %s pëlqen</string>
+    <string name="post_comments">Komentet %s</string>
+    <string name="post_no_comments_title">Asnjë përgjigje ende.</string>
+    <string name="post_no_comments_subtitle">Jini i pari për të ndarë mendimet tuaja në këtë postim</string>
+
+    <string name="error_msg_general">Diçka shkoi keq. Ju lutemi provoni përsëri.</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Buat obrolan baru</string>
+    <string name="date_today">Hari ini</string>
+
+    <string name="members_page_title">Obrolan</string>
+    <string name="bots_page_title">Obrolan bot</string>
+
+    <string name="chat_my_messages">Pesan saya</string>
+    <string name="chat_empty_title">Belum ada pesan</string>
+    <string name="chat_empty_description">Mulai berbicara untuk melihat pesan Anda di sini.</string>
+
+    <string name="chats_empty_title">Belum ada obrolan</string>
+    <string name="chats_empty_description">Setelah Anda mulai percakapan baru, Anda akan melihatnya terdaftar di sini.</string>
+
+    <string name="chats_delete_title">Hapus chat</string>
+    <string name="chats_delete_subtitle">Tindakan ini tidak dapat dibatalkan!</string>
+    <string name="chats_delete_confirm">Konfirmasi</string>
+    <string name="chats_delete_cancel">Batalkan</string>
+    <string name="chats_delete_success">Percakapan dihapus</string>
+
+    <string name="message_time_today">Hari ini</string>
+    <string name="message_time_yesterday">Kemarin</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise adalah seorang guru bahasa Spanyol yang bisa membantu Anda meningkatkan kosakata!</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Cologn ነው</string>
+    <string name="onboarding_login_btn">ይህን ገበያ ይጠቋል: ግባ</string>
+    <string name="onboarding_signup_btn">መመዝገብ</string>
+    <string name="onboarding_other_title">ወደኋላ መጥተው ብዛት ለታ, በተጨማሪም መሳሪያው ይሁኑ።</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">ፌስቡክ</string>
+    <string name="onboarding_guest_btn">ተጨማሪ ለማለፍ ብዙ የእንግሊዝ ቦታ እንዴት እንደሚታይ ይከታተሉ ።</string>
+    <string name="onboarding_go_back">ተመለስ</string>
+
+    <!-- Log in -->
+    <string name="login_title">እንዴት ገጽታ!</string>
+    <string name="login_subtitle">መግቢያዬን ይገባል</string>
+    <string name="login_email_hint">ኢሜል</string>
+    <string name="login_password_hint">የይለፍ ቃል</string>
+    <string name="login_forgot_password">የምንም ይጠቀስ ምስል\?</string>
+    <string name="login_login_btn">ይህን ገበያ ይጠቋል: ግባ</string>
+    <string name="login_go_to_signup_1">እባኮ አካውንት የለም\?</string>
+    <string name="login_go_to_signup_2">መመዝገብ</string>
+    <string name="login_reset_password">የይለፍ ቃል አስጀምሮ</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ማውረድ</string>
+    <string name="signup_subtitle">እባኮትን ይጠቀሱ ፡ አካውንት ሂደት!</string>
+    <string name="signup_name_hint">ስም</string>
+    <string name="signup_email_hint">ኢሜል</string>
+    <string name="signup_password_hint">የይለፍ ቃል</string>
+    <string name="signup_confirm_password_hint">የምረጡ የይለወጁ የኮድ ቃል</string>
+    <string name="signup_signup_btn">ማውረድ</string>
+    <string name="signup_go_to_login_1">የበዓል ያለት ነትሮ ነቀር ይምረጡ\?</string>
+    <string name="signup_go_to_login_2">ይህን ገበያ ይጠቋል: ግባ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ቀጣይ</string>
+    <string name="setup_profile_finish">መውጽእ</string>
+    <string name="setup_profile_skip">ሊሻገር</string>
+    <string name="add_picture_title">ፕሮፋይል ቦታ አዘምናለው</string>
+    <string name="add_picture_subtitle">ፕሮፋይስ ነባሪ ጨምር</string>
+    <string name="add_languages_title">ፕሮፋይል ቦታ አዘምናለው</string>
+    <string name="add_languages_subtitle">ቋንጣዎችን ምረጥ</string>
+    <string name="add_languages_select_proficiency">ማስታወሻ ይምረጡ</string>
+    <string name="add_languages_select_language">ቋንቋ ምረጥ</string>
+    <string name="add_languages_add_language">ቋንቋ ያክሉ</string>
+    <string name="add_language_select">ምሳሌ ይምረጡ</string>
+    <string name="add_language_cancel">ተወያይ</string>
+    <string name="select_gender_title">ፕሮፋይል ቦታ አዘምናለው</string>
+    <string name="select_gender_subtitle">ጾታውን የጾታ ምሳሌ ይምዋሉ</string>
+    <string name="select_topics_title">ፕሮፋይል ቦታ አዘምናለው</string>
+    <string name="select_topics_subtitle">በተመለከተ ጽሑፍ ምረጥ</string>
+    <string name="add_description_title">ፕሮፋይል ቦታ አዘምናለው</string>
+    <string name="add_description_subtitle">መልስ አለን።</string>
+    <string name="add_description_birthday_hint">ልደት</string>
+    <string name="add_description_birthday_select">ምሳሌ ይምረጡ</string>
+    <string name="add_description_birthday_cancel">ተወያይ</string>
+    <string name="add_description_location_hint">አንድ ቦታ</string>
+    <string name="add_description_description_hint">መግለጫ</string>
+</resources>

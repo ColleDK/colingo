@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Seçiniz</string>
+    <string name="cancel_birthday_selection">İptal</string>
+    <string name="edit_name_title">İsim</string>
+    <string name="location_empty_title">Belirtilmemiş</string>
+
+    <string name="description_title">Açıklama</string>
+
+    <string name="profile_updated_success">Profil başarıyla güncellendi.</string>
+
+    <string name="topics_empty_title">Seçili konu yok.</string>
+    <string name="topics_title">İlgi alanları</string>
+
+    <string name="languages_title">Diller</string>
+    <string name="languages_empty_title">Seçili dil yok</string>
+    <string name="profile_add_language">Dil ekle</string>
+    <string name="profile_select_language">Dil seçin</string>
+    <string name="profile_select_proficiency">Uzmanlık seçin</string>
+    <string name="add_language_select">Seçiniz</string>
+    <string name="add_language_cancel">İptal</string>
+    <string name="gender_title">Cinsiyet</string>
+</resources>

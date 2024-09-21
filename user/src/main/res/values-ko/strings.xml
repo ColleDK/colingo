@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">동물</string>
+    <string name="topic_cooking">요리</string>
+    <string name="topic_theater">극장</string>
+    <string name="topic_partying">파티중</string>
+    <string name="topic_biking">바이킹</string>
+    <string name="topic_camping">캠핑</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">명상</string>
+    <string name="topic_movie">영화</string>
+    <string name="topic_music">음악</string>
+    <string name="topic_painting">회화</string>
+    <string name="topic_physics">물리학</string>
+    <string name="topic_reading">독해</string>
+    <string name="topic_science">과학</string>
+    <string name="topic_sports">스포츠</string>
+    <string name="topic_swimming">수영</string>
+    <string name="topic_technology">기술</string>
+    <string name="topic_videogame">비디오 게임</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Mans plūzā</string>
+    <string name="post_create_new">Izveidot jaunu ierakstu</string>
+    <string name="create_post_dismiss">Atcelt</string>
+    <string name="create_post_create">Izveidot</string>
+    <string name="post_show_more">Rādīt vairāk</string>
+    <string name="post_show_less">Rādīt mazāk</string>
+
+    <string name="create_post_success">Ieraksts izveidots</string>
+    <string name="create_chat_success">Čats izveidots</string>
+
+    <string name="home_filters_oldest">Vecākais</string>
+    <string name="home_filters_newest">Jaunākais</string>
+    <string name="post_create_comment">Pievienot komentāru</string>
+    <string name="post_likes">%s patīk</string>
+    <string name="post_comments">Teksts tulkojumam: %s komentāri</string>
+    <string name="post_no_comments_title">Vēl nav atbildes</string>
+    <string name="post_no_comments_subtitle">Būt pirmajam, kas dalās ar saviem domu par šo ierakstu.</string>
+
+    <string name="error_msg_general">Kaut kas nogāja greizi. Lūdzu, mēģiniet vēlreiz.</string>
+</resources>

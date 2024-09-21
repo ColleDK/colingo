@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Oħloq ċat ġdid</string>
+    <string name="date_today">Illum</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Sessjonijiet tal-Bot</string>
+
+    <string name="chat_my_messages">Il-messaġgħi tiegħi</string>
+    <string name="chat_empty_title">L-ebda messaġġi għaddejja.</string>
+    <string name="chat_empty_description">Ibda titkomunika biex tara l-messaġġi tiegħek hawn.</string>
+
+    <string name="chats_empty_title">L-Ebda chatt għaddej.</string>
+    <string name="chats_empty_description">Meta maħduma: Wara li bdejt konverżazzjoni ġdida, tagħrafha hawn.</string>
+
+    <string name="chats_delete_title">Ħassar ċat</string>
+    <string name="chats_delete_subtitle">Dan l-azzjoni ma tista\'x tiġi imwaqqfa mill-ġdid!</string>
+    <string name="chats_delete_confirm">OK</string>
+    <string name="chats_delete_cancel">Ikkanċella</string>
+    <string name="chats_delete_success">Chat imħassar</string>
+
+    <string name="message_time_today">Illum</string>
+    <string name="message_time_yesterday">Il-bieraħ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise hija għalliem Spanjola li tista\' tgħinlek biex tizviluppa l-vuċabularju tiegħek!</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Hewan</string>
+    <string name="topic_cooking">Memasak</string>
+    <string name="topic_theater">Teater</string>
+    <string name="topic_partying">Berpesta</string>
+    <string name="topic_biking">Bersepeda</string>
+    <string name="topic_camping">Kemah</string>
+    <string name="topic_fitness">Kebugaran</string>
+    <string name="topic_meditation">Meditasi</string>
+    <string name="topic_movie">Film</string>
+    <string name="topic_music">Musik</string>
+    <string name="topic_painting">Lukisan</string>
+    <string name="topic_physics">Fisika</string>
+    <string name="topic_reading">Membaca</string>
+    <string name="topic_science">Ilmu</string>
+    <string name="topic_sports">Olahraga</string>
+    <string name="topic_swimming">Berenang</string>
+    <string name="topic_technology">Teknologi</string>
+    <string name="topic_videogame">Permainan video</string>
+</resources>

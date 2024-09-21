@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Ile</string>
+    <string name="destination_explore_label">Dò ní àwọn àṣeyọrin</string>
+    <string name="destination_chat_label">Iroyin</string>
+    <string name="destination_profile_label">Ìwe iroyin.</string>
+    <string name="destination_settings_label">Iṣeto.</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Iwe ti ipa: Theming</string>
+    <string name="setting_notifications_title">Ireti</string>
+    <string name="setting_permissions_title">Iruwẹ inú àpẹrẹ.</string>
+    <string name="setting_accessibility_title">Alábọṣọlárúnu</string>
+    <string name="setting_about_title">Ọrọ ni.</string>
+    <string name="setting_rate_title">Moolo pẹlu app yi.</string>
+    <string name="setting_report_title">Ṣààyè ẹrọ aferojuli ni Yoruba.</string>
+    <string name="setting_logout_title">Ẹrú mú wa ni</string>
+    <string name="setting_switch_language_title">Dami ede.</string>
+
+    <string name="selected_language">Awo ede ti a gbo oro niyoruba</string>
+
+    <string name="settings_change">Ida iye ati iṣeto.</string>
+    <string name="settings_switch_language">Fi òròde àárà e duro</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Ilu ti afihanimo.</string>
+    <string name="setting_dark_theme">Asọ èdá_fun_iròwa</string>
+
+    <string name="settings_rate_app_page_title">Ohun to tẹ:
+Kọ Firanṣẹ Ọrọ应用程序评级</string>
+    <string name="settings_switch_language_title">Fi ede aṣẹ pupọ</string>
+    <string name="settings_theming_title"><![CDATA[Theming & awọn iro & awọn omi pupa.]]></string>
+    <string name="settings_about_page_title">Tẹkẹsi wọle wa: Níbi ti àpẹkan</string>
+    <string name="settings_about_page_description1">Colingo ni ojusinmi iṣẹ-ọna ti o fẹnjẹ si ayẹyẹ ilera ti o dẹkun lati pee siwaju ni Colle/William.</string>
+    <string name="settings_about_page_description2">Awa nso pe ti o dara lati je gbogbo ohun ni app, eyi ni ko si eniyan lori kikun.</string>
+    <string name="settings_about_page_description3">Gbogbo awọn aṣàlẹ lori ilọsiwaju lori app wọnyi ti wa ni irọlẹ ti ọmọ-ijinlẹ ati bi a sì fé sọ, ọjẹ yoo wa aṣàlẹ àwọn àkókò túnṣé - ti o bá ri èyí túnṣé, dábó tí o bá nṣe àwọn ṣíṣẹ, kí o sì tẹlẹ lọ ni \"Ri àkọsílẹ\" àlẹ́.</string>
+    <string name="settings_about_page_contact">Ti o ba ni ifihan tabi awon iroyin lori app yii, le fi gbogbo asaaju pade wa sinu:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Kọ̀mọ́ bug.</string>
+    <string name="settings_report_bug_title">Lati fihinṣe ìdájọ, a ni a ṣẹlẹ ní ìpèsè òrìṣa rẹ l\'ééṣé, tẹtẹ bí o bá ti rí èro àti ó fẹ́ fọwọ́si ìhun tó fíwọlé kùn, jọwọ mú àkọtàn tó wọlé pẹ̀lú àwọn àkọsí àwọn èyí tó ń wáyè wọn o.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Maison</string>
+    <string name="destination_explore_label">Farii\'ai</string>
+    <string name="destination_chat_label">I\'a\'anere</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Settings</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifications</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Tiàra\'a na teieiore orAvaa\'i mai ta\'ata ra\'ì.</string>
+    <string name="setting_about_title">About</string>
+    <string name="setting_rate_title">Ia faatinoina te ta app</string>
+    <string name="setting_report_title">Signaler un bug</string>
+    <string name="setting_logout_title">Tae atu</string>
+    <string name="setting_switch_language_title">Basculez les langues</string>
+
+    <string name="selected_language">Lingua faanahanahaga\'a</string>
+
+    <string name="settings_change">Ahiarahi i te faahou i te uira\'a\'a</string>
+    <string name="settings_switch_language">Basculement de la langue</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Te arioi au rua mai te oro, e na teie.</string>
+
+    <string name="settings_rate_app_page_title">Evalua te oho	ma\'a o te taote ora\'a.</string>
+    <string name="settings_switch_language_title">Change language</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">Faanao i te taata: Ei faufaa i te taata</string>
+    <string name="settings_about_page_description1">Colingo he platform e partage reo ati a rau i ho\'e o TCP Colle/William.</string>
+    <string name="settings_about_page_description2">Matamata iho mātou i te mea e. E rave mātou i te piri i te mea e i roto i te apī, e tia\'i atu nei mātou i te fa\'ari\'i.</string>
+    <string name="settings_about_page_description3">E haamatai nei i teie nei taape i teie nei i roto i te tauparau, e faarueia te mou)a i nia e te onoine faanea i te aoa tahito rahi - manao fora oe i te faarue ia outou i roto i te \"Tau hatahata i te mea hio\".</string>
+    <string name="settings_about_page_contact">Faapiti atu ia matou i nā mea e pāruru ai ia\'u, e haavi atu mai iā matou iā:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Report bug</string>
+    <string name="settings_report_bug_title">Mo te pupuhi i te rara, e haere atura matou i te faahouhia i te faatura hia no te faahouhia, haiti\'a ho\'i te huru ma te tufa i te fetioti, faaite ia e noho i te faanana, faati\'a atu i te hia e tei tapa ite oe, manao ato e te faamau i te taata i te papai i to oe hia, taurenta te fahaino ia atu e na oe.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

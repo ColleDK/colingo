@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Find partners</string>
+    <string name="community_page_title">Ayyukan</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Magana</string>
+    <string name="community_user_learns">Nau\'in tagulla</string>
+
+    <string name="community_ai_empty_title">Babu kayanki da chatbot ya gano</string>
+    <string name="community_ai_empty_subtitle">Try updating your filters to find more chatbots</string>
+    <string name="community_empty_title">Ba sao sai kayan abin da aka samu</string>
+    <string name="community_empty_subtitle">Wannan shine amince game da ka sa aka yi gayyatar kayan aiki don samun masu amfani mai yawa</string>
+
+    <string name="community_filters_limit">Zaɓi zuwa %d harsu da kake so ka ganar wurin magana daga mutane da suka san harshe</string>
+    <string name="community_filters_selected">%d/%d da aka zaɓa</string>
+    <string name="community_filters_clear">Sa kai sauƙi</string>
+    <string name="community_filters_your_languages">Harsashin ku na yanzu</string>
+
+    <string name="chat_created_msg">Ranar (chat) ce da aka kafa</string>
+    <string name="chatbot_created_msg">Wasilah da aka kiris da %s</string>
+    <string name="chatbot_create_chat">Chat na zama da %s</string>
+</resources>

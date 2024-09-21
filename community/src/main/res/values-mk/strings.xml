@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Најди партнери</string>
+    <string name="community_page_title">Членови</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Говори</string>
+    <string name="community_user_learns">Учење</string>
+
+    <string name="community_ai_empty_title">Нема пронајдени чет-ботови.</string>
+    <string name="community_ai_empty_subtitle">Обидете се да ги ажурирате вашите филтри за да најдете повеќе чет-ботови.</string>
+    <string name="community_empty_title">Нема пронајдени корисници</string>
+    <string name="community_empty_subtitle">Обидете се да ги ажурирате филтрите за да најдете повеќе корисници.</string>
+
+    <string name="community_filters_limit">Изберете до %d јазици кои сакате да ги видите како говорници.</string>
+    <string name="community_filters_selected">Текст за превод: %d/%d избрани</string>
+    <string name="community_filters_clear">Исчисти филтри</string>
+    <string name="community_filters_your_languages">Вашите моментални јазици</string>
+
+    <string name="chat_created_msg">Чет-собрано</string>
+    <string name="chatbot_created_msg">Chat создаден со %s.</string>
+    <string name="chatbot_create_chat">Креирајте разговор со %s</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Nire jarioa</string>
+    <string name="post_create_new">Post berria sortu</string>
+    <string name="create_post_dismiss">Utzi</string>
+    <string name="create_post_create">Sortu</string>
+    <string name="post_show_more">Erakutsi gehiago</string>
+    <string name="post_show_less">Erakutsi gutxiago</string>
+
+    <string name="create_post_success">Sortua dauden posta</string>
+    <string name="create_chat_success">Sortzailea den txata</string>
+
+    <string name="home_filters_oldest">Zaharrena</string>
+    <string name="home_filters_newest">Berria</string>
+    <string name="post_create_comment">Gehitu iruzkina</string>
+    <string name="post_likes">%s gustatzen da.</string>
+    <string name="post_comments">%s iruzkinak</string>
+    <string name="post_no_comments_title">Erantzunik ez</string>
+    <string name="post_no_comments_subtitle">Izan lehenengoa zure pentsamenei post hau partekatzeko</string>
+
+    <string name="error_msg_general">Zerbait gaizki joan da. Mesedez, saiatu berriro.</string>
+</resources>

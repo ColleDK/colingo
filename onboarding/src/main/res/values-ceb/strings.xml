@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Sulod</string>
+    <string name="onboarding_signup_btn">Mag-sign up</string>
+    <string name="onboarding_other_title">O padayon sa</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Magpadayon isip bisita</string>
+    <string name="onboarding_go_back">Mulihok lang</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Mag-login sa imong akawnt</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Nakalimot sa password\?</string>
+    <string name="login_login_btn">Sulod</string>
+    <string name="login_go_to_signup_1">Wala pa kay nakasud sa account\?</string>
+    <string name="login_go_to_signup_2">Mag-sign up</string>
+    <string name="login_reset_password">I-reset ang password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Rehistro</string>
+    <string name="signup_subtitle">Magmugna og inyong account</string>
+    <string name="signup_name_hint">Ngalan</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Kumpirmahon ang password</string>
+    <string name="signup_signup_btn">Rehistro</string>
+    <string name="signup_go_to_login_1">Adunay kagamitang account\?</string>
+    <string name="signup_go_to_login_2">Sulod</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Sunod</string>
+    <string name="setup_profile_finish">Tapusin</string>
+    <string name="setup_profile_skip">Lakip</string>
+    <string name="add_picture_title">Set-up profile</string>
+    <string name="add_picture_subtitle">Idagdag ang larawan sa profile</string>
+    <string name="add_languages_title">Set-up profile</string>
+    <string name="add_languages_subtitle">Pili-a ang mga lengguwahe</string>
+    <string name="add_languages_select_proficiency">Pili-a ang abilidad</string>
+    <string name="add_languages_select_language">Pili-a ang lengguwahe</string>
+    <string name="add_languages_add_language">Idugang ang lenggwahe</string>
+    <string name="add_language_select">Pili-a</string>
+    <string name="add_language_cancel">Kanselahon</string>
+    <string name="select_gender_title">Set-up profile</string>
+    <string name="select_gender_subtitle">Pumili sa kasarian</string>
+    <string name="select_topics_title">Set-up profile</string>
+    <string name="select_topics_subtitle">Pili sa mga topiko</string>
+    <string name="add_description_title">Set-up profile</string>
+    <string name="add_description_subtitle">Idugang ang ubang impormasyon bahin kanimo</string>
+    <string name="add_description_birthday_hint">Kaadhikaan</string>
+    <string name="add_description_birthday_select">Pili-a</string>
+    <string name="add_description_birthday_cancel">Kanselahon</string>
+    <string name="add_description_location_hint">Lugar</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

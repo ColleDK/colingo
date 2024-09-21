@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Casa</string>
+    <string name="destination_explore_label">Esplurà</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Impostazioni</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifiche</string>
+    <string name="setting_permissions_title">Permessi</string>
+    <string name="setting_accessibility_title">Accessibilità</string>
+    <string name="setting_about_title">À propositu</string>
+    <string name="setting_rate_title">Valuta l\'app</string>
+    <string name="setting_report_title">Segnalà un bug</string>
+    <string name="setting_logout_title">Disconnettesi</string>
+    <string name="setting_switch_language_title">Cambia lingua</string>
+
+    <string name="selected_language">Lingua selezionata</string>
+
+    <string name="settings_change">Cambia i settaggi</string>
+    <string name="settings_switch_language">Cambia lingua</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Temi scuru</string>
+
+    <string name="settings_rate_app_page_title">Valuta l\'app</string>
+    <string name="settings_switch_language_title">Cambia lingua</string>
+    <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
+    <string name="settings_about_page_title">À propositu di l\'app</string>
+    <string name="settings_about_page_description1">Clingo hè una piattaforma di scambia linguistico in cumunità aperta cuntribuita da a cumunità sviluppata da Colle/William.</string>
+    <string name="settings_about_page_description2">Noi ci impegnamo à esse chjaru è francheddu nantu à tuttu cio chì si trova in l\'app, è per quessa ragione ch\'ella hè open-source.</string>
+    <string name="settings_about_page_description3">Tutte e traduzzioni in l\'applicazione sò fatte da intelligenze artificiali è, perciò, ci pudè esse d\'erri in e traduzzioni - s\'aucà ne trovate una, vi priamìamu di rapurtalli in a \"Rapurtate un bug.\"</string>
+    <string name="settings_about_page_contact">Text da traduce: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Segnalà u bug.</string>
+    <string name="settings_report_bug_title">Per assicurà a stabilità, raccogliemu automaticamente i raporti di creshing, ma s\'è vi trovu qualchì problema e vulite mandà direttamente un bug, complite un formulariu cun quanta più infurmazioni avete.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

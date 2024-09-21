@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Select</string>
+    <string name="cancel_birthday_selection">Fa\'adino</string>
+    <string name="edit_name_title">Ioa</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">Profa mujti i te ora na ohipa\'a\'apiirimai\'a</string>
+
+    <string name="topics_empty_title">No topics selected</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Reo ma\'ohi</string>
+    <string name="languages_empty_title">\'Aita i te reo i taeo\'</string>
+    <string name="profile_add_language">Add language</string>
+    <string name="profile_select_language">Faaora ia tahiti nei</string>
+    <string name="profile_select_proficiency">Tohua i te rahi o te māuruuru.</string>
+    <string name="add_language_select">Tīpoto</string>
+    <string name="add_language_cancel">Faakaro</string>
+    <string name="gender_title">Rahiapa</string>
+</resources>

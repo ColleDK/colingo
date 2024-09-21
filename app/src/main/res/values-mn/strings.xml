@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Гэрэл</string>
+    <string name="destination_explore_label">Нийтэд зочлон</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Профайл</string>
+    <string name="destination_settings_label">Тохиргоо</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Тохиргооны үүрэг</string>
+    <string name="setting_notifications_title">Мэдэгдэл</string>
+    <string name="setting_permissions_title">Зөвшөөрөлтүүд</string>
+    <string name="setting_accessibility_title">Орчин товчилсон эрхийн боломжийн байршил</string>
+    <string name="setting_about_title">Хэрэглэгчийн текст: Тухай</string>
+    <string name="setting_rate_title">Апп-ийг үнэлэх</string>
+    <string name="setting_report_title">Алдааны тайлан илгээх</string>
+    <string name="setting_logout_title">Гарах</string>
+    <string name="setting_switch_language_title">Хэл солих</string>
+
+    <string name="selected_language">Сонгогдсон хэл</string>
+
+    <string name="settings_change">Тохиргоо өөрчлөх</string>
+    <string name="settings_switch_language">Хэл солих</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Динамик хэвлэлтийн төлөө</string>
+    <string name="setting_dark_theme">Тунгалаг агуулга</string>
+
+    <string name="settings_rate_app_page_title">Тооцооны апп</string>
+    <string name="settings_switch_language_title">Хэл солих</string>
+    <string name="settings_theming_title"><![CDATA[Зургилах & өнгөний сонголт]]></string>
+    <string name="settings_about_page_title">Тогтоолны тухай</string>
+    <string name="settings_about_page_description1">Colingo нь Colle/William хөтөлбөрийг ашиглан хөгжүүлсэн нээлттэй хэл солилцоо аялалт платформ юм.</string>
+    <string name="settings_about_page_description2">Апп дээр бүх зүйлсийг нээлттэй, эхний үедээс энэ нь таалагдаж буй зорилго болно.</string>
+    <string name="settings_about_page_description3">Апп дотроо хийгдсэн бүх орчуулгыг НТүВүүдэдээр хийсэн учир алдаанууд байж болох - л аль хэдийн найдаж байвал \"Алдаа мэдээлэх\" цонхноос тайлбарлагдсангаа мэдээл.</string>
+    <string name="settings_about_page_contact">Та апп дээр таалагдсан үйлчилгээ, санаа эсвэл санал хүсэлтэй бол, дараах хаяг руу холбогдоно уу:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Асуудал мэдээлдэг хавтгайцаарай</string>
+    <string name="settings_report_bug_title">Аюулгүй байхыг баталгаажуулахын тулд манай систем автоматаар алдааны мэдээллийг цуглуулдаг. Гэхдээ та ямар нэгэн асуудлыг олоход гаргахыг хүсэвэл, та энэхүү бүлэгт мэдээллийг бүтэн оруулоор шалгах хэрэгтэй.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

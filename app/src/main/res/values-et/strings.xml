@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Kodu</string>
+    <string name="destination_explore_label">Avasta</string>
+    <string name="destination_chat_label">Vestlusruum</string>
+    <string name="destination_profile_label">Profiil</string>
+    <string name="destination_settings_label">Seaded</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Teema loomine</string>
+    <string name="setting_notifications_title">Teavitused</string>
+    <string name="setting_permissions_title">Õigused</string>
+    <string name="setting_accessibility_title">Ligipääsetavus</string>
+    <string name="setting_about_title">Teave</string>
+    <string name="setting_rate_title">Hinda rakendust</string>
+    <string name="setting_report_title">Teata vigast</string>
+    <string name="setting_logout_title">Logi välja</string>
+    <string name="setting_switch_language_title">Vaheta keelt</string>
+
+    <string name="selected_language">Valitud keel</string>
+
+    <string name="settings_change">Muuda seadeid</string>
+    <string name="settings_switch_language">Vaheta keelt</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dünaamiline teemastamine</string>
+    <string name="setting_dark_theme">Tume teema</string>
+
+    <string name="settings_rate_app_page_title">Hinda rakendust</string>
+    <string name="settings_switch_language_title">Muuda keelt</string>
+    <string name="settings_theming_title">Teemade loomine ja värvid</string>
+    <string name="settings_about_page_title">Rakenduse kohta</string>
+    <string name="settings_about_page_description1">Colingo on avatud lähtekoodiga kogukonnapõhine keeleõppe platvorm, mida arendavad Colle/William.</string>
+    <string name="settings_about_page_description2">Me püüdleme selle poole, et olla rakenduses kõiges avatud ja läbipaistev, mistõttu hoiame seda avatud lähtekoodiga.</string>
+    <string name="settings_about_page_description3">Kõik rakenduses olevad tõlked on tehtud tehisintellektide poolt ning seetõttu võivad esineda tõlkevead - kui leiate mõne, siis palun teatage sellest jaotises „Teata veast“.</string>
+    <string name="settings_about_page_contact">Kui teil on rakendusega seotud muresid või ettepanekuid, võite meiega ühendust võtta järgmiselt:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Raporteeri viga</string>
+    <string name="settings_report_bug_title">Stabiilsuse tagamiseks kogume automaatselt kokkujooksnud aruandeid. Kui leiate probleeme ja soovite vead otse esitada, täitke palun vorm nii palju teavet kui võimalik.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

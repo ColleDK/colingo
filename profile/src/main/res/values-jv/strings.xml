@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pilih</string>
+    <string name="cancel_birthday_selection">Batal</string>
+    <string name="edit_name_title">Jeneng</string>
+    <string name="location_empty_title">Teks sing kudu diterjemahi: Unspecified</string>
+
+    <string name="description_title">Deskripsi</string>
+
+    <string name="profile_updated_success">Profil wis berhasil dikiwari</string>
+
+    <string name="topics_empty_title">Saben topik durung dipilih</string>
+    <string name="topics_title">Minat</string>
+
+    <string name="languages_title">Bahasa-basa</string>
+    <string name="languages_empty_title">Saben sewu basa ora dipilih</string>
+    <string name="profile_add_language">Tambah basa</string>
+    <string name="profile_select_language">Pilih basa</string>
+    <string name="profile_select_proficiency">Pilih kemampuan</string>
+    <string name="add_language_select">Pilih</string>
+    <string name="add_language_cancel">Batal</string>
+    <string name="gender_title">Gender</string>
+</resources>

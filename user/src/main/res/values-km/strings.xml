@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">សត្វ</string>
+    <string name="topic_cooking">ម្ហូប</string>
+    <string name="topic_theater">គណបក្សបោះចិក</string>
+    <string name="topic_partying">ការចំណីធ្មត</string>
+    <string name="topic_biking">ការបដិសណចាកាឌ</string>
+    <string name="topic_camping">កំឡុង​វិញ</string>
+    <string name="topic_fitness">ឥតអាឌ្វឲ្យ</string>
+    <string name="topic_meditation">សិក្សា​ផ្ដើម​ថយ​ចំពោះ​ស្រស់​ស្រាយ​ជាមួយ​ខ្លួន​អ្នក​ដទៃ។</string>
+    <string name="topic_movie">ភពរេន</string>
+    <string name="topic_music">តន្ត្រី</string>
+    <string name="topic_painting">រូបភាព</string>
+    <string name="topic_physics">រូបវិទ្យា</string>
+    <string name="topic_reading">អាន</string>
+    <string name="topic_science">វិទ្យាសាស្រ្ត</string>
+    <string name="topic_sports">កីឡាខាងក្រោម: កីឡា</string>
+    <string name="topic_swimming">ការដឹកនាំក្រុមឈើ</string>
+    <string name="topic_technology">បច្ចេកវិជ្ជា</string>
+    <string name="topic_videogame">ល្អី​​ហៅហាង​</string>
+</resources>

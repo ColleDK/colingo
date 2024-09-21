@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Yakha ichatsha entsha</string>
+    <string name="date_today">Namuhla</string>
+
+    <string name="members_page_title">Izinga</string>
+    <string name="bots_page_title">Imibuzo kaBot</string>
+
+    <string name="chat_my_messages">Amagama ami</string>
+    <string name="chat_empty_title">Awekho izilimi okwamanje</string>
+    <string name="chat_empty_description">Qalisa ukulungisa ukuze ubone izilimi zakho lapha.</string>
+
+    <string name="chats_empty_title">Ayikho amachatsi okuthi.</string>
+    <string name="chats_empty_description">Ekugcineni uma uthola unkosikazi omusha, uyobona isithombe esihambisana laphaya.</string>
+
+    <string name="chats_delete_title">Susa isithombe</string>
+    <string name="chats_delete_subtitle">Lokho okusebenzisayo akungenziwe kuye!</string>
+    <string name="chats_delete_confirm">Thisha</string>
+    <string name="chats_delete_cancel">Kwaziwa</string>
+    <string name="chats_delete_success">Ukubuyekezwa kwesiqalo</string>
+
+    <string name="message_time_today">Namuhla</string>
+    <string name="message_time_yesterday">Ngesonto okwakusasa</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise nguMfundisi wesi-Spanish oyenza ukusiza ukwazi ukuthi uhambe kahle kwezilimi zakho!</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ଲଗଇନରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="onboarding_signup_btn">ଚିହ୍ନିତ ହ୍ୟାନ୍ତୁ</string>
+    <string name="onboarding_other_title">ବାହାଲା ଥାବा ଥାକନ୍ତୁ।</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">ଅତିଥି ହେଉଥାରେ ଚାଲି ଅନ୍ତତଃ ।</string>
+    <string name="onboarding_go_back">ପିଠେ ଯାଉନ୍ତୁ</string>
+
+    <!-- Log in -->
+    <string name="login_title">ପୁନଃ ସ୍ୱାଗତ!</string>
+    <string name="login_subtitle">ଆପଣଙ୍କ ଏକାଉଣ୍ଟରେ ଲଗିନ କରନ୍ତୁ।</string>
+    <string name="login_email_hint">ଇମେଲ୍‌ |</string>
+    <string name="login_password_hint">ପାସ୍‌ୱର୍ଡ୍‌</string>
+    <string name="login_forgot_password">ପାସ୍‌ୱର୍ଡ ଭୁଲିଗଲେ\?</string>
+    <string name="login_login_btn">ଲଗଇନରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+    <string name="login_go_to_signup_1">ହେଲେ ଆକାଉଣ୍ଟ ନୁହଁ\?</string>
+    <string name="login_go_to_signup_2">ଚିହ୍ନିତ ହ୍ୟାନ୍ତୁ</string>
+    <string name="login_reset_password">Reset ପାସ୍‌ୱାର୍ଡ ରିସେଟ୍ କରନ୍ତୁ।</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ରেଜିଷ୍ଟର୍ କରନ୍ତୁ।</string>
+    <string name="signup_subtitle">ଆପଣଙ୍କ ଏକାଉଣ୍ଟ ତିଆରି କରନ୍ତୁ।</string>
+    <string name="signup_name_hint">ନାମ</string>
+    <string name="signup_email_hint">ଇମେଲ୍‌ |</string>
+    <string name="signup_password_hint">ପାସ୍‌ୱର୍ଡ୍‌</string>
+    <string name="signup_confirm_password_hint">ସୁନିଶ୍ଚିତ  ପାସ୍‌ୱାର୍ଡ ପ୍ରମାଣିତ୍ କରନ୍ତୁ।</string>
+    <string name="signup_signup_btn">ରেଜିଷ୍ଟର୍ କରନ୍ତୁ।</string>
+    <string name="signup_go_to_login_1">ପୂର୍ବରୁ ଏକ ଅକାଉଣ୍ଟ ରହିଛି\?</string>
+    <string name="signup_go_to_login_2">ଲଗଇନରେ ପ୍ରବେଶ କରନ୍ତୁ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ପରବିଷୟବାର୍ତ୍ତା ଏଡ଼ିଏତା ଅଗରବାଉନ୍ଦୁ</string>
+    <string name="setup_profile_finish">ସମାପ୍ତ କରନ୍ତୁ</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">ପ୍ରୋଫାଇଲ ସେଟପ୍ କରନ୍ତୁ</string>
+    <string name="add_picture_subtitle">ପ୍ରୋଫାଇଲ ଚିତ୍ର ଯୋଗ କରନ୍ତୁ।</string>
+    <string name="add_languages_title">ପ୍ରୋଫାଇଲ ସେଟପ୍ କରନ୍ତୁ</string>
+    <string name="add_languages_subtitle">ଭାଷାଗୁଡ଼ିକୁ ଚୟନ କରନ୍ତୁ</string>
+    <string name="add_languages_select_proficiency">ଦକ୍ଷତା ଚୟନ କରନ୍ତୁ।</string>
+    <string name="add_languages_select_language">ଭାଷା ବାଛନ୍ତୁ</string>
+    <string name="add_languages_add_language">ଭାଷା ଯୋଗ କରନ୍ତୁ</string>
+    <string name="add_language_select">ଚୟন୍ କରନ୍ତୁ</string>
+    <string name="add_language_cancel">ରद्द</string>
+    <string name="select_gender_title">ପ୍ରୋଫାଇଲ ସେଟପ୍ କରନ୍ତୁ</string>
+    <string name="select_gender_subtitle">ଲିଙ୍ଗ ବାଛନ୍ତୁ</string>
+    <string name="select_topics_title">ପ୍ରୋଫାଇଲ ସେଟପ୍ କରନ୍ତୁ</string>
+    <string name="select_topics_subtitle">ବିଷୟ ଚୟନ କରନ୍ତୁ।</string>
+    <string name="add_description_title">ପ୍ରୋଫାଇଲ ସେଟପ୍ କରନ୍ତୁ</string>
+    <string name="add_description_subtitle">ଆପଣଙ୍କ ବାରପରିଚୟ ସମ୍ବନ୍ଧିତ କେତେବାରିଆନ୍ତରେ ଯୋଗ ଦିଆନ୍ତୁ।</string>
+    <string name="add_description_birthday_hint">ଜନ୍ମଦିନ</string>
+    <string name="add_description_birthday_select">ଚୟন୍ କରନ୍ତୁ</string>
+    <string name="add_description_birthday_cancel">ରद्द</string>
+    <string name="add_description_location_hint">ସ୍ଥାନ</string>
+    <string name="add_description_description_hint">ବର୍ଣ୍ଣନା</string>
+</resources>

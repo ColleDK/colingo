@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Најава</string>
+    <string name="onboarding_signup_btn">Регистрирај се</string>
+    <string name="onboarding_other_title">Продолжи со</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Продолжи како гостин</string>
+    <string name="onboarding_go_back">Врати се</string>
+
+    <!-- Log in -->
+    <string name="login_title">Добродојдовте назад!</string>
+    <string name="login_subtitle">Најави се во својот профил</string>
+    <string name="login_email_hint">Е-пошта</string>
+    <string name="login_password_hint">Лозинка</string>
+    <string name="login_forgot_password">Заборавена лозинка\?</string>
+    <string name="login_login_btn">Најави се</string>
+    <string name="login_go_to_signup_1">Немате сметка уште\?</string>
+    <string name="login_go_to_signup_2">Регистрирај се</string>
+    <string name="login_reset_password">Промени ја лозинката</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Регистрирај се</string>
+    <string name="signup_subtitle">Креирајте го вашиот профил</string>
+    <string name="signup_name_hint">Име</string>
+    <string name="signup_email_hint">Е-пошта</string>
+    <string name="signup_password_hint">Лозинка</string>
+    <string name="signup_confirm_password_hint">Потврди шифра</string>
+    <string name="signup_signup_btn">Регистрирај се</string>
+    <string name="signup_go_to_login_1">Веќе имате профил\?</string>
+    <string name="signup_go_to_login_2">Најава</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Следно</string>
+    <string name="setup_profile_finish">Завршете</string>
+    <string name="setup_profile_skip">Прескокни</string>
+    <string name="add_picture_title">Постави профил</string>
+    <string name="add_picture_subtitle">Додади слика на профилот</string>
+    <string name="add_languages_title">Постави профил</string>
+    <string name="add_languages_subtitle">Изберете јазици</string>
+    <string name="add_languages_select_proficiency">Изберете вештини</string>
+    <string name="add_languages_select_language">Избери јазик</string>
+    <string name="add_languages_add_language">Додадете јазик</string>
+    <string name="add_language_select">Избери</string>
+    <string name="add_language_cancel">Откажи</string>
+    <string name="select_gender_title">Подеси профил.</string>
+    <string name="select_gender_subtitle">Изберете пол.</string>
+    <string name="select_topics_title">Подеси профил.</string>
+    <string name="select_topics_subtitle">Избери теми</string>
+    <string name="add_description_title">Постави профил</string>
+    <string name="add_description_subtitle">Додадете некои информации за себе.</string>
+    <string name="add_description_birthday_hint">Роденден</string>
+    <string name="add_description_birthday_select">Избери</string>
+    <string name="add_description_birthday_cancel">Откажи</string>
+    <string name="add_description_location_hint">Локација</string>
+    <string name="add_description_description_hint">Опис</string>
+</resources>

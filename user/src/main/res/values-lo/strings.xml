@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">ສັນຕິ</string>
+    <string name="topic_cooking">ກິລາກອາຫານ</string>
+    <string name="topic_theater">ຂອງກາງ</string>
+    <string name="topic_partying">ກິນຫຼວງ</string>
+    <string name="topic_biking">ຂອບຟອງ</string>
+    <string name="topic_camping">ກາມບໍລິການ</string>
+    <string name="topic_fitness">ກຣາຟິຊ</string>
+    <string name="topic_meditation">ການປັບປຸງຄົນຈັດກັບກ່ຽວກັບສະຫງົບສີດສົດົດພຣະພູມງາມໄໝຊີຊິວຍຸກີນຈາກປີ.</string>
+    <string name="topic_movie">ບໍລິການ</string>
+    <string name="topic_music">ເພງ</string>
+    <string name="topic_painting">ວຽກບັນການ</string>
+    <string name="topic_physics">ວິຊາວາງ</string>
+    <string name="topic_reading">ການອ່ານ</string>
+    <string name="topic_science">ວິທະຍາສາ</string>
+    <string name="topic_sports">ກິລິຕຽນ</string>
+    <string name="topic_swimming">ການຊາຍ</string>
+    <string name="topic_technology">ພວກເຮົາ</string>
+    <string name="topic_videogame">ເວີດບູຮານ</string>
+</resources>

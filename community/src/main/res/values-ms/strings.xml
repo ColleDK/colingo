@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Cari rakan sebaya</string>
+    <string name="community_page_title">Ahli</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Bercakap</string>
+    <string name="community_user_learns">Pembelajaran</string>
+
+    <string name="community_ai_empty_title">Tiada chatbot dijumpai</string>
+    <string name="community_ai_empty_subtitle">Cuba kemas kini penapis anda untuk mencari lebih banyak chatbot.</string>
+    <string name="community_empty_title">Tiada pengguna dijumpai</string>
+    <string name="community_empty_subtitle">Cuba kemaskini penapis anda untuk mencari lebih banyak pengguna</string>
+
+    <string name="community_filters_limit">Pilih sehingga %d bahasa yang anda ingin lihat penutur fasihnya dari</string>
+    <string name="community_filters_selected">Teks untuk diterjemah: %d/%d dipilih</string>
+    <string name="community_filters_clear">Padam penapis</string>
+    <string name="community_filters_your_languages">Bahasa-bahasa anda yang semasa</string>
+
+    <string name="chat_created_msg">Perbualan dicipta</string>
+    <string name="chatbot_created_msg">Perbualan dicipta dengan %s</string>
+    <string name="chatbot_create_chat">Buat perbualan dengan %s</string>
+</resources>

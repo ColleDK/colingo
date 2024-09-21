@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">እንቅስቃሴ ናቸው</string>
+    <string name="topic_cooking">ምግብ</string>
+    <string name="topic_theater">ታይንብር</string>
+    <string name="topic_partying">እንስማማለን</string>
+    <string name="topic_biking">የመንገድ መልኩ</string>
+    <string name="topic_camping">ጊዜ እንትዋም</string>
+    <string name="topic_fitness">መልካም ግብ!</string>
+    <string name="topic_meditation">መነሻ</string>
+    <string name="topic_movie">ፊልም</string>
+    <string name="topic_music">ሙዚቃ</string>
+    <string name="topic_painting">ታሪክ</string>
+    <string name="topic_physics">ፍሪሰ ለማግኘት: ፍርድ</string>
+    <string name="topic_reading">ስለምንድን</string>
+    <string name="topic_science">Science.</string>
+    <string name="topic_sports">ስፓርትስ</string>
+    <string name="topic_swimming">ክፉ፣ ሰፈር</string>
+    <string name="topic_technology">ታክሲንሆን</string>
+    <string name="topic_videogame">ቪድዮ ጨዋታዎች</string>
+</resources>

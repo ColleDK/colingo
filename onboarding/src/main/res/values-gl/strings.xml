@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Cilingo</string>
+    <string name="onboarding_login_btn">Iniciar sesión</string>
+    <string name="onboarding_signup_btn">Rexístrate</string>
+    <string name="onboarding_other_title">Ou continúa con</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continuar como convidado</string>
+    <string name="onboarding_go_back">Volve atrás</string>
+
+    <!-- Log in -->
+    <string name="login_title">Benvido de volta!</string>
+    <string name="login_subtitle">Inicia sesión na túa conta</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contrasinal</string>
+    <string name="login_forgot_password">Esqueceches o contrasinal\?</string>
+    <string name="login_login_btn">Iniciar sesión</string>
+    <string name="login_go_to_signup_1">Aínda non tes unha conta\?</string>
+    <string name="login_go_to_signup_2">Rexístrate</string>
+    <string name="login_reset_password">Restablecer contrasinal</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Rexistrar</string>
+    <string name="signup_subtitle">Crear a túa conta</string>
+    <string name="signup_name_hint">Nome</string>
+    <string name="signup_email_hint">Correo electrónico</string>
+    <string name="signup_password_hint">Contrasinal</string>
+    <string name="signup_confirm_password_hint">Confirmar contrasinal</string>
+    <string name="signup_signup_btn">Rexistro</string>
+    <string name="signup_go_to_login_1">Xa ten unha conta\?</string>
+    <string name="signup_go_to_login_2">Iniciar sesión</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Próximo</string>
+    <string name="setup_profile_finish">Rematar</string>
+    <string name="setup_profile_skip">Omitir</string>
+    <string name="add_picture_title">Configurar perfil</string>
+    <string name="add_picture_subtitle">Engade imaxe de perfil</string>
+    <string name="add_languages_title">Configurar perfil</string>
+    <string name="add_languages_subtitle">Seleccionar idiomas</string>
+    <string name="add_languages_select_proficiency">Seleccionar competencia</string>
+    <string name="add_languages_select_language">Seleccionar idioma</string>
+    <string name="add_languages_add_language">Engadir lingua</string>
+    <string name="add_language_select">Selecionar</string>
+    <string name="add_language_cancel">Cancelar</string>
+    <string name="select_gender_title">Configurar perfil</string>
+    <string name="select_gender_subtitle">Seleccionar xénero</string>
+    <string name="select_topics_title">Configurar perfil</string>
+    <string name="select_topics_subtitle">Escoller temas</string>
+    <string name="add_description_title">Configurar perfil</string>
+    <string name="add_description_subtitle">Engade un pouco de información sobre ti.</string>
+    <string name="add_description_birthday_hint">Cumpleanos</string>
+    <string name="add_description_birthday_select">Seleccionar</string>
+    <string name="add_description_birthday_cancel">Cancelar</string>
+    <string name="add_description_location_hint">Localización</string>
+    <string name="add_description_description_hint">Descrición</string>
+</resources>

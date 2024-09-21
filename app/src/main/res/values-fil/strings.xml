@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Bahay</string>
+    <string name="destination_explore_label">Tuklasin</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profile</string>
+    <string name="destination_settings_label">Mga Setting</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Pamamaraan ng Pag-customize</string>
+    <string name="setting_notifications_title">Mga Abiso</string>
+    <string name="setting_permissions_title">Pahintulot</string>
+    <string name="setting_accessibility_title">Accessibilidad</string>
+    <string name="setting_about_title">Tungkol dito</string>
+    <string name="setting_rate_title">I-rate ang app</string>
+    <string name="setting_report_title">I-ulat ang isyu</string>
+    <string name="setting_logout_title">Mag-log out</string>
+    <string name="setting_switch_language_title">Baguhin ang mga wika</string>
+
+    <string name="selected_language">Piniling wika</string>
+
+    <string name="settings_change">Baguhin ang mga setting</string>
+    <string name="settings_switch_language">Palitan ang wika</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">I-rate ang app</string>
+    <string name="settings_switch_language_title">Baguhin ang wika</string>
+    <string name="settings_theming_title">Paggagayak at mga kulay</string>
+    <string name="settings_about_page_title">Tungkol sa app</string>
+    <string name="settings_about_page_description1">Ang Colingo ay isang open-source community driven language exchange platform na binuo nina Colle/William.</string>
+    <string name="settings_about_page_description2">Naninindigan kami na maging bukas at tapat sa lahat ng bagay sa aplikasyon, kaya\'t ito\'y aming inilalabas sa open-source.</string>
+    <string name="settings_about_page_description3">Ang lahat ng mga pagsasalin sa loob ng app ay ginagawa ng mga AIs at posibleng magkaroon ng mga error sa pagsasalin - kung may makita kayong anumang error, mangyaring i-report ito sa \\"I-ulat ang bug\\" pane.</string>
+    <string name="settings_about_page_contact">Kung mayroon kayong anumang mga alalahanin o mungkahi para sa app, maaari kayong makipag-ugnayan sa amin sa:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">I-ulat ang bug.</string>
+    <string name="settings_report_bug_title">Upang siguruhing pagiging stable, kami ay awtomatikong namimil ng mga ulat ng pag-crash, ngunit kung may makita kang anumang isyu at nais mong magsumite ng bug direkta, punan lamang ang form na may kaugnayang impormasyon.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

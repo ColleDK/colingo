@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Менің таңдауларым</string>
+    <string name="post_create_new">Жаңа жазушыны жасау</string>
+    <string name="create_post_dismiss">Күшіні жою</string>
+    <string name="create_post_create">Құру</string>
+    <string name="post_show_more">Көбірек көрсету</string>
+    <string name="post_show_less">Көрсету азайту</string>
+
+    <string name="create_post_success">Жазылды</string>
+    <string name="create_chat_success">Chat құрылды</string>
+
+    <string name="home_filters_oldest">Ескі</string>
+    <string name="home_filters_newest">Жаңа</string>
+    <string name="post_create_comment">Комментарий қосу</string>
+    <string name="post_likes">%s ұнайды</string>
+    <string name="post_comments">Тексеру: %s пікірлер</string>
+    <string name="post_no_comments_title">Әлі жауаптар жоқ</string>
+    <string name="post_no_comments_subtitle">Бұл жазбада сіздің өзіңізді байланысты көрсетуге бірінші болыңыз</string>
+
+    <string name="error_msg_general">Кейінге қате пайда болды. Қайталап көріңіз</string>
+</resources>

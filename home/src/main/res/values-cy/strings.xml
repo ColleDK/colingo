@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Fy nwyddau</string>
+    <string name="post_create_new">Creu post newydd</string>
+    <string name="create_post_dismiss">Canfyddiwr</string>
+    <string name="create_post_create">Creu</string>
+    <string name="post_show_more">Dangos mwy</string>
+    <string name="post_show_less">Dangos llai</string>
+
+    <string name="create_post_success">Post creuwyd</string>
+    <string name="create_chat_success">Sgwrswch crëwyd</string>
+
+    <string name="home_filters_oldest">Hynaf</string>
+    <string name="home_filters_newest">Nid yw\'n bosibl newid y rhestr wahanol eto.</string>
+    <string name="post_create_comment">Ychwanegu sylw</string>
+    <string name="post_likes">%s yn hoffi</string>
+    <string name="post_comments">Llefaru: %s sylwadau</string>
+    <string name="post_no_comments_title">Dim atebion eto</string>
+    <string name="post_no_comments_subtitle">Byddwch chi\'r cyntaf i rannu eich barn am y neges hon</string>
+
+    <string name="error_msg_general">Mae rhywbeth wedi mynd o\'i le. Rhowch gynnig arall os gwelwch yn dda</string>
+</resources>

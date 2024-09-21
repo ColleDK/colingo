@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Meld zikh oys</string>
+    <string name="onboarding_signup_btn">registriere dich</string>
+    <string name="onboarding_other_title">Oder fahr vayter mit</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Fortzetsn vi a gas.</string>
+    <string name="onboarding_go_back">גיי צוריק</string>
+
+    <!-- Log in -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Meldikn zikh af ayer kheshbn</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">פּאַראָל</string>
+    <string name="login_forgot_password">Fargessn parol\?</string>
+    <string name="login_login_btn">Log in.</string>
+    <string name="login_go_to_signup_1">קיין קאָנט אָבער נאך ניט\?</string>
+    <string name="login_go_to_signup_2">Register אריינשרייבן</string>
+    <string name="login_reset_password">רעסעט פּאַראָל</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrieren</string>
+    <string name="signup_subtitle">צוצטעלן דײַן־קאָנט אַרייַנגעלעגן</string>
+    <string name="signup_name_hint">נאמען</string>
+    <string name="signup_email_hint">Email.</string>
+    <string name="signup_password_hint">פּאַראָל</string>
+    <string name="signup_confirm_password_hint">Bestätige Passwort</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Shoin a konto\?</string>
+    <string name="signup_go_to_login_2">Log in.</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">פֿאַרנאווען</string>
+    <string name="setup_profile_skip">Gey iber</string>
+    <string name="add_picture_title">Richt a profyl ארויפֿשטעלן</string>
+    <string name="add_picture_subtitle">Add Profil Bild</string>
+    <string name="add_languages_title">Richt a profyl ארויפֿשטעלן</string>
+    <string name="add_languages_subtitle">װעלען שפּראַכן</string>
+    <string name="add_languages_select_proficiency">קליי אַביטלעכקייט</string>
+    <string name="add_languages_select_language">װײַלן שפּראַך</string>
+    <string name="add_languages_add_language">צוגעבן שפראך</string>
+    <string name="add_language_select">סעלעקטירן</string>
+    <string name="add_language_cancel">אָפּהייבן</string>
+    <string name="select_gender_title">פּראָפיל אַרייַנריכטן</string>
+    <string name="select_gender_subtitle">וועלט דזשענדער</string>
+    <string name="select_topics_title">פּראָפיל אַרייַנריכטן</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">פּראָפיל איינריכטן</string>
+    <string name="add_description_subtitle">\"געפֿיל אַרײַן אַ ביסל אינפֿאָרמאַציע וועגן זיך\"</string>
+    <string name="add_description_birthday_hint">Geburtstog</string>
+    <string name="add_description_birthday_select">קליינען</string>
+    <string name="add_description_birthday_cancel">Ofenemen.</string>
+    <string name="add_description_location_hint">Ort</string>
+    <string name="add_description_description_hint">Beschreibung</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log in</string>
+    <string name="onboarding_signup_btn">Cuir sìos</string>
+    <string name="onboarding_other_title">Neo mairg no lean air adhart</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Fuirich mar fhrithealadair</string>
+    <string name="onboarding_go_back">Thoir air ais</string>
+
+    <!-- Log in -->
+    <string name="login_title">Fàilte air ais!</string>
+    <string name="login_subtitle">Log a-steach gu do chunntas</string>
+    <string name="login_email_hint">Post-d.</string>
+    <string name="login_password_hint">Focal-faireachdainn</string>
+    <string name="login_forgot_password">Dèan dearmad air a\' phàsd.</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Chan eil cunntas agad fhathast\?</string>
+    <string name="login_go_to_signup_2">Cuir sìos</string>
+    <string name="login_reset_password">Ath-shuidhich pasword</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Clàraich</string>
+    <string name="signup_subtitle">Cruthaich do cunntas</string>
+    <string name="signup_name_hint">Ainm</string>
+    <string name="signup_email_hint">Post-d.</string>
+    <string name="signup_password_hint">Focal-faireachdainn</string>
+    <string name="signup_confirm_password_hint">Dearbhaich pasfhacail</string>
+    <string name="signup_signup_btn">Clàraich</string>
+    <string name="signup_go_to_login_1">A bheil cunntas agad mar-tha\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Air adhart</string>
+    <string name="setup_profile_finish">Crìochnaich</string>
+    <string name="setup_profile_skip">Sàr-nì bòidheachadh!</string>
+    <string name="add_picture_title">Lìon roinneig</string>
+    <string name="add_picture_subtitle">Cur a-steach dealbh proifeil</string>
+    <string name="add_languages_title">Lìon roinneig</string>
+    <string name="add_languages_subtitle">Tagh cànanan</string>
+    <string name="add_languages_select_proficiency">Tagh eòlas</string>
+    <string name="add_languages_select_language">Tagh cànain</string>
+    <string name="add_languages_add_language">Cuir cànainaidh</string>
+    <string name="add_language_select">Tagha</string>
+    <string name="add_language_cancel">Ceàrr</string>
+    <string name="select_gender_title">Lìon roinneig</string>
+    <string name="select_gender_subtitle">Tagh gèarr!</string>
+    <string name="select_topics_title">Lìon roinneig</string>
+    <string name="select_topics_subtitle">Taghadh cuspairean</string>
+    <string name="add_description_title">Lìon roinneig</string>
+    <string name="add_description_subtitle">Cuir fiosrachadh mu dheidhinn ort fhèin</string>
+    <string name="add_description_birthday_hint">Là breith sona</string>
+    <string name="add_description_birthday_select">Tagha</string>
+    <string name="add_description_birthday_cancel">Ceàrr</string>
+    <string name="add_description_location_hint">Àiteadh</string>
+    <string name="add_description_description_hint">Tòisgeul</string>
+</resources>

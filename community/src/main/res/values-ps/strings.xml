@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">یو همکار ونیزې ولاړید</string>
+    <string name="community_page_title">اعضا</string>
+    <string name="chatbot_page_title">د چټ کېدونکونه</string>
+    <string name="community_user_speaks">دوختلَی</string>
+    <string name="community_user_learns">پوهاندل</string>
+
+    <string name="community_ai_empty_title">د چټباټونو پيدا نه وگورئ</string>
+    <string name="community_ai_empty_subtitle">د خلکو په اړه بحث کولو لپاره خپلو فلټرونو تازه کولای شئ</string>
+    <string name="community_empty_title">هیڅ کارندان موندل نه شوه</string>
+    <string name="community_empty_subtitle">Try updating your filters to find more users</string>
+
+    <string name="community_filters_limit">په ٪d ژبې کېدلې وکړئ چې ژبو د صدر ورانولو له لارې وړانډې وکړل شئ</string>
+    <string name="community_filters_selected">%d/%d انتخاب شوی</string>
+    <string name="community_filters_clear">پاکي کويشونه</string>
+    <string name="community_filters_your_languages">ستاسو اوسنی ژبیتونه</string>
+
+    <string name="chat_created_msg">د چټ په حال کې شوی</string>
+    <string name="chatbot_created_msg">د ٪s سره مخکې ته شوی چټ.</string>
+    <string name="chatbot_create_chat">د %s سره چټکې تخلیق کړه</string>
+</resources>

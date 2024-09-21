@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Namai</string>
+    <string name="destination_explore_label">Tyrinėti</string>
+    <string name="destination_chat_label">Pokalbis</string>
+    <string name="destination_profile_label">Profilis</string>
+    <string name="destination_settings_label">Nustatymai</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Temos nustatymas</string>
+    <string name="setting_notifications_title">Pranešimai</string>
+    <string name="setting_permissions_title">Leidimai</string>
+    <string name="setting_accessibility_title">Prieinamumas</string>
+    <string name="setting_about_title">Apie</string>
+    <string name="setting_rate_title">Įvertinkite programėlę</string>
+    <string name="setting_report_title">Pranešti apie klaidą</string>
+    <string name="setting_logout_title">Atsijungti</string>
+    <string name="setting_switch_language_title">Keisti kalbas</string>
+
+    <string name="selected_language">Pasirinktas kalba</string>
+
+    <string name="settings_change">Pakeisti nustatymus</string>
+    <string name="settings_switch_language">Keisti kalbą</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dinaminis temų nustatymas</string>
+    <string name="setting_dark_theme">Tamsus apipavidalinimas</string>
+
+    <string name="settings_rate_app_page_title">Įvertinkite programėlę</string>
+    <string name="settings_switch_language_title">Pakeisti kalbą</string>
+    <string name="settings_theming_title">Temos ir spalvos</string>
+    <string name="settings_about_page_title">Apie programėlę</string>
+    <string name="settings_about_page_description1">Colingo yra atviro kodo bendruomenės kurta kalbų mainų platforma, sukurtą Colle/William.</string>
+    <string name="settings_about_page_description2">Tekstas versti: Mes siekiame būti kuo atviriausi ir aiškiausi visame programoje, todėl ją palaikome atvirą.</string>
+    <string name="settings_about_page_description3">Visos vertimai programėlėje atliekami dirbtinio intelekto pagalba, todėl gali būti vertimų klaidų - jei ką nors pastebėjote, prašome pranešti apie tai skirtuke „Pranešti apie klaidą“.</string>
+    <string name="settings_about_page_contact">Jei turite kokių nors klausimų ar pasiūlymų dėl programėlės, galite susisiekti su mumis čia:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Pranešti apie klaidą</string>
+    <string name="settings_report_bug_title">Norint užtikrinti stabilumą, mes automatiškai renkame informaciją apie programos iššokimus, tačiau jei pastebėjote kažkokias problemas ir norėtumėte pateikti klaidų ataskaitą tiesiogiai, prašome užpildyti formą ir pateikti kuo daugiau informacijos, kiek turite.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

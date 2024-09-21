@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">یارەکان بدۆزەین</string>
+    <string name="community_page_title">ئەندامان</string>
+    <string name="chatbot_page_title">چاتبۆتیەکان</string>
+    <string name="community_user_speaks">گوتارده‌کردن</string>
+    <string name="community_user_learns">پێوەکردن</string>
+
+    <string name="community_ai_empty_title">هیچ باتکۆتی گفتگو پێناسە نەکراوە.</string>
+    <string name="community_ai_empty_subtitle">هەوڵبدە پەسەندت بۆنرێک پاشین بکە بۆ زیاتر کردنی چاتبۆتەکان</string>
+    <string name="community_empty_title">هیچ بەکارهێنەرێک نەدۆزرایەوە</string>
+    <string name="community_empty_subtitle">هەوڵبدەرەوە فلتەرەکانت نوێبکەوە بۆ زیاتر بەکارهێنەران بدۆزی.</string>
+
+    <string name="community_filters_limit">هەڵبژێرە بۆ %d زمانێک کە دەتەوێت لەخۆ ببینی تێیدا زمانخوازانی زانیار هاتووەكان.</string>
+    <string name="community_filters_selected">%d/%d دیاری کراوین</string>
+    <string name="community_filters_clear">پاک کردنى هاوڕەبەران</string>
+    <string name="community_filters_your_languages">زمانی ئێستاکراوِتان</string>
+
+    <string name="chat_created_msg">چات دروست کرا.</string>
+    <string name="chatbot_created_msg">چاوپێكه‌وه‌ دروستكرا بەهەمان %s</string>
+    <string name="chatbot_create_chat">بەرهەمە بە  %s  دروست بکەید</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">เข้าสู่ระบบ</string>
+    <string name="onboarding_signup_btn">ลงทะเบียน</string>
+    <string name="onboarding_other_title">หรือดำเนินการต่อ</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">ดำเนินการเป็นแขก</string>
+    <string name="onboarding_go_back">กลับมา</string>
+
+    <!-- Log in -->
+    <string name="login_title">ยินดีต้อนรับกลับมา!</string>
+    <string name="login_subtitle">เข้าสู่ระบบของคุณ</string>
+    <string name="login_email_hint">อีเมล์</string>
+    <string name="login_password_hint">รหัสผ่าน</string>
+    <string name="login_forgot_password">ลืมรหัสผ่าน\?</string>
+    <string name="login_login_btn">เข้าสู่ระบบ</string>
+    <string name="login_go_to_signup_1">ยังไม่มีบัญชี\?</string>
+    <string name="login_go_to_signup_2">ลงทะเบียน</string>
+    <string name="login_reset_password">รีเซ็ตรหัสผ่าน</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ลงทะเบียน</string>
+    <string name="signup_subtitle">สร้างบัญชีของคุณ</string>
+    <string name="signup_name_hint">ชื่อ</string>
+    <string name="signup_email_hint">อีเมล์</string>
+    <string name="signup_password_hint">รหัสผ่าน</string>
+    <string name="signup_confirm_password_hint">ยืนยันรหัสผ่าน</string>
+    <string name="signup_signup_btn">ลงทะเบียน</string>
+    <string name="signup_go_to_login_1">มีบัญชีผู้ใช้อยู่แล้วหรือยัง\?</string>
+    <string name="signup_go_to_login_2">เข้าสู่ระบบ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ถัดไป</string>
+    <string name="setup_profile_finish">เสร็จสิ้น</string>
+    <string name="setup_profile_skip">ข้าม</string>
+    <string name="add_picture_title">สร้างโปรไฟล์</string>
+    <string name="add_picture_subtitle">เพิ่มรูปโปรไฟล์</string>
+    <string name="add_languages_title">สร้างโปรไฟล์</string>
+    <string name="add_languages_subtitle">เลือกภาษา</string>
+    <string name="add_languages_select_proficiency">เลือกระดับความเชี่ยวชาญ</string>
+    <string name="add_languages_select_language">เลือกภาษา</string>
+    <string name="add_languages_add_language">เพิ่มภาษา</string>
+    <string name="add_language_select">เลือก</string>
+    <string name="add_language_cancel">ยกเลิก</string>
+    <string name="select_gender_title">กำหนดโปรไฟล์</string>
+    <string name="select_gender_subtitle">เลือกเพศ</string>
+    <string name="select_topics_title">กำหนดโปรไฟล์</string>
+    <string name="select_topics_subtitle">เลือกหัวข้อ</string>
+    <string name="add_description_title">ตั้งค่าโปรไฟล์</string>
+    <string name="add_description_subtitle">เพิ่มข้อมูลเกี่ยวกับตัวเอง</string>
+    <string name="add_description_birthday_hint">วันเกิด</string>
+    <string name="add_description_birthday_select">เลือก</string>
+    <string name="add_description_birthday_cancel">ยกเลิก</string>
+    <string name="add_description_location_hint">ตำแหน่ง</string>
+    <string name="add_description_description_hint">คำอธิบาย</string>
+</resources>

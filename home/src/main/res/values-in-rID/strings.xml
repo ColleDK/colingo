@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Beranda Saya</string>
+    <string name="post_create_new">Buat pos baru</string>
+    <string name="create_post_dismiss">Batalkan</string>
+    <string name="create_post_create">Buat</string>
+    <string name="post_show_more">Tampilkan lebih</string>
+    <string name="post_show_less">Tampilkan lebih sedikit</string>
+
+    <string name="create_post_success">Pos dibuat</string>
+    <string name="create_chat_success">Obrolan dibuat</string>
+
+    <string name="home_filters_oldest">Tertua</string>
+    <string name="home_filters_newest">Terbaru</string>
+    <string name="post_create_comment">Tambahkan komentar</string>
+    <string name="post_likes">%s suka</string>
+    <string name="post_comments">Komentar %s</string>
+    <string name="post_no_comments_title">Belum ada balasan</string>
+    <string name="post_no_comments_subtitle">Menjadi yang pertama dalam membagikan pendapat Anda mengenai postingan ini</string>
+
+    <string name="error_msg_general">Ada kesalahan. Silakan coba lagi.</string>
+</resources>

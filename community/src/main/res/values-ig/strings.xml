@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Echeta ndi okeịọla</string>
+    <string name="community_page_title">Ndeịnwe omenala</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Ịba</string>
+    <string name="community_user_learns">Ọdịdị ịtụtụ</string>
+
+    <string name="community_ai_empty_title">Ọ dịghị chatbots ahụ a dị iche iche</string>
+    <string name="community_ai_empty_subtitle">Nwee akara gi nye ndikọta iji nọ n\'ime ngwaọrụ ịbịa ndị chatbots ọzọ</string>
+    <string name="community_empty_title">Ọ nwere ọrụ aghọghọ ahụ afọ na-akpọ.</string>
+    <string name="community_empty_subtitle">Nye afo ngafe achọrọ obi iji chọrọ ọkọwa mmadụ ndị ọzọ</string>
+
+    <string name="community_filters_limit">Pili ihe mmadu anaghi enye aka n\'ime %d asụsụ dị mma ị chọrọ dị ka anyị jiri ebubo aha dị ọzọ.</string>
+    <string name="community_filters_selected">%d/%d aghọtaghịọrụ</string>
+    <string name="community_filters_clear">Kụọ nkwupụta.</string>
+    <string name="community_filters_your_languages">Nsọ na asụsụ gara aga.</string>
+
+    <string name="chat_created_msg">Chat anọ nwere nkịtịọkasịọ.</string>
+    <string name="chatbot_created_msg">Chat na-enweghị ike n\'ahụ %s</string>
+    <string name="chatbot_create_chat">Mepụta ihe ndekọ na ịsasị na %s</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">नयाँ च्याट सिर्जना गर्नुहोस्।</string>
+    <string name="date_today">आज</string>
+
+    <string name="members_page_title">च्याट्स</string>
+    <string name="bots_page_title">बोट च्याटहरू</string>
+
+    <string name="chat_my_messages">मेरा सन्देशहरू</string>
+    <string name="chat_empty_title">संदेश अझै सम्मेत छैन</string>
+    <string name="chat_empty_description">सन्देशहरू हेर्नको लागि बोलावट गर्नुहोस्।</string>
+
+    <string name="chats_empty_title">अझै च्याटहरू छैनन्।</string>
+    <string name="chats_empty_description">एउटा नयाँ वार्ताको आरम्भ गरेपछि, तपाईंले यहाँ सूचीबद्ध गरिदेख्नु हुनेछ।</string>
+
+    <string name="chats_delete_title">च्याट हटाउनुहोस्</string>
+    <string name="chats_delete_subtitle">यो कार्य पूर्व-अन्डुन गर्न सकिन्छैन!</string>
+    <string name="chats_delete_confirm">पुष्टि गर्नुहोस्।</string>
+    <string name="chats_delete_cancel">रद्द गर्नुहोस्।</string>
+    <string name="chats_delete_success">मेसेज हटाइयो।</string>
+
+    <string name="message_time_today">आज</string>
+    <string name="message_time_yesterday">गतवार्।</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise एउटा स्पेनिस शिक्षक हुनुहुन्छ जसले तपाइँको शब्दावली सुधार्नमा मद्दत गर्न सक्दछ!</string>
+</resources>

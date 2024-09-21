@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">नवीन चॅट तयार करा</string>
+    <string name="date_today">आज</string>
+
+    <string name="members_page_title">चॅट्स</string>
+    <string name="bots_page_title">बॉट चॅट्स</string>
+
+    <string name="chat_my_messages">माझे संदेश</string>
+    <string name="chat_empty_title">काहीसूद नाही</string>
+    <string name="chat_empty_description">संवाद सुरू करण्यासाठी आपले संदेश येथे पाहा.</string>
+
+    <string name="chats_empty_title">अद्याप चॅट्स नाहीत</string>
+    <string name="chats_empty_description">नवीन चर्चा सुरू केल्यानंतर, तीच येथे सूचीत केली जाईल.</string>
+
+    <string name="chats_delete_title">चॅट काढा</string>
+    <string name="chats_delete_subtitle">हा क्रियापट फिरवू शकत नाही!</string>
+    <string name="chats_delete_confirm">निश्चित</string>
+    <string name="chats_delete_cancel">रद्द</string>
+    <string name="chats_delete_success">चॅट हटविले</string>
+
+    <string name="message_time_today">आज</string>
+    <string name="message_time_yesterday">काल</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">लुईझ ह्या एक स्पॅनिश शिक्षक आहेत ज्याने आपल्या शब्दसंग्रहात सहाय्य करू शकतात!</string>
+</resources>

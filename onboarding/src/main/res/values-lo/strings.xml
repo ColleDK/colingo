@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="onboarding_signup_btn">ລົງທະບຽນ</string>
+    <string name="onboarding_other_title">ຫຼື​ບໍ່ເລີ່ມຕົ້ນ​ຕົວ​ດ່ວມ</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">ຟີດໂກບ</string>
+    <string name="onboarding_guest_btn">ສະໝັກເກົ່າຮູບອາດ</string>
+    <string name="onboarding_go_back">ກັບຄືນ</string>
+
+    <!-- Log in -->
+    <string name="login_title">ຍິນດີຕອນຮັບກັບ!</string>
+    <string name="login_subtitle">ເຂົ້າສູ່ບັນຊີຂອງທ່ານ</string>
+    <string name="login_email_hint">ອີເມລ</string>
+    <string name="login_password_hint">ລະຫັດຜ່ານ</string>
+    <string name="login_forgot_password">ລືມລະຫັດຜ່ານບໍ\?</string>
+    <string name="login_login_btn">ເຂົ້າສູ່ລະບົບ</string>
+    <string name="login_go_to_signup_1">ຍັງ​ບໍ່​ມີ​ບັນ​ຊີ​ອັບ​ໂຫຼດ​ອອກ​ຫຼາຍ​ແລ້ວ​ແທ້​ງາມ​ບໍ​ລິ​ກາ​ການລົງ​ທະ​ບຽນບ​ໍ​ຫຼື​ບໍ່\?</string>
+    <string name="login_go_to_signup_2">ລົງທະບຽນ</string>
+    <string name="login_reset_password">ຕັ້ງລະຫັດຜshມການປ່ຽນລະດັບ</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">ລົງທະບຽນ</string>
+    <string name="signup_subtitle">ສ້າງບັນຊີຂອງທ່ານ</string>
+    <string name="signup_name_hint">ຊື່</string>
+    <string name="signup_email_hint">ອີເມລ</string>
+    <string name="signup_password_hint">ລະຫັດຜ່ານ</string>
+    <string name="signup_confirm_password_hint">ຢືນຢັນລະຫັດລະຠັດ</string>
+    <string name="signup_signup_btn">ລົງທະບຽນ</string>
+    <string name="signup_go_to_login_1">ມີບັນຊີຢູ່ເທົ່ານັ້ນໆຢູ່ຢາງວິນາທຸນໆແລ້ວແມ່ນບໍ່\?</string>
+    <string name="signup_go_to_login_2">ລງວັນ ກະລຸນ ມີທຸກໄລຍະດຽວຐຸ ເພື່ອດັດຈີນຜ່ານມັນເຂົ້າສູງ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ຕໍ່ກ່ວາ</string>
+    <string name="setup_profile_finish">ສິ່ງຈຳກັດ</string>
+    <string name="setup_profile_skip">ຂ້ມ</string>
+    <string name="add_picture_title">ກຳລັງຕັ້ງຄ່າຂໍ້ມູນ</string>
+    <string name="add_picture_subtitle">ເພີ່ມຮູບໜ້າລັກສະນະ</string>
+    <string name="add_languages_title">ກຳລັງຕັ້ງຄ່າຂໍ້ມູນ</string>
+    <string name="add_languages_subtitle">ເລືອກພາສາ</string>
+    <string name="add_languages_select_proficiency">ເລືອກຄິດຄະນິນ</string>
+    <string name="add_languages_select_language">ເລືອກພາສາ</string>
+    <string name="add_languages_add_language">ເພີ່ມພາສາ</string>
+    <string name="add_language_select">ເລືອກ</string>
+    <string name="add_language_cancel">ຍົກເລີກ</string>
+    <string name="select_gender_title">ຕັ້ງຄ່າໂປຣໄຟລ</string>
+    <string name="select_gender_subtitle">ເລືອກເພດ</string>
+    <string name="select_topics_title">ຕັ້ງຄ່າໂປຣໄຟລ</string>
+    <string name="select_topics_subtitle">ເລືອກຫົວຂໍ້</string>
+    <string name="add_description_title">ຕັ້ງຄ່າໂປຣໄຟລ</string>
+    <string name="add_description_subtitle">ເພີ່ມຂໍ້ມູນເພີ່ມເຕີ້ນເພື່ອຕ້ອງການກ່ຽວກັບຕົວລາວຂອງເຈົ້າ</string>
+    <string name="add_description_birthday_hint">ວັນເດືອນ</string>
+    <string name="add_description_birthday_select">ເລືອກ</string>
+    <string name="add_description_birthday_cancel">ຍົກເລີກ</string>
+    <string name="add_description_location_hint">ສະຖານທີ່</string>
+    <string name="add_description_description_hint">ລາຍລະອຽດ</string>
+</resources>

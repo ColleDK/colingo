@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Bilatu partaideak</string>
+    <string name="community_page_title">Mahaikideak</string>
+    <string name="chatbot_page_title">Txatbotak</string>
+    <string name="community_user_speaks">Hitz egin</string>
+    <string name="community_user_learns">Ikasten</string>
+
+    <string name="community_ai_empty_title">Ez da chatbot-ik aurkitu</string>
+    <string name="community_ai_empty_subtitle">Saiatu eguneratzen zure iragazkiak chatbot gehiago aurkitzeko</string>
+    <string name="community_empty_title">Ez da erabiltzailerik aurkitu</string>
+    <string name="community_empty_subtitle">Saiatu eguneratzen zure iragazkiak erabili gehiago erabiltzaileak aurkitzeko</string>
+
+    <string name="community_filters_limit">Aukeratu gehienez %d hizkuntza, nonbaitetza hiztun hizkuntzaz ikustea nahi duzun.</string>
+    <string name="community_filters_selected">%d/%d hautatuak</string>
+    <string name="community_filters_clear">Filtreak garbitu</string>
+    <string name="community_filters_your_languages">Zure oraingo hizkuntzak</string>
+
+    <string name="chat_created_msg">Sortua den txata</string>
+    <string name="chatbot_created_msg">%s erabiliz sortutako txata.</string>
+    <string name="chatbot_create_chat">Sortu txata %s-rekin</string>
+</resources>

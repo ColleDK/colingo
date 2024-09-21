@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Välj</string>
+    <string name="cancel_birthday_selection">Avbryt</string>
+    <string name="edit_name_title">Namn</string>
+    <string name="location_empty_title">Ok.</string>
+
+    <string name="description_title">Beskrivning</string>
+
+    <string name="profile_updated_success">Profilen uppdaterades framgångsrikt</string>
+
+    <string name="topics_empty_title">Inga ämnen valda</string>
+    <string name="topics_title">Intressen</string>
+
+    <string name="languages_title">Språk</string>
+    <string name="languages_empty_title">Inga språk valda</string>
+    <string name="profile_add_language">Lägg till språk</string>
+    <string name="profile_select_language">Välj språk</string>
+    <string name="profile_select_proficiency">Välj kompetens</string>
+    <string name="add_language_select">Välj</string>
+    <string name="add_language_cancel">Avbryt</string>
+    <string name="gender_title">Kön</string>
+</resources>

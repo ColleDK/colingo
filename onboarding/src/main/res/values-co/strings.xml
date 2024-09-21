@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Culingu</string>
+    <string name="onboarding_login_btn">Accessu</string>
+    <string name="onboarding_signup_btn">Registrate</string>
+    <string name="onboarding_other_title">O pudete cuntinuà cu.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continua com\'è ospite.</string>
+    <string name="onboarding_go_back">Torna ind\'à dietro</string>
+
+    <!-- Log in -->
+    <string name="login_title">Benvinuti torna!</string>
+    <string name="login_subtitle">Cunnettiti à u to contu</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Uti nisi parolla\?</string>
+    <string name="login_login_btn">Accessu</string>
+    <string name="login_go_to_signup_1">Nò avè un contu ancor\'è\?</string>
+    <string name="login_go_to_signup_2">Registrate</string>
+    <string name="login_reset_password">Ripristina a parolla chiave</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registra</string>
+    <string name="signup_subtitle">Crea u to contu</string>
+    <string name="signup_name_hint">Name</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Confirmà a parolla passe.</string>
+    <string name="signup_signup_btn">Registra</string>
+    <string name="signup_go_to_login_1">Ghjà un còntu\?</string>
+    <string name="signup_go_to_login_2">Accessu</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Seguenti.</string>
+    <string name="setup_profile_finish">Finisci</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Setup profile</string>
+    <string name="add_picture_subtitle">Aghjunte una foto di profilu</string>
+    <string name="add_languages_title">Setup profile</string>
+    <string name="add_languages_subtitle">Seleziunate e lingue.</string>
+    <string name="add_languages_select_proficiency">Selezione di competenza.</string>
+    <string name="add_languages_select_language">Seleziunà a lingua</string>
+    <string name="add_languages_add_language">Aghjungi lingua</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Annullà</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Seleziunà u genere</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Select topics</string>
+    <string name="add_description_title">Setup profile</string>
+    <string name="add_description_subtitle">Aghjungi qualchì infurmazione nantu à tè</string>
+    <string name="add_description_birthday_hint">Cumpleannu</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Annullà</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Descrizione</string>
+</resources>

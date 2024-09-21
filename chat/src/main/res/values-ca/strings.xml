@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Crear un nou xat</string>
+    <string name="date_today">Avui</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Xats de bots.</string>
+
+    <string name="chat_my_messages">Els meus missatges</string>
+    <string name="chat_empty_title">Encara no hi ha missatges</string>
+    <string name="chat_empty_description">Comença a conversar per veure els teus missatges aquí.</string>
+
+    <string name="chats_empty_title">Encara cap xat.</string>
+    <string name="chats_empty_description">Un cop hagis iniciat una nova conversa, la veuràs aquí en llistada.</string>
+
+    <string name="chats_delete_title">Eliminar xat</string>
+    <string name="chats_delete_subtitle">Aquesta acció no es pot desfer!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Cancel·lar</string>
+    <string name="chats_delete_success">Xat eliminat</string>
+
+    <string name="message_time_today">Avui</string>
+    <string name="message_time_yesterday">Ahir</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise és una professora d\'espanyol que et pot ajudar a millorar el teu vocabulari!</string>
+</resources>

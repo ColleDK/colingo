@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Sukurti naują pokalbį</string>
+    <string name="date_today">Šiandien</string>
+
+    <string name="members_page_title">Pokalbiai</string>
+    <string name="bots_page_title">Botų pokalbiai</string>
+
+    <string name="chat_my_messages">Mano žinutės</string>
+    <string name="chat_empty_title">Dar nėra žinučių</string>
+    <string name="chat_empty_description">Pradėkite bendrauti, kad matytumėte savo žinutes čia.</string>
+
+    <string name="chats_empty_title">Dar nėra pokalbių</string>
+    <string name="chats_empty_description">Kai pradėsite naują pokalbį, jį matysite sąraše čia.</string>
+
+    <string name="chats_delete_title">Ištrinti pokalbį</string>
+    <string name="chats_delete_subtitle">Šis veiksmas negali būti atšauktas!</string>
+    <string name="chats_delete_confirm">Patvirtinti</string>
+    <string name="chats_delete_cancel">Atšaukti</string>
+    <string name="chats_delete_success">Pokalbis ištrintas</string>
+
+    <string name="message_time_today">Šiandien</string>
+    <string name="message_time_yesterday">Vakar</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise yra ispanų kalbos mokytoja, kuri gali jums padėti pagerinti žodyną!</string>
+</resources>

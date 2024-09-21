@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Vind vennote</string>
+    <string name="community_page_title">Lede</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Spreek</string>
+    <string name="community_user_learns">Leer</string>
+
+    <string name="community_ai_empty_title">Geen geselsbots gevind</string>
+    <string name="community_ai_empty_subtitle">Probeer om jou filters te verander om meer chatbots te vind</string>
+    <string name="community_empty_title">Geen gebruikers gevind</string>
+    <string name="community_empty_subtitle">Probeer om jou filters op te dateer om meer gebruikers te vind</string>
+
+    <string name="community_filters_limit">Kies tot %d tale wat jy vloeiende sprekers van wil sien</string>
+    <string name="community_filters_selected">%d/%d gekies</string>
+    <string name="community_filters_clear">Verwyder filters</string>
+    <string name="community_filters_your_languages">Jou huidige tale</string>
+
+    <string name="chat_created_msg">Geselskap geskep</string>
+    <string name="chatbot_created_msg">Geselskap geskep met %s</string>
+    <string name="chatbot_create_chat">Skep geselskap with %s</string>
+</resources>

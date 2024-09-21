@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Log masuk</string>
+    <string name="onboarding_signup_btn">Daftar</string>
+    <string name="onboarding_other_title">Atau teruskan dengan</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Teruskan sebagai tetamu</string>
+    <string name="onboarding_go_back">Pergi balik</string>
+
+    <!-- Log in -->
+    <string name="login_title">Selamat kembali!</string>
+    <string name="login_subtitle">Log masuk ke akaun anda</string>
+    <string name="login_email_hint">Emel</string>
+    <string name="login_password_hint">Kata Laluan</string>
+    <string name="login_forgot_password">Lupa kata laluan\?</string>
+    <string name="login_login_btn">Log masuk</string>
+    <string name="login_go_to_signup_1">Belum mempunyai akaun\?</string>
+    <string name="login_go_to_signup_2">Daftar</string>
+    <string name="login_reset_password">Tetap semula kata laluan</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Daftar</string>
+    <string name="signup_subtitle">Buat akaun anda</string>
+    <string name="signup_name_hint">Nama</string>
+    <string name="signup_email_hint">Emel</string>
+    <string name="signup_password_hint">Kata Laluan</string>
+    <string name="signup_confirm_password_hint">Sahkan kata laluan</string>
+    <string name="signup_signup_btn">Daftar</string>
+    <string name="signup_go_to_login_1">Sudah ada akaun\?</string>
+    <string name="signup_go_to_login_2">Log masuk</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Seterusnya</string>
+    <string name="setup_profile_finish">Selesai</string>
+    <string name="setup_profile_skip">Lewat</string>
+    <string name="add_picture_title">Tetapkan profil</string>
+    <string name="add_picture_subtitle">Tambah gambar profil</string>
+    <string name="add_languages_title">Tetapkan profil</string>
+    <string name="add_languages_subtitle">Pilih bahasa</string>
+    <string name="add_languages_select_proficiency">Pilih kemahiran</string>
+    <string name="add_languages_select_language">Pilih bahasa</string>
+    <string name="add_languages_add_language">Tambah bahasa</string>
+    <string name="add_language_select">Pilih</string>
+    <string name="add_language_cancel">Batal</string>
+    <string name="select_gender_title">Tetapkan profil</string>
+    <string name="select_gender_subtitle">Pilih jantina</string>
+    <string name="select_topics_title">Tetapkan profil</string>
+    <string name="select_topics_subtitle">Pilih topik</string>
+    <string name="add_description_title">Tetapan profil</string>
+    <string name="add_description_subtitle">Tambahkan sedikit maklumat mengenai diri anda</string>
+    <string name="add_description_birthday_hint">Ulang tahun</string>
+    <string name="add_description_birthday_select">Pilih</string>
+    <string name="add_description_birthday_cancel">Batal</string>
+    <string name="add_description_location_hint">Lokasi</string>
+    <string name="add_description_description_hint">Penerangan</string>
+</resources>

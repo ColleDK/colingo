@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">غورزوو</string>
+    <string name="cancel_birthday_selection">لغو کول</string>
+    <string name="edit_name_title">نوم</string>
+    <string name="location_empty_title">وضاحت نشوی</string>
+
+    <string name="description_title">د تفصیل وړاندی</string>
+
+    <string name="profile_updated_success">پېژندل شویا په بریالیتوب سره</string>
+
+    <string name="topics_empty_title">موضوعونه نه پېژندل شوي</string>
+    <string name="topics_title">غوښتونه</string>
+
+    <string name="languages_title">زبانون</string>
+    <string name="languages_empty_title">هیڅ ژبې نه انتخاب شوی</string>
+    <string name="profile_add_language">زبان اضافه کول</string>
+    <string name="profile_select_language">د ژبې د خوښوی وټاکئ</string>
+    <string name="profile_select_proficiency">د مهارتونو دټولو وټاکئ</string>
+    <string name="add_language_select">غوره کول</string>
+    <string name="add_language_cancel">لغو کول</string>
+    <string name="gender_title">جنس</string>
+</resources>

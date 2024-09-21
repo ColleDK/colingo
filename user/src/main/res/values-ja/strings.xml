@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">動物</string>
+    <string name="topic_cooking">料理</string>
+    <string name="topic_theater">劇場</string>
+    <string name="topic_partying">パーティー</string>
+    <string name="topic_biking">自転車乗り</string>
+    <string name="topic_camping">キャンプ</string>
+    <string name="topic_fitness">フィットネス</string>
+    <string name="topic_meditation">瞑想</string>
+    <string name="topic_movie">映画</string>
+    <string name="topic_music">音楽</string>
+    <string name="topic_painting">絵画</string>
+    <string name="topic_physics">物理学</string>
+    <string name="topic_reading">Reading</string>
+    <string name="topic_science">科学</string>
+    <string name="topic_sports">スポーツ</string>
+    <string name="topic_swimming">水泳</string>
+    <string name="topic_technology">テクノロジー</string>
+    <string name="topic_videogame">ビデオゲーム</string>
+</resources>

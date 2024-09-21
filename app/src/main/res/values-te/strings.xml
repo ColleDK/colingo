@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">హోమ్</string>
+    <string name="destination_explore_label">అన్వేషించండి</string>
+    <string name="destination_chat_label">చాట్</string>
+    <string name="destination_profile_label">ప్రొఫైలు</string>
+    <string name="destination_settings_label">అమరికలు</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">థీమింగ్</string>
+    <string name="setting_notifications_title">నోటిఫికేషన్లు</string>
+    <string name="setting_permissions_title">అనుమతులు</string>
+    <string name="setting_accessibility_title">ప్రాప్యత లక్షణాలు</string>
+    <string name="setting_about_title">గురించి</string>
+    <string name="setting_rate_title">యాప్‌ను రేట్ చేయండి</string>
+    <string name="setting_report_title">దోషం నివేదించండి</string>
+    <string name="setting_logout_title">లాగౌట్</string>
+    <string name="setting_switch_language_title">భాషలను వినియోగిసుకొనుట</string>
+
+    <string name="selected_language">ఎంచిన భాష</string>
+
+    <string name="settings_change">అమర్పించడం</string>
+    <string name="settings_switch_language">భాషా మారువు</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">డైనమిక్ థీమింగ్</string>
+    <string name="setting_dark_theme">తెరవు రంగు నిరూపణ</string>
+
+    <string name="settings_rate_app_page_title">యాప్ రేట్ చేయండి</string>
+    <string name="settings_switch_language_title">భాష మార్చు</string>
+    <string name="settings_theming_title"><![CDATA[థీమింగు & రంగులు]]></string>
+    <string name="settings_about_page_title">అప్లికేషన్ గురించి</string>
+    <string name="settings_about_page_description1">Colingo ఒక ఓపెన్-సోర్స్ కమ్యూనిటీ నియోగఅత్మక భాషా అదాలతు వ్యవస్థ శృంఖల ఇది, కాలె/విలియం ద్వార అభివృద్ధి చేయబడుచున్నది.</string>
+    <string name="settings_about_page_description2">అన్నివిను ఏమి ముందుకు వ్యావసాయికంగా మరియు ఓపెన్ గా ఉంచడానికి ప్రయత్నిస్తున్నాం, అదే కారణంగా మాకు ఇది ఓపెన్-సోర్స్ ఉంచిచేస్తాం.</string>
+    <string name="settings_about_page_description3">ఆప్‌లో ఉన్న అన్ని అనువాదాలు యందు యంత్ర కారికలద్వారా చేయబడినవి మరియు కాబట్టి అవిని అనువాద లోపాలు ఉంటుంది - మీరు ఏంపిక్కాలో అవి కనుక దయచేసి \\"బగ్ ని నివారించండి\\" పెన్ లో తెలియపెట్టండి.</string>
+    <string name="settings_about_page_contact">అప్లికేషన్‌కు సంబంధించిన ఏ సందేహాలు లేదా సూచనలు ఉంటే, మీరు మాతో సంప్రదించవచ్చు:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">పొరపాటు నివేదన చేయండి</string>
+    <string name="settings_report_bug_title">స్థిరతను ఖచ్చితంగా ఉంచడానికి, మాకు క్రాష్ రిపోర్టులు స్వయంగా సేకరించబడుతున్నాం, కాని మీరు ఏ సమస్యలను కనుగొనిగా, వెనక్కుని బగ్‌ను సబ్మిట్ చేయాలని కోరుకుంటున్నారో, దయచేసి మీకు ఉన్న అన్ని సమాచారాన్ని కలిగి ఉంచే ఫారంను నిలువవచ్చు.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

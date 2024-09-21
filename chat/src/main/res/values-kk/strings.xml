@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Жаңа чат құру</string>
+    <string name="date_today">Бүгін</string>
+
+    <string name="members_page_title">Шеттер</string>
+    <string name="bots_page_title">Бот шалғыштары</string>
+
+    <string name="chat_my_messages">Менің хабарламаларым</string>
+    <string name="chat_empty_title">Хабарламалар жоқ</string>
+    <string name="chat_empty_description">Мәтіндеріңізді көру үшін сөйлеу бастаңыз.</string>
+
+    <string name="chats_empty_title">Қалалар жоқ</string>
+    <string name="chats_empty_description">Жаңа сөйлем жасағаннан кейін оны бұл жерде тізімделенгенді көресіз.</string>
+
+    <string name="chats_delete_title">Chat-ты жою</string>
+    <string name="chats_delete_subtitle">Бұл әрекет қайтарылу мүмкін емес!</string>
+    <string name="chats_delete_confirm">Растау</string>
+    <string name="chats_delete_cancel">Болдырмау</string>
+    <string name="chats_delete_success">Сөйлем жоюшы алынды</string>
+
+    <string name="message_time_today">Бүгін</string>
+    <string name="message_time_yesterday">Кеше</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise - бұл Спан тілі мұғалімі, соның арқасында сөз тариғыңызды жетілдіруде сізге көмек көрсете алады!</string>
+</resources>

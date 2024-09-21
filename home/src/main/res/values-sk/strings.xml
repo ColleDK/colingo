@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Môj zdroj</string>
+    <string name="post_create_new">Vytvoriť nový príspevok</string>
+    <string name="create_post_dismiss">Zrušiť</string>
+    <string name="create_post_create">Vytvoriť</string>
+    <string name="post_show_more">Zobraziť viac</string>
+    <string name="post_show_less">Zobraziť menej</string>
+
+    <string name="create_post_success">Príspevok vytvorený</string>
+    <string name="create_chat_success">Chat vytvorený</string>
+
+    <string name="home_filters_oldest">Najstarší</string>
+    <string name="home_filters_newest">Najnovšie</string>
+    <string name="post_create_comment">Pridať komentár</string>
+    <string name="post_likes">Text to translate: %s sa páči.</string>
+    <string name="post_comments">Komentáre: %s</string>
+    <string name="post_no_comments_title">Žiadne odpovede zatiaľ</string>
+    <string name="post_no_comments_subtitle">Buďte prvý, kto sa podelí o svoje myšlienky na túto príspevok.</string>
+
+    <string name="error_msg_general">Niečo sa pokazilo. Skúste to prosím znova.</string>
+</resources>

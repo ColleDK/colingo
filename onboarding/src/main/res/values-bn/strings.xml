@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">লগ ইন</string>
+    <string name="onboarding_signup_btn">নিবন্ধন করুন</string>
+    <string name="onboarding_other_title">অথবা চালিয়ে যান।</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">অতিথি হিসাবে চালিয়ে যাওয়া থাকুন।</string>
+    <string name="onboarding_go_back">ফিরে যান</string>
+
+    <!-- Log in -->
+    <string name="login_title">স্বাগতমেঃ পুনঃ আসার জন্য!</string>
+    <string name="login_subtitle">আপনার অ্যাকাউন্টে লগ ইন করুন।</string>
+    <string name="login_email_hint">ইমেইল</string>
+    <string name="login_password_hint">পাসওয়ার্ড</string>
+    <string name="login_forgot_password">পাসওয়ার্ড ভুলে গেছেন\?</string>
+    <string name="login_login_btn">লগ ইন</string>
+    <string name="login_go_to_signup_1">এখনও একটি অ্যাকাউন্ট নেই\?</string>
+    <string name="login_go_to_signup_2">নিবন্ধন করুন</string>
+    <string name="login_reset_password">পাসওয়ার্ড রিসেট</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">নিবন্ধন</string>
+    <string name="signup_subtitle">আপনার অ্যাকাউন্ট তৈরি করুন</string>
+    <string name="signup_name_hint">নাম</string>
+    <string name="signup_email_hint">ইমেইল</string>
+    <string name="signup_password_hint">পাসওয়ার্ড</string>
+    <string name="signup_confirm_password_hint">পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="signup_signup_btn">নিবন্ধন</string>
+    <string name="signup_go_to_login_1">আপনার কি ইতিমধ্যে একটি অ্যাকাউন্ট রয়েছে\?</string>
+    <string name="signup_go_to_login_2">লগ ইন</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">পরবর্তী</string>
+    <string name="setup_profile_finish">শেষ</string>
+    <string name="setup_profile_skip">পারিবারিক, ধারাবাহিক, ছোট পর্দার দাও, ছাড়ুন</string>
+    <string name="add_picture_title">প্রোফাইল সেটআপ করুন।</string>
+    <string name="add_picture_subtitle">প্রোফাইল ছবি যুক্ত করুন।</string>
+    <string name="add_languages_title">প্রোফাইল সেটআপ করুন।</string>
+    <string name="add_languages_subtitle">ভাষা নির্বাচন করুন</string>
+    <string name="add_languages_select_proficiency">দক্ষতা নির্বাচন করুন</string>
+    <string name="add_languages_select_language">ভাষা নির্বাচন করুন</string>
+    <string name="add_languages_add_language">ভাষা যোগ করুন</string>
+    <string name="add_language_select">নির্বাচন করুন</string>
+    <string name="add_language_cancel">বাতিল করুন</string>
+    <string name="select_gender_title">প্রোফাইল সেটআপ করুন।</string>
+    <string name="select_gender_subtitle">লিঙ্গ নির্বাচন করুন</string>
+    <string name="select_topics_title">প্রোফাইল সেটআপ করুন।</string>
+    <string name="select_topics_subtitle">বিষয় নির্বাচন করুন।</string>
+    <string name="add_description_title">প্রোফাইল সেটআপ করুন।</string>
+    <string name="add_description_subtitle">নিজের সম্পর্কে কিছু তথ্য যোগ করুন।</string>
+    <string name="add_description_birthday_hint">জন্মদিন</string>
+    <string name="add_description_birthday_select">নির্বাচন করুন</string>
+    <string name="add_description_birthday_cancel">বাতিল করুন</string>
+    <string name="add_description_location_hint">অবস্থান</string>
+    <string name="add_description_description_hint">বর্ণনা</string>
+</resources>

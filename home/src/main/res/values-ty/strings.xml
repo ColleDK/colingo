@@ -1,0 +1,23 @@
+<resources>
+    <string name="homepage_title">O\'u feed</string>
+    <string name="post_create_new">Oe e faahiti i te fare tārua hou</string>
+    <string name="create_post_dismiss">Ana\'i</string>
+    <string name="create_post_create">Oe ia tagata: Oe taata: Oe taata: Oe taata:</string>
+    <string name="post_show_more">Fa\'a\'ō\'ia hau\'ai</string>
+    <string name="post_show_less">Afa taharoa</string>
+
+    <string name="create_post_success">Pūra\'a i fa\'aito ai</string>
+    <string name="create_chat_success">Taetae o te reva opu ta\'atai</string>
+
+    <string name="home_filters_oldest">Tua rahi</string>
+    <string name="home_filters_newest">Houhora</string>
+    <string name="post_create_comment">Tāhiti i te parau apī.</string>
+    <string name="post_likes">%s he\'i\'e\'a\'e\'a
+
+(symbols remain unchanged)</string>
+    <string name="post_comments">%s comments</string>
+    <string name="post_no_comments_title">E na reira e, aita parau faana i teie nei.</string>
+    <string name="post_no_comments_subtitle">Faahihiana faaitoito i to oe mana\'o i roto i teie faaroo nei</string>
+
+    <string name="error_msg_general">E, ua horoi haere. Taere mai i te\'u.</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Ստեղծեք նոր խոսք</string>
+    <string name="date_today">Այսօր</string>
+
+    <string name="members_page_title">Ուրախական խոսքեր</string>
+    <string name="bots_page_title">Բացատների խոսքեր</string>
+
+    <string name="chat_my_messages">Իմ նամանները</string>
+    <string name="chat_empty_title">Ինչ-որ նամակեր չկան դեռ չկա OK</string>
+    <string name="chat_empty_description">Սկսեք խոսքն առալան տեսնելու ձեր նշանները։</string>
+
+    <string name="chats_empty_title">Ոչ մի խոսք բացակայում չկա</string>
+    <string name="chats_empty_description">Տեքստը թարգմանելու համար. Սկզբում սկսված նոր խոսք, կտեսնեք այն այստեղ ցանկացած մեկում:</string>
+
+    <string name="chats_delete_title">Ջնջել խոսք</string>
+    <string name="chats_delete_subtitle">Այս գործողությունը չի կարող չեղեք վերակատարել։</string>
+    <string name="chats_delete_confirm">Հաստատել</string>
+    <string name="chats_delete_cancel">Չեղարկել</string>
+    <string name="chats_delete_success">Հեռացված թեքստ</string>
+
+    <string name="message_time_today">Այսօր</string>
+    <string name="message_time_yesterday">Երեկ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Լուիզան իսպաներեն ուսուքող է, որը կարևոր է ձեզ օգնելու բարբառները թելենա։</string>
+</resources>

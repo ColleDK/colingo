@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ଏକ ନୂଆ ଚ୍ୟାଟ୍ ତିଆରି କରନ୍ତୁ।</string>
+    <string name="date_today">ଆଜି</string>
+
+    <string name="members_page_title">ସଂଦେଶଗୁଡ଼ିକ ପଲାଇଁ ।</string>
+    <string name="bots_page_title">ବଟ୍ ଚାଟସ୍</string>
+
+    <string name="chat_my_messages">ମୋ ବାର୍ତ୍ତାଗୁଡ଼ିକୁ</string>
+    <string name="chat_empty_title">କିଛି ସନ୍ଦେଶ ଅବାଦ হେନି।</string>
+    <string name="chat_empty_description">ଆପଣଙ୍କ ବାର୍ତା ଦେଖିବା ପାଇଁ ଆରମ୍ଭ କରନ୍ତୁ।</string>
+
+    <string name="chats_empty_title">ଏକାଉଣ୍ଟ କୁ କିମ୍ବା ଚ୍ୟାଟ୍‌ରେ କୌଣସି ସନ୍ଦେଶ ନଥିଲ୍ଲା।</string>
+    <string name="chats_empty_description">ଏହିକୁ ଏଠାରେ ତୁମେ ପ୍ରଦର୍ଶିତ କରିବା ପାରିବେ ଯେଥାପର ତୁମେ ଏକ ନୂଆ କୌଣସି ବାର୍ତ୍ତା ଆରମ୍ଭ କରିଛା।</string>
+
+    <string name="chats_delete_title">ଚାଟ୍ ମିଟାନ୍ତୁ।</string>
+    <string name="chats_delete_subtitle">ଏହି କ୍ରିୟା ପୁନର୍ କ୍ଷମା ହେବନାହିନି!</string>
+    <string name="chats_delete_confirm">ନିଶ୍ଚିତ୍‌ କରନ୍ତୁ</string>
+    <string name="chats_delete_cancel">ରদ্দକରନ୍ତୁ</string>
+    <string name="chats_delete_success">ସଂଚାର ମିଟାଯାଇଛି।</string>
+
+    <string name="message_time_today">ଆଜି</string>
+    <string name="message_time_yesterday">ଗତକାଲି</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ଏକ ସ୍ପାନିଶ ଶିକ୍ଷକ ଯାହାରେ ଆପଣଙ୍କ ଶବ୍ଦାଭାସକୁ ଉନତି କରିବାରେ ମଦଦ କରିପାରେ!</string>
+</resources>

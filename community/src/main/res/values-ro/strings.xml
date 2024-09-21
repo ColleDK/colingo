@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Găsiți parteneri</string>
+    <string name="community_page_title">Membri</string>
+    <string name="chatbot_page_title">Chatboti</string>
+    <string name="community_user_speaks">Vorbește</string>
+    <string name="community_user_learns">Învățare</string>
+
+    <string name="community_ai_empty_title">Niciun chatbot găsit</string>
+    <string name="community_ai_empty_subtitle">Încercați să actualizați filtrele pentru a găsi mai mulți roboți de chat.</string>
+    <string name="community_empty_title">Niciun utilizator găsit</string>
+    <string name="community_empty_subtitle">Încearcă să-ți actualizezi filtrele pentru a găsi mai mulți utilizatori.</string>
+
+    <string name="community_filters_limit">Alegeți până la %d limbi pe care doriți să vedeți vorbitori nativi familiari.</string>
+    <string name="community_filters_selected">Textul de tradus: %d/%d selectate</string>
+    <string name="community_filters_clear">Șterge filtrele</string>
+    <string name="community_filters_your_languages">Limbi curente ale tale</string>
+
+    <string name="chat_created_msg">Chatul a fost creat.</string>
+    <string name="chatbot_created_msg">Chat creat cu %s</string>
+    <string name="chatbot_create_chat">Crează un chat cu %s</string>
+</resources>

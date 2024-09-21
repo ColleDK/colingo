@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Veitalanoa vou</string>
+    <string name="date_today">I Viti ni yabaki oqo</string>
+
+    <string name="members_page_title">Vakatekivu</string>
+    <string name="bots_page_title">Bot vakacacana</string>
+
+    <string name="chat_my_messages">Noqu ituvatuva</string>
+    <string name="chat_empty_title">E sega ni dua na itukutuku e na gauna oqo</string>
+    <string name="chat_empty_description">Tiko vei ira e loma ni vakayagataka mo dou kunei ira na nomudou itauta kei ira.</string>
+
+    <string name="chats_empty_title">Sa sega na veivosoti e na gauna oqo</string>
+    <string name="chats_empty_description">Ni sa bula! E dua na siga vou e vakarautaka e dua na veivosaki vou, kemuni na raica talega kina ei tovo eke. Vinaka.</string>
+
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">E sega ni rawa ni kureitaka tale na cakacaka oqo!</string>
+    <string name="chats_delete_confirm">Talatala mai</string>
+    <string name="chats_delete_cancel">Sivoli</string>
+    <string name="chats_delete_success">Chat tu ga sa mudu</string>
+
+    <string name="message_time_today">I Viti ni yabaki oqo</string>
+    <string name="message_time_yesterday">Nikua ni siga walu.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise is a Spanish teacher that can help you with improving your vocabulary!</string>
+</resources>

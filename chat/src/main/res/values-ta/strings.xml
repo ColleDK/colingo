@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">புதிய உரையாடலை உருவாக்கவும்.</string>
+    <string name="date_today">இன்று</string>
+
+    <string name="members_page_title">பரிந்துரைகள்</string>
+    <string name="bots_page_title">பயிற்சி உரையாடல்</string>
+
+    <string name="chat_my_messages">என் செய்திகள்</string>
+    <string name="chat_empty_title">எந்த செய்தியும் இல்லை</string>
+    <string name="chat_empty_description">உங்கள் செய்திகளைக் காண உங்கள் உடலைத் தொடங்கவும்.</string>
+
+    <string name="chats_empty_title">இன்னும் உரைத்தல்கள் இல்லை</string>
+    <string name="chats_empty_description">புதிய உரையாடலை ஆரம்பித்த பிறகு, அதை இங்கே பட்டியலிடப்படும்.</string>
+
+    <string name="chats_delete_title">அரவாட்சை நீக்கு (Delete chat)</string>
+    <string name="chats_delete_subtitle">இந்த செயலை மீண்டும் செய்ய முடியாது!</string>
+    <string name="chats_delete_confirm">உறுதிப்படுத்தவும்</string>
+    <string name="chats_delete_cancel">ரத்து செய்</string>
+    <string name="chats_delete_success">உரையாடல் நீக்கப்பட்டது</string>
+
+    <string name="message_time_today">இன்று</string>
+    <string name="message_time_yesterday">நேற்று</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">தமிழில் மொழிபெயர்க்கை: லூயிஸ் உங்கள் சொற்பால் அப்படியான உதவி சொல்கினை மேம்படுத்தவாள்!</string>
+</resources>

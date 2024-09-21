@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ምሳሌ ረሲብ</string>
+    <string name="cancel_birthday_selection">ሰረገላ</string>
+    <string name="edit_name_title">ስም</string>
+    <string name="location_empty_title">አልተቋረጠም</string>
+
+    <string name="description_title">መግለጫ</string>
+
+    <string name="profile_updated_success">ፕሮፊል በቅርቡ ተወሳኺን</string>
+
+    <string name="topics_empty_title">ምንም አካባቢ አልተመሰረተም</string>
+    <string name="topics_title">ምርጫዎች</string>
+
+    <string name="languages_title">ቋንቋዎች</string>
+    <string name="languages_empty_title">ቋሚ አልተመረጠም</string>
+    <string name="profile_add_language">ቋንቋ ጨምሧ</string>
+    <string name="profile_select_language">ቋንቋ ምረጹ</string>
+    <string name="profile_select_proficiency">ሚስጥራዊን ይምረጡ</string>
+    <string name="add_language_select">ምሳሌ ረሲብ</string>
+    <string name="add_language_cancel">ሰረገላ</string>
+    <string name="gender_title">ጾታ</string>
+</resources>

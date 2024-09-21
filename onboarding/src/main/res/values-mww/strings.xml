@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Ntawv txog tsa ib seej ua log in.</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">OK</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continue as guest</string>
+    <string name="onboarding_go_back">Cov ntaub ntawv: Go back</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ntawm koj mus saib texaba.</string>
+    <string name="login_subtitle">Ntsib txog koj lub ntaub ntawv.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Ntawv sau tug.</string>
+    <string name="login_forgot_password">Forgot password\?</string>
+    <string name="login_login_btn">Log in</string>
+    <string name="login_go_to_signup_1">Tsawg tsa tau kev pab tuaj xav tau tej lus nug los.</string>
+    <string name="login_go_to_signup_2">Sign up</string>
+    <string name="login_reset_password">Piv nrog password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Txug cov uas sau.</string>
+    <string name="signup_subtitle">Xa koj lub tswv yim</string>
+    <string name="signup_name_hint">Npe</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Nqe_lub_ntshiab</string>
+    <string name="signup_confirm_password_hint">Xa los rau tus password tsim nyog coj mus.</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Already have an account\?</string>
+    <string name="signup_go_to_login_2">Ntawm hnub no log in.</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Tus neeg pab: Kev xav tso.</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Cov thov txwv txiav txim</string>
+    <string name="add_picture_subtitle">Ntxuav tsheb hauv lub xov tooj.</string>
+    <string name="add_languages_title">Cov thov txwv txiav txim</string>
+    <string name="add_languages_subtitle">Xa lus txhais lus ua ib tug neeg chaw nyob.</string>
+    <string name="add_languages_select_proficiency">Select proficiency</string>
+    <string name="add_languages_select_language">Xaiv lus neeg.</string>
+    <string name="add_languages_add_language">Thêm lus nug.</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Hu nug hauv lub tsev.</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Xov xwm nyob xeev</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Pib \"daim ntawv\"</string>
+    <string name="add_description_title">Thov qhia feem niam cev.</string>
+    <string name="add_description_subtitle">Add thaum nyiaj tus kheej txog koj tus kheej.</string>
+    <string name="add_description_birthday_hint">Hnub Ntawv.</string>
+    <string name="add_description_birthday_select">Select</string>
+    <string name="add_description_birthday_cancel">Hu txhais.</string>
+    <string name="add_description_location_hint">Location</string>
+    <string name="add_description_description_hint">Description</string>
+</resources>

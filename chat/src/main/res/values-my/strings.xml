@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">စတင်ခံချက်အသစ်ဖွင့်ပါ</string>
+    <string name="date_today">ယနေ့</string>
+
+    <string name="members_page_title">ဆက်ဖတ်</string>
+    <string name="bots_page_title">Bot ဆက်သွယ်မှုများ</string>
+
+    <string name="chat_my_messages">ကျွန်တော်တို့ရဲ့မက်ခြောင်းများ</string>
+    <string name="chat_empty_title">မက်ဆေ့ရှင်တောင်းမရှိပါ</string>
+    <string name="chat_empty_description">ခုတစ်ခါစကားပြောပါ။</string>
+
+    <string name="chats_empty_title">ခရုပ်မှာ ဝေဒနံမရှိပါ</string>
+    <string name="chats_empty_description">သင့်ဖွင့်ချင်တဲ့စာပေါ်အလ်အားကိုဒီမှာစာရင်းထိုးထားသည်။</string>
+
+    <string name="chats_delete_title">ခေါ်ရာ ဖျက်ပစ်ပါ</string>
+    <string name="chats_delete_subtitle">ဤ လုပ်ဆောင်မှုကို ပြန်လည်မှာ မပျက်လိုပါပြီ!</string>
+    <string name="chats_delete_confirm">အတည်ပြု</string>
+    <string name="chats_delete_cancel">ပယ်ဖျက်</string>
+    <string name="chats_delete_success">ကျေးဇူးပြုပြီ ဖျက်သိမ်းပြီ</string>
+
+    <string name="message_time_today">ယနေ့</string>
+    <string name="message_time_yesterday">မနေ့</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">လူတိုင်းသည် သာ်အင်ပြင်ကို ပြင်ဆင်နိုင်ရန် အကူအညီ ရရှိနိုင်ပါသည်။</string>
+</resources>

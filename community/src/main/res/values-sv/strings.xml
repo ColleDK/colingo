@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Hitta partners</string>
+    <string name="community_page_title">Medlemmar</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Talar</string>
+    <string name="community_user_learns">Lärande</string>
+
+    <string name="community_ai_empty_title">Inga chatbots hittades</string>
+    <string name="community_ai_empty_subtitle">Försök uppdatera dina filter för att hitta fler chattrobotar.</string>
+    <string name="community_empty_title">Inga användare hittades.</string>
+    <string name="community_empty_subtitle">Uppdatera dina filter för att hitta fler användare.</string>
+
+    <string name="community_filters_limit">Välj upp till %d språk du vill se flytande talare från</string>
+    <string name="community_filters_selected">%d/%d valda</string>
+    <string name="community_filters_clear">Rensa filter</string>
+    <string name="community_filters_your_languages">Dina nuvarande språk</string>
+
+    <string name="chat_created_msg">Chatt skapad</string>
+    <string name="chatbot_created_msg">Chatt skapad med %s</string>
+    <string name="chatbot_create_chat">Skapa chatt med %s</string>
+</resources>

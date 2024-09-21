@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">پیشخوان من</string>
+    <string name="post_create_new">ایجاد یک نوشته جدید</string>
+    <string name="create_post_dismiss">لغو</string>
+    <string name="create_post_create">ایجاد</string>
+    <string name="post_show_more">نمایش بیشتر</string>
+    <string name="post_show_less">نمایش کمتر</string>
+
+    <string name="create_post_success">پست ایجاد شد</string>
+    <string name="create_chat_success">گفتگو ایجاد شد</string>
+
+    <string name="home_filters_oldest">قدیمی‌ترین</string>
+    <string name="home_filters_newest">جدیدترین</string>
+    <string name="post_create_comment">افزودن یک نظر</string>
+    <string name="post_likes">متن برای ترجمه: %s را دوست دارد</string>
+    <string name="post_comments">%s نظر</string>
+    <string name="post_no_comments_title">هنوز پاسخی داده نشده است</string>
+    <string name="post_no_comments_subtitle">اولین نظر خود را درباره این پست به اشتراک بگذارید</string>
+
+    <string name="error_msg_general">متاسفیم، مشکلی پیش آمد. لطفا دوباره امتحان کنید</string>
+</resources>

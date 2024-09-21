@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Prihlásiť sa</string>
+    <string name="onboarding_signup_btn">Registrovať sa</string>
+    <string name="onboarding_other_title">Alebo pokračujte s</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Pokračovať ako hosť</string>
+    <string name="onboarding_go_back">Choď späť</string>
+
+    <!-- Log in -->
+    <string name="login_title">Vitaj späť!</string>
+    <string name="login_subtitle">Prihláste sa do vášho účtu</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Heslo</string>
+    <string name="login_forgot_password">Zabudli ste heslo\?</string>
+    <string name="login_login_btn">Prihlásiť sa</string>
+    <string name="login_go_to_signup_1">Ešte nemáte účet\?</string>
+    <string name="login_go_to_signup_2">Registrovať sa</string>
+    <string name="login_reset_password">Obnoviť heslo</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrovať</string>
+    <string name="signup_subtitle">Vytvor svoj účet</string>
+    <string name="signup_name_hint">Meno</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Heslo</string>
+    <string name="signup_confirm_password_hint">Potvrďte heslo</string>
+    <string name="signup_signup_btn">Registrovať</string>
+    <string name="signup_go_to_login_1">Už máte účet\?</string>
+    <string name="signup_go_to_login_2">Prihlásiť sa</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Ďalší</string>
+    <string name="setup_profile_finish">Dokončiť</string>
+    <string name="setup_profile_skip">Preskoči</string>
+    <string name="add_picture_title">Nastaviť profil</string>
+    <string name="add_picture_subtitle">Pridať profilovú fotku</string>
+    <string name="add_languages_title">Nastaviť profil</string>
+    <string name="add_languages_subtitle">Vyberte jazyky</string>
+    <string name="add_languages_select_proficiency">Vyberte úroveň znalostí</string>
+    <string name="add_languages_select_language">Vybrať jazyk</string>
+    <string name="add_languages_add_language">Pridať jazyk</string>
+    <string name="add_language_select">Vybrať</string>
+    <string name="add_language_cancel">Zrušiť</string>
+    <string name="select_gender_title">Nastaviť profil</string>
+    <string name="select_gender_subtitle">Vyberte pohlavie</string>
+    <string name="select_topics_title">Nastaviť profil</string>
+    <string name="select_topics_subtitle">Vyberte témy</string>
+    <string name="add_description_title">Nastaviť profil</string>
+    <string name="add_description_subtitle">Pridajte niektoré informácie o sebe</string>
+    <string name="add_description_birthday_hint">Narodeniny</string>
+    <string name="add_description_birthday_select">Vybrať</string>
+    <string name="add_description_birthday_cancel">Zrušiť</string>
+    <string name="add_description_location_hint">Text to translate: Lokalita</string>
+    <string name="add_description_description_hint">Popis</string>
+</resources>

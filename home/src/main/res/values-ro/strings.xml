@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Feed-ul meu</string>
+    <string name="post_create_new">Creează o nouă postare</string>
+    <string name="create_post_dismiss">Anulează</string>
+    <string name="create_post_create">Create</string>
+    <string name="post_show_more">Afişează mai mult</string>
+    <string name="post_show_less">Afișare mai puțin</string>
+
+    <string name="create_post_success">Postare creată</string>
+    <string name="create_chat_success">Chat creat</string>
+
+    <string name="home_filters_oldest">Cel mai vechi</string>
+    <string name="home_filters_newest">Cel mai nou</string>
+    <string name="post_create_comment">Adăugați un comentariu</string>
+    <string name="post_likes">%s îi place</string>
+    <string name="post_comments">Comentarii: %s</string>
+    <string name="post_no_comments_title">Niciun răspuns încă</string>
+    <string name="post_no_comments_subtitle">Fii primul care îți împărtășește gândurile despre această postare.</string>
+
+    <string name="error_msg_general">Ceva nu a mers bine. Te rog încearcă din nou.</string>
+</resources>

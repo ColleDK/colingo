@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Створити новий чат</string>
+    <string name="date_today">Сьогодні</string>
+
+    <string name="members_page_title">Чати</string>
+    <string name="bots_page_title">Чати з ботами</string>
+
+    <string name="chat_my_messages">Мої повідомлення</string>
+    <string name="chat_empty_title">Жодних повідомлень ще</string>
+    <string name="chat_empty_description">Почніть спілкування, щоб переглянути ваші повідомлення тут.</string>
+
+    <string name="chats_empty_title">Ще немає чатів</string>
+    <string name="chats_empty_description">Після початку нової розмови вона з\'явиться у списку тут.</string>
+
+    <string name="chats_delete_title">Видалити чат</string>
+    <string name="chats_delete_subtitle">Цю дію неможливо скасувати!</string>
+    <string name="chats_delete_confirm">Підтвердити</string>
+    <string name="chats_delete_cancel">Скасувати</string>
+    <string name="chats_delete_success">Чат видалено</string>
+
+    <string name="message_time_today">Сьогодні</string>
+    <string name="message_time_yesterday">Вчора</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Луїза - вчителька іспанської мови, яка допоможе вам покращити свій словниковий запас!</string>
+</resources>

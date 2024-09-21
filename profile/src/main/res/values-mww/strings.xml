@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Lub npe: Xaiv</string>
+    <string name="cancel_birthday_selection">Hu ua uts</string>
+    <string name="edit_name_title">Hauv kev pab pawg: Nws suav.</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">Profile successfully updated</string>
+
+    <string name="topics_empty_title">Tsab ntawv tsis yog kabmob.</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Txhais lus</string>
+    <string name="languages_empty_title">No languages selected</string>
+    <string name="profile_add_language">Ntawv txoj kev pab neeg siv yam lus</string>
+    <string name="profile_select_language">Xyuas dab tua neej</string>
+    <string name="profile_select_proficiency">Xa yog xijtuaj.</string>
+    <string name="add_language_select">Lub npe: Xaiv</string>
+    <string name="add_language_cancel">Hu ua uts</string>
+    <string name="gender_title">Gender</string>
+</resources>

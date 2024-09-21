@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ទិខ្លះរបស់ខ្ញុំ</string>
+    <string name="post_create_new">បង្កើត​ការ​ប្រៀបជំនួយ​ថ្មី</string>
+    <string name="create_post_dismiss">បោះបង់</string>
+    <string name="create_post_create">បង្កើត</string>
+    <string name="post_show_more">បង្ហាញ​ច្រើន​ទៀត​</string>
+    <string name="post_show_less">បង្ហាញទាប</string>
+
+    <string name="create_post_success">ការបង្កើតប្រកាស</string>
+    <string name="create_chat_success">ការពិភាក្សាបានបង្កើត</string>
+
+    <string name="home_filters_oldest">អាកាស</string>
+    <string name="home_filters_newest">ថ្មីបំផុត</string>
+    <string name="post_create_comment">បន្ថែម​មាតិកា​</string>
+    <string name="post_likes">%s ចូលចិត្ត</string>
+    <string name="post_comments">មតិ​ %s</string>
+    <string name="post_no_comments_title">មិនទាន់មាតិការទេ</string>
+    <string name="post_no_comments_subtitle">ជា​អ្នក​ដាក់​គូសចូល​ដំណើរនេះ​ដែល្បបា​ដូ.</string>
+
+    <string name="error_msg_general">មានអ្វី​មួយ​មិន​ប្រហែល​បាន។ សូម​ព្យាយាម​ម្ដង​ទៀត​ម្តិ​ភាព​។</string>
+</resources>

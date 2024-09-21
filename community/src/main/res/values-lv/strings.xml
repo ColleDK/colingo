@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Atrast partnerus</string>
+    <string name="community_page_title">Dalībnieki</string>
+    <string name="chatbot_page_title">Čatboti</string>
+    <string name="community_user_speaks">Runas</string>
+    <string name="community_user_learns">Mācīšanās</string>
+
+    <string name="community_ai_empty_title">Nav atrasti čatbota.</string>
+    <string name="community_ai_empty_subtitle">Mēģiniet atjaunināt savus filtrus, lai atrastu vairāk tērzēšanas robotus.</string>
+    <string name="community_empty_title">Nav atrasti lietotāji</string>
+    <string name="community_empty_subtitle">Pamēģiniet atjaunināt savus filtrus, lai atrastu vairāk lietotāju.</string>
+
+    <string name="community_filters_limit">Izvēlies līdz %d valodām, no kurām vēlies redzēt cilvēkus, kuri to pārzina brīvi.</string>
+    <string name="community_filters_selected">Teksts tulkojumam: %d/%d atlasīti</string>
+    <string name="community_filters_clear">Notīrīt filtres</string>
+    <string name="community_filters_your_languages">Jūsu pašreizējās valodas</string>
+
+    <string name="chat_created_msg">Čats izveidots</string>
+    <string name="chatbot_created_msg">Chats izveidots ar %s</string>
+    <string name="chatbot_create_chat">Izveidot čatu ar %s</string>
+</resources>

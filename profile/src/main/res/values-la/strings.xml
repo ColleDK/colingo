@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Selige</string>
+    <string name="cancel_birthday_selection">Cancel</string>
+    <string name="edit_name_title">Nomen</string>
+    <string name="location_empty_title">Non specificatum</string>
+
+    <string name="description_title">Descriptio</string>
+
+    <string name="profile_updated_success">Profilum feliciter emendatum</string>
+
+    <string name="topics_empty_title">Nulla themata electa</string>
+    <string name="topics_title">Interesses</string>
+
+    <string name="languages_title">Linguae</string>
+    <string name="languages_empty_title">Nullae linguæ electae</string>
+    <string name="profile_add_language">Addere linguam</string>
+    <string name="profile_select_language">Elige idioma</string>
+    <string name="profile_select_proficiency">Selecta peritia</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="gender_title">Sexus</string>
+</resources>

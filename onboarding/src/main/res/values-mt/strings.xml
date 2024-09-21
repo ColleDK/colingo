@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Daħħal sess</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Sekwu il-jiem.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Żomm il-klijent metaffiema</string>
+    <string name="onboarding_go_back">Mur ibqa\' / Ibqa\' / Mur lura / Lura</string>
+
+    <!-- Log in -->
+    <string name="login_title">Merħba lura!</string>
+    <string name="login_subtitle">Logħba fl-account tiegħek</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Insejna il-password\?</string>
+    <string name="login_login_btn">Daħħal fl-isem tal-utent u r-reġistru..</string>
+    <string name="login_go_to_signup_1">M\'hemmx kont tiegħek għaddej\?</string>
+    <string name="login_go_to_signup_2">Iċċaqaliji</string>
+    <string name="login_reset_password">Irrisettja il-password</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Reġistru.</string>
+    <string name="signup_subtitle">Oħloq il-kont tiegħek</string>
+    <string name="signup_name_hint">Isem</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Ikkonferma il-password</string>
+    <string name="signup_signup_btn">Reġistraw</string>
+    <string name="signup_go_to_login_1">Illejn għandek kont\?</string>
+    <string name="signup_go_to_login_2">Log in</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Tmiem</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Setup profile</string>
+    <string name="add_picture_subtitle">Żid ritratt tal-profil</string>
+    <string name="add_languages_title">Setup profile</string>
+    <string name="add_languages_subtitle">Agħżel il-lingwi</string>
+    <string name="add_languages_select_proficiency">Agħżel il-kapaċità</string>
+    <string name="add_languages_select_language">Agħżel lingwa</string>
+    <string name="add_languages_add_language">Żid lingwa</string>
+    <string name="add_language_select">Agħżel</string>
+    <string name="add_language_cancel">Ikkanċella</string>
+    <string name="select_gender_title">Setup profile</string>
+    <string name="select_gender_subtitle">Agħżel ix-xex.</string>
+    <string name="select_topics_title">Setup profile</string>
+    <string name="select_topics_subtitle">Agħżel suġġetti</string>
+    <string name="add_description_title">Setup profill</string>
+    <string name="add_description_subtitle">Żid ftit informazzjoni dwar in-nofs tiegħek</string>
+    <string name="add_description_birthday_hint">Isem tal-ġurnata li tixtieq tilqa\'għaliha: Għeluq!</string>
+    <string name="add_description_birthday_select">Agħżel</string>
+    <string name="add_description_birthday_cancel">Ikkanċella</string>
+    <string name="add_description_location_hint">Postanza</string>
+    <string name="add_description_description_hint">Testijiet</string>
+</resources>

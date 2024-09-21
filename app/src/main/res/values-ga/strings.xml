@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Baile</string>
+    <string name="destination_explore_label">Rannpháirtigh</string>
+    <string name="destination_chat_label">Comhrá</string>
+    <string name="destination_profile_label">Proifil</string>
+    <string name="destination_settings_label">Socruithe</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Déantúsaíocht</string>
+    <string name="setting_notifications_title">Fógraí</string>
+    <string name="setting_permissions_title">Ceadúnais</string>
+    <string name="setting_accessibility_title">Inrochtaineacht</string>
+    <string name="setting_about_title">Maidir</string>
+    <string name="setting_rate_title">Dea-rátáil an aip</string>
+    <string name="setting_report_title">Tuairisc a chur isteach ar ghadaí</string>
+    <string name="setting_logout_title">Logáil amach</string>
+    <string name="setting_switch_language_title">Athraigh teangacha</string>
+
+    <string name="selected_language">Teanga roghnaithe</string>
+
+    <string name="settings_change">Athraigh socruithe</string>
+    <string name="settings_switch_language">Athraigh teanga</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Témaithe dínimiciúla</string>
+    <string name="setting_dark_theme">Dark theming</string>
+
+    <string name="settings_rate_app_page_title">Luascaigh an aip.</string>
+    <string name="settings_switch_language_title">Athraigh teanga</string>
+    <string name="settings_theming_title"><![CDATA[Téamaíocht & dathanna]]></string>
+    <string name="settings_about_page_title">Maidir leis an aip</string>
+    <string name="settings_about_page_description1">Is córas malartóireachta teanga faoi riar i gcomhphobal oscailte atá forbartha ag Colle/William.</string>
+    <string name="settings_about_page_description2">Déanaimid iarracht bheith chomh oscailte agus lántúsach maidir le gach rud san app, sin an fáth a choimeádaimid é mar open-source.</string>
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \\"Report a bug\\" pane.</string>
+    <string name="settings_about_page_contact">Má tá aon imní nó moladh agat maidir leis an aip, is féidir leat teagmháil a dhéanamh linn ag:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Tuairiscigh bagairt</string>
+    <string name="settings_report_bug_title">Chun chinntiú an seasmhacht, bailímid tuairiscí faoi chrasáil go huathoibríoch, ach má bhíonn aon fhadhb agat agus ba mhaith leat bogearra a sheoladh díreach, líon isteach foirm agus aon eolas atá agat.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

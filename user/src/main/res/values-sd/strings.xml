@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">پالتو حیوانات</string>
+    <string name="topic_cooking">پکائيو</string>
+    <string name="topic_theater">Theater</string>
+    <string name="topic_partying">Partying</string>
+    <string name="topic_biking">بائیکنگ</string>
+    <string name="topic_camping">Camping</string>
+    <string name="topic_fitness">فٽنس</string>
+    <string name="topic_meditation">Meditation</string>
+    <string name="topic_movie">Movies</string>
+    <string name="topic_music">موسيقي</string>
+    <string name="topic_painting">چڪرائيٽنگ</string>
+    <string name="topic_physics">Physics</string>
+    <string name="topic_reading">پڙهو</string>
+    <string name="topic_science">سائنس</string>
+    <string name="topic_sports">وقتوني ميداني کيلئي عُرصَه, جُر تئندي</string>
+    <string name="topic_swimming">پلانگ ٿيل ڪرڻ</string>
+    <string name="topic_technology">Technology</string>
+    <string name="topic_videogame">ويڊيو گيمس</string>
+</resources>

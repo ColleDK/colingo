@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Ku taalo\'ob suut jach máak ch\'abil.</string>
+    <string name="date_today">Kaan.</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot chats</string>
+
+    <string name="chat_my_messages">Ichil ki\'ik\'ajo\'obe\'ini.</string>
+    <string name="chat_empty_title">Ma\' taak\'in le ajk\'ach yetik ka\'an.</string>
+    <string name="chat_empty_description">U yik\'iko\'ob tu láak\'al u yantalob ti\' le u k\'íiwiko\'ob tu láak\'al u yantalob ti\'.</string>
+
+    <string name="chats_empty_title">Máax k\'íiwilo\'ob méek\' u yíitse\'obe\'.</string>
+    <string name="chats_empty_description">Máax táan tak suuts ichil u beetik kuxtal k-ujojel le ba\'ax ka\'ansaj yaan.</string>
+
+    <string name="chats_delete_title">Vetar chat</string>
+    <string name="chats_delete_subtitle">Máax ku\'ucha\' le yaantal!</string>
+    <string name="chats_delete_confirm">Ok</string>
+    <string name="chats_delete_cancel">U kaxtalo\'</string>
+    <string name="chats_delete_success">Chat k\'u\'utun u k\'uchilo\'obe\'.</string>
+
+    <string name="message_time_today">Ok</string>
+    <string name="message_time_yesterday">Ka\'ansken</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise u k\'a\'abet le maestro Ts\'íibik utsil le Spaniol ti\' le yéetel tuláakal ts\'íibo\'obo\'!</string>
+</resources>

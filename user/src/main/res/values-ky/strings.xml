@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Кайындар</string>
+    <string name="topic_cooking">Тамак пишirgelиңи</string>
+    <string name="topic_theater">Театр</string>
+    <string name="topic_partying">Тойгонун</string>
+    <string name="topic_biking">Бициклдеги.</string>
+    <string name="topic_camping">Көлөк алуу</string>
+    <string name="topic_fitness">Фитнес</string>
+    <string name="topic_meditation">Meditatsiya</string>
+    <string name="topic_movie">Фильмдер</string>
+    <string name="topic_music">Музыка</string>
+    <string name="topic_painting">Жапкырок</string>
+    <string name="topic_physics">Физика</string>
+    <string name="topic_reading">Окуу</string>
+    <string name="topic_science">Билим</string>
+    <string name="topic_sports">Спорт</string>
+    <string name="topic_swimming">Суу алуу</string>
+    <string name="topic_technology">Технология</string>
+    <string name="topic_videogame">Видео оюндар</string>
+</resources>

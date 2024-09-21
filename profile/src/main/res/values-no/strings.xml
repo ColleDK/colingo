@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Velg</string>
+    <string name="cancel_birthday_selection">Avbryt</string>
+    <string name="edit_name_title">Navn</string>
+    <string name="location_empty_title">Uspesifisert</string>
+
+    <string name="description_title">Beskrivelse</string>
+
+    <string name="profile_updated_success">Profilen ble oppdatert.</string>
+
+    <string name="topics_empty_title">Ingen emner valgt</string>
+    <string name="topics_title">Interesser</string>
+
+    <string name="languages_title">Språk</string>
+    <string name="languages_empty_title">Ingen språk valgt</string>
+    <string name="profile_add_language">Legg til språk</string>
+    <string name="profile_select_language">Velg språk</string>
+    <string name="profile_select_proficiency">Velg ferdighetsnivå</string>
+    <string name="add_language_select">Velg</string>
+    <string name="add_language_cancel">Avbryt</string>
+    <string name="gender_title">Kjønn</string>
+</resources>

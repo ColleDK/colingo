@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Miñä hiño</string>
+    <string name="post_create_new">K\'aga nya\'i komi na k\'o̲i\'̲go.</string>
+    <string name="create_post_dismiss">Ts\'éts\'éndia</string>
+    <string name="create_post_create">Tihmanhäso</string>
+    <string name="post_show_more">Mbohondo nägi</string>
+    <string name="post_show_less">Show less</string>
+
+    <string name="create_post_success">Tsiga ga̲n̲i da̲ p\'o̲rno\'ɲi.</string>
+    <string name="create_chat_success">Chat ñatho nt\'éxhi</string>
+
+    <string name="home_filters_oldest">R\'í\'nǫwá\'í\' mä\'rä.</string>
+    <string name="home_filters_newest">Hehe\'i.</string>
+    <string name="post_create_comment">Añadir un dato</string>
+    <string name="post_likes">%s xiko mämbo.</string>
+    <string name="post_comments">Text to translate: %s mpe̲nts\'i\'e\'e\'</string>
+    <string name="post_no_comments_title">Hñuhño xí</string>
+    <string name="post_no_comments_subtitle">¿Mu̲hu da compartir ma gi japu̲\'u i\'i nu\'u ngehnu̲ ya̲ post mbi̲a\?</string>
+
+    <string name="error_msg_general">Jó qa̲ya̲ xí Nikwähkꞌo xìo. Nenda hñä\'äi tu\'unda.</string>
+</resources>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Hña̲\'iꞌ ma̲nda: Ingresa</string>
+    <string name="onboarding_signup_btn">¿Mpu\'\?</string>
+    <string name="onboarding_other_title">OK</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Continuar komo huésped</string>
+    <string name="onboarding_go_back">Hora ga\'an</string>
+
+    <!-- Log in -->
+    <string name="login_title">Ojú wa̲na̲!</string>
+    <string name="login_subtitle">Yándi inicialets\'i tsa\'yü yabenso ini.</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Jade hu̲n̲tho̲ndaʼi: Contraseña</string>
+    <string name="login_forgot_password">¿Conetamatse na xíntii\?</string>
+    <string name="login_login_btn">Hña̲\'iꞌ ma̲nda: Ingresa</string>
+    <string name="login_go_to_signup_1">¿Ka\'ninte jña muke\?</string>
+    <string name="login_go_to_signup_2">¿Mpu\'\?</string>
+    <string name="login_reset_password">Reinicia contraseña</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Hñuhño\' nä\'ä.</string>
+    <string name="signup_subtitle">Oda̲ ̲da ̲koje̲.</string>
+    <string name="signup_name_hint">Jna\'mbo\'hu\'nda</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Jade hu̲n̲tho̲ndaʼi: Contraseña</string>
+    <string name="signup_confirm_password_hint">Ragi c̲hua̲yu̲ na̲ näxi të\'ẽ nä\'̲u̲.</string>
+    <string name="signup_signup_btn">Hñuhño\' nä\'ä.</string>
+    <string name="signup_go_to_login_1">Mi nti ngui usu jo ya\?</string>
+    <string name="signup_go_to_login_2">Hña̲\'iꞌ ma̲nda: Ingresa</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">OK</string>
+    <string name="setup_profile_finish">Tematehuamo</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">K\'ho ne menu</string>
+    <string name="add_picture_subtitle">Gänthi ñäku̲ kawi.</string>
+    <string name="add_languages_title">K\'ho ne menu</string>
+    <string name="add_languages_subtitle">Hu̲mu̲t\'u̲ne ts\'na̲ hmä mbo\' o̲hozhki.</string>
+    <string name="add_languages_select_proficiency">Seleccionar mbojtoña.</string>
+    <string name="add_languages_select_language">Rata seleccionada</string>
+    <string name="add_languages_add_language">Jándo mätso\'äi.</string>
+    <string name="add_language_select">Vak\'o</string>
+    <string name="add_language_cancel">ts\'ímpanda</string>
+    <string name="select_gender_title">K\'ho ne menu</string>
+    <string name="select_gender_subtitle">Jur̃i p\'ämbo nä nä\'̵thi</string>
+    <string name="select_topics_title">K\'ho ne menu</string>
+    <string name="select_topics_subtitle">Yäninirin temas u\'ñ\'ôntsi.</string>
+    <string name="add_description_title">K\'ho ne menu</string>
+    <string name="add_description_subtitle">Mbose ha juu ja̲ mpädi ne ga̲tho mpa̲ti nä\'ä.</string>
+    <string name="add_description_birthday_hint">Text to translate: Birthday</string>
+    <string name="add_description_birthday_select">Vak\'o</string>
+    <string name="add_description_birthday_cancel">ts\'ímpanda</string>
+    <string name="add_description_location_hint">Lugar</string>
+    <string name="add_description_description_hint">Descripción</string>
+</resources>

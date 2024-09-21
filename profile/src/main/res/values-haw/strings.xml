@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Koho</string>
+    <string name="cancel_birthday_selection">Hoʻokahe\'ai</string>
+    <string name="edit_name_title">Inoa</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Mōʻolelo</string>
+
+    <string name="profile_updated_success">Lolouloa `ia ka hua`olelo pili-pālua i koho`ia\'aikea</string>
+
+    <string name="topics_empty_title">ʻAʻohe mau mea noʻonoʻo i wae ʻia</string>
+    <string name="topics_title">Mai loko mai o kçia pura\?</string>
+
+    <string name="languages_title">ʻŌlelo\'a.</string>
+    <string name="languages_empty_title">ʻAʻole huaʻōlelo koho ʻia</string>
+    <string name="profile_add_language">Hoʻokuana pepa</string>
+    <string name="profile_select_language">Select language</string>
+    <string name="profile_select_proficiency">Select proficiency</string>
+    <string name="add_language_select">Koho</string>
+    <string name="add_language_cancel">Hoʻokahe\'ai</string>
+    <string name="gender_title">Kanaka hōkeo</string>
+</resources>

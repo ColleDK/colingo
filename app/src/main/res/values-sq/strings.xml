@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Shtëpi</string>
+    <string name="destination_explore_label">Eksploroni</string>
+    <string name="destination_chat_label">Bisedë</string>
+    <string name="destination_profile_label">Profili</string>
+    <string name="destination_settings_label">Cilësimet</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Tematika</string>
+    <string name="setting_notifications_title">Njoftimet</string>
+    <string name="setting_permissions_title">Lejet</string>
+    <string name="setting_accessibility_title">Aksesueshmëria</string>
+    <string name="setting_about_title">Rreth</string>
+    <string name="setting_rate_title">Vlerësoni aplikacionin</string>
+    <string name="setting_report_title">Raportoni një defekt</string>
+    <string name="setting_logout_title">Dilni</string>
+    <string name="setting_switch_language_title">Ndërroni gjuhët</string>
+
+    <string name="selected_language">Gjuha e zgjedhur</string>
+
+    <string name="settings_change">Ndrysho cilësimet</string>
+    <string name="settings_switch_language">Ndërroni gjuhën</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Tematikë dinamike</string>
+    <string name="setting_dark_theme">Tema e errët</string>
+
+    <string name="settings_rate_app_page_title">Vlerësoni aplikacionin</string>
+    <string name="settings_switch_language_title">Ndrysho gjuhën</string>
+    <string name="settings_theming_title">Tema dhe ngjyra</string>
+    <string name="settings_about_page_title">Rreth aplikacionit</string>
+    <string name="settings_about_page_description1">Colingo është një platformë e shkëmbimit të gjuhës së drejtuar nga komuniteti e zhvilluar nga Colle/William.</string>
+    <string name="settings_about_page_description2">Përpjekemi të jemi sa më të hapur dhe drejtpërdrejtë në lidhje me gjithçka në aplikacion, për këtë arsye e mbajmë të hapur burimin e tij.</string>
+    <string name="settings_about_page_description3">Të gjitha përkthimet brenda aplikacionit bëhen nga AI-t dhe si të tilla mund të ketë gabime përkthimi - nëse gjeni ndonjë, ju lutemi raportoni atë në panelin \"Raporto një gabim\".</string>
+    <string name="settings_about_page_contact">Nëse keni ndonjë shqetësim ose sugjerim për aplikacionin, mund të na kontaktoni në:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Raporto defektin</string>
+    <string name="settings_report_bug_title">Për të garantuar stabilitet, ne mbledhim automatikisht raportet e përplasjeve, megjithatë nëse gjeni ndonjë problem dhe dëshironi të paraqisni një defekt direkt, ju lutemi plotësoni një formular me aq informacion sa keni në</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

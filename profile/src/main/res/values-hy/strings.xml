@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Ընտրեք</string>
+    <string name="cancel_birthday_selection">Չեղարկել</string>
+    <string name="edit_name_title">Անուն</string>
+    <string name="location_empty_title">Չստեղծաբ է</string>
+
+    <string name="description_title">Նկարագրություն</string>
+
+    <string name="profile_updated_success">Պրոֆիլը հարաժամկետանց թարմված է։</string>
+
+    <string name="topics_empty_title">Թեմաները ընտրված չեն։</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Լեզուներ</string>
+    <string name="languages_empty_title">Լեզուներից ոչ մեկը ընտրված չէ։</string>
+    <string name="profile_add_language">Ավելացնել լեզու</string>
+    <string name="profile_select_language">Ընտրեք լեզուն</string>
+    <string name="profile_select_proficiency">Ներքին հմտությունը ընտրեք</string>
+    <string name="add_language_select">Ընտրեք</string>
+    <string name="add_language_cancel">Չեղարկել</string>
+    <string name="gender_title">Սեռ</string>
+</resources>

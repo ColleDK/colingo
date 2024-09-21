@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Moj feed</string>
+    <string name="post_create_new">Napravi novi post</string>
+    <string name="create_post_dismiss">Otkaži</string>
+    <string name="create_post_create">Kreiraj</string>
+    <string name="post_show_more">Prikaži više</string>
+    <string name="post_show_less">Prikaži manje</string>
+
+    <string name="create_post_success">Post kreiran</string>
+    <string name="create_chat_success">Ćaskanje kreirano</string>
+
+    <string name="home_filters_oldest">Najstarije</string>
+    <string name="home_filters_newest">Najnovije</string>
+    <string name="post_create_comment">Dodaj komentar</string>
+    <string name="post_likes">%s voli</string>
+    <string name="post_comments">Komentari: %s</string>
+    <string name="post_no_comments_title">Nema odgovora još uvek</string>
+    <string name="post_no_comments_subtitle">Budite prvi koji će podeliti svoje misli o ovom postu.</string>
+
+    <string name="error_msg_general">Nešto je pošlo po zlu. Pokušajte ponovo.</string>
+</resources>

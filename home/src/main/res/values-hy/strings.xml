@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Իմ ցանկը</string>
+    <string name="post_create_new">Ստեղծեք նոր գրառում</string>
+    <string name="create_post_dismiss">Չեղարկել</string>
+    <string name="create_post_create">Ստեղծել</string>
+    <string name="post_show_more">Ցուցադրել ավելին</string>
+    <string name="post_show_less">Ցույց տալ պակաս լինի</string>
+
+    <string name="create_post_success">Գրառումը ստեղծված է</string>
+    <string name="create_chat_success">Զրոյացված է խնդրանքը</string>
+
+    <string name="home_filters_oldest">Ոչնչարյալ</string>
+    <string name="home_filters_newest">Նորակառուց թեթև</string>
+    <string name="post_create_comment">Ինքնաթիռներուն ավելացնել</string>
+    <string name="post_likes">%s դուրս հանում է</string>
+    <string name="post_comments">Տեքստը թարմացվել է՝ %s մեկնաբանություններ</string>
+    <string name="post_no_comments_title">Ժողովուրդ չկա</string>
+    <string name="post_no_comments_subtitle">Երբեք լինեք առաջինը, որ կապեք ձեր գնահատականը այս գրառումի վերջում:</string>
+
+    <string name="error_msg_general">Որքա՜ն չունի բացատրվել։ Խնդրուն կրկին փորձեք։</string>
+</resources>

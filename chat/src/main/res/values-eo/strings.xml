@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Krei novan babiladon</string>
+    <string name="date_today">Hodiaŭ</string>
+
+    <string name="members_page_title">Teksto por traduki: Chats</string>
+    <string name="bots_page_title">Teksto por traduki: Bot babilejoj</string>
+
+    <string name="chat_my_messages">Miaj mesaĝoj</string>
+    <string name="chat_empty_title">Neniu mesaĝo ankoraŭ</string>
+    <string name="chat_empty_description">Komencu konversacion por vidi viajn mesaĝojn ĉi tie.</string>
+
+    <string name="chats_empty_title">Neniu babilado ankoraŭ</string>
+    <string name="chats_empty_description">Post kiam vi komencas novan konversacion, vi vidos ĝin listigita ĉi tie.</string>
+
+    <string name="chats_delete_title">Forigi babilejon</string>
+    <string name="chats_delete_subtitle">Tiu ago ne povas esti malfarita!</string>
+    <string name="chats_delete_confirm">Konfirmi</string>
+    <string name="chats_delete_cancel">Nuligi</string>
+    <string name="chats_delete_success">Babela forigita.</string>
+
+    <string name="message_time_today">Hodiaŭ</string>
+    <string name="message_time_yesterday">Hieraux</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise estas hispana instruistino, kiu povas helpi vin plibonigi vian vortprovizon!</string>
+</resources>

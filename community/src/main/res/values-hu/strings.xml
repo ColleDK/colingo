@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Társak kerése</string>
+    <string name="community_page_title">Tagok</string>
+    <string name="chatbot_page_title">Chatbotok</string>
+    <string name="community_user_speaks">Beszél</string>
+    <string name="community_user_learns">Tanulás</string>
+
+    <string name="community_ai_empty_title">Nincsenek chatbotok találhatók</string>
+    <string name="community_ai_empty_subtitle">Próbálja frissíteni a szűrőket, hogy több chatbotot találjon.</string>
+    <string name="community_empty_title">Felhasználók nem találhatók</string>
+    <string name="community_empty_subtitle">Próbálja frissíteni a szűrőit több felhasználó találásához.</string>
+
+    <string name="community_filters_limit">Válasszon ki legfeljebb %d nyelvet, amelyet az anyanyelvi beszélők közül szeretne látni.</string>
+    <string name="community_filters_selected">Válassz: %d/%d</string>
+    <string name="community_filters_clear">Szűrők törlése</string>
+    <string name="community_filters_your_languages">Jelenlegi nyelvek</string>
+
+    <string name="chat_created_msg">Chat létrehozva</string>
+    <string name="chatbot_created_msg">Chat létrehozva: %s</string>
+    <string name="chatbot_create_chat">Chat létrehozása: %s</string>
+</resources>

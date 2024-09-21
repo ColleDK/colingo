@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Awọn ayẹyẹori.</string>
+    <string name="topic_cooking">Iwe yii: Ise ise</string>
+    <string name="topic_theater">Iwe Kika</string>
+    <string name="topic_partying">Ibọọdunhin</string>
+    <string name="topic_biking">Biyikìn.</string>
+    <string name="topic_camping">Igba awoobi fun ipa.</string>
+    <string name="topic_fitness">Iṣẹ aro</string>
+    <string name="topic_meditation">Ìṣọsẹlẹoko</string>
+    <string name="topic_movie">Awọn iwure.</string>
+    <string name="topic_music">Ilù àtì Àwọn</string>
+    <string name="topic_painting">Ọrọ igbọnsẹ</string>
+    <string name="topic_physics">Fiziks</string>
+    <string name="topic_reading">Iwe-ọrọ</string>
+    <string name="topic_science">Iluwe</string>
+    <string name="topic_sports">Iroyin.</string>
+    <string name="topic_swimming">Ika</string>
+    <string name="topic_technology">Oṣuwọn.</string>
+    <string name="topic_videogame">Iroyin ti a toju sindara: Video games</string>
+</resources>

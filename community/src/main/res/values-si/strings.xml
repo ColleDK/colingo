@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">හදුනාගැනීමයි</string>
+    <string name="community_page_title">සාමාජිකයෝ</string>
+    <string name="chatbot_page_title">කතා බොට්ටුයෝ</string>
+    <string name="community_user_speaks">කතා කරයි</string>
+    <string name="community_user_learns">පාසලේදීම ඉගෙනගන්න</string>
+
+    <string name="community_ai_empty_title">නැතිලීත් නොගන්නේය.</string>
+    <string name="community_ai_empty_subtitle">ඔබගේ පෙරහන් සංරචකයෙන් වැඩි චැට්බොට්‌හෝගෙන් ලබා ගැනීමට යොදන්න</string>
+    <string name="community_empty_title">පරිශීලකයන් හමු නොවීම්</string>
+    <string name="community_empty_subtitle">අපගේ පෙරලීලූ ෆිල්ටර්ස් යාවත්කාලින කිරීමට උත්සහා කරන්න.</string>
+
+    <string name="community_filters_limit">පලදෙන %d භාෂාවන් තෝරන්න ඔබට අභියෝච්චාලයට දැනගන්න හැක්.</string>
+    <string name="community_filters_selected">පිටුව %d/%d තේරීමක් තෝරාගත්වුවා.</string>
+    <string name="community_filters_clear">පෙරහන් ඉවත් කරන්න.</string>
+    <string name="community_filters_your_languages">ඔබගේ වත්මන් භාෂාවන්</string>
+
+    <string name="chat_created_msg">කතාකාරී සාර්ථකව සාදා ඇත</string>
+    <string name="chatbot_created_msg">චැට් තවත් %s සම්බන්ධයෙන් සෑදීමකින් ඇත</string>
+    <string name="chatbot_create_chat">එකතුව %s සමඟ සමස්තු හැක.</string>
+</resources>

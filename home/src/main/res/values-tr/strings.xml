@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Benim akışım</string>
+    <string name="post_create_new">Yeni bir gönderi oluştur</string>
+    <string name="create_post_dismiss">İptal</string>
+    <string name="create_post_create">Oluştur</string>
+    <string name="post_show_more">Daha fazla göster</string>
+    <string name="post_show_less">Daha az göster</string>
+
+    <string name="create_post_success">Gönderi oluşturuldu</string>
+    <string name="create_chat_success">Sohbet oluşturuldu</string>
+
+    <string name="home_filters_oldest">En eski</string>
+    <string name="home_filters_newest">En yeni</string>
+    <string name="post_create_comment">Yorum ekle</string>
+    <string name="post_likes">%s beğeniyor</string>
+    <string name="post_comments">Yorumlar: %s</string>
+    <string name="post_no_comments_title">Henüz yanıt yok</string>
+    <string name="post_no_comments_subtitle">Bu gönderi hakkındaki düşüncelerinizi paylaşan ilk kişi olun.</string>
+
+    <string name="error_msg_general">Bir şeyler yanlış gitti. Lütfen tekrar deneyin.</string>
+</resources>

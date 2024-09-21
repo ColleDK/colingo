@@ -1,0 +1,23 @@
+<resources>
+    <string name="homepage_title">મારું ફિડ કરો</string>
+    <string name="post_create_new">નવો પોસ્ટ બનાવો</string>
+    <string name="create_post_dismiss">રદ કરો</string>
+    <string name="create_post_create">બનાવો</string>
+    <string name="post_show_more">વધુ બતાવો</string>
+    <string name="post_show_less">ઓછું બતાવો</string>
+
+    <string name="create_post_success">પોસ્ટ બનાવેલી</string>
+    <string name="create_chat_success">ચેટ બનાવેલું</string>
+
+    <string name="home_filters_oldest">સૌથી જૂની</string>
+    <string name="home_filters_newest">નવીનતમ</string>
+    <string name="post_create_comment">ટેક્સ્ટ અમુક્યું જોડો</string>
+    <string name="post_likes">ટેક્સ્ટ to translate: %sને આવું ગમે છે</string>
+    <string name="post_comments">%s comments
+
+ટિપ્પણિઓ</string>
+    <string name="post_no_comments_title">હજૂ જવાબ નથી</string>
+    <string name="post_no_comments_subtitle">આ પોસ્ટ પર તમારા વિચારો શેર કરવામાં પ્રથમ બનો.</string>
+
+    <string name="error_msg_general">કંઈ ભૂલ થઈ ગઈ. મળતાં ફરી પ્રયાસ કરો.</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">چاوەڕێیەكی نوێ بەردەستبكە</string>
+    <string name="date_today">ئهمڕۆ</string>
+
+    <string name="members_page_title">چاوەڕێكتان</string>
+    <string name="bots_page_title">چاوپێکردنی بۆت</string>
+
+    <string name="chat_my_messages">پەیامەكانم</string>
+    <string name="chat_empty_title">پەیام نییە هێشتا</string>
+    <string name="chat_empty_description">بۆ دەستپێکردنی كردنی پەیامەکانت، دەستبەخە بە گفتوگۆ كردن لێرە.</string>
+
+    <string name="chats_empty_title">هیچ گفتوگۆیێک هێناگه‌یینده‌ كراوه‌ بوون‌</string>
+    <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+
+    <string name="chats_delete_title">چاکبکەوەی گفتوگۆ</string>
+    <string name="chats_delete_subtitle">ئەم کارە ناتوانێ دڵنیابێت!</string>
+    <string name="chats_delete_confirm">پەسەندکردن</string>
+    <string name="chats_delete_cancel">لابردن</string>
+    <string name="chats_delete_success">چاوەڕێکراو سڕدرایەوە</string>
+
+    <string name="message_time_today">ئەمڕۆ</string>
+    <string name="message_time_yesterday">دووه‌مینده</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise mamostekeke Spaniyayî ye ku bi te re dikare alfabeya te baş bike!</string>
+</resources>

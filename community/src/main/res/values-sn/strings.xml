@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Pinda nematambudziko</string>
+    <string name="community_page_title">Vanhu</string>
+    <string name="chatbot_page_title">Zvinyorwa zvemhando</string>
+    <string name="community_user_speaks">Vanoti</string>
+    <string name="community_user_learns">Kufunda</string>
+
+    <string name="community_ai_empty_title">Hakuna chatbots akaitwa</string>
+    <string name="community_ai_empty_subtitle">Dzokororoa maitiro enyu kusanganisira kuti mukwanise kunyorera mashandiswa angapera paivepo.</string>
+    <string name="community_empty_title">Hapana vanhu vakambova</string>
+    <string name="community_empty_subtitle">Dzokororoora mafuta ano kuti upinde vanhu vanotarisira zvakakwana.</string>
+
+    <string name="community_filters_limit">Pinda hupenyu hwako pfungwa yakanaka.</string>
+    <string name="community_filters_selected">%d/%d akachagadzwa</string>
+    <string name="community_filters_clear">Pindura maitiro</string>
+    <string name="community_filters_your_languages">Mitauro yako yekutanga</string>
+
+    <string name="chat_created_msg">Svosve rakaitwa</string>
+    <string name="chatbot_created_msg">Chikuvadzwa chiripo nekutamba na %s</string>
+    <string name="chatbot_create_chat">Gadzira pakutaura nechat ne%s</string>
+</resources>

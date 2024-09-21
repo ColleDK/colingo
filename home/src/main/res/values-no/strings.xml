@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Min feed</string>
+    <string name="post_create_new">Opprett et nytt innlegg</string>
+    <string name="create_post_dismiss">Avbryt</string>
+    <string name="create_post_create">Opprett</string>
+    <string name="post_show_more">Vis mer</string>
+    <string name="post_show_less">Vis mindre</string>
+
+    <string name="create_post_success">Innlegg opprettet</string>
+    <string name="create_chat_success">Chat opprettet</string>
+
+    <string name="home_filters_oldest">Eldste</string>
+    <string name="home_filters_newest">Nyeste</string>
+    <string name="post_create_comment">Legg til en kommentar</string>
+    <string name="post_likes">Tekst å oversette: %s liker</string>
+    <string name="post_comments">Tekst å oversette: %s kommentarer</string>
+    <string name="post_no_comments_title">Ingen svar ennå</string>
+    <string name="post_no_comments_subtitle">Vær den første til å dele tankene dine om dette innlegget</string>
+
+    <string name="error_msg_general">Noe gikk galt. Vennligst prøv igjen.</string>
+</resources>

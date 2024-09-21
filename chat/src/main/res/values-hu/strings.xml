@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Hozzon létre egy új beszélgetést.</string>
+    <string name="date_today">Ma</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot beszélgetések</string>
+
+    <string name="chat_my_messages">Az üzeneteim</string>
+    <string name="chat_empty_title">Nincsenek még üzenetek</string>
+    <string name="chat_empty_description">Kezdjen beszélgetést, hogy lássa az üzeneteit itt.</string>
+
+    <string name="chats_empty_title">Még nincsenek csevegések</string>
+    <string name="chats_empty_description">Amint elkezdtél egy új beszélgetést, itt fogod látni listázva.</string>
+
+    <string name="chats_delete_title">Chat törlése</string>
+    <string name="chats_delete_subtitle">Ez a művelet nem vonható vissza!</string>
+    <string name="chats_delete_confirm">Megerősítés</string>
+    <string name="chats_delete_cancel">Mégse</string>
+    <string name="chats_delete_success">Chat törölve</string>
+
+    <string name="message_time_today">Ma</string>
+    <string name="message_time_yesterday">Tegnap</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise spanyol tanár, aki segíthet a szókincsed fejlesztésében!</string>
+</resources>

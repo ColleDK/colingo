@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Kafshët</string>
+    <string name="topic_cooking">Gatimi</string>
+    <string name="topic_theater">Teatri</string>
+    <string name="topic_partying">Festa</string>
+    <string name="topic_biking">Biciklizëm</string>
+    <string name="topic_camping">Kampimi</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditimi</string>
+    <string name="topic_movie">Filma</string>
+    <string name="topic_music">Muzikë</string>
+    <string name="topic_painting">Pikturë</string>
+    <string name="topic_physics">Fizika</string>
+    <string name="topic_reading">Lexim</string>
+    <string name="topic_science">Shkencë</string>
+    <string name="topic_sports">Sporte</string>
+    <string name="topic_swimming">Not Translation: Swimming</string>
+    <string name="topic_technology">Teknologjia</string>
+    <string name="topic_videogame">Lojëra Video</string>
+</resources>

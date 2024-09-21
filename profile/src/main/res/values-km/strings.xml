@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ជ្រើស</string>
+    <string name="cancel_birthday_selection">បោះបង់</string>
+    <string name="edit_name_title">ឈ្មោះ</string>
+    <string name="location_empty_title">មិនបាន​បញ្ជាក់​</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">ប្រវត្តិរូបភាពត្រឹមត្រួវបានធ្វើបច្ចុប្បន្ន</string>
+
+    <string name="topics_empty_title">មិនបារម្មណ៍​បានជ្រើសរើស​ទេ​។</string>
+    <string name="topics_title">ចំណាប់អារម្ម</string>
+
+    <string name="languages_title">ភាសា</string>
+    <string name="languages_empty_title">គ្មានភាសា​ដែល​បាន​ជ្រើស​រួច​ឡើយ​ទេ​</string>
+    <string name="profile_add_language">បន្ថែមភាសា</string>
+    <string name="profile_select_language">ជ្រើសភាសា</string>
+    <string name="profile_select_proficiency">ជ្រើសរើសជម្រើស្រូវ</string>
+    <string name="add_language_select">ជ្រើស</string>
+    <string name="add_language_cancel">បោះបង់</string>
+    <string name="gender_title">Gender</string>
+</resources>

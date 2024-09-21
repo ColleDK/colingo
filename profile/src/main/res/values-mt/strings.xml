@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Agħżel</string>
+    <string name="cancel_birthday_selection">Ikkanċella</string>
+    <string name="edit_name_title">Isem</string>
+    <string name="location_empty_title">Mhux speċifikat</string>
+
+    <string name="description_title">Test: Deskrizzjoni</string>
+
+    <string name="profile_updated_success">Profajl suċċessfulli aġġornat</string>
+
+    <string name="topics_empty_title">Ebda suġġett magħżul</string>
+    <string name="topics_title">Interessi</string>
+
+    <string name="languages_title">Lingwi</string>
+    <string name="languages_empty_title">Lingwi bla Agħżeliti</string>
+    <string name="profile_add_language">Żid lingwa</string>
+    <string name="profile_select_language">Agħżel lingwa</string>
+    <string name="profile_select_proficiency">Agħżel il-ħiliet</string>
+    <string name="add_language_select">Agħżel</string>
+    <string name="add_language_cancel">Ikkanċella</string>
+    <string name="gender_title">Sess</string>
+</resources>

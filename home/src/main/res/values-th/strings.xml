@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">ฟีดของฉัน</string>
+    <string name="post_create_new">สร้างโพสต์ใหม่</string>
+    <string name="create_post_dismiss">ยกเลิก</string>
+    <string name="create_post_create">สร้าง</string>
+    <string name="post_show_more">แสดงเพิ่มเติม</string>
+    <string name="post_show_less">แสดงน้อยลง</string>
+
+    <string name="create_post_success">โพสต์ถูกสร้าง</string>
+    <string name="create_chat_success">ประเภทของบทสนทนา</string>
+
+    <string name="home_filters_oldest">เก่าที่สุด</string>
+    <string name="home_filters_newest">ใหม่ที่สุด</string>
+    <string name="post_create_comment">เพิ่มความคิดเห็น</string>
+    <string name="post_likes">%s ชอบ</string>
+    <string name="post_comments">ข้อคิดเห็น %s</string>
+    <string name="post_no_comments_title">ยังไม่มีการตอบกลับ</string>
+    <string name="post_no_comments_subtitle">เป็นคนแรกที่แบ่งปันความคิดเห็นของคุณในโพสต์นี้</string>
+
+    <string name="error_msg_general">เกิดข้อผิดพลาด โปรดลองอีกครั้ง</string>
+</resources>

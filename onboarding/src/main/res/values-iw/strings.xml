@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">התחברי</string>
+    <string name="onboarding_signup_btn">הרשם</string>
+    <string name="onboarding_other_title">או להמשיך עם</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">המשך כאורח</string>
+    <string name="onboarding_go_back">שוב!</string>
+
+    <!-- Log in -->
+    <string name="login_title">ברוך הבא שוב!</string>
+    <string name="login_subtitle">התחבר לחשבון שלך</string>
+    <string name="login_email_hint">אימייל</string>
+    <string name="login_password_hint">סיסמה</string>
+    <string name="login_forgot_password">שכחת סיסמה\?</string>
+    <string name="login_login_btn">התחברות</string>
+    <string name="login_go_to_signup_1">אין לך עדיין חשבון\?</string>
+    <string name="login_go_to_signup_2">הרשמה</string>
+    <string name="login_reset_password">איפוס סיסמה</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">רישום</string>
+    <string name="signup_subtitle">צור את החשבון שלך</string>
+    <string name="signup_name_hint">שם</string>
+    <string name="signup_email_hint">אימייל</string>
+    <string name="signup_password_hint">סיסמה</string>
+    <string name="signup_confirm_password_hint">אימות סיסמה</string>
+    <string name="signup_signup_btn">רישום</string>
+    <string name="signup_go_to_login_1">כבר יש לך חשבון\?</string>
+    <string name="signup_go_to_login_2">התחברות</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">הבא</string>
+    <string name="setup_profile_finish">סיימת</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">הגדר פרופיל</string>
+    <string name="add_picture_subtitle">הוסף תמונת פרופיל</string>
+    <string name="add_languages_title">הגדר פרופיל</string>
+    <string name="add_languages_subtitle">בחר שפות</string>
+    <string name="add_languages_select_proficiency">בחר רמת מיומנות</string>
+    <string name="add_languages_select_language">בחר שפה</string>
+    <string name="add_languages_add_language">הוסף שפה</string>
+    <string name="add_language_select">בחר</string>
+    <string name="add_language_cancel">ביטול</string>
+    <string name="select_gender_title">הגדר פרופיל</string>
+    <string name="select_gender_subtitle">בחר מין</string>
+    <string name="select_topics_title">הגדר פרופיל</string>
+    <string name="select_topics_subtitle">בחר נושאים</string>
+    <string name="add_description_title">הגדרת פרופיל</string>
+    <string name="add_description_subtitle">הוסף מידע אודות עצמך</string>
+    <string name="add_description_birthday_hint">יום הולדת</string>
+    <string name="add_description_birthday_select">בחר</string>
+    <string name="add_description_birthday_cancel">בטל</string>
+    <string name="add_description_location_hint">מיקום</string>
+    <string name="add_description_description_hint">תיאור</string>
+</resources>

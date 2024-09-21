@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Erstelle eng nei Chat.</string>
+    <string name="date_today">Haut</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot Chats</string>
+
+    <string name="chat_my_messages">Meng Nohichten</string>
+    <string name="chat_empty_title">Keng Message bis elo.</string>
+    <string name="chat_empty_description">Fänk mat ze schwätzen fir deng Messagen hei ze gesinn.</string>
+
+    <string name="chats_empty_title">Keng Chats nach net.</string>
+    <string name="chats_empty_description">Eimol wanns du eng nei Conversatioun ufaangs, da gesäis de se hei opgelist.</string>
+
+    <string name="chats_delete_title">Läschen Chat</string>
+    <string name="chats_delete_subtitle">Dës Handlung kann net rëckgängeg gemaach ginn!</string>
+    <string name="chats_delete_confirm">Bestätegen</string>
+    <string name="chats_delete_cancel">Ofbrechen</string>
+    <string name="chats_delete_success">Chat geläscht</string>
+
+    <string name="message_time_today">Haut</string>
+    <string name="message_time_yesterday">Gëschter</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ass eng Spanesch Léierin, déi Iech hëllefen kann, Ären Wortschatz ze verbesseren!</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Động vật</string>
+    <string name="topic_cooking">Nấu ăn</string>
+    <string name="topic_theater">Nhà hát</string>
+    <string name="topic_partying">Tiệc tùng</string>
+    <string name="topic_biking">Đạp xe</string>
+    <string name="topic_camping">Cắm trại</string>
+    <string name="topic_fitness">Thể dục</string>
+    <string name="topic_meditation">Thiền định</string>
+    <string name="topic_movie">Phim</string>
+    <string name="topic_music">Âm nhạc</string>
+    <string name="topic_painting">Vẽ tranh</string>
+    <string name="topic_physics">Vật lý</string>
+    <string name="topic_reading">Đọc</string>
+    <string name="topic_science">Khoa học</string>
+    <string name="topic_sports">Thể thao</string>
+    <string name="topic_swimming">Bơi lội</string>
+    <string name="topic_technology">Công nghệ</string>
+    <string name="topic_videogame">Trò chơi điện tử</string>
+</resources>

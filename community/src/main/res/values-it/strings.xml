@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Trova partner.</string>
+    <string name="community_page_title">Membri</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Parla</string>
+    <string name="community_user_learns">Apprendimento</string>
+
+    <string name="community_ai_empty_title">Nessun chatbot trovato</string>
+    <string name="community_ai_empty_subtitle">Prova ad aggiornare i filtri per trovare più chatbot.</string>
+    <string name="community_empty_title">Nessun utente trovato</string>
+    <string name="community_empty_subtitle">Prova ad aggiornare i tuoi filtri per trovare più utenti</string>
+
+    <string name="community_filters_limit">Scegli fino a %d lingue di cui vuoi vedere parlanti fluenti</string>
+    <string name="community_filters_selected">%d/%d selezionato</string>
+    <string name="community_filters_clear">Rimuovi filtri</string>
+    <string name="community_filters_your_languages">Le tue lingue attuali</string>
+
+    <string name="chat_created_msg">Chat creata</string>
+    <string name="chatbot_created_msg">Chat creata con %s</string>
+    <string name="chatbot_create_chat">Crea chat con %s</string>
+</resources>

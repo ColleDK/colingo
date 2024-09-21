@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Kenya</string>
+    <string name="onboarding_signup_btn">Bala hoja.</string>
+    <string name="onboarding_other_title">Eka utloile le ho fetha</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Tsoela pele ka hore mofutsana</string>
+    <string name="onboarding_go_back">Sweletsa.</string>
+
+    <!-- Log in -->
+    <string name="login_title">Re amogetswe!</string>
+    <string name="login_subtitle">Kenya mofuta oa ho ea hau</string>
+    <string name="login_email_hint">Peleka imeile</string>
+    <string name="login_password_hint">Phasewete</string>
+    <string name="login_forgot_password">Akae ha u etse morao oa hau\?</string>
+    <string name="login_login_btn">Kenya</string>
+    <string name="login_go_to_signup_1">Ha u na akaretso ha ke sa tsebe\?</string>
+    <string name="login_go_to_signup_2">Bala hoja.</string>
+    <string name="login_reset_password">Kgerisitse mokokeli</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">Bakeng sa ikoetlisa akaunti ea hao</string>
+    <string name="signup_name_hint">Lebitso</string>
+    <string name="signup_email_hint">Peleka imeile</string>
+    <string name="signup_password_hint">Phasewete</string>
+    <string name="signup_confirm_password_hint">Kgatlhege  aha moraowo</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">Na o na le akhaonto e fetileng\?</string>
+    <string name="signup_go_to_login_2">Kenya</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Thema</string>
+    <string name="setup_profile_skip">Hlōla</string>
+    <string name="add_picture_title">Bontsha moprofela</string>
+    <string name="add_picture_subtitle">Fetola sefumane sa profailye</string>
+    <string name="add_languages_title">Bontsha moprofela</string>
+    <string name="add_languages_subtitle">Khetha dipolase</string>
+    <string name="add_languages_select_proficiency">Dira tsebo</string>
+    <string name="add_languages_select_language">Khetha maeo</string>
+    <string name="add_languages_add_language">Kenya moswa.</string>
+    <string name="add_language_select">Khetha</string>
+    <string name="add_language_cancel">Hlakola</string>
+    <string name="select_gender_title">Bontsha moprofela</string>
+    <string name="select_gender_subtitle">Khetha phoofolo</string>
+    <string name="select_topics_title">Bontsha moprofela</string>
+    <string name="select_topics_subtitle">Khetha ditokomane</string>
+    <string name="add_description_title">Bontsha moprofela</string>
+    <string name="add_description_subtitle">Fetola tse ling tse ka kopo mabaleng haholo molemo nehatseng ya hao</string>
+    <string name="add_description_birthday_hint">Dipotso</string>
+    <string name="add_description_birthday_select">Khetha</string>
+    <string name="add_description_birthday_cancel">Hlakola</string>
+    <string name="add_description_location_hint">Lokeshini</string>
+    <string name="add_description_description_hint">Lebaka</string>
+</resources>

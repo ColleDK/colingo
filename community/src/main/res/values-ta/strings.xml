@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">பங்காளிகளை கண்டுபிடிக்கவும்</string>
+    <string name="community_page_title">உறுப்பினர்கள்</string>
+    <string name="chatbot_page_title">உரையாசிகால்</string>
+    <string name="community_user_speaks">பேசுகிறார்</string>
+    <string name="community_user_learns">படித்தல்</string>
+
+    <string name="community_ai_empty_title">செய்தி ரெடிரைவர்கள் காணப்படவில்லை</string>
+    <string name="community_ai_empty_subtitle">கூடுதல் செய்திகளை கணிப்புகளை புதுப்பித்து கண்டுபிடிக்கலாம்.</string>
+    <string name="community_empty_title">பயனர்கள் காணப்படவில்லை</string>
+    <string name="community_empty_subtitle">கணினிகளை புதுப்பிக்க முயற்சிக்கவும் மேலும் பயனர்களை கண்டுபிடிக்கவும்</string>
+
+    <string name="community_filters_limit">மொழிகள் எத்தனையோ தேர்ந்தெடுக்கலாம், நீங்கள் பேசும் முழுமையான பேசுரியர்களை காண விரும்பும்%d முறைகளை தேர்வு செய்க</string>
+    <string name="community_filters_selected">%d/%d தேர்ந்தெடுக்கப்பட்டுள்ளன</string>
+    <string name="community_filters_clear">வடிகமைகளை அழுத்துக</string>
+    <string name="community_filters_your_languages">உங்கள் தற்போதைய மொழிகள்</string>
+
+    <string name="chat_created_msg">உருவாக்கப்பட்ட அரவை.</string>
+    <string name="chatbot_created_msg">உருவாக்கப்பட்ட அரட்டை %s</string>
+    <string name="chatbot_create_chat">உருவாக்குவதற்கு வாங்க %s</string>
+</resources>

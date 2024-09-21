@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Rrër nja̲t\'i ra ga\'an̲di\'i.</string>
+    <string name="date_today">Rä\'i nähuä.</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Ngoxi rgi˜ klǝdgǝbots.</string>
+
+    <string name="chat_my_messages">Nthó ci\'nójni.</string>
+    <string name="chat_empty_title">Ya̲ ra̲tho̲ geehne̲ je̲rono.</string>
+    <string name="chat_empty_description">Tinuajkʼu ra ma̱ xo\'ö ra da mensajes ndäki páxhini ndöme\'a.</string>
+
+    <string name="chats_empty_title">No chats yet</string>
+    <string name="chats_empty_description">T\u0027uu ta tú̲ tu̲nga̲ ne ma ha ndu̲hmu, tu̲wa mu̲ngui ho̲ñe na ja ya.</string>
+
+    <string name="chats_delete_title">Rr\'ue mba\'hí.</string>
+    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone!</string>
+    <string name="chats_delete_confirm">OK</string>
+    <string name="chats_delete_cancel">Ts\'ai.</string>
+    <string name="chats_delete_success">T\'app mpo ya̲mi ya̲mfo nä\'ä.</string>
+
+    <string name="message_time_today">Oje.</string>
+    <string name="message_time_yesterday">Ntu̲njó\'i mbi.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise iyo̲t\'e español ne \'me̲ dá däts\'i̲ ya tsa̲ da stimular ar pesa̲\' yo\', pe \'bu̲i pa da däts\'i̲ ne ar nä\'ä ar tu\'i̲.</string>
+</resources>

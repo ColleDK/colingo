@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Cilingo</string>
+    <string name="onboarding_login_btn">ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="onboarding_signup_btn">ನೋಂದಣಿ ಮಾಡಿಕೊಳ್ಳಿ</string>
+    <string name="onboarding_other_title">ಅಥವಾ ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">ಅತಿಥಿಯಾಗಿ ಮುಂದುವರಿಯಿರಿ</string>
+    <string name="onboarding_go_back">ಹಿಂದಕ್ಕೆ ಹೋಗಿ ಬನ್ನಿರಿ</string>
+
+    <!-- Log in -->
+    <string name="login_title">ಸ್ವಾಗತ!</string>
+    <string name="login_subtitle">ನಿಮ್ಮ ಖಾತೆಗೆ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="login_email_hint">ಇಮೇಲ್</string>
+    <string name="login_password_hint">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="login_forgot_password">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತುಹೋದಿದ್ದರೆ\?</string>
+    <string name="login_login_btn">ಲಾಗ್ ಇನ್</string>
+    <string name="login_go_to_signup_1">ನಿಮಗೆ ಇನ್ನೂ ಖಾತೆ ಇಲ್ಲವೆ\?</string>
+    <string name="login_go_to_signup_2">ನೋಂದಣಿ ಮಾಡಿ</string>
+    <string name="login_reset_password">ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Register</string>
+    <string name="signup_subtitle">ನಿಮ್ಮ ಖಾತೆಯನ್ನು ರಚಿಸಿಕೊಳ್ಳಿ</string>
+    <string name="signup_name_hint">ಹೆಸರು</string>
+    <string name="signup_email_hint">ಇಮೇಲ್</string>
+    <string name="signup_password_hint">ಗುಪ್ತಪದ ಬದಲಾಯಿಸುವುದು.</string>
+    <string name="signup_confirm_password_hint">ಪಾಸ್‌ವರ್ಡ್‌ಅನ್ನು ದೃ‌ಢೀಕರಿಸಿ.</string>
+    <string name="signup_signup_btn">Register</string>
+    <string name="signup_go_to_login_1">ನಿಮ್ಮಲ್ಲಿ ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೋ\?</string>
+    <string name="signup_go_to_login_2">ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">ಮುಂದಿನ</string>
+    <string name="setup_profile_finish">ಮುಗಿಯಿಸಿ</string>
+    <string name="setup_profile_skip">ಬಿಡುಗಡೆ ಮಾಡು</string>
+    <string name="add_picture_title">ಪ್ರೊಫೈಲ್ ಸೆಟಪ್ ಮಾಡಿರಿ</string>
+    <string name="add_picture_subtitle">ಪ್ರೊಫೈಲ್ ಚಿತ್ರ ಸೇರಿಸಿ</string>
+    <string name="add_languages_title">ಪ್ರೊಫೈಲ್ ಸೆಟಪ್ ಮಾಡಿರಿ</string>
+    <string name="add_languages_subtitle">ಭಾಷೆಗಳನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ</string>
+    <string name="add_languages_select_proficiency">ನೈಪುಣ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="add_languages_select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="add_languages_add_language">ಭಾಷೆಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="add_language_select">ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="add_language_cancel">ರದ್ದು ಮಾಡಿ</string>
+    <string name="select_gender_title">ಪ್ರೊಫೈಲ್ ಸೆಟ್ ಅಪ್</string>
+    <string name="select_gender_subtitle">ಲಿಂಗ ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="select_topics_title">ಪ್ರೊಫೈಲ್ ಸೆಟ್ ಅಪ್</string>
+    <string name="select_topics_subtitle">ವಿಷಯಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="add_description_title">ಪ್ರೊಫೈಲ್‌ನು ಸೆಟ್‌ಅಪ್ ಮಾಡಿ.</string>
+    <string name="add_description_subtitle">ನಿಮ್ಮ ಬಗ್ಗೆ ಕೆಲವು ಮಾಹಿತಿ ಸೇರಿಸಿ</string>
+    <string name="add_description_birthday_hint">ಹುಟ್ಟುಹಬ್ಬದಿದು.</string>
+    <string name="add_description_birthday_select">ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="add_description_birthday_cancel">ರದ್ದು</string>
+    <string name="add_description_location_hint">ಸ್ಥಳ (Location)</string>
+    <string name="add_description_description_hint">ವಿವರಣೆ</string>
+</resources>

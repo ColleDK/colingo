@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Fai ha taha fakama\'u konga\'a fakamatala hou</string>
+    <string name="date_today">Aho ni</string>
+
+    <string name="members_page_title">Fonua meihe \'oku nau fakahoko \'i This ishi\'mafa. \'Oku tau tali \'i lalo \'i hono ngaahi fakamatala pa\'anga. \'Ikai ako ka \'e hoko mai \'e he taimi \'oku aonga \'i ai kehekehe \'a hono tali \'a \'ene tu\'unga\'ela. \'Oku faingamalie ke tau tali ai ki he ngaahi fakamatala na\'e ngaue\'aki ko \'eni he lea faka-tali\'i. \'Oku nau faitau ki he feitu\'u lelei ke mou tali\'i. Mālō!</string>
+    <string name="bots_page_title">Mēatā \'E taki hufangamāhina</string>
+
+    <string name="chat_my_messages">Ko e ngaahi talanoa ko e\'u.</string>
+    <string name="chat_empty_title">Te\'u \'ikai ha ngaahi fakamatala \'e lava pe \'e uesia\'ai ai heeni</string>
+    <string name="chat_empty_description">Fakatau\ʻange ke fakapikopiko ki he ngaahi \ʻuha foki koe.</string>
+
+    <string name="chats_empty_title">Taimi ni \'oku \'ikai te u fakapule\'i pe kau fale\'i\'aki.</string>
+    <string name="chats_empty_description">Ko e tohi ke fakahoko ha fakamatala fo\'ou, teke ke faka\'osi atu \'i he folofola ko \'eni.</string>
+
+    <string name="chats_delete_title">Tiliti ha\'u ange chat</string>
+    <string name="chats_delete_subtitle">Ok. \'Ko e me\'a \'eni \'oku \'ikai \'oku hiki \'i \'osi!</string>
+    <string name="chats_delete_confirm">Tautefito</string>
+    <string name="chats_delete_cancel">Talaki hifo</string>
+    <string name="chats_delete_success">To\ʻo \ʻa e chat.</string>
+
+    <string name="message_time_today">Ko e \‘aho ni.</string>
+    <string name="message_time_yesterday">\'Aho \ʻe \ʻe ua tukuange\'i\'</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ko e kau fakaSipeini na\'a nau fesoasoani ia koe ke fakamahino\'i ho\'o fatongia\'i!</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">Kay - OK</string>
+    <string name="destination_explore_label">Explore</string>
+    <string name="destination_chat_label">Chat</string>
+    <string name="destination_profile_label">Profil</string>
+    <string name="destination_settings_label">Paramèt</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">Theming</string>
+    <string name="setting_notifications_title">Notifikasyon(an)</string>
+    <string name="setting_permissions_title">Permissions</string>
+    <string name="setting_accessibility_title">Accessibilite</string>
+    <string name="setting_about_title">Sou sa</string>
+    <string name="setting_rate_title">Rate aplikasyon an</string>
+    <string name="setting_report_title">Reporte yon fòs.</string>
+    <string name="setting_logout_title">Dekonekte</string>
+    <string name="setting_switch_language_title">Chanje lang yo</string>
+
+    <string name="selected_language">Lang kote yo chwazi</string>
+
+    <string name="settings_change">Modifye anviwònman</string>
+    <string name="settings_switch_language">Chanje lang.</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">Dynamic theming</string>
+    <string name="setting_dark_theme">Thèm foncedし。</string>
+
+    <string name="settings_rate_app_page_title">Note aplikasyon an</string>
+    <string name="settings_switch_language_title">Chanje lang.</string>
+    <string name="settings_theming_title"><![CDATA[Theming & koulè yo]]></string>
+    <string name="settings_about_page_title">Sou app la</string>
+    <string name="settings_about_page_description1">Colingo se yon platfòm echanj lang kominote sousou ouvè dlojman ki devlope pa Colle/William.</string>
+    <string name="settings_about_page_description2">Nou fè efò pou nou rete ouvè e dirèk sou tout bagay nan aplikasyon an, se poutèt sa nou fè li open-source.</string>
+    <string name="settings_about_page_description3">Tout tradiksyon yo nan aplikasyon an fe pa AI yo e kòm sa ka gen erè tradiksyon - si w jwenn nenpòt, tanpri rapòte l nan karez \"Rapòte yon kat j.\"</string>
+    <string name="settings_about_page_contact">Si ou gen nenpḗt pwoblèm oswa sijesyon pou aplikasyon an, ou ka kontakte nou nan:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">Rapòte gwo bèt.</string>
+    <string name="settings_report_bug_title">Pou asire estabilite a, nou kolekte otomatikman rapo krasman, men si ou jwenn nenpòt pwoblèm ak ou ta renmen soumèt yon non, tanpri ranpli yon fòm ak tout enfòmasyon ou genyen.</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

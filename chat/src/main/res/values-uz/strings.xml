@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Yangi chat yarating.</string>
+    <string name="date_today">Bugun</string>
+
+    <string name="members_page_title">Chatlar</string>
+    <string name="bots_page_title">Bot chatlari</string>
+
+    <string name="chat_my_messages">Mening xabarlari</string>
+    <string name="chat_empty_title">Hali xabar yo\'q</string>
+    <string name="chat_empty_description">Xabarlaringizni ko\'rsatish uchun suhbat boshlang.</string>
+
+    <string name="chats_empty_title">Hali hech qanday chat yo\'q</string>
+    <string name="chats_empty_description">Yangi suhbatingizni boshlaganingizdan so\'ng, uni bu erda ro\'yxatda ko\'rasiz.</string>
+
+    <string name="chats_delete_title">Chatni o\'chirish</string>
+    <string name="chats_delete_subtitle">Bu harakat bekor qilinmaydi!</string>
+    <string name="chats_delete_confirm">Tasdiqlash</string>
+    <string name="chats_delete_cancel">Bekor qilish</string>
+    <string name="chats_delete_success">Chat o\'chirildi</string>
+
+    <string name="message_time_today">Bugün</string>
+    <string name="message_time_yesterday">Kecha</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise - bu Soʻngra tilini oʻrganadigan ispan tili oʻqituvchisidur!</string>
+</resources>

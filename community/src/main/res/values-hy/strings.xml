@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Տեղադրեք գործընկերներOk</string>
+    <string name="community_page_title">Անդամներ</string>
+    <string name="chatbot_page_title">Զրահանգիներ</string>
+    <string name="community_user_speaks">խօսություն</string>
+    <string name="community_user_learns">Դասընթաց․</string>
+
+    <string name="community_ai_empty_title">Խորհրդաիշատություն չի գտնվել</string>
+    <string name="community_ai_empty_subtitle">Փորձեք թարմացնել ձեր ֆիլտրները, որպեսզի գտնեք ավելի շատ շքանշաններ:</string>
+    <string name="community_empty_title">Օժանդակ օգտատիրոջ չի գտնվել</string>
+    <string name="community_empty_subtitle">Բազմաթիվ օգտվողներ գտնելու ֆիլտրերը թարմացրեք։</string>
+
+    <string name="community_filters_limit">Ընտրեք մինչև %d լեզու, որոնք ուզում եք տեսնել հարստ խոսողներից.</string>
+    <string name="community_filters_selected">%d/%d ընտրված</string>
+    <string name="community_filters_clear">Մաքրել ֆիլտրները</string>
+    <string name="community_filters_your_languages">Այսօրվա լեզուները</string>
+
+    <string name="chat_created_msg">Զրո ստեղծված է</string>
+    <string name="chatbot_created_msg">Սխալ %s ստեղծված չէ։</string>
+    <string name="chatbot_create_chat">Ստեղծել խոսանք %s-ով</string>
+</resources>

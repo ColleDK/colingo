@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Моят поток</string>
+    <string name="post_create_new">Създай нов пост</string>
+    <string name="create_post_dismiss">Отказanie</string>
+    <string name="create_post_create">Създай</string>
+    <string name="post_show_more">Покажи още</string>
+    <string name="post_show_less">Покажи по-малко</string>
+
+    <string name="create_post_success">Пост създаден</string>
+    <string name="create_chat_success">Чат създаден</string>
+
+    <string name="home_filters_oldest">Най-старо</string>
+    <string name="home_filters_newest">Най-ново</string>
+    <string name="post_create_comment">Добави коментар</string>
+    <string name="post_likes">%s харесва</string>
+    <string name="post_comments">Текст за превод: %s коментара</string>
+    <string name="post_no_comments_title">Все още няма отговори</string>
+    <string name="post_no_comments_subtitle">Бъдете първият, който споделя мислите си по този пост</string>
+
+    <string name="error_msg_general">Нещо се обърка. Моля, опитайте отново.</string>
+</resources>

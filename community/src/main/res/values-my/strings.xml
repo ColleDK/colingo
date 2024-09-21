@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">မိတ်ဆက်သူများ ရှာရွေးပါ</string>
+    <string name="community_page_title">အဖွဲ့ဝင်များ</string>
+    <string name="chatbot_page_title">ဆက်စပ်များ</string>
+    <string name="community_user_speaks">ဘာပဲ</string>
+    <string name="community_user_learns">နည်းပညာ</string>
+
+    <string name="community_ai_empty_title">စာပိုဒ်ပါဝင်ခွင့်မရှိပါ</string>
+    <string name="community_ai_empty_subtitle">ခဏေခတါက ခဏစိတ်လိုက်နှစ်သတ်စသည်တဲ့ ခဏပြင်ရှင်ခဏစိတ်ဖိုခံဖိတ်နိုင်ရန်</string>
+    <string name="community_empty_title">အသုံးပြုသူမရှိနေသည်</string>
+    <string name="community_empty_subtitle">သင့်ရဲ့ filter များကို အသစ်ကို အသုံးပြုပြီး အသုံးပြမပါလားနှင့် ။</string>
+
+    <string name="community_filters_limit">သင်သည် %d လိုသာ သင့်ရဲ့မက်အရေးပါသူများကို ကြည်ရှုလိုပါပြီ။</string>
+    <string name="community_filters_selected">%d/%d ရွေးချယ်ထားပါသည်</string>
+    <string name="community_filters_clear">Clear filters</string>
+    <string name="community_filters_your_languages">သင်၏လက်ရှိဘာသာစကားများ</string>
+
+    <string name="chat_created_msg">စကားခု ဖန်တီးပြီးပါပြီ</string>
+    <string name="chatbot_created_msg">အစားထိုးဖန်ရှင်းထုတ်ခြင်း %s ဖြစ်ပြီးပြီ။</string>
+    <string name="chatbot_create_chat">ပါဝင်ခြင်း %s ဖြင့်ခလုတ်လိုက်ပါ</string>
+</resources>

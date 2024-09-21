@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Кирүү</string>
+    <string name="onboarding_signup_btn">Тизмецериниз</string>
+    <string name="onboarding_other_title">Жалгастыр бойдун Жалгастыр ара сүрөттөө.</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Келечек түшүп жаткызуу</string>
+    <string name="onboarding_go_back">Керек бөлüкке барыңыз</string>
+
+    <!-- Log in -->
+    <string name="login_title">Кайталап келгенүү!</string>
+    <string name="login_subtitle">Аккаунтүзгө кириңиз</string>
+    <string name="login_email_hint">Электрондук почта</string>
+    <string name="login_password_hint">Убакытсыздуу код</string>
+    <string name="login_forgot_password">Парольду унуттунузбу\?</string>
+    <string name="login_login_btn">Кириш</string>
+    <string name="login_go_to_signup_1">Тилкелген жокпу\?</string>
+    <string name="login_go_to_signup_2">Тизмеге катылуу</string>
+    <string name="login_reset_password">Күнөөнү тереңдөө</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Терезецке тиркелүү</string>
+    <string name="signup_subtitle">Аккаунтңызды түзүңүз</string>
+    <string name="signup_name_hint">Аты</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Күчмөн кодунунун</string>
+    <string name="signup_confirm_password_hint">Парольду растоо</string>
+    <string name="signup_signup_btn">Каттоо</string>
+    <string name="signup_go_to_login_1">Аккаунтунуз барбы\?</string>
+    <string name="signup_go_to_login_2">Кирүү</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Keyin</string>
+    <string name="setup_profile_finish">Аяктагыңыз</string>
+    <string name="setup_profile_skip">Өткөрүү</string>
+    <string name="add_picture_title">Профильди орнотуу</string>
+    <string name="add_picture_subtitle">Профил сүрөтүн кошуу</string>
+    <string name="add_languages_title">Профильди орнотуу</string>
+    <string name="add_languages_subtitle">Тилдерди тандоо</string>
+    <string name="add_languages_select_proficiency">Профессионалдык деңгейди тандоо</string>
+    <string name="add_languages_select_language">Тилди тандоо</string>
+    <string name="add_languages_add_language">Тилди кошу</string>
+    <string name="add_language_select">Тандоо</string>
+    <string name="add_language_cancel">Жоккойделсин</string>
+    <string name="select_gender_title">Профилди түзүү</string>
+    <string name="select_gender_subtitle">Жынысыны тандоо</string>
+    <string name="select_topics_title">Профилди түзүү</string>
+    <string name="select_topics_subtitle">Таңдау тақтасы</string>
+    <string name="add_description_title">Профильди орнотуу</string>
+    <string name="add_description_subtitle">Өзүңүз жөнүндө айтылат.</string>
+    <string name="add_description_birthday_hint">Туулган күн</string>
+    <string name="add_description_birthday_select">Танда!</string>
+    <string name="add_description_birthday_cancel">Жокко түшүү</string>
+    <string name="add_description_location_hint">Орнунун жери</string>
+    <string name="add_description_description_hint">Сүрөттөмө</string>
+</resources>

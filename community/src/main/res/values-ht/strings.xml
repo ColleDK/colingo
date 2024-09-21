@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Jwenn patnè.</string>
+    <string name="community_page_title">Manm yo</string>
+    <string name="chatbot_page_title">Chatbots</string>
+    <string name="community_user_speaks">Pale</string>
+    <string name="community_user_learns">Aprentisaj</string>
+
+    <string name="community_ai_empty_title">Pa gen chanbòt yo jwenn.</string>
+    <string name="community_ai_empty_subtitle">Èseye mete ajou filtè yo pou jwenn plis chatbots</string>
+    <string name="community_empty_title">Pa gen itilizatè ki jwenn</string>
+    <string name="community_empty_subtitle">Eseye mete ajou filtre yo pou jwenn plis itilizatè</string>
+
+    <string name="community_filters_limit">Chwazi jiskaske %d lang k\' ou vle wè moun k ap pale byen.</string>
+    <string name="community_filters_selected">%d/%d chwazi</string>
+    <string name="community_filters_clear">Netwaye filtre yo</string>
+    <string name="community_filters_your_languages">Lang ou ap itilize kounyeya</string>
+
+    <string name="chat_created_msg">Chat kreye</string>
+    <string name="chatbot_created_msg">Diskisyon kreye avèk %s</string>
+    <string name="chatbot_create_chat">Kreye yon chak ak %s</string>
+</resources>

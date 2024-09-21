@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Feedku</string>
+    <string name="post_create_new">Gawe posting anyar</string>
+    <string name="create_post_dismiss">Batal</string>
+    <string name="create_post_create">Gawe</string>
+    <string name="post_show_more">Tampil manéh</string>
+    <string name="post_show_less">Tunjukkan kurang</string>
+
+    <string name="create_post_success">Pos diwangsuli</string>
+    <string name="create_chat_success">Obrolan digawe</string>
+
+    <string name="home_filters_oldest">Terkang Jaman</string>
+    <string name="home_filters_newest">Teranyar</string>
+    <string name="post_create_comment">Tambahake komèntar</string>
+    <string name="post_likes">%s seneng.</string>
+    <string name="post_comments">Komentar %s.</string>
+    <string name="post_no_comments_title">Ora ana pitakonan saiki</string>
+    <string name="post_no_comments_subtitle">Menangake pikiran sampelete neng postingan iki</string>
+
+    <string name="error_msg_general">Waduh, iki ora bener. Monggo coba maneh.</string>
+</resources>

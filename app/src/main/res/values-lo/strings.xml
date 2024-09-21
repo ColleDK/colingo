@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">colingo</string>
+    <string name="destination_home_label">ໜ້າຫຼັງ</string>
+    <string name="destination_explore_label">ສົ່ງການສຳຫຼັບ</string>
+    <string name="destination_chat_label">ສົ່ງຄຳຖາມ</string>
+    <string name="destination_profile_label">ໂປ້ຕຄວາມ</string>
+    <string name="destination_settings_label">ຕັ້ງຄ່າ</string>
+
+    <!-- Settings menu -->
+    <string name="setting_theming_title">ການ​ຊ່ວຍ​ການ​ປ່ຽນ​ກະດູກ​ງານ​ອື່ນໆ</string>
+    <string name="setting_notifications_title">ການແຈ້ງເຕືອນ</string>
+    <string name="setting_permissions_title">ສິດ​ທິ​ການ​ໃຫ້ແບບ</string>
+    <string name="setting_accessibility_title">ສາມາດເຂົ້າເຖິງ</string>
+    <string name="setting_about_title">ກ່ຽວກັບ</string>
+    <string name="setting_rate_title">ແຍງຄວາມຄິດເມືອງສໍານັກ</string>
+    <string name="setting_report_title">ລາຍ​ງານ​ບົດ​ວ່າງ</string>
+    <string name="setting_logout_title">ອອກຈາກລະບົບ</string>
+    <string name="setting_switch_language_title">ປ່ຽນພາສາ</string>
+
+    <string name="selected_language">ພາສາທີ່ເລືອກ</string>
+
+    <string name="settings_change">ປ່ຽນການຕັ້ງຄ່າ</string>
+    <string name="settings_switch_language">ປຸງພາສາ</string>
+    <!-- Beta settings -->
+    <string name="setting_dynamic_theme">ການເປີດແລະແກ່ນອັດຕະໂນມັດ</string>
+    <string name="setting_dark_theme">ການຈັດລ້ຽງແລະການຍື່ນສີຄ່າສຸກ</string>
+
+    <string name="settings_rate_app_page_title">ອະນຸຍາດໜ້າບົດການຕໍ່ຜ່ານ</string>
+    <string name="settings_switch_language_title">ປ່ຽນພາສາ</string>
+    <string name="settings_theming_title">ການປັບສະຖານະແລະສີ</string>
+    <string name="settings_about_page_title">ກ່ຽວກັບແອັບ</string>
+    <string name="settings_about_page_description1">Colingo ແມ່ນແອັບດ້ານສັງຄົມທີ່ຖືກສື່ສາທາງຄົນໂດຍພາບທີ່ຮູ້ສົງຂ້າງ open-source ເທັ້ນທັກທີ່ຖືກພວກພື້ນໂດຍ Colle/William.</string>
+    <string name="settings_about_page_description2">ພວກເຮົາສົນທົນເພື່ອສະແດງວຽກແລະມີປະໂຫຼດຫຼາຍເຄົາໃນອິນອື່ນຕໍ່ຜ່ານເວັບ, ທີ່ເບິ່ງຄວາມນໍາໃຊ້ກັບໂຄງການເອງ.</string>
+    <string name="settings_about_page_description3">ການແປງທີ່ມີຢູ່ເພື່ອຜ່ານຈາກ AI ໄດ້ບໍ່ວ່າຂະນະນາມສະເໜືອ ເຖິງຂໍ້ຜິດຜາບ - ຖ້າທ່ານຫາເກັບ ການລາຍງານອົງການຂອງທ່ານໃນແຕ່ລະປາສະຈາກ \\"ລາຍງານປະຊາຊົນ\\".</string>
+    <string name="settings_about_page_contact">ຖ້າມີຂ້ອຍທີ່ວ່າອິນໂດຍຫາຜົນ ຫຼື ເກັບຄີ້ດຳອິດວຽກຢາກກຳລັງຕິດຕາມຖືກ:</string>
+    <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
+
+    <string name="settings_report_bug_page_title">ແບບລິຂອງບົດສໍາລັບ</string>
+    <string name="settings_report_bug_title">ເພື່ອຮັບຄິດເຊິມແລະລາງວັນຄຳເຕືອນ, ພວກເຮົາເປັນກູ້ຢູ່ຂ້ອຍກັນບໍ່ ດຽວກັບ ສໍາລັບແຍງ, ຖ້າເຈ້ມີບັນຫາແລ້ວແລະຮັກ bug ອື່ນໆ, ກະລຸນາຖ້າມີຂໍ້ມູນທັງຫມົດກັນຫຼືບາງບາບ, ກະລຸນາຈັດປະສົມໃຊ່ດ້ວຍເອກະສານທີ່ມີຢູ່ທາງນ້ອງລົງນີ້ ທັງ</string>
+    <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
+</resources>

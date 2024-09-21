@@ -1,0 +1,21 @@
+<resources>
+    <!-- Topics -->
+    <string name="topic_animals">Hayvanlar</string>
+    <string name="topic_cooking">Yemek Pişirme</string>
+    <string name="topic_theater">Tiyatro</string>
+    <string name="topic_partying">Eğlenme</string>
+    <string name="topic_biking">Bisiklet sürmek</string>
+    <string name="topic_camping">Kamp</string>
+    <string name="topic_fitness">Fitness</string>
+    <string name="topic_meditation">Meditasyon</string>
+    <string name="topic_movie">Filmler</string>
+    <string name="topic_music">Müzik</string>
+    <string name="topic_painting">Resimleme</string>
+    <string name="topic_physics">Fizik</string>
+    <string name="topic_reading">Ok.</string>
+    <string name="topic_science">Bilim</string>
+    <string name="topic_sports">Spor</string>
+    <string name="topic_swimming">Yüzme</string>
+    <string name="topic_technology">Teknoloji</string>
+    <string name="topic_videogame">Video oyunları</string>
+</resources>

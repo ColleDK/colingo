@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Вход</string>
+    <string name="onboarding_signup_btn">Зарегистрироваться</string>
+    <string name="onboarding_other_title">Продолжить</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Продолжить как гость</string>
+    <string name="onboarding_go_back">Вернуться</string>
+
+    <!-- Log in -->
+    <string name="login_title">Добро пожаловать обратно!</string>
+    <string name="login_subtitle">Войдите в свой аккаунт</string>
+    <string name="login_email_hint">Почта</string>
+    <string name="login_password_hint">Пароль</string>
+    <string name="login_forgot_password">Забыли пароль\?</string>
+    <string name="login_login_btn">Вход</string>
+    <string name="login_go_to_signup_1">Еще нет аккаунта\?</string>
+    <string name="login_go_to_signup_2">Зарегистрироваться</string>
+    <string name="login_reset_password">Сбросить пароль</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Регистрация</string>
+    <string name="signup_subtitle">Создать аккаунт</string>
+    <string name="signup_name_hint">Имя</string>
+    <string name="signup_email_hint">Почта</string>
+    <string name="signup_password_hint">Пароль</string>
+    <string name="signup_confirm_password_hint">Подтвердить пароль</string>
+    <string name="signup_signup_btn">Регистрация</string>
+    <string name="signup_go_to_login_1">Уже есть аккаунт\?</string>
+    <string name="signup_go_to_login_2">Вход</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Следующий</string>
+    <string name="setup_profile_finish">Завершить</string>
+    <string name="setup_profile_skip">Пропустить</string>
+    <string name="add_picture_title">Настроить профиль</string>
+    <string name="add_picture_subtitle">Добавить фото профиля</string>
+    <string name="add_languages_title">Настроить профиль</string>
+    <string name="add_languages_subtitle">Выберите языки</string>
+    <string name="add_languages_select_proficiency">Выберите уровень мастерства</string>
+    <string name="add_languages_select_language">Выбрать язык</string>
+    <string name="add_languages_add_language">Добавить язык</string>
+    <string name="add_language_select">Выбрать</string>
+    <string name="add_language_cancel">Отмена</string>
+    <string name="select_gender_title">Настроить профиль</string>
+    <string name="select_gender_subtitle">Выберите пол</string>
+    <string name="select_topics_title">Настроить профиль</string>
+    <string name="select_topics_subtitle">Выберите темы</string>
+    <string name="add_description_title">Настроить профиль</string>
+    <string name="add_description_subtitle">Добавьте немного информации о себе</string>
+    <string name="add_description_birthday_hint">День рождения</string>
+    <string name="add_description_birthday_select">Выбрать</string>
+    <string name="add_description_birthday_cancel">Отмена</string>
+    <string name="add_description_location_hint">Местоположение</string>
+    <string name="add_description_description_hint">Описание</string>
+</resources>

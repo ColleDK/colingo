@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Креирај нов разговор</string>
+    <string name="date_today">Денес</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Четури на текст: Ботовски разговори</string>
+
+    <string name="chat_my_messages">Мои пораки</string>
+    <string name="chat_empty_title">Нема пораки сѐ уште</string>
+    <string name="chat_empty_description">Започнете разговарање за да ги видите вашите пораки тука.</string>
+
+    <string name="chats_empty_title">Сè уште нема четови</string>
+    <string name="chats_empty_description">Откако ќе започнете нов разговор, ќе го видите истиот овде.</string>
+
+    <string name="chats_delete_title">Избриши чет.</string>
+    <string name="chats_delete_subtitle">Оваа акција не може да се откаже!</string>
+    <string name="chats_delete_confirm">Потврди</string>
+    <string name="chats_delete_cancel">Откажи</string>
+    <string name="chats_delete_success">Избришан разговор</string>
+
+    <string name="message_time_today">Денес</string>
+    <string name="message_time_yesterday">Вчера</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise е шпански наставник кој може да ви помогне во подобрувањето на вашиот вокабулар!</string>
+</resources>

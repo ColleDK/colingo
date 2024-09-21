@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Takiuru</string>
+    <string name="onboarding_signup_btn">Sign up</string>
+    <string name="onboarding_other_title">Whakarongo (Or continue with)</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Haere tonu hei manuhiri</string>
+    <string name="onboarding_go_back">Hoki mai</string>
+
+    <!-- Log in -->
+    <string name="login_title">Nau mai haere mai!</string>
+    <string name="login_subtitle">Whakauru mai ki to kaute</string>
+    <string name="login_email_hint">Imeera</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_forgot_password">Weteketeko kupuhipa\?</string>
+    <string name="login_login_btn">Takiuru</string>
+    <string name="login_go_to_signup_1">Kāore anō koe i te miriona\?</string>
+    <string name="login_go_to_signup_2">Tono mai</string>
+    <string name="login_reset_password">Whakahoutia te kupuhipa</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Wānanga</string>
+    <string name="signup_subtitle">Waihanga tō kaunuku</string>
+    <string name="signup_name_hint">Ingoa</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password_hint">Whakaae te kupuhipa</string>
+    <string name="signup_signup_btn">Rēhitatanga</string>
+    <string name="signup_go_to_login_1">Kei a koe he kaute\?</string>
+    <string name="signup_go_to_login_2">Takiuru</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Next</string>
+    <string name="setup_profile_finish">Whakamutu</string>
+    <string name="setup_profile_skip">Tāpaetanga mai: Skip</string>
+    <string name="add_picture_title">Whakatakotoria te kōnae</string>
+    <string name="add_picture_subtitle">Tāpirihia te whakaahua aroaro</string>
+    <string name="add_languages_title">Whakatakotoria te kōnae</string>
+    <string name="add_languages_subtitle">Kōwhiri reo</string>
+    <string name="add_languages_select_proficiency">Kōwhiria te pūkenga</string>
+    <string name="add_languages_select_language">Kōwhiri reo</string>
+    <string name="add_languages_add_language">Tāpiri reo</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Whakakati</string>
+    <string name="select_gender_title">Whakarite i te kōtaha</string>
+    <string name="select_gender_subtitle">Kōwhiri ira tangata.</string>
+    <string name="select_topics_title">Whakarite i te kōtaha</string>
+    <string name="select_topics_subtitle">Whiri kaupapa</string>
+    <string name="add_description_title">Whakarite Whakaahua</string>
+    <string name="add_description_subtitle">Tāpiri ētahi korero mōu.</string>
+    <string name="add_description_birthday_hint">Whakatipuranga</string>
+    <string name="add_description_birthday_select">Kōwhiria</string>
+    <string name="add_description_birthday_cancel">Whakakore</string>
+    <string name="add_description_location_hint">Tūnga</string>
+    <string name="add_description_description_hint">Whakaahuatanga</string>
+</resources>

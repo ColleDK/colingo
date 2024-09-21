@@ -1,0 +1,58 @@
+<resources>
+    <!-- Onboarding -->
+    <string name="onboarding_app_title">Colingo</string>
+    <string name="onboarding_login_btn">Logg inn</string>
+    <string name="onboarding_signup_btn">Meld deg på</string>
+    <string name="onboarding_other_title">Fortsett eller fortsett med</string>
+    <string name="onboarding_google_btn">Google</string>
+    <string name="onboarding_facebook_btn">Facebook</string>
+    <string name="onboarding_guest_btn">Fortsett som gjest</string>
+    <string name="onboarding_go_back">Gå tilbake</string>
+
+    <!-- Log in -->
+    <string name="login_title">Velkommen tilbake!</string>
+    <string name="login_subtitle">Logg inn på kontoen din</string>
+    <string name="login_email_hint">E-post</string>
+    <string name="login_password_hint">Passord</string>
+    <string name="login_forgot_password">Glemt passord\?</string>
+    <string name="login_login_btn">Logg inn</string>
+    <string name="login_go_to_signup_1">Har du ikke en konto ennå\?</string>
+    <string name="login_go_to_signup_2">Registrer deg</string>
+    <string name="login_reset_password">Nullstill passord</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Registrer</string>
+    <string name="signup_subtitle">Opprett kontoen din</string>
+    <string name="signup_name_hint">Navn</string>
+    <string name="signup_email_hint">E-post</string>
+    <string name="signup_password_hint">Passord</string>
+    <string name="signup_confirm_password_hint">Bekreft passord</string>
+    <string name="signup_signup_btn">Registrer</string>
+    <string name="signup_go_to_login_1">Har du allerede en konto\?</string>
+    <string name="signup_go_to_login_2">Logg inn</string>
+
+    <!-- Setup profile -->
+    <string name="setup_profile_next">Neste</string>
+    <string name="setup_profile_finish">Fullfør</string>
+    <string name="setup_profile_skip">Skip</string>
+    <string name="add_picture_title">Opprett profil</string>
+    <string name="add_picture_subtitle">Legg til profilbilde</string>
+    <string name="add_languages_title">Opprett profil</string>
+    <string name="add_languages_subtitle">Velg språk</string>
+    <string name="add_languages_select_proficiency">Velg ferdighetsnivå</string>
+    <string name="add_languages_select_language">Velg språk</string>
+    <string name="add_languages_add_language">Legg til språk</string>
+    <string name="add_language_select">Velg</string>
+    <string name="add_language_cancel">Avbryt</string>
+    <string name="select_gender_title">Oppsett profil</string>
+    <string name="select_gender_subtitle">Velg kjønn</string>
+    <string name="select_topics_title">Oppsett profil</string>
+    <string name="select_topics_subtitle">Velg emner</string>
+    <string name="add_description_title">Opprett profil</string>
+    <string name="add_description_subtitle">Legg til litt informasjon om deg selv</string>
+    <string name="add_description_birthday_hint">Fødselsdag</string>
+    <string name="add_description_birthday_select">Velg</string>
+    <string name="add_description_birthday_cancel">Avbryt</string>
+    <string name="add_description_location_hint">Sted</string>
+    <string name="add_description_description_hint">Beskrivelse</string>
+</resources>

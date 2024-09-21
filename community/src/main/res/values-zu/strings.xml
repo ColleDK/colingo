@@ -1,0 +1,21 @@
+<resources>
+    <string name="explore_page_title">Thola abalandeli</string>
+    <string name="community_page_title">Abantu</string>
+    <string name="chatbot_page_title">I-Chatsisi</string>
+    <string name="community_user_speaks">Sikhuluma</string>
+    <string name="community_user_learns">Ukuqeqeshwa</string>
+
+    <string name="community_ai_empty_title">Iyinhlangano yempikiswano ayifunekanga</string>
+    <string name="community_ai_empty_subtitle">Sicela ujabulele izilawuli zakho ukuze uthole amachatsiwe angaphezulu.</string>
+    <string name="community_empty_title">Izivikela azikwazanga</string>
+    <string name="community_empty_subtitle">Dlala uqale unqophele amafiltri akho ukuze uthole abalandeli abaningi OK</string>
+
+    <string name="community_filters_limit">Khetha izilimi ezintathu ozithanda ukuzibona abazi ukuthetha kahle ngawo</string>
+    <string name="community_filters_selected">Inombolo ethe %d/%d ethethwe.</string>
+    <string name="community_filters_clear">Sula amafiltri</string>
+    <string name="community_filters_your_languages">Izilimi zakho ezivamekile</string>
+
+    <string name="chat_created_msg">Isixhumanisi esichazwe</string>
+    <string name="chatbot_created_msg">Ikhasi elikhululwe nge %s</string>
+    <string name="chatbot_create_chat">Yakha isiqophi nge %s</string>
+</resources>

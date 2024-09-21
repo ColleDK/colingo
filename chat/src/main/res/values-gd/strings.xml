@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Cruthaich còmhraidh ùr</string>
+    <string name="date_today">An-diugh</string>
+
+    <string name="members_page_title">Còmhraidhean</string>
+    <string name="bots_page_title">Bruidhinnan nan Botaichean</string>
+
+    <string name="chat_my_messages">Mo chuid teachdaireachdan</string>
+    <string name="chat_empty_title">Gan teachdaireachd fhathast</string>
+    <string name="chat_empty_description">Thòisich a\' bruidhinn gus do phostail a\' nochdadh an-seo.</string>
+
+    <string name="chats_empty_title">Cha bhruidhinnidh foighidin às.</string>
+    <string name="chats_empty_description">A bharrachd air sin, chì thu i air an liosta.</string>
+
+    <string name="chats_delete_title">Sguab às a\' chuirm-chatha</string>
+    <string name="chats_delete_subtitle">Chan urrainn dìth an gnìomh seo!</string>
+    <string name="chats_delete_confirm">Deagh dìreach</string>
+    <string name="chats_delete_cancel">Ceàrr</string>
+    <string name="chats_delete_success">Còmhraidh air an sguabadh a-steach</string>
+
+    <string name="message_time_today">An-diugh</string>
+    <string name="message_time_yesterday">An-dè</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Tha Louise na mhòr-thidsear Spàinich a dh\'fhaodas cuideachadh leat le bhith a\' feabhsuinn air do chuid facail!</string>
+</resources>

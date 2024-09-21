@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Select</string>
+    <string name="cancel_birthday_selection">Amaqa</string>
+    <string name="edit_name_title">Name</string>
+    <string name="location_empty_title">Unspecified.</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">ᐊᓪᓕᓗᒍᓕᒃ ᖃᓄᕕᖕᒧᑦ ᐊᐅᕙᓂᕐᒥᒃ</string>
+
+    <string name="topics_empty_title">ᓂᕐᕐᒥᕆᑦ ᐊᓗᒍᑎᐊᓗᑦ</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">ᖃᓄᓗᖓ</string>
+    <string name="languages_empty_title">ᓄᓇᕐᔪᑎᕗᑦ ᐊᒻᒪᓗ ᐊᑦᑯᓈᕐᓇᐅᖏ.</string>
+    <string name="profile_add_language">ᖁᕕᐊᓕᖅ ᓄᓇᓕᔭᖅ</string>
+    <string name="profile_select_language">ᐃᓕᔪᖅᑎᖃᓐᓂᖅ</string>
+    <string name="profile_select_proficiency">Select proficiency</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="gender_title">Avatitut</string>
+</resources>

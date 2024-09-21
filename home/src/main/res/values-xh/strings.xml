@@ -1,0 +1,21 @@
+<resources>
+    <string name="homepage_title">Itinga yam.</string>
+    <string name="post_create_new">Yakha iposi entsha</string>
+    <string name="create_post_dismiss">Khansela</string>
+    <string name="create_post_create">Yakha</string>
+    <string name="post_show_more">Bonisa okunye</string>
+    <string name="post_show_less">Yenza okanye ukhuphise ngaphezulu</string>
+
+    <string name="create_post_success">Inguqulo ivumile</string>
+    <string name="create_chat_success">Ixesha elikhutshiwe</string>
+
+    <string name="home_filters_oldest">Okusetyenziswa ngenkxaso: Oldest</string>
+    <string name="home_filters_newest">Enye okanye Etyala</string>
+    <string name="post_create_comment">Faka ixesha</string>
+    <string name="post_likes">%s uyathanda</string>
+    <string name="post_comments">Izimvo zokanye: %s</string>
+    <string name="post_no_comments_title">Ayikho amaxabiso okanye ayikho i-comments.</string>
+    <string name="post_no_comments_subtitle">Yiba phakathi kwabantu abamyeke ngexesha layo ukuba uvuselele amacebo akho kule post.</string>
+
+    <string name="error_msg_general">Kukho nto ebengekho okanye ukwenzekayo. Nceda ucace ngoku.</string>
+</resources>
