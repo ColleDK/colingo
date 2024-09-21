@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Yakha i-chat entsha</string>
+    <string name="date_today">Namhlanje</string>
+
+    <string name="members_page_title">Izaziso</string>
+    <string name="bots_page_title">Ibhokisi zombhalo</string>
+
+    <string name="chat_my_messages">Iimali yam.</string>
+    <string name="chat_empty_title">Ayikho imilayezo ngoku</string>
+    <string name="chat_empty_description">Qala ukuxoxa ukuze uthumele izilumkiso zakho apha.</string>
+
+    <string name="chats_empty_title">Akukho imiqathango ngoku</string>
+    <string name="chats_empty_description">Kunye uthetha ibekwe, uzakuthumela kwi nto ekwalandelayo.</string>
+
+    <string name="chats_delete_title">Susa ichat</string>
+    <string name="chats_delete_subtitle">Loo nto ixhaswe ayikunqandwuli!</string>
+    <string name="chats_delete_confirm">Qiniseka</string>
+    <string name="chats_delete_cancel">Yenziwa.</string>
+    <string name="chats_delete_success">Izikhalazo ziqhamukile</string>
+
+    <string name="message_time_today">Namhlanje</string>
+    <string name="message_time_yesterday">Izolo</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise nguMfundisi wesiSpayini okanye oza kukunceda ekwenzeni ukhuselekile kakuhle kwivakisela lakho!</string>
+</resources>

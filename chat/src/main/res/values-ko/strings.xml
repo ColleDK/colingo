@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">새로운 채팅 만들기</string>
+    <string name="date_today">오늘</string>
+
+    <string name="members_page_title">채팅</string>
+    <string name="bots_page_title">봇 채팅</string>
+
+    <string name="chat_my_messages">내 메시지</string>
+    <string name="chat_empty_title">아직 메시지가 없습니다</string>
+    <string name="chat_empty_description">메시지를 확인하려면 대화를 시작하세요.</string>
+
+    <string name="chats_empty_title">아직 채팅이 없습니다.</string>
+    <string name="chats_empty_description">대화를 시작하면 여기에 나열됩니다.</string>
+
+    <string name="chats_delete_title">채팅 삭제</string>
+    <string name="chats_delete_subtitle">이 작업은 되돌릴 수 없습니다!</string>
+    <string name="chats_delete_confirm">확인</string>
+    <string name="chats_delete_cancel">취소</string>
+    <string name="chats_delete_success">대화 삭제됨</string>
+
+    <string name="message_time_today">오늘</string>
+    <string name="message_time_yesterday">어제</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise는 어휘력 향상을 돕는 스페인어 선생님입니다!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Kreye yon nouvo chat</string>
+    <string name="date_today">Jodi a</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Diskisyon avèk yon bot</string>
+
+    <string name="chat_my_messages">Mesaj mwen</string>
+    <string name="chat_empty_title">Pa gen mesaj toupatou</string>
+    <string name="chat_empty_description">Kòmanse konvèsasyon pou wè mesaj ou yo isi.</string>
+
+    <string name="chats_empty_title">Pa gen chat toujou</string>
+    <string name="chats_empty_description">Lè ou kòmanse yon nouvo konvèsasyon, ou pral wè li nan lis sa.</string>
+
+    <string name="chats_delete_title">Efase diskisyon</string>
+    <string name="chats_delete_subtitle">Sa aksyon sa pa ka defè!</string>
+    <string name="chats_delete_confirm">Konfime</string>
+    <string name="chats_delete_cancel">Anile</string>
+    <string name="chats_delete_success">Chat efase</string>
+
+    <string name="message_time_today">Jodi a</string>
+    <string name="message_time_yesterday">Yèsday</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise se yon pwofesè espayòl ki ka ede ou amelyore vokabilè ou!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Andefa hetsika vaovao.</string>
+    <string name="date_today">Azo hatao anio.</string>
+
+    <string name="members_page_title">Sary ny valiny: Chats</string>
+    <string name="bots_page_title">Mpamorona fijerina.</string>
+
+    <string name="chat_my_messages">Ny hafatra misy ahy</string>
+    <string name="chat_empty_title">Tsy nisy hafatra akaiky.</string>
+    <string name="chat_empty_description">Manomboka mifandray mba hahita ny soratrao eto.</string>
+
+    <string name="chats_empty_title">Tsy nisy hetsika akaiky eto.</string>
+    <string name="chats_empty_description">Raha nanao fifandraisana vaovao ianao, hahita azy eto ambany.</string>
+
+    <string name="chats_delete_title">Fafao ny chat.</string>
+    <string name="chats_delete_subtitle">Tsy afaka atao indray io asa io!</string>
+    <string name="chats_delete_confirm">Manan-kery</string>
+    <string name="chats_delete_cancel">Tsindrio ity hahita fepetra.</string>
+    <string name="chats_delete_success">Solosaina voafidy voafaritra.</string>
+
+    <string name="message_time_today">Azo alaina ity andiany ity: Anio</string>
+    <string name="message_time_yesterday">Omaly</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise dia mpianatra espaniola mahay manampy anao amin\'ny fampitandremana ny teny!</string>
+</resources>

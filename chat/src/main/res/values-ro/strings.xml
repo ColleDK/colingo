@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Creează o nouă conversație</string>
+    <string name="date_today">Astăzi</string>
+
+    <string name="members_page_title">Conversații</string>
+    <string name="bots_page_title">Conversații de tip bot</string>
+
+    <string name="chat_my_messages">Mesajele mele</string>
+    <string name="chat_empty_title">Niciun mesaj încă</string>
+    <string name="chat_empty_description">Începeți să conversați pentru a vedea mesajele aici.</string>
+
+    <string name="chats_empty_title">Încă nu există conversații</string>
+    <string name="chats_empty_description">Odată ce ai început o nouă conversație, o vei vedea listată aici.</string>
+
+    <string name="chats_delete_title">Șterge chat-ul</string>
+    <string name="chats_delete_subtitle">Această acțiune nu poate fi anulată!</string>
+    <string name="chats_delete_confirm">Confirmare</string>
+    <string name="chats_delete_cancel">Anulare</string>
+    <string name="chats_delete_success">Conversație ștearsă</string>
+
+    <string name="message_time_today">Astăzi</string>
+    <string name="message_time_yesterday">Ieri</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise este o profesoară de limba spaniolă care te poate ajuta să-ți îmbunătățești vocabularul!</string>
+</resources>

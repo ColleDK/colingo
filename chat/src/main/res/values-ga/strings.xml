@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Cruthaigh comhrá nua</string>
+    <string name="date_today">Inniu</string>
+
+    <string name="members_page_title">Pléidh्ऌíonna</string>
+    <string name="bots_page_title">Comhráithe Bot</string>
+
+    <string name="chat_my_messages">Mo theachtaireachtaí</string>
+    <string name="chat_empty_title">Níl aon teachtaireachtaí fós</string>
+    <string name="chat_empty_description">Tosaigh ag caint chun do theachtaireachtaí a fheiceáil anseo.</string>
+
+    <string name="chats_empty_title">Gan comhráí fós</string>
+    <string name="chats_empty_description">Nuair a thosaigh tú comhrá nua, feicfidh tú é liostaithe anseo.</string>
+
+    <string name="chats_delete_title">Scrios comhrá</string>
+    <string name="chats_delete_subtitle">Ní féidir an gníomh seo a dhéanamh ar ais!</string>
+    <string name="chats_delete_confirm">Deimhnigh</string>
+    <string name="chats_delete_cancel">Cealaigh</string>
+    <string name="chats_delete_success">Comhrá scriosta</string>
+
+    <string name="message_time_today">Inniu</string>
+    <string name="message_time_yesterday">Inné</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Is múinteoir Spáinneach í Louise agus is féidir léi cuidiú leat le d\'fhoclóir a fheabhsú!</string>
+</resources>

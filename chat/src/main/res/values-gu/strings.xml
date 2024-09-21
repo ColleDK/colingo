@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">નવી ચેટ બનાવો</string>
+    <string name="date_today">આજ</string>
+
+    <string name="members_page_title">ચેટ્સ</string>
+    <string name="bots_page_title">બોટ ચેટ્સ</string>
+
+    <string name="chat_my_messages">મારા સંદેશો</string>
+    <string name="chat_empty_title">હજી સંદેશો નહિં</string>
+    <string name="chat_empty_description">તમારા સંદેશો જોવા માટે માત્ર મુલાકાત શરૂ કરો.</string>
+
+    <string name="chats_empty_title">હજી તક ચેટ નથી</string>
+    <string name="chats_empty_description">જ્યારે તમે નવી ચર્ચા શરૂ કર્યું હોય, ત્યાં તે યોગ્યતાસભ પર દર્શાવાય છે.</string>
+
+    <string name="chats_delete_title">ચેટ ડિલીટ કરો</string>
+    <string name="chats_delete_subtitle">આ ક્રિયા પૂર્વાનુમાન ન કરવી શકતી!</string>
+    <string name="chats_delete_confirm">પુષ્ટિ કરો</string>
+    <string name="chats_delete_cancel">રદ કરો</string>
+    <string name="chats_delete_success">ચેટ ડિલીટ કરી દેવામાં આવ્યું</string>
+
+    <string name="message_time_today">આજ</string>
+    <string name="message_time_yesterday">ગઇકાૅ દિવસ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">લ્યૂઇઝ એક સ્પેનિશ શિક્ષક છે જે તમારી શબ્દાવળને સુધારવામાં તમારી મદદ કરી શકે છે!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Sortu eztabaida berria</string>
+    <string name="date_today">Gaur</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot txatak</string>
+
+    <string name="chat_my_messages">Nire mezua.</string>
+    <string name="chat_empty_title">Mezurik ez</string>
+    <string name="chat_empty_description">Hasi elkarreratzea mezuak hemen ikusteko.</string>
+
+    <string name="chats_empty_title">Oraindik ez dago eztabaidarik.</string>
+    <string name="chats_empty_description">Konbersazio berri bat hasi duzunean, bertan zerrendatuta ikusiko duzu.</string>
+
+    <string name="chats_delete_title">Txata ezabatu</string>
+    <string name="chats_delete_subtitle">Egin ezin den ekintza!</string>
+    <string name="chats_delete_confirm">Berretsi</string>
+    <string name="chats_delete_cancel">Utzi</string>
+    <string name="chats_delete_success">Txata ezabatua</string>
+
+    <string name="message_time_today">Gaur</string>
+    <string name="message_time_yesterday">Atzo</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise irakaslea da, zure hiztegia hobetzeko lagundu dezakeena!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Gawe obrolan anyar</string>
+    <string name="date_today">Saben dina</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot ngobrol</string>
+
+    <string name="chat_my_messages">Pesan-pesanku</string>
+    <string name="chat_empty_title">Belum ana pesen</string>
+    <string name="chat_empty_description">Mulai ngomong supoyo bisa ngeliat pesen-pesenmu saiki.</string>
+
+    <string name="chats_empty_title">Saben emban belum</string>
+    <string name="chats_empty_description">Sak kaliya sampeyan wis nuduhake percakapan anyar, sampeyan bakal njaluk dhaptar ing kene.</string>
+
+    <string name="chats_delete_title">Hapus obrolan</string>
+    <string name="chats_delete_subtitle">Iki tindakan ora isa dibatalake!</string>
+    <string name="chats_delete_confirm">Konfirmasi</string>
+    <string name="chats_delete_cancel">Batal</string>
+    <string name="chats_delete_success">Chat padhelete</string>
+
+    <string name="message_time_today">Saiki</string>
+    <string name="message_time_yesterday">Kala wingi</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise iku guru Basa Spanyol sing iso nglebokake sampeyan supaya bisa ngembangaké kosakata sampeyan!</string>
+</resources>

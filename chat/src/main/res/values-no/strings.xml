@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Opprett en ny chat</string>
+    <string name="date_today">I dag</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot-chatter</string>
+
+    <string name="chat_my_messages">Mine meldinger</string>
+    <string name="chat_empty_title">Ingen meldinger ennå</string>
+    <string name="chat_empty_description">Start samtalen for å se meldingene dine her.</string>
+
+    <string name="chats_empty_title">Ingen samtaler ennå</string>
+    <string name="chats_empty_description">Når du har startet en ny samtale, vil den vises her på listen.</string>
+
+    <string name="chats_delete_title">Slett chat</string>
+    <string name="chats_delete_subtitle">Denne handlingen kan ikke angres!</string>
+    <string name="chats_delete_confirm">Bekreft</string>
+    <string name="chats_delete_cancel">Avbryt</string>
+    <string name="chats_delete_success">Chat slettet</string>
+
+    <string name="message_time_today">I dag</string>
+    <string name="message_time_yesterday">I går</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise er en spansk lærer som kan hjelpe deg med å forbedre ordforrådet ditt!</string>
+</resources>

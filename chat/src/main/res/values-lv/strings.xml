@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Izveidot jaunu čatu</string>
+    <string name="date_today">Šodien</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot sarunas</string>
+
+    <string name="chat_my_messages">Mani ziņojumi</string>
+    <string name="chat_empty_title">Nav vēl nekādu ziņojumu</string>
+    <string name="chat_empty_description">Sāciet sarunu, lai redzētu savus ziņojumus šeit.</string>
+
+    <string name="chats_empty_title">Vēl nav čatas</string>
+    <string name="chats_empty_description">Kad esi uzsācis jaunu sarunu, to redzēsi šeit sarakstā.</string>
+
+    <string name="chats_delete_title">Dzēst tērzēšanu</string>
+    <string name="chats_delete_subtitle">Šo darbību nevar atsaukt!</string>
+    <string name="chats_delete_confirm">Apstiprināt</string>
+    <string name="chats_delete_cancel">Atcelt</string>
+    <string name="chats_delete_success">Tērzēšanas dzēšana</string>
+
+    <string name="message_time_today">Šodien</string>
+    <string name="message_time_yesterday">Vakar</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ir spāņu valodas skolotāja, kas var palīdzēt jums uzlabot savu vārdu krājumu!</string>
+</resources>

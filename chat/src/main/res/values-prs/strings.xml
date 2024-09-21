@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ایجاد یک چت جدید</string>
+    <string name="date_today">امروز</string>
+
+    <string name="members_page_title">گپ‌ها</string>
+    <string name="bots_page_title">چت‌های ربات</string>
+
+    <string name="chat_my_messages">پیام‌های من</string>
+    <string name="chat_empty_title">پیغام هنوز وجود ندارد</string>
+    <string name="chat_empty_description">شروع کنید به گپ زدن تا پیام‌های خود را در اینجا ببینید.</string>
+
+    <string name="chats_empty_title">هنوز چتی وجود ندارد</string>
+    <string name="chats_empty_description">وقتی یک گفتگو جدید را شروع کردید، آن را در اینجا لیست شده می‌بینید.</string>
+
+    <string name="chats_delete_title">حذف چت</string>
+    <string name="chats_delete_subtitle">این اقدام قابل بازگشت نیست!</string>
+    <string name="chats_delete_confirm">تایید شد</string>
+    <string name="chats_delete_cancel">لغو</string>
+    <string name="chats_delete_success">چت پاک شد</string>
+
+    <string name="message_time_today">امروز</string>
+    <string name="message_time_yesterday">دیروز</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">لوئیز یک معلم اسپانیایی است که می‌تواند به شما در بهبود دایره لغات کمک کند!</string>
+</resources>

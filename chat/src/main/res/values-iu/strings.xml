@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Pijariartut atuinnartuq.</string>
+    <string name="date_today">Nakurmiik</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">ᓴᕐᔫᑉ</string>
+
+    <string name="chat_my_messages">My messages</string>
+    <string name="chat_empty_title">Apqutitigijumavut.</string>
+    <string name="chat_empty_description">Sinaqqaatigut piqamilluat.</string>
+
+    <string name="chats_empty_title">OK</string>
+    <string name="chats_empty_description">Text to translate: Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+
+    <string name="chats_delete_title">ᓴᖃᑲ ᐃᒻᒪᓂᖅ</string>
+    <string name="chats_delete_subtitle">OK</string>
+    <string name="chats_delete_confirm">Qaumajuq</string>
+    <string name="chats_delete_cancel">Pijariartuq</string>
+    <string name="chats_delete_success">ᐊᕐᓂᕈᔪᖅ</string>
+
+    <string name="message_time_today">Qitornaijuq</string>
+    <string name="message_time_yesterday">Nunatsinni</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ᐊᒥᕆᐊᑐᓯᒋᑦ ᑐᓴᐅᖅᑲᖕᒥᑦ ᑲᒪᔩᒃᓴᐅᑦ ᑕᒡᕐᓯᒃᑯᑦ!</string>
+</resources>

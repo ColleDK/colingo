@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Create a new chat</string>
+    <string name="date_today">Today</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot chats</string>
+
+    <string name="chat_my_messages">My messages</string>
+    <string name="chat_empty_title">No messages yet</string>
+    <string name="chat_empty_description">Start conversing to see your messages here.</string>
+
+    <string name="chats_empty_title">No chats yet</string>
+    <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">This action cannot be undone!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Cancel</string>
+    <string name="chats_delete_success">Chat deleted.</string>
+
+    <string name="message_time_today">Today</string>
+    <string name="message_time_yesterday">Yesterday</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">OK</string>
+</resources>

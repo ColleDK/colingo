@@ -1,0 +1,27 @@
+<resources>
+    <string name="chat_create_new">Abuur subag cusub</string>
+    <string name="date_today">Maanta</string>
+
+    <string name="members_page_title">Text to translate: Chats</string>
+    <string name="bots_page_title">Maqaalka in Somaliya: Bot chats</string>
+
+    <string name="chat_my_messages">Habka i soo dir.</string>
+    <string name="chat_empty_title">Wax ceeb ma ah</string>
+    <string name="chat_empty_description">Bilow wada hadal si aad ku arki karaan xogtaada halkan.</string>
+
+    <string name="chats_empty_title">Waxba kama hadlayo</string>
+    <string name="chats_empty_description">Marka hore markaad bilawday wadahadal cusub, waxaad arki kartaa halkan.</string>
+
+    <string name="chats_delete_title">Tirtir Dhammaan Mawduucyada</string>
+    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone!
+Translated text: Waan faahfaahin kuleylmaynin jirin!</string>
+    <string name="chats_delete_confirm">Xaqiiji</string>
+    <string name="chats_delete_cancel">Ka saar</string>
+    <string name="chats_delete_success">Saxiixeen Mawduucan</string>
+
+    <string name="message_time_today">Maanta</string>
+    <string name="message_time_yesterday">Sanoontii hore</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise waa macalin Isbaanish oo kuu kobcin kara kobcinta kheyraadkaaga!</string>
+</resources>

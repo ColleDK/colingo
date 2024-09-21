@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Ṣẹda Ifọwọlé Sọrọ Titẹ wa</string>
+    <string name="date_today">Ǹnú yi</string>
+
+    <string name="members_page_title">Awọn ifiranṣẹ.</string>
+    <string name="bots_page_title">ẹ̀rọ̀ awọn iṣẹ̀bot</string>
+
+    <string name="chat_my_messages">Awọn iwe mi</string>
+    <string name="chat_empty_title">Kò sí àbúròdù fún o.</string>
+    <string name="chat_empty_description">Bẹrẹ ā ti bẹrẹ lẹkan lọ lati ri awọn iroyin rẹ nibẹ.</string>
+
+    <string name="chats_empty_title">Kò ṣiṣẹ́ọwọ́ rẹ ninu ìtẹsíwájú</string>
+    <string name="chats_empty_description">Ni akoko ti o bẹẹ ni wọọpọ adégàngàn tuntun ti o bẹrẹ, o yọ igbasilẹ nibi yii.</string>
+
+    <string name="chats_delete_title">Fẹ̀ rí iyara</string>
+    <string name="chats_delete_subtitle">Akoore yii ko le daju pada!</string>
+    <string name="chats_delete_confirm">Da ti wa sinu: Confirm</string>
+    <string name="chats_delete_cancel">Koju</string>
+    <string name="chats_delete_success">Iwure ti fa</string>
+
+    <string name="message_time_today">Owọ́́ ọjọ naa.</string>
+    <string name="message_time_yesterday">Ojo to n\'ọla</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ni onimo espanyol ti o le ran e se iranlọwọ pẹlu owo oruko rẹ!</string>
+</resources>

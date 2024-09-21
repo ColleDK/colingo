@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Gumawa ng bagong chat</string>
+    <string name="date_today">Ngayon</string>
+
+    <string name="members_page_title">Mga Usapin</string>
+    <string name="bots_page_title">Mga Usapang Bot</string>
+
+    <string name="chat_my_messages">Aking mga mensahe</string>
+    <string name="chat_empty_title">Walang mga mensahe pa</string>
+    <string name="chat_empty_description">Magsimula ng pag-uusap para makita ang iyong mga mensahe dito.</string>
+
+    <string name="chats_empty_title">Walang usapan pa</string>
+    <string name="chats_empty_description">Kapag nagsimula ka ng bagong usapan, makikita mo ito nasa listahan dito.</string>
+
+    <string name="chats_delete_title">Tanggalin ang chat</string>
+    <string name="chats_delete_subtitle">This action cannot be undone!</string>
+    <string name="chats_delete_confirm">Kumpirma</string>
+    <string name="chats_delete_cancel">Kanselahin</string>
+    <string name="chats_delete_success">Chat tinanggal</string>
+
+    <string name="message_time_today">Ngayon</string>
+    <string name="message_time_yesterday">Kahapon</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Si Louise ay isang guro ng Espanyol na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Сохтани чати нав</string>
+    <string name="date_today">Имрӯз</string>
+
+    <string name="members_page_title">Чатҳо</string>
+    <string name="bots_page_title">Чатҳои бот</string>
+
+    <string name="chat_my_messages">Паёми хабарҳои ман</string>
+    <string name="chat_empty_title">Ҳануз пеши хабар надорад</string>
+    <string name="chat_empty_description">Агар шурӯъ кунед, хабарҳои худро дар ин ҷо дастгири даред.</string>
+
+    <string name="chats_empty_title">Ҳангом мулоқотҳо ок нест</string>
+    <string name="chats_empty_description">Ҳангоми кӯҳнагӣ ба гап зан шудед, онро дар ин ҷой намоён кунед.</string>
+
+    <string name="chats_delete_title">Үчиро̄н чатро поки кунед</string>
+    <string name="chats_delete_subtitle">Ин ҳаракат барқарор карда намешавад!</string>
+    <string name="chats_delete_confirm">Тасдиқ кардан</string>
+    <string name="chats_delete_cancel">Ғайрифтаншуда</string>
+    <string name="chats_delete_success">ҒАП-ро худудӣ карданиҳо</string>
+
+    <string name="message_time_today">Имрӯз</string>
+    <string name="message_time_yesterday">Дирӯз</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Луиза муаллими забони испанӣ аст, ки метавонад барои беҳтар кардани луғати шумо кумак кунад!</string>
+</resources>

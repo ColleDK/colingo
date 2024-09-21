@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Cree un novu chjat</string>
+    <string name="date_today">Oghje</string>
+
+    <string name="members_page_title">Gatti</string>
+    <string name="bots_page_title">Bot chat</string>
+
+    <string name="chat_my_messages">I mesaggi mi.</string>
+    <string name="chat_empty_title">Nisciun messaghju per u mo mentu</string>
+    <string name="chat_empty_description">Principia a scambià per vede i to messaggi quì.</string>
+
+    <string name="chats_empty_title">Nisuna chjasse ancu</string>
+    <string name="chats_empty_description">Quand hè cuminzatu una nova conversazione, a viderete elencata quì.</string>
+
+    <string name="chats_delete_title">Delete chat</string>
+    <string name="chats_delete_subtitle">Sta azzione no pò esse annullata!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Annullà</string>
+    <string name="chats_delete_success">Chjat suprimè</string>
+
+    <string name="message_time_today">Oghje</string>
+    <string name="message_time_yesterday">Ier</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise hè una maestra spagnola chì vi pò aiutà à mellurà u vostru vocabulàriu!</string>
+</resources>

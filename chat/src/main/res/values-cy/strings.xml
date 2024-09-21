@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Creu sgwrs newydd</string>
+    <string name="date_today">Heddiw</string>
+
+    <string name="members_page_title">Sgyrsiau</string>
+    <string name="bots_page_title">Sgyrsiau Bot</string>
+
+    <string name="chat_my_messages">Fy negeseuon</string>
+    <string name="chat_empty_title">Dim negeseuon eto</string>
+    <string name="chat_empty_description">Dechreuwch sgwrsio i weld eich negeseuon yma.</string>
+
+    <string name="chats_empty_title">Dim sgyrsiau eto</string>
+    <string name="chats_empty_description">Unwaith y byddwch chi wedi dechrau sgwrs newydd, fe welwch chi\'n ei rhestru yma.</string>
+
+    <string name="chats_delete_title">Dileu sgwrs</string>
+    <string name="chats_delete_subtitle">Ni ellir dadwneud y gam hwn!</string>
+    <string name="chats_delete_confirm">Cadarnhau</string>
+    <string name="chats_delete_cancel">Diddymu</string>
+    <string name="chats_delete_success">Sgwrs wedi\'i ddileu</string>
+
+    <string name="message_time_today">Heddiw</string>
+    <string name="message_time_yesterday">Ddoe</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise yw athro Sbaeneg gall helpu chi i wella eich geirfa!</string>
+</resources>

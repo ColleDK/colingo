@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">নতুন চ্যাট তৈয়ার কৰক।</string>
+    <string name="date_today">আজি</string>
+
+    <string name="members_page_title">চাটচাটি</string>
+    <string name="bots_page_title">বট চ্যাট্‌স।</string>
+
+    <string name="chat_my_messages">মোৰ বাৰ্তাসমূহ</string>
+    <string name="chat_empty_title">এতিয়া কোনো বাৰ্তা নাই।</string>
+    <string name="chat_empty_description">এখন যোগাযোগ কৰিবলৈ আপোনাৰ বাৰ্তাসমূহ চাবলৈ আৰম্ভ কৰক।</string>
+
+    <string name="chats_empty_title">এইৰাই চাটস নোহোৱা হৈ নাই।</string>
+    <string name="chats_empty_description">এখন আপোনাৰে নতুন কথোৱা আৰম্ভ কৰিছে, তেনেহল  ইয়াৰে তাৰ তালিকাত দেখিব।</string>
+
+    <string name="chats_delete_title">চেট মুছক।</string>
+    <string name="chats_delete_subtitle">এই কাৰ্য্যক্ষমতাৰ গমনীয়তা নাই!</string>
+    <string name="chats_delete_confirm">নিশ্চিত কৰক</string>
+    <string name="chats_delete_cancel">বাতিল কৰক।</string>
+    <string name="chats_delete_success">চাট বিলোপ কৰা হৈছে।</string>
+
+    <string name="message_time_today">আজি</string>
+    <string name="message_time_yesterday">Kal.</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">লুইছ হ\'ল এটা স্পেনিচ শিক্ষক যিটো আপোনাক আপোনাৰ শব্দাৰ্থ উন্নত কৰিব লৈ সহায় কৰিব পাৰে!</string>
+</resources>

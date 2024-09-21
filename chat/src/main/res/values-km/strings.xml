@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">បង្កើត​កាសរ​​​ថ្មី​</string>
+    <string name="date_today">ថ្ងៃនេះ</string>
+
+    <string name="members_page_title">កាត្រ</string>
+    <string name="bots_page_title">Bot chats</string>
+
+    <string name="chat_my_messages">សារ​របស់​ខ្ញុំ​</string>
+    <string name="chat_empty_title">មិនមានសារដូចឡើងឡង។</string>
+    <string name="chat_empty_description">ចាប់ផ្ដើម​សន្សំដើម្បីមើលសាររបស់អ្នកនៅទីនេះ។</string>
+
+    <string name="chats_empty_title">មិនមាន​ការ​ត្រូវការ​នៅ​ឡើយ​នៅ​ឡើយ​ទេ​</string>
+    <string name="chats_empty_description">ប្រសិនបើអ្នកបានចាប់ផ្តើមការពិឌីសតិការថ្មី, អ្នកនឹងឃើញវាឱ្យប្រើប្រាស់នេះ។</string>
+
+    <string name="chats_delete_title">លុប​កាត់​កម្មង់</string>
+    <string name="chats_delete_subtitle">ប្រវត្តវត្ថុនេះមិនអាចដោះដូរឡើងវិញបានទេ!</string>
+    <string name="chats_delete_confirm">បញ្ជាក់</string>
+    <string name="chats_delete_cancel">បោះបង់</string>
+    <string name="chats_delete_success">ការជូនឡើងការលុបជំនួស</string>
+
+    <string name="message_time_today">ថ្ងៃនេះ</string>
+    <string name="message_time_yesterday">ម្សិល្ប័</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise គឺជាគ្រឿងគ្រាប់អន្តរជាតគ្រូស្រាវខ្មែរខ្ញុំដែលអាចជួយលោកអ្នកដល់ក្រុមពាក្យរបស់ស្រាវ របស់អ្នក!</string>
+</resources>

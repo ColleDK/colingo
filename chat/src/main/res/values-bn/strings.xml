@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">নতুন চ্যাট তৈরি করুন।</string>
+    <string name="date_today">আজ</string>
+
+    <string name="members_page_title">চ্যাট्स</string>
+    <string name="bots_page_title">বট চ্যাট</string>
+
+    <string name="chat_my_messages">আমার বার্তা</string>
+    <string name="chat_empty_title">এখনও কোনো মেসেজ নেই।</string>
+    <string name="chat_empty_description">এখানে আপনার বার্তা দেখতে চালু করুন।</string>
+
+    <string name="chats_empty_title">এখনও কোনো চ্যাট নেই।</string>
+    <string name="chats_empty_description">একবার আপনি একটি নতুন কথোপকথন শুরু করলে, আপনি এটি এখানে তালিকাভুক্ত দেখতে পাবেন।</string>
+
+    <string name="chats_delete_title">চ্যাট মুছে ফেলুন।</string>
+    <string name="chats_delete_subtitle">এই ক্রিয়াটি পুনরায় না করা যাবে!</string>
+    <string name="chats_delete_confirm">নিশ্চিত করুন</string>
+    <string name="chats_delete_cancel">বাতিল করুন।</string>
+    <string name="chats_delete_success">চ্যাট মুছে ফেলা হয়েছে।</string>
+
+    <string name="message_time_today">আজ</string>
+    <string name="message_time_yesterday">Kal</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">লুইস হলেন একজন স্প্যানিশ শিক্ষক যিনি আপনাকে আপনার শব্দভান্ডার উন্নত করতে সাহায্য করতে পারেন!</string>
+</resources>

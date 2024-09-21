@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Buat perbualan baru</string>
+    <string name="date_today">Hari ini</string>
+
+    <string name="members_page_title">Perbualan</string>
+    <string name="bots_page_title">Perbualan bot</string>
+
+    <string name="chat_my_messages">Mesej saya</string>
+    <string name="chat_empty_title">Tiada mesej lagi</string>
+    <string name="chat_empty_description">Mula berbual untuk melihat mesej anda di sini.</string>
+
+    <string name="chats_empty_title">Tiada perbualan lagi</string>
+    <string name="chats_empty_description">Setelah anda memulakan perbualan baru, anda akan dapat melihatnya disenaraikan di sini.</string>
+
+    <string name="chats_delete_title">Padam perbualan</string>
+    <string name="chats_delete_subtitle">Tindakan ini tidak boleh dikembalikan!</string>
+    <string name="chats_delete_confirm">Sahkan</string>
+    <string name="chats_delete_cancel">Batal</string>
+    <string name="chats_delete_success">Perbualan dipadam</string>
+
+    <string name="message_time_today">Hari ini</string>
+    <string name="message_time_yesterday">Semalam</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise adalah seorang guru Bahasa Sepanyol yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
+</resources>

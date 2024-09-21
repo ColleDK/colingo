@@ -1,0 +1,28 @@
+<resources>
+    <string name="chat_create_new">Yog hais tias pib muaj cov chat tsev tshiab tshiab.</string>
+    <string name="date_today">Ntawm no</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Tus neeg pab uas quaj yam siv ua ntaub ntawv</string>
+
+    <string name="chat_my_messages">Kuv lub hnub kev ib zaj ua kuv.</string>
+    <string name="chat_empty_title">Tsis muaj lus tseem ceeb.</string>
+    <string name="chat_empty_description">Tus nug tawg khab cov ntawv ntawm koj mus tuaj koom tes nyob vim cov paub hais tias tag nrho koj.</string>
+
+    <string name="chats_empty_title">Tsis muaj lub sijhawm xwb</string>
+    <string name="chats_empty_description">Koj nyem ib lub suab tsa hais txog tus ob txhua yam, koj yuav pom ntxiv txog no nyob rau ntawm no.</string>
+
+    <string name="chats_delete_title">Pab chat</string>
+    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone! 
+
+Translation: Tsis tas li ntawd yuav tsis txhob siv tias.</string>
+    <string name="chats_delete_confirm">Xaiv.</string>
+    <string name="chats_delete_cancel">Hu nug nrhiav</string>
+    <string name="chats_delete_success">Cov ntaub ntawv saib xyuas ntxiv.</string>
+
+    <string name="message_time_today">Ntawm no</string>
+    <string name="message_time_yesterday">Kev tau no</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise yog ib tug neeg muaj lus Thaum Spanish nyob rau hauv cov lus los ua nrog koj hloov lus.</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">نئون چيٽ تخليق ڪريو</string>
+    <string name="date_today">اڄ</string>
+
+    <string name="members_page_title">ٽيڪسٽن</string>
+    <string name="bots_page_title">بوٽ ڇٽس</string>
+
+    <string name="chat_my_messages">ميري پيغامن</string>
+    <string name="chat_empty_title">هن پندڙ پيغامون نه ٿي ويو ٿا</string>
+    <string name="chat_empty_description">Messages ينصرف ڪرڻ جي شروعت ڪريو تہ توهان جي ڌرتين يهاڻ ۾ وڃاو.</string>
+
+    <string name="chats_empty_title">هنڌ موڙيندا نٿ باب هنڌ</string>
+    <string name="chats_empty_description">جيڪڏهن ٻي جدي گفتگو شروع ٿيو آهيو، تہ اهو اسان جي یهان فہرست ۾ ديکڻ ٿيون ٿي.</string>
+
+    <string name="chats_delete_title">چيٽ ڊاهيو</string>
+    <string name="chats_delete_subtitle">هن کار جي ترتيب ضايب رهتي نـه ترتيب ڊينڊڙيل اچي ٿي!</string>
+    <string name="chats_delete_confirm">تصديق گهريل</string>
+    <string name="chats_delete_cancel">Cancel</string>
+    <string name="chats_delete_success">چيٽ ڊيليٽ ٿيو ٺاههڻ شي</string>
+
+    <string name="message_time_today">آڄي</string>
+    <string name="message_time_yesterday">گذريلھ وقت</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ايڇوا اسپينيش استاد آهي جو توهان جي واڪاب مينهنجي وراسي ۾ مدد ڪري سگهندو!</string>
+</resources>

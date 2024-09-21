@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Pangani chat mpya</string>
+    <string name="date_today">Lero</string>
+
+    <string name="members_page_title">Maukedwe</string>
+    <string name="bots_page_title">Mau oyimilira: Ntchito za Bot</string>
+
+    <string name="chat_my_messages">Ma mesidjizo anga</string>
+    <string name="chat_empty_title">No messages yet</string>
+    <string name="chat_empty_description">Start conversing to see your messages here.</string>
+
+    <string name="chats_empty_title">Palibe maulendo pano</string>
+    <string name="chats_empty_description">Pamene mwakhala mwachita mchitidwe wakale wa mawu, mudzalera pano.</string>
+
+    <string name="chats_delete_title">Pakufufuza: Panga kufufuza mawu.</string>
+    <string name="chats_delete_subtitle">Kufunsa lapansi palibe angalole.</string>
+    <string name="chats_delete_confirm">Thandizani</string>
+    <string name="chats_delete_cancel">Gwetsa</string>
+    <string name="chats_delete_success">Mau a chat anapanga delete</string>
+
+    <string name="message_time_today">Lero</string>
+    <string name="message_time_yesterday">Lero pa dzulo</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ndi wosankha wamaspaniya amene angakusankhile kukulolani ndi kusintha zolankhula zanu!</string>
+</resources>

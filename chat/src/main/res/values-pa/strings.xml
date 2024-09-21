@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ਇੱਕ ਨਵਾਂ ਚੈੱਟ ਬਣਾਓ</string>
+    <string name="date_today">ਅੱਜ</string>
+
+    <string name="members_page_title">ਗੱਲਬਾਤਾਂ</string>
+    <string name="bots_page_title">ਬੋਟ ਚੈਟਸ</string>
+
+    <string name="chat_my_messages">ਮੇਰੇ ਸੁਨੇਹੇ</string>
+    <string name="chat_empty_title">ਹਾਲਕਿਆਤੋ ਸੁ੨ਚਨਾ ਨਹੀਂ ਹੈ</string>
+    <string name="chat_empty_description">ਸੁਨਵਾਈ ਸ਼ੁਰੂ ਕਰੋ ਤਾਂ ਇਹਨਾਂ ਸੁਨੇਹਾ ਦਿਖਾਈ ਦੇਣਗੇ.</string>
+
+    <string name="chats_empty_title">ਹਾਲੇ ਤੱਕ ਕੋਈ ਚੈਟ ਨਹੀਂ ਹੈ</string>
+    <string name="chats_empty_description">ਕੋਈ ਨਵਾਂ ਗੱਲਬਾਤ ਸ਼ੁਰੂ ਕੀਤੀ ਤਾਂ ਤੁਸੀਂ ਇਸਨੂੰ ਇੱਥੇ ਦਰਸਾਇਆ ਜਾਵੇਗਾ।</string>
+
+    <string name="chats_delete_title">ਗੱਲਬਾਤ ਹਟਾਓ</string>
+    <string name="chats_delete_subtitle">ਇਹ ਕਾਰਵਾਈ ਵਾਪਸ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ!</string>
+    <string name="chats_delete_confirm">ਪੁष्टਿ ਕਰੋ</string>
+    <string name="chats_delete_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="chats_delete_success">ਚੈਟ ਹਟਾਇਆ ਗਿਆ</string>
+
+    <string name="message_time_today">ਅੱਜ</string>
+    <string name="message_time_yesterday">ਕੱਲ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ਇੱਕ ਸਪੈਨੀ ਅਧਿਆਪਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸ਼ਬਦਾਵਲੀ ਨੂੰ ਸੁਧਾਰਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Napravi novi chat</string>
+    <string name="date_today">Danas</string>
+
+    <string name="members_page_title">Ćaskanje</string>
+    <string name="bots_page_title">Bot razgovori</string>
+
+    <string name="chat_my_messages">Moje poruke</string>
+    <string name="chat_empty_title">Nema poruka još uvek</string>
+    <string name="chat_empty_description">Započnite razgovor da biste videli svoje poruke ovde.</string>
+
+    <string name="chats_empty_title">Još uvek nema razgovora.</string>
+    <string name="chats_empty_description">Kada započnete novi razgovor, videćete ga navedenog ovde.</string>
+
+    <string name="chats_delete_title">Obriši ćaskanje</string>
+    <string name="chats_delete_subtitle">Ova radnja ne može biti poništena!</string>
+    <string name="chats_delete_confirm">Potvrdi</string>
+    <string name="chats_delete_cancel">Otkaži</string>
+    <string name="chats_delete_success">Brisan ćaskanje</string>
+
+    <string name="message_time_today">Danas</string>
+    <string name="message_time_yesterday">Juče</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Lujza je španska profesorka koja vam može pomoći da unapredite svoj rečnik!</string>
+</resources>

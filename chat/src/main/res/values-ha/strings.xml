@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Sanya jerin hotunan sabo</string>
+    <string name="date_today">Yau</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Za\'a\'jefa motsin mummunan kalami</string>
+
+    <string name="chat_my_messages">Bayananmu</string>
+    <string name="chat_empty_title">Ba aka samu hikima ba.</string>
+    <string name="chat_empty_description">Fara yi magana domin ganin lambobin da kake a nan.</string>
+
+    <string name="chats_empty_title">Babu matsaloli ba</string>
+    <string name="chats_empty_description">Bayan ka fara ganin binciken sabon lamba, zaka samu ta a nan.</string>
+
+    <string name="chats_delete_title">Tozarta wasu damar saitin damuwa.</string>
+    <string name="chats_delete_subtitle">Babu wata aikin da za\'a yi baya gareshi!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Tsaya din.</string>
+    <string name="chats_delete_success">Magana ce aka cire</string>
+
+    <string name="message_time_today">Yau</string>
+    <string name="message_time_yesterday">Jiya</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ta shi ne mai kafa kasar Spain wanda ya taimaka maka tare da ratsa rubutu na kai!</string>
+</resources>

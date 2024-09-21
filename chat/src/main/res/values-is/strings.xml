@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Búa til nýjan spjall</string>
+    <string name="date_today">Í dag</string>
+
+    <string name="members_page_title">Texti til að þýða: Chats</string>
+    <string name="bots_page_title">Botsamtal</string>
+
+    <string name="chat_my_messages">Mínar skilaboð.</string>
+    <string name="chat_empty_title">Engin skilaboð ennþá</string>
+    <string name="chat_empty_description">Byrjaðu að ræða til að sjá skilaboðin þín hér.</string>
+
+    <string name="chats_empty_title">Engin spjall ennþá</string>
+    <string name="chats_empty_description">Þegar þú hefur byrjað á nýrri samræðu, sjáðu hana listuð hér.</string>
+
+    <string name="chats_delete_title">Eyða spjalli</string>
+    <string name="chats_delete_subtitle">Þessi aðgerð getur ekki verið afturkallað!</string>
+    <string name="chats_delete_confirm">Staðfestu</string>
+    <string name="chats_delete_cancel">Hætta</string>
+    <string name="chats_delete_success">Skrádiskaður spjall</string>
+
+    <string name="message_time_today">Í dag</string>
+    <string name="message_time_yesterday">Í gær</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise er spænskukennari sem getur hjálpað þér við að bæta orðaforðann þinn!</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Gadzirisa chikudzidzisa chidiki</string>
+    <string name="date_today">Nhasi</string>
+
+    <string name="members_page_title">Mazita: Chats</string>
+    <string name="bots_page_title">Mazita emachato</string>
+
+    <string name="chat_my_messages">Mabhuku angu</string>
+    <string name="chat_empty_title">Hapana maitiro here</string>
+    <string name="chat_empty_description">Shamisira kushandira kuti uwane maitiro ako apa.</string>
+
+    <string name="chats_empty_title">Hapana mazano akachinja</string>
+    <string name="chats_empty_description">Kana uchitanga nyaya mupfuura, unozouya pawoko pane pane.</string>
+
+    <string name="chats_delete_title">Bvisa chirangano</string>
+    <string name="chats_delete_subtitle">Chirongwa ichi hachichawanikwa!</string>
+    <string name="chats_delete_confirm">Confirm</string>
+    <string name="chats_delete_cancel">Cancel</string>
+    <string name="chats_delete_success">Rurimi rwega: Chat iripaside</string>
+
+    <string name="message_time_today">Nhasi</string>
+    <string name="message_time_yesterday">Nzira yokare</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ndiwechidikitwa cheSpanish anogona kukusaidza kubvumira mhando yako!</string>
+</resources>

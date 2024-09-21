@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Crear un nuevo chat</string>
+    <string name="date_today">Hoy</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Chats de bots</string>
+
+    <string name="chat_my_messages">Mis mensajes</string>
+    <string name="chat_empty_title">Aún no hay mensajes</string>
+    <string name="chat_empty_description">Comienza a conversar para ver tus mensajes aquí.</string>
+
+    <string name="chats_empty_title">Aún no hay chats</string>
+    <string name="chats_empty_description">Una vez que hayas iniciado una nueva conversación, la verás en la lista aquí.</string>
+
+    <string name="chats_delete_title">Eliminar chat</string>
+    <string name="chats_delete_subtitle">¡Esta acción no se puede deshacer!</string>
+    <string name="chats_delete_confirm">Confirmar</string>
+    <string name="chats_delete_cancel">Cancelar</string>
+    <string name="chats_delete_success">Chat eliminado</string>
+
+    <string name="message_time_today">Hoy</string>
+    <string name="message_time_yesterday">Ayer</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise es una profesora de español que puede ayudarte a mejorar tu vocabulario.</string>
+</resources>

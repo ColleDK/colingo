@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Crear un novo chat.</string>
+    <string name="date_today">Hoxe</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Conversas de chatbot</string>
+
+    <string name="chat_my_messages">As miñas mensaxes</string>
+    <string name="chat_empty_title">Aínda non hai mensaxes</string>
+    <string name="chat_empty_description">Comeza a conversar para ver as túas mensaxes aquí.</string>
+
+    <string name="chats_empty_title">Aínda sen chateos.</string>
+    <string name="chats_empty_description">Unha vez que iniciaches unha nova conversa, verás que aparece nesta lista.</string>
+
+    <string name="chats_delete_title">Eliminar chat</string>
+    <string name="chats_delete_subtitle">Esta acción non se pode desfacer!</string>
+    <string name="chats_delete_confirm">Confirmar</string>
+    <string name="chats_delete_cancel">Cancelar</string>
+    <string name="chats_delete_success">Chat eliminado</string>
+
+    <string name="message_time_today">Hoxe</string>
+    <string name="message_time_yesterday">Ontem</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise é unha profesora de español que pode axudarche a mellorar o teu vocabulario!</string>
+</resources>

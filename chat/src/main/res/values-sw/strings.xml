@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">Tengeneza mazungumzo mapya</string>
+    <string name="date_today">Leo</string>
+
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Mazungumzo ya boti</string>
+
+    <string name="chat_my_messages">Miswada yangu</string>
+    <string name="chat_empty_title">Hakuna ujumbe bado</string>
+    <string name="chat_empty_description">Anza kuongea ili uone ujumbe wako hapa.</string>
+
+    <string name="chats_empty_title">Hakuna mazungumzo bado</string>
+    <string name="chats_empty_description">Baada ya kuanza mazungumzo mapya, utayaona yakiorodheshwa hapa.</string>
+
+    <string name="chats_delete_title">Futa mazungumzo</string>
+    <string name="chats_delete_subtitle">Hatua hii haiwezi kufutwa!</string>
+    <string name="chats_delete_confirm">Thibitisha</string>
+    <string name="chats_delete_cancel">Futa</string>
+    <string name="chats_delete_success">Majadiliano yamefutwa</string>
+
+    <string name="message_time_today">Leo</string>
+    <string name="message_time_yesterday">Jana</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ni mwalimu wa Kihispania anayeweza kukusaidia kuimarisha msamiati wako!</string>
+</resources>

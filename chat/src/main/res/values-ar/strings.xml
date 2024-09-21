@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">إنشاء محادثة جديدة</string>
+    <string name="date_today">اليوم</string>
+
+    <string name="members_page_title">المحادثات</string>
+    <string name="bots_page_title">محادثات البوت</string>
+
+    <string name="chat_my_messages">رسائلي</string>
+    <string name="chat_empty_title">ليس هناك رسائل بعد</string>
+    <string name="chat_empty_description">ابدأ المحادثة لرؤية رسائلك هنا.</string>
+
+    <string name="chats_empty_title">لا يوجد محادثات بعد</string>
+    <string name="chats_empty_description">بمجرد بدء محادثة جديدة، ستظهر ضمن القائمة هنا.</string>
+
+    <string name="chats_delete_title">حذف الدردشة</string>
+    <string name="chats_delete_subtitle">هذا الإجراء لا يمكن التراجع عنه!</string>
+    <string name="chats_delete_confirm">تأكيد</string>
+    <string name="chats_delete_cancel">إلغاء</string>
+    <string name="chats_delete_success">الدردشة محذوفة</string>
+
+    <string name="message_time_today">اليوم</string>
+    <string name="message_time_yesterday">أمس</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">لويز مدرسة إسبانية يمكنها مساعدتك في تحسين مفرداتك!</string>
+</resources>

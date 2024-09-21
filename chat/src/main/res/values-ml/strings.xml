@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">ഒരു പുതിയ ചാറ്റ് സൃഷ്ടിക്കുക.</string>
+    <string name="date_today">ഇന്ന്</string>
+
+    <string name="members_page_title">ചാറ്റുകൾ</string>
+    <string name="bots_page_title">ബോട്ട് ചാറ്റുകൾ</string>
+
+    <string name="chat_my_messages">എന്റെ സന്ദേശങ്ങൾ</string>
+    <string name="chat_empty_title">അന്യമായ സന്ദേശങ്ങൾ ഉണ്ടില്ല</string>
+    <string name="chat_empty_description">ഇവിടെ നിനക്ക് സന്ദേശങ്ങൾ കാണുന്നതായി ചൊല്ലാൻ ആരംഭിക്കുക.</string>
+
+    <string name="chats_empty_title">ഇതുവരെ ചാറ്റുകളില്ല.</string>
+    <string name="chats_empty_description">പുതിയ സംഭാഷണം ആരംഭിച്ചിരിക്കുകയായാല്‍, അതു ഇവിടെ പട്ടികയാക്കിയിട്ടുണ്ട്.</string>
+
+    <string name="chats_delete_title">ചാറ്റ് ഇല്ലാതാക്കുക</string>
+    <string name="chats_delete_subtitle">ഈ നടപടി തിരിച്ചു മാറ്റാനായില്ല!</string>
+    <string name="chats_delete_confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="chats_delete_cancel">റദ്ദാക്കുക</string>
+    <string name="chats_delete_success">ചാറ്റ് ഇല്ലാതാക്കി വച്ചു</string>
+
+    <string name="message_time_today">ഇന്ന്</string>
+    <string name="message_time_yesterday">നിന്നെ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">Louise ഒരു സ്പാനിഷ് അധ്യാപികയാണ്, നിങ്ങളുടെ ശബ്ദാര്‍ഥം മൊഴിയുടെ മേളം ഉത്തരവാദിക്കാന്‍ സഹായിക്കാം!</string>
+</resources>

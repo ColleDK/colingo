@@ -1,0 +1,26 @@
+<resources>
+    <string name="chat_create_new">නව සම්බන්ධතානමක් තන්තළට පද්ධබිමක් හදන්න</string>
+    <string name="date_today">අද.</string>
+
+    <string name="members_page_title">හඳුන්</string>
+    <string name="bots_page_title">ප්‍රාථමික සංවාද\@stop</string>
+
+    <string name="chat_my_messages">මගේ පණිවිඩයන්</string>
+    <string name="chat_empty_title">නැතිවෙන්නේනෑ</string>
+    <string name="chat_empty_description">කතා කිරීම සදහා ඔබගේ පණිවිඩ මාදිලියට දැක්කන්න.</string>
+
+    <string name="chats_empty_title">කිවිසුම් කිහිපයන් නෑ</string>
+    <string name="chats_empty_description">ප්‍රකට අලුත් කතා සභාවක් ආරම්භ කරනු ලැබේවන්නේ, එවිට එය මෙමෙන් ලැයිස්තුවේ පෙන්වනු ලබයි.</string>
+
+    <string name="chats_delete_title">කතා මකන්න</string>
+    <string name="chats_delete_subtitle">මෙම ක්‍රියාකාරී අවලංගු කළ නොහැකිය!</string>
+    <string name="chats_delete_confirm">තහවුරු කරන්න.</string>
+    <string name="chats_delete_cancel">අවලංගු කරන්න</string>
+    <string name="chats_delete_success">කතා ඉවත් කළා</string>
+
+    <string name="message_time_today">අද</string>
+    <string name="message_time_yesterday">ඊයේ</string>
+
+    <!-- Chat bots -->
+    <string name="chatbot_louise_description">පරිශීලක: ලුවීස් ඔබට ඔබේ වාක්ය ව්‍යදනය සුහඳ කිරීමට උක්‍රිනවේද\?</string>
+</resources>
