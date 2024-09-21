@@ -10,7 +10,7 @@
     <string name="community_empty_title">İstifadəçilər tapılmadı</string>
     <string name="community_empty_subtitle">Filtrelerinizi yeniləyərək daha çox istifadəçi tapın.</string>
 
-    <string name="community_filters_limit">Seçin: Görmək istədiyiniz% d dilə yaxşı danışanları seçin</string>
+    <string name="community_filters_limit">Seçin: Görmək istədiyiniz %d dilə yaxşı danışanları seçin</string>
     <string name="community_filters_selected">Seçilmiş: %d/%d</string>
     <string name="community_filters_clear">Filtrləri təmizlə</string>
     <string name="community_filters_your_languages">Sizin indiki dilləriniz</string>
