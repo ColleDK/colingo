@@ -13,7 +13,7 @@
     <string name="home_filters_newest">Тажрибаии охиринепазируфта</string>
     <string name="post_create_comment">Иловаи шарҳ</string>
     <string name="post_likes">Тексти барои тарҷума: %s маҳбуб аст</string>
-    <string name="post_comments">% s шарҳه</string>
+    <string name="post_comments">%s шарҳه</string>
     <string name="post_no_comments_title">Ҳе яхдон ҷавоб дода нашудааст</string>
     <string name="post_no_comments_subtitle">Ба ғайри пеш тавриҷ шавед ва фикрҳои худро дар ин пост ба назарҳои дигарон ширкат кунед.</string>
 
