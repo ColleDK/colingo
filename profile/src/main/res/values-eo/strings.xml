@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Selekti</string>
+    <string name="cancel_birthday_selection">Nuligi</string>
+    <string name="edit_name_title">Nomo</string>
+    <string name="location_empty_title">Neesprimita</string>
+
+    <string name="description_title">Teksto por traduki: Priskribo</string>
+
+    <string name="profile_updated_success">Profilo sukcese ĝisdatigita</string>
+
+    <string name="topics_empty_title">Neniu temo elektita</string>
+    <string name="topics_title">Interesoj</string>
+
+    <string name="languages_title">Lingvoj</string>
+    <string name="languages_empty_title">Neniu lingvo elektita.</string>
+    <string name="profile_add_language">Aldoni lingvon</string>
+    <string name="profile_select_language">Elekti lingvon</string>
+    <string name="profile_select_proficiency">Selektu kompetentecon</string>
+    <string name="add_language_select">Selekti</string>
+    <string name="add_language_cancel">Nuligi</string>
+    <string name="gender_title">Sekso</string>
+</resources>

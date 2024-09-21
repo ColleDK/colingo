@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">निवडा</string>
+    <string name="cancel_birthday_selection">रद्द</string>
+    <string name="edit_name_title">नाव</string>
+    <string name="location_empty_title">अनिर्दिष्ट</string>
+
+    <string name="description_title">वर्णन</string>
+
+    <string name="profile_updated_success">प्रोफाइल सफळतापूर्वक अपडेट केली गेली</string>
+
+    <string name="topics_empty_title">विषय निवडले नाहीत</string>
+    <string name="topics_title">रुचीे</string>
+
+    <string name="languages_title">भाषांचे</string>
+    <string name="languages_empty_title">कोणत्याही भाषांचा निवड केला नाही</string>
+    <string name="profile_add_language">भाषा जोडा</string>
+    <string name="profile_select_language">भाषा निवडा</string>
+    <string name="profile_select_proficiency">कुशलता निवडा</string>
+    <string name="add_language_select">निवडा</string>
+    <string name="add_language_cancel">रद्द</string>
+    <string name="gender_title">लिंग</string>
+</resources>

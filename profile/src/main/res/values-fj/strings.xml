@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Digitaka</string>
+    <string name="cancel_birthday_selection">Vakacacani</string>
+    <string name="edit_name_title">Imeri</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Vola vakamacala</string>
+
+    <string name="profile_updated_success">Profaili sa digitali vakadeitaki me rawa ni tabonaka talega.</string>
+
+    <string name="topics_empty_title">E sega na veitarogi sa digitaka</string>
+    <string name="topics_title">Vakarautaka na nodratou Ivolavosa</string>
+
+    <string name="languages_title">Vosa</string>
+    <string name="languages_empty_title">Sa sega na vosa digitaki</string>
+    <string name="profile_add_language">Vukei vosa</string>
+    <string name="profile_select_language">Sili yani na vosa</string>
+    <string name="profile_select_proficiency">Silaitei kaubalevu</string>
+    <string name="add_language_select">Digitaka</string>
+    <string name="add_language_cancel">Vakacacani</string>
+    <string name="gender_title">Jenisaco</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Chagua</string>
+    <string name="cancel_birthday_selection">Futa</string>
+    <string name="edit_name_title">Jina</string>
+    <string name="location_empty_title">Hakuna maelezo</string>
+
+    <string name="description_title">Maelezo</string>
+
+    <string name="profile_updated_success">Profili imefanikiwa kusasishwa</string>
+
+    <string name="topics_empty_title">Hakuna mada iliyochaguliwa</string>
+    <string name="topics_title">Masilahi</string>
+
+    <string name="languages_title">Lugha</string>
+    <string name="languages_empty_title">Hakuna lugha iliyochaguliwa</string>
+    <string name="profile_add_language">Ongeza lugha</string>
+    <string name="profile_select_language">Chagua lugha</string>
+    <string name="profile_select_proficiency">Chagua ujuzi.</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Ghairi.</string>
+    <string name="gender_title">Jinsia</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">เลือก</string>
+    <string name="cancel_birthday_selection">ยกเลิก</string>
+    <string name="edit_name_title">ชื่อ</string>
+    <string name="location_empty_title">ไม่ระบุ</string>
+
+    <string name="description_title">คำอธิบาย</string>
+
+    <string name="profile_updated_success">โปรไฟล์ได้อัพเดทสำเร็จแล้ว</string>
+
+    <string name="topics_empty_title">ไม่ได้เลือกหัวข้อ</string>
+    <string name="topics_title">ความสนใจ</string>
+
+    <string name="languages_title">ภาษา</string>
+    <string name="languages_empty_title">ไม่มีภาษาที่เลือก</string>
+    <string name="profile_add_language">เพิ่มภาษา</string>
+    <string name="profile_select_language">เลือกภาษา</string>
+    <string name="profile_select_proficiency">เลือกระดับความเชี่ยวชาญ</string>
+    <string name="add_language_select">เลือก</string>
+    <string name="add_language_cancel">ยกเลิก</string>
+    <string name="gender_title">เพศ</string>
+</resources>

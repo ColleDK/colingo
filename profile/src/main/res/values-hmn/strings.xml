@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Sau ib tug.</string>
+    <string name="cancel_birthday_selection">Tsuas yog cov Tshuaj (Cancel)</string>
+    <string name="edit_name_title">Npe</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Kev ruaj ntseg</string>
+
+    <string name="profile_updated_success">Profile tsis tau pom zoo lawm</string>
+
+    <string name="topics_empty_title">Tsab cai yuav tsis tau lub zos</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Lus nug</string>
+    <string name="languages_empty_title">Tsis tas nrho cov lus.</string>
+    <string name="profile_add_language">Ntawm qhov chaw no: Cov lus them mus</string>
+    <string name="profile_select_language">Xaiv hais lus</string>
+    <string name="profile_select_proficiency">Piv txwv pub tsheb</string>
+    <string name="add_language_select">Sau ib tug.</string>
+    <string name="add_language_cancel">Tsuas yog cov Tshuaj (Cancel)</string>
+    <string name="gender_title">Xwm hmab yuav pab.</string>
+</resources>

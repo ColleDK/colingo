@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Zgjidhuni</string>
+    <string name="cancel_birthday_selection">Anulo</string>
+    <string name="edit_name_title">Emri</string>
+    <string name="location_empty_title">E pacaktuar</string>
+
+    <string name="description_title">Përshkrimi</string>
+
+    <string name="profile_updated_success">Profili u përditësua me sukses.</string>
+
+    <string name="topics_empty_title">Asnjë temë e zgjedhur</string>
+    <string name="topics_title">Interesat</string>
+
+    <string name="languages_title">Gjuhët</string>
+    <string name="languages_empty_title">Asnjë gjuhë e zgjedhur</string>
+    <string name="profile_add_language">Shto gjuhën</string>
+    <string name="profile_select_language">Zgjidhni gjuhën</string>
+    <string name="profile_select_proficiency">Zgjidhni nivelin e njohurisë</string>
+    <string name="add_language_select">Zgjidhuni</string>
+    <string name="add_language_cancel">Anulo</string>
+    <string name="gender_title">Gjinia</string>
+</resources>

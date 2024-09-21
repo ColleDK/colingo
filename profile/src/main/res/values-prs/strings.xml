@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">انتخاب کردن</string>
+    <string name="cancel_birthday_selection">لغو</string>
+    <string name="edit_name_title">نام</string>
+    <string name="location_empty_title">نامشخص</string>
+
+    <string name="description_title">توصیف</string>
+
+    <string name="profile_updated_success">صفحه با موفقیت به‌روز شد</string>
+
+    <string name="topics_empty_title">موضوعات انتخاب نشده است</string>
+    <string name="topics_title">علاقه‌ها</string>
+
+    <string name="languages_title">زبان‌ها</string>
+    <string name="languages_empty_title">هیڅ زبان انتخاب نشده است</string>
+    <string name="profile_add_language">افزودن زبان</string>
+    <string name="profile_select_language">انتخاب زبان</string>
+    <string name="profile_select_proficiency">انتخاب توانایی</string>
+    <string name="add_language_select">انتخاب کردن</string>
+    <string name="add_language_cancel">لغو</string>
+    <string name="gender_title">جنس</string>
+</resources>

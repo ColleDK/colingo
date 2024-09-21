@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Таңдау</string>
+    <string name="cancel_birthday_selection">Күзету</string>
+    <string name="edit_name_title">Аты</string>
+    <string name="location_empty_title">Сипатталмаған</string>
+
+    <string name="description_title">Сипаттама</string>
+
+    <string name="profile_updated_success">Профиль сәтті жаңартылды</string>
+
+    <string name="topics_empty_title">Тақырып таңдалмаған</string>
+    <string name="topics_title">Мүліктер</string>
+
+    <string name="languages_title">Тілдер</string>
+    <string name="languages_empty_title">Тіл таңдалмаған</string>
+    <string name="profile_add_language">Тілді қосу</string>
+    <string name="profile_select_language">Тілді таңдау</string>
+    <string name="profile_select_proficiency">Профессионалдық деңгейді таңдау</string>
+    <string name="add_language_select">Таңдау</string>
+    <string name="add_language_cancel">Тергеу</string>
+    <string name="gender_title">Жыныс</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Cherechedza</string>
+    <string name="cancel_birthday_selection">Bvisa</string>
+    <string name="edit_name_title">Zita</string>
+    <string name="location_empty_title">Hapana chakaitwa wenyaya yacho</string>
+
+    <string name="description_title">Munyori</string>
+
+    <string name="profile_updated_success">Muprofayili akasarudzika kugadzirwa pasi</string>
+
+    <string name="topics_empty_title">Hakuna mazita akakanganisa</string>
+    <string name="topics_title">Mapurudzi</string>
+
+    <string name="languages_title">Mitauro</string>
+    <string name="languages_empty_title">Hapana zvirongwa zvakaitwa</string>
+    <string name="profile_add_language">Ongeza rudo</string>
+    <string name="profile_select_language">Chinoratidzwa nguva: Ratisani remunda</string>
+    <string name="profile_select_proficiency">Zvinyorwa kugadzirisa</string>
+    <string name="add_language_select">Faita</string>
+    <string name="add_language_cancel">Cancel</string>
+    <string name="gender_title">Jendera</string>
+</resources>

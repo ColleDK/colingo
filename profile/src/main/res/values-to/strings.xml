@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Fili</string>
+    <string name="cancel_birthday_selection">Fakapoate</string>
+    <string name="edit_name_title">Iliokalasi</string>
+    <string name="location_empty_title">Tulituli\'a</string>
+
+    <string name="description_title">Fakamatala</string>
+
+    <string name="profile_updated_success">Profilé ke fakatauange pehe kuo felave\'i ʻa e fakatatauʻenitaa\'ai.</string>
+
+    <string name="topics_empty_title">Tupulekia \'e he topiki \'ikai \'ae fili hoha\'a.</string>
+    <string name="topics_title">Vahevahe\'ai</string>
+
+    <string name="languages_title">Lea fakatonga</string>
+    <string name="languages_empty_title">Toka \'a e lea \'i he fonua \'i he fakamatala\'ai lahi</string>
+    <string name="profile_add_language">Toe fiema\'u e lea hange ko engei.</string>
+    <string name="profile_select_language">Fili e lea fakafonua</string>
+    <string name="profile_select_proficiency">Fili ha masiva\'anga</string>
+    <string name="add_language_select">Filifili</string>
+    <string name="add_language_cancel">Faakopeta</string>
+    <string name="gender_title">Fefakatau ifo.</string>
+</resources>

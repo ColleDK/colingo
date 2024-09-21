@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Hiku\'an.</string>
+    <string name="cancel_birthday_selection">Ts\'i ma\'ärh\'i.</string>
+    <string name="edit_name_title">Njunthe.</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Descripción</string>
+
+    <string name="profile_updated_success">Perfil ngehe̲ nxisi nä\'mu̲t\'iña̲ nä\'mu̲ki̲\'i.</string>
+
+    <string name="topics_empty_title">No topics selected</string>
+    <string name="topics_title">Jña\'me\'i\'kwa</string>
+
+    <string name="languages_title">Hñä\'ñho tʼútzʼõnda\'a\'a.</string>
+    <string name="languages_empty_title">Rarami no maráada mpo̲hu̲njére ñe\'anu.</string>
+    <string name="profile_add_language">Tʼuhxi\'i pa nźeheya.</string>
+    <string name="profile_select_language">Retho rra k\'axni.</string>
+    <string name="profile_select_proficiency">Select proficiency</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Cancelar</string>
+    <string name="gender_title">Ropa</string>
+</resources>

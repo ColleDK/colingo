@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ምምካይ</string>
+    <string name="cancel_birthday_selection">ሓበሬ ኣይትሕብርን</string>
+    <string name="edit_name_title">ስም</string>
+    <string name="location_empty_title">ኣብዚ ኣምሓራየን እቲ ናይ ጽምቕዩ ደቂ ይኸየ ነዚሩ ነገር ኢዩ ።</string>
+
+    <string name="description_title">መግለጺ</string>
+
+    <string name="profile_updated_success">መዝገበ ተመዝገበ እንተደምቲ ተኣክል፡ ባህላዊ መዝገበ ክርከብ እዩ ኢዮም።</string>
+
+    <string name="topics_empty_title">ሓሙሽ ዝተመስረት ምንም ሓዳር ኣይተሰሓሕን</string>
+    <string name="topics_title">ሓበሬታታ</string>
+
+    <string name="languages_title">ቋንጣይት</string>
+    <string name="languages_empty_title">ቋንቋ ብተዛረብ ምንታይ ኣላህ\?</string>
+    <string name="profile_add_language">ቋንጣ ኣነ ኣብፃ።</string>
+    <string name="profile_select_language">ቋንጣ ይምረጡ</string>
+    <string name="profile_select_proficiency">ምምቃብ ሓበሬ ኣረጋጌ</string>
+    <string name="add_language_select">ምምዝጋ</string>
+    <string name="add_language_cancel">ሰምናን</string>
+    <string name="gender_title">ጾታ</string>
+</resources>

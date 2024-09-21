@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Hlōla</string>
+    <string name="cancel_birthday_selection">Tsela pele</string>
+    <string name="edit_name_title">Lebitso</string>
+    <string name="location_empty_title">Hape</string>
+
+    <string name="description_title">Molao</string>
+
+    <string name="profile_updated_success">Peilèng e phethahalang ka tsela e thata</string>
+
+    <string name="topics_empty_title">No topics selected</string>
+    <string name="topics_title">Dikgoro</string>
+
+    <string name="languages_title">Ditaba</string>
+    <string name="languages_empty_title">No ba hlaselitse ditaelo</string>
+    <string name="profile_add_language">Fofa mogaka</string>
+    <string name="profile_select_language">Khetha sebaka</string>
+    <string name="profile_select_proficiency">Khetha ho fana ka nako ea sebopeho</string>
+    <string name="add_language_select">Khetha</string>
+    <string name="add_language_cancel">Hlahisa</string>
+    <string name="gender_title">Mosebeli</string>
+</resources>

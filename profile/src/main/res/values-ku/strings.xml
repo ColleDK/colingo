@@ -1,0 +1,23 @@
+<resources>
+    <string name="select_new_birthday">هەڵبژاردن</string>
+    <string name="cancel_birthday_selection">لابردن</string>
+    <string name="edit_name_title">ناو</string>
+    <string name="location_empty_title">ناسراو</string>
+
+    <string name="description_title">پێناسەی تێبینی</string>
+
+    <string name="profile_updated_success">Profil bi serkeftî bi temam hat nûkirin</string>
+
+    <string name="topics_empty_title">بابەتێک هەڵبژاردن نەکراوەکان</string>
+    <string name="topics_title">Text to translate: Interests
+ده‌ره‌وه‌یه‌كان</string>
+
+    <string name="languages_title">زمانەکان</string>
+    <string name="languages_empty_title">زمان هیچێک هەڵبژێردراون.</string>
+    <string name="profile_add_language">زمان زیادبکه‌وه‌</string>
+    <string name="profile_select_language">زمان هەڵبژێرە</string>
+    <string name="profile_select_proficiency">هه‌ناسه‌تی هیلبژرایه‌وه‌</string>
+    <string name="add_language_select">هەڵبژێرە</string>
+    <string name="add_language_cancel">پاشکێشکردن</string>
+    <string name="gender_title">جنس</string>
+</resources>

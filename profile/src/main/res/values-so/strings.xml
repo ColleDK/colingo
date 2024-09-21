@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Xulo</string>
+    <string name="cancel_birthday_selection">Fariid (Cancel)</string>
+    <string name="edit_name_title">Magaca</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Tafaasiish.</string>
+
+    <string name="profile_updated_success">Profiilka waxaa si guul leh loo cusbooneysiinayaa</string>
+
+    <string name="topics_empty_title">Ma jiro mawduucyo laga dooranayo</string>
+    <string name="topics_title">Macluumaadka Dhaqaaleeya</string>
+
+    <string name="languages_title">Luqadaha</string>
+    <string name="languages_empty_title">Qeybaha luuqadaha lama dooranayo</string>
+    <string name="profile_add_language">Kor afka</string>
+    <string name="profile_select_language">Xulo luqada</string>
+    <string name="profile_select_proficiency">Xulo gaab ah</string>
+    <string name="add_language_select">Xulo</string>
+    <string name="add_language_cancel">Ka hor</string>
+    <string name="gender_title">Jinsiga</string>
+</resources>

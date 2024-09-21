@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Vybrať</string>
+    <string name="cancel_birthday_selection">Zrušiť</string>
+    <string name="edit_name_title">Meno</string>
+    <string name="location_empty_title">Nespecifikované</string>
+
+    <string name="description_title">Popis</string>
+
+    <string name="profile_updated_success">Profil úspešne aktualizovaný</string>
+
+    <string name="topics_empty_title">Žiadne témy vybrané.</string>
+    <string name="topics_title">Záujmy</string>
+
+    <string name="languages_title">Jazyky</string>
+    <string name="languages_empty_title">Žiadne jazyky vybrané</string>
+    <string name="profile_add_language">Pridať jazyk</string>
+    <string name="profile_select_language">Vyberte jazyk</string>
+    <string name="profile_select_proficiency">Vyberte úroveň odbornosti</string>
+    <string name="add_language_select">Vybrať</string>
+    <string name="add_language_cancel">Zrušiť</string>
+    <string name="gender_title">Pohlavie</string>
+</resources>

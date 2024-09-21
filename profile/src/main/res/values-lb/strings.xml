@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Wielen</string>
+    <string name="cancel_birthday_selection">Stornéieren</string>
+    <string name="edit_name_title">Numm</string>
+    <string name="location_empty_title">Onbestëmmt</string>
+
+    <string name="description_title">Beschreiwung</string>
+
+    <string name="profile_updated_success">Profil erfollegräich aktualiséiert</string>
+
+    <string name="topics_empty_title">Keng Themen ausgewielt</string>
+    <string name="topics_title">Interessen</string>
+
+    <string name="languages_title">Sproochen</string>
+    <string name="languages_empty_title">Keng Sproochen ausgewielt</string>
+    <string name="profile_add_language">Sprooch dobäisetzen</string>
+    <string name="profile_select_language">Wielt Sprooch</string>
+    <string name="profile_select_proficiency">Wielt Kompetenz auswählen</string>
+    <string name="add_language_select">Wielt aus</string>
+    <string name="add_language_cancel">Ofbrechen</string>
+    <string name="gender_title">Geschlecht</string>
+</resources>

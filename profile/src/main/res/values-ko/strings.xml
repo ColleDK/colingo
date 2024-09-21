@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">선택</string>
+    <string name="cancel_birthday_selection">취소</string>
+    <string name="edit_name_title">이름</string>
+    <string name="location_empty_title">미정</string>
+
+    <string name="description_title">설명</string>
+
+    <string name="profile_updated_success">프로필이 성공적으로 업데이트되었습니다.</string>
+
+    <string name="topics_empty_title">선택된 주제가 없습니다</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">언어</string>
+    <string name="languages_empty_title">선택된 언어 없음</string>
+    <string name="profile_add_language">언어 추가</string>
+    <string name="profile_select_language">언어 선택</string>
+    <string name="profile_select_proficiency">Select proficiency</string>
+    <string name="add_language_select">선택</string>
+    <string name="add_language_cancel">취소</string>
+    <string name="gender_title">성별</string>
+</resources>

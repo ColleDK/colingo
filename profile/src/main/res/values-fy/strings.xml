@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Selektearje</string>
+    <string name="cancel_birthday_selection">Annulearje</string>
+    <string name="edit_name_title">Namme</string>
+    <string name="location_empty_title">Net neamd.</string>
+
+    <string name="description_title">Beskriuwing</string>
+
+    <string name="profile_updated_success">Profiel suksesfol bywurke</string>
+
+    <string name="topics_empty_title">Gjin ûnderwerpen selektearre.</string>
+    <string name="topics_title">Ynteressen</string>
+
+    <string name="languages_title">Talen</string>
+    <string name="languages_empty_title">Gjin talen selektearre.</string>
+    <string name="profile_add_language">Foech taal hinne</string>
+    <string name="profile_select_language">Selektearje taal</string>
+    <string name="profile_select_proficiency">Kies bekwaamheid</string>
+    <string name="add_language_select">Selektearje</string>
+    <string name="add_language_cancel">Annulearje</string>
+    <string name="gender_title">Geslacht</string>
+</resources>

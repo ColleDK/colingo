@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">തിരഞ്ഞെടുക്കുക</string>
+    <string name="cancel_birthday_selection">റദ്ദാക്കുക</string>
+    <string name="edit_name_title">പേര്</string>
+    <string name="location_empty_title">വ്യക്തിയായി ഉല്പന്നമല്ല എന്നു പറഞ്ഞിട്ടില്ല.</string>
+
+    <string name="description_title">വിവരണം</string>
+
+    <string name="profile_updated_success">Profile വിജയകരമായി അപ്‌ഡേറ്റ് ചെയ്തു</string>
+
+    <string name="topics_empty_title">ഒന്നും തിരഞ്ഞു നിന്നില്ല</string>
+    <string name="topics_title">ആസക്തികൾ</string>
+
+    <string name="languages_title">ഭാഷകൾ</string>
+    <string name="languages_empty_title">എന്നതിന്‍റെ ഭാഷകള് തിരഞ്ഞെടുക്കിയില്ല.</string>
+    <string name="profile_add_language">ഭാഷ ചേർക്കുക</string>
+    <string name="profile_select_language">ഭാഷ തിരഞ്ഞെടുക്കുക</string>
+    <string name="profile_select_proficiency">അടിയന്തരിച്ചിരിക്കുന്നത്: സാമര്‍ത്ഥ്യം തിരഞ്ഞെടുക്കുക.</string>
+    <string name="add_language_select">തിരഞ്ഞെടുക്കുക</string>
+    <string name="add_language_cancel">റദ്ദാക്കുക</string>
+    <string name="gender_title">ലിംഗം</string>
+</resources>

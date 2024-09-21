@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Kies</string>
+    <string name="cancel_birthday_selection">Kanselleer</string>
+    <string name="edit_name_title">Naam</string>
+    <string name="location_empty_title">Onbekend</string>
+
+    <string name="description_title">Beskrywing</string>
+
+    <string name="profile_updated_success">Profiel suksesvol opgedateer</string>
+
+    <string name="topics_empty_title">Geen onderwerpe gekies</string>
+    <string name="topics_title">Belangstellings</string>
+
+    <string name="languages_title">Tale</string>
+    <string name="languages_empty_title">Geen tale gekies.</string>
+    <string name="profile_add_language">Voeg taal by</string>
+    <string name="profile_select_language">Kies taal</string>
+    <string name="profile_select_proficiency">Kies vaardigheid</string>
+    <string name="add_language_select">Kies</string>
+    <string name="add_language_cancel">Kanselleer</string>
+    <string name="gender_title">Geslag</string>
+</resources>

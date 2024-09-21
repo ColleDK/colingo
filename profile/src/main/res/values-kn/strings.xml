@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="cancel_birthday_selection">ರದ್ದು ಮಾಡಿ</string>
+    <string name="edit_name_title">ಹೆಸರು</string>
+    <string name="location_empty_title">ಸ್ಪಷ್ಟವಿಲ್ಲ</string>
+
+    <string name="description_title">ವಿವರಣೆ</string>
+
+    <string name="profile_updated_success">ಪ್ರೊಫೈಲ್ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ.</string>
+
+    <string name="topics_empty_title">ಯಾವುದೇ ವಿಷಯಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ</string>
+    <string name="topics_title">ಆಸಕ್ತಿಗಳು</string>
+
+    <string name="languages_title">ಭಾಷೆಗಳು</string>
+    <string name="languages_empty_title">ಯಾವುದೇ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ</string>
+    <string name="profile_add_language">ಭಾಷೆಯನ್ನು ಸೇರಿಸಿ</string>
+    <string name="profile_select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="profile_select_proficiency">ನೈಪುಣ್ಯತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ ಮಾಡಿರಿ</string>
+    <string name="add_language_select">ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="add_language_cancel">ರದ್ದು ಮಾಡಿ</string>
+    <string name="gender_title">ಲಿಂಗ</string>
+</resources>

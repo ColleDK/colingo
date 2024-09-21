@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Избери</string>
+    <string name="cancel_birthday_selection">Откажи</string>
+    <string name="edit_name_title">Име</string>
+    <string name="location_empty_title">Неназначено</string>
+
+    <string name="description_title">Опис</string>
+
+    <string name="profile_updated_success">Профил успешно ажуриран.</string>
+
+    <string name="topics_empty_title">Нема избрани теми</string>
+    <string name="topics_title">Interesi</string>
+
+    <string name="languages_title">Jазици</string>
+    <string name="languages_empty_title">Нема избрани јазици</string>
+    <string name="profile_add_language">Додадете јазик</string>
+    <string name="profile_select_language">Изберете јазик</string>
+    <string name="profile_select_proficiency">Избери вештост.</string>
+    <string name="add_language_select">Избери</string>
+    <string name="add_language_cancel">Откажи</string>
+    <string name="gender_title">Пол</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Интихоб кардан</string>
+    <string name="cancel_birthday_selection">Бекор кардан</string>
+    <string name="edit_name_title">Ном</string>
+    <string name="location_empty_title">Номаён</string>
+
+    <string name="description_title">Тавсиф</string>
+
+    <string name="profile_updated_success">Профил бомувафиқат ба қайта шакл дода шуд.</string>
+
+    <string name="topics_empty_title">Мавзӯҳо интихоб нашуданд</string>
+    <string name="topics_title">Мақсадҳо</string>
+
+    <string name="languages_title">Забонҳо</string>
+    <string name="languages_empty_title">Забонҳо интихоб нашуданд</string>
+    <string name="profile_add_language">Иловаи забон</string>
+    <string name="profile_select_language">Интихоби забон</string>
+    <string name="profile_select_proficiency">Интихоби дастгириро интихоб кунед.</string>
+    <string name="add_language_select">Интихобироватанудан</string>
+    <string name="add_language_cancel">Қўндан ширкат кардан</string>
+    <string name="gender_title">Ҷинс</string>
+</resources>

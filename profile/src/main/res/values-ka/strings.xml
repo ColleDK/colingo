@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">შეარჩიეთ</string>
+    <string name="cancel_birthday_selection">გაუქმება</string>
+    <string name="edit_name_title">სახელი</string>
+    <string name="location_empty_title">უცნობი</string>
+
+    <string name="description_title">აღწერა</string>
+
+    <string name="profile_updated_success">პროფილი წარმატებით განახლდა</string>
+
+    <string name="topics_empty_title">არცერთი თემა არ არჩეულია</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">ენები</string>
+    <string name="languages_empty_title">არც ერთი ენა არ არჩეულია</string>
+    <string name="profile_add_language">ენის დამატება</string>
+    <string name="profile_select_language">ენის არჩევა</string>
+    <string name="profile_select_proficiency">არჩევა უნარიანობა</string>
+    <string name="add_language_select">შეარჩიეთ</string>
+    <string name="add_language_cancel">გაუქმება</string>
+    <string name="gender_title">სქესი</string>
+</resources>

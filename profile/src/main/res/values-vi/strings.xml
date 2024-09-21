@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Chọn</string>
+    <string name="cancel_birthday_selection">Hủy bỏ</string>
+    <string name="edit_name_title">Tên</string>
+    <string name="location_empty_title">Chưa xác định</string>
+
+    <string name="description_title">Mô tả</string>
+
+    <string name="profile_updated_success">Hồ sơ đã được cập nhật thành công</string>
+
+    <string name="topics_empty_title">Không chọn chủ đề</string>
+    <string name="topics_title">Sở thích</string>
+
+    <string name="languages_title">Ngôn ngữ</string>
+    <string name="languages_empty_title">Không chọn ngôn ngữ</string>
+    <string name="profile_add_language">Thêm ngôn ngữ</string>
+    <string name="profile_select_language">Chọn ngôn ngữ</string>
+    <string name="profile_select_proficiency">Chọn trình độ chuyên môn</string>
+    <string name="add_language_select">Chọn</string>
+    <string name="add_language_cancel">Hủy bỏ</string>
+    <string name="gender_title">Giới tính</string>
+</resources>

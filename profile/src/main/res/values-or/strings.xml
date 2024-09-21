@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ବାଛନ୍ତୁ</string>
+    <string name="cancel_birthday_selection">ରদ্দ କରନ୍ତୁ</string>
+    <string name="edit_name_title">ନାମ</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">ବର୍ଣ୍ଣନା</string>
+
+    <string name="profile_updated_success">ପ୍ରୋଫାଇଲ ସଫଳଭାବେ ଅପଡେଟ୍ କରାଯାଇଛି।</string>
+
+    <string name="topics_empty_title">କୋଣଜାତି ବିଷୟ ନିର୍ବାଚିତ ହେଉନାହି।</string>
+    <string name="topics_title">ଆକର୍ଷଣାର୍ହ ବିଷୟଗୁଡିକୁଣୀ ସ୍ୱାନ୍ତା</string>
+
+    <string name="languages_title">ଭାଷାଗୁଡ଼ିକରୁ  ଅନୁବାଦ କରନ୍ତି</string>
+    <string name="languages_empty_title">କୋଣି ଭାଷା ନିବନ୍ଧିତ ହେଉନାହି ନଥିଲେ ।</string>
+    <string name="profile_add_language">ଭাষା ଯୋଡ଼ନ୍ତୁ</string>
+    <string name="profile_select_language">ଭାଷା ବାଛନା କରନ୍ତୁ।</string>
+    <string name="profile_select_proficiency">ପରିସ୍କରତା ବାଛନା କରନ୍ତୁ।</string>
+    <string name="add_language_select">ଚୟন କରନ୍ତୁ</string>
+    <string name="add_language_cancel">ରद्द କରेलେ।</string>
+    <string name="gender_title">ଲିଂଗ</string>
+</resources>

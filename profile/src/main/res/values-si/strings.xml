@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">තෙවන තෝරන්න</string>
+    <string name="cancel_birthday_selection">අවලංගු කරන්න</string>
+    <string name="edit_name_title">නම</string>
+    <string name="location_empty_title">අධීක්ෂීය</string>
+
+    <string name="description_title">විස්තරය</string>
+
+    <string name="profile_updated_success">විශේෂිතම උපකාරක සංඛ්‍යා උඅංශයේ යාවත්කාලින කරන ලදි</string>
+
+    <string name="topics_empty_title">කිසිවක් තෝරා නොමැත</string>
+    <string name="topics_title">ප්‍රවේශයන්</string>
+
+    <string name="languages_title">භාෂාවන්</string>
+    <string name="languages_empty_title">නිවෙස තෝරා නොමැත</string>
+    <string name="profile_add_language">භාෂා එක් කරන්න</string>
+    <string name="profile_select_language">භාෂා තෝරන්න</string>
+    <string name="profile_select_proficiency">ප්‍රසාදරය තෝරන්න</string>
+    <string name="add_language_select">තීරණ කරන්න.</string>
+    <string name="add_language_cancel">අවල්ප කරන්න</string>
+    <string name="gender_title">ස්තූතිය</string>
+</resources>

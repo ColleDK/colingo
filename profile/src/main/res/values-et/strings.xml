@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Vali</string>
+    <string name="cancel_birthday_selection">Tühistada</string>
+    <string name="edit_name_title">Nimi</string>
+    <string name="location_empty_title">Määramata</string>
+
+    <string name="description_title">Kirjeldus</string>
+
+    <string name="profile_updated_success">Profiil edukalt värskendatud</string>
+
+    <string name="topics_empty_title">Valitud teemasid pole</string>
+    <string name="topics_title">Huvid</string>
+
+    <string name="languages_title">Keeled</string>
+    <string name="languages_empty_title">Ühtki keelt pole valitud</string>
+    <string name="profile_add_language">Lisa keel</string>
+    <string name="profile_select_language">Valige keel</string>
+    <string name="profile_select_proficiency">Valige oskustase</string>
+    <string name="add_language_select">Vali</string>
+    <string name="add_language_cancel">Tühistada</string>
+    <string name="gender_title">Sugu</string>
+</resources>

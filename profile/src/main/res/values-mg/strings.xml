@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Fidio hoentina</string>
+    <string name="cancel_birthday_selection">Feno!</string>
+    <string name="edit_name_title">Anarana</string>
+    <string name="location_empty_title">Tsiahivina.</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">Profil voasoratra tsara ihany</string>
+
+    <string name="topics_empty_title">Tsy nisy lohany voafaritra</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Hahaingoahan\'ny hafatra: Hafatraoko.</string>
+    <string name="languages_empty_title">Tsy misy fiteny voalohany voafaritra</string>
+    <string name="profile_add_language">Amboarina ny fiteny</string>
+    <string name="profile_select_language">Fidio ny fiteny</string>
+    <string name="profile_select_proficiency">Select proficiency</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Fanelanelana</string>
+    <string name="gender_title">Mpivarotra</string>
+</resources>

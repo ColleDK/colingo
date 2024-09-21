@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Khetha</string>
+    <string name="cancel_birthday_selection">Khanselwa</string>
+    <string name="edit_name_title">Igama</string>
+    <string name="location_empty_title">Ok</string>
+
+    <string name="description_title">Incazelo</string>
+
+    <string name="profile_updated_success">I-Profile yayibuyekeza ngempumelelo</string>
+
+    <string name="topics_empty_title">Akekho amathemu okhethiwe</string>
+    <string name="topics_title">Ukubukeza</string>
+
+    <string name="languages_title">Izilimi</string>
+    <string name="languages_empty_title">Awekho amagama akhethwa</string>
+    <string name="profile_add_language">Faka ulimi</string>
+    <string name="profile_select_language">Khetha ulimi</string>
+    <string name="profile_select_proficiency">Khetha ukubaluleka</string>
+    <string name="add_language_select">Khetha</string>
+    <string name="add_language_cancel">Khansela</string>
+    <string name="gender_title">Isifundo</string>
+</resources>

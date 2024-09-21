@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Fa\'amalie atu</string>
+    <string name="cancel_birthday_selection">Fa\'afesootai</string>
+    <string name="edit_name_title">Igoa</string>
+    <string name="location_empty_title">E leai se fa\'ailoa</string>
+
+    <string name="description_title">Fa\'ailoga</string>
+
+    <string name="profile_updated_success">\'O le faamatalaga ua fesoasoani i le fa\'alilolilo\'</string>
+
+    <string name="topics_empty_title">Talanoa e le tauāvale i taimi lea</string>
+    <string name="topics_title">Mafaufau</string>
+
+    <string name="languages_title">Gagana</string>
+    <string name="languages_empty_title">Talitonu: E leai ni gagana na filifili solo</string>
+    <string name="profile_add_language">Fa\'afou le gagana</string>
+    <string name="profile_select_language">Fa\'afesiligia le gagana</string>
+    <string name="profile_select_proficiency">Filifili i le au lelei</string>
+    <string name="add_language_select">Filifili</string>
+    <string name="add_language_cancel">Fa\'amalie atu</string>
+    <string name="gender_title">Tamaoaiga</string>
+</resources>

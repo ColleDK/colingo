@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Họrọ</string>
+    <string name="cancel_birthday_selection">Ọchaa</string>
+    <string name="edit_name_title">Aha</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">Ntụrụọrụ</string>
+
+    <string name="profile_updated_success">Profile ekenyere onye dị iche ịdabere gị ahụ.</string>
+
+    <string name="topics_empty_title">Ọ dịghị oké ọdụ mmepụta.</string>
+    <string name="topics_title">Ndi mmadu afọ n\'aka.</string>
+
+    <string name="languages_title">Oguguagu</string>
+    <string name="languages_empty_title">ỌDỊGHỊ AHỤ ỊSỊ ASỤSỤ ANYAJI.</string>
+    <string name="profile_add_language">Tinyere asụsụ</string>
+    <string name="profile_select_language">Họrọ asụsụ</string>
+    <string name="profile_select_proficiency">Họrọ n\'etitiari</string>
+    <string name="add_language_select">Họrọ</string>
+    <string name="add_language_cancel">Faedụgi</string>
+    <string name="gender_title">Nwataụlọala.</string>
+</resources>

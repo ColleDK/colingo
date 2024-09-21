@@ -16,7 +16,7 @@
     <string name="login_password_hint">Пароль</string>
     <string name="login_forgot_password">Забули пароль\?</string>
     <string name="login_login_btn">Увійти</string>
-    <string name="login_go_to_signup_1">Text to translate: Don\\'t have an account yet\?</string>
+    <string name="login_go_to_signup_1">Text to translate: Don\'t have an account yet\?</string>
     <string name="login_go_to_signup_2">Зареєструватися</string>
     <string name="login_reset_password">Скинути пароль</string>
 

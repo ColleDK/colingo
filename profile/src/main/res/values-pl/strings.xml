@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Wybierz</string>
+    <string name="cancel_birthday_selection">Anuluj</string>
+    <string name="edit_name_title">Nazwa</string>
+    <string name="location_empty_title">Nieokreślony</string>
+
+    <string name="description_title">Opis</string>
+
+    <string name="profile_updated_success">Profil został pomyślnie zaktualizowany.</string>
+
+    <string name="topics_empty_title">Nie wybrano żadnych tematów</string>
+    <string name="topics_title">Zainteresowania</string>
+
+    <string name="languages_title">Języki</string>
+    <string name="languages_empty_title">Brak wybranych języków</string>
+    <string name="profile_add_language">Dodaj język</string>
+    <string name="profile_select_language">Wybierz język</string>
+    <string name="profile_select_proficiency">Wybierz poziom zaawansowania</string>
+    <string name="add_language_select">Wybierz</string>
+    <string name="add_language_cancel">Anuluj</string>
+    <string name="gender_title">Płeć</string>
+</resources>

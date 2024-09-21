@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Выбраць</string>
+    <string name="cancel_birthday_selection">Адмежаваць</string>
+    <string name="edit_name_title">Імя</string>
+    <string name="location_empty_title">Ня апісана</string>
+
+    <string name="description_title">Апісанне</string>
+
+    <string name="profile_updated_success">Профіль успяшна абноўлены.</string>
+
+    <string name="topics_empty_title">Абраныя тэмы адсутнічаюць</string>
+    <string name="topics_title">Інтарэсы</string>
+
+    <string name="languages_title">Мовы</string>
+    <string name="languages_empty_title">Мовы не выбраны</string>
+    <string name="profile_add_language">Дадаць мову</string>
+    <string name="profile_select_language">Выбраць мову</string>
+    <string name="profile_select_proficiency">Выберыце умікальнасць</string>
+    <string name="add_language_select">Выбраць</string>
+    <string name="add_language_cancel">Адмежаваць</string>
+    <string name="gender_title">Статьчасці</string>
+</resources>

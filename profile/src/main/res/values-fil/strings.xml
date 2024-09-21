@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pumili</string>
+    <string name="cancel_birthday_selection">Kanselahin</string>
+    <string name="edit_name_title">Pangalan</string>
+    <string name="location_empty_title">Hindi tinukoy</string>
+
+    <string name="description_title">Deskripsyon</string>
+
+    <string name="profile_updated_success">Profile matagumpay na na-update</string>
+
+    <string name="topics_empty_title">Walang napiling mga paksa</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Wika</string>
+    <string name="languages_empty_title">Walang piniling wika</string>
+    <string name="profile_add_language">Idagdag ang wika</string>
+    <string name="profile_select_language">Pumili ng wika</string>
+    <string name="profile_select_proficiency">Pumili ng kasanayan</string>
+    <string name="add_language_select">Pumili</string>
+    <string name="add_language_cancel">Kanselahin</string>
+    <string name="gender_title">Kasarian</string>
+</resources>

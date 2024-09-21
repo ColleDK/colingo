@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Tanlang</string>
+    <string name="cancel_birthday_selection">Bekor qilish.</string>
+    <string name="edit_name_title">Ism</string>
+    <string name="location_empty_title">Belgilanmagan</string>
+
+    <string name="description_title">Tavsif</string>
+
+    <string name="profile_updated_success">Profil muvaffaqiyatli yangilandi</string>
+
+    <string name="topics_empty_title">Mavzular tanlanmagan</string>
+    <string name="topics_title">Qiziqtirganliklar</string>
+
+    <string name="languages_title">Tillar</string>
+    <string name="languages_empty_title">Tanlangan tillar yo\'q</string>
+    <string name="profile_add_language">Til qo\'shish</string>
+    <string name="profile_select_language">Tilni tanlang</string>
+    <string name="profile_select_proficiency">Kiritish darajasini tanlang.</string>
+    <string name="add_language_select">Tanlash</string>
+    <string name="add_language_cancel">Bekor qilish</string>
+    <string name="gender_title">Jins</string>
+</resources>

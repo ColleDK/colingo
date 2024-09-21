@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Select</string>
+    <string name="cancel_birthday_selection">Anulare</string>
+    <string name="edit_name_title">Nume</string>
+    <string name="location_empty_title">Nespecificat</string>
+
+    <string name="description_title">Descriere</string>
+
+    <string name="profile_updated_success">Profilul a fost actualizat cu succes.</string>
+
+    <string name="topics_empty_title">Niciun tema selectată</string>
+    <string name="topics_title">Interese</string>
+
+    <string name="languages_title">Limbi</string>
+    <string name="languages_empty_title">Nicio limbă selectată</string>
+    <string name="profile_add_language">Adauga limba</string>
+    <string name="profile_select_language">Selectați limba</string>
+    <string name="profile_select_proficiency">Selectați competențele</string>
+    <string name="add_language_select">Select</string>
+    <string name="add_language_cancel">Anulare</string>
+    <string name="gender_title">Gen.</string>
+</resources>

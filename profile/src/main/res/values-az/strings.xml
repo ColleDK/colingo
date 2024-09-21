@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Seçmek</string>
+    <string name="cancel_birthday_selection">Ləğv etmek</string>
+    <string name="edit_name_title">Ad</string>
+    <string name="location_empty_title">Spesifik olmayan</string>
+
+    <string name="description_title">Təsvir</string>
+
+    <string name="profile_updated_success">Profil uğurla yeniləndi</string>
+
+    <string name="topics_empty_title">Mövzular seçilməyib</string>
+    <string name="topics_title">Maraqlar</string>
+
+    <string name="languages_title">Dillər</string>
+    <string name="languages_empty_title">Seçilməmiş dillər</string>
+    <string name="profile_add_language">Dil əlavə etmek</string>
+    <string name="profile_select_language">Dil seçin</string>
+    <string name="profile_select_proficiency">Bilik səviyyəsini seçin</string>
+    <string name="add_language_select">Seçmek</string>
+    <string name="add_language_cancel">Ləğv etmek</string>
+    <string name="gender_title">Cins</string>
+</resources>

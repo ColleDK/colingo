@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Roghnaigh</string>
+    <string name="cancel_birthday_selection">Cealaigh</string>
+    <string name="edit_name_title">Ainm</string>
+    <string name="location_empty_title">Neamhshainithe</string>
+
+    <string name="description_title">Cur síos</string>
+
+    <string name="profile_updated_success">Proifíl nuashonraithe go rathúil</string>
+
+    <string name="topics_empty_title">Gan ábhar roghnaithe</string>
+    <string name="topics_title">Leasanna</string>
+
+    <string name="languages_title">Teangacha</string>
+    <string name="languages_empty_title">Teangaí gan tionlacan</string>
+    <string name="profile_add_language">Cuir teanga</string>
+    <string name="profile_select_language">Roghnaigh teanga</string>
+    <string name="profile_select_proficiency">Roghnaigh saineolas</string>
+    <string name="add_language_select">Roghnaigh</string>
+    <string name="add_language_cancel">Cealaigh</string>
+    <string name="gender_title">GnéAS</string>
+</resources>

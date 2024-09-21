@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Hautatu</string>
+    <string name="cancel_birthday_selection">Utzi</string>
+    <string name="edit_name_title">Izena</string>
+    <string name="location_empty_title">Zehaztugabe</string>
+
+    <string name="description_title">Deskribapena</string>
+
+    <string name="profile_updated_success">Profila ongi eguneratu da</string>
+
+    <string name="topics_empty_title">Aukeratu ez dauden gaia</string>
+    <string name="topics_title">Interesak</string>
+
+    <string name="languages_title">Hizkuntzak</string>
+    <string name="languages_empty_title">Ez dago hizkuntzarik hautatu</string>
+    <string name="profile_add_language">Gehitu hizkuntza</string>
+    <string name="profile_select_language">Hautatu hizkuntza</string>
+    <string name="profile_select_proficiency">Aukeratu trebetasuna</string>
+    <string name="add_language_select">Hautatu</string>
+    <string name="add_language_cancel">Utzi</string>
+    <string name="gender_title">Sexua wGenderrilaritza</string>
+</resources>

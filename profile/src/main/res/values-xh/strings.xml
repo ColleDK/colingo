@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Khetha</string>
+    <string name="cancel_birthday_selection">Yala</string>
+    <string name="edit_name_title">Igama</string>
+    <string name="location_empty_title">Hlumela ubanzi</string>
+
+    <string name="description_title">Izaci.</string>
+
+    <string name="profile_updated_success">Iphrofayili iyasebenza ngokuqinisekileyo sidlulela</string>
+
+    <string name="topics_empty_title">Akekho amaqela ekhethiwe.</string>
+    <string name="topics_title">Iimfuneko</string>
+
+    <string name="languages_title">Languages</string>
+    <string name="languages_empty_title">Akukho izilimi ezixhunyiwe</string>
+    <string name="profile_add_language">Faka ulwimi</string>
+    <string name="profile_select_language">Khetha ulwimi</string>
+    <string name="profile_select_proficiency">Khetha umangalelio.</string>
+    <string name="add_language_select">Khetha</string>
+    <string name="add_language_cancel">Khanselwa</string>
+    <string name="gender_title">Isidima</string>
+</resources>

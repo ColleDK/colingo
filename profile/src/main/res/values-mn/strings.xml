@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Сонгох</string>
+    <string name="cancel_birthday_selection">Цуцлах</string>
+    <string name="edit_name_title">Нэр</string>
+    <string name="location_empty_title">Тодорхойлоогүй</string>
+
+    <string name="description_title">Тайлбар</string>
+
+    <string name="profile_updated_success">Профайл амжилттай шинэчлэгдлээ.</string>
+
+    <string name="topics_empty_title">Сонгосон сэдвүүд алга</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Хэлсийнхэн.</string>
+    <string name="languages_empty_title">Сонгосон хэл сонгогдоогүй</string>
+    <string name="profile_add_language">Хэл нэмэх</string>
+    <string name="profile_select_language">Хэл сонгох</string>
+    <string name="profile_select_proficiency">Түвшин сонгох</string>
+    <string name="add_language_select">Сонгох</string>
+    <string name="add_language_cancel">Цуцлах</string>
+    <string name="gender_title">Хүйс</string>
+</resources>

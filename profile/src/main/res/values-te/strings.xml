@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ఎంచుకోండి</string>
+    <string name="cancel_birthday_selection">రద్దు చేయండి</string>
+    <string name="edit_name_title">పేరు</string>
+    <string name="location_empty_title">స్పష్టీకరితము లేదు</string>
+
+    <string name="description_title">వివరణ</string>
+
+    <string name="profile_updated_success">ప్రొఫైల్ విజయవంతంగా అప్‌డేట్ చేయబడింది</string>
+
+    <string name="topics_empty_title">ఎవరూ విషయాలను ఎంచుకోలేదు లేదు</string>
+    <string name="topics_title">ఆకర్షణలు</string>
+
+    <string name="languages_title">భాషలు</string>
+    <string name="languages_empty_title">భాషలు ఎంచడం లేదు</string>
+    <string name="profile_add_language">భాష జోడించండి</string>
+    <string name="profile_select_language">భాషను ఎంచుకోండి</string>
+    <string name="profile_select_proficiency">నేర్పుకోండి నిపుణతా</string>
+    <string name="add_language_select">ఎంచుకోండి</string>
+    <string name="add_language_cancel">రద్దు చేయండి</string>
+    <string name="gender_title">లింగం</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">چُنو</string>
+    <string name="cancel_birthday_selection">Cancel</string>
+    <string name="edit_name_title">نالو</string>
+    <string name="location_empty_title">Unspecified</string>
+
+    <string name="description_title">شرح</string>
+
+    <string name="profile_updated_success">پروفائل بہترین طریق سے اپ ڈیٹ ٿيل  ٿيليل ٿو ٍ ٿيلارف (baseUrl) سڪسيسفيٽ ٿيليل ٿو ٍ</string>
+
+    <string name="topics_empty_title">No topics selected</string>
+    <string name="topics_title">مفاد</string>
+
+    <string name="languages_title">زباننُ</string>
+    <string name="languages_empty_title">انتخاب ٿيل ڄا ٻولين نٿايل</string>
+    <string name="profile_add_language">زبان شامل ڪريو</string>
+    <string name="profile_select_language">ٺبو چنڊائيو</string>
+    <string name="profile_select_proficiency">پنھنجي مهارت چونڌيو</string>
+    <string name="add_language_select">انتخاب ڪريو</string>
+    <string name="add_language_cancel">رد کريو</string>
+    <string name="gender_title">جنس</string>
+</resources>

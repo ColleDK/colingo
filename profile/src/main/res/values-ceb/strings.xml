@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Pili-a</string>
+    <string name="cancel_birthday_selection">Kanselahon</string>
+    <string name="edit_name_title">Pangalan</string>
+    <string name="location_empty_title">Wala\'y gisultihan</string>
+
+    <string name="description_title">Deskripsyon</string>
+
+    <string name="profile_updated_success">Profile nga nai-update nga maayo</string>
+
+    <string name="topics_empty_title">Wala\'y mga topics nga gipili</string>
+    <string name="topics_title">Interests</string>
+
+    <string name="languages_title">Languages</string>
+    <string name="languages_empty_title">Wala\'y pinili nga mga pinulongan.</string>
+    <string name="profile_add_language">Idugang ang pinulongan</string>
+    <string name="profile_select_language">Pili-a ang lengguwahe</string>
+    <string name="profile_select_proficiency">Pili-a ang abilidad</string>
+    <string name="add_language_select">Pili-a</string>
+    <string name="add_language_cancel">Kanselahon</string>
+    <string name="gender_title">Gender</string>
+</resources>

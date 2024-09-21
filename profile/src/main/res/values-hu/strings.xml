@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">Válassz</string>
+    <string name="cancel_birthday_selection">Mégse</string>
+    <string name="edit_name_title">Név</string>
+    <string name="location_empty_title">Nincs megadva</string>
+
+    <string name="description_title">Leírás</string>
+
+    <string name="profile_updated_success">Profil sikeresen frissítve</string>
+
+    <string name="topics_empty_title">Nincs kiválasztott téma</string>
+    <string name="topics_title">Érdeklődési körök</string>
+
+    <string name="languages_title">Nyelvek</string>
+    <string name="languages_empty_title">Nincs kiválasztva nyelv.</string>
+    <string name="profile_add_language">Nyelv hozzáadása</string>
+    <string name="profile_select_language">Válassz nyelvet</string>
+    <string name="profile_select_proficiency">Válassza ki a szakértelmet.</string>
+    <string name="add_language_select">Válassz</string>
+    <string name="add_language_cancel">Mégse</string>
+    <string name="gender_title">Nemek</string>
+</resources>

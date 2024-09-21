@@ -1,0 +1,22 @@
+<resources>
+    <string name="select_new_birthday">ເລືອກ</string>
+    <string name="cancel_birthday_selection">ຍົກເລີກ</string>
+    <string name="edit_name_title">ຊື່</string>
+    <string name="location_empty_title">ບໍ່ລໍ້ລະບຸ</string>
+
+    <string name="description_title">Description</string>
+
+    <string name="profile_updated_success">ໂປດບັນທຶກປັບປຸງສົບຜົນສຳເລັດ ສຳລັບໜ້າຂຽນຂໍ້ມູນ</string>
+
+    <string name="topics_empty_title">ບໍ່ມີຫົວຂໍ້ທີ່ເລືອກແລ້ວ</string>
+    <string name="topics_title">ການ​ຢືມເປັນສິດ</string>
+
+    <string name="languages_title">ພາສາ</string>
+    <string name="languages_empty_title">ບໍ່ເລືອກພາສາເວັv</string>
+    <string name="profile_add_language">ເພີ່ມພາສາ</string>
+    <string name="profile_select_language">ເລືອກພາສາ</string>
+    <string name="profile_select_proficiency">ເລືອກຄລິບບຣາວ</string>
+    <string name="add_language_select">ເລືອກ</string>
+    <string name="add_language_cancel">ຍົກເລີກ</string>
+    <string name="gender_title">ເພດ</string>
+</resources>
