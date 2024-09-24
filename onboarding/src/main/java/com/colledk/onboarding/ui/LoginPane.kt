@@ -94,6 +94,7 @@ internal fun LoginPane(
         FillOrMinHeight(minHeight = 24.dp)
         Image(
             painter = painterResource(id = R.drawable.world),
+            modifier = Modifier.fillMaxWidth(),
             contentDescription = null // Not needed for talkback
         )
         Spacer(modifier = Modifier.height(24.dp))

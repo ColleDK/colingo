@@ -5,7 +5,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
@@ -33,6 +35,7 @@ internal fun ProfileSetup(
         FillOrMinHeight(minHeight = 24.dp)
         Image(
             painter = painterResource(id = R.drawable.world),
+            modifier = Modifier.fillMaxWidth(),
             contentDescription = null // Not needed for talkback
         )
         Spacer(modifier = Modifier.height(24.dp))
