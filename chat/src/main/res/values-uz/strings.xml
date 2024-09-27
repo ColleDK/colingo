@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise - bu Soʻngra tilini oʻrganadigan ispan tili oʻqituvchisidur!</string>
+    <string name="chatbot_gabriel_description">Gabriel Fransuz fotografiyachi, so\'zlar to\'plamingizni yaxshilashda yordam beradigan inson.</string>
+    <string name="chatbot_rakesh_description">Rakesh - bu hind talabalari so\'z zahra muammo qilishi mumkin.</string>
+    <string name="chatbot_evelyn_description">Evelyn - bu improvizatsiya deb yuritiladigan britaniyalik yozuvchi, sizga lug\'atni o\'stirishda yordam bera oladi!</string>
+    <string name="chatbot_ahsan_description">Ahsan arab tili dasturchisi, sizning so\'z zog\'imlaringizni oshirishda yordam berishi mumkin!</string>
+    <string name="chatbot_min_description">Min - sizning so\'z zambaringizni yaxshilashda yordam beradigan Xitoy fizikist.</string>
 </resources>

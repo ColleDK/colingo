@@ -12,7 +12,7 @@
     <string name="home_filters_oldest">Najstarší</string>
     <string name="home_filters_newest">Najnovšie</string>
     <string name="post_create_comment">Pridať komentár</string>
-    <string name="post_likes">Text to translate: %s sa páči.</string>
+    <string name="post_likes">%s sa páči.</string>
     <string name="post_comments">Komentáre: %s</string>
     <string name="post_no_comments_title">Žiadne odpovede zatiaľ</string>
     <string name="post_no_comments_subtitle">Buďte prvý, kto sa podelí o svoje myšlienky na túto príspevok.</string>

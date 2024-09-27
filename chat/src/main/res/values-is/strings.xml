@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise er spænskukennari sem getur hjálpað þér við að bæta orðaforðann þinn!</string>
+    <string name="chatbot_gabriel_description">Gabriel er franskur ljósmyndari sem getur hjálpað þér með að bæta orðaforðann þinn!</string>
+    <string name="chatbot_rakesh_description">Rakesh er indverskur háskólanemi sem getur hjálpað þér við að bæta orðaforðann þinn!</string>
+    <string name="chatbot_evelyn_description">Evelyn er breskur leikskáld sem getur hjálpað þér við að bæta orðaforðann þinn!</string>
+    <string name="chatbot_ahsan_description">Ahsan er arabískur hugbúnaðargerðamaður sem getur hjálpað þér að bæta orðaforða þinn!</string>
+    <string name="chatbot_min_description">Min er kinverskur eðlisfræðingur sem getur hjálpað þér við að bæta orðaforða þinn!</string>
 </resources>

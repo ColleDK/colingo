@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise adalah seorang guru bahasa Spanyol yang bisa membantu Anda meningkatkan kosakata!</string>
+    <string name="chatbot_gabriel_description">Gabriel adalah seorang fotografer Prancis yang dapat membantu Anda meningkatkan kosakata Anda!</string>
+    <string name="chatbot_rakesh_description">Rakesh adalah seorang mahasiswa universitas asal India yang dapat membantu Anda meningkatkan kosakata Anda!</string>
+    <string name="chatbot_evelyn_description">Evelyn adalah seorang penulis drama asal Inggris yang dapat membantu Anda meningkatkan kosakata!</string>
+    <string name="chatbot_ahsan_description">Ahsan adalah seorang pengembang perangkat lunak asal Arab yang dapat membantu Anda meningkatkan kosa kata Anda!</string>
+    <string name="chatbot_min_description">Min adalah seorang fisikawan Tionghoa yang dapat membantu Anda meningkatkan kosakata Anda!</string>
 </resources>

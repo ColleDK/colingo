@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Pamēģiniet atjaunināt savus filtrus, lai atrastu vairāk lietotāju.</string>
 
     <string name="community_filters_limit">Izvēlies līdz %d valodām, no kurām vēlies redzēt cilvēkus, kuri to pārzina brīvi.</string>
-    <string name="community_filters_selected">Teksts tulkojumam: %d/%d atlasīti</string>
+    <string name="community_filters_selected">%d/%d atlasīti</string>
     <string name="community_filters_clear">Notīrīt filtres</string>
     <string name="community_filters_your_languages">Jūsu pašreizējās valodas</string>
 

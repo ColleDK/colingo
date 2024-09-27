@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">لوئیز یک معلم اسپانیایی است که می‌تواند به شما در بهبود دایره واژگانتان کمک کند!</string>
+    <string name="chatbot_gabriel_description">Gabriel یک عکاس فرانسوی است که می‌تواند به شما در بهبود دایره واژگان کمک کند!</string>
+    <string name="chatbot_rakesh_description">راکش، دانشجوی دانشگاه هندی است که می‌تواند به شما در بهبود دایره لغات کمک کند!</string>
+    <string name="chatbot_evelyn_description">Evelyn یک نویسنده تئاتر بریتانیایی است که می‌تواند به شما در بهبود دایره واژگان کمک کند!</string>
+    <string name="chatbot_ahsan_description">Ahsan یک توسعه دهنده نرم افزار عربی است که می تواند به شما کمک کند تا دایره واژگان خود را بهبود ببخشید!</string>
+    <string name="chatbot_min_description">Min یک فیزیکدان چینی است که می‌تواند به شما در بهبود دایره واژگانتان کمک کند!</string>
 </resources>

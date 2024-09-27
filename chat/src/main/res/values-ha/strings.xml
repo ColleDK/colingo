@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ta shi ne mai kafa kasar Spain wanda ya taimaka maka tare da ratsa rubutu na kai!</string>
+    <string name="chatbot_gabriel_description">Gabriel wani mutum mai suna na Faransa wanda ya iya taimaka maka da inganta rubuce-rubucen ka!</string>
+    <string name="chatbot_rakesh_description">Rakesh shine dalibai ne daga Indiya da zai taimaka maka tare da tsayar da kalmomin ka!</string>
+    <string name="chatbot_evelyn_description">Evelyn itace jaridar manyan bincike ta Birtaniya da ke taimakawa maka ga cikakkun kalmomin da kake so!</string>
+    <string name="chatbot_ahsan_description">Ahsan shi ne wanda ya fi kwaso da fasaha kamar yadda zaka samu ku taimakawa a harshe da kuma kasancewar alwalin ku!</string>
+    <string name="chatbot_min_description">Min, wadda ke fasaha na kwallo a China, ta iya taimakonka tare da sake zama da rubutattun ka!</string>
 </resources>

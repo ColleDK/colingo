@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ir spāņu valodas skolotāja, kas var palīdzēt jums uzlabot savu vārdu krājumu!</string>
+    <string name="chatbot_gabriel_description">Gabriel ir franču fotogrāfs, kas var palīdzēt jums uzlabot savu vārdu krājumu!</string>
+    <string name="chatbot_rakesh_description">Rakeshs ir Indijas universitātes students, kas var palīdzēt uzlabot jūsu vārdu krājumu!</string>
+    <string name="chatbot_evelyn_description">Evelyn ir britu lugu autore, kas var palīdzēt jums uzlabot savu vārdu krājumu!</string>
+    <string name="chatbot_ahsan_description">Ahsan ir arābu programmētājs, kas var palīdzēt Jums uzlabot savu vārdu krājumu!</string>
+    <string name="chatbot_min_description">Min ir ķīniešu fizikis, kas var palīdzēt jums uzlabot savu vārdu krājumu!</string>
 </resources>

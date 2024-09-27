@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise on espanjan opettaja, joka voi auttaa sinua sanavaraston parantamisessa!</string>
+    <string name="chatbot_gabriel_description">Gabriel on ranskalainen valokuvaaja, joka voi auttaa sinua parantamaan sanavarastoasi!</string>
+    <string name="chatbot_rakesh_description">Rakesh on intialainen yliopisto-opiskelija, joka voi auttaa sinua laajentamaan sanavarastoasi!</string>
+    <string name="chatbot_evelyn_description">Evelyn on brittiläinen näytelmäkirjailija, joka voi auttaa sinua kehittämään sanavarastoasi!</string>
+    <string name="chatbot_ahsan_description">Ahsan on arabialainen ohjelmistokehittäjä, joka voi auttaa sinua laajentamaan sanavarastoasi!</string>
+    <string name="chatbot_min_description">Min on kiinalainen fyysikko, joka voi auttaa sinua sanavaraston parantamisessa!</string>
 </resources>

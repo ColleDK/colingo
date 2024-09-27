@@ -15,7 +15,7 @@
     <string name="topic_reading">Lexim</string>
     <string name="topic_science">Shkencë</string>
     <string name="topic_sports">Sporte</string>
-    <string name="topic_swimming">Not Translation: Swimming</string>
+    <string name="topic_swimming">Swimming</string>
     <string name="topic_technology">Teknologjia</string>
     <string name="topic_videogame">Lojëra Video</string>
 </resources>

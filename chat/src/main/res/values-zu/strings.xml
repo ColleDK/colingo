@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise nguMfundisi wesi-Spanish oyenza ukusiza ukwazi ukuthi uhambe kahle kwezilimi zakho!</string>
+    <string name="chatbot_gabriel_description">Gabriel ngumfotografa waseFrance oyakusiza ekubonakaliseni isici sakho sokwazi vocabulary!</string>
+    <string name="chatbot_rakesh_description">Rakesh ngumfundi wase-Indiya eyunivesithi ozakusiza ukuthi uthole ukwazi okusezingeni eliphezulu kwezilimi zakho!</string>
+    <string name="chatbot_evelyn_description">Evelyn ungukuhlonishwa obhizinisi obekwaBhritisini okuthandaza ukusiza wena ekwenzeni ukuphuhlisiwe kwesici kamesisindo sakho!</string>
+    <string name="chatbot_ahsan_description">Ahsan ungumthengisi wezenzela i-Software yeArabic okuyakusiza ekunqobeni kwesikhululo sakho!</string>
+    <string name="chatbot_min_description">Min ungumhloli wase-China ozakusiza ekuphucula ukusetshenziswa kwakho kwesichazamazwi!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Луиза - испанский учитель, который поможет вам улучшить свой словарный запас!</string>
+    <string name="chatbot_gabriel_description">Габриэль - французский фотограф, который может помочь вам с расширением вашего словарного запаса!</string>
+    <string name="chatbot_rakesh_description">Rakesh - индийский университетский студент, который может помочь вам улучшить свой словарный запас!</string>
+    <string name="chatbot_evelyn_description">Evelyn - британская драматург, которая может помочь вам улучшить ваш словарный запас!</string>
+    <string name="chatbot_ahsan_description">Ahsan - арабский разработчик программного обеспечения, который поможет вам улучшить свой словарный запас!</string>
+    <string name="chatbot_min_description">Мин - китайский физик, который может помочь вам с расширением вашего словарного запаса!</string>
 </resources>

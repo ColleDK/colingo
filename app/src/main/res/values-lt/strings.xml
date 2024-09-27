@@ -30,7 +30,7 @@
     <string name="settings_theming_title">Temos ir spalvos</string>
     <string name="settings_about_page_title">Apie programėlę</string>
     <string name="settings_about_page_description1">Colingo yra atviro kodo bendruomenės kurta kalbų mainų platforma, sukurtą Colle/William.</string>
-    <string name="settings_about_page_description2">Tekstas versti: Mes siekiame būti kuo atviriausi ir aiškiausi visame programoje, todėl ją palaikome atvirą.</string>
+    <string name="settings_about_page_description2">Mes siekiame būti kuo atviriausi ir aiškiausi visame programoje, todėl ją palaikome atvirą.</string>
     <string name="settings_about_page_description3">Visos vertimai programėlėje atliekami dirbtinio intelekto pagalba, todėl gali būti vertimų klaidų - jei ką nors pastebėjote, prašome pranešti apie tai skirtuke „Pranešti apie klaidą“.</string>
     <string name="settings_about_page_contact">Jei turite kokių nors klausimų ar pasiūlymų dėl programėlės, galite susisiekti su mumis čia:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>

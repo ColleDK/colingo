@@ -24,7 +24,7 @@
     <string name="signup_title">Registriĝi</string>
     <string name="signup_subtitle">Kreu vian konton</string>
     <string name="signup_name_hint">Nomo</string>
-    <string name="signup_email_hint">Teksto por traduki: Retpoŝto</string>
+    <string name="signup_email_hint">Retpoŝto</string>
     <string name="signup_password_hint">Pasvorto</string>
     <string name="signup_confirm_password_hint">Konfirmi pasvorton</string>
     <string name="signup_signup_btn">Registriĝi</string>

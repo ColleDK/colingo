@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise iku guru Basa Spanyol sing iso nglebokake sampeyan supaya bisa ngembangaké kosakata sampeyan!</string>
+    <string name="chatbot_gabriel_description">Gabriel iku juru potret saka Prancis sing bisa nulung sampeyan ngembangaké kosakata!</string>
+    <string name="chatbot_rakesh_description">Rakesh iku mahasiswa universitas saka India sing bisa nulung sampeyan mejengakake kosakata!</string>
+    <string name="chatbot_evelyn_description">Evelyn iku punika penulis drama saka Inggris sing bisa nuladani sampeyan kanggo ngandhepi kosakata sampeyan!</string>
+    <string name="chatbot_ahsan_description">Ahsan iku juru kembang piranti lunak Arab sing bisa nulung sampeyan ndamel perbendaharaan kosa kata!</string>
+    <string name="chatbot_min_description">Min iku fisikawan Gunung sing bisa nulung sampeyan ngandhepi peningkatan kosa kata!</string>
 </resources>

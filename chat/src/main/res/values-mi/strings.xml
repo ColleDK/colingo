@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise he kaiako reo Pāniora e āwhina ana i a koe ki te whakapai ake i tō rerenga kōrero!</string>
+    <string name="chatbot_gabriel_description">Gabriel he kaiwhakaahua huri noa i te Peretania e āwhina ana i a koe ki te whakapai ake i tōu kupu!</string>
+    <string name="chatbot_rakesh_description">Rakesh he akonga nui o Te Whare Wānanga o Inia e āwhina ana i a koe ki te whakapai ake i tō whakamoemiti!</string>
+    <string name="chatbot_evelyn_description">Evelyn he kaitito Britenara ka āwhina i a koe ki te whakapai i tō āhua kōrero!</string>
+    <string name="chatbot_ahsan_description">Ahsan is an Arabic kaiwhakaputa pūmanawa here that can help you with improving your vocabulary!</string>
+    <string name="chatbot_min_description">Min he tangata Papatuanuku no Haina, ka āwhina i a koe ki te whakapai i tō mātou kupu!</string>
 </resources>

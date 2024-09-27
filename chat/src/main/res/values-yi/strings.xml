@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise iz a Spanyolish lererin vos ken eich helfn mit oyfhoybn eier vokabular!</string>
+    <string name="chatbot_gabriel_description">Gabriel iz a franzeyzisher fotograf vos ken helfen dir mit bessern dayn verterbuch!</string>
+    <string name="chatbot_rakesh_description">Rakesh iz an indisher universitet student vos ken helfn dir mit ferbesern dayn vortschatz!</string>
+    <string name="chatbot_evelyn_description">Evelyn iz a britisher shpil shrayber vos ken dir helfn mitn bessern fun dayn vortschatz!</string>
+    <string name="chatbot_ahsan_description">Ahsan iz a arabisher software entveykler vos ken helfn dir mit farbesserung fun dayn vokabular!</string>
+    <string name="chatbot_min_description">Min iz a chinazisher fiziker vos ken dir helfn mit verbesserung dayn vortschatz!</string>
 </resources>

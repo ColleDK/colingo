@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise mamostekeke Spaniyayî ye ku bi te re dikare alfabeya te baş bike!</string>
+    <string name="chatbot_gabriel_description">Gabriel هۆنەرمەندی فەڕەنسیە کە دەتوانێت بە سەرپەرشتیی باسی زانینت پێغەمبەر بكات!</string>
+    <string name="chatbot_rakesh_description">Rakesh, yek xwendekarê zanîngeha Hindî ye ku dikare ji we re alfabeya xwe pêşkêş bike!</string>
+    <string name="chatbot_evelyn_description">Evelyn یەکەم خوێندکەری بریتانیاییە کە دەتوانێت بە کەمکردنی وەشانەکانت لەدژیەکانیت کەیەکە بەرهەم بکات!</string>
+    <string name="chatbot_ahsan_description">Ahsan خوێندکارێكی كوردی ئەستێرە كە دەتوانێت بە بەرزكردنی وەسەری زانیارییت کەمك بكات!</string>
+    <string name="chatbot_min_description">Min ژیانی فیزیکی کیناییە کە مامۆستای تایبەتیت بە به‌رزکردنی وەشانی خۆت!</string>
 </resources>

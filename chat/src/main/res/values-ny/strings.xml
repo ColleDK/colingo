@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ndi wosankha wamaspaniya amene angakusankhile kukulolani ndi kusintha zolankhula zanu!</string>
+    <string name="chatbot_gabriel_description">Gabriel ndi mwamunthu wosamva wa mfotografi wosapemphera wolakwika!</string>
+    <string name="chatbot_rakesh_description">Rakesh ndi wosankha waukulu wa maopsa ku yowa waku India amene angakusankhile kusanthula mawu anu!</string>
+    <string name="chatbot_evelyn_description">Evelyn ndi woyankhula wa Uingereza amene angakusamalira kuwoneka ndi kukulowetsa kusakhala tsopano!</string>
+    <string name="chatbot_ahsan_description">Ahsan ndi wamkugwiritsa ntchito mawonekedwe a software wachilamulo waku Arabu amene angakusangalatseni ndi kupangitsa bwinobwino mawu ako a chidziwitso!</string>
+    <string name="chatbot_min_description">Min ndi wachitsanzo wokonza vokabulari yanu!</string>
 </resources>

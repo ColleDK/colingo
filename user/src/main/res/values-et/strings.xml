@@ -12,10 +12,10 @@
     <string name="topic_music">Muusika</string>
     <string name="topic_painting">Maalimine</string>
     <string name="topic_physics">Füüsika</string>
-    <string name="topic_reading">Tekst tõlkimiseks: Lugemine</string>
+    <string name="topic_reading">Lugemine</string>
     <string name="topic_science">Teadus</string>
     <string name="topic_sports">Spordi</string>
     <string name="topic_swimming">Ujumine</string>
-    <string name="topic_technology">Text to translate: Technology</string>
+    <string name="topic_technology">Technology</string>
     <string name="topic_videogame">Videomängud</string>
 </resources>

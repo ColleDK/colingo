@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise he kumu ʻōlelo Pelekani e kōkua aku ana iā ʻoe ma ka hoʻomaikaʻi i kou ʻikepili!</string>
+    <string name="chatbot_gabriel_description">ʻO Gabriel ke kiʻi ʻōlelo Palani e kōkua ana iāʻoe ma ke kākoʻo i kou leʻaleʻa ʻana ma ka ʻimi i ʻōlelo hou!</string>
+    <string name="chatbot_rakesh_description">‘O Rakesh kekahi haumāna ʻo ‘India nāna e kōkua iā ʻoe me ka hoʻopuka ʻana i kou hulahula! ‘OK’</string>
+    <string name="chatbot_evelyn_description">Evelyn ʻo Evelyn he kākau inoa Kanakarita nāna e kōkua iāʻoe me ka hoʻonui ʻana i kou leʻaleʻaʻana!</string>
+    <string name="chatbot_ahsan_description">Ahsan kekahi makamua hiki ke kanaka hana lapa\'au ʻo ia i ka huahana a ʻoluʻolu aku i kāu ʻōlelo!</string>
+    <string name="chatbot_min_description">Min ke kālai i ka \'ikepili no kou \"papa\'ākau,\" \'pili I ka po\'e Kanaka ma ka \'Ayina Kina.</string>
 </resources>

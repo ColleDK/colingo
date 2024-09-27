@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise se yon pwofesè espayòl ki ka ede ou amelyore vokabilè ou!</string>
+    <string name="chatbot_gabriel_description">Gabriel se yon fotograf franse ki ka ede ou amelyore vokabilè ou a!</string>
+    <string name="chatbot_rakesh_description">Rakesh se yon etidyan endyen nan inivèsite ki kapab ede ou amelyore vokabilè ou an!</string>
+    <string name="chatbot_evelyn_description">Evelyn se yon ekriven teyat Angle ki ka ede ou amelyore vokabilè ou!</string>
+    <string name="chatbot_ahsan_description">Ahsan se yon devlopè lojisyel Arab ki ka ede ou avèk amelyore vokabilè ou!</string>
+    <string name="chatbot_min_description">Min se yon fizisyen chanwaz ki ka ede ou amelyore vokabilè ou a!</string>
 </resources>

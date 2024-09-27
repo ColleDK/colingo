@@ -13,7 +13,7 @@
     <string name="chats_empty_description">T\u0027uu ta tú̲ tu̲nga̲ ne ma ha ndu̲hmu, tu̲wa mu̲ngui ho̲ñe na ja ya.</string>
 
     <string name="chats_delete_title">Rr\'ue mba\'hí.</string>
-    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone!</string>
+    <string name="chats_delete_subtitle">This action cannot be undone!</string>
     <string name="chats_delete_confirm">OK</string>
     <string name="chats_delete_cancel">Ts\'ai.</string>
     <string name="chats_delete_success">T\'app mpo ya̲mi ya̲mfo nä\'ä.</string>
@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise iyo̲t\'e español ne \'me̲ dá däts\'i̲ ya tsa̲ da stimular ar pesa̲\' yo\', pe \'bu̲i pa da däts\'i̲ ne ar nä\'ä ar tu\'i̲.</string>
+    <string name="chatbot_gabriel_description">Gabriel hi jarho̲ dí francés nteje ngä\'me̲ dá gutho u ho ar hnehe nä\'ä nsa̲ ku ta̲ ra ya̲!</string>
+    <string name="chatbot_rakesh_description">Rakesh diri otí mii naha mba̲ti ma universidad ti ne Hindú ne ti na̲de da ne mejora i vocabulario!</string>
+    <string name="chatbot_evelyn_description">Evelyn ng\'ot\'yo nguthií Treasury iingo inglés rímni yo tami irá nthenga ndo xi ánka ra nthára mo xi ngä\'ä.</string>
+    <string name="chatbot_ahsan_description">Ahsan ngeni mba\'mbi ya ngamberi wa software sahu kutame ka ayudarte purhéhéri ngasenó ri vocabulario.</string>
+    <string name="chatbot_min_description">Min k\'a tóngló xiuhcātlaló ni rina xothothó nde ñumí rnahño da nt\'axnahño nja tíndiro!</string>
 </resources>

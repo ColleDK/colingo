@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">టెక్స్ట్ అనువాదం: లూయిస్ ఒక స్పానిష్ ఉపాధ్యాయుడు, మీ శబ్దావలిని మెరుగుపరచడంలో మద్దతు చేయగలడు!</string>
+    <string name="chatbot_gabriel_description">అనువాదం: Gabriel ఒక ఫ్రెంచ్ ఫోటోగ్రాఫరు, మీ నిఘంటువన్నూ పెంపొందే సహాయం చేయగలిగేవాడు!</string>
+    <string name="chatbot_rakesh_description">Rakesh ఒక భారతీయ విద్యార్థి యొక్క పదపురగను మెరుగుపరచడము మద్భావంగా ఉంటాడు!</string>
+    <string name="chatbot_evelyn_description">Evelyn ఒక బ్రిటిష్ నాటక రచయిత అయినా మీ శబ్దాలను మెరుగుపరచడానికి సహాయపడుతుంది!</string>
+    <string name="chatbot_ahsan_description">ఆహ్సన్ ఒక అరబిక్ సాఫ్ట్‌వేర్ డెవలపర్ మరియు మీ నిఘంటువును మెరుగుపరచడంలో మద్దతు చేయగలదు!</string>
+    <string name="chatbot_min_description">మిన్ ఒక చైనీస్ భౌతజ్ఞుడు మీ శబ్దావలిని మెరుగుపరచడంలో సహాయపడగలిగా!</string>
 </resources>

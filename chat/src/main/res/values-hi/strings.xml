@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">लुईज़ एक स्पेनिश शिक्षक है जो आपको अपने शब्दावली में सुधार करने में मदद कर सकती है!</string>
+    <string name="chatbot_gabriel_description">गैब्रियल एक फ्रेंच फोटोग्राफर है जो आपको अपने शब्दावली में सुधार करने में मदद कर सकता है!</string>
+    <string name="chatbot_rakesh_description">राकेश एक भारतीय विश्वविद्यालय का छात्र है जो आपको अपने शब्दावली में सुधार करने में मदद कर सकता है!</string>
+    <string name="chatbot_evelyn_description">इवलिन एक ब्रिटिश नाटक लेखिका है जो आपको शब्दावली में सुधार करने में मदद कर सकती है!</string>
+    <string name="chatbot_ahsan_description">Ahsan एक अरबी सॉफ़्टवेयर डेवलपर है जो आपकी शब्दावली में सुधार करने में मदद कर सकता है!</string>
+    <string name="chatbot_min_description">मिन एक चीनी भौतिकविद है जो आपकी शब्दावली में सुधार करने में मदद कर सकता है!</string>
 </resources>

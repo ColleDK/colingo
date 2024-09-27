@@ -30,7 +30,7 @@
     <string name="settings_theming_title"><![CDATA[Theming & kuluri]]></string>
     <string name="settings_about_page_title">Fuq l-applikazzjoni</string>
     <string name="settings_about_page_description1">Colingo huwa piattaforma ta\' skambju ta\' lingwi magħmula minn komunità ta\' sors miftuħa li ġiet żviluppata minn Colle/William.</string>
-    <string name="settings_about_page_description2">Test li għandu jiġi tradott: Issa aħna ngħixu biex inkunu xhierga u wiesgħa dwar kollox fil-app, għalhekk inżommuha open-source.</string>
+    <string name="settings_about_page_description2">Issa aħna ngħixu biex inkunu xhierga u wiesgħa dwar kollox fil-app, għalhekk inżommuha open-source.</string>
     <string name="settings_about_page_description3">It-transazzjonijiet kollha fi l-app huma mgħammlin minn AI u għalhekk jista\' jkun hemm żbalji fil-ħerq - jekk tara xi wieħed ibgħat irrapporta fih fil-panewl ta\' \\"Irrapporta żball\\".</string>
     <string name="settings_about_page_contact">Jekk għandek xi kwistjonijiet jew suggerimenti għall-app, tista\' tikkomunika magħna fuq:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>

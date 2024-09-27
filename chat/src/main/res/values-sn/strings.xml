@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ndiwechidikitwa cheSpanish anogona kukusaidza kubvumira mhando yako!</string>
+    <string name="chatbot_gabriel_description">Gabriel ndiye mupoto reFrench anogona kukubatsira kuendesa zvichida kuburitsa mubatiso!</string>
+    <string name="chatbot_rakesh_description">Rakesh ndewekutanga wevadikaniko kana akadzungaira wako szvinzvimbo zvako!</string>
+    <string name="chatbot_evelyn_description">Evelyn ndiwe munyori waBritish wechiremba anokugadzirisa nekukusimudzirawo muvhabati wako!</string>
+    <string name="chatbot_ahsan_description">Ahsan ndiwo munyori wechisiyaratu yeArabu anokugadzira kuita zvakanakisisa vaviri venyu!</string>
+    <string name="chatbot_min_description">Min ndiye wemachina ngaari wezvaita zvako, anokutenderera kusarudza maitiro ako!</string>
 </resources>

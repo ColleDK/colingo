@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise เป็นครูสเปนที่ช่วยคุณในการปรับปรุงกว่างการศึกษาของคุณ!</string>
+    <string name="chatbot_gabriel_description">Gabriel เป็นช่างภาพชาวฝรั่งเศสที่สามารถช่วยคุณในการเพิ่มคำศัพท์ของคุณ!</string>
+    <string name="chatbot_rakesh_description">Rakesh เป็นนักศึกษามหาวิทยาลัยชาวอินเดียที่สามารถช่วยคุณในการเสริมคำศัพท์!</string>
+    <string name="chatbot_evelyn_description">Evelyn เป็นนักเขียนเรื่องเวทีชาวอังกฤษที่สามารถช่วยคุณในการปรับปรุงศัพท์ของคุณ!</string>
+    <string name="chatbot_ahsan_description">Ahsan เป็นนักพัฒนาซอฟต์แวร์ชาวอาหรับที่สามารถช่วยคุณในการเพิ่มคำศัพท์!</string>
+    <string name="chatbot_min_description">Min เป็นนักฟิสิกส์ชาวจีนที่สามารถช่วยคุณในการเพิ่มคำศัพท์ของคุณ!</string>
 </resources>

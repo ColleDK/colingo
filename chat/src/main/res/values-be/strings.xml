@@ -3,7 +3,7 @@
     <string name="date_today">Сёньня</string>
 
     <string name="members_page_title">Чаты</string>
-    <string name="bots_page_title">Тэкст для перакладу: Чат-боты</string>
+    <string name="bots_page_title">Чат-боты</string>
 
     <string name="chat_my_messages">Мае паведамленні</string>
     <string name="chat_empty_title">Пакуль няма паведамленняў</string>
@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise - іспанскі настаўнік, які можа дапамагчы ў палепшэнні вашага словазнаўства!</string>
+    <string name="chatbot_gabriel_description">Габрыель - французскі фатограф, які можа дапамагчы вам палепшыць ваш слоўнік!</string>
+    <string name="chatbot_rakesh_description">Ракеш - індыйскі студэнт універсітэта, які дапаможа вам палепшыць слоўнік!</string>
+    <string name="chatbot_evelyn_description">Эвелін - брытанскі драматург, які можа дапамагчы вам палепшыць словы!</string>
+    <string name="chatbot_ahsan_description">Ahsan - гэта арабскі распрацоўшчык праграмнага забеспячэння, які можа дапамагчы вам палепшыць слоўнік!</string>
+    <string name="chatbot_min_description">Мин - кітайскі фізік, які можа дапамагчы вам палепшыць ваш слоўнік!</string>
 </resources>

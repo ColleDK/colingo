@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ke mofumahali wa Sepanisheng ye ka kgothatsa ho fana ka ho kenya setso sa hao!</string>
+    <string name="chatbot_gabriel_description">Gabriel ke motographer ea Frence o ka o thusa ka ho fana ka lebelo la hao!</string>
+    <string name="chatbot_rakesh_description">Rakesh ke studenti sa universite ya India seo ka thusa ho hlokomela le ho fana ka maseru a hau!</string>
+    <string name="chatbot_evelyn_description">Evelyn ke mmasepeng wa Sekjepa sa bo-England ena ka ho o thusa ho fana ka ho kenya le ho tšehetsa mafoko a hao!</string>
+    <string name="chatbot_ahsan_description">Ahsan ke mongwe wa batho ba bang Araba o ka o thusa ka go hlokomela lekgotla la hao la vokabolari!</string>
+    <string name="chatbot_min_description">Min ke moetapele wa Tshaina ena o ka e thusa ka ho ntlafatsa lebitsong la hau!</string>
 </resources>

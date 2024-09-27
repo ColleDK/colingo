@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">தமிழில் மொழிபெயர்க்கை: லூயிஸ் உங்கள் சொற்பால் அப்படியான உதவி சொல்கினை மேம்படுத்தவாள்!</string>
+    <string name="chatbot_gabriel_description">Gabriel ஒரு பிரான்சு புகைப்பட உள்ளவர் இருக்கலாம் உங்கள் சொல்லாழ்த்து மேம்படுத்த உதவ முடியும்!</string>
+    <string name="chatbot_rakesh_description">Rakesh ஒரு இந்திய பல்கலைக்கழக மாணவர், உங்கள் சொற்கூற்றுக்கான உதவி செய்ய உள்ளார்!</string>
+    <string name="chatbot_evelyn_description">எவலின் ஒரு பிரித்தானிய நாட்டிய நாடகக் கடுந்த உரையுடன் உங்களுக்கு செம்ம சொற்களை கூட்டப்படுத்தல் உதவலாம்!</string>
+    <string name="chatbot_ahsan_description">அஹ்சான் ஒரு அரபு மென்பொருள் மேம்படுத்தல் உதவப்படும் பயன்பாட்டம் உள்ளவர்!</string>
+    <string name="chatbot_min_description">மின் ஒரு சீன பொருளியியானார் அவன் உங்கள் சொற்களை அழுவப்படுத்த  உள்ளது!</string>
 </resources>

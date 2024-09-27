@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise u k\'a\'abet le maestro Ts\'íibik utsil le Spaniol ti\' le yéetel tuláakal ts\'íibo\'obo\'!</string>
+    <string name="chatbot_gabriel_description">Kabriel u yáanal u fuxon francés ti ka j-ts\'ooniko\'obe le k\'áato\'ob ti\' le u ba\'ax ka táan in wíinkilo\'ob!</string>
+    <string name="chatbot_rakesh_description">Rakesh u k\'iinil ti\' India le ts\'íib-k\'i\'k\' ichil universidad le kaxtik túuniko\'ob ma\'alob k\'at ti\'al u much\'o\'ob!</string>
+    <string name="chatbot_evelyn_description">Evelyn wa\' mayj coh polbil le jóok\' británica yéetel u ts\'aak je\'el u táanal u k\'ajóolta le u polbil!</string>
+    <string name="chatbot_ahsan_description">Ahsan u óoltej le desenvolvedor utiaal árabe u software ti jump\'éel ka yéetel in wilunchaj ti\'an!</string>
+    <string name="chatbot_min_description">Min u kaxtej Chinese physicist xan beeytal ti\' u ba\'al le mejora ti\' u k\'íinil túun u ki\'ik\'el!</string>
 </resources>

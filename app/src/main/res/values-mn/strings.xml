@@ -11,7 +11,7 @@
     <string name="setting_notifications_title">Мэдэгдэл</string>
     <string name="setting_permissions_title">Зөвшөөрөлтүүд</string>
     <string name="setting_accessibility_title">Орчин товчилсон эрхийн боломжийн байршил</string>
-    <string name="setting_about_title">Хэрэглэгчийн текст: Тухай</string>
+    <string name="setting_about_title">Тухай</string>
     <string name="setting_rate_title">Апп-ийг үнэлэх</string>
     <string name="setting_report_title">Алдааны тайлан илгээх</string>
     <string name="setting_logout_title">Гарах</string>

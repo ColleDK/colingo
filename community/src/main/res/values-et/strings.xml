@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Proovige oma filtreid uuendada, et leida rohkem kasutajaid.</string>
 
     <string name="community_filters_limit">Valige kuni %d keelt, mida soovite näha emakeele tasemel kõnelejatena</string>
-    <string name="community_filters_selected">Tekst tõlkimiseks: %d/%d valitud</string>
+    <string name="community_filters_selected">%d/%d valitud</string>
     <string name="community_filters_clear">Tühjenda filtrid</string>
     <string name="community_filters_your_languages">Sinu hetkekeel(ed)</string>
 

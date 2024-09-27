@@ -1,7 +1,7 @@
 <resources>
     <!-- Topics -->
     <string name="topic_animals">Anụụbe</string>
-    <string name="topic_cooking">Igbo Translation: Ntụzi</string>
+    <string name="topic_cooking">Ntụzi</string>
     <string name="topic_theater">Okọọka</string>
     <string name="topic_partying">Ọbụghịanya</string>
     <string name="topic_biking">Ije okpochapụ nri</string>

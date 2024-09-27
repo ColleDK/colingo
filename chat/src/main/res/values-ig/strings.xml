@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise bụ onye akwụkwọ Asụsụ Spanị na-enye gị aka ijide ịmara n\'asụsụ gị!</string>
+    <string name="chatbot_gabriel_description">Gabriel bụ onye ọnụọgụ ugbua nke mmadụ bụ French na-eme ihe ịmalite gị n\'okike!</string>
+    <string name="chatbot_rakesh_description">Rakesh bụ onye ụlọ akụkọ ndị India nke nwere ike iji gbanwere ochichi gị!</string>
+    <string name="chatbot_evelyn_description">Evelyn bụ onye akwụkwɔ akwụkwọ Britanị na-eme ka ị chọrọ gị na-agba ihe nkọwapụsị isi gị!</string>
+    <string name="chatbot_ahsan_description">Ahsan bụ onye na-enye ogbugbu software nke Arabic na-akpọ iji gbalịa ihe ọ bụla na ịbịa vocabulary gị!</string>
+    <string name="chatbot_min_description">Min bụ onye edemede na-agbakọ iji gbalịa gụnyere gị aka n\'okwu!</string>
 </resources>

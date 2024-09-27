@@ -1,7 +1,7 @@
 <resources>
     <string name="explore_page_title">Finndu samstarfsaðila</string>
     <string name="community_page_title">Meðlimir</string>
-    <string name="chatbot_page_title">Text to translate: Chatbots</string>
+    <string name="chatbot_page_title">Chatbots</string>
     <string name="community_user_speaks">Talar</string>
     <string name="community_user_learns">Nám</string>
 

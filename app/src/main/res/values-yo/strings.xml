@@ -25,8 +25,7 @@
     <string name="setting_dynamic_theme">Ilu ti afihanimo.</string>
     <string name="setting_dark_theme">Asọ èdá_fun_iròwa</string>
 
-    <string name="settings_rate_app_page_title">Ohun to tẹ:
-Kọ Firanṣẹ Ọrọ应用程序评级</string>
+    <string name="settings_rate_app_page_title">应用程序评级</string>
     <string name="settings_switch_language_title">Fi ede aṣẹ pupọ</string>
     <string name="settings_theming_title"><![CDATA[Theming & awọn iro & awọn omi pupa.]]></string>
     <string name="settings_about_page_title">Tẹkẹsi wọle wa: Níbi ti àpẹkan</string>

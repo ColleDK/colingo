@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise er en spansk lærer, der kan hjælpe dig med at forbedre dit ordforråd!</string>
+    <string name="chatbot_gabriel_description">Gabriel er en fransk fotograf, der kan hjælpe dig med at forbedre dit ordforråd!</string>
+    <string name="chatbot_rakesh_description">Rakesh er en indisk universitetsstuderende, der kan hjælpe dig med at forbedre dit ordforråd!</string>
+    <string name="chatbot_evelyn_description">Evelyn er en britisk skuespilforfatter, der kan hjælpe dig med at forbedre dit ordforråd!</string>
+    <string name="chatbot_ahsan_description">Ahsan er en arabisk softwareudvikler, der kan hjælpe dig med at forbedre dit ordforråd!</string>
+    <string name="chatbot_min_description">Min er en kinesisk fysiker, der kan hjælpe dig med at forbedre dit ordforråd!</string>
 </resources>

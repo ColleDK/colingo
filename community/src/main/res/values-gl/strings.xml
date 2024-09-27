@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Tente actualizar os seus filtros para encontrar máis usuarios.</string>
 
     <string name="community_filters_limit">Escolle ata %d idiomas dos que queres ver falantes fluentes.</string>
-    <string name="community_filters_selected">Texto para traducir: %d/%d seleccionado.</string>
+    <string name="community_filters_selected">%d/%d seleccionado.</string>
     <string name="community_filters_clear">Limpar filtros</string>
     <string name="community_filters_your_languages">As túas linguas actuais.</string>
 

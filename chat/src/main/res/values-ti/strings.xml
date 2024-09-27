@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ዘለና ስፓንፒሽ ናይ። መጨረሻዊ ትምህርቲን ኣብዚ ምስ ኣብ ምኽፋብ ክፍትወን!</string>
+    <string name="chatbot_gabriel_description">ገብሪል ነብሊት ፈለጋዊ ምስል ኣየረብን። OK</string>
+    <string name="chatbot_rakesh_description">ራኬሽ ኢንድዮን አባላት ናት እናጠብቅልን ምስልን ክትንበይ እምዛለሁ!</string>
+    <string name="chatbot_evelyn_description">ክፋልይን እንኸእ እያ\'I ስሊተር እንስክመን ክፈሊሉ ዘለዊን ሕሳሩ ኣቐስኻ እዩ!</string>
+    <string name="chatbot_ahsan_description">ኣሻን ኣረብኛ አንታይ ኮይን ሳፍቅ ኣዩኒና እዩ ላኢ ዝጠቕሱ ቅስፍት ዝኾነበሩ ።</string>
+    <string name="chatbot_min_description">ምን ሜይን ኣሽንላለይ ኮንሽን ፋዕለይቲሽን እንተን ትምኒዮም እንተፈላለን!</string>
 </resources>

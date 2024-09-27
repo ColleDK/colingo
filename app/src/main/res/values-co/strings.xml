@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Clingo hè una piattaforma di scambia linguistico in cumunità aperta cuntribuita da a cumunità sviluppata da Colle/William.</string>
     <string name="settings_about_page_description2">Noi ci impegnamo à esse chjaru è francheddu nantu à tuttu cio chì si trova in l\'app, è per quessa ragione ch\'ella hè open-source.</string>
     <string name="settings_about_page_description3">Tutte e traduzzioni in l\'applicazione sò fatte da intelligenze artificiali è, perciò, ci pudè esse d\'erri in e traduzzioni - s\'aucà ne trovate una, vi priamìamu di rapurtalli in a \"Rapurtate un bug.\"</string>
-    <string name="settings_about_page_contact">Text da traduce: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Segnalà u bug.</string>

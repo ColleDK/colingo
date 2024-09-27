@@ -12,8 +12,8 @@
     <string name="home_filters_oldest">Eldste</string>
     <string name="home_filters_newest">Nyeste</string>
     <string name="post_create_comment">Legg til en kommentar</string>
-    <string name="post_likes">Tekst å oversette: %s liker</string>
-    <string name="post_comments">Tekst å oversette: %s kommentarer</string>
+    <string name="post_likes">%s liker</string>
+    <string name="post_comments">%s kommentarer</string>
     <string name="post_no_comments_title">Ingen svar ennå</string>
     <string name="post_no_comments_subtitle">Vær den første til å dele tankene dine om dette innlegget</string>
 

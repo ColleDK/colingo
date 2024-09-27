@@ -28,7 +28,7 @@
     <string name="settings_rate_app_page_title">Evaluu la aplikacon.</string>
     <string name="settings_switch_language_title">Ŝanĝi lingvon</string>
     <string name="settings_theming_title">Temoj kaj koloroj</string>
-    <string name="settings_about_page_title">Teksto por traduki: About the app</string>
+    <string name="settings_about_page_title">About the app</string>
     <string name="settings_about_page_description1">Colingo estas malfermita komunuma lingva interŝanĝa platformo, kiu estas evoluigita de Colle/William.</string>
     <string name="settings_about_page_description2">Ni celas esti tiel malfermaj kaj senmaskaj pri ĉio en la aplikaĵo, kial ni konservas ĝin malfermkoda.</string>
     <string name="settings_about_page_description3">Ĉiuj tradukoj en la aplikacio estas faritaj de AI-aj sistemoj, kaj tial eblas, ke eraroj okazas en la tradukoj - se vi iam trovas iun, bonvolu raporti ĝin en la \"Raporti eraron\" fenestro.</string>

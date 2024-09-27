@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise irakaslea da, zure hiztegia hobetzeko lagundu dezakeena!</string>
+    <string name="chatbot_gabriel_description">Gabriel da, frantziar argazkilari bat, eta lagundu dezake zure hizkuntzaren gaitasuna hobetzen.</string>
+    <string name="chatbot_rakesh_description">Rakesh Indiako unibertsitateko ikaslea da, zure hizkuntzak hobetzeko lagun izan dezake!</string>
+    <string name="chatbot_evelyn_description">Evelyn ingeles dramagile bat da, zure hizkuntza-bilera hobetzeko laguntzeko!</string>
+    <string name="chatbot_ahsan_description">Ahsan Arabiar software garatzailea da, zure hizkuntzak hobetzeko lagun izan dezake!</string>
+    <string name="chatbot_min_description">Min fisikaria da, Txinako batekoa, zuen hizkuntza-gaia hobetzeko lagun izan daitekeen fisikaria!</string>
 </resources>

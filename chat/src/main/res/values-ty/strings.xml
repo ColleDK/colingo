@@ -10,12 +10,10 @@
     <string name="chat_empty_description">Înī ra i te haere i roto i te tārava i te taua manihini iā hia here.</string>
 
     <string name="chats_empty_title">Aita tenei iā te hōhā noa hia ana.</string>
-    <string name="chats_empty_description">Text to translate: Once you\'ve started a new conversation, you\'ll see it listed here.
-Traduction: O te fàaitoitoi i te haá itetahi parau hou, e faanahoraa i nei.</string>
+    <string name="chats_empty_description">O te fàaitoitoi i te haá itetahi parau hou, e faanahoraa i nei.</string>
 
     <string name="chats_delete_title">Aore i te uira\'a</string>
-    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone!
-Translation in Tahitian: E faaito teie hana, hauhia ia noa!</string>
+    <string name="chats_delete_subtitle">E faaito teie hana, hauhia ia noa!</string>
     <string name="chats_delete_confirm">Confirm</string>
     <string name="chats_delete_cancel">Aore!</string>
     <string name="chats_delete_success">Faahiahia i te pee.</string>
@@ -25,4 +23,9 @@ Translation in Tahitian: E faaito teie hana, hauhia ia noa!</string>
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise e te faahanahana parau sipeini e ti\'a here iā \'oe i te ho\'oheno i to\'ou aso fa\'aparau!</string>
+    <string name="chatbot_gabriel_description">Gabriel, he French photographer, e haapiiraa i te faaroo i te haari i to oe parau!</string>
+    <string name="chatbot_rakesh_description">Rakesh he Tamuli université tahitien e, poerava i te vahi ia i te faahiti\'hia no\'ou i to\'ou perepere\'ia!</string>
+    <string name="chatbot_evelyn_description">Evelyn he play writer Britani no noa atu e te aida i te faaoraora atu i to oe maoio.</string>
+    <string name="chatbot_ahsan_description">Ahsan he atiariiei ite hotuputupu rahiaraa parau no oe!</string>
+    <string name="chatbot_min_description">Min, he Paitini poropiti Saina e haapii i ta outou perorea!</string>
 </resources>

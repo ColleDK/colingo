@@ -2,7 +2,7 @@
     <string name="chat_create_new">Looge uus vestlus</string>
     <string name="date_today">Täna</string>
 
-    <string name="members_page_title">Tekst tõlkimiseks: Vestlused</string>
+    <string name="members_page_title">Vestlused</string>
     <string name="bots_page_title">Boti jututoad</string>
 
     <string name="chat_my_messages">Minu sõnumid</string>
@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise on hispaania keele õpetaja, kes saab aidata sul oma sõnavara parandada!</string>
+    <string name="chatbot_gabriel_description">Gabriel on Prantsuse fotograaf, kes saab aidata sul oma sõnavara parandada!</string>
+    <string name="chatbot_rakesh_description">Rakesh on India ülikooli üliõpilane, kes saab sulle aidata sõnavara parandamisel!</string>
+    <string name="chatbot_evelyn_description">Evelyn on Briti näitekirjanik, kes saab aidata sul sõnavara parandamisel!</string>
+    <string name="chatbot_ahsan_description">Ahsan on araabia tarkvaraarendaja, kes saab aidata sul oma sõnavara parandada!</string>
+    <string name="chatbot_min_description">Min on hiina füüsik, kes saab sind aidata sõnavara parandamisel!</string>
 </resources>

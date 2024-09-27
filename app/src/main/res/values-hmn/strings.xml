@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">colingo</string>
-    <string name="destination_home_label">Ntawm daim ntawv no: Home</string>
+    <string name="destination_home_label">Home</string>
     <string name="destination_explore_label">Vav nyob rau hauv nkag kabmob</string>
     <string name="destination_chat_label">Chat</string>
     <string name="destination_profile_label">Profile</string>
@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Colingo yog ib qhov chaw open-source uas muaj kev pab cuam tau los sis txhawb nqa rau tus neeg txhais lus thiab txoj kev los sis nyob rau hauv kev pab cuam hauv Colle/William.</string>
     <string name="settings_about_page_description2">OK</string>
     <string name="settings_about_page_description3">Tus ntaub ntawv tom qab txb kuj pab kom yuav muaj AIs thiab yog nws yuav muaj kab mob li - yog nej to peb yuav tsum yog kab mob, thov hu rau nws nyob rau hauv tsav \\"Report a bug\\".</string>
-    <string name="settings_about_page_contact">Text to translate: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Rap suab nrog rau kev kiag pes.</string>

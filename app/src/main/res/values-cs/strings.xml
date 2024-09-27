@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Colingo je open-source platforma pro výměnu jazyků řízená komunitou, vyvinutá společností Colle/William.</string>
     <string name="settings_about_page_description2">Snažíme se být otevření a přímočaří ohledně všeho v aplikaci, proto ji udržujeme jako open-source.</string>
     <string name="settings_about_page_description3">Všechny překlady v aplikaci jsou prováděny umělou inteligencí, a proto mohou obsahovat chyby - pokud naleznete nějakou, prosím nahláste ji v panelu „Nahlásit chybu“.</string>
-    <string name="settings_about_page_contact">Text to translate: Pokud máte nějaké obavy nebo návrhy ohledně aplikace, můžete nás kontaktovat na:</string>
+    <string name="settings_about_page_contact">Pokud máte nějaké obavy nebo návrhy ohledně aplikace, můžete nás kontaktovat na:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Nahlásit chybu</string>

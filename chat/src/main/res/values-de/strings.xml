@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ist eine Spanischlehrerin, die Ihnen dabei helfen kann, Ihren Wortschatz zu verbessern!</string>
+    <string name="chatbot_gabriel_description">Gabriel ist ein französischer Fotograf, der Ihnen dabei helfen kann, Ihren Wortschatz zu verbessern!</string>
+    <string name="chatbot_rakesh_description">Rakesh ist ein indischer Universitätsstudent, der Ihnen dabei helfen kann, Ihren Wortschatz zu verbessern!</string>
+    <string name="chatbot_evelyn_description">Evelyn ist eine britische Dramatikerin, die Ihnen dabei helfen kann, Ihren Wortschatz zu verbessern!</string>
+    <string name="chatbot_ahsan_description">Ahsan ist ein arabischer Softwareentwickler, der Ihnen bei der Verbesserung Ihres Wortschatzes helfen kann!</string>
+    <string name="chatbot_min_description">Min ist ein chinesischer Physiker, der Ihnen dabei helfen kann, Ihren Wortschatz zu verbessern!</string>
 </resources>

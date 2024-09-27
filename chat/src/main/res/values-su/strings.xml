@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise nyaéta guru Spanyol anu tiasa nulungan anjeun ngarangkulan kosakata anjeun!</string>
+    <string name="chatbot_gabriel_description">Gabriel nyaéta juru potret Prancis anu tiasa ngabantosan anjeun pikeun ngahontal kosakata anjeun!</string>
+    <string name="chatbot_rakesh_description">Rakesh mangrupikeun mahasiswa universitas ti India anu tiasa ngabantosan anjeun pikeun ngabantosan ngaranggulkeun kosa kata anjeun!</string>
+    <string name="chatbot_evelyn_description">Evelyn nyaéta pangarang pangkawentar Britania nu tiasa ngabantosan anjeun pikeun ngabéréskeun kosa kata anjeun!</string>
+    <string name="chatbot_ahsan_description">Ahsan nyaéta hiji software developer arab nu tiasa ngabantosan anjeun dina ngagaduhan kosakata anjeun!</string>
+    <string name="chatbot_min_description">Min nyaéta fisikawan Cina nu tiasa ngabantoskeun anjeun pikeun ngabantoskeun kamampuan kosakata anjeun!</string>
 </resources>

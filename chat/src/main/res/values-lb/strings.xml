@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ass eng Spanesch Léierin, déi Iech hëllefen kann, Ären Wortschatz ze verbesseren!</string>
+    <string name="chatbot_gabriel_description">Gabriel ass en franséische Fotograf, dee Iech beim Verbesserung vun ärer Vokabeln hëllefen kann!</string>
+    <string name="chatbot_rakesh_description">Rakesh ass en indesche Universitésstudent, dee Iech mat der Verbesserung vun Ärem Wortschatz hëllefe kann!</string>
+    <string name="chatbot_evelyn_description">Evelyn ass eng britesch Theaterautorin, déi Iech beim Verbesseren Ärer Vokabeln kann hëllefen!</string>
+    <string name="chatbot_ahsan_description">Ahsan ass en Arabesch Software-Entwéckler, dee Iech bei der Verbesserung vun Ärem Wortschatz hëllefen kann!</string>
+    <string name="chatbot_min_description">Min ass en chineseschen Physiker, deen Iech kann hëllefen Ären Wortschatz ze verbesseren!</string>
 </resources>

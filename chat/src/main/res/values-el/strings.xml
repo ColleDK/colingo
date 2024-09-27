@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Η Louise είναι μια δάσκαλος Ισπανικών που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+    <string name="chatbot_gabriel_description">Ο Γαβριήλ είναι ένας Γάλλος φωτογράφος που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+    <string name="chatbot_rakesh_description">Ο Ρακέσ είναι Ινδός φοιτητής πανεπιστημίου που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+    <string name="chatbot_evelyn_description">Η Έβελιν είναι βρετανίδα θεατρική συγγραφέας που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+    <string name="chatbot_ahsan_description">Ο Ahsan είναι ένας αραβόφωνος προγραμματιστής λογισμικού που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
+    <string name="chatbot_min_description">Min είναι Κινέζος φυσικός που μπορεί να σας βοηθήσει να βελτιώσετε το λεξιλόγιό σας!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise是一位西班牙语老师，可以帮助您提高词汇量！</string>
+    <string name="chatbot_gabriel_description">Gabriel 是一位法国摄影师，可以帮助你提高词汇！</string>
+    <string name="chatbot_rakesh_description">Rakesh 是一名印度大学生，可以帮助您提高词汇量！</string>
+    <string name="chatbot_evelyn_description">Evelyn是一位英国剧作家，可以帮助您提高词汇量！</string>
+    <string name="chatbot_ahsan_description">Ahsan是一名阿拉伯软件开发者，可以帮助您提高词汇量！</string>
+    <string name="chatbot_min_description">Min是一位中国物理学家，可以帮助您提高词汇量！</string>
 </resources>

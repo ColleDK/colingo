@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ko e kau fakaSipeini na\'a nau fesoasoani ia koe ke fakamahino\'i ho\'o fatongia\'i!</string>
+    <string name="chatbot_gabriel_description">Gabriel ko e fōtōkāfa fakapālangi \'i he fepoto vahe taha \'o e lea \'e lava \'o feso\'ota\'i \'a e lisi \'oe launga \'i he lea! I (OK)</string>
+    <string name="chatbot_rakesh_description">Rakesh ko e taʻahine ʻinitia ʻa e fakatotolo fakamanatu ki he ʻenau ako haʻane fakakaukau!</string>
+    <string name="chatbot_evelyn_description">O Evelyn ko e tāneti ʻoku ʻi Pilitānia ne fakaʻofoʻofaʻi ʻa e lēsoni i hoʻo tuʻutuʻuniʻaʻa mo e ʻuluaki fakaʻōfā.</string>
+    <string name="chatbot_ahsan_description">\'Ahsan \'oku mo\'ui \'i \'Isipalekí na\'e faka\'i fakamo\'oni ʻa homau lea fakamatala!\'.</string>
+    <string name="chatbot_min_description">Min \'oku ha fika physika \'a Saina na\'e \'i ai ke nau fesoasoani ia \'oe mei he faingamalie \'o \'osi mo e lea fakaTongi!</string>
 </resources>

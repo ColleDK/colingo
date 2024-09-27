@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Si Louise ay isang guro ng Espanyol na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+    <string name="chatbot_gabriel_description">Si Gabriel ay isang litratista mula sa Pransiya na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+    <string name="chatbot_rakesh_description">Si Rakesh ay isang Indianong mag-aaral sa unibersidad na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+    <string name="chatbot_evelyn_description">Si Evelyn ay isang manunulat mula sa Britanya na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+    <string name="chatbot_ahsan_description">Si Ahsan ay isang developer ng software mula sa Arabia na makakatulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
+    <string name="chatbot_min_description">Si Min ay isang Tsino na pisikong maaaring tumulong sa iyo sa pagpapabuti ng iyong bokabularyo!</string>
 </resources>

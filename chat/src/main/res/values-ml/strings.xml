@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ഒരു സ്പാനിഷ് അധ്യാപികയാണ്, നിങ്ങളുടെ ശബ്ദാര്‍ഥം മൊഴിയുടെ മേളം ഉത്തരവാദിക്കാന്‍ സഹായിക്കാം!</string>
+    <string name="chatbot_gabriel_description">Gabriel ഒരു ഫ്രഞ്ച് ഫോട്ടോഗ്രഫരാണ്, നിങ്ങളുടെ ശബ്ദാവലി മൊത്തം ഉയർത്തുന്നതിലെന്ന് സഹായിക്കാം!</string>
+    <string name="chatbot_rakesh_description">Rakesh ഒരു ഇന്ത്യൻ യൂണിവേഴ്സിറ്റി വിദ്യാർത്ഥിയാണ്, നിങ്ങളുടെ ശബ്ദാര്‍ത്ഥങ്ങളുകൾ മൊഴിയിൽ പെരോക്കനാക്കുന്നതിലായി സഹായിക്കാം!</string>
+    <string name="chatbot_evelyn_description">Evelyn ഒരു ബ്രിട്ടിഷ് നാട് എഴുത്തുകാരിയാണ്, നിങ്ങളുടെ വ്യാകരണം പെരുക്കുന്നതിൽ സഹായിക്കാം!</string>
+    <string name="chatbot_ahsan_description">Ahsan ഒരു അറബിക് സോഫ്റ്റ്‌വെയർ ഡെവലപ്പർ ആണ്, നിങ്ങളുടെ ശബ്ദാര്‍ത്ഥം മൊത്തപ്പെടുത്താനും നിങ്ങളെ സഹായിക്കാനും ഉള്ളതും ആണ്!</string>
+    <string name="chatbot_min_description">മിൻ ഒരു ചൈനീസ് ഭൗതികശാസ്ത്രജ്ഞനാണ്, അവൻ നിങ്ങളുടെ ശബ്ദാര്‍ത്ഥം മേക്ക്ക് ചെയ്യാന്‍ സഹായിക്കാം!</string>
 </resources>

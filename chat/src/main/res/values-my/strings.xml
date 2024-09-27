@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">လူတိုင်းသည် သာ်အင်ပြင်ကို ပြင်ဆင်နိုင်ရန် အကူအညီ ရရှိနိုင်ပါသည်။</string>
+    <string name="chatbot_gabriel_description">Gabriel သည် ဝရန်ဒါ ဓာတ်ပုံနှင့် စကားလုံးတွေကို တွေ့ရတယ်။</string>
+    <string name="chatbot_rakesh_description">Rakesh သည်အိန္ဒိယနှင့် ဘယ်ရဲ့ စာသားကို ပြန်လည်စုံ အသုံးပြုပါသည်။</string>
+    <string name="chatbot_evelyn_description">Evelyn သည် vocabulary ကို တိုးတက်၍ သင့်အား အဆင့်မရှည်သူဖြစ်သည်ဖြင့် ထင်ရှားရေးသုံးရန်အကြားရိုး မောင်လို့သည်။</string>
+    <string name="chatbot_ahsan_description">အ်စန်ဆန်ကာပြတိန်တီနဲ့သင်ကိုသင်၏စာသားတွေကို ထောက်ခံရရှိနိုင်ပါတယ်!</string>
+    <string name="chatbot_min_description">Min ဆယ့်တရက်သားဖွားဖွယ်ခြင်းရှိသူဖြစ်သည်။ သင့်ရရှိနိုင်သည်။</string>
 </resources>

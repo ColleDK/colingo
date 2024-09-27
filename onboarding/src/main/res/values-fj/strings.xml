@@ -28,8 +28,7 @@
     <string name="signup_password_hint">Password</string>
     <string name="signup_confirm_password_hint">Vakadinata na kuita (“Confirm password”)</string>
     <string name="signup_signup_btn">Dauregister</string>
-    <string name="signup_go_to_login_1">Text to translate: Already have an account\?
-Sai koya mada e dua na akauni\?</string>
+    <string name="signup_go_to_login_1">Sai koya mada e dua na akauni\?</string>
     <string name="signup_go_to_login_2">Log in</string>
 
     <!-- Setup profile -->

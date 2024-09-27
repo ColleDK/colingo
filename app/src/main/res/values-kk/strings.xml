@@ -32,10 +32,10 @@
     <string name="settings_about_page_description1">Colingo - ашық кодты - ауылдық бойынша тіл алмасу платформасы, Colle/William арқылы дамыталады.</string>
     <string name="settings_about_page_description2">Мен қолданбада барлық неселер туралы ашық және белсенді болуға жатамыз, сондықтан оны ашық көзірек ретінде ұстаймыз.</string>
     <string name="settings_about_page_description3">Өтініш, арнайы кеңес бойынша, барлық алгебра программасы ішіндегі барлығы АИ-лер арқылы орындалады және сондай-ақ алдында терминдау қателіктері болуы мүмкін - егер сіз оларды көрген болсаңыз, оларды \\"Қате туралы хабарлау\\" кестесінде хабарласыңыз.</string>
-    <string name="settings_about_page_contact">Текстті аудару: Егер сізде бағалар немесе ұсыныстар болса, бізге хабарласу мүмкін:</string>
+    <string name="settings_about_page_contact">Егер сізде бағалар немесе ұсыныстар болса, бізге хабарласу мүмкін:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Қателерді есептеу</string>
-    <string name="settings_report_bug_title">Text to translate: Кең болу үшін, біз автоматты түрде құрғау ережелерін жинау үшін крек-толға тіркелушілерді тапкырлауымыз, бірақ егер сізде нұсқаулықтар табылған болса және бұздыңыз келсе, тогіс түрде бұг атты жіберу қажет болса, ақпаратты толтыру үшін форманы толтырыңыз.</string>
+    <string name="settings_report_bug_title">Кең болу үшін, біз автоматты түрде құрғау ережелерін жинау үшін крек-толға тіркелушілерді тапкырлауымыз, бірақ егер сізде нұсқаулықтар табылған болса және бұздыңыз келсе, тогіс түрде бұг атты жіберу қажет болса, ақпаратты толтыру үшін форманы толтырыңыз.</string>
     <string name="settings_report_bug_link" translatable="false">https://github.com/ColleDK/colingo/issues/new</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="topic_reading">Irakurketa</string>
     <string name="topic_science">Zientzia</string>
     <string name="topic_sports">Kirolak</string>
-    <string name="topic_swimming">Nahiz eta testua laburtzen, itzulpena zuzena eta argia izango da: Igerian</string>
+    <string name="topic_swimming">Igerian</string>
     <string name="topic_technology">Teknologia</string>
     <string name="topic_videogame">Bideojokoak.</string>
 </resources>

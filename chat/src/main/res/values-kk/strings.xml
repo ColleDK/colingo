@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise - бұл Спан тілі мұғалімі, соның арқасында сөз тариғыңызды жетілдіруде сізге көмек көрсете алады!</string>
+    <string name="chatbot_gabriel_description">Gabriel - француз фотограф, сізге сөз тармағанда көмек көрсете алады!</string>
+    <string name="chatbot_rakesh_description">Ракеш - бұл сіздің лексикасыңызды жақсартуға көмектесу арқылы Ұлттық университеттік оқушы.</string>
+    <string name="chatbot_evelyn_description">Evelyn - британиялық ойыншы - сіздің сөз тарығыңызды жетілдіруге көмектесе алады!</string>
+    <string name="chatbot_ahsan_description">Ahsan - бұл сіздің сөз тарныңызды жетілдіруде көмектесе араб программаларды дайындаушы!</string>
+    <string name="chatbot_min_description">Білімші Мин қазіргі сөзкешіңізді жетілдіруге көмектесе алады!</string>
 </resources>

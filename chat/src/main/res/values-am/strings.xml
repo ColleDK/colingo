@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ማንዳ ላሉት ምንድን ነው በጥንካሬ ወደዚህ ወደእርስዎ ትግበር ይላኩ!</string>
+    <string name="chatbot_gabriel_description">Gabriel ፡ እምነት ለምንም እርግጥ ለማንኛውም ቃል አስተካክል የሚባለው ፈንሲም ሴሩ ነው!</string>
+    <string name="chatbot_rakesh_description">ራኬሽ ኢንድያን የማስተማርያ ትምህርት ማዶ ᵢኰቲ ይብቃችን!</string>
+    <string name="chatbot_evelyn_description">ኤቪልን ብሪቴሽ ነው በቃለ ጉለልም ልጠብ ጊዜ ለማድረግ እናድርግ ይሆናል!</string>
+    <string name="chatbot_ahsan_description">እስክንድህ አሰፋዊ ማህበረሰብ አሁን እንደምስራችሁ እንዳለኸ።</string>
+    <string name="chatbot_min_description">ሚን የቻይን ፊዲስት ነው በቃላት እናገኛለን።</string>
 </resources>

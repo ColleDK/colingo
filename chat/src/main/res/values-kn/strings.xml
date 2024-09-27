@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ನುಡಿದಾರನಾಗಿ ನಿಮ್ಮ ಶಬ್ದಸಾಗರವನ್ನು ಸುಧಾರಿಸುವುದರಲ್ಲಿ ನೆರವು ನೀಡಬಲ್ಲ ಸ್ಪ್ಯಾನಿಷ್ ಶಿಕ್ಷಕ!</string>
+    <string name="chatbot_gabriel_description">ಗೆಬ್ರಿಯಲ್ ನೀಡುವ ಆಯ್ಕೇಯ ಚಿತ್ರಕಾರನಾಗಿದ್ದಾನೆ. ನಿಮ್ಮ ಶಬ್ದಾವಲಿ ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು!</string>
+    <string name="chatbot_rakesh_description">Rakesh ಭಾರತೀಯ ವಿಶ್ವವಿದ್ಯಾನಿಕಾಲೂ, ನಿಮ್ಮ ಶಬ್ದಾವಲಿ ಸುಧಾರಣೆಯಲ್ಲಿ ನೆರವೇರಿಸಬಲ್ಲವನು!</string>
+    <string name="chatbot_evelyn_description">ಅನುವಾದ: ಈವಲಿನ್ ನೀವು ನಿಮ್ಮ ಶಬ್ದಸಂಗ್ರಹವನ್ನು ಮೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದಾದ ಬ್ರಿಟಿಷ್ ನಾಟಕ ಲೇಖಕ.</string>
+    <string name="chatbot_ahsan_description">ಅಹ್ಸಾನ್ ಒಂದು ಅರಬಿ ಸಾಫ್ಟ್‌ವೇರ್ ಡೆವಲಪರ್ ಆಗಿದ್ದು, ನಿಮ್ಮ ಶಬ್ದಾರ್ಥವನ್ನು ಸುಧಾರಿಸುವಲ್ಲಿ ನೆರವೇರಿಸಬಹುದು!</string>
+    <string name="chatbot_min_description">Min ಒಬ್ಬ ಚೈನೀಸ್ ಭೌತಶಾಸ್ತ್ರಜ್ಞ. ನಿಮ್ಮ ಶಬ್ದಾರ್ಥಸೂಚಿಯನ್ನು ಮೆರೆಮಾಡಲು ಸಹಾಯ ಮಾಡಬಹುದು!</string>
 </resources>

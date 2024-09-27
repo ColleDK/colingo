@@ -28,7 +28,7 @@
     <string name="settings_rate_app_page_title">Rate app</string>
     <string name="settings_switch_language_title">Cov lus txhais lus saib xws li.</string>
     <string name="settings_theming_title"><![CDATA[Theming & colors]]></string>
-    <string name="settings_about_page_title">Text to translate: About the app</string>
+    <string name="settings_about_page_title">About the app</string>
     <string name="settings_about_page_description1">Colingo yog ib tus tswv yim ntawm cov neeg siv tawv nqai kom txhij peb hauv ib tug platform tswv yim tseem ceeb uas Colle/William muaj.</string>
     <string name="settings_about_page_description2">Yog peb yuav cuag neeg pib thaum hu ua app no, tom qab peb tsis tau mus ua app los sis.</string>
     <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>

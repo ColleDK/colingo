@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Спрабуйце абнавіць свае фільтры, каб знайсці больш карыстальнікаў.</string>
 
     <string name="community_filters_limit">Выберыце да %d мов, на якіх Вы хацелі бачыць асобы з толькім ведаем мовай</string>
-    <string name="community_filters_selected">Тэкст для перакладу: %d/%d выбрана(ы)</string>
+    <string name="community_filters_selected">%d/%d выбрана(ы)</string>
     <string name="community_filters_clear">Ачысціць фільтры</string>
     <string name="community_filters_your_languages">Вашы моўныя настройкі</string>
 

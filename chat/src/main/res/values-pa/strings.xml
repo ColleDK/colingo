@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ਇੱਕ ਸਪੈਨੀ ਅਧਿਆਪਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸ਼ਬਦਾਵਲੀ ਨੂੰ ਸੁਧਾਰਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ!</string>
+    <string name="chatbot_gabriel_description">Gabriel ik French tasveerkar hai joki tusi apni vocabulary nu sudharan vich madad kar sakda hai!</string>
+    <string name="chatbot_rakesh_description">Rakesh ik Hindustani university di student hai, jo tusiade shabadkosh nu behtar banan vich madad kar sakda hai!</string>
+    <string name="chatbot_evelyn_description">Evelyn ਇੱਕ ਬ੍ਰਿਟਿਸ਼ ਨਾਟਕ ਲੇਖਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸ਼ਬਦਕੋਸ਼ ਨੂੰ ਬਿਹਤਰ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ!</string>
+    <string name="chatbot_ahsan_description">ਅਹਸਨ ਇੱਕ ਅਰਬੀ ਸਾਫਟਵੇਅਰ ਡਵੈਲਪਰ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਵਿਸ਼ਵਾਸੀਆਂ ਨੂੰ ਸੁਧਾਰਣ ਵਿਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ!</string>
+    <string name="chatbot_min_description">ਮਿਨ ਇੱਕ ਚੀਨੀ ਭੌਤਿਕ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਤੁਹਾਡੇ ਸ਼ਬਦਾਵਲੀ ਨੂੰ ਸੁਧਾਰਨ ਵਿਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ!</string>
 </resources>

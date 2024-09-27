@@ -31,9 +31,7 @@
     <string name="settings_about_page_title">Om appen</string>
     <string name="settings_about_page_description1">Colingo er en åpen kildekode-drevet språkutvekslingsplattform utviklet av Colle/William.</string>
     <string name="settings_about_page_description2">Vi streber mot å være så åpne og ærlige om alt i appen, derfor holder vi den åpen kildekode.</string>
-    <string name="settings_about_page_description3">Tekst å oversette: All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \\"Report a bug\\" pane. 
-
-Alle oversettelser inne i appen er gjort av AI-er, og følgelig kan det forekomme oversettelsesfeil - hvis du finner noen, vennligst rapporter det i \\"Rapporter en feil\\"-delen.</string>
+    <string name="settings_about_page_description3">Alle oversettelser inne i appen er gjort av AI-er, og følgelig kan det forekomme oversettelsesfeil - hvis du finner noen, vennligst rapporter det i \\"Rapporter en feil\\"-delen.</string>
     <string name="settings_about_page_contact">Hvis du har noen bekymringer eller forslag til appen, kan du kontakte oss på:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
