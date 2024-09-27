@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Huna akaunti bado\?</string>
     <string name="login_go_to_signup_2">Jisajili</string>
     <string name="login_reset_password">Rekebisha nenosiri</string>
+    <string name="reset_password_sent">Barua pepe imepelekwa kwako na maelekezo ya kurejesha nenosiri lako. Tafadhali angalia kwenye spam-box yako ikiwa huwezi kuipata!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Sajili</string>

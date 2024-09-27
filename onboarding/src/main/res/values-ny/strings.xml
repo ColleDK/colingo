@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Sindikugwira ndi akawiri bwanji\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Sungani nyenyezi.</string>
+    <string name="reset_password_sent">Email yathu yachitira kutumiza kwa inu ndi malamulo angapo monga mukupeza ngati mutayikitsa password yanu. Chonde chenjeza spam-box panopa osadzitaya!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Tsopanofunga</string>

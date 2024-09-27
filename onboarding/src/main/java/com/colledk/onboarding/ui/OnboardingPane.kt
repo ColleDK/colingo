@@ -53,7 +53,6 @@ fun OnboardingPane(
     viewModel: OnboardingViewModel = hiltViewModel()
 ) {
     val login by viewModel.login.collectAsState(null)
-    val error by viewModel.error.collectAsState(null)
     val goToSetup by viewModel.goToProfileSetup.collectAsState(null)
     val resetPassword by viewModel.resetPasswordSuccess.collectAsState(null)
     val isLoggingIn by viewModel.isLoggingIn.collectAsState(false)
@@ -72,17 +71,10 @@ fun OnboardingPane(
         }
     }
 
-    LaunchedEffect(key1 = error) {
-        if (error != null) {
-            snackbarHostState.showSnackbar(
-                error?.localizedMessage ?: "Something went wrong. Please try again"
-            )
-        }
-    }
-
+    val resetSentText = stringResource(id = R.string.reset_password_sent)
     LaunchedEffect(key1 = resetPassword) {
         if (resetPassword != null) {
-            snackbarHostState.showSnackbar("An email has been sent to you with instructions on how to reset your password. Please check your spam-box if you cannot find it!")
+            snackbarHostState.showSnackbar(resetSentText)
         }
 
     }

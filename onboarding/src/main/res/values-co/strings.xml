@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Nò avè un contu ancor\'è\?</string>
     <string name="login_go_to_signup_2">Registrate</string>
     <string name="login_reset_password">Ripristina a parolla chiave</string>
+    <string name="reset_password_sent">Un\'email hè statu inviatu à voi cù istruzioni nantu à cum riscunnizzà a vostra parolla chiavu. Si prega di verificà u vostru spam-box s\'ellu ùn l\'aitate micca!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registra</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">E sega ni dua e dua na akauni e na gauna edaidai\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Vakaduria na cakacaka ni vakayagataki.</string>
+    <string name="reset_password_sent">Sa vakadonuya e dua na itauta ki kemuni e na emeli e vakarautaki kina me vakayacora na veivesuudre ni itokani. Vakavinakata ga mo vakayagataka na nomu lolo ni itokani ke sega ni kilai kina!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Daunimataka</string>

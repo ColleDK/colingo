@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Awunayo i-akhawunti na\?</string>
     <string name="login_go_to_signup_2">Bhalisa ndiye</string>
     <string name="login_reset_password">Bhunga ilizwe</string>
+    <string name="reset_password_sent">Uhlelo oluphepha lwabiwo kuwe olutshintshiswayo lwenziwe ukuze uthumelewe ipaswedi yakho. Nceda chaza ikhasi lakhowe ekhanana umkhiqizo!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Vula iingcaciso</string>

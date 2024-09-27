@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Hues nach keng Benotzerkont\?</string>
     <string name="login_go_to_signup_2">Reegistréiert Iech</string>
     <string name="login_reset_password">Zréckesett Passwuert</string>
+    <string name="reset_password_sent">En E-Mail gouf un dech geschéckt mat Anweisungen, wéi dech däin Passwuert zrécksetzen kanns. Schau an deng Spam-Box, wann dech net fënns!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registreieren</string>

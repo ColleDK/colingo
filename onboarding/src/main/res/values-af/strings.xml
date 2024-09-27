@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Het jy nog nie ŉ rekening nie\?</string>
     <string name="login_go_to_signup_2">Teken aan</string>
     <string name="login_reset_password">Stel wagwoord terug</string>
+    <string name="reset_password_sent">\'n E-pos is aan jou gestuur met instruksies oor hoe om jou wagwoord te herstel. As jy dit nie kan vind nie, kyk asseblief in jou spam-boks!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registreer</string>

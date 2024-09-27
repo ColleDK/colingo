@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Tsy misy kaonty ianao eto ambany\?</string>
     <string name="login_go_to_signup_2">Mamorona kaonty</string>
     <string name="login_reset_password">Famerenana tenimiafina</string>
+    <string name="reset_password_sent">Nisy mailaharana voasoratra anao nitory ny fangatahana mba hanavao ny tenimiafinao. Ampidino ny spam-box raha tsy mahita azy ianao!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Mifehy ny antontan-taratasy.</string>

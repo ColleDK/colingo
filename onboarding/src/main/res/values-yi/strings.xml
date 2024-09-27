@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">קיין קאָנט אָבער נאך ניט\?</string>
     <string name="login_go_to_signup_2">Register אריינשרייבן</string>
     <string name="login_reset_password">רעסעט פּאַראָל</string>
+    <string name="reset_password_sent">An email hot gevart tsu dir mit anleitungen vi di shtrieker iber derentyuung fun dayn loshn. Bitter check dayn spam-box az du zolst es nit gefinen!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registrieren</string>

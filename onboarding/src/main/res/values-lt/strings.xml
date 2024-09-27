@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Dar neturite paskyros\?</string>
     <string name="login_go_to_signup_2">Užsiregistruoti</string>
     <string name="login_reset_password">Nustatyti slaptažodį</string>
+    <string name="reset_password_sent">Jums išsiųstas el. laiškas su instrukcijomis, kaip atkurti slaptažodį. Patikrinkite šlamšto dėžutę, jei negalite rasti laiško!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registruotis</string>

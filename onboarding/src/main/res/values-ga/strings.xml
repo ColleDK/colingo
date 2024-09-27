@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Níl cuntas agat fós\?</string>
     <string name="login_go_to_signup_2">Cláraigh</string>
     <string name="login_reset_password">Athshocraigh focal faire</string>
+    <string name="reset_password_sent">Tá ríomhphost seolta chuig tú le treoracha faoi conas do phasfhocal a athshocrú. Seiceáil do liost spaim más nach bhfaigh tú é!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Cláraigh</string>

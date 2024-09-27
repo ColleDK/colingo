@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">还没有帐号吗？</string>
     <string name="login_go_to_signup_2">注册</string>
     <string name="login_reset_password">重置密码</string>
+    <string name="reset_password_sent">已向您发送了一封电子邮件，其中包含重设密码的说明。如果找不到，请检查您的垃圾邮箱！</string>
 
     <!-- Sign up -->
     <string name="signup_title">注册</string>

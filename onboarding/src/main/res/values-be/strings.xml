@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Не маеце акаўнта яшчэ\?</string>
     <string name="login_go_to_signup_2">Зарэгістравацца</string>
     <string name="login_reset_password">Скід пароля</string>
+    <string name="reset_password_sent">Email было выслана вам з інструкцыямі па скиданню пароля. Калі вы не можаце знайсці яго, калі ласка, праверце папку спаму!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Рэгістрацыя</string>

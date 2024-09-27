@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Одамон аз рӯзӣ хисоб доред\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Рамзи рӯзнома навстановить шавед</string>
+    <string name="reset_password_sent">Паёмалис, барои бақайдгирии ҳафзи рамз, нишонҳо ба шумо дар навишти электронӣ рақам шудаанд. Як тафтиш бакунед ва агар натавонед онро дар пӯчиҳои спам дар обро надоред!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Реестр</string>

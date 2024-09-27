@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ha u na akaretso ha ke sa tsebe\?</string>
     <string name="login_go_to_signup_2">Bala hoja.</string>
     <string name="login_reset_password">Kgerisitse mokokeli</string>
+    <string name="reset_password_sent">Leeto la imeile le letswa ho wena le maemo a ho fumana karolo ea hau. Ka kopo, hlokomela setsi sa spam hape o sa fumane!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

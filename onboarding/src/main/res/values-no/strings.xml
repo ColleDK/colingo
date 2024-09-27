@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Har du ikke en konto ennå\?</string>
     <string name="login_go_to_signup_2">Registrer deg</string>
     <string name="login_reset_password">Nullstill passord</string>
+    <string name="reset_password_sent">En e-post har blitt sendt til deg med instruksjoner om hvordan du tilbakestiller passordet ditt. Vennligst sjekk spam-boksen hvis du ikke finner den!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registrer</string>

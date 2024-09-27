@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">هن بابت ايڪائونٽ ھنو نہ اٿاء؟</string>
     <string name="login_go_to_signup_2">سائن اپ</string>
     <string name="login_reset_password">پاسورڊ ريسيٽ ڪريو</string>
+    <string name="reset_password_sent">توهان کان ایک ایمیل بابت آپ کي پاسورڊ ريسيٽ ڪرڻ جي هدايتون ۽ گاھڻ کي سيک پارک ۽ جيڪي توهان کان نہ بٽيل!</string>
 
     <!-- Sign up -->
     <string name="signup_title">رجسٽر ڪريو</string>

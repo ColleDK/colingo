@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Δεν έχετε ακόμα λογαριασμό;</string>
     <string name="login_go_to_signup_2">Εγγραφή</string>
     <string name="login_reset_password">Επαναφορά κωδικού πρόσβασης</string>
+    <string name="reset_password_sent">Έχει σταλεί email με οδηγίες για την επαναφορά του κωδικού πρόσβασής σας. Παρακαλώ ελέγξτε το φάκελο ανεπιθύμητης αλληλογραφίας σας αν δεν μπορείτε να το βρείτε!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Καταχωρίστε</string>

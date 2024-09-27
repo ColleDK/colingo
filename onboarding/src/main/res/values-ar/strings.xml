@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ليس لديك حساب بعد؟</string>
     <string name="login_go_to_signup_2">اشترك</string>
     <string name="login_reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="reset_password_sent">تم إرسال بريد إلكتروني لك بتعليمات حول كيفية إعادة تعيين كلمة المرور الخاصة بك. يرجى التحقق من صندوق البريد الغير المرغوب فيه إذا لم تجده!</string>
 
     <!-- Sign up -->
     <string name="signup_title">تسجيل</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">\'Aita teie i to oe pape tei e\'a\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Aita\'a e haapii i te ha\'amau muaama.</string>
+    <string name="reset_password_sent">Te ha\'amata te huru\'u i te tā tika\'a i te mailo iā \'oe mea ôro i te fare tāhure\'i fa\'a pēra rāfa\'aire\'a ôro iā ôe!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

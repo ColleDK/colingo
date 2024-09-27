@@ -19,6 +19,9 @@
     <string name="login_go_to_signup_1">Tsawg tau ib tug tej qhov txhia hauv peb lub pob accounts.</string>
     <string name="login_go_to_signup_2">Lub xov tooj pab rau koj.</string>
     <string name="login_reset_password">Thov hloov saum toj ntawm cov paab qhia.</string>
+    <string name="reset_password_sent">Text to translate: An email has been sent to you with instructions on how to reset your password. Please check your spam-box if you cannot find it! 
+
+Translation: Kuv tau txais ntawm koj ib email nrog cov ntaub ntawv muaj kev pab rau koj saib koj tus password. Thov check koj spam-box yog tsis tau pom nws!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Lauj Kawm注册</string>

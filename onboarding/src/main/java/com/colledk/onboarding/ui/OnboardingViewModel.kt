@@ -3,6 +3,7 @@ package com.colledk.onboarding.ui
 import androidx.core.util.PatternsCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.colledk.common.MessageHandler
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
@@ -20,7 +21,8 @@ import javax.inject.Inject
 class OnboardingViewModel @Inject constructor(
     private val auth: FirebaseAuth,
     private val createUserUseCase: CreateUserUseCase,
-    private val loginUseCase: LoginUseCase
+    private val loginUseCase: LoginUseCase,
+    private val errorHandler: MessageHandler
 ) : ViewModel() {
 
     private val _login: Channel<Long> = Channel(Channel.BUFFERED)
@@ -31,9 +33,6 @@ class OnboardingViewModel @Inject constructor(
 
     private val _resetPasswordSuccess: Channel<Long> = Channel(Channel.BUFFERED)
     val resetPasswordSuccess: Flow<Long> = _resetPasswordSuccess.receiveAsFlow()
-
-    private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
-    val error: Flow<Throwable> = _error.receiveAsFlow()
 
     private val _isLoggingIn: Channel<Boolean> = Channel(Channel.BUFFERED)
     val isLoggingIn: Flow<Boolean> = _isLoggingIn.receiveAsFlow()
@@ -49,7 +48,7 @@ class OnboardingViewModel @Inject constructor(
                 _login.trySend(DateTime.now().millis)
             }.onFailure {
                 _isLoggingIn.trySend(false)
-                _error.trySend(it)
+                errorHandler.displayError(it)
             }
         }
     }
@@ -60,7 +59,7 @@ class OnboardingViewModel @Inject constructor(
                 auth.sendPasswordResetEmail(email).await()
                 _resetPasswordSuccess.trySend(DateTime.now().millis)
             } catch (e: Exception) {
-                _error.trySend(e)
+                errorHandler.displayError(e)
             }
         }
     }
@@ -74,7 +73,7 @@ class OnboardingViewModel @Inject constructor(
             ).onSuccess {
                 _goToProfileSetup.trySend(DateTime.now().millis)
             }.onFailure {
-                _error.trySend(it)
+                errorHandler.displayError(it)
             }
         }
     }

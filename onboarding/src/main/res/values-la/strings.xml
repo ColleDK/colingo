@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Haudne habeas adhuc rationem\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Reset password</string>
+    <string name="reset_password_sent">Email vobis missum est cum rationibus quomodo tuum passum restituas. Si non invenis, quaeso, spam-tabellam tuam inspice!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registra</string>

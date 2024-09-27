@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">אין לך עדיין חשבון\?</string>
     <string name="login_go_to_signup_2">הרשמה</string>
     <string name="login_reset_password">איפוס סיסמה</string>
+    <string name="reset_password_sent">נשלח לך אימייל עם הוראות כיצד לאפס את הסיסמה שלך. אנא בדוק את תיקית הזבל אם לא מוצאים אותו!</string>
 
     <!-- Sign up -->
     <string name="signup_title">רישום</string>

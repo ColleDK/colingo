@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">هنوز حساب کاربری ندارید؟</string>
     <string name="login_go_to_signup_2">ثبت نام</string>
     <string name="login_reset_password">بازنشانی رمز عبور</string>
+    <string name="reset_password_sent">یک ایمیل به شما ارسال شده است که دستورالعمل‌های بازنشانی رمز عبور شما را شرح می‌دهد. لطفاً اگر پیدا نمی‌کنید، لطفاً فولدر اسپم خود را بررسی کنید!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">အက္ပလီကို ရှာဖွေလိုပါသည်မှာမဟုတ်ပါဘူးသော်လား\?</string>
     <string name="login_go_to_signup_2">စာရင်းသွင်းပါ</string>
     <string name="login_reset_password">လျှို့ဝှက်ကို အထက်ပါအတိုင်းစကိုကိုယ်ပြင်မည်</string>
+    <string name="reset_password_sent">သင့်အီသင့်လိပ်စာမျက်နှာသို့ စကားဝှကကို ပြန်စစ်သည်ဟု အီဆိုင်မှ အီသင့်အသုံးပြုမှုအတွက် အီလက်ကားလိပ်စာသို့ မဟုတ်ပါ။ သဘောကျမှ ဤအီသင့်မှ ရှာမတွေ့သွားမရန် စံပေါင်းအီလိပ်စာကို စစ်ပါပြီ။</string>
 
     <!-- Sign up -->
     <string name="signup_title">မှတ်ပုံတင်ပါ</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Mai loaʻa kēia hūliau akā ua ʻaʻole i ʻoihana ʻia ʻia ʻoeya hakuʻu nīnau\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Hoʻohou i ka hū aʻe ʻana ʻana</string>
+    <string name="reset_password_sent">Ua hāʻawi ʻia iā ʻoe kekahi ʻī-mēl me nā kānāwai no ka hoʻonoho hou ʻana i kou hōʻoiaʻi. E hoʻopaʻa i kou pahu leka leka spama inā ʻaʻole hiki ke ʻike iā ia!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

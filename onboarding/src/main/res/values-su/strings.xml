@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Leres teu aya akun\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Reset sandi kompet.</string>
+    <string name="reset_password_sent">Email anu geus dikirim kana anjeun kalawan petunjuk on pikeun ngarasa katunaan sandiasa anjeun. Mangga periksa kotak spam anjeun lamun anjeun henteu kapendak eta!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Daftar</string>

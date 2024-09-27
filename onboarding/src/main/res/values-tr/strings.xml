@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Henüz bir hesabınız yok mu\?</string>
     <string name="login_go_to_signup_2">Kayıt ol</string>
     <string name="login_reset_password">Şifreyi sıfırla</string>
+    <string name="reset_password_sent">Size zifiri bir\'ne gönderildiğine ilişkin talimatlar içeren bir e-posta gönderildi. Bulamazsanız, lütfen spam kutunuzu kontrol edin!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Kayıt ol</string>

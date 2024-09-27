@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">এখনও একটি অ্যাকাউন্ট নেই\?</string>
     <string name="login_go_to_signup_2">নিবন্ধন করুন</string>
     <string name="login_reset_password">পাসওয়ার্ড রিসেট</string>
+    <string name="reset_password_sent">আপনাকে ইমেইল পাঠানো হয়েছে আপনার পাসওয়ার্ড রিসেট করার নির্দেশিকা সহ। যদি এটা খুঁজে পাচ্ছেন না তাহলে দয়া করে আপনার স্প্যাম বক্স চেক করুন।</string>
 
     <!-- Sign up -->
     <string name="signup_title">নিবন্ধন</string>

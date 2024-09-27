@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ešte nemáte účet\?</string>
     <string name="login_go_to_signup_2">Registrovať sa</string>
     <string name="login_reset_password">Obnoviť heslo</string>
+    <string name="reset_password_sent">Na vašu e-mailovú adresu bola odoslaná správa s inštrukciami na obnovenie hesla. Prosím skontrolujte aj svoj spamový priečinok, ak ju nenájdete!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registrovať</string>

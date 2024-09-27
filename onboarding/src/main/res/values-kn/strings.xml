@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ನಿಮಗೆ ಇನ್ನೂ ಖಾತೆ ಇಲ್ಲವೆ\?</string>
     <string name="login_go_to_signup_2">ನೋಂದಣಿ ಮಾಡಿ</string>
     <string name="login_reset_password">ಪಾಸ್‌ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="reset_password_sent">ನಿಮಗೆ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ಅನ್ನು ಮರುಹೊಂದಿಸುವ ಮೆಹೆದಿ ಕೊಡಲು ನಿಮ್ಮ ಇಮೇಲ್‌ಗೆ ನಿರ್ದೇಶನಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ. ಅದನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲವೆಂದರೆ ದಯವಿಟ್ಟು ನಿಮ್ಮ spam ಬಾಕ್ಸ್‌ನ್ನು ಪರಿಶೀಲಿಸಿ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

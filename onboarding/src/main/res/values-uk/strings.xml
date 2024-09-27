@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Don\'t have an account yet\?</string>
     <string name="login_go_to_signup_2">Зареєструватися</string>
     <string name="login_reset_password">Скинути пароль</string>
+    <string name="reset_password_sent">На вашу поштову скриньку відправлено листа з інструкціями щодо скидання пароля. Будь ласка, перевірте папку \"Спам\", якщо ви не знайшли листа!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Зареєструватися</string>

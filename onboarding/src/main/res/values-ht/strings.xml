@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Pa gen yon kont ankò\?</string>
     <string name="login_go_to_signup_2">Enskripsyon</string>
     <string name="login_reset_password">Rezèt modpas</string>
+    <string name="reset_password_sent">Yon imel te voye ba ou avèk enstriksyon sou kijan pou resete modpas ou. Tanpri tcheke bo spam ou si ou pa jwenn li!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Enskri.</string>

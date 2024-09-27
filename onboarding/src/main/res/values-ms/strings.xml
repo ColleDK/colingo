@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Belum mempunyai akaun\?</string>
     <string name="login_go_to_signup_2">Daftar</string>
     <string name="login_reset_password">Tetap semula kata laluan</string>
+    <string name="reset_password_sent">Sebuah emel telah dihantar kepada anda dengan arahan untuk menetapkan semula kata laluan anda. Sila periksa peti sampah anda jika anda tidak dapat menemukannya!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Daftar</string>

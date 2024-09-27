@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">अभी तक खाता नहीं है\?</string>
     <string name="login_go_to_signup_2">साइन अप</string>
     <string name="login_reset_password">पासवर्ड रीसेट</string>
+    <string name="reset_password_sent">आपके पासवर्ड रीसेट करने के निर्देशों के साथ एक ईमेल भेजा गया है। अगर आपको यह नहीं मिलता है तो कृपया अपने स्पैम बॉक्स की जांच करें!</string>
 
     <!-- Sign up -->
     <string name="signup_title">रजिस्टर</string>

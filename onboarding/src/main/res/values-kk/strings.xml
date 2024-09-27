@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Тіркелгіңіз па\?</string>
     <string name="login_go_to_signup_2">Тіркелу</string>
     <string name="login_reset_password">Құпия сөзді қайта орнату</string>
+    <string name="reset_password_sent">Сізге кіру чектен кейін парольды қайта орнату туралы нұсқаулармен хабарлама жіберілді. Таппау мүмкін болмаса, спам торін тексеріңіз!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Тіркелу</string>

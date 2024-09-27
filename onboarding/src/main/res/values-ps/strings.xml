@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">د خاصي حساپ لرم نه؟</string>
     <string name="login_go_to_signup_2">نوي استاز کول</string>
     <string name="login_reset_password">پاسورډ ترتیب کول</string>
+    <string name="reset_password_sent">یو ایمیل تاسو ته فرستل شول دی په د کار راتلو لپاره خپل پاسورډ ری سیټ کولو لپاره اړین ورکړل شوی. کولای شه خپل spam-box ورته څه ونه موندل؟</string>
 
     <!-- Sign up -->
     <string name="signup_title">راجسټر کول</string>

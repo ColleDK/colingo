@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Vēl nav konta\?</string>
     <string name="login_go_to_signup_2">Pierakstīties</string>
     <string name="login_reset_password">Atiestatīt paroli</string>
+    <string name="reset_password_sent">Jums ir nosūtīts e-pasts ar norādēm, kā atiestatīt paroli. Lūdzu pārbaudiet savu surogātpastu, ja nevarat to atrast!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Reģistrēties</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ابھی تک اکاؤنٹ نہیں ہے؟</string>
     <string name="login_go_to_signup_2">سائن اپ</string>
     <string name="login_reset_password">پاسورڈ دوبارہ سیٹ کریں</string>
+    <string name="reset_password_sent">آپ کو ایک ای میل بھیج دیا گیا ہے جس میں آپ کو پاسورڈ ری سیٹ کرنے کے ہدایات فراہم کی گئی ہیں۔ براہ کرم اگر آپ نے یہ نہیں پایا تو اپنے اسپم باکس کو چیک کریں!</string>
 
     <!-- Sign up -->
     <string name="signup_title">رجسٹر</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ຍັງ​ບໍ່​ມີ​ບັນ​ຊີ​ອັບ​ໂຫຼດ​ອອກ​ຫຼາຍ​ແລ້ວ​ແທ້​ງາມ​ບໍ​ລິ​ກາ​ການລົງ​ທະ​ບຽນບ​ໍ​ຫຼື​ບໍ່\?</string>
     <string name="login_go_to_signup_2">ລົງທະບຽນ</string>
     <string name="login_reset_password">ຕັ້ງລະຫັດຜshມການປ່ຽນລະດັບ</string>
+    <string name="reset_password_sent">ບົດທີ່ສົ່ງຈາກອີເມລໄປແຈ້ງຈາກມືຖືທິດໃອໆ ເພື່ອຈ້າງລະປີຂ້າຂອງທ່ານ OK ກະລອີບ້າພັກຫຼະທ໌ລູຍກວດສອບບ້າທ່ານບ້າບອາຍິບບງີບ ຖ່ອບ່ຂີຂານມາບຢາບຄວບຄີສຊກກູພັສູທູ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ລົງທະບຽນ</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">M\'hemmx kont tiegħek għaddej\?</string>
     <string name="login_go_to_signup_2">Iċċaqaliji</string>
     <string name="login_reset_password">Irrisettja il-password</string>
+    <string name="reset_password_sent">Email ġie mdisa lejkom b\'sejħiet dwar kif tista\' terġa\' tistabbilixxi l-password tiegħek. Jekk ma taraq x\'whekk, ejja ħlew il-box tal-spam tiegħek!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Reġistru.</string>

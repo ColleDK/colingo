@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Chưa có tài khoản\?</string>
     <string name="login_go_to_signup_2">Đăng ký</string>
     <string name="login_reset_password">Đặt lại mật khẩu</string>
+    <string name="reset_password_sent">Một email đã được gửi đến bạn với hướng dẫn về cách đặt lại mật khẩu của bạn. Vui lòng kiểm tra hộp thư rác nếu bạn không thể tìm thấy nó!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Đăng ký</string>

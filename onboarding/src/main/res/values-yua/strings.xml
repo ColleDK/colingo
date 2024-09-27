@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ma\' u túumben ka\'ansaj ti\' le jats\'uts le\?</string>
     <string name="login_go_to_signup_2">Bix uchbenal.</string>
     <string name="login_reset_password">Resetea contraseña</string>
+    <string name="reset_password_sent">T\'an email jump\'éel tu yéetel u k\'íiwiko\'ob ts\'o\'ok le\' aak\'ab túuxtaj le k\'aba\'alil jach jump\'éel ba\'ax ti\' box yéetel kéen aar!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registra.</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Baya buƙatar kaɗan idan kana da akauntin ba\?</string>
     <string name="login_go_to_signup_2">Daftari</string>
     <string name="login_reset_password">Sake saita kalmar sirri</string>
+    <string name="reset_password_sent">An email has been sent to you with instructions on how to reset your password. Please check your spam-box if you cannot find it!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Sami daftar dabarunmu</string>
