@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -198,7 +199,7 @@ private fun PostItemHeader(
     modifier: Modifier = Modifier
 ) {
     Row(
-        modifier = modifier,
+        modifier = modifier.heightIn(min = 48.dp),
         horizontalArrangement = Arrangement.spacedBy(4.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
@@ -241,14 +242,14 @@ private fun PostItemHeader(
             )
             // TODO languages
         }
-        IconButton(onClick = onReportClicked) {
-            Icon(
-                painter = painterResource(id = R.drawable.warning),
-                contentDescription = null,
-                modifier = Modifier.size(24.dp),
-                tint = MaterialTheme.colorScheme.onSecondaryContainer
-            )
-        }
+//        IconButton(onClick = onReportClicked) {
+//            Icon(
+//                painter = painterResource(id = R.drawable.warning),
+//                contentDescription = null,
+//                modifier = Modifier.size(24.dp),
+//                tint = MaterialTheme.colorScheme.onSecondaryContainer
+//            )
+//        }
     }
 }
 
@@ -272,12 +273,11 @@ private fun PostItemInformation(
     }
 
     Row(
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier,
         verticalAlignment = Alignment.CenterVertically
     ) {
-        Row(
-            modifier = Modifier.clickable {
+        IconButton(
+            onClick = {
                 if (isLiked) {
                     onRemoveLike().also {
                         usersLiked.remove(userId)
@@ -287,46 +287,50 @@ private fun PostItemInformation(
                         usersLiked.add(userId)
                     }
                 }
-            },
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(2.dp)
+            }
         ) {
-            Icon(
-                painter = painterResource(id = if (isLiked) R.drawable.liked else R.drawable.like),
-                contentDescription = null,
-                modifier = Modifier.size(24.dp),
-                tint = MaterialTheme.colorScheme.onSecondaryContainer
-            )
-            Text(
-                text = formatNumber(usersLiked.size),
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.secondary
-            )
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                Icon(
+                    painter = painterResource(id = if (isLiked) R.drawable.liked else R.drawable.like),
+                    contentDescription = null,
+                    modifier = Modifier.size(24.dp),
+                    tint = MaterialTheme.colorScheme.onSecondaryContainer
+                )
+                Text(
+                    text = formatNumber(usersLiked.size),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.secondary
+                )
+            }
         }
-        Row(
-            modifier = Modifier.clickable { onCommentsClicked() },
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(2.dp)
-        ) {
-            Icon(
-                painter = painterResource(id = R.drawable.comment),
-                contentDescription = null,
-                modifier = Modifier.size(24.dp),
-                tint = MaterialTheme.colorScheme.onSecondaryContainer
-            )
-            Text(
-                text = formatNumber(post.replies.size),
-                style = MaterialTheme.typography.labelMedium,
-                color = MaterialTheme.colorScheme.secondary
-            )
+        IconButton(onClick = onCommentsClicked) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.comment),
+                    contentDescription = null,
+                    modifier = Modifier.size(24.dp),
+                    tint = MaterialTheme.colorScheme.onSecondaryContainer
+                )
+                Text(
+                    text = formatNumber(post.replies.size),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.secondary
+                )
+            }
         }
         Spacer(modifier = Modifier.weight(1f))
-        IconButton(onClick = onShareClicked) {
-            Icon(
-                painter = painterResource(id = R.drawable.share), contentDescription = null,
-                modifier = Modifier.size(24.dp),
-                tint = MaterialTheme.colorScheme.onSecondaryContainer
-            )
-        }
+//        IconButton(onClick = onShareClicked) {
+//            Icon(
+//                painter = painterResource(id = R.drawable.share), contentDescription = null,
+//                modifier = Modifier.size(24.dp),
+//                tint = MaterialTheme.colorScheme.onSecondaryContainer
+//            )
+//        }
     }
 }
