@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise, kelime bilginizi geliştirmenize yardımcı olabilecek bir İspanyolca öğretmenidir!</string>
+    <string name="chatbot_gabriel_description">Gabriel, kelime dağarcığınızı geliştirmenize yardımcı olabilecek bir Fransız fotoğrafçıdır!</string>
+    <string name="chatbot_rakesh_description">Rakesh, kelime dağarcığınızı geliştirmenize yardımcı olabilecek bir Hint üniversite öğrencisidir!</string>
+    <string name="chatbot_evelyn_description">Evelyn, İngiliz oyun yazarıdır ve kelime dağarcığınızı geliştirmenize yardımcı olabilir!</string>
+    <string name="chatbot_ahsan_description">Ahsan, İngilizce kelime dağarcığınızı geliştirmenize yardımcı olabilecek Arapça bir yazılım geliştiricisidir!</string>
+    <string name="chatbot_min_description">Min, kelime dağarcığınızı geliştirmenize yardımcı olabilecek bir Çinli fizikçidir!</string>
 </resources>

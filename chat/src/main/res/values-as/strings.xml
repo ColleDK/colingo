@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">লুইছ হ\'ল এটা স্পেনিচ শিক্ষক যিটো আপোনাক আপোনাৰ শব্দাৰ্থ উন্নত কৰিব লৈ সহায় কৰিব পাৰে!</string>
+    <string name="chatbot_gabriel_description">Gabriel এটা এটা আপুনিৰ শব্দভাৱনা উন্নত কৰিবলৈ সহায় কৰিবৰ এটা ফ্ৰেঞ্চ আলোকচিত্ৰকাৰ!</string>
+    <string name="chatbot_rakesh_description">Rakesh হ\'ল এটা ভোকেব্যুৱে সুধাৰাবলৈ আপোনালৈ সহায় কৰিব পাৰি ভাৰটীয় বিশ্ববিদ্যালয় ছাত্ৰ!</string>
+    <string name="chatbot_evelyn_description">Evelyn হ\'ল এটা যে আপোনাৰ vocabulary উন্নত কৰিবলৈ সহায় কৰিব পাৰি ব্রিটিশ বংশৰ এটা প্লে রাইটাৰ!</string>
+    <string name="chatbot_ahsan_description">Ahsan এটা আপোনাৰ শব্দাৰ্থৰ সুধাৰ কৰিবলৈ সহায় কৰিব পাৰে এটা আৰবী সফ্টৱেৰ ডেভেলপাৰ।</string>
+    <string name="chatbot_min_description">Min হ\'ল এটা চীনা ভৌতিকীবিদ যিটো আপোনাক আপোনাৰ শব্দভাৱাৰ উন্নত কৰিবলও সাহায্য কৰিব পাৰে!</string>
 </resources>

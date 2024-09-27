@@ -16,6 +16,6 @@
     <string name="community_filters_your_languages">Deine aktuale shprakhn</string>
 
     <string name="chat_created_msg">Geshpete Chat</string>
-    <string name="chatbot_created_msg">Text to translate: חאַט געשאפן מיט %s</string>
+    <string name="chatbot_created_msg">חאַט געשאפן מיט %s</string>
     <string name="chatbot_create_chat">Shafn chat mit %s</string>
 </resources>

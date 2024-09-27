@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Si Louise usa ka magtutudlo sa Espanyol nga makatabang kanimo sa paglambo sa imong buluhaton!</string>
+    <string name="chatbot_gabriel_description">Si Gabriel usa ka Pranses nga potograpo nga makatabang kanimo sa pagpauswag sa imong bahin sa mga pulong!</string>
+    <string name="chatbot_rakesh_description">Si Rakesh usa ka estudyante sa unibersidad nga Intsik nga makatabang kanimo sa pagpaayo sa imong bokabularyo!</string>
+    <string name="chatbot_evelyn_description">Si Evelyn usa ka British play writer nga makatabang kanimo sa pagpauswag sa imong vocabulary!</string>
+    <string name="chatbot_ahsan_description">Ahsan mao ang usa ka developer sa software nga Arabo nga makatabang kanimo sa paghingusog sa imong bokabularyo!</string>
+    <string name="chatbot_min_description">Si Min usa ka Tsino nga pisiko nga maka-tabang kanimo sa pagtin-aw sa imong vocabulary!</string>
 </resources>

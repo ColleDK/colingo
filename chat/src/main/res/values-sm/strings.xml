@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise o se faia\'oga Spaina e mafai ona māfaia ma le fa\'atulagaina o lou vaoga!</string>
+    <string name="chatbot_gabriel_description">Gabriel o se tagata taufaalelau Faletusi e fa\'amoemoe oe i le fa\'atasi ma le fa\'amalositino o lou upu fa\'amatala!</string>
+    <string name="chatbot_rakesh_description">Rakesh o se faiaoga o lo\'o fa\'amotonu mai India e mafai ona fesoasoani i le fa\'afeso\'ota\'i i lou upu fa\'aaliga!</string>
+    <string name="chatbot_evelyn_description">Evelyn o se tufuga tusitusi mai Peretania e mafai ona fesoasoani i le faʻatino i lau gagana!</string>
+    <string name="chatbot_ahsan_description">Ahsan o se tagata fa\'aaoga ata Fa\'asamoa sa matua fesoasoani i a oe ma le fa\'asalalauina o lou upu fa\'amatalaga!</string>
+    <string name="chatbot_min_description">Min o se fizikisitia sāmoa na faʻaʻofoʻofoga atu ia te oe ma le faʻaaogaina o lau upu faʻaaloalo!</string>
 </resources>

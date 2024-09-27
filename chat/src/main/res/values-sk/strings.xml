@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise je učiteľka španielčiny, ktorá vám môže pomôcť s rozšírením vášho slovníka!</string>
+    <string name="chatbot_gabriel_description">Gabriel je francúzsky fotograf, ktorý vám môže pomôcť s rozšírením slovnej zásoby!</string>
+    <string name="chatbot_rakesh_description">Rakesh je indický univerzitný študent, ktorý vám môže pomôcť s rozšírením slovnej zásoby!</string>
+    <string name="chatbot_evelyn_description">Evelyn je britská herečka, ktorá vám môže pomôcť s rozšírením vášho slovníka!</string>
+    <string name="chatbot_ahsan_description">Ahsan je arabský softvérový vývojár, ktorý vám môže pomôcť s rozširovaním vášho slovníka!</string>
+    <string name="chatbot_min_description">Min je čínsky fyzik, ktorý vám môže pomôcť s rozšírením vášho slovníka!</string>
 </resources>

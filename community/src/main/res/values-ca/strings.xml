@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Prova d\'actualitzar els teus filtres per trobar més usuaris.</string>
 
     <string name="community_filters_limit">Escull fins a %d idiomes dels quals voldries veure parlants fluents</string>
-    <string name="community_filters_selected">Text a traduir: %d/%d seleccionats</string>
+    <string name="community_filters_selected">%d/%d seleccionats</string>
     <string name="community_filters_clear">Netejar filtres</string>
     <string name="community_filters_your_languages">Les vostres llengües actuals</string>
 

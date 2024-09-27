@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise è un\'insegnante di spagnolo che può aiutarti a migliorare il tuo vocabolario!</string>
+    <string name="chatbot_gabriel_description">Gabriel è un fotografo francese che può aiutarti a migliorare il tuo vocabolario!</string>
+    <string name="chatbot_rakesh_description">Rakesh è uno studente universitario indiano che può aiutarti a migliorare il tuo vocabolario!</string>
+    <string name="chatbot_evelyn_description">Evelyn è una scrittrice teatrale britannica che può aiutarti a migliorare il tuo vocabolario!</string>
+    <string name="chatbot_ahsan_description">Ahsan è uno sviluppatore software arabo che può aiutarti nell\'incrementare il tuo vocabolario!</string>
+    <string name="chatbot_min_description">Min è un fisico cinese che può aiutarti a migliorare il tuo vocabolario!</string>
 </resources>

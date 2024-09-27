@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise - Испаниялык оқуучу, сөз санатыңызды жеткиликтүүдү жеткиликтүүдүн маңыздатууга көмөктөй алат.</string>
+    <string name="chatbot_gabriel_description">Gabriel - француз фотограф, сизге сөздүк бөлүмдү өсүтүп беребилө!</string>
+    <string name="chatbot_rakesh_description">Rakesh - Индия университет студенти, сиздин сөзбүлүктүрүүгө көмөкчү болушу мүмкүн!</string>
+    <string name="chatbot_evelyn_description">Evelyn - бул британиялык пьеса автору, сиздеге сөздүк багыттарыңызды жакшыртуу үчүн көмөк көрсөтө алат!</string>
+    <string name="chatbot_ahsan_description">Ahsan - бул Араб тилдик программалаштыруучу, сиздин сөздүк бирдиктүүңүздү узартууга көмөк көрсөтө алат.</string>
+    <string name="chatbot_min_description">Мин жапон физикчи, сенин сөз саныңды көңүлтүүгө жардам бере алат!</string>
 </resources>

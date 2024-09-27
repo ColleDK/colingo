@@ -30,8 +30,7 @@
     <string name="settings_theming_title">Темалар менен түстөр</string>
     <string name="settings_about_page_title">Программа тууралуу</string>
     <string name="settings_about_page_description1">Colingo - Коллега/Уильям боюнча жеткиликтүү тил алмаштыруу платформасы менен басаткан ачык коддуу өндүргүчү жамааттык өнүктөө бойдонун алдын алат.</string>
-    <string name="settings_about_page_description2">Text to translate: We strive towards being as open and upfront about everything in the app, which is why we keep it open-source.
-Translated text: Биз апп-тын бардык жаңылдоо жакындары менен ачык болууга жаңылабыз, анткени биз аны ачык компоненттер менен сактоомуз.</string>
+    <string name="settings_about_page_description2">Биз апп-тын бардык жаңылдоо жакындары менен ачык болууга жаңылабыз, анткени биз аны ачык компоненттер менен сактоомуз.</string>
     <string name="settings_about_page_description3">Бардык аппликациядагы бардык аудармалар AI-лер аркылуу жасалган жана анын менен мүмкүндүктүңүз боюнча төлөсүгүңүз бар эле алып издөбүз - эгер аны ыр ичинде тапсак, анда \\"Бугтун токтотууну кароо\\" баскычынан токтотуңуз.</string>
     <string name="settings_about_page_contact">Өтө же тапшырмаларыңыз болсо, бизге кантактүү жолун колдонууңуз үчүн:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>

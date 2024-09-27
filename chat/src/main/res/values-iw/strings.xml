@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise היא מורה ספרדית שיכולה לעזור לך לשפר את המילון שלך!</string>
+    <string name="chatbot_gabriel_description">גבריאל הוא צלם צרפתי שיכול לעזור לך לשפר את המילות שלך!</string>
+    <string name="chatbot_rakesh_description">רקש הוא סטודנט אינדי מהאוניברסיטה שיכול לעזור לך לשפר את המילון שלך!</string>
+    <string name="chatbot_evelyn_description">אבלין היא סופרת תיאטרון בריטית שיכולה לעזור לך לשפר את המילון שלך!</string>
+    <string name="chatbot_ahsan_description">אחסאן הוא מפתח תוכנה ערבי שיכול לעזור לך לשפר את המילון שלך!</string>
+    <string name="chatbot_min_description">מין הוא פיזיקאי סיני שיכול לעזור לך לשפר את מילות השפה שלך!</string>
 </resources>

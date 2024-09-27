@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise je španjolska učiteljica koja vam može pomoći da poboljšate vokabular!</string>
+    <string name="chatbot_gabriel_description">Gabriel je francuski fotograf koji vam može pomoći da unaprijedite svoj vokabular!</string>
+    <string name="chatbot_rakesh_description">Rakesh je indijski student univerziteta koji vam može pomoći u poboljšanju vašeg vokabulara!</string>
+    <string name="chatbot_evelyn_description">Evelyn je britanska dramska spisateljica koja vam može pomoći u poboljšanju vašeg vokabulara!</string>
+    <string name="chatbot_ahsan_description">Ahsan je programer softvera iz Arapske koji vam može pomoći da poboljšate vokabular!</string>
+    <string name="chatbot_min_description">Min je kineski fizičar koji vam može pomoći da unaprijedite vaš vokabular!</string>
 </resources>

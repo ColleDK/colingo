@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise yog ib tus Spanish muaj cai pab koj qhia koj txaus siab no ces saib, tsis ua siab tso mloog koj.</string>
+    <string name="chatbot_gabriel_description">Gabriel yog ib tus tswv yim suav txog ib tug ntawm lub teb chaws pab koj tshem txeeb ntawm koj tus lus nug!</string>
+    <string name="chatbot_rakesh_description">Rakesh yog ib tug Indian tshaab tus menyuam hauj lwm uas tuaj yeem pab koj tawm tsev neeg ntawm koj tus lo lus hauv siab!</string>
+    <string name="chatbot_evelyn_description">Evelyn yog ib tus tswv tsev nyob rau hauv Sepanyee uas tuaj pab koj hais lus rau koj yam siv saum toj vocabulary!</string>
+    <string name="chatbot_ahsan_description">Ahsan yog ib tus tswv yim ntawm kev puas sib txuas thaj yeeb ntawm koj tus kheej!</string>
+    <string name="chatbot_min_description">Min yog ib tus tswv yim txoj kev pab kom muaj koj yuav tsum coob sau ntawv sib tham tej.</string>
 </resources>

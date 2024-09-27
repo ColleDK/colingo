@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louiseは、あなたの語彙を向上させるのに役立つスペイン語の教師です！</string>
+    <string name="chatbot_gabriel_description">Gabrielは、あなたの語彙力を向上させるのに役立つフランスのフォトグラファーです！</string>
+    <string name="chatbot_rakesh_description">Rakeshは、印刷の大学生で、語彙力の向上に役立つことができます！</string>
+    <string name="chatbot_evelyn_description">イヴリンは、語彙の向上を手助けしてくれるイギリスの劇作家です！</string>
+    <string name="chatbot_ahsan_description">Ahsanはアラビア語のソフトウェア開発者で、あなたの語彙力向上をお手伝いします!</string>
+    <string name="chatbot_min_description">Minは中国人物理学者で、あなたの語彙力の向上を手助けすることができます！</string>
 </resources>

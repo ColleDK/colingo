@@ -50,7 +50,7 @@
     <string name="select_topics_subtitle">Yäninirin temas u\'ñ\'ôntsi.</string>
     <string name="add_description_title">K\'ho ne menu</string>
     <string name="add_description_subtitle">Mbose ha juu ja̲ mpädi ne ga̲tho mpa̲ti nä\'ä.</string>
-    <string name="add_description_birthday_hint">Text to translate: Birthday</string>
+    <string name="add_description_birthday_hint">Birthday</string>
     <string name="add_description_birthday_select">Vak\'o</string>
     <string name="add_description_birthday_cancel">ts\'ímpanda</string>
     <string name="add_description_location_hint">Lugar</string>

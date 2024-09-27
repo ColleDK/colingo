@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Colingo - гэта платформа для абмену мовай, якая падтрымліваеся ад грамады адкрытага крыніц. Гэтая платформа распрацаваная Colle/William.</string>
     <string name="settings_about_page_description2">Мы прагнем да максімальнай адкрытасці і праўдзівасці ўсёй інфармацыі ў дадзеным дадзенні, таму ён з\'яўляецца open-source.</string>
     <string name="settings_about_page_description3">Усе пераклады ў прыкладанні рабяцца штучным інтэлектам, таму могуць мецца памылкі ў перакладзе – калі вы такую знойдзеце, калі ласка, паведамце пра гэта ў раздзеле «Паведаміць пра памылку».</string>
-    <string name="settings_about_page_contact">Тэкст для перакладу: Калі ў вас ёсць якія-небудзь праблемы ці прапановы па прыкладанні, вы можаце звярнуцца да нас па:</string>
+    <string name="settings_about_page_contact">Калі ў вас ёсць якія-небудзь праблемы ці прапановы па прыкладанні, вы можаце звярнуцца да нас па:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Паведаміць пра памылку</string>

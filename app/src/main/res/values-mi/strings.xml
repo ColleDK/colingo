@@ -22,7 +22,7 @@
     <string name="settings_change">Whakarerekē tautuhinga</string>
     <string name="settings_switch_language">Huri reo</string>
     <!-- Beta settings -->
-    <string name="setting_dynamic_theme">Whakamaoria: Whakarerekē whakapae</string>
+    <string name="setting_dynamic_theme">Whakarerekē whakapae</string>
     <string name="setting_dark_theme">Dark theming</string>
 
     <string name="settings_rate_app_page_title">Arotake i te taupānga</string>

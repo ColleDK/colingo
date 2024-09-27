@@ -1,6 +1,6 @@
 <resources>
     <!-- Topics -->
-    <string name="topic_animals">Тэкст для перакладу: Жывёлі.</string>
+    <string name="topic_animals">Жывёлі.</string>
     <string name="topic_cooking">Кулінарыя</string>
     <string name="topic_theater">Тэатр</string>
     <string name="topic_partying">Вечароўка</string>

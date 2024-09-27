@@ -12,7 +12,7 @@
     <string name="home_filters_oldest">Seniausias</string>
     <string name="home_filters_newest">Naujausias</string>
     <string name="post_create_comment">Pridėti komentarą</string>
-    <string name="post_likes">Tekstas versti: %s patinka</string>
+    <string name="post_likes">%s patinka</string>
     <string name="post_comments">Komentarai: %s</string>
     <string name="post_no_comments_title">Kol kas atsakymų nėra.</string>
     <string name="post_no_comments_subtitle">Būk pirmas/i dalintis savo mintimis apie šį įrašą</string>

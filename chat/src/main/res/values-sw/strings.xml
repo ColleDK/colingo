@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ni mwalimu wa Kihispania anayeweza kukusaidia kuimarisha msamiati wako!</string>
+    <string name="chatbot_gabriel_description">Gabriel ni mpiga picha Mfaransa ambaye anaweza kukusaidia kuboresha msamiati wako!</string>
+    <string name="chatbot_rakesh_description">Rakesh ni mwanafunzi wa chuo kikuu kutoka India ambaye anaweza kukusaidia kuboresha msamiati wako!</string>
+    <string name="chatbot_evelyn_description">Evelyn ni mwandishi wa tamthilia Muingereza ambaye anaweza kusaidia kukusaidia kuboresha msamiati wako!</string>
+    <string name="chatbot_ahsan_description">Ahsan ni mwendelezaji wa programu wa Kiarabu ambaye anaweza kusaidia katika kuboresha msamiati wako!</string>
+    <string name="chatbot_min_description">Min ni mwanafizikia wa Kichina anayeweza kukusaidia katika kuboresha msamiati wako!</string>
 </resources>

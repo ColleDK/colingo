@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">লুইস হলেন একজন স্প্যানিশ শিক্ষক যিনি আপনাকে আপনার শব্দভান্ডার উন্নত করতে সাহায্য করতে পারেন!</string>
+    <string name="chatbot_gabriel_description">Gabriel একজন ফরাসি ছবি তুলনাকারী, যিনি আপনাকে ভোকাবুলারি উন্নত করতে সাহায্য করতে পারে!</string>
+    <string name="chatbot_rakesh_description">Rakesh একজন ভারতীয় বিশ্ববিদ্যালয় ছাত্র যিনি আপনাকে আপনার শব্দভান্ডার উন্নত করতে সাহায্য করতে পারে!</string>
+    <string name="chatbot_evelyn_description">Evelyn একজন ব্রিটিশ নাট্যকারী যা আপনাকে ভোকাবুলারি বৃদ্ধি করতে সাহায্য করতে পারে!</string>
+    <string name="chatbot_ahsan_description">Ahsan হল একজন আরবি সফটওয়ার ডেভেলপার যিনি আপনাকে আপনার শব্দভান্ডার উন্নত করতে সাহায্য করতে পারে!</string>
+    <string name="chatbot_min_description">মিন একজন চীনা ভৌতিকবিদ যে আপনাকে আপনার শব্দভাবান্বনা উন্নত করতে সাহায্য করতে পারে!</string>
 </resources>

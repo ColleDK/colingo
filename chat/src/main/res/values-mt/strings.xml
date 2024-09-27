@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise hija għalliem Spanjola li tista\' tgħinlek biex tizviluppa l-vuċabularju tiegħek!</string>
+    <string name="chatbot_gabriel_description">Gabriel huwa fotografu Franċiż li jista\' jgħinlek biex ttejjeb l-vokabularju tiegħek!</string>
+    <string name="chatbot_rakesh_description">Rakesh huwa student universitarju Indjan li jista\' jgħinek biex ittejjeb il-vokabularju tiegħek!</string>
+    <string name="chatbot_evelyn_description">Evelyn hija kittieba Brittanika li tista\' tgħinlek biex tibdew taqsam il-vokabularju tiegħek!</string>
+    <string name="chatbot_ahsan_description">Ahsan huwa żviluppatur tal-programmazzjoni Araps li jista\' jgħinek li ttejjaħ il-vokabolarju tiegħek!</string>
+    <string name="chatbot_min_description">Min hu fisiku Ċiniż li jista\' jgħinek biex ittejjeb il-vuċabolari tiegħek!</string>
 </resources>

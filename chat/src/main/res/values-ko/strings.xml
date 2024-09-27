@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise는 어휘력 향상을 돕는 스페인어 선생님입니다!</string>
+    <string name="chatbot_gabriel_description">Gabriel는 어휘력 향상을 도와줄 수 있는 프랑스 사진작가입니다!</string>
+    <string name="chatbot_rakesh_description">라케쉬는 어휘력 향상에 도움을 줄 수 있는 인도 대학생입니다!</string>
+    <string name="chatbot_evelyn_description">Evelyn은 영어 연극 작가로 귀하의 어휘력 향상에 도움을 줄 수 있습니다!</string>
+    <string name="chatbot_ahsan_description">Ahsan은 어휘력 향상을 돕는 아랍어 소프트웨어 개발자입니다!</string>
+    <string name="chatbot_min_description">Min은 어휘력 향상에 도움을 줄 수 있는 중국 출신 물리학자입니다!</string>
 </resources>

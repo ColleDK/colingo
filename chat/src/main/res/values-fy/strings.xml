@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise is in Spaanske lerares dy\'t jo helpe kin mei it ferbetterjen fan jo fokabulêr!</string>
+    <string name="chatbot_gabriel_description">Gabriel is in Frânske fotograaf dy\'t jo helpe kin mei it ferbetterjen fan jo wurdskat!</string>
+    <string name="chatbot_rakesh_description">Rakesh is in Indyske universiteitstûdzje dat jo helje kin mei it ferbetterjen fan jofokabulêr!</string>
+    <string name="chatbot_evelyn_description">Evelyn is in Britske spulskriuwer dy\'t jo helpe kin mei it ferbetterjen fan jo ferwizen!</string>
+    <string name="chatbot_ahsan_description">Ahsan is in Arabyske softwareûntwikkele dat jo helpe kin mei it ferbetterjen fan jo fokabulêre!</string>
+    <string name="chatbot_min_description">Min is in Sineeske natuerkundige dy jo helpe kin mei it ferbetterjen fan jo wurdenboek!</string>
 </resources>

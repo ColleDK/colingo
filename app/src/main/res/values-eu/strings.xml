@@ -29,10 +29,10 @@
     <string name="settings_switch_language_title">Aldatu hizkuntza</string>
     <string name="settings_theming_title"><![CDATA[Tema & koloreak]]></string>
     <string name="settings_about_page_title">Aplikazioari buruz</string>
-    <string name="settings_about_page_description1">Text to translate: Colingo plataforma hizkuntza trukaketa komunitatea-abierta da, Colle/William-ek garatua.</string>
+    <string name="settings_about_page_description1">Colingo plataforma hizkuntza trukaketa komunitatea-abierta da, Colle/William-ek garatua.</string>
     <string name="settings_about_page_description2">Esanahiak itzuli: Aplikazioan guztiaz zeharo ireki eta zuzenean izateko saiatzen gara, horregatik irekigai mantentzen dugu.</string>
     <string name="settings_about_page_description3">Aplikazioan egindako itzulpen guztiak AI-ek egiten dituzte, eta, hala ere, itzulpen erroreak izan ditzake - badaukazu bat aurkitzen, mesedez, ezazu \"Bug-a jakinarazi\" irlinean.</string>
-    <string name="settings_about_page_contact">Textua itzultzea: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Hibea jakinarazi</string>

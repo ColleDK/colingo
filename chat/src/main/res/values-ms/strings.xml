@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise adalah seorang guru Bahasa Sepanyol yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
+    <string name="chatbot_gabriel_description">Gabriel ialah seorang jurugambar Perancis yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
+    <string name="chatbot_rakesh_description">Rakesh adalah seorang pelajar universiti India yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
+    <string name="chatbot_evelyn_description">Evelyn ialah seorang penulis drama British yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
+    <string name="chatbot_ahsan_description">Ahsan adalah seorang pembangun perisian Arab yang boleh membantu anda meningkatkan perbendaharaan kata!</string>
+    <string name="chatbot_min_description">Min merupakan seorang ahli fizikis Cina yang boleh membantu anda meningkatkan perbendaharaan kata anda!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise est magistra Hispanica quae te adiuvare potest ad augendam tuam vocabulationem!</string>
+    <string name="chatbot_gabriel_description">Gabriel est pictor Gallus qui tibi valeat ad augendam vocabulorum copiam!</string>
+    <string name="chatbot_rakesh_description">Rakesh est student universitatis Indicus qui tibi potest auxiliari ad augendam vocabulorum copiam!</string>
+    <string name="chatbot_evelyn_description">Evelyn est scriptor ludicus Britannicus qui potest tibi adiuvare ad augendam linguam tuam!</string>
+    <string name="chatbot_ahsan_description">Ahsan est Arabicus software developer qui tibi adiuvare potest in augenda vocabulorum copia!</string>
+    <string name="chatbot_min_description">Min est physicus Sinensis qui potest tibi adiuvare ad augendam vocabularium tuum!</string>
 </resources>

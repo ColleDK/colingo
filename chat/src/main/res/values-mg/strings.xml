@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise dia mpianatra espaniola mahay manampy anao amin\'ny fampitandremana ny teny!</string>
+    <string name="chatbot_gabriel_description">Gabriel dia mpampiasa sary Frantsay hahafahanareo mamorona teny vaovao!</string>
+    <string name="chatbot_rakesh_description">Rakesh dia mpianatra avy amin\'ny oniversite Indiana mahazo mpanampy anao amin\'ny fampitandremana ny teny!</string>
+    <string name="chatbot_evelyn_description">Evelyn dia mpamorona an-tsary britanika mahavaky tena hanampy anao amin\'ny famaritana ny teny!</string>
+    <string name="chatbot_ahsan_description">Ahsan dia mpanao rindrankajy arabika afaka manampy anao amin\'ny fampandrosoana ny tenako!</string>
+    <string name="chatbot_min_description">Min dia mpiasan\'ny fisika Sinoa afaka manampy anao amin\'ny fampitandremana ny teny!</string>
 </resources>

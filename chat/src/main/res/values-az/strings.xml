@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise, sizi sözlüyünüzü yaxşılaşdırmağa kömək edə biləcək bir İspan dili müəllimidir!</string>
+    <string name="chatbot_gabriel_description">Gabriel Fransalı bir fotokameralar və lüğətinizi artırmaqda yardım edə biləcək fotomeslek şəxsidir!</string>
+    <string name="chatbot_rakesh_description">Rakesh - Hindistan universitet tələbəsidir və sizin lüğət biliklərinizi artırmağa kömək edə bilər!</string>
+    <string name="chatbot_evelyn_description">Evelyn ingilis oyun yazıçısıdır və sizin lüğətinizi gelişdərməyə kömək edə bilər!</string>
+    <string name="chatbot_ahsan_description">Ahsan, sözlərinizi genişləndirməyinizə kömək edə biləcək bir ərəb proqramçısıdır!</string>
+    <string name="chatbot_min_description">Min sizin lug\'ət biliklərinizi artırmağa kömək edə biləcək Çin fizikiçisidir!</string>
 </resources>

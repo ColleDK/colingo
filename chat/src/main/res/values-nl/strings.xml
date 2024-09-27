@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise is een Spaanse docent die je kan helpen met het verbeteren van je woordenschat!</string>
+    <string name="chatbot_gabriel_description">Gabriel is een Franse fotograaf die je kan helpen met het verbeteren van je woordenschat!</string>
+    <string name="chatbot_rakesh_description">Rakesh is een Indiase universiteitsstudent die je kan helpen met het verbeteren van je woordenschat!</string>
+    <string name="chatbot_evelyn_description">Evelyn is een Britse toneelschrijver die je kan helpen met het verbeteren van je vocabulaire!</string>
+    <string name="chatbot_ahsan_description">Ahsan is een Arabische softwareontwikkelaar die je kan helpen met het verbeteren van je woordenschat!</string>
+    <string name="chatbot_min_description">Min is een Chinese natuurkundige die je kan helpen met het verbeteren van je woordenschat!</string>
 </resources>

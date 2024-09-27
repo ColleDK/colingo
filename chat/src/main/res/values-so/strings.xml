@@ -2,8 +2,8 @@
     <string name="chat_create_new">Abuur subag cusub</string>
     <string name="date_today">Maanta</string>
 
-    <string name="members_page_title">Text to translate: Chats</string>
-    <string name="bots_page_title">Maqaalka in Somaliya: Bot chats</string>
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot chats</string>
 
     <string name="chat_my_messages">Habka i soo dir.</string>
     <string name="chat_empty_title">Wax ceeb ma ah</string>
@@ -13,8 +13,7 @@
     <string name="chats_empty_description">Marka hore markaad bilawday wadahadal cusub, waxaad arki kartaa halkan.</string>
 
     <string name="chats_delete_title">Tirtir Dhammaan Mawduucyada</string>
-    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone!
-Translated text: Waan faahfaahin kuleylmaynin jirin!</string>
+    <string name="chats_delete_subtitle">Waan faahfaahin kuleylmaynin jirin!</string>
     <string name="chats_delete_confirm">Xaqiiji</string>
     <string name="chats_delete_cancel">Ka saar</string>
     <string name="chats_delete_success">Saxiixeen Mawduucan</string>
@@ -24,4 +23,9 @@ Translated text: Waan faahfaahin kuleylmaynin jirin!</string>
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise waa macalin Isbaanish oo kuu kobcin kara kobcinta kheyraadkaaga!</string>
+    <string name="chatbot_gabriel_description">Gabriel waa sawirqaadka Faransiiska ee kuu caawiyaynaayo inaad ku dhaqoobo ereyadaaga!</string>
+    <string name="chatbot_rakesh_description">Rakesh waa arday Kaliya oo ka soo jeedo jaamacada Hindiya, waxaana kaa caawin doona inaad kor u qaadid ereyadaada!</string>
+    <string name="chatbot_evelyn_description">Evelyn waa qoraaga Ingiriis ah oo kuu caawinaysaa inaad kor ugu qiimeeyso ereyadaaga!</string>
+    <string name="chatbot_ahsan_description">Ahsan waa faahfaahin dheeraad leh oo ku saabsan habka aad uga faa\'iideysid eraybixintaaga!</string>
+    <string name="chatbot_min_description">Min waa fizikis fargelin ah oo ka caawin kara inaad kordhiso ereyadaaga!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise yw athro Sbaeneg gall helpu chi i wella eich geirfa!</string>
+    <string name="chatbot_gabriel_description">Gabriel yw ffotograffydd o Ffrainc a all eich helpu i wella eich geirfa!</string>
+    <string name="chatbot_rakesh_description">Rakesh yw myfyriwr prifysgol o India a all eich helpu i wella eich geirfa!</string>
+    <string name="chatbot_evelyn_description">Evelyn yw dramodydd Prydeinig a all eich helpu i wella eich geirfa!</string>
+    <string name="chatbot_ahsan_description">Ahsan yw datblygwr meddalwedd Arabiaidd a all eich helpu i wella eich geirfa!</string>
+    <string name="chatbot_min_description">Min yw ffwisegydd Tsieineaidd a all eich helpu i wella eich geirfa!</string>
 </resources>

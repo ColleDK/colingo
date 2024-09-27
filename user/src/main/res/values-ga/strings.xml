@@ -1,6 +1,6 @@
 <resources>
     <!-- Topics -->
-    <string name="topic_animals">Text to translate: Ainmhithe</string>
+    <string name="topic_animals">Ainmhithe</string>
     <string name="topic_cooking">Cócaireacht</string>
     <string name="topic_theater">Amharclann</string>
     <string name="topic_partying">Ag seasamh.</string>

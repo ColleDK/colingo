@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ଏକ ସ୍ପାନିଶ ଶିକ୍ଷକ ଯାହାରେ ଆପଣଙ୍କ ଶବ୍ଦାଭାସକୁ ଉନତି କରିବାରେ ମଦଦ କରିପାରେ!</string>
+    <string name="chatbot_gabriel_description">ଗେବ୍ରିୟେଲ ଏକ ଫ୍ରେଞ୍ଚ୍ ଛବିକର୍ତ୍ତା ଯାହାରୁ ତୁମକୁ ବ୍ୟାକବ୍ୟାସ ସୃଜନୀୟତା ସହାଯତ୍ର କରିପାରିବେ!</string>
+    <string name="chatbot_rakesh_description">Rakesh ଏକ ଭାରତୀୟ ବିଶ୍ଵବିଦ୍ୟାଳୟ ଛାତ୍ର ଯେଉଁଥିରେ ତୁମକୁ ତୁମର ଶବ୍ଦସାର୍ଥକତା ମେଳାନ କରିବାକୁ ସହାୟତା କରିପାରୁଛନ୍ତି!</string>
+    <string name="chatbot_evelyn_description">Evelyn ଏକ ବ୍ରିଟିସ୍ବା ନାଟ୍ୟନିର୍ମାତା, ଯେଉଁଡି ଆପଣଙ୍କୁ ଆପଣଙ୍କର ଶବ୍ଦସରଞ୍ଜ୍ଞା ସୌନ୍ଦର୍ଯ୍ୟ ମଧ୍ୟମରେ ସହାୟତା କରିପାରିବେ!</string>
+    <string name="chatbot_ahsan_description">Ahsan ଏକ ଆରବିକ ସଫ୍ଟଓୟେର ଡେଭଲପର଼ ଯାହାରୁ ଆପଣଙ୍କୁ ଆପଣଙ୍କର vocabulary ଉନ୍ନତି କରିବାରେ ଉପକାର କରିପାରେ!</string>
+    <string name="chatbot_min_description">Min ଏକ ଚାଇନୀଜ୍ ଭୌତିକବିଦ୍ ଯାହାରେ ଆପଣଙ୍କ ଶବ୍ଦଭାରକୁ ଉନତୀକରଣରେ ସହଯେତାପରେ!</string>
 </resources>

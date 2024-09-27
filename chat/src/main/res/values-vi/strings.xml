@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise là một giáo viên Tây Ban Nha có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
+    <string name="chatbot_gabriel_description">Gabriel là một nhiếp ảnh gia người Pháp có thể giúp bạn cải thiện từ vựng của mình!</string>
+    <string name="chatbot_rakesh_description">Rakesh là một sinh viên đến từ Ấn Độ có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
+    <string name="chatbot_evelyn_description">Evelyn là một nhà viết kịch người Anh có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
+    <string name="chatbot_ahsan_description">Ahsan là một nhà phát triển phần mềm người A-rập có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
+    <string name="chatbot_min_description">Min là một nhà vật lý người Trung Quốc có thể giúp bạn cải thiện vốn từ vựng của mình!</string>
 </resources>

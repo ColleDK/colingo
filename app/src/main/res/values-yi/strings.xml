@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Colingo iz a folkghemakhte shprachgeveks-platforn, vos iz entwickelt gevorn fun Colle/William.</string>
     <string name="settings_about_page_description2">Mir shtrebn nokh tsu zayn azoy ofen un farshvungen iber alts inem app, vos iz farvos mir haltn es ofen-kvel.</string>
     <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
-    <string name="settings_about_page_contact">Text to translate: If you have any concerns or suggestions for the app, you can contact us at:</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">פּאקלאָזן באָג</string>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise គឺជាគ្រឿងគ្រាប់អន្តរជាតគ្រូស្រាវខ្មែរខ្ញុំដែលអាចជួយលោកអ្នកដល់ក្រុមពាក្យរបស់ស្រាវ របស់អ្នក!</string>
+    <string name="chatbot_gabriel_description">Gabriel គឺជារូបភាពប្រទេសបារាំងដែល​អាច​ជៀសវាងសំឡេងរបស់អ្នក​បាន!</string>
+    <string name="chatbot_rakesh_description">Rakesh គឺជាសិស្សរបស់សារៈឥណទាស ដែលអាចជួយអ្នកនិភភទេសាមាធពុនាខការ។</string>
+    <string name="chatbot_evelyn_description">Evelyn ជាអ្នក​និពន្ធ ពន្លឺ​ជដែល​អាច​ជួយ​លោក​លោកា​ធ្លារ​ជំនាញ​ពេល​ជ឴យកមាន​។</string>
+    <string name="chatbot_ahsan_description">Ahsan គឺជាអ្នកអភិវឌ្ឍម្នាក់ដែលជាអ្នកអេស៊ូបកូដអ្នកដ៏អាប់ដូតទៅនឹងការជំនួយលេខ​សាសន៍​របស់អ្នក!</string>
+    <string name="chatbot_min_description">Min គឺជាសេវារ៉ោរចិនដែលអាច​ជួយ​អ្នក​ធ្វើ​បន្ថយ​នូវ​ចម្លើយ​រូបវិទ្យា​របស់​អ្នក!</string>
 </resources>

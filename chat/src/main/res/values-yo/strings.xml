@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ni onimo espanyol ti o le ran e se iranlọwọ pẹlu owo oruko rẹ!</string>
+    <string name="chatbot_gabriel_description">Gabriel ni alakoso Faransé ti o le ran gbogbo oo lati ni aarin awon ọrọ rẹ jade!</string>
+    <string name="chatbot_rakesh_description">Rakesh ni ọmọ ile-iwe Ilu India t\'ọmọ ile-iwe le ṣe iranlọwọ fun ẹ nipa iyato idaaju rẹ!</string>
+    <string name="chatbot_evelyn_description">Evelyn ni olorin iwe iroyin ti o ni ilana ti o le ran e si ni aabo fun ifihan imo re!</string>
+    <string name="chatbot_ahsan_description">Ahsan ni olumoro software Arabic kan to le ran iwo jade lati ma ko imo rẹ!</string>
+    <string name="chatbot_min_description">Min ni onisowo olumulo ti o le ran e se eto iforiti re!</string>
 </resources>

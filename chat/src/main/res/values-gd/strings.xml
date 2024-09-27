@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Tha Louise na mhòr-thidsear Spàinich a dh\'fhaodas cuideachadh leat le bhith a\' feabhsuinn air do chuid facail!</string>
+    <string name="chatbot_gabriel_description">Gabriel \'s e dealbhadair Frangach a tha riatanach gus cuideachadh a thoirt dhut le d\'fhacal \'s fhaclan fhèin a sìor thoirt air adhart!</string>
+    <string name="chatbot_rakesh_description">Rakesh \'s i - oileanach Indiach a dh\'fhaodadh cabhair a chur air do fhacalbhar!</string>
+    <string name="chatbot_evelyn_description">Evelyn is a\' sgrìobhadair dealbhan Breatannach a dh\'fhaodas cuidich thu le d\'fhacal-facal a leasachadh!</string>
+    <string name="chatbot_ahsan_description">Ahsan \'s e leasachadh leasachadh a th\' ann an neach leasachaidh leth-sgrìobhaidh Arabaich a dh\'fhaodas taic a thoirt dhuibh le bhith a ’feabhsadh a\' chuid facal.</string>
+    <string name="chatbot_min_description">Min \'s innealtair Sìona a dh\'fhaodadh chuideachadh le bhith a \'cur feabhas air do ghuthan!</string>
 </resources>

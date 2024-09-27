@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Is múinteoir Spáinneach í Louise agus is féidir léi cuidiú leat le d\'fhoclóir a fheabhsú!</string>
+    <string name="chatbot_gabriel_description">Gabriel is Scotchánach grianghrafadóir a d\'fhéadfadh cabhrú leat le do stór foclóra a fheabhsú!</string>
+    <string name="chatbot_rakesh_description">Tá Rakesh ina mhac léinn Indiach agus is féidir leis tú a chabhru le do stór focal a fheabhsú!</string>
+    <string name="chatbot_evelyn_description">Is scríbhneoir drámaíochta Breataineach í Evelyn a chabhraíonn leat le do chuid foclóra a fheabhsú!</string>
+    <string name="chatbot_ahsan_description">Tá Ahsan ina fhorbróir bogearraí Araibis a chuirfidh cabhair ar fáil duit le do stór focal a fheabhsú!</string>
+    <string name="chatbot_min_description">Is fhisicíneach Sínise is ea Min agus is féidir leis cabhrú leat le do ghabháil focal!</string>
 </resources>

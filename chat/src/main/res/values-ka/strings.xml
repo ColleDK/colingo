@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise არის ესპანური მეცნიერი, რომელიც შეძლების თქვენ დაგეხმაროთ ლექსიკონის გაუმერტყმელობაში!</string>
+    <string name="chatbot_gabriel_description">Gabriel არის ფრანგისური ფოტოგრაფი, რომელიც შეგეხმიანება ენაზე ილუსტრაციებით!</string>
+    <string name="chatbot_rakesh_description">Rakesh არის ინდოელლის უნივერსიტეტის სტუდენტი, რომელი შეგიძლია დაგეხმაროთ ლექსიკონის გაუმართავის საქაღალდეში!</string>
+    <string name="chatbot_evelyn_description">Evelyn არის ბრიტანელი დრამატურგი, რომელმაც შესაძლოა გეშოროს თქვენს ლექსიკონის გაუმჯობესელში!</string>
+    <string name="chatbot_ahsan_description">Ahsan არაბული პროგრამისტია, რომელიც შეგიძლია გეტყვით ჩვენების გაუმჯობესების შესახებ!</string>
+    <string name="chatbot_min_description">Min არის ჩინური ფიზიკო, რომელიც შეგიძლია დაგეხმაროთ ლექსიკონის გაუმჯობესებაში!</string>
 </resources>

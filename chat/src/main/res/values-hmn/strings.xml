@@ -13,9 +13,7 @@
     <string name="chats_empty_description">Koj nyem ib lub suab tsa hais txog tus ob txhua yam, koj yuav pom ntxiv txog no nyob rau ntawm no.</string>
 
     <string name="chats_delete_title">Pab chat</string>
-    <string name="chats_delete_subtitle">Text to translate: This action cannot be undone! 
-
-Translation: Tsis tas li ntawd yuav tsis txhob siv tias.</string>
+    <string name="chats_delete_subtitle">Tsis tas li ntawd yuav tsis txhob siv tias.</string>
     <string name="chats_delete_confirm">Xaiv.</string>
     <string name="chats_delete_cancel">Hu nug nrhiav</string>
     <string name="chats_delete_success">Cov ntaub ntawv saib xyuas ntxiv.</string>
@@ -25,4 +23,9 @@ Translation: Tsis tas li ntawd yuav tsis txhob siv tias.</string>
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise yog ib tug neeg muaj lus Thaum Spanish nyob rau hauv cov lus los ua nrog koj hloov lus.</string>
+    <string name="chatbot_gabriel_description">Gabriel yog ib tug French photographer uas tuaj tsi pab koj nyem vocabulary!</string>
+    <string name="chatbot_rakesh_description">Rakesh yog tus hav nrog cov dej hauv lub zos raug siab tsis muaj tus neeg uas pom koj pib hais lus.</string>
+    <string name="chatbot_evelyn_description">Evelyn yog ib tug neeg tseem ceeb txog kev Vaj tsev British uas tuaj yeem pab koj nrog kev pab txhawb rau koj lub npe!</string>
+    <string name="chatbot_ahsan_description">Ahsan yog ib tug neeg txhais lus Arab tsim nyob rau hauv software uas tuaj pab koj thiab tus vocabulary koj pib yug!</string>
+    <string name="chatbot_min_description">Min yog ib tus thawj txhua txhua hauv lub hom ntawv tom qab ham sib kis tshuaj qhov vo cab lus!</string>
 </resources>

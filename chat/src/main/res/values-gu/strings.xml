@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">લ્યૂઇઝ એક સ્પેનિશ શિક્ષક છે જે તમારી શબ્દાવળને સુધારવામાં તમારી મદદ કરી શકે છે!</string>
+    <string name="chatbot_gabriel_description">Gabriel એ એક ફ્રેંચ છબી તરીકે છબી બનાવવામાં તમારી શબ્દાવલીને સુધારવામાં તમારા સહાય કરી શકે છે!</string>
+    <string name="chatbot_rakesh_description">Rakesh એ એક ભારતીય યુનિવર્સિટી વિદ્યાર્થી છે જે તમારા vocabulary માં સુધારવામાં મદદ કરી શકે છે!</string>
+    <string name="chatbot_evelyn_description">Evelyn એક બ્રિટિશ નાટક લેખક છે જે તમારા શબ્દસામર્થ્યમાં સુધારો માટે મદદ કરી શકે છે!</string>
+    <string name="chatbot_ahsan_description">Ahsan એ એરબીક સોફ્ટવેર વિકાસક છે જે તમારી શબ્દસામર્થ્યને સુધારવામાં તમારી મદદ કરી શકાય છે!</string>
+    <string name="chatbot_min_description">મિન એક ચાઇનીઝ ભૌતિકશાસ્ત્રી છે જે તમારી શબ્દસાગર સુધારવામાં મદદ કરી શકે છે!</string>
 </resources>

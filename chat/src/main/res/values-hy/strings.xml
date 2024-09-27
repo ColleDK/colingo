@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Լուիզան իսպաներեն ուսուքող է, որը կարևոր է ձեզ օգնելու բարբառները թելենա։</string>
+    <string name="chatbot_gabriel_description">Gabriel-ը ֆրանսիացի ֆոտոճառային է, որը կարող է օգնել ձեզ իմաստականը բարեփոխել։</string>
+    <string name="chatbot_rakesh_description">Rakesh-ը հնդկական համալիրի ուսանող է, որը կարող է օգնել ձեզ բարեփե՛սել ձեր բարբարությունը։</string>
+    <string name="chatbot_evelyn_description">Evelyn-ը բրիտանացի դաշելավոր, ով կարող է օգնել ձեր բարբառում բարեփոխվել:</string>
+    <string name="chatbot_ahsan_description">Ահսանը արաբական սոֆթվերի ծրագրավորող է, որը կարող է օգնել ձեզ բարեգործելուն ձեր բառապատկերը:</string>
+    <string name="chatbot_min_description">Min-ն չինաքին ֆիզիկոս է, ով կարող է օգնել Ձեզ բարեբախումը բարբառագիր լրացնելու։</string>
 </resources>

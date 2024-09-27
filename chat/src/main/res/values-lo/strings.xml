@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">ລູກຄ້າ: ຫລີໄຊ໌ແມ່ແກນເປັນຂອງພາລາສາ ທີ່ສາມາດຊ່ວຍເພື່ອປົກຄອງວິດີໂອມັນຂອງທ່ານ!</string>
+    <string name="chatbot_gabriel_description">Gabriel ຊີວິຄແຊລແຫ່ງ ແອລກທີກິຈີອກຂີກ ເຈີກວິຟອແອລກີພັລີຢິວແວບຳ ມະຊີວິຂອວກິພຳອາພິງວິກອ!</string>
+    <string name="chatbot_rakesh_description">Rakesh ຄົນນາງອາຟຣິກໄດ້ອັບອົມເພື່ອມະນາທິການຂໍດີສຳເລັດຂອງທ່ານ!</string>
+    <string name="chatbot_evelyn_description">Evelyn ຊື່ແລ້ວວິວແກ່ອາຍຸຮິວວຼມວີແກ່ທ່ານເພື່ອຈັດສະພາວິດຫົວຫນ້າຂອງທ່ານ!</string>
+    <string name="chatbot_ahsan_description">Ahsan ນັກຈັນພາສາອາຣາບິກທີ່ສາມາດຊ່ວຍກັບທໍດິນຂອງທ່າພະນັກຂອງທໍດິນຂອງທ່າທ່າທໍທິນວານທໍດິນສອງເດີນທໍໜາວໜາວຍ!</string>
+    <string name="chatbot_min_description">Min ແມ່ນຜົນງານຈີນບໍ່ຍາວຈະສະແດງການຊ່ວຍພາສາຂອງທ່ານໂດຍຄວາມສົນໃຈ!</string>
 </resources>

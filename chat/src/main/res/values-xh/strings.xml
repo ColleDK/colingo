@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise nguMfundisi wesiSpayini okanye oza kukunceda ekwenzeni ukhuselekile kakuhle kwivakisela lakho!</string>
+    <string name="chatbot_gabriel_description">Gabriel ngumfotografa waseFrance ondiza ekuthuthukiseni isi-Xhosa sakho!</string>
+    <string name="chatbot_rakesh_description">Rakesh nguSiswekazi waseIndia esiFundiswa eUniversithi ekwakheka ukusiza nawe ukwenza iivakwebo zokubanzi!</string>
+    <string name="chatbot_evelyn_description">Evelyn ngumfundi wethiyathaga endlwini yesigqibo eBhiritaniya ecina ukuncedisa kwiimvo zakho!</string>
+    <string name="chatbot_ahsan_description">Ahsan nguMthengisi wesoftware kamagama okwakutshintshiza usisithe arkhasiwele!</string>
+    <string name="chatbot_min_description">uMin unemhimba yamaChina onelungiselelo olungakusiza ekwenzeni isikhala sakho!</string>
 </resources>

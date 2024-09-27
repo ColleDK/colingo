@@ -28,11 +28,11 @@
     <string name="settings_rate_app_page_title">\"Hikas̥tí eqta\"</string>
     <string name="settings_switch_language_title">Júts\'i da ja̲\'yo\' nätho ya.</string>
     <string name="settings_theming_title"><![CDATA[Temamatidotla & maʼa momuke\'anigumi\'a]]></string>
-    <string name="settings_about_page_title">Text to translate: About the app</string>
+    <string name="settings_about_page_title">About the app</string>
     <string name="settings_about_page_description1">Colingo jña ho\'ño ho\'m\'ei ho ga añgʼu cuyo ho m atxʼe nteho Colle/William ho ngu̲hni.</string>
     <string name="settings_about_page_description2">uki\' ñä rö döhi hñä ori mba wilaxi, xi ndu ndo okñe ra ñä rö re xi mbo nri dayo be.</string>
-    <string name="settings_about_page_description3">Text to translate: All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
-    <string name="settings_about_page_contact">Text to translate: If you have any concerns or suggestions for the app, you can contact us at:
+    <string name="settings_about_page_description3">All translations inside the app are done by AIs and as such there might be translations errors - if you find any please do report it in the \"Report a bug\" pane.</string>
+    <string name="settings_about_page_contact">If you have any concerns or suggestions for the app, you can contact us at:
 OK</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 

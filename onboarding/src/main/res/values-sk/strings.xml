@@ -53,6 +53,6 @@
     <string name="add_description_birthday_hint">Narodeniny</string>
     <string name="add_description_birthday_select">Vybrať</string>
     <string name="add_description_birthday_cancel">Zrušiť</string>
-    <string name="add_description_location_hint">Text to translate: Lokalita</string>
+    <string name="add_description_location_hint">Lokalita</string>
     <string name="add_description_description_hint">Popis</string>
 </resources>

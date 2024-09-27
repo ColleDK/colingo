@@ -11,11 +11,11 @@
     <string name="community_empty_subtitle">Prøv å oppdatere filtrene dine for å finne flere brukere.</string>
 
     <string name="community_filters_limit">Velg opptil %d språk du ønsker å se flytende talere fra</string>
-    <string name="community_filters_selected">Tekst å oversette: %d/%d valgt</string>
+    <string name="community_filters_selected">%d/%d valgt</string>
     <string name="community_filters_clear">Fjern filtre</string>
     <string name="community_filters_your_languages">Dine nåværende språk</string>
 
-    <string name="chat_created_msg">Tekst å oversette: Chat opprettet</string>
+    <string name="chat_created_msg">Chat opprettet</string>
     <string name="chatbot_created_msg">Chat opprettet med %s</string>
     <string name="chatbot_create_chat">Opprett chat med %s</string>
 </resources>

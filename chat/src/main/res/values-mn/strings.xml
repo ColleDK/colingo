@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Луис нь танд ихэнх хэлний тэмдэглэл сацуулахад туслах боломжтой Испани хэлний багш юм.</string>
+    <string name="chatbot_gabriel_description">Габриэл нь Францын зургийн зургийнчлалын сургалтаа сайжруулах танд туслах боломжтой!</string>
+    <string name="chatbot_rakesh_description">Rakesh нь Инди улсын их сургуулийн оюутан, та зүгээр л правилын дэвшилтэй туслах боломжтой!</string>
+    <string name="chatbot_evelyn_description">Evelyn нь Английн тоглоомын бичигч бөгөөд таны хэлний үгийг сайжруулахад таньд туслах боломжтой!</string>
+    <string name="chatbot_ahsan_description">Ahsan нь Арабын хөгжүүлэгч ба таны хэлний тайлбарыг сайжруулахад тусалж болно!</string>
+    <string name="chatbot_min_description">Min нь хэлний тайлбарыг сайжруулахдаа тусална уу! Одоо нь Хятадын физикийн одонтой юм.</string>
 </resources>

@@ -10,7 +10,7 @@
     <string name="chat_empty_description">Sinaqqaatigut piqamilluat.</string>
 
     <string name="chats_empty_title">OK</string>
-    <string name="chats_empty_description">Text to translate: Once you\'ve started a new conversation, you\'ll see it listed here.</string>
+    <string name="chats_empty_description">Once you\'ve started a new conversation, you\'ll see it listed here.</string>
 
     <string name="chats_delete_title">ᓴᖃᑲ ᐃᒻᒪᓂᖅ</string>
     <string name="chats_delete_subtitle">OK</string>
@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ᐊᒥᕆᐊᑐᓯᒋᑦ ᑐᓴᐅᖅᑲᖕᒥᑦ ᑲᒪᔩᒃᓴᐅᑦ ᑕᒡᕐᓯᒃᑯᑦ!</string>
+    <string name="chatbot_gabriel_description">Gabriel ᐃᓄᒃᑎᑐᐃᒡ ᐅᓂᒡᒋᓂᖓᖅ ᓴᖃᖅᑎᒃᑯᑦ ᒥᕐᕋᕐᖑᓚᑦ!</string>
+    <string name="chatbot_rakesh_description">Rakesh ᐃᒡᓗ ᐊᑐᐊᖅᑐᑦᑐᖅ ᓱᑉᐸᐃᑦ ᐊᓘᖢᒋᐊᓂᕐᓗᒍᑦ!</string>
+    <string name="chatbot_evelyn_description">Evelyn, play writerangami Atungi, piusirsartarlutik atuinnanguarsimajut!</string>
+    <string name="chatbot_ahsan_description">Ahsan ᐊᔅᓐ ᐃᓕᐊᕐᓂᒃ ᓴᐃᒪᒻᔪᖅᑐᖓ ᓇᒍᑦᓯ!</string>
+    <string name="chatbot_min_description">Min ᐊᔪᑦᑐᖅᑎᓚᖅᑐᖓ ᓇᓗᕈᑦᑕᖏᓇᖃᓚᑦ ᐅᑯᕐᓐᓇᒍᔪᖅ!</string>
 </resources>

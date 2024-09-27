@@ -2,8 +2,8 @@
     <string name="chat_create_new">Krei novan babiladon</string>
     <string name="date_today">Hodiaŭ</string>
 
-    <string name="members_page_title">Teksto por traduki: Chats</string>
-    <string name="bots_page_title">Teksto por traduki: Bot babilejoj</string>
+    <string name="members_page_title">Chats</string>
+    <string name="bots_page_title">Bot babilejoj</string>
 
     <string name="chat_my_messages">Miaj mesaĝoj</string>
     <string name="chat_empty_title">Neniu mesaĝo ankoraŭ</string>
@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise estas hispana instruistino, kiu povas helpi vin plibonigi vian vortprovizon!</string>
+    <string name="chatbot_gabriel_description">Gabriel estas franca fotisto, kiu povas helpi vin plibonigi vian vortprovizon!</string>
+    <string name="chatbot_rakesh_description">Rakesh estas studento en hinda universitato kiu povas helpi vin plibonigi vian vortprovizon!</string>
+    <string name="chatbot_evelyn_description">Evelyn estas brita ludverkisto kiu povas helpi vin plibonigi vian vortprovizon!</string>
+    <string name="chatbot_ahsan_description">Ahsan estas araba programisto kiu povas helpi vin plibonigi vian vortprovizon!</string>
+    <string name="chatbot_min_description">Min estas ĉina fizikisto kiu povas helpi vin plibonigi vian vortprovizon!</string>
 </resources>

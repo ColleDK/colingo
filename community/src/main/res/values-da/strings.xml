@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Prøv at opdatere dine filtre for at finde flere brugere.</string>
 
     <string name="community_filters_limit">Vælg op til %d sprog, du gerne vil se flydende talere fra.</string>
-    <string name="community_filters_selected">Tekst der skal oversættes: %d/%d valgt</string>
+    <string name="community_filters_selected">%d/%d valgt</string>
     <string name="community_filters_clear">Fjern filtre</string>
     <string name="community_filters_your_languages">Dine nuværende sprog</string>
 

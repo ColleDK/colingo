@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">لوئیس اووه یوه اسپانۍ ورځنی د کړه له خوښوي چې کولای شما په واړه زیاتولایسی!</string>
+    <string name="chatbot_gabriel_description">Gabriel د فرانسوي عکاس دی چې کولای شما سره د زده کړې پرمختګ کې بهتره کړی!</string>
+    <string name="chatbot_rakesh_description">Rakesh د هندوستانو د پوهاند د زده کړې، چې کولای شم زده کړی رالستل.</string>
+    <string name="chatbot_evelyn_description">Evelyn د برتانو د کارندو لويه ليکوال دي چې تاسو سره د خپلو واژنو تر اصلاحاتو کې مرسته کولای شي!</string>
+    <string name="chatbot_ahsan_description">Ahsan د يو عربي لومړني پرمخه كه تاسو سره د خپلو لغتونو ارتقا وکړي!</string>
+    <string name="chatbot_min_description">د مین چیني فزيکي که ممکن د اوستنيز لغو واړتیا کولای شی!</string>
 </resources>

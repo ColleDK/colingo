@@ -32,7 +32,7 @@
     <string name="settings_about_page_description1">Colingo is in iepenbronne, gemeenskipsdielde taalútwikselplatfoarm ûntwikkele troch Colle/William.</string>
     <string name="settings_about_page_description2">Wy stribje nei iepenheid en earlikens oer alles yn \'e app, dat is wêrom\'t wy it iepen boarne hâlde.</string>
     <string name="settings_about_page_description3">Alle oersettingen yn \'e app wurde dien troch AIs en dus kinne der oersettingsfouten wêze - asto ien fynst, meld it dan yn it \\"Rapportearje in bug\\"-rút.</string>
-    <string name="settings_about_page_contact">Text om te oersetten: As jo ​​noch soargen of suggestjes hawwe foar de app, kinne jo kontakt mei ús opnimme op:</string>
+    <string name="settings_about_page_contact">As jo ​​noch soargen of suggestjes hawwe foar de app, kinne jo kontakt mei ús opnimme op:</string>
     <string name="settings_about_page_contact_email" translatable="false">colingoappdk@gmail.com</string>
 
     <string name="settings_report_bug_page_title">Meld fout.</string>

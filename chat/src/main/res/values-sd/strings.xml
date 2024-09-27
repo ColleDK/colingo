@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ايڇوا اسپينيش استاد آهي جو توهان جي واڪاب مينهنجي وراسي ۾ مدد ڪري سگهندو!</string>
+    <string name="chatbot_gabriel_description">Gabriel ايڪ French photographer آهي جيڪو توهان جي vocabulary وڌيڪاري جي مدد ڪري سگهن!</string>
+    <string name="chatbot_rakesh_description">Rakesh ايڊيل انڊين يونيورسٽي جي طالب علم آهي جو توهان جي لغت ۾ بہترائي ۾ توازن LGPL!</string>
+    <string name="chatbot_evelyn_description">ايولن اڳيڪ ڀارتي ڊراما لکو جي شيڪاري لاء توهان جي الفاظ جي بہتريءَ مدد ڪري سگهي ويندو!</string>
+    <string name="chatbot_ahsan_description">Ahsan اردو  سافٽ ويئر ڊولپر آهي جيڪو توهان جي شاعري يادگاري ۾ ترقي لاء ڪري سگهڻ واسطو ٺٽ سگهيءَ!</string>
+    <string name="chatbot_min_description">Min ايهي چائينيس فيزيشسٽ آهي جنهنڪ ٻوليءَ ٻهرجي ميزان ۾ مدد ڪري سگھيندو!</string>
 </resources>

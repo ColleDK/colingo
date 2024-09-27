@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Луиза муаллими забони испанӣ аст, ки метавонад барои беҳтар кардани луғати шумо кумак кунад!</string>
+    <string name="chatbot_gabriel_description">Габриель яке асосҳои забонро ба шумо кор намояд ва широят кунад!</string>
+    <string name="chatbot_rakesh_description">Ракеш донишҷӯи донишгоҳи ҳиндустонӣ аст, ки ба шумо дар таҳсили луғати худ кӯмак мегирад!</string>
+    <string name="chatbot_evelyn_description">Ивлин яке аз навиштаҳои Острияи Британияи ба шумо кӯмак мекунад барои бехтар кардани луғати шумо!</string>
+    <string name="chatbot_ahsan_description">Ахсан мутахассиси намуди дастгирии нармешрӯи шуморо дар таъмини воситаҳои забонӣ кушоӣ кардан мебошад!</string>
+    <string name="chatbot_min_description">Мин физикшавии чинҷие, ки метавонад ба Шумо кумак кунад ба барои бехтарин калиматҳои шумо!</string>
 </resources>

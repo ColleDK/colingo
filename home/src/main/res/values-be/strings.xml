@@ -13,7 +13,7 @@
     <string name="home_filters_newest">Апошні.</string>
     <string name="post_create_comment">Дадаць каментарий</string>
     <string name="post_likes">%s лайкае</string>
-    <string name="post_comments">Тэкст для перакладу: %s каментары</string>
+    <string name="post_comments">%s каментары</string>
     <string name="post_no_comments_title">Няма адказу.</string>
     <string name="post_no_comments_subtitle">Будзьце першымі, хто падзяліцца сваімі думкамі па гэтым паведамленні</string>
 

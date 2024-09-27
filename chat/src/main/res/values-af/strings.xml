@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise is \'n Spaanse onderwyser wat jou kan help om jou woordeskat te verbeter!</string>
+    <string name="chatbot_gabriel_description">Gabriel is \'n Franse fotograaf wat jou kan help om jou woordeskat te verbeter!</string>
+    <string name="chatbot_rakesh_description">Rakesh is \'n Indiese universiteitstudent wat jou kan help om jou woordeskat te verbeter!</string>
+    <string name="chatbot_evelyn_description">Evelyn is \'n Britse speel-skrywer wat jou kan help om jou woordeskat te verbeter!</string>
+    <string name="chatbot_ahsan_description">Ahsan is \'n Arabiese sagtewareontwikkelaar wat jou kan help om jou woordeskat te verbeter!</string>
+    <string name="chatbot_min_description">Min is \'n Chinese fisikus wat jou kan help om jou woorde skat te verbeter!</string>
 </resources>

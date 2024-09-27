@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise spanyol tanár, aki segíthet a szókincsed fejlesztésében!</string>
+    <string name="chatbot_gabriel_description">Gabriel egy francia fotós, aki segíthet neked a szókincsed fejlesztésében!</string>
+    <string name="chatbot_rakesh_description">Rakesh egy indiai egyetemista hallgató, aki segíthet neked a szókincsed fejlesztésében!</string>
+    <string name="chatbot_evelyn_description">Evelyn egy brit színlapíró, aki segíthet a szókincsed fejlesztésében!</string>
+    <string name="chatbot_ahsan_description">Ahsan egy arab szoftverfejlesztő, aki segíthet neked a szókincsed fejlesztésében!</string>
+    <string name="chatbot_min_description">Min egy kínai fizikus, aki segíthet neked a szókincsed fejlesztésében!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">පරිශීලක: ලුවීස් ඔබට ඔබේ වාක්ය ව්‍යදනය සුහඳ කිරීමට උක්‍රිනවේද\?</string>
+    <string name="chatbot_gabriel_description">Gabriel යූඛ් ඡ්‍රෑනච් කෝටොහර් වාකි෈බු෇ලරීන් සෙන්ටිම වලි උපාංකරලයු කියන්නුවලි!</string>
+    <string name="chatbot_rakesh_description">පරිශීලක රකේෂ් යටි හිමිකරනු ඇත්තේ යුනිවර්සිටි විශ්වේෂයෙන් උපදෙස් පිළිබඳ අත්ථාපනය කළ හැකිය!</string>
+    <string name="chatbot_evelyn_description">Evelyn යනු බ්‍රිතුන් දියවල යහම් කරගන්න බෙදා හැර යයි!</string>
+    <string name="chatbot_ahsan_description">පරිශීලකයා Ahsan ක්‍රියාණෝත්‍ය තැපැල් ස්වයෝගයෙන් සහිත බලාපොරකිරීම් සහායක් හාමුදුඉදිනමෙමඟයි!</string>
+    <string name="chatbot_min_description">Min මෙතනින් පෙළහැරීමේ නිදහස උපරිම සම්මාවට සහිත චීන භෞතිකර්ම උපාංගයක්!</string>
 </resources>

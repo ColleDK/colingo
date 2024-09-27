@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise yra ispanų kalbos mokytoja, kuri gali jums padėti pagerinti žodyną!</string>
+    <string name="chatbot_gabriel_description">Gabriel - prancūzų fotografas, kuris gali jums padėti pagerinti žodyną!</string>
+    <string name="chatbot_rakesh_description">Rakesh yra Indijos universiteto studentas, kuris gali jums padėti tobulinti savo žodyną!</string>
+    <string name="chatbot_evelyn_description">Evelyn yra britų dramaturgė, kuri gali padėti jums tobulinti žodyną!</string>
+    <string name="chatbot_ahsan_description">Ahsan yra arabų kalbos programų kūrėjas, kuris gali padėti jums pagerinti savo žodyną!</string>
+    <string name="chatbot_min_description">Min yra kinų fizikas, kuris gali padėti jums pagerinti žodyną!</string>
 </resources>

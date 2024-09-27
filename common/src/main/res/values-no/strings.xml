@@ -1,3 +1,3 @@
 <resources>
-    <string name="default_error">Tekst å oversette: An unexpected error has occurred. Please try again!</string>
+    <string name="default_error">An unexpected error has occurred. Please try again!</string>
 </resources>

@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">لويز مدرسة إسبانية يمكنها مساعدتك في تحسين مفرداتك!</string>
+    <string name="chatbot_gabriel_description">جبريل هو مصور فرنسي يمكنه مساعدتك في تحسين مفرداتك!</string>
+    <string name="chatbot_rakesh_description">راكيش هو طالب جامعي هندي يستطيع مساعدتك في تحسين مفرداتك!</string>
+    <string name="chatbot_evelyn_description">إيفلين كاتبة مسرحية بريطانية يمكنها مساعدتك في تحسين مفرداتك!</string>
+    <string name="chatbot_ahsan_description">Ahsan هو مطور برامج عربي يمكنه مساعدتك في تحسين مفرداتك!</string>
+    <string name="chatbot_min_description">Min هو فيزيائي صيني يستطيع مساعدتك في تحسين مفرداتك!</string>
 </resources>

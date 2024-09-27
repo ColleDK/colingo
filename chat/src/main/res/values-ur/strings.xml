@@ -23,4 +23,9 @@
 
     <!-- Chat bots -->
     <string name="chatbot_louise_description">Louise ایک ہے جو آپ کو آپ کی ویکیولری میں بہتری کے لیے مدد کرسکتی ہے!</string>
+    <string name="chatbot_gabriel_description">Gabriel ایک فرانسیسی تصویری تھا جو آپ کو آپکی فرنچ زبان کو بہتر بنانے میں مدد کرسکتا ہے!</string>
+    <string name="chatbot_rakesh_description">Rakesh ایک بھارتی یونیورسٹی طالب علم ہے جو آپ کو آپ کی متضاد لغت میں مدد کر سکتا ہے!</string>
+    <string name="chatbot_evelyn_description">Evelyn ایک برطانوی ڈرامہ نگار ہے جو آپ کی بول چال کو بہتر بنانے میں مدد کرسکتی ہے!</string>
+    <string name="chatbot_ahsan_description">Ahsan ایک عربی سافٹ ویئر ڈویلپر ہے جو آپ کو آپ کے معقول کو بہتر بنانے میں مدد کرسکتا ہے!</string>
+    <string name="chatbot_min_description">من چینی ناطق ہے جو آپ کو لغت میں بہتری کے ساتھ مدد کر سکتا ہے!</string>
 </resources>

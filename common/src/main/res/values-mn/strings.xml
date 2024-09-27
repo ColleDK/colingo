@@ -1,5 +1,3 @@
 <resources>
-    <string name="default_error">Text to translate: An unexpected error has occurred. Please try again! 
-
-Translation: Эхлээд тохиролцоог илэрсэн байна. Дахин оролдоно уу!</string>
+    <string name="default_error">Эхлээд тохиролцоог илэрсэн байна. Дахин оролдоно уу!</string>
 </resources>

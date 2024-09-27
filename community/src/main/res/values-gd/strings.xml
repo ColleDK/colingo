@@ -11,7 +11,7 @@
     <string name="community_empty_subtitle">Feuch an ùrachadh air do bhiastagan gus barrachd luchd-cleachdaidh lorgadh</string>
 
     <string name="community_filters_limit">Tagh suas gu %d cànanan a tha thu airson cluicheadairean brèagha bho fhacal.</string>
-    <string name="community_filters_selected">Text to translate: %d/%d air a thaghadh</string>
+    <string name="community_filters_selected">%d/%d air a thaghadh</string>
     <string name="community_filters_clear">Fosgail stuthan</string>
     <string name="community_filters_your_languages">Do na cànainean agad</string>
 
