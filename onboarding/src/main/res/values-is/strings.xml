@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Á ekki aðgang ennþá\?</string>
     <string name="login_go_to_signup_2">Skráðu þig</string>
     <string name="login_reset_password">Til baka stillingar</string>
+    <string name="reset_password_sent">Til að endurstilla lykilorðið þitt hefur verið sent tölvupóstur til þín. Vinsamlegast athugaðu ruslapósthólfinn ef þú finnur ekki póstinn!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Skráðu þig</string>

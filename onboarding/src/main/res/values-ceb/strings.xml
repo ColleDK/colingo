@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Wala pa kay nakasud sa account\?</string>
     <string name="login_go_to_signup_2">Mag-sign up</string>
     <string name="login_reset_password">I-reset ang password</string>
+    <string name="reset_password_sent">Gipadala ang usa ka email kanimo nga adunay mga tambag unsaon pag-usab sa imong password. Palihug retaso imong spam-box kon wala nimo makit-an!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Rehistro</string>

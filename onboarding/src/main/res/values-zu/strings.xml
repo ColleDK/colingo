@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Awukho uhlobo lwe-akhawunti\?</string>
     <string name="login_go_to_signup_2">Thumelela ukuqala</string>
     <string name="login_reset_password">Vula ikhasi lokufutshane</string>
+    <string name="reset_password_sent">Email ithumela kini isicelo sakho sokusetshenziswa ulindele ukusetsha ikhasi lokhowushi yakho. Sicela ucabangele ikhasi lakho lesiphamu uma ungakuthola!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Faka iqala</string>

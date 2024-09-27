@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Kas teil pole veel kontot\?</string>
     <string name="login_go_to_signup_2">Registreeru</string>
     <string name="login_reset_password">Taasta parool</string>
+    <string name="reset_password_sent">Tekst tõlkimiseks: Teile on saadetud e-kiri juhistega parooli nullimiseks. Palun kontrollige rämpspostikasti, kui te ei leia seda!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registreeru</string>

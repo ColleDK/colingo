@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Hali akkauntingiz yo\'qmi\?</string>
     <string name="login_go_to_signup_2">Ro\'yxatdan o\'ting</string>
     <string name="login_reset_password">Parolni tiklash</string>
+    <string name="reset_password_sent">\"Parolni tiklash uchun ko\'rsatmalar bilan sizga elektron pochta yuborildi. Topa olmagan bo\'lsangiz, spam qutisini tekshiring!\"</string>
 
     <!-- Sign up -->
     <string name="signup_title">Ro\'yxatdan o\'tish</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">حالت اکانت ندارید؟</string>
     <string name="login_go_to_signup_2">ثبت نام</string>
     <string name="login_reset_password">بازنشانی رمز عبور</string>
+    <string name="reset_password_sent">یک ایمیل به شما ارسال شده است که حاوی دستورالعمل‌های بازنشانی رمز عبور شما می‌باشد. لطفاً اگر پیدا نکردید، جعبه اسپم خود را بررسی کنید!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ثبت شدن</string>

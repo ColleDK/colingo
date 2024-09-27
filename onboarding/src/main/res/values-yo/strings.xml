@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ẹ ṣe alaye ti o ti jẹ ṣiṣẹ\?</string>
     <string name="login_go_to_signup_2">Daa akọle</string>
     <string name="login_reset_password">Yan aṣẹwọ orukọ.</string>
+    <string name="reset_password_sent">Ọrọ iwe ti o ṣe apeere si rẹ pẹlu iwadii lori nípa iṣẹ ti o ni lati fi ọrọ iwe aṣẹ rẹ. Jọwọ ṣe ri pe o le rii eso-iwe ti o kọ o!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Dafarati</string>

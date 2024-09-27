@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">E leai se au i le fa\'aalilolilo i le taimi nei\?</string>
     <string name="login_go_to_signup_2">Sign up</string>
     <string name="login_reset_password">Fa\'aafoi upu su\'esu\'ega</string>
+    <string name="reset_password_sent">Ua le toe tu\'ufa\'atasia le imelio iā te oe ma le fa\'ailoa i le a outou fa\'asa ona toe fa\'aitiitia lou upu-ʻupu. Fa\'amalie atu i lou pusa-talatala pe a le mafai ona maua lava ai i le fesoasoani!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Faafoe</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Та дугаар үүсгээгүй байна уу\?</string>
     <string name="login_go_to_signup_2">Бүртгүүлэх</string>
     <string name="login_reset_password">Нууц үг сэргээх</string>
+    <string name="reset_password_sent">Таны нууц үгийг шинэчлэх зааврыг илгээсэн имэйл ирлээ. Харахыг хүсвэл спам хайлтаар шалгаарай!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Бүртгүүлэх</string>

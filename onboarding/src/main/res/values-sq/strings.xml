@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Nuk keni një llogari ende\?</string>
     <string name="login_go_to_signup_2">Regjistrohu</string>
     <string name="login_reset_password">Rivendos fjalëkalimin</string>
+    <string name="reset_password_sent">Një email është dërguar te ju me udhëzime për të rivendosur fjalëkalimin tuaj. Ju lutem kontrolloni spam-in nëse nuk e gjeni!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Regjistrohu</string>

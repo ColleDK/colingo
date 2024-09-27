@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">እታ ኣእምሮ ምድሃር ከምኡውታ\?</string>
     <string name="login_go_to_signup_2">ሓበሬ ኣብ መለለይ ይብል ተመሓላለ፡ መመዳእ ኣብቲ ኣምሓራዮታት።</string>
     <string name="login_reset_password">ናይ የኣይትፂ ዘጋጥም ወጺ</string>
+    <string name="reset_password_sent">ኢመይል ማህበረሰብ ብትጽልዖ ሓበሬታ እዩ መደብ ዝገበርካ እዩ። እዚ ፡ ካብ ሽቕሰታት ይኽእል ከተእቶም።</string>
 
     <!-- Sign up -->
     <string name="signup_title">ምዝጋሕ</string>

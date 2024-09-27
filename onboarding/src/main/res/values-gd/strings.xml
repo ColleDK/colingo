@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Chan eil cunntas agad fhathast\?</string>
     <string name="login_go_to_signup_2">Cuir sìos</string>
     <string name="login_reset_password">Ath-shuidhich pasword</string>
+    <string name="reset_password_sent">Tha post-d a\' tighinn thugad le ùidh air mar a dh\'fheum thu a dh\'aindeoin a\' phàssord agad. Cuir sùil air do bhogsa-spàma ma lorgas tu e!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Clàraich</string>

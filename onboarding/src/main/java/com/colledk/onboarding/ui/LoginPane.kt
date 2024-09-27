@@ -72,10 +72,6 @@ internal fun LoginPane(
         mutableStateOf(false)
     }
 
-    LaunchedEffect(key1 = showForgotPassword) {
-        Timber.d("New forgot password $showForgotPassword")
-    }
-
     if (showForgotPassword) {
         ForgotPasswordDialog(
             onReset = { onForgotPassword(it).also { showForgotPassword = false } },

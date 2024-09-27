@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ei vielä käyttäjätiliä\?</string>
     <string name="login_go_to_signup_2">Rekisteröidy</string>
     <string name="login_reset_password">Nollaa salasana</string>
+    <string name="reset_password_sent">Sinulle on lähetetty sähköposti ohjeilla salasanasi nollaamiseen. Tarkista roskapostikansio, jos et löydä sitä!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Rekisteröidy</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Nemate nalog još\?</string>
     <string name="login_go_to_signup_2">Prijavi se</string>
     <string name="login_reset_password">Resetuj šifru</string>
+    <string name="reset_password_sent">Na Vašu email adresu je poslana poruka sa uputama kako resetovati Vašu šifru. Molimo Vas provjerite Vaš spam-folder ukoliko je ne možete pronaći!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registruj se</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ହେଲେ ଆକାଉଣ୍ଟ ନୁହଁ\?</string>
     <string name="login_go_to_signup_2">ଚିହ୍ନିତ ହ୍ୟାନ୍ତୁ</string>
     <string name="login_reset_password">Reset ପାସ୍‌ୱାର୍ଡ ରିସେଟ୍ କରନ୍ତୁ।</string>
+    <string name="reset_password_sent">ଆପଣଙ୍କୁ ଏକ ଇ-ମେଲ ପଠାଯାଇଛି , ଆପଣଙ୍କୁ ଆପଣଙ୍କର ପାସୱୋର୍ଡ ରିସେଟ କରିବା ସୂଚନାକୁ କେମିତିକୁ ପାଇଁପାରି ସେଇ ଜାନିବା କୋରା ଥିବ । ଯଦି ଆପଣ ତ ପାସୱୋର୍ଡ ପଇଁପାରି ତାପରେ ହେଲାଃ ତାହାରେ ସ୍ପାମ ବକ୍ସ ଚେକ କରନ୍ତୁ ।</string>
 
     <!-- Sign up -->
     <string name="signup_title">ରেଜିଷ୍ଟର୍ କରନ୍ତୁ।</string>

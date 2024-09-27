@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Še nimate računa\?</string>
     <string name="login_go_to_signup_2">Prijavite se</string>
     <string name="login_reset_password">Ponastavi geslo</string>
+    <string name="reset_password_sent">Na vaš e-naslov smo poslali navodila za ponastavitev gesla. Če sporočila ne najdete, preverite mapo za nezaželeno pošto!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registriraj se</string>

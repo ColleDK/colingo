@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Wala pa bang account\?</string>
     <string name="login_go_to_signup_2">Mag-sign up</string>
     <string name="login_reset_password">I-reset ang password</string>
+    <string name="reset_password_sent">Isang email ay ipinadala sa iyo kasama ang mga tagubilin kung paano i-reset ang iyong password. Mangyaring tingnan mo ang iyong spam-box kung hindi mo ito makita!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Magrehistro</string>

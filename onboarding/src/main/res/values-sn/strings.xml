@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Usina chimiro ichi chawakaita here akati\?</string>
     <string name="login_go_to_signup_2">Register</string>
     <string name="login_reset_password">Reset password</string>
+    <string name="reset_password_sent">An email yakabatwa kwauri nematuro ekunyora kuti uuye nesimbi rakakanganisa kupindura nyora. Ndosaka tengesa zvako spam-box kana usisati waudze!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

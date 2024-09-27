@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Encara no tens un compte\?</string>
     <string name="login_go_to_signup_2">Registra\'t</string>
     <string name="login_reset_password">Restablir contrasenya</string>
+    <string name="reset_password_sent">S\'ha enviat un correu electrònic amb les instruccions per restablir la contrasenya. Si no el trobes, comprova la carpeta de correu brossa.</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registre</string>

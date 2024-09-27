@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Hesabınız yoxdur\?</string>
     <string name="login_go_to_signup_2">Qeydiyyatdan keçin</string>
     <string name="login_reset_password">Şifrəni yenidən qurmaq</string>
+    <string name="reset_password_sent">Bir e-poçt sizə şifrənizi sıfırlamaq üçün təlimatlarla göndərildi. Tapmırsınızsa spam qutusunu yoxlayın!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Qeydiyyat</string>

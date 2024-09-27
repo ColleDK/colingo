@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Încă nu ai un cont\?</string>
     <string name="login_go_to_signup_2">Înscrie-te</string>
     <string name="login_reset_password">Resetează parola</string>
+    <string name="reset_password_sent">A fost trimis un email cu instrucțiuni despre cum să-ți resetezi parola. Te rog verifică folderul de spam dacă nu-l găsești!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Înregistrare</string>

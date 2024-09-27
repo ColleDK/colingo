@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">هه‌ژمارێك ههنووکه‌ت ناوەدۆزیت؟</string>
     <string name="login_go_to_signup_2">خۆ تۆماربوون</string>
     <string name="login_reset_password">Rêzkirina şîfreyê</string>
+    <string name="reset_password_sent">پەیامی ئیمەیلێک بۆت نێردرا بۆت بە ئامێرەکەوە بۆ چارەساندنەوەی وشەی نهێنیەکەت. تکایە تێبینی بکە لە خانەی spam کەبێ خانەکە بدۆزیت!</string>
 
     <!-- Sign up -->
     <string name="signup_title">تۆماركردن</string>

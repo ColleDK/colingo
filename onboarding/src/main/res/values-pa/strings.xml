@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ਹਾਲੇ ਖਾਤਾ ਨਹੀਂ ਹੈ\?</string>
     <string name="login_go_to_signup_2">ਸਾਈਨ ਅਪ ਕਰੋ</string>
     <string name="login_reset_password">ਪਾਸਵਰਡ ਰੀਸੈਟ ਕਰੋ</string>
+    <string name="reset_password_sent">ਇੱਕ ਈਮੇਲ ਤੁਹਾਨੂੰ ਭੇਜੀ ਗਈ ਹੈ ਜਿਸ ਵਿੱਚ ਤੁਹਾਡੇ ਪਾਸਵਰਡ ਰੀਸੈੱਟ ਕਰਨ ਦੀ ਹਦਾਇਤ ਹੈ। ਇਸਨੂੰ ਲੱਭਣ ਵਿੱਚ ਦਿੱਕਤ ਹੋ ਤਾਂ ਇਹ ਜਾਂਚੋ ਕਿ ਸਪੈਮ-ਬਾਕਸ ਵਿੱਚ ਤੁਸੀਂ ਨਹੀਂ ਲੱਭ ਰਹੇ ਹੋ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ਰਜਿਸਟਰ</string>

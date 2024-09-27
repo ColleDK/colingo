@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Heb je nog geen account\?</string>
     <string name="login_go_to_signup_2">Aanmelden</string>
     <string name="login_reset_password">Wachtwoord herstellen</string>
+    <string name="reset_password_sent">Er is een e-mail naar u verzonden met instructies over hoe u uw wachtwoord kunt resetten. Controleer alstublieft uw spam-map als u het niet kunt vinden!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

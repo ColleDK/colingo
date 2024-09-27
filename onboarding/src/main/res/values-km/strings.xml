@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">មិនទាន់មានគណនីទេជាមួយហើយ​ទេ\?</string>
     <string name="login_go_to_signup_2">ចុះឈ្មោះ</string>
     <string name="login_reset_password">កំណែក​ពាក្យ​សម្ងាត់</string>
+    <string name="reset_password_sent">សារ​អ៊ី​មែលត្រូវ​បាន​ផ្ញើ​ទៅ​អ្នក​ដែល​ដាក់​សំឡេង​អំពី​របស់​អ្នក។ សូម​ពិនិត្យ​ជា​មួយ​ប្រអប់​សំបុត្រ​បណ្ដើរ​មិន​ឃើញ​វា​ទេ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ចុះ​ឈ្មោះ</string>

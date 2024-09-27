@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">এতিয়া এক একাউন্ট নাই\?</string>
     <string name="login_go_to_signup_2">নামবোৱা</string>
     <string name="login_reset_password">পাছৱাৰ্ড পুনৰ সদায় কৰক।</string>
+    <string name="reset_password_sent">আপোনালৈ আপোনাৰ পাছৱাৰ্ড পুনৰ স্থিৰ কৰিবলৈ উদ্দেশ্যহীন ইমেইল পঠিত কৰা হৈছে। যদি আপুনি ইয়ানক পোৱা নাপাই তেনিকৈ আপোনাৰ স্পেম বাকচ্ চাওঁক!</string>
 
     <!-- Sign up -->
     <string name="signup_title">নিবন্ধন কৰক</string>

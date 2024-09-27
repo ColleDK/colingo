@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ഇതുവരെ അക്കൗണ്ട് ഉണ്ടാക്കിയില്ലോ\?</string>
     <string name="login_go_to_signup_2">സൈൻ അപ്പ് ചെയ്യുക</string>
     <string name="login_reset_password">പാസ്‌വേഡ് മറന്ന് പുനഃസ്ഥാപിക്കുക</string>
+    <string name="reset_password_sent">നിങ്ങളോട് പാസ്‌വേഡ് റീസെറ്റ് ചെയ്യുന്ന സജ്ജമായ നിർദ്ദേശങ്ങൾ ഉള്ള ഒരു ഇമെയിൽ അയയ്ക്കുന്നതാണ്. അത് കണ്ടെത്താനായാല്‍ നിങ്ങളുടെ സ്‌പാം ബോക്സ് പരിശോധിക്കുക!</string>
 
     <!-- Sign up -->
     <string name="signup_title">രജിസ്റ്റർ ചെയ്യുക.</string>

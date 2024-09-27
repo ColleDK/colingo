@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ĉu vi ankoraŭ ne havas konton\?</string>
     <string name="login_go_to_signup_2">Registriĝi</string>
     <string name="login_reset_password">Restarigi pasvorton</string>
+    <string name="reset_password_sent">Vi ricevis retleteron kun instrukcioj pri kiel restarigi vian pasvorton. Bonvolu kontroli vian \"spam\"-keston se vi ne povas trovi ĝin!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registriĝi</string>

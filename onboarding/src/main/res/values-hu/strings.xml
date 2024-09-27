@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Még nincs fiókja\?</string>
     <string name="login_go_to_signup_2">Regisztráció</string>
     <string name="login_reset_password">Jelszó visszaállítása</string>
+    <string name="reset_password_sent">Az e-mailt elküldtük Önnek az új jelszó beállításához szükséges utasításokkal. Kérjük, ellenőrizze a levélszemét mappát, ha nem találja!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Regisztráció</string>

@@ -26,6 +26,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.colledk.colingo.ui.AppViewModel
 import com.colledk.colingo.ui.ColingoAppState
 import com.colledk.colingo.ui.navigation.ColingoNavHost
+import com.colledk.colingo.ui.navigation.TopLevelDestination
 import com.colledk.colingo.ui.rememberColingoAppState
 import com.colledk.home.navigation.Home
 import com.colledk.onboarding.navigation.Onboarding
@@ -42,7 +43,13 @@ internal fun ColingoApp(
 
     val startDestination by remember {
         derivedStateOf {
-            if (Firebase.auth.currentUser?.uid == null) Onboarding else Home
+            if (appState.currentUserId == null) Onboarding else Home
+        }
+    }
+
+    LaunchedEffect(key1 = startDestination) {
+        if (startDestination == Home && currentDestination == null) {
+            appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
         }
     }
 

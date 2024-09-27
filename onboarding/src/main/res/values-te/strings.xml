@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ఇప్పుడు ఖాతా ఉండదు కాదా\?</string>
     <string name="login_go_to_signup_2">చేరడం</string>
     <string name="login_reset_password">పాస్వర్డ్ మళ్ళిచేయండి</string>
+    <string name="reset_password_sent">అడ్రెస్ తదితర ధరకు, మీ పాస్వర్డ్ రీసెట్ చేయడానికి మీకు సమాచారాన్ని కలిగి పంపబడింది. సాంప్ బాక్స్ లో కనుగొనకపోతే, దయచేసి చూడండి!</string>
 
     <!-- Sign up -->
     <string name="signup_title">నమోదు చేయండి</string>

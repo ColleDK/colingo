@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">არც არის ანგარიში\?</string>
     <string name="login_go_to_signup_2">დარეგისტრირდი</string>
     <string name="login_reset_password">პაროლის გადაყენება</string>
+    <string name="reset_password_sent">თქვენთვის ელ. ფოსტაზე იგზას მიერ გამიგზავნილი წერილი მოგაწერილა, რომელიც ინსტრუქციებს გთავაზობს პაროლის გადაყენების შესახებ. გთხოვთ შეამოწმოთ თქვენი სპემ-ქულაში, თუ ვერ ხართ შესაძლებელი ნაპირი გახდეთ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">რეგისტრაცია</string>

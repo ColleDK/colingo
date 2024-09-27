@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Aínda non tes unha conta\?</string>
     <string name="login_go_to_signup_2">Rexístrate</string>
     <string name="login_reset_password">Restablecer contrasinal</string>
+    <string name="reset_password_sent">Un correo electrónico foi enviado con instrucións sobre como restablecer o contrasinal. Por favor, comproba a túa carpeta de spam se non o atopas!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Rexistrar</string>

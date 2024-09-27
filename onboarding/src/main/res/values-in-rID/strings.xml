@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Belum punya akun\?</string>
     <string name="login_go_to_signup_2">Daftar</string>
     <string name="login_reset_password">Reset kata sandi</string>
+    <string name="reset_password_sent">Sebuah email telah dikirimkan kepada Anda dengan petunjuk tentang cara menyetel ulang kata sandi Anda. Silakan periksa kotak spam jika Anda tidak menemukannya!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Daftar</string>

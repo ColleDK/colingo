@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ma haysan akawntka\?</string>
     <string name="login_go_to_signup_2">Iskuday</string>
     <string name="login_reset_password">Codsiga dheeriga</string>
+    <string name="reset_password_sent">Farriinta email-ka ayaa la dirayaa, waxaad ka heli kartaa talooyin ku saabsan sida loo cusbooneysiin karo erayga sirta ah. Fadlan eeg sanduuqtaada spam-ha markaad heli karto!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Register</string>

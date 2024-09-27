@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ainda não tem uma conta\?</string>
     <string name="login_go_to_signup_2">Inscrever-se</string>
     <string name="login_reset_password">Redefinir senha</string>
+    <string name="reset_password_sent">Foi enviado um e-mail para você com instruções de como redefinir sua senha. Por favor, verifique sua caixa de spam se não conseguir encontrá-lo!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registar</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ගිණුමක් එකතු කර නොමැතද\?</string>
     <string name="login_go_to_signup_2">ලියන්න</string>
     <string name="login_reset_password">මුර මුරපදය නැවත සකසන්න</string>
+    <string name="reset_password_sent">මෘදුකාංගයේ රහසින් ඔබට ඔබගේ මුර මුදල් නැවුම් සම්පූර්ණ කිරීමේ උපරිම ලිපිය යවන ලදි. ඔබට එය හමු කරන්නේ බොක්ස් කොකාගේ තාමෙවීමට නැති නම් කරැණාකර පරීක්ෂා කරන්න!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ලියාපදිංචි කරන්න</string>

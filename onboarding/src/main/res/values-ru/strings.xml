@@ -19,6 +19,9 @@
     <string name="login_go_to_signup_1">Еще нет аккаунта\?</string>
     <string name="login_go_to_signup_2">Зарегистрироваться</string>
     <string name="login_reset_password">Сбросить пароль</string>
+    <string name="reset_password_sent">Текст для перевода: An email has been sent to you with instructions on how to reset your password. Please check your spam-box if you cannot find it!
+
+Электронное письмо с инструкциями по сбросу пароля отправлено вам. Пожалуйста, проверьте папку со спамом, если вы не можете найти его!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Регистрация</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">ยังไม่มีบัญชี\?</string>
     <string name="login_go_to_signup_2">ลงทะเบียน</string>
     <string name="login_reset_password">รีเซ็ตรหัสผ่าน</string>
+    <string name="reset_password_sent">มีอีเมลถูกส่งถึงคุณพร้อมคำแนะนำเกี่ยวกับวิธีการรีเซ็ตรหัสผ่านของคุณ กรุณาตรวจสอบกล่องของอีเมลขยะหากคุณไม่พบ!</string>
 
     <!-- Sign up -->
     <string name="signup_title">ลงทะเบียน</string>

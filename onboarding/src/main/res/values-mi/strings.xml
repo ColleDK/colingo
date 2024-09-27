@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Kāore anō koe i te miriona\?</string>
     <string name="login_go_to_signup_2">Tono mai</string>
     <string name="login_reset_password">Whakahoutia te kupuhipa</string>
+    <string name="reset_password_sent">Kua tukuna he īmēra ki a koe me ngā tohutohu ki te whakakore i tō kupuhipa. Tirohia ko tōpūkoro mēnā kahore e kitea!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Wānanga</string>

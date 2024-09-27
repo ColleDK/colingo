@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Har du inte ett konto ännu\?</string>
     <string name="login_go_to_signup_2">Skapa konto</string>
     <string name="login_reset_password">Återställ lösenord</string>
+    <string name="reset_password_sent">Ett e-postmeddelande har skickats till dig med instruktioner om hur du återställer ditt lösenord. Vänligen kontrollera din skräppost om du inte hittar det!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registrera</string>

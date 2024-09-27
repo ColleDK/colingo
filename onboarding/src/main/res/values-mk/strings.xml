@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Немате сметка уште\?</string>
     <string name="login_go_to_signup_2">Регистрирај се</string>
     <string name="login_reset_password">Промени ја лозинката</string>
+    <string name="reset_password_sent">Email со инструкции за ресетирање на лозинката е испратен до вас. Ве молиме проверете го вашиот спам-поле, доколку не можете да го пронајдете!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Регистрирај се</string>

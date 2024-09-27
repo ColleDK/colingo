@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Դեմքեսն դեմպանյալ չունիք։</string>
     <string name="login_go_to_signup_2">Գրանցվեք</string>
     <string name="login_reset_password">Բացաջարկել գաղտնաբառը</string>
+    <string name="reset_password_sent">Տեղեկատվության վերածումը փորձարկման մասին ուղեցվել է ձեզնից էլ. փոստով։ Խնդրում ենք ստուգել ձեր սփամ դամությանը, եթե այն չհասնի։</string>
 
     <!-- Sign up -->
     <string name="signup_title">Գրանցվել</string>

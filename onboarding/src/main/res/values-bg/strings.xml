@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Все още нямате акаунт\?</string>
     <string name="login_go_to_signup_2">Регистрация</string>
     <string name="login_reset_password">Промяна на паролата</string>
+    <string name="reset_password_sent">Изпратен е имейл с инструкции за нулиране на паролата ви. Моля, проверете спам папката, ако не можете да го откриете!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Регистрация</string>

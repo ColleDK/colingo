@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Ezarri kontu oraindik\?</string>
     <string name="login_go_to_signup_2">Izena eman</string>
     <string name="login_reset_password">Pasahitza berrezarri</string>
+    <string name="reset_password_sent">Textua itzultzeko: \"Email bat bidali zaizu pasahitza berrezartzeko jarraibideak emateko. Egiaztatu zure spam-karpetan ez dagoela aurkitzen!\"</string>
 
     <!-- Sign up -->
     <string name="signup_title">Erregistratu</string>

@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Noch keinen Account\?</string>
     <string name="login_go_to_signup_2">Registrieren</string>
     <string name="login_reset_password">Passwort zurücksetzen</string>
+    <string name="reset_password_sent">Ein E-Mail wurde an Sie mit Anweisungen zum Zurücksetzen Ihres Passworts gesendet. Bitte überprüfen Sie Ihren Spam-Ordner, wenn Sie es nicht finden können!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Registrieren</string>

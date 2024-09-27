@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">புதிய கணக்கு இல்லையா\?</string>
     <string name="login_go_to_signup_2">பதிவு செய்க</string>
     <string name="login_reset_password">கடவுச்சொல் மீளமைக்கவும்</string>
+    <string name="reset_password_sent">பயனருக்கு உங்களுக்கு மின்னஞ்சல் அனுப்பப்பட்டுள்ளது. உங்கள் கடவுச்சொல் மீட்பும் முக்கியத்துவமுள்ள வழிமுறைகளுடன் பதிவுசெய்யப்பட்டுள்ளது. அதை கண்டுபிடிக்க முடியாதால் தயவுசெய்து உங்கள் ஸ்பாம் பெட் சவப் பக்ஸை சரிபார்க்கவும்!</string>
 
     <!-- Sign up -->
     <string name="signup_title">பதிவு செய்யவும்</string>

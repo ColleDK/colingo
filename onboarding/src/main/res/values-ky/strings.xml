@@ -19,6 +19,7 @@
     <string name="login_go_to_signup_1">Тилкелген жокпу\?</string>
     <string name="login_go_to_signup_2">Тизмеге катылуу</string>
     <string name="login_reset_password">Күнөөнү тереңдөө</string>
+    <string name="reset_password_sent">Күчүр жазуулары боюнча сизге парольду үчүн кайра тереңизген жеңилдөөчүнүн белгилери менен электрондук почта жөнөтүлгөн. Таппаласаңыз, спам бөлүмүн текшөрүңүз!</string>
 
     <!-- Sign up -->
     <string name="signup_title">Терезецке тиркелүү</string>
