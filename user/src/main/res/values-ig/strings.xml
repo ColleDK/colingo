@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Nwoke</string>
+    <string name="gender_female">Nwanyị</string>
+    <string name="gender_other">Nkowa.</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Anụụbe</string>
     <string name="topic_cooking">Ntụzi</string>

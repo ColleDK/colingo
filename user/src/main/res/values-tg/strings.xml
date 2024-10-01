@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Мард</string>
+    <string name="gender_female">Қизона</string>
+    <string name="gender_other">Дигар</string>
+
     <!-- Topics -->
     <string name="topic_animals">Хайвонот</string>
     <string name="topic_cooking">Пароваришӣ</string>

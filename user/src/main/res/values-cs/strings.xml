@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Muž</string>
+    <string name="gender_female">Žena</string>
+    <string name="gender_other">Jiné</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Zvířata</string>
     <string name="topic_cooking">Vaření</string>

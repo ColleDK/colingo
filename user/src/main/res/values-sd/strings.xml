@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">مرد</string>
+    <string name="gender_female">عورت</string>
+    <string name="gender_other">ٽيڪسٽ جو ترجمو: تيارِ</string>
+
     <!-- Topics -->
     <string name="topic_animals">پالتو حیوانات</string>
     <string name="topic_cooking">پکائيو</string>

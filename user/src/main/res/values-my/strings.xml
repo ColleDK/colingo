@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">အထူး</string>
+    <string name="gender_female">အမျိုးသမီး</string>
+    <string name="gender_other">အခြား</string>
+    
     <!-- Topics -->
     <string name="topic_animals">သက်တမီးများ</string>
     <string name="topic_cooking">ထုတ်ဝေခြင်း</string>

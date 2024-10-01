@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Vyras</string>
+    <string name="gender_female">Moteris</string>
+    <string name="gender_other">Kita.</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Gyvūnai</string>
     <string name="topic_cooking">Gaminimas</string>

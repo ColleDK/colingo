@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Gwryw</string>
+    <string name="gender_female">Merched</string>
+    <string name="gender_other">Yn arall</string>
+
     <!-- Topics -->
     <string name="topic_animals">Anifeiliaid</string>
     <string name="topic_cooking">Coginio</string>

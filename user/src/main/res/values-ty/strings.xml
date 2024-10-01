@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Tāne</string>
+    <string name="gender_female">Vahine</string>
+    <string name="gender_other">Taena</string>
+
     <!-- Topics -->
     <string name="topic_animals">Fa\'afa\'ara\'a</string>
     <string name="topic_cooking">Tahitian: Tunu</string>

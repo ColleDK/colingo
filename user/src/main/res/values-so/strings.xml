@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Wiil</string>
+    <string name="gender_female">Haweeney.</string>
+    <string name="gender_other">Kale</string>
+
     <!-- Topics -->
     <string name="topic_animals">Caraafinyo</string>
     <string name="topic_cooking">Daboolka</string>

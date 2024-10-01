@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">مرد</string>
+    <string name="gender_female">زوړ، ښځه</string>
+    <string name="gender_other">د نوى</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animals</string>
     <string name="topic_cooking">پخلیول</string>

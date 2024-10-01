@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Ok</string>
+    <string name="gender_female">Obinrin</string>
+    <string name="gender_other">Ọrọkan</string>
+
     <!-- Topics -->
     <string name="topic_animals">Awọn ayẹyẹori.</string>
     <string name="topic_cooking">Iwe yii: Ise ise</string>

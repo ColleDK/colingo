@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">مرد</string>
+    <string name="gender_female">زن</string>
+    <string name="gender_other">دیگر</string>
+    
     <!-- Topics -->
     <string name="topic_animals">حیوانات</string>
     <string name="topic_cooking">پختن</string>

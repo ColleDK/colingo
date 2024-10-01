@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Αρσενικό</string>
+    <string name="gender_female">Θηλυκό</string>
+    <string name="gender_other">Άλλο</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Ζώα</string>
     <string name="topic_cooking">Μαγειρική</string>

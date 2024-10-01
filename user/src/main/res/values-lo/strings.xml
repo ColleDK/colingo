@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">ຜູ້ຊາຍ</string>
+    <string name="gender_female">ຍິງ</string>
+    <string name="gender_other">ອື່ນ</string>
+    
     <!-- Topics -->
     <string name="topic_animals">ສັນຕິ</string>
     <string name="topic_cooking">ກິລາກອາຫານ</string>

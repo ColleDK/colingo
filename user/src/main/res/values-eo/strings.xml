@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Femalajo</string>
+    <string name="gender_other">Alia</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Bestoj</string>
     <string name="topic_cooking">Kuirado</string>

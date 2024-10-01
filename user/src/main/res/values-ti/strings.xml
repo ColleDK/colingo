@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">ወንድ</string>
+    <string name="gender_female">ሰብስክራይ ብዝሒ</string>
+    <string name="gender_other">ርእሲ</string>
+
     <!-- Topics -->
     <string name="topic_animals">እንስሳዎች</string>
     <string name="topic_cooking">የምግብ መግዝት</string>

@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Hun hombre.</string>
+    <string name="gender_female">Máax (ahi).</string>
+    <string name="gender_other">U k\'ajtal le.</string>
+
     <!-- Topics -->
     <string name="topic_animals">Animales</string>
     <string name="topic_cooking">K\'a\'abik.</string>

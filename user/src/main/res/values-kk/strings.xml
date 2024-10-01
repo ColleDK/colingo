@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Ер адам</string>
+    <string name="gender_female">Әйел</string>
+    <string name="gender_other">Басқа</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Жануарлар</string>
     <string name="topic_cooking">Тағамдар қалай аспаушыларының есімі.</string>

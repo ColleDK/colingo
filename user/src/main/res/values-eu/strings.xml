@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Gizena</string>
+    <string name="gender_female">Emakumea</string>
+    <string name="gender_other">Beste</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animaliak</string>
     <string name="topic_cooking">Sukaldaritza</string>

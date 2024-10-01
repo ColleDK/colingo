@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Kāne</string>
+    <string name="gender_female">Wahine</string>
+    <string name="gender_other">ʻĒ aʻe</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animals</string>
     <string name="topic_cooking">ʻUala\'aka\'hui</string>

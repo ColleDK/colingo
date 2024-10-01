@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Tagane</string>
+    <string name="gender_female">Femeli</string>
+    <string name="gender_other">Vosa me da tata: E dua talega</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animal</string>
     <string name="topic_cooking">Vakara kana</string>

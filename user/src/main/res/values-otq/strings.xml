@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Régoo\'in</string>
+    <string name="gender_female">Mboꞌi这。</string>
+    <string name="gender_other">Mmehe\'r\'i.</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Ndembi\'a\'a.</string>
     <string name="topic_cooking">Ts\'anreheki</string>

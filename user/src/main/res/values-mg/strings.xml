@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Lahy</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Hafa</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Manan-kery</string>
     <string name="topic_cooking">Cooking</string>

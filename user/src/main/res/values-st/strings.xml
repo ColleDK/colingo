@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Moswala</string>
+    <string name="gender_other">Tse ling.</string>
+
     <!-- Topics -->
     <string name="topic_animals">Ditshika</string>
     <string name="topic_cooking">Kgwebo</string>

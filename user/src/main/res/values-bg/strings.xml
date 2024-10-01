@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Мъж</string>
+    <string name="gender_female">Жена</string>
+    <string name="gender_other">Други</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Животни</string>
     <string name="topic_cooking">Готвене</string>

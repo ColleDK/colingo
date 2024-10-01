@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Man</string>
+    <string name="gender_female">Frouljue</string>
+    <string name="gender_other">Oare</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Dieren</string>
     <string name="topic_cooking">Koekje</string>

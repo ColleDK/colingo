@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Արական</string>
+    <string name="gender_female">Կանայք</string>
+    <string name="gender_other">Այլ</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Կենդանիներ</string>
     <string name="topic_cooking">Սունկական</string>

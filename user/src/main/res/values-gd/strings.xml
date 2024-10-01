@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Fireadh</string>
+    <string name="gender_female">Bàn-ghin.</string>
+    <string name="gender_other">Eile</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Beanntan</string>
     <string name="topic_cooking">Cuir taic gun fhios do chuibhleachar.</string>

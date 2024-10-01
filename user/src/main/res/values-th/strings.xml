@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">ชาย</string>
+    <string name="gender_female">หญิง</string>
+    <string name="gender_other">อื่น ๆ</string>
+
     <!-- Topics -->
     <string name="topic_animals">สัตว์</string>
     <string name="topic_cooking">การทำอาหาร</string>

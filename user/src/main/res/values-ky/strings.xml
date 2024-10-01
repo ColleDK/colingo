@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Эркек</string>
+    <string name="gender_female">Аял.</string>
+    <string name="gender_other">Башкарык</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Кайындар</string>
     <string name="topic_cooking">Тамак пишirgelиңи</string>

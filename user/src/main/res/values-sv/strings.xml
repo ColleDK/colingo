@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Man</string>
+    <string name="gender_female">Kvinna</string>
+    <string name="gender_other">Annat</string>
+
     <!-- Topics -->
     <string name="topic_animals">Djur</string>
     <string name="topic_cooking">Matlagning</string>

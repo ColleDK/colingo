@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mand</string>
+    <string name="gender_female">Kvinde</string>
+    <string name="gender_other">Andet</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Dyr</string>
     <string name="topic_cooking">Madlavning</string>

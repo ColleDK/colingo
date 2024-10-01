@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Эрэгтэй</string>
+    <string name="gender_female">Эмэгтэй</string>
+    <string name="gender_other">Бусад</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Хөвчлөгчид</string>
     <string name="topic_cooking">Жорын хуудас</string>

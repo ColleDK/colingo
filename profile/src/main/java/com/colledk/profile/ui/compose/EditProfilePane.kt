@@ -256,7 +256,7 @@ private fun GenderSelector(
                         }
                     }
                 ) {
-                    Text(text = gender.name)
+                    Text(text = stringResource(id = gender.nameId))
                 }
             }
         }

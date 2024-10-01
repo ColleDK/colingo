@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Lakanga</string>
+    <string name="gender_female">Fefine</string>
+    <string name="gender_other">Ngaahi Meʻaʻ ʻEto</string>
+
     <!-- Topics -->
     <string name="topic_animals">Manumanu</string>
     <string name="topic_cooking">Ngaahi me\'akai</string>

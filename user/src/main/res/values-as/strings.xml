@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">পুৰুষ</string>
+    <string name="gender_female">মহিলা</string>
+    <string name="gender_other">অন্য</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animals</string>
     <string name="topic_cooking">পাকনি</string>

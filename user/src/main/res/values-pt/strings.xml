@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Masculino</string>
+    <string name="gender_female">Feminino</string>
+    <string name="gender_other">Outro</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animais</string>
     <string name="topic_cooking">Cozinhar</string>

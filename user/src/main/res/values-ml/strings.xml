@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">പുരുഷൻ</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">മറ്റുള്ളവര്‍</string>
+    
     <!-- Topics -->
     <string name="topic_animals">ജന്തുക്കൾ</string>
     <string name="topic_cooking">പാചകം</string>
