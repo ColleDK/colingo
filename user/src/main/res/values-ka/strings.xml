@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">მამა</string>
+    <string name="gender_female">მდედრი</string>
+    <string name="gender_other">სხვა</string>
+    
     <!-- Topics -->
     <string name="topic_animals">ცხოვრებანი</string>
     <string name="topic_cooking">კულინარია</string>

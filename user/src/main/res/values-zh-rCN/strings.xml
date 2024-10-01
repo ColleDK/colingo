@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">男性</string>
+    <string name="gender_female">女性</string>
+    <string name="gender_other">其他</string>
+    
     <!-- Topics -->
     <string name="topic_animals">动物</string>
     <string name="topic_cooking">烹饪</string>

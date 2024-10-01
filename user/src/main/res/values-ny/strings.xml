@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mwamuna</string>
+    <string name="gender_female">Mkazi</string>
+    <string name="gender_other">Ena</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Mzimayi</string>
     <string name="topic_cooking">Kuyika chakudya</string>

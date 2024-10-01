@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Niam no</string>
+    <string name="gender_other">Txhua ke li no.</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Ntawv pab: Ntau ntaub ntawv</string>
     <string name="topic_cooking">Ntujcov</string>

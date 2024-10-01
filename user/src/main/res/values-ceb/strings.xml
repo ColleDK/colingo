@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Lalaki</string>
+    <string name="gender_female">Babaye</string>
+    <string name="gender_other">Lain</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Mga hayop</string>
     <string name="topic_cooking">Pagluto</string>

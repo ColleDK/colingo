@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Waahine</string>
+    <string name="gender_other">Other</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Kararehe</string>
     <string name="topic_cooking">Takakau</string>

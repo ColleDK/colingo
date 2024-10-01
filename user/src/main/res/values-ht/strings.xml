@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Gason</string>
+    <string name="gender_female">Fimèl</string>
+    <string name="gender_other">Lòt</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Bèt.</string>
     <string name="topic_cooking">Kuizin</string>

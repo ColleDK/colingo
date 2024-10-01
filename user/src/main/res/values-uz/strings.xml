@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Erkak</string>
+    <string name="gender_female">Ayol</string>
+    <string name="gender_other">Boshqa</string>
+
     <!-- Topics -->
     <string name="topic_animals">Hayvonlar</string>
     <string name="topic_cooking">Oziq-ovqat tayyorlash</string>

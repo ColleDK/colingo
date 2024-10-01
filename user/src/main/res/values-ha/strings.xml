@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Namiji</string>
+    <string name="gender_female">Mace</string>
+    <string name="gender_other">Wasu</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Zuwa Horo da Maluwar Ma\'aigida.</string>
     <string name="topic_cooking">Ƙara wuya</string>

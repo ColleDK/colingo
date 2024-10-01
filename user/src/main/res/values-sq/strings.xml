@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mashkull</string>
+    <string name="gender_female">Femër</string>
+    <string name="gender_other">Tjetër</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Kafshët</string>
     <string name="topic_cooking">Gatimi</string>

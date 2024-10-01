@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Erkek</string>
+    <string name="gender_female">Kadın</string>
+    <string name="gender_other">Diğer</string>
+
     <!-- Topics -->
     <string name="topic_animals">Hayvanlar</string>
     <string name="topic_cooking">Yemek Pişirme</string>

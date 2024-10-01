@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Namminiq</string>
+    <string name="gender_female">Alianait</string>
+    <string name="gender_other">Iliiniq</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animalluut</string>
     <string name="topic_cooking">Qallunaat.</string>

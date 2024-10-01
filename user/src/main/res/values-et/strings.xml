@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mees</string>
+    <string name="gender_female">Naine</string>
+    <string name="gender_other">Muu</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Loomad</string>
     <string name="topic_cooking">Toitvalmistamine</string>

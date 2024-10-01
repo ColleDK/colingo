@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mara</string>
+    <string name="gender_female">Femmina</string>
+    <string name="gender_other">Other</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Annimali</string>
     <string name="topic_cooking">Kikkra</string>

@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Lalaki</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Lainnya</string>
+
     <!-- Topics -->
     <string name="topic_animals">Hewan</string>
     <string name="topic_cooking">Masak</string>

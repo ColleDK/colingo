@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Vīrietis</string>
+    <string name="gender_female">Sieviete</string>
+    <string name="gender_other">Cits</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Dzīvnieki</string>
     <string name="topic_cooking">Gatavošana</string>

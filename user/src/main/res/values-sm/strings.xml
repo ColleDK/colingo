@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Faaaliga e fa\'atatau: Faafefea\'i.</string>
+    <string name="gender_female">Fafine</string>
+    <string name="gender_other">Itu i fa\'aalia mai: isi</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Animals</string>
     <string name="topic_cooking">A\'oga</string>

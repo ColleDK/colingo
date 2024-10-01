@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Indoda</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Kwakunye</string>
+
     <!-- Topics -->
     <string name="topic_animals">Iingulube</string>
     <string name="topic_cooking">Ukuhlanza</string>

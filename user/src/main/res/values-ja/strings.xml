@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">男性</string>
+    <string name="gender_female">女性</string>
+    <string name="gender_other">そのままです。</string>
+    
     <!-- Topics -->
     <string name="topic_animals">動物</string>
     <string name="topic_cooking">料理</string>

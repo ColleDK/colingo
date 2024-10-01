@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Karlkyns</string>
+    <string name="gender_female">Kona</string>
+    <string name="gender_other">Annað</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Dýr</string>
     <string name="topic_cooking">Matargerð</string>

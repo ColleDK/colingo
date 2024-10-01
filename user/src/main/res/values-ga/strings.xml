@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Fear</string>
+    <string name="gender_female">Baineann an téacs le bean.</string>
+    <string name="gender_other">Eile</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Ainmhithe</string>
     <string name="topic_cooking">Cócaireacht</string>

@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mukomana</string>
+    <string name="gender_female">Mukadzi</string>
+    <string name="gender_other">Pamuviri-muviri</string>
+    
     <!-- Topics -->
     <string name="topic_animals">Mhino</string>
     <string name="topic_cooking">Kupika</string>

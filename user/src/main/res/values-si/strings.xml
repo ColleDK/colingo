@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">පුරා</string>
+    <string name="gender_female">ගැහැනුයා</string>
+    <string name="gender_other">වෙනත</string>
+
     <!-- Topics -->
     <string name="topic_animals">සංස්කෘතිය</string>
     <string name="topic_cooking">පානලා</string>

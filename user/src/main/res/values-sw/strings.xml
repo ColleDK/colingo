@@ -1,4 +1,9 @@
 <resources>
+    <!-- Genders -->
+    <string name="gender_male">Mwanaume</string>
+    <string name="gender_female">Mwanamke</string>
+    <string name="gender_other">Nyingine</string>
+
     <!-- Topics -->
     <string name="topic_animals">Wanyama</string>
     <string name="topic_cooking">Kupika</string>
