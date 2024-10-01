@@ -1,5 +1,6 @@
 package com.colledk.onboarding.navigation
 
+import androidx.compose.runtime.LaunchedEffect
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
@@ -20,12 +21,19 @@ fun NavController.navigateToProfileSetup(navOptions: NavOptions? = null) {
 
 fun NavGraphBuilder.onboardingGraph(
     navHostController: NavHostController,
+    currentUserId: String?,
     onFinishOnboarding: () -> Unit
 ) {
     navigation<Onboarding>(
         startDestination = Login
     ) {
         composable<Login> {
+            LaunchedEffect(key1 = currentUserId) {
+                if (currentUserId != null) {
+                    onFinishOnboarding()
+                }
+            }
+
             OnboardingPane(
                 onGoToSetup = {
                     navHostController.navigateToProfileSetup(

@@ -20,7 +20,7 @@ android {
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionName = "1.0.0"
-        versionCode = 3
+        versionCode = 5
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
@@ -30,6 +30,13 @@ android {
             "OPENAI_API_KEY",
             "${project.findProperty("OPENAI_API_KEY")}"
         )
+    }
+
+    bundle {
+        language {
+            // Disable removal of languages with aab
+            enableSplit = false
+        }
     }
 
     kotlin {

@@ -47,12 +47,6 @@ internal fun ColingoApp(
         }
     }
 
-    LaunchedEffect(key1 = startDestination) {
-        if (startDestination == Home && currentDestination == null) {
-            appState.navigateToTopLevelDestination(TopLevelDestination.HOME)
-        }
-    }
-
     val message by appViewModel.messages.collectAsState(initial = null)
 
     val snackbarHostState = remember { SnackbarHostState() }

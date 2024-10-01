@@ -88,7 +88,7 @@ fun ColingoNavHost(
             )
         }
     ) {
-        onboardingGraph(navHostController = navController) {
+        onboardingGraph(navHostController = navController, currentUserId = appState.currentUserId) {
             navController.navigateToHomePane(
                 navOptions = navOptions {
                     popUpTo(navController.graph.id) {
