@@ -56,8 +56,13 @@ fun OnboardingPane(
     val goToSetup by viewModel.goToProfileSetup.collectAsState(null)
     val resetPassword by viewModel.resetPasswordSuccess.collectAsState(null)
     val isLoggingIn by viewModel.isLoggingIn.collectAsState(false)
+    val error by viewModel.error.collectAsState(initial = null)
 
     val snackbarHostState = remember { SnackbarHostState() }
+
+    LaunchedEffect(key1 = error) {
+        error?.localizedMessage?.let { snackbarHostState.showSnackbar(it) }
+    }
 
     LaunchedEffect(key1 = login) {
         if (login != null) {

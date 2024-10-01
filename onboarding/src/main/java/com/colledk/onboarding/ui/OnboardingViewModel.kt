@@ -3,7 +3,6 @@ package com.colledk.onboarding.ui
 import androidx.core.util.PatternsCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.colledk.common.MessageHandler
 import com.colledk.user.domain.model.User
 import com.colledk.user.domain.usecase.CreateUserUseCase
 import com.colledk.user.domain.usecase.LoginUseCase
@@ -21,8 +20,7 @@ import javax.inject.Inject
 class OnboardingViewModel @Inject constructor(
     private val auth: FirebaseAuth,
     private val createUserUseCase: CreateUserUseCase,
-    private val loginUseCase: LoginUseCase,
-    private val errorHandler: MessageHandler
+    private val loginUseCase: LoginUseCase
 ) : ViewModel() {
 
     private val _login: Channel<Long> = Channel(Channel.BUFFERED)
@@ -37,6 +35,9 @@ class OnboardingViewModel @Inject constructor(
     private val _isLoggingIn: Channel<Boolean> = Channel(Channel.BUFFERED)
     val isLoggingIn: Flow<Boolean> = _isLoggingIn.receiveAsFlow()
 
+    private val _error: Channel<Throwable> = Channel(Channel.BUFFERED)
+    val error: Flow<Throwable> = _error.receiveAsFlow()
+
     fun isEmailValid(email: String): Boolean {
         return PatternsCompat.EMAIL_ADDRESS.matcher(email).matches()
     }
@@ -48,7 +49,7 @@ class OnboardingViewModel @Inject constructor(
                 _login.trySend(DateTime.now().millis)
             }.onFailure {
                 _isLoggingIn.trySend(false)
-                errorHandler.displayError(it)
+                _error.trySend(it)
             }
         }
     }
@@ -59,7 +60,7 @@ class OnboardingViewModel @Inject constructor(
                 auth.sendPasswordResetEmail(email).await()
                 _resetPasswordSuccess.trySend(DateTime.now().millis)
             } catch (e: Exception) {
-                errorHandler.displayError(e)
+                _error.trySend(e)
             }
         }
     }
@@ -73,7 +74,7 @@ class OnboardingViewModel @Inject constructor(
             ).onSuccess {
                 _goToProfileSetup.trySend(DateTime.now().millis)
             }.onFailure {
-                errorHandler.displayError(it)
+                _error.trySend(it)
             }
         }
     }

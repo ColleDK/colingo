@@ -54,8 +54,8 @@ internal fun SelectPicturePane(
                         .data(it)
                         .build(),
                     contentDescription = null,
-                    modifier = Modifier.fillMaxWidth().clip(RoundedCornerShape(24.dp)),
-                    contentScale = ContentScale.Fit
+                    modifier = Modifier.fillMaxWidth().height(250.dp).clip(RoundedCornerShape(24.dp)),
+                    contentScale = ContentScale.FillBounds
                 )
                 IconButton(
                     onClick = onPictureRemoved,
