@@ -22,10 +22,10 @@
     <string name="message_time_yesterday">Yesterday</string>
 
     <!-- Chat bots -->
-    <string name="chatbot_louise_description">OK</string>
-    <string name="chatbot_gabriel_description">OK</string>
-    <string name="chatbot_rakesh_description">OK</string>
-    <string name="chatbot_evelyn_description">Evelyn is a British playwright who can assist you in improving your vocabulary!</string>
-    <string name="chatbot_ahsan_description">OK</string>
+    <string name="chatbot_louise_description">Louise is a Spanish teacher that can help you with improving your vocabulary!</string>
+    <string name="chatbot_gabriel_description">Gabriel is a French photographer that can help you with improving your vocabulary!</string>
+    <string name="chatbot_rakesh_description">Rakesh is an Indian university student that can help you with improving your vocabulary!</string>
+    <string name="chatbot_evelyn_description">Evelyn is a British play writer that can help you with improving your vocabulary!</string>
+    <string name="chatbot_ahsan_description">Ahsan is an Arabic software developer that can help you with improving your vocabulary!</string>
     <string name="chatbot_min_description">Min is a Chinese physicist that can help you with improving your vocabulary!</string>
 </resources>

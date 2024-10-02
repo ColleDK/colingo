@@ -25,6 +25,8 @@ import com.colledk.profile.R
 import com.colledk.profile.ui.uistates.ProfileUiState
 import com.colledk.user.domain.isUnknown
 import com.colledk.user.domain.toText
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import org.joda.time.DateTime
 import org.joda.time.Period
 import org.joda.time.PeriodType
@@ -74,13 +76,15 @@ fun ProfilePane(
                                 )
                             }
                         } else {
-                            IconButton(onClick = { onCreateChat(uiState.currentUser.id) }) {
-                                Icon(
-                                    painter = painterResource(id = R.drawable.add_to_chat),
-                                    contentDescription = null,
-                                    tint = MaterialTheme.colorScheme.onSurface,
-                                    modifier = Modifier.size(24.dp)
-                                )
+                            if (uiState.currentUser.id != Firebase.auth.currentUser?.uid) {
+                                IconButton(onClick = { onCreateChat(uiState.currentUser.id) }) {
+                                    Icon(
+                                        painter = painterResource(id = R.drawable.add_to_chat),
+                                        contentDescription = null,
+                                        tint = MaterialTheme.colorScheme.onSurface,
+                                        modifier = Modifier.size(24.dp)
+                                    )
+                                }
                             }
                         }
                     }
