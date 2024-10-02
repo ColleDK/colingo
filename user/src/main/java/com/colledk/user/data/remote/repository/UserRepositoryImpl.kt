@@ -45,7 +45,7 @@ class UserRepositoryImpl(
                         Gender.OTHER -> Configuration.GRAMMATICAL_GENDER_NEUTRAL
                     }
 
-                    localeHelper.updateLocaleGender(gender)
+//                    localeHelper.updateLocaleGender(gender)
                 }
             }
         }
@@ -73,7 +73,7 @@ class UserRepositoryImpl(
                         Gender.OTHER -> Configuration.GRAMMATICAL_GENDER_NEUTRAL
                     }
 
-                    localeHelper.updateLocaleGender(gender)
+//                    localeHelper.updateLocaleGender(gender)
                 }
             }
         }
